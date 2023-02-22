@@ -16,6 +16,33 @@
     "vscode-extension"
   ],
   "main": "index.js",
+  "engines": {
+    "vscode": "^1.69.0"
+  },
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "catppuccin-latte",
+        "label": "Catppuccin Latte",
+        "path": "./themes/latte/theme.json"
+      },
+      {
+        "id": "catppuccin-frappe",
+        "label": "Catppuccin Frappé",
+        "path": "./themes/frappe/theme.json"
+      },
+      {
+        "id": "catppuccin-macchiato",
+        "label": "Catppuccin Macchiato",
+        "path": "./themes/macchiato/theme.json"
+      },
+      {
+        "id": "catppuccin-mocha",
+        "label": "Catppuccin Mocha",
+        "path": "./themes/mocha/theme.json"
+      }
+    ]
+  },
   "scripts": {
     "build": "tsx scripts/build.ts",
     "lint": "eslint .",
@@ -33,8 +60,5 @@
     "svgo": "^3.0.2",
     "tsx": "^3.12.3",
     "typescript": "^4.9.5"
-  },
-  "engines": {
-    "vscode": "^1.69.0"
   }
 }

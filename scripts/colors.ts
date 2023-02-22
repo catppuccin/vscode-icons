@@ -41,7 +41,9 @@ const catppuccinPalettes = catppuccinFlavors.reduce(
  */
 export const catppuccinize = (flavor: CatppuccinFlavor) =>
   (color: string) =>
-    [...catppuccinPalettes[flavor]].sort((c1, c2) =>
-      colorsea(color).deltaE(colorsea(c1), 'cie2000')
-    - colorsea(color).deltaE(colorsea(c2), 'cie2000'),
-    ).at(0)
+    color === '#ffffff'
+      ? variants[flavor].text.hex
+      : [...catppuccinPalettes[flavor]].sort((c1, c2) =>
+          colorsea(color).deltaE(colorsea(c1), 'cie2000')
+          - colorsea(color).deltaE(colorsea(c2), 'cie2000'),
+        ).at(0)
