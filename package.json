@@ -22,6 +22,11 @@
   "contributes": {
     "iconThemes": [
       {
+        "id": "catppuccin-mocha",
+        "label": "Catppuccin Mocha",
+        "path": "./themes/mocha/theme.json"
+      },
+      {
         "id": "catppuccin-latte",
         "label": "Catppuccin Latte",
         "path": "./themes/latte/theme.json"
@@ -35,11 +40,6 @@
         "id": "catppuccin-macchiato",
         "label": "Catppuccin Macchiato",
         "path": "./themes/macchiato/theme.json"
-      },
-      {
-        "id": "catppuccin-mocha",
-        "label": "Catppuccin Mocha",
-        "path": "./themes/mocha/theme.json"
       }
     ]
   },
