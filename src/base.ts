@@ -1,4 +1,4 @@
-export const base = {
+export const base: Base = {
   hidesExplorerArrows: false,
   file: 'file',
   folder: 'folder',
