@@ -28,10 +28,10 @@
      showgrid="true"
      inkscape:zoom="4.2179991"
      inkscape:cx="0"
-     inkscape:cy="71.835007"
+     inkscape:cy="72.072087"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="1912"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="SVGRoot"
@@ -42,7 +42,7 @@
   </sodipodi:namedview>
   <path
      style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="m 23.894047,15.678322 h 53.960322 c 0,0 9.151864,0.30295 9.151864,11.663571 v 45.442478 c 0,0 -0.475422,9.542924 -7.487893,9.542924 H 10.225683 c 0,0 -7.7255961,-0.757372 -7.7255961,-9.845868 V 13.557674 c 0,0 0,-11.0576694 8.6764391,-11.0576694 H 37.20584 c 0,0 7.250178,0 7.250178,9.2399684 v 3.6354"
-     id="path5390-6"
+     d="m 24.023123,28.126179 h 54.285891 c 0,0 9.207076,0.247865 9.207076,9.542778 v 37.179648 c 0,0 -0.47829,7.807724 -7.533061,7.807724 H 10.272291 c 0,0 -7.7722083,-0.61966 -7.7722083,-8.055588 V 26.39113 c 0,0 0,-9.047049 8.7287883,-9.047049 h 26.186366 c 0,0 7.293919,0 7.293919,7.559862 v 2.974372"
+     id="path5390"
      sodipodi:nodetypes="ccscscscscsc" />
 </svg>
