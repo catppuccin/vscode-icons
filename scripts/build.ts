@@ -7,6 +7,8 @@ import { base } from '../src/base'
 import { languages } from '../src/languages'
 import { extensions } from '../src/extensions'
 import { folders, foldersExpanded } from '../src/folders'
+import { files } from '../src/files'
+
 import { optimizeSvg, replaceColors } from './svg'
 import { catppuccinFlavors, catppuccinize } from './colors'
 import { flattenIconMap } from './maps'
@@ -42,12 +44,14 @@ const iconDefinitions = icons.reduce((d, i) => ({
 const theme: Theme = {
   ...base,
   iconDefinitions,
+  fileNames: flattenIconMap(files),
   languageIds: flattenIconMap(languages),
   fileExtensions: flattenIconMap(extensions),
   folderNames: flattenIconMap(folders),
   folderNamesExpanded: flattenIconMap(foldersExpanded),
 }
 
+// ? write themes
 await Promise.all(catppuccinFlavors.map(async (f) => {
   await writeFile(join(THEMES, f, 'theme.json'), JSON.stringify(theme, null, 2))
 }))
