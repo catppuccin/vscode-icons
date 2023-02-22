@@ -1,0 +1,6 @@
+dist/
+node_modules/
+themes/
+.eslintcache
+.pnpm-debug.log*
+*.vsix

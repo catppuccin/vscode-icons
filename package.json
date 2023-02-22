@@ -1,0 +1,40 @@
+{
+  "name": "catppuccin-vscode-icons",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "🦌 Soothing pastel icon theme for VSCode",
+  "author": "prazdevs",
+  "license": "MIT",
+  "keywords": [
+    "catppuccin",
+    "theme",
+    "fancy",
+    "pastel-colors",
+    "vscode",
+    "vscode-theme",
+    "vscode-icons",
+    "vscode-extension"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "tsx scripts/build.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.35.2",
+    "@catppuccin/palette": "^0.1.6",
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^18.14.0",
+    "colorsea": "^1.1.0",
+    "eslint": "^8.34.0",
+    "fs-extra": "^11.1.0",
+    "pathe": "^1.1.0",
+    "svgo": "^3.0.2",
+    "tsx": "^3.12.3",
+    "typescript": "^4.9.5"
+  },
+  "engines": {
+    "vscode": "^1.69.0"
+  }
+}
