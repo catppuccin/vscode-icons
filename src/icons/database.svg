@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100.0px"
+   height="100.0px"
+   viewBox="0 0 100.0 100.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="database.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs22695" />
+  <sodipodi:namedview
+     id="namedview32486"
+     pagecolor="#181825"
+     bordercolor="#000000"
+     borderopacity="0.24705882"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#313244"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="5.9651516"
+     inkscape:cx="49.956819"
+     inkscape:cy="46.017271"
+     inkscape:window-width="1419"
+     inkscape:window-height="1040"
+     inkscape:window-x="2167"
+     inkscape:window-y="147"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="SVGRoot"
+     showborder="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid32609" />
+  </sodipodi:namedview>
+  <ellipse
+     cx="49.995506"
+     cy="19.668137"
+     rx="41.628036"
+     ry="16.858406"
+     id="ellipse29670"
+     style="fill:none;stroke:#ffca28;stroke-width:5;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     d="m 91.62242,49.617536 a 41.628038,16.858406 0 0 1 -20.813457,14.598859 41.628038,16.858406 0 0 1 -41.626915,0 A 41.628038,16.858406 0 0 1 8.367467,49.61866 M 91.62242,80.319745 a 41.628038,16.858406 0 0 1 -20.813457,14.599985 41.628038,16.858406 0 0 1 -41.626915,0 A 41.628038,16.858406 0 0 1 8.367467,80.319745 M 8.377577,20.079371 V 80.319745 M 91.632533,20.045663 v 60.240375"
+     id="path29672"
+     style="fill:none;stroke:#ffca28;stroke-width:5;stroke-dasharray:none;stroke-opacity:1" />
+</svg>

@@ -1,6 +1,7 @@
 export const files: IconMap = {
   angular: ['angular-cli.json', '.angular-cli.json', 'angular.json'],
   bash: ['commit-msg', 'pre-commit', 'pre-push', 'post-merge'],
+  dart: ['.pubignore'],
   editorconfig: ['.editorconfig'],
   rollup: [
     'rollup.config.js',

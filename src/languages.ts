@@ -10,6 +10,8 @@ export const languages: IconMap = {
   csharp: ['csharp'],
   css: ['css', 'less', 'postcss'],
   cucumber: ['cucumber'],
+  cuda: ['cuda-cpp'],
+  dart: ['dart'],
   editorconfig: ['editorconfig'],
   java: ['java'],
   powershell: ['powershell'],
