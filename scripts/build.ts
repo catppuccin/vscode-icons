@@ -27,10 +27,12 @@ await Promise.all(catppuccinFlavors.map(async (f) => {
 // ? create catppuccinized icons
 icons.map(async (i) => {
   const svg = await readFile(join(ICONS, i), 'utf8')
-  const optimized = optimizeSvg(svg)
   await Promise.all(catppuccinFlavors.map(async (f) => {
-    const catppuccinized = replaceColors(optimized, catppuccinize(f))
-    await writeFile(join(THEMES, f, 'icons', i), catppuccinized)
+    const catppuccinized = replaceColors(svg, catppuccinize(f))
+    await writeFile(
+      join(THEMES, f, 'icons', i),
+      optimizeSvg(catppuccinized),
+    )
   }))
 })
 
@@ -53,5 +55,8 @@ const theme: Theme = {
 
 // ? write themes
 await Promise.all(catppuccinFlavors.map(async (f) => {
-  await writeFile(join(THEMES, f, 'theme.json'), JSON.stringify(theme, null, 2))
+  await writeFile(
+    join(THEMES, f, 'theme.json'),
+    JSON.stringify(theme, null, 2),
+  )
 }))
