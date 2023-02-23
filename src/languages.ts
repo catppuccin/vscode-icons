@@ -2,6 +2,7 @@ export const languages: IconMap = {
   c: ['c', 'objective-c', 'objective-cpp'],
   cpp: ['cpp'],
   csharp: ['csharp'],
+  editorconfig: ['editorconfig'],
   java: ['java'],
   svelte: ['svelte'],
   vue: [
