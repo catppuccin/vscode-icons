@@ -1,7 +1,9 @@
 export const extensions: IconMap = {
+  angular: ['ng-template'],
   bash: ['bash', 'sh', 'awk'],
   bat: ['bat'],
   c: ['c', 'i', 'mi'],
+  clojure: ['clj', 'cljs', 'cljc'],
   cpp: ['cc', 'cpp', 'cxx', 'c++', 'cp', 'mm', 'mii', 'ii'],
   csharp: ['cs', 'csx'],
   h: ['h'],

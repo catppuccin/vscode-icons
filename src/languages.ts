@@ -1,7 +1,10 @@
 export const languages: IconMap = {
+  angular: ['ng-template'],
   bash: ['awk', 'shellscript'],
   bat: ['bat'],
+  binary: ['code-text-binary'],
   c: ['c', 'objective-c', 'objective-cpp'],
+  clojure: ['clojure'],
   cpp: ['cpp'],
   csharp: ['csharp'],
   editorconfig: ['editorconfig'],
