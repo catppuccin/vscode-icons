@@ -13,4 +13,18 @@ export const files: IconMap = {
     'vite.config.cts',
     'vite.config.mts',
   ],
+  vitest: [
+    'vitest.config.js',
+    'vitest.config.mjs',
+    'vitest.config.cjs',
+    'vitest.config.ts',
+    'vitest.config.cts',
+    'vitest.config.mts',
+    'vitest.config.js',
+    'vitest.config.mjs',
+    'vitest.config.cjs',
+    'vitest.config.ts',
+    'vitest.config.cts',
+    'vitest.config.mts',
+  ],
 }
