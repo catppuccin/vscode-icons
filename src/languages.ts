@@ -4,6 +4,7 @@ export const languages: IconMap = {
   csharp: ['csharp'],
   editorconfig: ['editorconfig'],
   java: ['java'],
+  python: ['python'],
   svelte: ['svelte'],
   vue: [
     'vue',
