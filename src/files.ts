@@ -4,6 +4,15 @@ export const files: IconMap = {
   dart: ['.pubignore'],
   docker: ['dockerfile', 'docker-compose.yml', 'docker-compose.yaml'],
   editorconfig: ['.editorconfig'],
+  git: [
+    '.gitignore',
+    '.gitconfig',
+    '.gitattributes',
+    '.gitmodules',
+    '.gitkeep',
+    '.git-include',
+  ],
+  go_mod: ['go.mod', 'go.sum', 'go.work', 'go.work.sum'],
   rollup: [
     'rollup.config.js',
     'rollup.config.mjs',
