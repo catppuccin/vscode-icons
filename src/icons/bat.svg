@@ -7,7 +7,7 @@
    viewBox="0 0 100.0 100.0"
    version="1.1"
    id="SVGRoot"
-   sodipodi:docname="vue.svg"
+   sodipodi:docname="bat.svg"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,8 +25,8 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="4.2179991"
-     inkscape:cx="52.157431"
-     inkscape:cy="33.428172"
+     inkscape:cx="73.731641"
+     inkscape:cy="37.458519"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="1912"
@@ -39,13 +39,24 @@
        id="grid32609" />
   </sodipodi:namedview>
   <path
-     style="fill:none;stroke:#41b883;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="M 2.7769987,4.9552538 H 39.506001 L 50.000002,26.153063 60.494002,4.9552538 H 97.223001 L 50.04265,95.045067 Z"
-     id="path2368"
-     sodipodi:nodetypes="ccccccc" />
+     fill="none"
+     stroke="#00d200"
+     stroke-width="5"
+     d="m 16.602,91.486 c -3.976,0 -8.443,-4.449 -8.443,-8.424 V 32.516 c 0,-3.972 4.453,-8.425 8.424,-8.425 H 67.13 c 3.97,0 8.424,4.453 8.424,8.425 v 50.546 c 0,3.971 -4.453,8.424 -8.424,8.424 z"
+     id="path2"
+     style="stroke-width:4.43410018;stroke-dasharray:none;stroke:#d200d2;stroke-opacity:1"
+     transform="matrix(1.1276245,0,0,1.1276245,-6.381225,-6.381225)" />
   <path
-     style="fill:none;stroke:#41b883;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="M 77.322741,6.5626335 50.000002,58.842838 22.677263,6.5626335"
-     id="path2466"
+     fill="none"
+     stroke="#00d200"
+     stroke-width="5"
+     d="M 10.976,26.903 24.565,13.181 c 2.18,-2.2 5.54,-4.667 8.638,-4.667 h 50.214 c 3.936,0 8.424,4.34 8.424,8.276 v 45.833 c 0,3.724 -1.71,7.64 -4.258,10.356 l -14.71,15.683"
+     id="path4"
+     style="stroke-width:4.43410018;stroke-dasharray:none;stroke:#d200d2;stroke-opacity:1"
+     transform="matrix(1.1276245,0,0,1.1276245,-6.381225,-6.381225)" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#d200d2;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     d="M 16,57 34.681043,68 16,79"
+     id="path3557"
      sodipodi:nodetypes="ccc" />
 </svg>

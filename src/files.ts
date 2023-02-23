@@ -1,4 +1,5 @@
 export const files: IconMap = {
+  bash: ['commit-msg', 'pre-commit', 'pre-push', 'post-merge'],
   editorconfig: ['.editorconfig'],
   rollup: [
     'rollup.config.js',

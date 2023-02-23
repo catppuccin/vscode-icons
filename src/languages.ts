@@ -1,9 +1,12 @@
 export const languages: IconMap = {
+  bash: ['awk', 'shellscript'],
+  bat: ['bat'],
   c: ['c', 'objective-c', 'objective-cpp'],
   cpp: ['cpp'],
   csharp: ['csharp'],
   editorconfig: ['editorconfig'],
   java: ['java'],
+  powershell: ['powershell'],
   python: ['python'],
   svelte: ['svelte'],
   vue: [

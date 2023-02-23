@@ -13,45 +13,6 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs3561">
-    <linearGradient
-       id="linearGradient32659"
-       x1="6"
-       x2="235"
-       y1="33"
-       y2="344"
-       gradientTransform="matrix(0.07142,0,0,0.07142,1.34,1.894)"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         stop-color="#41D1FF"
-         id="stop32655" />
-      <stop
-         offset="1"
-         stop-color="#BD34FE"
-         id="stop32657" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient32667"
-       x1="194.651"
-       x2="236.076"
-       y1="8.8179998"
-       y2="292.98901"
-       gradientTransform="matrix(0.07142,0,0,0.07142,1.34,1.894)"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         stop-color="#FFEA83"
-         id="stop32661" />
-      <stop
-         offset=".083"
-         stop-color="#FFDD35"
-         id="stop32663" />
-      <stop
-         offset="1"
-         stop-color="#FFA800"
-         id="stop32665" />
-    </linearGradient>
-  </defs>
   <sodipodi:namedview
      id="namedview32486"
      pagecolor="#181825"
