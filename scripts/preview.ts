@@ -15,7 +15,7 @@ const generateHtml = (files: string[], folders: string[], flavor: keyof Variants
   const fileTags = files.map(icon => `
     <div style="display: flex; align-items: center;">
       <img style="width: 25px; margin: 2px;" src="../themes/${flavor}/icons/${icon}" />
-      <span style="color: ${variants[flavor].text.hex}; margin-left: 5px; text-transform: capitalize;">
+      <span style="color: ${variants[flavor].text.hex}; margin-left: 10px; text-transform: capitalize;">
         ${splitByCase(filename(icon), ['_']).join(' ')}
       </span>
     </div>
@@ -23,7 +23,7 @@ const generateHtml = (files: string[], folders: string[], flavor: keyof Variants
   const folderTags = folders.map(icon => `
     <div style="display: flex; align-items: center;">
       <img style="width: 25px; padding: 2px;" src="../themes/${flavor}/icons/${icon}" />
-      <span style="color: ${variants[flavor].text.hex}; margin-left: 5px; text-transform: capitalize;">
+      <span style="color: ${variants[flavor].text.hex}; margin-left: 10px; text-transform: capitalize;">
         ${splitByCase(filename(icon), ['_']).join(' ')}
       </span>
     </div>
@@ -31,8 +31,8 @@ const generateHtml = (files: string[], folders: string[], flavor: keyof Variants
 
   return `
     <html>
-      <body style="background-color: ${variants[flavor].mantle.hex}; font-family: sans-serif;">
-        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 5px; width: 600px;">
+      <body style="background-color: ${variants[flavor].mantle.hex}; font-family: sans-serif; font-size: 14px;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px; width: 800px;">
           ${fileTags}
         </div>
         <div style="margin-top: 20px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 5px; width: 600px;">
