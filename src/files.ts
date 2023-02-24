@@ -30,6 +30,8 @@ export const files: IconMap = {
     'graphql.config.yaml',
     'graphql.config.yml',
   ],
+  lua: ['.luacheckrc'],
+  makefile: ['makefile', 'gnumakefile', 'kbuild'],
   rollup: [
     'rollup.config.js',
     'rollup.config.mjs',
