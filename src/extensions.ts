@@ -62,6 +62,8 @@ export const extensions: IconMap = {
   markdown: ['md', 'markdown', 'rst'],
   markdown_mdx: ['mdx'],
   pdf: ['pdf'],
+  perl: ['pm', 'raku'],
+  php: ['php'],
   powershell: ['ps1', 'psm1', 'psd1', 'ps1xml', 'psc1', 'pssc'],
   python: ['py'],
   python_compiled: ['pyc', 'pyo', 'pyd'],
