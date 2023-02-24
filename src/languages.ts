@@ -27,6 +27,7 @@ export const languages: IconMap = {
   groovy: ['groovy'],
   handlebars: ['handlebars'],
   haskell: ['haskell'],
+  html: ['html'],
   java: ['java'],
   powershell: ['powershell'],
   python: ['python'],

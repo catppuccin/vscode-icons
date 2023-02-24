@@ -39,6 +39,7 @@ export const extensions: IconMap = {
   handlebars: ['hbs', 'mustache'],
   haskell: ['hs'],
   hpp: ['hh', 'hpp', 'hxx', 'h++', 'hp', 'tcc', 'inl'],
+  html: ['htm', 'xhtml', 'html_vm', 'asp'],
   powershell: ['ps1', 'psm1', 'psd1', 'ps1xml', 'psc1', 'pssc'],
   python: ['py'],
   python_compiled: ['pyc', 'pyo', 'pyd'],
