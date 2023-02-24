@@ -48,7 +48,8 @@
     ]
   },
   "scripts": {
-    "build": "tsx scripts/build.ts",
+    "build": "pnpm build:themes && pnpm build:preview",
+    "build:themes": "tsx scripts/build.ts",
     "build:preview": "tsx scripts/preview.ts",
     "dev": "chokidar \"src/**/*\" -c \"pnpm run build\"",
     "lint": "eslint .",

@@ -37,6 +37,8 @@ export const languages: IconMap = {
   log: ['log'],
   lua: ['lua'],
   makefile: ['makefile'],
+  markdown: ['markdown'],
+  pdf: ['pdf'],
   powershell: ['powershell'],
   python: ['python'],
   svelte: ['svelte'],
