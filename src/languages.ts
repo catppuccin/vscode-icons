@@ -29,9 +29,11 @@ export const languages: IconMap = {
   haskell: ['haskell'],
   html: ['html'],
   java: ['java'],
+  javascript: ['javascript'],
   powershell: ['powershell'],
   python: ['python'],
   svelte: ['svelte'],
+  typescript: ['typescript'],
   vue: [
     'vue',
     'vue-postcss',
