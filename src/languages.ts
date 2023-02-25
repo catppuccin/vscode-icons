@@ -31,8 +31,8 @@ export const languages: IconMap = {
   html: ['html'],
   java: ['java'],
   javascript: ['javascript'],
+  javascript_react: ['javascriptreact'],
   json: ['json', 'jsonc', 'json5'],
-  jsx: ['javascriptreact'],
   julia: ['julia', 'juliamarkdown'],
   jupyter: ['jupyter'],
   latex: [
@@ -66,7 +66,7 @@ export const languages: IconMap = {
   toml: ['toml'],
   txt: ['plaintext'],
   typescript: ['typescript'],
-  tsx: ['typescriptreact'],
+  typescript_react: ['typescriptreact'],
   unity: ['shaderlab'],
   v: ['v'],
   visual_studio: ['vb', 'testOutput'],
