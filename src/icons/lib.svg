@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100.0px"
+   height="100.0px"
+   viewBox="0 0 100.0 100.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="lib.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs44872" />
+  <sodipodi:namedview
+     id="namedview32486"
+     pagecolor="#181825"
+     bordercolor="#000000"
+     borderopacity="0.24705882"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#313244"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="-24.749999"
+     inkscape:cy="64.749997"
+     inkscape:window-width="1419"
+     inkscape:window-height="1040"
+     inkscape:window-x="2016"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="SVGRoot"
+     showborder="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid32609" />
+  </sodipodi:namedview>
+  <rect
+     style="fill:none;stroke:#808080;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     id="rect2003"
+     width="29.882435"
+     height="92.990807"
+     x="2.8419247"
+     y="3.1820586"
+     rx="2.1527507"
+     ry="2.4015913" />
+  <rect
+     style="fill:none;stroke:#808080;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     id="rect2005"
+     width="21.941647"
+     height="78.363029"
+     x="32.741749"
+     y="17.816935"
+     rx="2.1527507"
+     ry="2.4015913" />
+  <rect
+     style="fill:none;stroke:#808080;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     id="rect2007"
+     width="20.975054"
+     height="67.746315"
+     x="40.55328"
+     y="50.343159"
+     rx="2.1527507"
+     ry="2.4015913"
+     transform="rotate(-19.756186)" />
+</svg>

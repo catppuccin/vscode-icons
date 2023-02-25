@@ -88,6 +88,7 @@ export const files: IconMap = {
     'tsconfig.mjs.json',
     'tsconfig.doc.json',
   ],
+  v: ['vpkg.json', 'v.mod'],
   vite: [
     'vite.config.js',
     'vite.config.mjs',
@@ -123,4 +124,12 @@ export const files: IconMap = {
     'vetur.config.ts',
     'volar.config.js',
   ],
+  windi: [
+    'windi.config.js',
+    'windi.config.cjs',
+    'windi.config.ts',
+    'windi.config.cts',
+    'windi.config.json',
+  ],
+  yaml: ['.yamllint', '.yamllint.yml', '.yamllint.yaml'],
 }

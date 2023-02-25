@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100.0px"
+   height="100.0px"
+   viewBox="0 0 100.0 100.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="image.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs44872" />
+  <sodipodi:namedview
+     id="namedview32486"
+     pagecolor="#181825"
+     bordercolor="#000000"
+     borderopacity="0.24705882"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#313244"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="4.2"
+     inkscape:cx="50.952381"
+     inkscape:cy="43.333333"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="SVGRoot"
+     showborder="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid32609" />
+  </sodipodi:namedview>
+  <circle
+     cx="68.167839"
+     cy="31.832153"
+     r="7.2671385"
+     fill="none"
+     stroke="currentColor"
+     stroke-miterlimit="10"
+     stroke-width="6.34645"
+     id="circle4"
+     style="stroke:#ffd23b;stroke-width:5;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     fill="none"
+     stroke="currentColor"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="6.34645"
+     d="M 60.900712,68.120151 40.312,47.570046 A 7.2671386,7.2671386 0 0 0 30.349211,47.274818 L 2.7636023,71.801411 M 42.732867,89.969257 70.743144,61.95898 a 7.2671386,7.2671386 0 0 1 9.790197,-0.454195 L 97.236405,75.43498"
+     id="path6"
+     style="stroke:#25a34b;stroke-width:5;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     width="94.472794"
+     height="79.938522"
+     x="2.7635946"
+     y="10.030739"
+     fill="none"
+     stroke="currentColor"
+     stroke-linejoin="round"
+     stroke-width="6.34645"
+     rx="10.900708"
+     ry="10.900708"
+     id="rect2"
+     style="display:inline;stroke:#29afc9;stroke-width:5;stroke-dasharray:none;stroke-opacity:1" />
+</svg>
