@@ -7,7 +7,7 @@
    viewBox="0 0 100.0 100.0"
    version="1.1"
    id="SVGRoot"
-   sodipodi:docname="handlebars.svg"
+   sodipodi:docname="slide.svg"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -26,9 +26,9 @@
      inkscape:deskcolor="#313244"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="4"
-     inkscape:cx="55"
-     inkscape:cy="92.500001"
+     inkscape:zoom="2.9825758"
+     inkscape:cx="1.005842"
+     inkscape:cy="89.184658"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="1912"
@@ -41,8 +41,12 @@
        id="grid32609" />
   </sodipodi:namedview>
   <path
-     id="path19082"
-     style="fill:none;stroke:#c19770;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-     class="cls-1"
-     d="M 50.025641,37.740812 A 10.611989,10.611989 0 0 0 34.367391,36.256618 C 28.207987,41.74814 23.087516,52.879595 13.366036,52.879595 A 6.6046649,6.6046649 0 0 1 9.6555504,41.74814 c -7.4209705,0 -9.57305109,12.68986 -3.7104853,18.552426 A 29.015999,29.015999 0 0 0 35.628957,64.011051 35.323825,35.323825 0 0 0 50.025641,52.95381 Z m -0.0088,0 a 10.611989,10.611989 0 0 1 15.65825,-1.484194 c 6.0852,5.491522 11.279875,16.622977 20.927141,16.622977 A 6.6046649,6.6046649 0 0 0 90.312689,41.74814 c 7.42097,0 9.647262,12.68986 3.710485,18.552426 A 29.015999,29.015999 0 0 1 64.339292,64.011051 33.913841,33.913841 0 0 1 50.016813,52.95381 Z" />
+     id="path21195"
+     style="fill:none;stroke:#c82233;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     d="M 50.000002,2.76243 V 30 c 0,6.771557 3.22844,9.226519 9.999998,9.226519 h 26.46409 m -10e-7,43.646409 c 0,6.771557 -7.593082,14.364642 -14.364641,14.364642 H 27.900551 c -6.771557,0 -14.364641,-7.593085 -14.364641,-14.364642 V 16.480283 c 0,-6.5281669 7.836475,-13.717853 14.364641,-13.717853 h 22.09945 l 36.464088,36.464089 z" />
+  <path
+     style="fill:none;stroke:#c82233;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
+     d="m 34.153029,47.510668 v 35 l 34.376489,-17.5 z"
+     id="path8914"
+     sodipodi:nodetypes="cccc" />
 </svg>
