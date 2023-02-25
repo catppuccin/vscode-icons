@@ -26,9 +26,9 @@
      inkscape:deskcolor="#313244"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="4.0000001"
-     inkscape:cx="34.499999"
-     inkscape:cy="55.999999"
+     inkscape:zoom="1"
+     inkscape:cx="51.499999"
+     inkscape:cy="22.999999"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="1912"
@@ -50,4 +50,10 @@
      style="fill:none;stroke:#6280b6;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
      d="M 71.436162,87.060503 V 69.848288"
      id="path45897" />
+  <circle
+     style="fill:#6280b6;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     id="path49031"
+     cx="34.999554"
+     cy="35.165737"
+     r="5" />
 </svg>

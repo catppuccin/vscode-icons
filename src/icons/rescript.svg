@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100.0px"
+   height="100.0px"
+   viewBox="0 0 100.0 100.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="rescript.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs44872" />
+  <sodipodi:namedview
+     id="namedview32486"
+     pagecolor="#181825"
+     bordercolor="#000000"
+     borderopacity="0.24705882"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#313244"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="5.6568544"
+     inkscape:cx="43.487066"
+     inkscape:cy="47.0226"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="SVGRoot"
+     showborder="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid32609" />
+  </sodipodi:namedview>
+  <path
+     style="fill:none;stroke:#e6484f;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     d="m 16.666667,3.0619723 66.666666,-0.04889 c 6.547284,-0.0048 13.888889,7.3416027 13.888889,13.8888887 v 66.666667 c 0,6.437317 -7.451571,13.418282 -13.888889,13.418282 H 16.666667 c -6.437318,0 -13.888889,-6.980965 -13.888889,-13.418282 V 16.901971 c 0,-6.535772 7.353119,-13.8352067 13.888889,-13.8399997 z"
+     id="path12607"
+     sodipodi:nodetypes="sssssssss" />
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#e6484f;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     id="rect9817"
+     width="19.544512"
+     height="50.100067"
+     x="24.774485"
+     y="25.185272"
+     rx="5.584146"
+     ry="5.3297944" />
+  <circle
+     style="fill:none;fill-opacity:1;stroke:#e6484f;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     id="path9923"
+     cx="65.108681"
+     cy="35.150459"
+     r="9.9104519" />
+</svg>

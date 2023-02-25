@@ -8,11 +8,13 @@
    version="1.1"
    id="SVGRoot"
    sodipodi:docname="python.svg"
-   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs45925" />
   <sodipodi:namedview
      id="namedview32486"
      pagecolor="#181825"
@@ -25,13 +27,13 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="4.9303806"
-     inkscape:cx="45.939658"
+     inkscape:cx="46.142482"
      inkscape:cy="50.300376"
-     inkscape:window-width="1432"
-     inkscape:window-height="760"
-     inkscape:window-x="0"
-     inkscape:window-y="38"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      inkscape:current-layer="SVGRoot"
      showborder="false">
     <inkscape:grid
