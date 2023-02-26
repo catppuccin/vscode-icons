@@ -1,4 +1,14 @@
 export const folders: IconMap = {
+  folder_dist: [
+    '.output',
+    'dist',
+    'out',
+    'output',
+    'build',
+    'release',
+    'bin',
+    'target',
+  ],
   folder_src: ['src', 'srcs', 'source', 'sources', 'code'],
 }
 
