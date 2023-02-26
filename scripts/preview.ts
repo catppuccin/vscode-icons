@@ -22,7 +22,7 @@ const generateHtml = (files: string[], folders: string[], flavor: keyof Variants
   `).reduce((a, c) => a + c, '')
 
   const grid = (content: string) => `
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; gap: 10px;">
+    <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px;">
       ${content}
     </div>
   `
@@ -49,7 +49,7 @@ const generateIconOnlyHtml = (files: string[], flavor: keyof Variants<any>) => {
     <html>
       <body style="font-family: sans-serif; font-size: 14px;">
         <div style="background-color: ${variants[flavor].mantle.hex}; padding: 25px; border-radius: 25px;">
-          <div style="justify-items: center; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; gap: 10px;">
+          <div style="justify-items: center; display: grid; grid-template-columns: repeat(12, 1fr); gap: 10px;">
            ${tags}
           </div>
         </div>

@@ -51,6 +51,7 @@
     "build": "pnpm build:themes && pnpm build:preview",
     "build:themes": "tsx scripts/build.ts",
     "build:preview": "tsx scripts/preview.ts",
+    "catwalk": "tsx scripts/catwalk.ts",
     "dev": "chokidar \"src/**/*\" -c \"pnpm run build\"",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
