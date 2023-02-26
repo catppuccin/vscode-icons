@@ -9,12 +9,12 @@ import { launch } from 'puppeteer'
 import { catppuccinFlavors } from './colors'
 
 const THEMES = resolve('themes')
-const PREVIEWS = resolve('previews')
+const PREVIEWS = resolve(join('assets', 'previews'))
 
 const generateHtml = (files: string[], folders: string[], flavor: keyof Variants<any>) => {
   const tags = (iconfiles: string[]) => iconfiles.map(icon => `
     <div style="display: flex; align-items: center;">
-      <img style="width: 25px; margin: 2px;" src="../themes/${flavor}/icons/${icon}" />
+      <img style="width: 25px; margin: 2px;" src="../../themes/${flavor}/icons/${icon}" />
       <span style="color: ${variants[flavor].text.hex}; margin-left: 10px; text-transform: capitalize;">
         ${splitByCase(filename(icon), ['_']).join(' ')}
       </span>
