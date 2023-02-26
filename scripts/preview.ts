@@ -40,6 +40,24 @@ const generateHtml = (files: string[], folders: string[], flavor: keyof Variants
   `
 }
 
+const generateIconOnlyHtml = (files: string[], flavor: keyof Variants<any>) => {
+  const tags = files.map(icon =>
+    `<img style="width: 25px; margin: 2px;" src="../../themes/${flavor}/icons/${icon}" />`,
+  ).reduce((a, c) => a + c, '')
+
+  return `
+    <html>
+      <body style="font-family: sans-serif; font-size: 14px;">
+        <div style="background-color: ${variants[flavor].mantle.hex}; padding: 25px; border-radius: 25px;">
+          <div style="justify-items: center; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; gap: 10px;">
+           ${tags}
+          </div>
+        </div>
+      </body>
+    </html>
+  `
+}
+
 await remove(PREVIEWS)
 await ensureDir(PREVIEWS)
 const icons = await readdir(join(THEMES, 'mocha', 'icons'))
@@ -56,7 +74,9 @@ const [folderIcons, fileIcons] = icons.reduce(
 
 await Promise.all(catppuccinFlavors.map(async (flavor) => {
   const FILE_PREVIEW = join(PREVIEWS, `${flavor}.html`)
+  const FILE_ICON_PREVIEW = join(PREVIEWS, `${flavor}-icons.html`)
   await writeFile(FILE_PREVIEW, generateHtml(fileIcons, folderIcons, flavor))
+  await writeFile(FILE_ICON_PREVIEW, generateIconOnlyHtml([...fileIcons, ...folderIcons], flavor))
   const browser = await launch()
   const page = await browser.newPage()
   await page.setViewport({ height: 10, width: 1200 })
@@ -66,6 +86,14 @@ await Promise.all(catppuccinFlavors.map(async (flavor) => {
     fullPage: true,
     omitBackground: true,
   })
+  await page.setViewport({ height: 10, width: 650 })
+  await page.goto(join('file:', FILE_ICON_PREVIEW))
+  await page.screenshot({
+    path: join(PREVIEWS, `${flavor}-icons.png`),
+    fullPage: true,
+    omitBackground: true,
+  })
   await browser.close()
   await unlink(FILE_PREVIEW)
+  await unlink(FILE_ICON_PREVIEW)
 }))
