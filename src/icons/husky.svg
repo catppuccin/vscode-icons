@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100.0px"
+   height="100.0px"
+   viewBox="0 0 100.0 100.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="husky.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8354" />
+  <sodipodi:namedview
+     id="namedview32486"
+     pagecolor="#181825"
+     bordercolor="#000000"
+     borderopacity="0.24705882"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#313244"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="2.1089996"
+     inkscape:cx="21.811289"
+     inkscape:cy="35.087726"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="SVGRoot"
+     showborder="false"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid32609" />
+  </sodipodi:namedview>
+  <path
+     d="M 60.490063,21.955343 63.537551,16.67694 C 69.632529,6.1201294 53.797311,-3.0223368 47.702336,7.5344724 l -3.04749,5.2784056 c -6.094975,10.556808 9.740239,19.699274 15.835217,9.142465 z m 26.392032,15.237449 3.04749,-5.278407 C 96.024564,21.357578 80.189343,12.215109 74.094365,22.771918 l -3.047488,5.278406 C 64.951899,38.607132 80.787119,47.7496 86.882095,37.192792 Z M 89.003613,70.08809 90.52736,67.448885 C 96.622334,56.892076 80.787114,47.749609 74.692139,58.306417 l -1.523746,2.639204 c -6.094976,10.556805 9.740246,19.699274 15.83522,9.142469 z M 30.941144,36.565708 32.464891,33.926503 C 38.559865,23.369694 22.724648,14.227227 16.62967,24.784035 l -1.523744,2.639204 c -6.0949746,10.556805 9.740243,19.699274 15.835218,9.142469 z m -16.021179,19.886971 26.199642,-9.80882 c 8.035505,-3.009993 16.820596,2.062083 18.231616,10.526026 l 4.605136,27.593969 c 1.482289,8.878982 -8.040181,15.486316 -15.841666,10.982129 -1.024013,-0.59121 -1.895048,-1.41081 -2.54836,-2.400298 L 44.214654,91.29848 C 38.596862,82.791654 29.302411,77.425503 19.126386,76.813761 l -2.44877,-0.146994 c -1.178649,-0.07026 -2.324778,-0.413883 -3.34762,-1.003752 -7.8014846,-4.504188 -6.8405916,-16.05456 1.589969,-19.210351 z"
+     style="fill:none;stroke:#b6c0c6;stroke-width:5;stroke-dasharray:none;stroke-opacity:1"
+     id="path27504" />
+</svg>

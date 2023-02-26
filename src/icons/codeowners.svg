@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100.0px"
+   height="100.0px"
+   viewBox="0 0 100.0 100.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="codeowners.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8354" />
+  <sodipodi:namedview
+     id="namedview32486"
+     pagecolor="#181825"
+     bordercolor="#000000"
+     borderopacity="0.24705882"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#313244"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="4.2179991"
+     inkscape:cx="146.27789"
+     inkscape:cy="54.765303"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="SVGRoot"
+     showborder="false"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid32609" />
+  </sodipodi:namedview>
+  <path
+     style="fill:none;stroke:#d79f19;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     d="m 50.074767,2.8606772 40.0497,12.8662488 c 10.576853,57.140387 -27.44425,81.412384 -40.23364,81.412384 -12.7894,0 -50.9225201,-24.346176 -39.86575,-81.412384 z"
+     id="path550"
+     sodipodi:nodetypes="cczcc" />
+  <path
+     d="m 54.513167,50.119805 c 2.76715,-1.588651 4.48995,-4.520203 4.5314,-7.710662 0.81724,-12.850606 -18.90625,-12.850606 -18.08901,0 0.002,3.229743 1.7306,6.211981 4.53139,7.820293 v 12.534396 c -0.59305,6.583869 9.61927,6.583869 9.02622,0 z"
+     style="fill:none;fill-rule:evenodd;stroke:#d79f19;stroke-width:5;stroke-dasharray:none;stroke-opacity:1"
+     id="path609" />
+</svg>

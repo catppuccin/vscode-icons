@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100.0px"
+   height="100.0px"
+   viewBox="0 0 100.0 100.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="cypress.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8354" />
+  <sodipodi:namedview
+     id="namedview32486"
+     pagecolor="#181825"
+     bordercolor="#000000"
+     borderopacity="0.24705882"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#313244"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="1.4912879"
+     inkscape:cx="65.71501"
+     inkscape:cy="14.752349"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="SVGRoot"
+     showborder="false"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid32609" />
+  </sodipodi:namedview>
+  <path
+     id="path7902"
+     style="fill:none;stroke:#04c38e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
+     d="M 47.810756,57.744661 A 14.935991,14.817452 0 0 1 31.240678,64.757482 14.935991,14.817452 0 0 1 19.922299,50.853314 14.935991,14.817452 0 0 1 30.321333,36.259615 14.935991,14.817452 0 0 1 47.309507,42.206959 M 68.278819,65.789487 55.002382,36.273 m -5.026531,61.236004 c 2.685146,-0.349017 3.854066,-0.537857 5.34743,-1.533825 0.915613,-0.775219 1.789314,-2.053359 2.202006,-3.163858 L 80.962558,36.273 M 49.733974,97.505195 A 47.505939,47.505939 0 0 1 3.0417286,57.192707 47.505939,47.505939 0 0 1 35.526821,4.7524435 47.505939,47.505939 0 0 1 92.415448,28.605045 47.505939,47.505939 0 0 1 77.786488,88.532134" />
+</svg>
