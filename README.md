@@ -23,11 +23,11 @@
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="assets/preview/frappe.png"/>
+<img src="assets/previews/frappe.png"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="assets/preview/macchiato.png"/>
+<img src="assets/previews/macchiato.png"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
