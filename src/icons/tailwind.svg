@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100.0px"
+   height="100.0px"
+   viewBox="0 0 100.0 100.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="tailwind.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8354" />
+  <sodipodi:namedview
+     id="namedview32486"
+     pagecolor="#181825"
+     bordercolor="#000000"
+     borderopacity="0.24705882"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#313244"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="3.445"
+     inkscape:cx="7.5471698"
+     inkscape:cy="23.802612"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="SVGRoot"
+     showborder="false"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid32609" />
+  </sodipodi:namedview>
+  <path
+     fill="none"
+     stroke="currentColor"
+     stroke-linejoin="round"
+     d="m 49.999998,19.646295 c -12.593418,0 -20.458398,6.745265 -23.608438,20.235803 4.721689,-6.745266 10.232572,-9.274742 16.525906,-7.588426 3.595226,0.96457 6.15843,3.757111 8.998186,6.846445 4.633999,5.031971 9.989742,10.859882 21.69278,10.859882 12.593418,0 20.458397,-6.74527 23.608443,-20.235804 -4.72169,6.745269 -10.232577,9.274744 -16.525911,7.588428 -3.595226,-0.964574 -6.158428,-3.757116 -8.998186,-6.846448 -4.633997,-5.031969 -9.989741,-10.85988 -21.69278,-10.85988 z M 26.39156,50 C 13.798145,50 5.9331626,56.745266 2.7831252,70.235803 7.5048099,63.490532 13.015694,60.961058 19.309027,62.647377 c 3.59523,0.96457 6.158433,3.757112 8.99819,6.846444 4.633998,5.031972 9.989738,10.859884 21.692781,10.859884 12.593414,0 20.458397,-6.74527 23.608434,-20.235804 -4.721685,6.745267 -10.232569,9.274742 -16.525903,7.588427 C 53.4873,66.741754 50.924097,63.949214 48.084341,60.859879 43.450342,55.827911 38.094598,50 26.39156,50 Z"
+     clip-rule="evenodd"
+     id="path8862"
+     style="stroke:#38bdf8;stroke-width:5;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1" />
+</svg>
