@@ -12,7 +12,7 @@ const THEMES = resolve('themes')
 const PREVIEWS = resolve('previews')
 
 const generateHtml = (files: string[], folders: string[], flavor: keyof Variants<any>) => {
-  const fileTags = files.map(icon => `
+  const tags = (iconfiles: string[]) => iconfiles.map(icon => `
     <div style="display: flex; align-items: center;">
       <img style="width: 25px; margin: 2px;" src="../themes/${flavor}/icons/${icon}" />
       <span style="color: ${variants[flavor].text.hex}; margin-left: 10px; text-transform: capitalize;">
@@ -20,23 +20,20 @@ const generateHtml = (files: string[], folders: string[], flavor: keyof Variants
       </span>
     </div>
   `).reduce((a, c) => a + c, '')
-  const folderTags = folders.map(icon => `
-    <div style="display: flex; align-items: center;">
-      <img style="width: 25px; padding: 2px;" src="../themes/${flavor}/icons/${icon}" />
-      <span style="color: ${variants[flavor].text.hex}; margin-left: 10px; text-transform: capitalize;">
-        ${splitByCase(filename(icon), ['_']).join(' ')}
-      </span>
+
+  const grid = (content: string) => `
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; gap: 10px;">
+      ${content}
     </div>
-  `).reduce((a, c) => a + c, '')
+  `
 
   return `
     <html>
-      <body style="background-color: ${variants[flavor].mantle.hex}; font-family: sans-serif; font-size: 14px;">
-        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px; width: 800px;">
-          ${fileTags}
-        </div>
-        <div style="margin-top: 20px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 5px; width: 600px;">
-          ${folderTags}
+      <body style="font-family: sans-serif; font-size: 14px;">
+        <div style="background-color: ${variants[flavor].mantle.hex}; padding: 25px; border-radius: 25px;">
+          ${grid(tags(files))}
+          <div style="margin: 15px 0;"/>
+          ${grid(tags(folders))}
         </div>
       </body>
     </html>
@@ -62,9 +59,13 @@ await Promise.all(catppuccinFlavors.map(async (flavor) => {
   await writeFile(FILE_PREVIEW, generateHtml(fileIcons, folderIcons, flavor))
   const browser = await launch()
   const page = await browser.newPage()
-  await page.setViewport({ height: 10, width: 600 })
+  await page.setViewport({ height: 10, width: 1200 })
   await page.goto(join('file:', FILE_PREVIEW))
-  await page.screenshot({ path: join(PREVIEWS, `${flavor}.png`), fullPage: true })
+  await page.screenshot({
+    path: join(PREVIEWS, `${flavor}.png`),
+    fullPage: true,
+    omitBackground: true,
+  })
   await browser.close()
   await unlink(FILE_PREVIEW)
 }))
