@@ -19,7 +19,6 @@
     "vscode-icons",
     "vscode-extension"
   ],
-  "main": "index.js",
   "engines": {
     "vscode": "^1.69.0"
   },
@@ -54,13 +53,15 @@
     "catwalk": "tsx scripts/catwalk.ts",
     "dev": "chokidar \"src/**/*\" -c \"pnpm run build\"",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "package": "vsce package --no-dependencies"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.2",
     "@catppuccin/palette": "^0.1.6",
     "@types/fs-extra": "^11.0.1",
     "@types/node": "^18.14.0",
+    "@vscode/vsce": "^2.18.0",
     "chokidar-cli": "^3.0.0",
     "colorsea": "^1.1.0",
     "eslint": "^8.34.0",
