@@ -43,7 +43,7 @@
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [PraZ](https://github.com/prazdevs)
 
 &nbsp;
 
