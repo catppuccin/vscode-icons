@@ -23,11 +23,11 @@
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="assets/preview/frappe.png"/>
+<img src="assets/previews/frappe.png"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="assets/preview/macchiato.png"/>
+<img src="assets/previews/macchiato.png"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
@@ -43,12 +43,12 @@
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [PraZ](https://github.com/prazdevs)
 
 &nbsp;
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.png"/>
 </p>
 
 <p align="center">
