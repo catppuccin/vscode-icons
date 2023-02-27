@@ -49,7 +49,7 @@ const generateIconOnlyHtml = (files: string[], flavor: keyof Variants<any>) => {
     <html>
       <body style="font-family: sans-serif; font-size: 14px;">
         <div style="background-color: ${variants[flavor].mantle.hex}; padding: 25px; border-radius: 25px;">
-          <div style="justify-items: center; display: grid; grid-template-columns: repeat(12, 1fr); gap: 10px;">
+          <div style="justify-items: center; display: grid; grid-template-columns: repeat(15, 1fr); gap: 10px;">
            ${tags}
           </div>
         </div>
@@ -86,7 +86,7 @@ await Promise.all(catppuccinFlavors.map(async (flavor) => {
     fullPage: true,
     omitBackground: true,
   })
-  await page.setViewport({ height: 10, width: 650 })
+  await page.setViewport({ height: 10, width: 800 })
   await page.goto(join('file:', FILE_ICON_PREVIEW))
   await page.screenshot({
     path: join(PREVIEWS, `${flavor}-icons.png`),
