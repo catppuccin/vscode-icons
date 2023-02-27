@@ -35,6 +35,14 @@ export const folders: IconMap = {
     'handler',
     'handlers',
   ],
+  folder_coverage: [
+    'coverage',
+    'coverages',
+    '.nyc-output',
+    '.nyc_output',
+  ],
+  folder_cypress: ['cypress', '.cypress'],
+  folder_docs: ['doc', 'docs', 'document', 'documents', 'documentation'],
   folder_dist: [
     '.output',
     'dist',
