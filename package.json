@@ -25,29 +25,16 @@
   "contributes": {
     "iconThemes": [
       {
-        "id": "catppuccin-mocha",
-        "label": "Catppuccin Mocha",
-        "path": "./themes/mocha/theme.json"
-      },
-      {
-        "id": "catppuccin-latte",
-        "label": "Catppuccin Latte",
-        "path": "./themes/latte/theme.json"
-      },
-      {
-        "id": "catppuccin-frappe",
-        "label": "Catppuccin Frappé",
-        "path": "./themes/frappe/theme.json"
-      },
-      {
-        "id": "catppuccin-macchiato",
-        "label": "Catppuccin Macchiato",
-        "path": "./themes/macchiato/theme.json"
+        "id": "catppuccin",
+        "label": "Catppuccin",
+        "path": "theme.json"
       }
     ]
   },
   "scripts": {
     "build": "pnpm build:themes && pnpm build:preview",
+    "build:icons": "tsx scripts/icons.ts",
+    "build:theme": "tsx scripts/theme.ts",
     "build:themes": "tsx scripts/build.ts",
     "build:preview": "tsx scripts/preview.ts",
     "catwalk": "tsx scripts/catwalk.ts",
@@ -64,6 +51,7 @@
     "@vscode/vsce": "^2.18.0",
     "chokidar-cli": "^3.0.0",
     "colorsea": "^1.1.0",
+    "consola": "^2.15.3",
     "eslint": "^8.34.0",
     "fs-extra": "^11.1.0",
     "pathe": "^1.1.0",
