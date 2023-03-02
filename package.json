@@ -20,6 +20,7 @@
     "vscode-icons",
     "vscode-extension"
   ],
+  "displayName": "Catppuccin Icons for VSCode",
   "icon": "logo.png",
   "files": ["dist"],
   "engines": {
