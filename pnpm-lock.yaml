@@ -8,6 +8,7 @@ specifiers:
   '@vscode/vsce': ^2.18.0
   chokidar-cli: ^3.0.0
   colorsea: ^1.1.0
+  consola: ^2.15.3
   eslint: ^8.34.0
   fs-extra: ^11.1.0
   pathe: ^1.1.0
@@ -25,6 +26,7 @@ devDependencies:
   '@vscode/vsce': 2.18.0
   chokidar-cli: 3.0.0
   colorsea: 1.1.0
+  consola: 2.15.3
   eslint: 8.34.0
   fs-extra: 11.1.0
   pathe: 1.1.0
@@ -1006,6 +1008,10 @@ packages:
 
   /concat-map/0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
+    dev: true
+
+  /consola/2.15.3:
+    resolution: {integrity: sha512-9vAdYbHj6x2fLKC4+oPH0kFzY/orMZyG2Aj+kNylHxKGJ/Ed4dpNyAQYwJOdqO4zdM7XpVHmyejQDcQHrnuXbw==}
     dev: true
 
   /cosmiconfig/8.0.0:

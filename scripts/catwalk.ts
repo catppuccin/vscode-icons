@@ -1,4 +1,5 @@
 import { exec } from 'child_process'
+import consola from 'consola'
 
 const cmd = [
   'catwalk',
@@ -10,9 +11,11 @@ const cmd = [
   '-l composite',
 ].join(' ')
 
-exec(cmd, (err, out) => {
+consola.info('Runing `catwalk` to generate preview...')
+
+exec(cmd, (err, _out) => {
   if (err)
-    console.error(err)
+    consola.error(err)
   else
-    console.log(out)
+    consola.success('Successfully built catwalk preview!')
 })
