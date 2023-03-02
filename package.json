@@ -1,10 +1,10 @@
 {
+  "publisher": "prazdevs",
   "name": "catppuccin-vscode-icons",
   "type": "module",
   "version": "0.1.0",
   "description": "🦌 Soothing pastel icon theme for VSCode",
   "author": "prazdevs",
-  "publisher": "prazdevs",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -55,9 +55,8 @@
   },
   "scripts": {
     "build": "pnpm build:themes && pnpm build:preview",
-    "build:extension": "tsup",
-    "build:icons": "tsx scripts/icons.ts",
     "build:theme": "tsx scripts/theme.ts",
+    "build:icons": "tsx scripts/icons.ts",
     "build:themes": "tsx scripts/themes.ts",
     "build:preview": "tsx scripts/preview.ts",
     "catwalk": "tsx scripts/catwalk.ts",
