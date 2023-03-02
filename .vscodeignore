@@ -1,0 +1,14 @@
+.github/
+.vscode/
+assets/
+icons/
+node_modules/
+scripts/
+src/
+
+*.vsix
+.editorconfig
+.eslintrc
+.gitignore
+pnpm-lock.yaml
+tsconfig.json

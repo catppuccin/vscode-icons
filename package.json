@@ -20,14 +20,11 @@
     "vscode-icons",
     "vscode-extension"
   ],
-  "main": "./dist/extension.cjs",
+  "icon": "logo.png",
   "files": ["dist"],
   "engines": {
     "vscode": "^1.69.0"
   },
-  "activationEvents": [
-    "onStartupFinished"
-  ],
   "contributes": {
     "iconThemes": [
       {
@@ -62,14 +59,13 @@
     "dev": "chokidar \"src/**/*\" -c \"pnpm run build\"",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "package": "vsce package --no-dependencies"
+    "package": "vsce package --no-dependencies -o dist"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.2",
     "@catppuccin/palette": "^0.1.6",
     "@types/fs-extra": "^11.0.1",
     "@types/node": "^18.14.0",
-    "@types/vscode": "^1.75.1",
     "@vscode/vsce": "^2.18.0",
     "chokidar-cli": "^3.0.0",
     "colorsea": "^1.1.0",
@@ -80,7 +76,6 @@
     "puppeteer": "^19.7.2",
     "scule": "^1.0.0",
     "svgo": "^3.0.2",
-    "tsup": "^6.6.3",
     "tsx": "^3.12.3",
     "typescript": "^4.9.5"
   }

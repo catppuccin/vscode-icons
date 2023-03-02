@@ -133,6 +133,7 @@ export const extensions: IconMap = {
   julia: ['jl'],
   jupyter: ['ipynb'],
   key: ['pub', 'key', 'pem', 'asc', 'gpg', 'passwd'],
+  kotlin: ['kt', 'kts'],
   latex: ['tex', 'sty', 'dtx', 'ltx'],
   lib: ['lib', 'bib', 'dll', 'dlc'],
   log: ['log'],
