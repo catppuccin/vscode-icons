@@ -5,7 +5,7 @@ import { labelToHex } from '@/palettes'
 const mocha = variants.mocha
 
 //* avoid overlay1 being considered in deltaE
-const { overlay1, ...catppuccinColors } = labelToHex.mocha
+const { overlay1: _, ...catppuccinColors } = labelToHex.mocha
 const catppuccinPalette = Object.values(catppuccinColors) as string []
 
 function deltaE(c1: string, c2: string) {

@@ -5,7 +5,7 @@ import { splitByCase } from 'scule'
 import { ensureDir, remove } from 'fs-extra'
 import { type Variants, variants } from '@catppuccin/palette'
 import { launch } from 'puppeteer'
-
+import consola from 'consola'
 import { catppuccinVariants } from '@/palettes'
 
 const THEMES = resolve('themes')
@@ -58,6 +58,7 @@ const generateIconOnlyHtml = (files: string[], flavor: keyof Variants<any>) => {
   `
 }
 
+consola.info('Removing existing previews...')
 await remove(PREVIEWS)
 await ensureDir(PREVIEWS)
 const icons = await readdir(join(THEMES, 'mocha', 'icons'))
@@ -72,6 +73,7 @@ const [folderIcons, fileIcons] = icons.reduce(
   [[], []],
 )
 
+consola.info('Building previews...')
 await Promise.all(catppuccinVariants.map(async (flavor) => {
   const FILE_PREVIEW = join(PREVIEWS, `${flavor}.html`)
   const FILE_ICON_PREVIEW = join(PREVIEWS, `${flavor}-icons.html`)
@@ -97,3 +99,5 @@ await Promise.all(catppuccinVariants.map(async (flavor) => {
   await unlink(FILE_PREVIEW)
   await unlink(FILE_ICON_PREVIEW)
 }))
+
+consola.success(`Built ${catppuccinVariants.length} preview files successfully!`)
