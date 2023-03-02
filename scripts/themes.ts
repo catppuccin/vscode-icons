@@ -1,8 +1,9 @@
-import { readdir, writeFile } from 'fs/promises'
-import { variants } from '@catppuccin/palette'
+import { readFile, readdir, writeFile } from 'fs/promises'
 import { join, resolve } from 'pathe'
 import { filename } from 'pathe/utils'
 import { ensureDir } from 'fs-extra'
+import { normalizeSvg } from './normalize'
+import { catppuccinVariants } from '@/palettes'
 import {
   base,
   extensions,
@@ -43,7 +44,14 @@ const theme: Theme = {
 }
 const themeString = JSON.stringify(theme, null, 2)
 
-await Promise.all(Object.keys(variants).map(async (variant) => {
+await Promise.all(catppuccinVariants.map(async (variant) => {
   await ensureDir(join(THEMES, variant, 'icons'))
   await writeFile(join(THEMES, variant, 'theme.json'), themeString)
+}))
+
+await Promise.all(icons.map(async (icon) => {
+  const svg = await readFile(join(ICONS, icon), 'utf8')
+  await Promise.all(catppuccinVariants.map(async (variant) => {
+    await writeFile(join(THEMES, variant, 'icons', icon), normalizeSvg(svg, variant))
+  }))
 }))

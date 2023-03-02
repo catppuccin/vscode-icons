@@ -1,6 +1,12 @@
 import { type labels, variants } from '@catppuccin/palette'
 
 export type CattppucinVariant = keyof typeof variants
+export const catppuccinVariants = [
+  'latte',
+  'frappe',
+  'macchiato',
+  'mocha',
+] as const satisfies Readonly<CattppucinVariant[]>
 export type CatppuccinColor = keyof typeof labels
 export const catppuccinColors = [
   'rosewater',
