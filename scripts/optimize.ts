@@ -46,5 +46,3 @@ export const optimizeSvg = (svg: string) => optimize(svg, {
     'sortDefsChildren',
   ],
 }).data
-
-export const replaceColors = (svg: string, replacer: (v: string) => string) => svg.replaceAll(/#([a-dA-F0-9]{6})/gi, replacer)

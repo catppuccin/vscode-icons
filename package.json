@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "description": "🦌 Soothing pastel icon theme for VSCode",
   "author": "prazdevs",
+  "publisher": "prazdevs",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -19,36 +20,45 @@
     "vscode-icons",
     "vscode-extension"
   ],
+  "main": "./dist/extension.cjs",
+  "files": ["dist"],
   "engines": {
     "vscode": "^1.69.0"
   },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "contributes": {
     "iconThemes": [
       {
-        "id": "catppuccin-mocha",
-        "label": "Catppuccin Mocha",
-        "path": "./themes/mocha/theme.json"
-      },
-      {
-        "id": "catppuccin-latte",
-        "label": "Catppuccin Latte",
-        "path": "./themes/latte/theme.json"
-      },
-      {
-        "id": "catppuccin-frappe",
-        "label": "Catppuccin Frappé",
-        "path": "./themes/frappe/theme.json"
-      },
-      {
-        "id": "catppuccin-macchiato",
-        "label": "Catppuccin Macchiato",
-        "path": "./themes/macchiato/theme.json"
+        "id": "catppuccin",
+        "label": "Catppuccin",
+        "path": "theme.json"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Catppuccin icons",
+      "properties": {
+        "catppuccin-icons.flavor": {
+          "type": "string",
+          "default": "match",
+          "enum": [
+            "match",
+            "latte",
+            "frappe",
+            "macchiato",
+            "mocha"
+          ]
+        }
+      }
+    }
   },
   "scripts": {
     "build": "pnpm build:themes && pnpm build:preview",
-    "build:themes": "tsx scripts/build.ts",
+    "build:extension": "tsup",
+    "build:icons": "tsx scripts/icons.ts",
+    "build:theme": "tsx scripts/theme.ts",
+    "build:themes": "tsx scripts/themes.ts",
     "build:preview": "tsx scripts/preview.ts",
     "catwalk": "tsx scripts/catwalk.ts",
     "dev": "chokidar \"src/**/*\" -c \"pnpm run build\"",
@@ -61,15 +71,18 @@
     "@catppuccin/palette": "^0.1.6",
     "@types/fs-extra": "^11.0.1",
     "@types/node": "^18.14.0",
+    "@types/vscode": "^1.75.1",
     "@vscode/vsce": "^2.18.0",
     "chokidar-cli": "^3.0.0",
     "colorsea": "^1.1.0",
+    "consola": "^2.15.3",
     "eslint": "^8.34.0",
     "fs-extra": "^11.1.0",
     "pathe": "^1.1.0",
     "puppeteer": "^19.7.2",
     "scule": "^1.0.0",
     "svgo": "^3.0.2",
+    "tsup": "^6.6.3",
     "tsx": "^3.12.3",
     "typescript": "^4.9.5"
   }

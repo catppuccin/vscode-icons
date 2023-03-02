@@ -6,7 +6,7 @@ import { ensureDir, remove } from 'fs-extra'
 import { type Variants, variants } from '@catppuccin/palette'
 import { launch } from 'puppeteer'
 
-import { catppuccinFlavors } from './colors'
+import { catppuccinVariants } from '@/palettes'
 
 const THEMES = resolve('themes')
 const PREVIEWS = resolve(join('assets', 'previews'))
@@ -72,7 +72,7 @@ const [folderIcons, fileIcons] = icons.reduce(
   [[], []],
 )
 
-await Promise.all(catppuccinFlavors.map(async (flavor) => {
+await Promise.all(catppuccinVariants.map(async (flavor) => {
   const FILE_PREVIEW = join(PREVIEWS, `${flavor}.html`)
   const FILE_ICON_PREVIEW = join(PREVIEWS, `${flavor}-icons.html`)
   await writeFile(FILE_PREVIEW, generateHtml(fileIcons, folderIcons, flavor))
