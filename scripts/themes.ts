@@ -1,6 +1,8 @@
 import { readdir, writeFile } from 'fs/promises'
-import { resolve } from 'pathe'
+import { variants } from '@catppuccin/palette'
+import { join, resolve } from 'pathe'
 import { filename } from 'pathe/utils'
+import { ensureDir } from 'fs-extra'
 import {
   base,
   extensions,
@@ -11,6 +13,8 @@ import {
 } from '@/associations'
 
 const ICONS = resolve('icons')
+const THEMES = resolve('themes')
+
 const icons = await readdir(ICONS)
 
 const iconDefinitions = icons.reduce((d, i) => ({
@@ -37,5 +41,9 @@ const theme: Theme = {
   folderNames: flattenMap(folders),
   folderNamesExpanded: flattenMap(foldersExpanded),
 }
+const themeString = JSON.stringify(theme, null, 2)
 
-await writeFile('theme.json', JSON.stringify(theme, null, 2))
+await Promise.all(Object.keys(variants).map(async (variant) => {
+  await ensureDir(join(THEMES, variant, 'icons'))
+  await writeFile(join(THEMES, variant, 'theme.json'), themeString)
+}))

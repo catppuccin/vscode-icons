@@ -1,29 +1,12 @@
 import colorsea from 'colorsea'
 import { variants } from '@catppuccin/palette'
+import { labelToHex } from '@/palettes'
 
 const mocha = variants.mocha
 
-type CatppuccinColor = keyof typeof mocha
-const catppuccinColors = [
-  'rosewater',
-  'flamingo',
-  'pink',
-  'mauve',
-  'red',
-  'maroon',
-  'peach',
-  'yellow',
-  'green',
-  'teal',
-  'sky',
-  'sapphire',
-  'blue',
-  'lavender',
-  'text',
-] as const satisfies Readonly<CatppuccinColor[]>
-const catppuccinPalette = catppuccinColors.map(
-  label => mocha[label].hex,
-)
+//* avoid overlay1 being considered in deltaE
+const { overlay1, ...catppuccinColors } = labelToHex.mocha
+const catppuccinPalette = Object.values(catppuccinColors) as string []
 
 function deltaE(c1: string, c2: string) {
   return colorsea(c1).deltaE(colorsea(c2), 'cie2000')

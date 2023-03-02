@@ -1,6 +1,50 @@
-export const cssVars = {
-  latte: '{--ctp-rosewater: #dc8a78;--ctp-flamingo: #dd7878;--ctp-pink: #ea76cb;--ctp-mauve: #8839ef;--ctp-red: #d20f39;--ctp-maroon: #e64553;--ctp-peach: #fe640b;--ctp-yellow: #df8e1d;--ctp-green: #40a02b;--ctp-teal: #179299;--ctp-sky: #04a5e5;--ctp-sapphire: #209fb5;--ctp-blue: #1e66f5;--ctp-lavender: #7287fd;--ctp-text: #4c4f69;--ctp-overlay1: #8c8fa1;}',
-  frappe: '{--ctp-rosewater: #f2d5cf;--ctp-flamingo: #eebebe;--ctp-pink: #f4b8e4;--ctp-mauve: #ca9ee6;--ctp-red: #e78284;--ctp-maroon: #ea999c;--ctp-peach: #ef9f76;--ctp-yellow: #e5c890;--ctp-green: #a6d189;--ctp-teal: #81c8be;--ctp-sky: #99d1db;--ctp-sapphire: #85c1dc;--ctp-blue: #8caaee;--ctp-lavender: #babbf1;--ctp-text: #c6d0f5;--ctp-overlay1: #838ba7;}',
-  macchiato: '{--ctp-rosewater: #f4dbd6;--ctp-flamingo: #f0c6c6;--ctp-pink: #f5bde6;--ctp-mauve: #c6a0f6;--ctp-red: #ed8796;--ctp-maroon: #ee99a0;--ctp-peach: #f5a97f;--ctp-yellow: #eed49f;--ctp-green: #a6da95;--ctp-teal: #8bd5ca;--ctp-sky: #91d7e3;--ctp-sapphire: #7dc4e4;--ctp-blue: #8aadf4;--ctp-lavender: #b7bdf8;--ctp-text: #cad3f5;--ctp-overlay1: #8087a2;}',
-  mocha: '{--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}',
+import { type labels, variants } from '@catppuccin/palette'
+
+export type CattppucinVariant = keyof typeof variants
+export type CatppuccinColor = keyof typeof labels
+export const catppuccinColors = [
+  'rosewater',
+  'flamingo',
+  'pink',
+  'mauve',
+  'red',
+  'maroon',
+  'peach',
+  'yellow',
+  'green',
+  'teal',
+  'sky',
+  'sapphire',
+  'blue',
+  'lavender',
+  'text',
+  'overlay1',
+] as const satisfies Readonly<CatppuccinColor[]>
+
+export const varToHex: Record<CattppucinVariant, Partial<Record<string, string>>> = {
+  latte: catppuccinColors.reduce((acc, label) => ({ ...acc, [`--ctp-${label}`]: variants.latte[label].hex }), {}),
+  frappe: catppuccinColors.reduce((acc, label) => ({ ...acc, [`--ctp-${label}`]: variants.frappe[label].hex }), {}),
+  macchiato: catppuccinColors.reduce((acc, label) => ({ ...acc, [`--ctp-${label}`]: variants.macchiato[label].hex }), {}),
+  mocha: catppuccinColors.reduce((acc, label) => ({ ...acc, [`--ctp-${label}`]: variants.mocha[label].hex }), {}),
+}
+
+export const labelToHex: Record<CattppucinVariant, Partial<Record<CatppuccinColor, string>>> = {
+  latte: Object.fromEntries(Object.entries(varToHex.latte).map(([label, hex]) => [label.slice(6), hex])),
+  frappe: Object.fromEntries(Object.entries(varToHex.frappe).map(([label, hex]) => [label.slice(6), hex])),
+  macchiato: Object.fromEntries(Object.entries(varToHex.macchiato).map(([label, hex]) => [label.slice(6), hex])),
+  mocha: Object.fromEntries(Object.entries(varToHex.mocha).map(([label, hex]) => [label.slice(6), hex])),
+}
+
+export const hexToVar: Record<CattppucinVariant, Partial<Record<string, string>>> = {
+  latte: Object.fromEntries(Object.entries(varToHex.latte).map(([label, hex]) => [hex, label])),
+  frappe: Object.fromEntries(Object.entries(varToHex.frappe).map(([label, hex]) => [hex, label])),
+  macchiato: Object.fromEntries(Object.entries(varToHex.macchiato).map(([label, hex]) => [hex, label])),
+  mocha: Object.fromEntries(Object.entries(varToHex.mocha).map(([label, hex]) => [hex, label])),
+}
+
+export const cssVarStyleTags: Record<CattppucinVariant, string> = {
+  latte: `\n<style>:root {${Object.entries(varToHex.latte).reduce((str, [label, value]) => `${str}${label}: ${value};`, '')}}</style>\n`,
+  frappe: `\n<style>:root {${Object.entries(varToHex.frappe).reduce((str, [label, value]) => `${str}${label}: ${value};`, '')}}</style>\n`,
+  macchiato: `\n<style>:root {${Object.entries(varToHex.macchiato).reduce((str, [label, value]) => `${str}${label}: ${value};`, '')}}</style>\n`,
+  mocha: `\n<style>:root {${Object.entries(varToHex.mocha).reduce((str, [label, value]) => `${str}${label}: ${value};`, '')}}</style>\n`,
 }
