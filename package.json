@@ -31,27 +31,26 @@
   "contributes": {
     "iconThemes": [
       {
-        "id": "catppuccin",
-        "label": "Catppuccin",
-        "path": "theme.json"
+        "id": "catppuccin-mocha",
+        "label": "Catppuccin Mocha",
+        "path": "themes/mocha/theme.json"
+      },
+      {
+        "id": "catppuccin-latte",
+        "label": "Catppuccin Latte",
+        "path": "themes/latte/theme.json"
+      },
+      {
+        "id": "catppuccin-frappe",
+        "label": "Catppuccin Frappé",
+        "path": "themes/frappe/theme.json"
+      },
+      {
+        "id": "catppuccin-macchiato",
+        "label": "Catppuccin Macchiato",
+        "path": "themes/macchiato/theme.json"
       }
-    ],
-    "configuration": {
-      "title": "Catppuccin icons",
-      "properties": {
-        "catppuccin-icons.flavor": {
-          "type": "string",
-          "default": "match",
-          "enum": [
-            "match",
-            "latte",
-            "frappe",
-            "macchiato",
-            "mocha"
-          ]
-        }
-      }
-    }
+    ]
   },
   "scripts": {
     "build": "pnpm build:themes && pnpm build:preview",
