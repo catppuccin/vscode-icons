@@ -4,6 +4,7 @@ import { join, resolve } from 'pathe'
 import { filename } from 'pathe/utils'
 import { ensureDir } from 'fs-extra'
 import { normalizeSvg } from './normalize'
+import { changeViewbox } from './resize'
 import { catppuccinVariants } from '@/palettes'
 import {
   base,
@@ -54,7 +55,9 @@ await Promise.all(catppuccinVariants.map(async (variant) => {
 await Promise.all(icons.map(async (icon) => {
   const svg = await readFile(join(ICONS, icon), 'utf8')
   await Promise.all(catppuccinVariants.map(async (variant) => {
-    await writeFile(join(THEMES, variant, 'icons', icon), normalizeSvg(svg, variant))
+    const normalized = normalizeSvg(svg, variant)
+    const resized = changeViewbox(normalized, icon.startsWith('folder') ? '0 0 100 100' : '-5 -5 110 110')
+    await writeFile(join(THEMES, variant, 'icons', icon), resized)
   }))
 }))
 

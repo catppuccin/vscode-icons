@@ -40,7 +40,6 @@ export const optimizeSvg = (svg: string) => optimize(svg, {
     'removeUnusedNS',
     'removeUselessDefs',
     'removeUselessStrokeAndFill',
-    'removeViewBox',
     'removeXMLProcInst',
     'sortAttrs',
     'sortDefsChildren',
