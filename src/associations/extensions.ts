@@ -1,6 +1,7 @@
 export const extensions: IconMap = {
   angular: ['ng-template'],
   arduino: ['ino'],
+  astro: ['astro'],
   bash: ['bash', 'sh', 'awk'],
   bat: ['bat'],
   c: ['c', 'i', 'mi'],
@@ -38,6 +39,7 @@ export const extensions: IconMap = {
   erlang: ['erl'],
   fsharp: ['fs', 'fsx', 'fsi', 'fsproj'],
   go: ['go'],
+  gradle: ['gradle'],
   graphql: ['graphql', 'gql'],
   groovy: ['groovy'],
   h: ['h'],
@@ -266,7 +268,6 @@ export const extensions: IconMap = {
     'vcxproj.filters',
   ],
   vs_code: [
-    'vscodeignore',
     'vsixmanifest',
     'vsix',
     'code-workplace',
@@ -274,6 +275,7 @@ export const extensions: IconMap = {
     'code-profile',
     'code-snippets',
   ],
+  vs_code_ignore: ['vscodeignore'],
   workflow: ['workflows/yml', 'workflows/yaml'],
   xml: [
     'xml',

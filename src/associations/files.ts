@@ -1,6 +1,14 @@
 export const files: IconMap = {
   alex: ['.alexrc', '.alexrc.yml', '.alexrc.yaml', 'alexrc.js'],
   angular: ['angular-cli.json', '.angular-cli.json', 'angular.json'],
+  astro: [
+    'astro.config.js',
+    'astro.config.mjs',
+    'astro.config.cjs',
+    'astro.config.ts',
+    'astro.config.cts',
+    'astro.config.mts',
+  ],
   babel: [
     '.babelrc',
     '.babelrc.cjs',
@@ -124,6 +132,7 @@ export const files: IconMap = {
   gitlab: ['gitlab-ci.yml'],
   gitpod: ['.gitpod.yml'],
   go_mod: ['go.mod', 'go.sum', 'go.work', 'go.work.sum'],
+  gradle: ['gradle.properties', 'gradlew', 'gradle-wrapper.properties'],
   graphql: [
     '.graphqlconfig',
     '.graphqlrc',
@@ -231,11 +240,18 @@ export const files: IconMap = {
   ],
   lua: ['.luacheckrc'],
   makefile: ['makefile', 'gnumakefile', 'kbuild'],
+  maven: ['maven.config', 'jvm.config', 'pom.xml'],
   netlify: [
     'netlify.json',
     'netlify.yml',
     'netlify.yaml',
     'netlify.toml',
+  ],
+  next: [
+    'next.config.js',
+    'next.config.mjs',
+    'next.config.ts',
+    'next.config.mts',
   ],
   nginx: ['nginx.conf'],
   npm: ['.npmrc'],
@@ -275,6 +291,7 @@ export const files: IconMap = {
   prettier_ignore: ['.prettierignore'],
   r: ['.Rhistory'],
   readme: ['readme.md', 'readme.rst', 'readme.txt', 'readme'],
+  redwood: ['redwood.toml'],
   rollup: [
     'rollup.config.js',
     'rollup.config.mjs',
