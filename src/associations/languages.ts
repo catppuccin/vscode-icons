@@ -59,6 +59,7 @@ export const languages: IconMap = {
   rescript: ['rescript'],
   ruby: ['ruby'],
   sass: ['sass', 'scss'],
+  scala: ['scala'],
   search: ['search-result'],
   shader: ['hlsl', 'glsl', 'wgsl'],
   svelte: ['svelte'],

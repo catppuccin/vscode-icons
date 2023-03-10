@@ -289,6 +289,7 @@ export const files: IconMap = {
     '.prettierrc.toml',
   ],
   prettier_ignore: ['.prettierignore'],
+  prisma: ['prisma.yml'],
   r: ['.Rhistory'],
   readme: ['readme.md', 'readme.rst', 'readme.txt', 'readme'],
   redwood: ['redwood.toml'],
@@ -335,6 +336,13 @@ export const files: IconMap = {
     'tailwind.config.cjs',
     'tailwind.config.ts',
     'tailwind.config.cts',
+  ],
+  tauri: [
+    'tauri.conf.json',
+    'tauri.config.json',
+    'tauri.linux.conf.json',
+    'tauri.windows.conf.json',
+    'tauri.macos.conf.json',
   ],
   typescript_config: [
     'tsconfig.json',

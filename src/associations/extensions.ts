@@ -148,6 +148,7 @@ export const extensions: IconMap = {
   perl: ['pm', 'raku'],
   php: ['php'],
   powershell: ['ps1', 'psm1', 'psd1', 'ps1xml', 'psc1', 'pssc'],
+  prisma: ['prisma'],
   properties: [
     'ini',
     'dlc',
@@ -172,6 +173,7 @@ export const extensions: IconMap = {
   ruby: ['rb', 'erb'],
   rust: ['rs', 'ron'],
   sass: ['scss', 'sass'],
+  scala: ['scala', 'sc'],
   search: ['code-search'],
   shader: [
     'glsl',
@@ -230,6 +232,7 @@ export const extensions: IconMap = {
   storybook_vue: ['story.vue', 'stories.vue'],
   svelte: ['svelte'],
   svg: ['svg'],
+  tauri: ['tauri'],
   toml: ['toml'],
   txt: ['txt'],
   typescript: ['ts'],
@@ -276,6 +279,7 @@ export const extensions: IconMap = {
     'code-snippets',
   ],
   vs_code_ignore: ['vscodeignore'],
+  web_assembly: ['wat', 'wasm'],
   workflow: ['workflows/yml', 'workflows/yaml'],
   xml: [
     'xml',
