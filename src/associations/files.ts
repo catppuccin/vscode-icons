@@ -81,6 +81,7 @@ export const files: IconMap = {
   dart: ['.pubignore'],
   docker: ['dockerfile', 'docker-compose.yml', 'docker-compose.yaml'],
   editorconfig: ['.editorconfig'],
+  ember: ['.ember-cli', '.ember-cli.js', 'ember-cli-builds.js'],
   env: [
     '.env.defaults',
     '.env.example',
@@ -121,6 +122,12 @@ export const files: IconMap = {
     '.eslintcache',
   ],
   eslint_ignore: ['.eslintignore'],
+  firebase: [
+    'firebase.json',
+    '.firebaserc',
+    'firestore.rules',
+    'firestore.indexes.json',
+  ],
   git: [
     '.gitignore',
     '.gitconfig',
@@ -208,6 +215,8 @@ export const files: IconMap = {
     'cdp.pid',
     '.lintstagedrc',
   ],
+  laravel: ['artisan'],
+  lerna: ['lerna.json'],
   license: [
     'copying',
     'copying.md',

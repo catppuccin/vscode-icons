@@ -139,6 +139,7 @@ export const extensions: IconMap = {
   jupyter: ['ipynb'],
   key: ['pub', 'key', 'pem', 'asc', 'gpg', 'passwd'],
   kotlin: ['kt', 'kts'],
+  laravel: ['blade.php', 'inky.php'],
   latex: ['tex', 'sty', 'dtx', 'ltx'],
   lib: ['lib', 'bib', 'dll', 'dlc'],
   log: ['log'],
