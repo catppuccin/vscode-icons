@@ -1,10 +1,13 @@
 export const extensions: IconMap = {
   angular: ['ng-template'],
+  apple: ['applescript', 'ipa'],
   arduino: ['ino'],
   astro: ['astro'],
   bash: ['bash', 'sh', 'awk'],
   bat: ['bat'],
   c: ['c', 'i', 'mi'],
+  css: ['css'],
+  css_map: ['css.map'],
   certificate: ['cer', 'cert', 'crt', 'pfx'],
   clojure: ['clj', 'cljs', 'cljc'],
   coffeescript: ['coffee', 'cson', 'iced'],

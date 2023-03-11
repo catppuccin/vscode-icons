@@ -329,6 +329,8 @@ export const files: IconMap = {
     'svelte.config.ts',
   ],
   stackblitz: ['.stackblitzrc'],
+  stencil: ['stencil.config.js', 'stencil.config.ts'],
+  stitches: ['stitches.config.js', 'stitches.config.ts'],
   tailwind: [
     'tailwind.js',
     'tailwind.ts',
