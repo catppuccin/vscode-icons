@@ -1,4 +1,4 @@
-import { readFile, readdir, writeFile } from 'fs/promises'
+import { readFile, readdir, writeFile } from 'node:fs/promises'
 import consola from 'consola'
 import { join, resolve } from 'pathe'
 import { filename } from 'pathe/utils'

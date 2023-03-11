@@ -143,7 +143,7 @@ export const extensions: IconMap = {
   lib: ['lib', 'bib', 'dll', 'dlc'],
   log: ['log'],
   lua: ['lua'],
-  make: ['mk'],
+  makefile: ['mk'],
   markdown: ['md', 'markdown', 'rst'],
   markdown_mdx: ['mdx'],
   nginx: ['nginx', 'nginxconfig'],
@@ -216,7 +216,7 @@ export const extensions: IconMap = {
     'tess.hlsl',
     'wgsl',
   ],
-  slides: [
+  slide: [
     'pptx',
     'ppt',
     'pptm',

@@ -1,4 +1,4 @@
-import { readdir, unlink, writeFile } from 'fs/promises'
+import { readdir, unlink, writeFile } from 'node:fs/promises'
 import { filename } from 'pathe/utils'
 import { join, resolve } from 'pathe'
 import { splitByCase } from 'scule'

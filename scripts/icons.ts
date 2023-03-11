@@ -1,4 +1,4 @@
-import { readFile, readdir, writeFile } from 'fs/promises'
+import { readFile, readdir, writeFile } from 'node:fs/promises'
 import { parseArgs } from 'util'
 import consola from 'consola'
 import { ensureDir } from 'fs-extra'
