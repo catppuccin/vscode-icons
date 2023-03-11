@@ -57,6 +57,7 @@
     "build:preview": "tsx scripts/preview.ts",
     "catwalk": "tsx scripts/catwalk.ts",
     "dev": "chokidar \"src/**/*\" -c \"pnpm run build\"",
+    "integrity": "tsx scripts/integrity.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "package": "vsce package --no-dependencies -o dist"
