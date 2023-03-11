@@ -32,7 +32,7 @@ const generateHtml = (files: string[], folders: string[], flavor: keyof Variants
       <body style="font-family: sans-serif; font-size: 14px;">
         <div style="background-color: ${variants[flavor].mantle.hex}; padding: 25px; border-radius: 25px;">
           ${grid(tags(files))}
-          <div style="margin: 15px 0;"/>
+          <div style="margin: 25px 0;"/>
           ${grid(tags(folders))}
         </div>
       </body>
@@ -40,8 +40,8 @@ const generateHtml = (files: string[], folders: string[], flavor: keyof Variants
   `
 }
 
-const generateIconOnlyHtml = (files: string[], flavor: keyof Variants<any>) => {
-  const tags = files.map(icon =>
+const generateIconOnlyHtml = (files: string[], folders: string[], flavor: keyof Variants<any>) => {
+  const tags = (icons: string[]) => icons.map(icon =>
     `<img style="width: 25px; margin: 2px;" src="../../themes/${flavor}/icons/${icon}" />`,
   ).reduce((a, c) => a + c, '')
 
@@ -50,15 +50,18 @@ const generateIconOnlyHtml = (files: string[], flavor: keyof Variants<any>) => {
       <body style="font-family: sans-serif; font-size: 14px;">
         <div style="background-color: ${variants[flavor].mantle.hex}; padding: 25px; border-radius: 25px;">
           <div style="justify-items: center; display: grid; grid-template-columns: repeat(15, 1fr); gap: 10px;">
-           ${tags}
+           ${tags(files)}
           </div>
+          <div style="margin: 25px 0;"/>
+          <div style="justify-items: center; display: grid; grid-template-columns: repeat(15, 1fr); gap: 10px;">
+          ${tags(folders)}
+         </div>
         </div>
       </body>
     </html>
   `
 }
 
-consola.info('Removing existing previews...')
 await remove(PREVIEWS)
 await ensureDir(PREVIEWS)
 const icons = await readdir(join(THEMES, 'mocha', 'icons'))
@@ -78,7 +81,7 @@ await Promise.all(catppuccinVariants.map(async (flavor) => {
   const FILE_PREVIEW = join(PREVIEWS, `${flavor}.html`)
   const FILE_ICON_PREVIEW = join(PREVIEWS, `${flavor}-icons.html`)
   await writeFile(FILE_PREVIEW, generateHtml(fileIcons, folderIcons, flavor))
-  await writeFile(FILE_ICON_PREVIEW, generateIconOnlyHtml([...fileIcons, ...folderIcons], flavor))
+  await writeFile(FILE_ICON_PREVIEW, generateIconOnlyHtml(fileIcons, folderIcons, flavor))
   const browser = await launch()
   const page = await browser.newPage()
   await page.setViewport({ height: 10, width: 1200 })
