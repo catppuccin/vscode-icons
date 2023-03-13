@@ -1,10 +1,5 @@
-- ada
-- adonis
-- apollo
-- appveyor
 - capacitor
 - codecov
-- dependabot
 - favicon
 - font
 - gatsby
@@ -15,8 +10,6 @@
 - nest
 - nim
 - nix
-- renovate
-- robots
 - sentry
 - swift
 - todo

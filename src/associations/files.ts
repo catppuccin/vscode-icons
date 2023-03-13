@@ -1,6 +1,9 @@
 export const files: IconMap = {
+  adonis: ['.adonisrc.json', 'ace'],
   alex: ['.alexrc', '.alexrc.yml', '.alexrc.yaml', 'alexrc.js'],
   angular: ['angular-cli.json', '.angular-cli.json', 'angular.json'],
+  apollo: ['apollo.config.js', 'apollo.config.ts'],
+  appveyor: ['.appveyor.yml', 'appveyor.yml'],
   astro: [
     'astro.config.js',
     'astro.config.mjs',
@@ -79,6 +82,7 @@ export const files: IconMap = {
     'cypress.config.mjs',
   ],
   dart: ['.pubignore'],
+  dependabot: ['dependabot.yml', 'dependabot.yaml'],
   docker: ['dockerfile', 'docker-compose.yml', 'docker-compose.yaml'],
   editorconfig: ['.editorconfig'],
   ember: ['.ember-cli', '.ember-cli.js', 'ember-cli-builds.js'],
@@ -302,6 +306,14 @@ export const files: IconMap = {
   r: ['.Rhistory'],
   readme: ['readme.md', 'readme.rst', 'readme.txt', 'readme'],
   redwood: ['redwood.toml'],
+  renovate: [
+    '.renovaterc',
+    '.renovaterc.json',
+    'renovate-config.json',
+    'renovate.json',
+    'renovate.json5',
+  ],
+  robots: ['robots.txt'],
   rollup: [
     'rollup.config.js',
     'rollup.config.mjs',
