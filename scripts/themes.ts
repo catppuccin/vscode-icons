@@ -2,7 +2,7 @@ import { readFile, readdir, writeFile } from 'node:fs/promises'
 import consola from 'consola'
 import { join, resolve } from 'pathe'
 import { filename } from 'pathe/utils'
-import { ensureDir } from 'fs-extra'
+import { ensureDir, remove } from 'fs-extra'
 import { normalizeSvg } from './normalize'
 import { changeViewbox } from './resize'
 import { catppuccinVariants } from '@/palettes'
@@ -19,6 +19,7 @@ const ICONS = resolve('icons')
 const THEMES = resolve('themes')
 
 const icons = await readdir(ICONS)
+await remove(THEMES)
 
 const iconDefinitions = icons.reduce((d, i) => ({
   ...d,
