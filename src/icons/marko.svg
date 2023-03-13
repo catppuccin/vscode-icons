@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100.0px"
+   height="100.0px"
+   viewBox="0 0 100.0 100.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="marko.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8354">
+    <linearGradient
+       id="vscodeIconsFileTypeCapacitor0"
+       x1="3.8429999"
+       x2="28.148001"
+       y1="28.15"
+       y2="3.845"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.571771,0,0,3.571771,-7.1535818,-7.1501778)">
+      <stop
+         offset="0"
+         stop-color="#7ecefd"
+         id="stop2" />
+      <stop
+         offset="1"
+         stop-color="#56b1fc"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="vscodeIconsFileTypeMarko9"
+       x1="10.161"
+       x2="10.161"
+       y1="8.375"
+       y2="13.315"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.5714286,0,0,3.5714286,-7.142855,-7.1464285)">
+      <stop
+         offset="0"
+         stop-color="#8ed0e1"
+         id="stop20786" />
+      <stop
+         offset="1"
+         stop-color="#88d0f1"
+         stop-opacity="0"
+         id="stop20788" />
+    </linearGradient>
+    <linearGradient
+       id="vscodeIconsFileTypeMarko8"
+       x1="7.1300001"
+       x2="7.1300001"
+       y1="23.628"
+       y2="18.688999"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.5714286,0,0,3.5714286,-7.142855,-7.1464285)">
+      <stop
+         offset="0"
+         stop-color="#2073ba"
+         id="stop20781" />
+      <stop
+         offset="1"
+         stop-color="#2073ba"
+         stop-opacity="0"
+         id="stop20783" />
+    </linearGradient>
+    <linearGradient
+       id="vscodeIconsFileTypeMarko7"
+       x1="-357.383"
+       x2="-357.383"
+       y1="-453.91501"
+       y2="-458.85501"
+       gradientTransform="matrix(-3.5714286,0,0,-3.5714286,-1258.0429,-1598.3607)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#00828b"
+         id="stop20776" />
+      <stop
+         offset=".833"
+         stop-color="#00828b"
+         stop-opacity="0"
+         id="stop20778" />
+    </linearGradient>
+    <linearGradient
+       id="vscodeIconsFileTypeMarko6"
+       x1="5.487"
+       x2="5.487"
+       y1="16.002001"
+       y2="11.061"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.5714286,0,0,3.5714286,-7.142855,-7.1464285)">
+      <stop
+         offset="0"
+         stop-color="#88d0f1"
+         id="stop20771" />
+      <stop
+         offset="1"
+         stop-color="#88d0f1"
+         stop-opacity="0"
+         id="stop20773" />
+    </linearGradient>
+    <linearGradient
+       id="vscodeIconsFileTypeMarko5"
+       x1="21.149"
+       x2="21.149"
+       y1="16.002001"
+       y2="20.945"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.5714286,0,0,3.5714286,-7.142855,-7.1464285)">
+      <stop
+         offset="0"
+         stop-color="#e95506"
+         id="stop20766" />
+      <stop
+         offset="1"
+         stop-color="#e95506"
+         stop-opacity="0"
+         id="stop20768" />
+    </linearGradient>
+    <linearGradient
+       id="vscodeIconsFileTypeMarko4"
+       x1="26.507999"
+       x2="26.507999"
+       y1="16.002001"
+       y2="20.945"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.5714286,0,0,3.5714286,-7.142855,-7.1464285)">
+      <stop
+         offset="0"
+         stop-color="#7f1e4f"
+         id="stop20761" />
+      <stop
+         offset="1"
+         stop-color="#7f1e4f"
+         stop-opacity="0"
+         id="stop20763" />
+    </linearGradient>
+    <linearGradient
+       id="vscodeIconsFileTypeMarko3"
+       x1="24.861"
+       x2="24.861"
+       y1="8.375"
+       y2="13.32"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.5714286,0,0,3.5714286,-7.142855,-7.1464285)">
+      <stop
+         offset="0"
+         stop-color="#e02a89"
+         id="stop20756" />
+      <stop
+         offset="1"
+         stop-color="#e02a89"
+         stop-opacity="0"
+         id="stop20758" />
+    </linearGradient>
+    <linearGradient
+       id="vscodeIconsFileTypeMarko2"
+       x1="19.504"
+       x2="19.504"
+       y1="8.375"
+       y2="13.319"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.5714286,0,0,3.5714286,-7.142855,-7.1464285)">
+      <stop
+         offset="0"
+         stop-color="#ffed01"
+         id="stop20751" />
+      <stop
+         offset="1"
+         stop-color="#ffed01"
+         stop-opacity="0"
+         id="stop20753" />
+    </linearGradient>
+    <linearGradient
+       id="vscodeIconsFileTypeMarko1"
+       x1="16.475"
+       x2="16.475"
+       y1="8.375"
+       y2="13.319"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.5714286,0,0,3.5714286,-7.142855,-7.1464285)">
+      <stop
+         offset="0"
+         stop-color="#698932"
+         id="stop20746" />
+      <stop
+         offset="1"
+         stop-color="#698932"
+         stop-opacity="0"
+         id="stop20748" />
+    </linearGradient>
+    <linearGradient
+       id="vscodeIconsFileTypeMarko0"
+       x1="14.834"
+       x2="14.834"
+       y1="16.002001"
+       y2="11.058"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.5714286,0,0,3.5714286,-7.142855,-7.1464285)">
+      <stop
+         offset="0"
+         stop-color="#8ac23e"
+         id="stop20741" />
+      <stop
+         offset="1"
+         stop-color="#8ac23e"
+         stop-opacity="0"
+         id="stop20743" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="namedview32486"
+     pagecolor="#181825"
+     bordercolor="#000000"
+     borderopacity="0.24705882"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#313244"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="-44.194174"
+     inkscape:cy="89.802561"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="SVGRoot"
+     showborder="false"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid32609" />
+  </sodipodi:namedview>
+  <path
+     d="M 79.554721,80.542854 97.210023,50.091515 79.068795,19.669739"
+     style="fill:none;fill-opacity:1;stroke:#f38ba8;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     id="path21587"
+     sodipodi:nodetypes="ccc" />
+  <path
+     d="M 20.346136,19.493449 2.7899798,49.767565 19.473427,80.38076"
+     style="fill:none;fill-opacity:1;stroke:#89b4fa;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     id="path21679"
+     sodipodi:nodetypes="ccc" />
+  <path
+     d="M 39.118874,49.576956 20.35133,19.457147"
+     style="fill:none;fill-opacity:1;stroke:#94e2d5;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     id="path21656"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="M 57.769032,19.507765 39.141883,49.60559"
+     style="fill:none;fill-opacity:1;stroke:#a6e3a1;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     id="path21633"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="M 58.173993,80.38076 75.829291,49.92954 57.75965,19.485668"
+     style="fill:none;fill-opacity:1;stroke:#f9e2af;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     id="path21610"
+     sodipodi:nodetypes="ccc" />
+</svg>

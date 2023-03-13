@@ -32,6 +32,7 @@ export const files: IconMap = {
   ],
   bash: ['commit-msg', 'pre-commit', 'pre-push', 'post-merge'],
   browserslist: ['browserslist', '.browserslistrc'],
+  capacitor: ['capacitor.config.json', 'capacitor.config.ts'],
   cargo: ['cargo.toml'],
   cargo_lock: ['cargo.lock'],
   changelog: [
@@ -50,6 +51,7 @@ export const files: IconMap = {
     'code_of_conduct',
   ],
   code_climate: ['.codeclimate.yml'],
+  codecov: ['.codecov.yml', 'codecov.yml'],
   codeowners: ['codeowners'],
   commitlint: [
     '.commitlintrc',
@@ -126,11 +128,24 @@ export const files: IconMap = {
     '.eslintcache',
   ],
   eslint_ignore: ['.eslintignore'],
+  favicon: ['favicon.ico'],
   firebase: [
     'firebase.json',
     '.firebaserc',
     'firestore.rules',
     'firestore.indexes.json',
+  ],
+  gatsby: [
+    'gatsby-config.js',
+    'gatsby-config.mjs',
+    'gatsby-config.ts',
+    'gatsby-node.js',
+    'gatsby-node.mjs',
+    'gatsby-node.ts',
+    'gatsby-browser.js',
+    'gatsby-browser.tsx',
+    'gatsby-ssr.js',
+    'gatsby-ssr.tsx',
   ],
   git: [
     '.gitignore',
@@ -161,6 +176,7 @@ export const files: IconMap = {
     'graphql.config.yaml',
     'graphql.config.yml',
   ],
+  helm: ['.helmignore'],
   javascript_config: ['jsconfig.json'],
   jest: [
     'jest.config.js',

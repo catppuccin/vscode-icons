@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100.0px"
+   height="100.0px"
+   viewBox="0 0 100.0 100.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="codecov.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8354">
+    <linearGradient
+       id="vscodeIconsFileTypeCapacitor0"
+       x1="3.8429999"
+       x2="28.148001"
+       y1="28.15"
+       y2="3.845"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.571771,0,0,3.571771,-7.1535818,-7.1501778)">
+      <stop
+         offset="0"
+         stop-color="#7ecefd"
+         id="stop2" />
+      <stop
+         offset="1"
+         stop-color="#56b1fc"
+         id="stop4" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="namedview32486"
+     pagecolor="#181825"
+     bordercolor="#000000"
+     borderopacity="0.24705882"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#313244"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="2.4359829"
+     inkscape:cx="-11.69959"
+     inkscape:cy="-11.904846"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="SVGRoot"
+     showborder="false"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid32609" />
+  </sodipodi:namedview>
+  <path
+     fill="none"
+     stroke="currentColor"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="10"
+     d="M 37.86844,54.81012 A 31.431578,31.431578 0 0 0 20.52631,49.625911 c -6.61579,0 -12.82106,1.784209 -17.89473,5.263156 a 47.368421,47.368421 0 1 1 94.73684,0 C 92.28421,51.394331 86.10527,49.625911 79.47369,49.625911 A 31.578945,31.578945 0 0 0 49.97367,92.489067"
+     id="path3769"
+     style="stroke-width:5;stroke-dasharray:none;stroke:#ff0077;stroke-opacity:1" />
+</svg>

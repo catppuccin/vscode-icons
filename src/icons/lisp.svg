@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100.0px"
+   height="100.0px"
+   viewBox="0 0 100.0 100.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="lisp.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8354">
+    <linearGradient
+       id="vscodeIconsFileTypeCapacitor0"
+       x1="3.8429999"
+       x2="28.148001"
+       y1="28.15"
+       y2="3.845"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.571771,0,0,3.571771,-7.1535818,-7.1501778)">
+      <stop
+         offset="0"
+         stop-color="#7ecefd"
+         id="stop2" />
+      <stop
+         offset="1"
+         stop-color="#56b1fc"
+         id="stop4" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="namedview32486"
+     pagecolor="#181825"
+     bordercolor="#000000"
+     borderopacity="0.24705882"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#313244"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="4.8719657"
+     inkscape:cx="6.0550508"
+     inkscape:cy="52.750782"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="SVGRoot"
+     showborder="false"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid32609" />
+  </sodipodi:namedview>
+  <path
+     fill="none"
+     stroke="currentColor"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="11.1111"
+     d="M 11.538461,97.337277 49.999998,44.08284 M 88.46154,97.337277 c -35.502962,0 -35.502962,-94.6745535 -71.005921,-94.6745535"
+     id="path18408"
+     style="stroke-width:5;stroke-dasharray:none;stroke:#3060b3;stroke-opacity:1" />
+</svg>
