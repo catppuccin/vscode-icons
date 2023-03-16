@@ -19,13 +19,13 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Lint files
-        run: pnpm run lint
+        run: yarn lint
 
       - name: Verify icons integrity
-        run: pnpm run integrity
+        run: yarnn integrity
 
       - name: Build themes
-        run: pnpm run build
+        run: yarn build
 
       - name: Package Extension
         id: packageExtension
