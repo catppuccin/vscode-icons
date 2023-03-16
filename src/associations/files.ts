@@ -84,6 +84,8 @@ export const files: IconMap = {
     'cypress.config.mjs',
   ],
   dart: ['.pubignore'],
+  deno: ['deno.json', 'deno.jsonc'],
+  deno_lock: ['deno.lock'],
   dependabot: ['dependabot.yml', 'dependabot.yaml'],
   docker: ['dockerfile', 'docker-compose.yml', 'docker-compose.yaml'],
   editorconfig: ['.editorconfig'],
