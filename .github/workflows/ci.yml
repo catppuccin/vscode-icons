@@ -22,7 +22,7 @@ jobs:
         run: yarn lint
 
       - name: Verify icons integrity
-        run: yarnn integrity
+        run: yarn integrity
 
       - name: Build themes
         run: yarn build
