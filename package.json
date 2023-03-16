@@ -51,12 +51,12 @@
     ]
   },
   "scripts": {
-    "build": "pnpm build:themes && pnpm build:preview",
+    "build": "yarn build:themes && yarn build:preview",
     "build:icons": "tsx scripts/icons.ts",
     "build:themes": "tsx scripts/themes.ts",
     "build:preview": "tsx scripts/preview.ts",
     "catwalk": "tsx scripts/catwalk.ts",
-    "dev": "chokidar \"src/**/*\" -c \"pnpm run build\"",
+    "dev": "chokidar \"src/**/*\" -c \"yarn build\"",
     "integrity": "tsx scripts/integrity.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
