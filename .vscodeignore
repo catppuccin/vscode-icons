@@ -10,5 +10,5 @@ src/
 .editorconfig
 .eslintrc
 .gitignore
-pnpm-lock.yaml
+yarn.lock
 tsconfig.json
