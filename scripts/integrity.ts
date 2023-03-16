@@ -1,4 +1,5 @@
 import { readdir } from 'node:fs/promises'
+import { exit } from 'node:process'
 import consola from 'consola'
 import { join, resolve } from 'pathe'
 import { filename } from 'pathe/utils'
@@ -73,3 +74,13 @@ if (missingEfolderIcons.length > 0) {
 else {
   consola.success('No missing expanded folder icons found.\n')
 }
+
+const missing = [
+  missingLangIcons,
+  missingExtIcons,
+  missingFileIcons,
+  missingFolderIcons,
+  missingEfolderIcons,
+].reduce((acc, cur) => acc + cur.length, 0)
+
+exit(missing)
