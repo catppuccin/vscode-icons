@@ -1,6 +1,6 @@
 {
-  "publisher": "prazdevs",
-  "name": "catppuccin-vscode-icons",
+  "publisher": "Catppuccin",
+  "name": "catppuccin-vsc-icons",
   "type": "module",
   "version": "0.4.0",
   "description": "🦌 Soothing pastel icon theme for VSCode",
