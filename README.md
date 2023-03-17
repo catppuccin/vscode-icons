@@ -36,7 +36,7 @@
 
 ## Usage
 
-1. Install the [icon theme extension](https://marketplace.visualstudio.com/items?itemName=prazdevs.catppuccin-vscode-icons)
+1. Install the [icon theme extension](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons)
 2. Press <key>CTRL</key> + <key>Shift</key> + <key>P</key> or <key>CMD</key> + <key>Shift</key> + <key>P</key>
 3. Type in `> File Icon Theme` and press enter
 4. Select your flavor and press enter
