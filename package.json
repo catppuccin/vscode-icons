@@ -3,13 +3,13 @@
   "name": "catppuccin-vsc-icons",
   "displayName": "Catppuccin Icons for VSCode",
   "type": "module",
-  "version": "0.4.0",
+  "version": "0.0.0",
   "description": "🦌 Soothing pastel icon theme for VSCode",
   "author": "prazdevs",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/prazdevs/catppuccin-vscode-icons"
+    "url": "https://github.com/catppuccin/vscode-icons"
   },
   "keywords": [
     "catppuccin",
