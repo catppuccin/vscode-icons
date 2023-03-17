@@ -22,7 +22,9 @@
     "vscode-extension"
   ],
   "icon": "logo.png",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "engines": {
     "vscode": "^1.69.0"
   },
@@ -60,7 +62,8 @@
     "integrity": "tsx scripts/integrity.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "package": "vsce package --no-dependencies -o dist"
+    "package": "vsce package --no-dependencies -o dist",
+    "release": "bumpp -t \"v%s\" -c \"chore: release v\""
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.2",
@@ -68,6 +71,7 @@
     "@types/fs-extra": "^11.0.1",
     "@types/node": "^18.14.0",
     "@vscode/vsce": "^2.18.0",
+    "bumpp": "^9.0.0",
     "chokidar-cli": "^3.0.0",
     "colorsea": "^1.1.0",
     "consola": "^2.15.3",
