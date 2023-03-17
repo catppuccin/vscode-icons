@@ -179,6 +179,7 @@ export const files: IconMap = {
     'graphql.config.yml',
   ],
   helm: ['.helmignore'],
+  heroku: ['procfile', 'procfile.windows'],
   javascript_config: ['jsconfig.json'],
   jest: [
     'jest.config.js',
