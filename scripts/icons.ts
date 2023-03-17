@@ -15,10 +15,14 @@ const { positionals, values } = parseArgs({
       type: 'boolean',
       short: 'a',
     },
+    new: {
+      type: 'boolean',
+      short: 'n',
+    },
   },
 })
 
-if (!positionals.length && !values.all) {
+if (!positionals.length && !values.all && !values.new) {
   consola.error('Missing icon name. Specify what icon(s) to build.')
   process.exit()
 }
@@ -29,11 +33,15 @@ if (values.all)
 const SOURCE = resolve(join('src', 'icons'))
 const DEST = resolve('icons')
 
+await ensureDir(DEST)
+
+const existing = await readdir(DEST)
+
 const icons = values.all
   ? await readdir(SOURCE)
-  : positionals.map(p => `${p}.svg`)
-
-await ensureDir(DEST)
+  : values.new
+    ? (await readdir(SOURCE)).filter(x => !existing.includes(x))
+    : positionals.map(p => `${p}.svg`)
 
 await Promise.all(icons.map(async (icon) => {
   const svg = await readFile(resolve(join(SOURCE, icon)), 'utf8')
