@@ -21,6 +21,7 @@
     "vscode-icons",
     "vscode-extension"
   ],
+  "categories": ["Themes"],
   "icon": "logo.png",
   "files": [
     "dist"
