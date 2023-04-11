@@ -371,6 +371,18 @@ export const files: IconMap = {
   stackblitz: ['.stackblitzrc'],
   stencil: ['stencil.config.js', 'stencil.config.ts'],
   stitches: ['stitches.config.js', 'stitches.config.ts'],
+  stylelint: [
+    '.stylelintrc',
+    'stylelint.config.js',
+    'stylelint.config.cjs',
+    '.stylelintrc.json',
+    '.stylelintrc.yaml',
+    '.stylelintrc.yml',
+    '.stylelintrc.js',
+    '.stylelintrc.cjs',
+    '.stylelintcache',
+  ],
+  stylelint_ignore: ['.stylelintignore'],
   tailwind: [
     'tailwind.js',
     'tailwind.ts',
