@@ -239,6 +239,7 @@ export const extensions: IconMap = {
   svelte: ['svelte'],
   svg: ['svg'],
   tauri: ['tauri'],
+  terraform: ['tf', 'tf.json', 'tfvars', 'tfstate'],
   toml: ['toml'],
   txt: ['txt'],
   typescript: ['ts'],

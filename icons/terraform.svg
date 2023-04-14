@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
+    <path fill="none" stroke="var(--ctp-mauve)" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.99979" d="M9.056 34.844 64.177 66.67l26.795-15.47M9.056 34.844 9.028 2.5l55.121 31.824 26.795-15.47.028 32.345" paint-order="fill markers stroke"/>
+    <path fill="none" stroke="var(--ctp-mauve)" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.99979" d="M64.302 34.39V97.5M36.578 19.47v63.11L64.302 97.5" paint-order="fill markers stroke"/>
+</svg>
