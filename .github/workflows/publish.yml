@@ -53,9 +53,3 @@ jobs:
           yarn: true
           pat: ${{ secrets.OPEN_VSX_TOKEN }}
           extensionFile: ${{ steps.packageExtension.outputs.vsixPath }}
-
-      - name: Create GH Release
-        uses: softprops/action-gh-release@v1
-        with:
-          files: |
-            *.vsix
