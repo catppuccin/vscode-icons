@@ -127,9 +127,8 @@ export const files: IconMap = {
     '.eslintrc-md.js',
     '.eslintrc-jsdoc.js',
     '.eslintrc',
-    '.eslintcache',
   ],
-  eslint_ignore: ['.eslintignore'],
+  eslint_ignore: ['.eslintignore', '.eslintcache'],
   favicon: ['favicon.ico'],
   firebase: [
     'firebase.json',
@@ -380,9 +379,8 @@ export const files: IconMap = {
     '.stylelintrc.yml',
     '.stylelintrc.js',
     '.stylelintrc.cjs',
-    '.stylelintcache',
   ],
-  stylelint_ignore: ['.stylelintignore'],
+  stylelint_ignore: ['.stylelintignore', '.stylelintcache'],
   tailwind: [
     'tailwind.js',
     'tailwind.ts',
