@@ -65,6 +65,7 @@ export const languages: IconMap = {
   shader: ['hlsl', 'glsl', 'wgsl'],
   svelte: ['svelte'],
   svg: ['svg'],
+  swift: ['swift'],
   toml: ['toml'],
   txt: ['plaintext'],
   typescript: ['typescript'],

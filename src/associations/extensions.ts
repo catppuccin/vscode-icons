@@ -238,6 +238,7 @@ export const extensions: IconMap = {
   storybook_vue: ['story.vue', 'stories.vue'],
   svelte: ['svelte'],
   svg: ['svg'],
+  swift: ['swift'],
   tauri: ['tauri'],
   terraform: ['tf', 'tf.json', 'tfvars', 'tfstate'],
   toml: ['toml'],
