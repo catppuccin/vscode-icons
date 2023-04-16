@@ -48,6 +48,7 @@ export const languages: IconMap = {
   lua: ['lua'],
   makefile: ['makefile'],
   markdown: ['markdown'],
+  nix: ['nix'],
   pdf: ['pdf'],
   perl: ['perl'],
   php: ['php'],

@@ -150,6 +150,7 @@ export const extensions: IconMap = {
   markdown_mdx: ['mdx'],
   marko: ['marko'],
   nginx: ['nginx', 'nginxconfig'],
+  nix: ['nix'],
   pdf: ['pdf'],
   perl: ['pm', 'raku'],
   php: ['php'],
