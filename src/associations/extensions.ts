@@ -309,4 +309,5 @@ export const extensions: IconMap = {
     'jrxml',
   ],
   yaml: ['yml', 'yaml'],
+  zig: ['zig'],
 }
