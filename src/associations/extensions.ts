@@ -149,6 +149,7 @@ export const extensions: IconMap = {
   markdown: ['md', 'markdown', 'rst'],
   markdown_mdx: ['mdx'],
   marko: ['marko'],
+  nextflow: ['nf'],
   nginx: ['nginx', 'nginxconfig'],
   nix: ['nix'],
   pdf: ['pdf'],
