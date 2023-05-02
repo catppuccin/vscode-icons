@@ -316,6 +316,12 @@ export const files: IconMap = {
     'playwright-ct.config.mjs',
     'playwright-ct.config.ts',
   ],
+  plop: [
+    'plopfile.js',
+    'plopfile.cjs',
+    'plopfile.mjs',
+    'plopfile.ts',
+  ],
   pnpm: ['pnpm-workspace.yaml', '.pnpmfile.cjs'],
   pnpm_lock: ['pnpm-lock.yaml'],
   prettier: [

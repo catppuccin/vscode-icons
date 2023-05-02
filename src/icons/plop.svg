@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100.0px"
+   height="100.0px"
+   viewBox="0 0 100.0 100.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="plop.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8354" />
+  <sodipodi:namedview
+     id="namedview32486"
+     pagecolor="#181825"
+     bordercolor="#000000"
+     borderopacity="0.24705882"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#313244"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="3.445"
+     inkscape:cx="3.9187228"
+     inkscape:cy="24.092888"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="SVGRoot"
+     showborder="false"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid32609" />
+  </sodipodi:namedview>
+  <path
+     d="m 19.080124,64.369273 c 1.3434,17.608067 13.100055,33.117667 30.752427,33.128148 h 0.33442 c 17.652848,-0.01049 29.409504,-15.520081 30.752428,-33.128148 0.03811,-0.494009 0.05669,-1.001834 0.05717,-1.522997 v -0.02095 C 80.972769,55.05075 76.820603,44.263057 68.703036,31.490277 64.478408,24.850299 60.224266,18.229146 55.940737,11.627011 54.539938,9.4658151 53.136196,7.3065261 51.729509,5.1491561 l -1.18095,-1.80835 -0.311081,-0.476382 -0.237713,-0.362051 -0.237239,0.362051 -0.311554,0.476382 -1.180479,1.808827 c -1.407028,2.157195 -2.811089,4.316323 -4.212178,6.4773779 -4.283206,6.60214 -8.53703,13.223292 -12.761347,19.863266 -8.1209,12.778973 -12.273531,23.570954 -12.273531,31.345523 0,0.524975 0.01905,1.036134 0.05716,1.533954 z"
+     clip-rule="evenodd"
+     fill="#00bfa5"
+     fill-rule="evenodd"
+     id="path2"
+     style="fill:none;stroke:#00bfa5;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     sodipodi:nodetypes="cccccccccccccccccscc" />
+</svg>
