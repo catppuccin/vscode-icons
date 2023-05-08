@@ -11,7 +11,7 @@ import { catppuccinVariants } from '@/palettes'
 const THEMES = resolve('themes')
 const PREVIEWS = resolve(join('assets', 'previews'))
 
-const generateHtml = (files: string[], folders: string[], flavor: keyof Variants<any>) => {
+function generateHtml(files: string[], folders: string[], flavor: keyof Variants<any>) {
   const tags = (iconfiles: string[]) => iconfiles.map(icon => `
     <div style="display: flex; align-items: center;">
       <img style="width: 25px; margin: 2px;" src="../../themes/${flavor}/icons/${icon}" />
@@ -40,7 +40,7 @@ const generateHtml = (files: string[], folders: string[], flavor: keyof Variants
   `
 }
 
-const generateIconOnlyHtml = (files: string[], folders: string[], flavor: keyof Variants<any>) => {
+function generateIconOnlyHtml(files: string[], folders: string[], flavor: keyof Variants<any>) {
   const tags = (icons: string[]) => icons.map(icon =>
     `<img style="width: 25px; margin: 2px;" src="../../themes/${flavor}/icons/${icon}" />`,
   ).reduce((a, c) => a + c, '')

@@ -1,5 +1,5 @@
 import { readFile, readdir, writeFile } from 'node:fs/promises'
-import { parseArgs } from 'util'
+import { parseArgs } from 'node:util'
 import consola from 'consola'
 import { ensureDir } from 'fs-extra'
 import { join, resolve } from 'pathe'
