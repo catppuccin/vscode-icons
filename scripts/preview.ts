@@ -82,7 +82,7 @@ await Promise.all(catppuccinVariants.map(async (flavor) => {
   const FILE_ICON_PREVIEW = join(PREVIEWS, `${flavor}-icons.html`)
   await writeFile(FILE_PREVIEW, generateHtml(fileIcons, folderIcons, flavor))
   await writeFile(FILE_ICON_PREVIEW, generateIconOnlyHtml(fileIcons, folderIcons, flavor))
-  const browser = await launch()
+  const browser = await launch({ headless: 'new' })
   const page = await browser.newPage()
   await page.setViewport({ height: 10, width: 1200 })
   await page.goto(join('file:', FILE_PREVIEW))
