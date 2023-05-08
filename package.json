@@ -69,22 +69,22 @@
     "release": "bumpp -t \"v%s\" -c \"chore: release v\""
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.35.2",
-    "@catppuccin/palette": "^0.1.6",
+    "@antfu/eslint-config": "^0.38.6",
+    "@catppuccin/palette": "^0.1.8",
     "@types/fs-extra": "^11.0.1",
-    "@types/node": "^18.14.0",
-    "@vscode/vsce": "^2.18.0",
-    "bumpp": "^9.0.0",
+    "@types/node": "^18.16.5",
+    "@vscode/vsce": "^2.19.0",
+    "bumpp": "^9.1.0",
     "chokidar-cli": "^3.0.0",
-    "colorsea": "^1.1.0",
-    "consola": "^2.15.3",
-    "eslint": "^8.34.0",
-    "fs-extra": "^11.1.0",
+    "colorsea": "^1.2.1",
+    "consola": "^3.1.0",
+    "eslint": "^8.40.0",
+    "fs-extra": "^11.1.1",
     "pathe": "^1.1.0",
-    "puppeteer": "^19.7.2",
+    "puppeteer": "^20.1.2",
     "scule": "^1.0.0",
     "svgo": "^3.0.2",
-    "tsx": "^3.12.3",
-    "typescript": "^4.9.5"
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
   }
 }
