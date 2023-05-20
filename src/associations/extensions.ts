@@ -152,6 +152,7 @@ export const extensions: IconMap = {
   nextflow: ['nf'],
   nginx: ['nginx', 'nginxconfig'],
   nix: ['nix'],
+  ocaml: ['ml', 'mli', 'cmx'],
   pdf: ['pdf'],
   perl: ['pm', 'raku'],
   php: ['php'],
