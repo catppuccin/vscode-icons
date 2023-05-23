@@ -45,6 +45,7 @@ export const files: IconMap = {
     'changes.rst',
     'changes.txt',
   ],
+  cmake: ['cmakelists.txt', 'cmakecache.txt'],
   code_of_conduct: [
     'code_of_conduct.md',
     'code_of_conduct.txt',
@@ -660,6 +661,7 @@ export const files: IconMap = {
     'windi.config.cts',
     'windi.config.json',
   ],
+  xmake: ['xmake.lua'],
   yaml: ['.yamllint', '.yamllint.yml', '.yamllint.yaml'],
   yarn: [
     '.yarnrc',

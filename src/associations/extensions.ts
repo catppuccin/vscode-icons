@@ -10,6 +10,7 @@ export const extensions: IconMap = {
   css_map: ['css.map'],
   certificate: ['cer', 'cert', 'crt', 'pfx'],
   clojure: ['clj', 'cljs', 'cljc'],
+  cmake: ['cmake'],
   coffeescript: ['coffee', 'cson', 'iced'],
   cpp: ['cc', 'cpp', 'cxx', 'c++', 'cp', 'mm', 'mii', 'ii'],
   csharp: ['cs', 'csx'],
