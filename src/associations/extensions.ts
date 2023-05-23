@@ -48,6 +48,7 @@ export const extensions: IconMap = {
   h: ['h'],
   handlebars: ['hbs', 'mustache'],
   haskell: ['hs'],
+  haxe: ['hx', 'hxml'],
   hpp: ['hh', 'hpp', 'hxx', 'h++', 'hp', 'tcc', 'inl'],
   html: ['htm', 'xhtml', 'html_vm', 'asp'],
   image: [
