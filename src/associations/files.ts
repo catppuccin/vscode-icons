@@ -285,6 +285,7 @@ export const files: IconMap = {
   lua: ['.luacheckrc'],
   makefile: ['makefile', 'gnumakefile', 'kbuild'],
   maven: ['maven.config', 'jvm.config', 'pom.xml'],
+  meson: ['meson.build', 'meson_options.txt'],
   netlify: [
     'netlify.json',
     'netlify.yml',
@@ -325,6 +326,7 @@ export const files: IconMap = {
   ],
   pnpm: ['pnpm-workspace.yaml', '.pnpmfile.cjs'],
   pnpm_lock: ['pnpm-lock.yaml'],
+  premake: ['premake4.lua', 'premake5.lua', 'premake.lua'],
   prettier: [
     '.prettierrc',
     'prettier.config.js',
