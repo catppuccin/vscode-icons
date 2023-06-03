@@ -34,6 +34,7 @@ export const languages: IconMap = {
   java: ['java'],
   javascript: ['javascript'],
   javascript_react: ['javascriptreact'],
+  jinja: ['jinja'],
   json: ['json', 'jsonc', 'json5'],
   julia: ['julia', 'juliamarkdown'],
   jupyter: ['jupyter'],

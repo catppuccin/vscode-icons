@@ -143,6 +143,7 @@ export const extensions: IconMap = {
     'jsx.snap',
     'cy.jsx',
   ],
+  jinja: ['jinja', 'jinja2', 'j2', 'jinja-html'],
   json: [
     'json',
     'jsonc',
