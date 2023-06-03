@@ -40,7 +40,7 @@
 ## Usage
 
 1. Install the [icon theme extension](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons)
-2. Press <key>CTRL</key> + <key>Shift</key> + <key>P</key> or <key>CMD</key> + <key>Shift</key> + <key>P</key>
+2. Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> or <kbd>CMD</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>
 3. Type in `> File Icon Theme` and press enter
 4. Select your flavor and press enter
 5. Enjoy!
