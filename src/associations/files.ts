@@ -310,6 +310,11 @@ export const files: IconMap = {
     '.esmrc',
     '.node-version',
   ],
+  panda: [
+    'panda.config.ts',
+    'panda.config.mjs',
+    'panda.config.js',
+  ],
   playwright: [
     'playwright.config.js',
     'playwright.config.mjs',
@@ -342,6 +347,10 @@ export const files: IconMap = {
   ],
   prettier_ignore: ['.prettierignore'],
   prisma: ['prisma.yml'],
+  properties: [
+    '.clang-format',
+    '.clang-tidy',
+  ],
   r: ['.Rhistory'],
   readme: ['readme.md', 'readme.rst', 'readme.txt', 'readme'],
   redwood: ['redwood.toml'],
