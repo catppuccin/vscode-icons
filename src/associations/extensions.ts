@@ -1,5 +1,6 @@
 export const extensions: IconMap = {
   angular: ['ng-template'],
+  apl: ['apl'],
   apple: ['applescript', 'ipa'],
   arduino: ['ino'],
   assembly: [
