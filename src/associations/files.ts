@@ -32,6 +32,7 @@ export const files: IconMap = {
   ],
   bash: ['commit-msg', 'pre-commit', 'pre-push', 'post-merge'],
   browserslist: ['browserslist', '.browserslistrc'],
+  caddy: ['Caddyfile'],
   capacitor: ['capacitor.config.json', 'capacitor.config.ts'],
   cargo: ['cargo.toml'],
   cargo_lock: ['cargo.lock'],
