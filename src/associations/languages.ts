@@ -21,6 +21,7 @@ export const languages: IconMap = {
   editorconfig: ['editorconfig'],
   elixir: ['elixir'],
   elm: ['elm'],
+  env: ['dotenv'],
   erlang: ['erlang'],
   fsharp: ['fsharp'],
   git: ['git', 'git-commit', 'git-rebase', 'ignore'],

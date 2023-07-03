@@ -55,6 +55,7 @@ export const extensions: IconMap = {
   docker_ignore: ['dockerignore'],
   elixir: ['ex', 'exs', 'eex', 'leex', 'heex'],
   elm: ['elm'],
+  env: ['env'],
   erlang: ['erl'],
   fsharp: ['fs', 'fsx', 'fsi', 'fsproj'],
   go: ['go'],

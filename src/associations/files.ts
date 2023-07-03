@@ -145,6 +145,7 @@ export const files: IconMap = {
   editorconfig: ['.editorconfig'],
   ember: ['.ember-cli', '.ember-cli.js', 'ember-cli-builds.js'],
   env: [
+    '.env',
     '.env.defaults',
     '.env.example',
     '.env.sample',
