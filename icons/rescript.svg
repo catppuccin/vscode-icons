@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
-    <path fill="none" stroke="var(--ctp-red)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="m16.667 3.062 66.666-.049c6.548-.005 13.89 7.342 13.89 13.889v66.667c0 6.437-7.452 13.418-13.89 13.418H16.667c-6.438 0-13.89-6.981-13.89-13.418V16.902c0-6.536 7.354-13.835 13.89-13.84z" paint-order="fill markers stroke"/>
-    <rect width="19.545" height="50.1" x="24.774" y="25.185" fill="none" stroke="var(--ctp-red)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" paint-order="fill markers stroke" rx="5.584" ry="5.33"/>
-    <circle cx="65.109" cy="35.15" r="9.91" fill="none" stroke="var(--ctp-red)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" paint-order="fill markers stroke"/>
-</svg>

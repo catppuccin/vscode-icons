@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
-    <path fill="none" stroke="var(--ctp-text)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M44.714 27.878v-2.974c0-7.56-7.295-7.56-7.295-7.56h-26.19c-8.729 0-8.729 9.047-8.729 9.047v48.21c0 7.436 7.773 8.056 7.773 8.056H40m54.627-37.656 1.939-7.332c1.833-8.827-7.31-9.543-7.31-9.543h-65.23s-4.886 1.207-6.747 5.588c-1.86 4.382-5.75 15.512-5.75 15.512" paint-order="fill markers stroke"/>
-    <path fill="none" stroke="var(--ctp-teal)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M79.958 53.004 51.032 81.929c-3.666 3.667-2.956 8.654-.415 11.195 2.667 2.667 7.08 4.236 11.463-.148l3.295-3.295 11.536-11.536L91.005 64.05" paint-order="fill markers stroke"/>
-    <path fill="none" stroke="var(--ctp-teal)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="m77.73 49.458 16.821 16.82" paint-order="fill markers stroke"/>
-    <path fill="none" stroke="var(--ctp-teal)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M71.669 82.54H51.517" paint-order="fill markers stroke"/>
-</svg>

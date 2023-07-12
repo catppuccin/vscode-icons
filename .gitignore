@@ -1,5 +1,6 @@
 dist/
 node_modules/
+icons/
 themes/
 .eslintcache
 .pnpm-debug.log*
