@@ -1,48 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="babel.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs8354" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="2.9825758"
-     inkscape:cx="-15.08763"
-     inkscape:cy="22.128524"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false"
-     showguides="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     id="path504"
-     style="fill:none;stroke:#f5da55;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="M 20.664742,20.898714 C 28.64385,15.988492 37.489463,9.7577585 46.965643,6.6625154 c 8.370933,-2.734233 17.547452,-5.317793 26.177081,-3.5633507 4.31522,0.8773036 9.130002,2.9514678 11.354893,6.7515528 2.068076,3.5322455 2.162092,8.6269985 0.306889,12.2755515 C 77.816417,35.869453 46.760717,48.43305 46.760717,48.43305 M 55.444999,5.1820582 13.82232,97.484179 c 0,0 44.417454,-15.57033 59.534325,-32.350692 3.143487,-3.489402 6.890273,-8.557705 5.40293,-13.012505 C 77.473977,48.270433 72.270889,46.616719 68.269004,45.935248 56.953813,44.008409 34.49027,52.622069 34.49027,52.622069" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>babel</title>
+    <g id="babel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4.44641454,4.0153366 C5.54994247,3.34313748 6.7732417,2.49008805 8.08381077,2.06636986 C9.24169219,1.69193716 10.5107701,1.33831387 11.7043339,1.57844366 C12.3011158,1.69850855 12.9670498,1.98258456 13.2747763,2.50282013 C13.560789,2.9863654 13.5737896,3.68389178 13.3172356,4.18331792 C12.3506287,6.06492784 8.05545844,7.78485402 8.05545844,7.78485402 M9.25649072,1.8637518 L3.5,14.5 C3.5,14.5 9.64318881,12.3684032 11.733931,10.0711524 C12.1686206,9.59335715 12.6868458,8.89952718 12.4811877,8.28961942 C12.3033287,7.76253865 11.5835945,7.53609927 11.03024,7.44273068 C9.46532982,7.17891648 6.35846788,8.35820838 6.35846788,8.35820838" id="Shape" stroke="#DF8E1D"></path>
+    </g>
 </svg>

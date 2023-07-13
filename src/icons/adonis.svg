@@ -1,54 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="adonis.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs8354" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="3.445"
-     inkscape:cx="5.6603774"
-     inkscape:cy="23.802612"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false"
-     showguides="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     d="m 12,3 c 7.2,0 9,1.8 9,9 0,7.2 -1.8,9 -9,9 C 4.8,21 3,19.2 3,12 3,4.8 4.8,3 12,3 Z"
-     id="path2759"
-     style="stroke-width:0.95;stroke-dasharray:none;stroke:#5a46ff;stroke-opacity:1;fill:none"
-     transform="matrix(5.2631579,0,0,5.2631579,-13.157895,-13.157895)" />
-  <path
-     d="M 8.863,16.922 C 10,16.5 10.5,16 12,16 c 1.5,0 2,0.5 3.138,0.922 0.713,0.264 1.516,-0.102 1.778,-0.772 0.126,-0.32 0.11,-0.673 -0.044,-0.983 L 13.164,7.693 C 12.867,7.095 12.106,6.834 11.464,7.11 a 1.24,1.24 0 0 0 -0.627,0.583 l -3.709,7.474 c -0.321,0.648 -0.017,1.415 0.679,1.714 0.332,0.143 0.715,0.167 1.056,0.04 z"
-     id="path2761"
-     style="stroke-width:0.95;stroke-dasharray:none;stroke:#5a46ff;stroke-opacity:1;fill:none"
-     transform="matrix(5.2631579,0,0,5.2631579,-13.157895,-13.157895)" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>adonis</title>
+    <g id="adonis" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(1.5, 1.5)" id="Path" stroke="#8839EF">
+            <path d="M6.5,0 C11.7,0 13,1.3 13,6.5 C13,11.7 11.7,13 6.5,13 C1.3,13 0,11.7 0,6.5 C0,1.3 1.3,0 6.5,0 Z"></path>
+            <path d="M6.5,9.38888889 C7.58333333,9.38888889 7.94444444,9.75 8.76633333,10.0547778 C9.28127778,10.2454444 9.86122222,9.98111111 10.0504444,9.49722222 C10.1414444,9.26611111 10.1298889,9.01116667 10.0186667,8.78727778 L7.34066667,3.38938889 C7.12616667,2.9575 6.57655556,2.769 6.11288889,2.96833333 C5.91674165,3.05047096 5.75622266,3.19972546 5.66005556,3.38938889 L2.98133333,8.78727778 C2.7495,9.25527778 2.96905556,9.80922222 3.47172222,10.0251667 C3.7115,10.1284444 3.98811111,10.1457778 4.23438889,10.0540556 C5.05555556,9.75 5.41666667,9.38888889 6.5,9.38888889 Z" stroke-linejoin="round"></path>
+        </g>
+    </g>
 </svg>

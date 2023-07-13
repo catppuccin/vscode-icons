@@ -1,52 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="arduino.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs8354" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="1.4912879"
-     inkscape:cx="145.51181"
-     inkscape:cy="59.009398"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false"
-     showguides="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     fill="none"
-     stroke="currentColor"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     d="M 54.54762,41.395329 A 22.333095,22.333095 0 1 1 59.429172,65.80309 C 50.251855,56.039976 49.05588,42.835371 40.586383,34.268251 a 22.308688,22.308688 0 1 0 0,31.534839 22.528357,22.528357 0 0 0 4.881552,-7.078276 M 30.457167,50.035671 H 18.546184 m 62.483848,0 H 69.119045 m 5.955503,5.931083 V 44.080167"
-     id="path32820"
-     style="stroke-width:4.994;stroke-dasharray:none;stroke:#00989d;stroke-opacity:1" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arduino</title>
+    <g id="arduino" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8.71789579,6.65496483 C9.31317949,5.23408607 10.7753206,4.36612316 12.3195432,4.51693837 C13.8637658,4.66775358 15.1270322,5.80189116 15.4313087,7.31062471 C15.7355851,8.81935826 15.009338,10.3479934 13.6423664,11.0760648 C12.2753948,11.8041362 10.5890657,11.5604786 9.48848357,10.4758704 C8.03966488,8.9475395 7.85084641,6.88038699 6.51364534,5.53928168 C5.5066091,4.53981055 3.99146275,4.2404263 2.67496668,4.78078072 C1.35847061,5.32113514 0.5,6.59476797 0.5,8.00757606 C0.5,9.42038415 1.35847061,10.694017 2.67496668,11.2343714 C3.99146275,11.7747258 5.5066091,11.4753416 6.51364534,10.4758704 C6.83992015,10.1590246 7.10160083,9.78283635 7.28439098,9.3678579 M5,8 L3,8 M12.8985831,8.00749779 L11.0182921,8.00749779 M12,9 L12,7" id="Path" stroke="#209FB5"></path>
+    </g>
 </svg>

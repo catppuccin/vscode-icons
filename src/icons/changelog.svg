@@ -1,52 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="changelog.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs8354" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="1.4912879"
-     inkscape:cx="144.17069"
-     inkscape:cy="59.679959"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false"
-     showguides="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     d="m 50,88.354766 c 23.61975,0 42.76726,-19.147519 42.76726,-42.767258 C 92.76726,21.967828 73.61975,2.8202485 50,2.8202485 c -23.61968,0 -42.76726,19.1475795 -42.76726,42.7672595 0,17.193725 10.14622,32.017736 24.77785,38.810942 M 50,88.354766 56.10961,79.529769 M 50,88.354766 56.10961,97.179751 M 66.24069,35.456408 50,51.697108 v -35.72959"
-     stroke="#0ea5e9"
-     stroke-width="4.90345"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     id="path81040"
-     style="fill:none;stroke:#0ea5e9;stroke-width:5;stroke-dasharray:none;stroke-opacity:1" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>changelog</title>
+    <g id="changelog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M2.31241474,6.00336067 C2.10956994,6.6324523 2,7.30343044 2,8 C2,11.5898509 4.91014913,14.5 8.5,14.5 C12.0898509,14.5 15,11.5898509 15,8 C15,4.41014913 12.0898509,1.5 8.5,1.5 C6.90925905,1.5 5.45198221,2.07142778 4.3222407,3.02021213" id="Path" stroke="#209FB5" stroke-linecap="round" stroke-linejoin="round" transform="translate(8.5, 8) rotate(-45) translate(-8.5, -8)"></path>
+        <line x1="2.00069592" y1="8" x2="3.5" y2="6.5" id="Line" stroke="#209FB5" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="0.500695915" y1="8" x2="2" y2="6.5" id="Line" stroke="#209FB5" stroke-linecap="round" stroke-linejoin="round" transform="translate(1.2503, 7.25) scale(-1, 1) translate(-1.2503, -7.25)"></line>
+        <rect id="Path" fill="#209FB5" x="8" y="4" width="1" height="5" rx="0.5"></rect>
+        <rect id="Path" fill="#209FB5" transform="translate(10, 8.5) rotate(-270) translate(-10, -8.5)" x="9.5" y="6.5" width="1" height="4" rx="0.5"></rect>
+    </g>
 </svg>
