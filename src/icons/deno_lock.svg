@@ -1,66 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="deno_lock.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs8354" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="5.939697"
-     inkscape:cx="19.277078"
-     inkscape:cy="50.844345"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false"
-     showguides="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     d="m 2.3740287,44.887517 c 0,23.479566 19.0339363,42.513468 42.5134863,42.513468 1.467472,0 2.917578,-0.07435 4.346757,-0.219492 0.714589,-0.07257 1.423947,-0.162838 2.127627,-0.270358 0.17592,-0.02688 0.351486,-0.05484 0.526689,-0.08387 M 87.181509,49.234276 c 0.145141,-1.429179 0.219492,-2.879286 0.219492,-4.346759 0,-23.479566 -19.033937,-42.5134677 -42.513486,-42.5134677 -23.47955,0 -42.5134863,19.0339017 -42.5134863,42.5134677"
-     id="path1665"
-     style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-     sodipodi:nodetypes="csssccssc" />
-  <path
-     d="M 51.831384,86.635271 44.887515,59.058679 C 32.374378,58.642991 21.268911,51.387356 21.268911,42.525657 c 0,-9.130952 10.576411,-16.533023 23.618604,-16.533023 13.042193,0 18.894882,4.723721 23.618603,14.171163 0.05669,0.113369 0.871527,2.729129 2.445707,7.84669"
-     id="path1667"
-     style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-     sodipodi:nodetypes="ccsssc" />
-  <circle
-     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     id="path6692"
-     cx="49.15847"
-     cy="38.090168"
-     r="2.2437673" />
-  <path
-     fill="none"
-     stroke="currentColor"
-     d="m 70.861229,73.821086 v -8.879591 a 8.8795921,8.8795921 0 0 1 17.759183,0 v 8.879591 m -23.678915,0 H 94.540144 A 2.9598638,2.9598638 0 0 1 97.5,76.780952 v 17.75918 A 2.9598638,2.9598638 0 0 1 94.540144,97.5 H 64.941497 a 2.9598638,2.9598638 0 0 1 -2.95986,-2.959868 v -17.75918 a 2.9598638,2.9598638 0 0 1 2.95986,-2.959866 z"
-     id="path28745"
-     style="stroke:#808080;stroke-width:5;stroke-dasharray:none;stroke-opacity:1" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>deno_lock</title>
+    <g id="deno_lock" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="deno" transform="translate(0.5, 0.5)">
+            <path d="M12,6 C12,3.85640649 10.8564063,1.87564436 9,0.803847584 C7.14359343,-0.267949195 4.85640636,-0.267949195 3,0.803847584 C1.14359346,1.87564436 0,3.85640649 0,6 C0,8.14359354 1.14359348,10.1243557 3,11.1961524 C4.22711588,11.9046281 5.64245848,12.1447895 6.9971858,11.9166364" id="Path" stroke="#4C4F69" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M7.16678736,11.0016169 C6.98157534,10.2605168 6.70375731,9.14886672 6.33333327,7.66666658 C4.56733331,7.60799992 3,6.58399994 3,5.33333329 C3,4.04466665 4.49266664,3 6.33333327,3 C8.17399991,3 9,3.66666665 9.66666655,5 C9.67748779,5.02164246 9.88408432,5.68946536 10.2868687,7.00326246" id="Path" stroke="#4C4F69" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" fill="#4C4F69" fill-rule="nonzero" cx="7" cy="5" r="1"></circle>
+        </g>
+        <g id="Lock" transform="translate(9.5018, 8.5011)" stroke="#8C8FA1">
+            <path d="M5.49667857,2.999493 C5.77266266,2.999493 5.99639197,3.22324661 5.99639197,3.49926067 L5.99639197,6.49769784 C5.99639197,6.77371191 5.77266266,6.99746551 5.49667857,6.99746551 L0.4997134,6.99746551 C0.22372931,6.99746551 0,6.77371191 0,6.49769784 L0,3.49909183 C0,3.22307777 0.22372931,2.99932416 0.4997134,2.99932416 L5.49667857,2.999493 Z" id="Path"></path>
+            <path d="M1.4991402,2.999493 L1.4991402,1.4997465 C1.4991402,0.671459379 2.17052666,-1.77635684e-15 2.99872384,-1.77635684e-15 C3.82692102,-1.77635684e-15 4.49830748,0.671459379 4.49830748,1.4997465 L4.49830748,2.999493" id="Path"></path>
+        </g>
+    </g>
 </svg>

@@ -10,26 +10,41 @@
 </p>
 
 <p align="center">
-	<img src="assets/preview.webp" srcset="assets/preview@2x.webp 2x"/>
+	<picture>
+    <source srcset="assets/preview@2x.webp 2x">
+    <img src="assets/preview.webp">
+  </picture>
 </p>
 
 ## Previews
 
 <details>
-<summary>🌻 Latte</summary>
-<img src="assets/previews/latte-icons.png" srcset="assets/previews/latte-icons@2x.png 2x"/>
+  <summary>🌻 Latte</summary>
+  <picture>
+    <source srcset="assets/previews/latte-icons@2x.png 2x">
+    <img src="assets/previews/latte-icons.png">
+  </picture>
 </details>
 <details>
-<summary>🪴 Frappé</summary>
-<img src="assets/previews/frappe-icons.png" srcset="assets/previews/frappe-icons@2x.png 2x"/>
+  <summary>🪴 Frappé</summary>
+  <picture>
+    <source srcset="assets/previews/frappe-icons@2x.png 2x">
+    <img src="assets/previews/frappe-icons.png">
+  </picture>
 </details>
 <details>
-<summary>🌺 Macchiato</summary>
-<img src="assets/previews/macchiato-icons.png" srcset="assets/previews/macchiato-icons@2x.png 2x"/>
+  <summary>🌺 Macchiato</summary>
+  <picture>
+    <source srcset="assets/previews/macchiato-icons@2x.png 2x">
+    <img src="assets/previews/macchiato-icons.png">
+  </picture>
 </details>
 <details>
-<summary>🌿 Mocha</summary>
-<img src="assets/previews/mocha-icons.png"srcset="assets/previews/mocha-icons@2x.png 2x"/>
+  <summary>🌿 Mocha</summary>
+  <picture>
+    <source srcset="assets/previews/mocha-icons@2x.png 2x">
+    <img src="assets/previews/mocha-icons.png">
+  </picture>
 </details>
 
 ## Usage

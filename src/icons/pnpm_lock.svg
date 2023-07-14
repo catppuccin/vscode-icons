@@ -1,63 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="pnpm_lock.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs44872" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="8.0000004"
-     inkscape:cx="70.874996"
-     inkscape:cy="46.999998"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     d="m 30.036437,62.121544 2.98e-4,-30.817556"
-     style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:4.51629;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     id="path1522" />
-  <path
-     id="path12855"
-     style="fill:none;fill-opacity:1;stroke:#f9ad00;stroke-width:4.51618;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="M 59.082229,30.468481 V 60.540519 M 88.073485,30.019093 2.3882805,30.018737 V 2.258092 H 88.193923 l 0,46.703558 M 58.985382,3.1903301 V 29.838503 M 30.036588,3.3320037 V 29.980178"
-     sodipodi:nodetypes="ccccccccccc" />
-  <path
-     id="path14369"
-     style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:4.51618;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="M 30.018878,60.836649 H 62.54815 M 52.44012,88.597689 H 2.258092 v -27.76109 l 27.760786,5e-5 m 0.01756,27.707513 2.97e-4,-27.637757 m 29.072155,4.182145 2.96e-4,-2.365117"
-     sodipodi:nodetypes="cccccccccc" />
-  <path
-     fill="none"
-     stroke="currentColor"
-     d="m 70.735012,73.694869 v -8.879591 a 8.8795921,8.8795921 0 0 1 17.759183,0 v 8.879591 m -23.678915,0 h 29.598647 a 2.9598638,2.9598638 0 0 1 2.959856,2.959866 v 17.75918 a 2.9598638,2.9598638 0 0 1 -2.959856,2.959868 H 64.81528 a 2.9598638,2.9598638 0 0 1 -2.959859,-2.959868 v -17.75918 a 2.9598638,2.9598638 0 0 1 2.959859,-2.959866 z"
-     id="path28745"
-     style="stroke:#808080;stroke-width:5;stroke-dasharray:none;stroke-opacity:1;stroke-linejoin:round" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pnpm_lock</title>
+    <g id="pnpm_lock" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <line x1="3.5" y1="0.5" x2="3.5" y2="3.5" id="Line-6" stroke="#DF8E1D" stroke-linecap="square"></line>
+        <line x1="6.5" y1="6.5" x2="6.5" y2="9.5" id="Line-2" stroke="#4C4F69" stroke-linecap="square"></line>
+        <line x1="3.5" y1="4.5" x2="3.5" y2="8.5" id="Line-3" stroke="#4C4F69" stroke-linecap="square"></line>
+        <line x1="6.5" y1="0.5" x2="6.5" y2="6.5" id="Line-5" stroke="#DF8E1D" stroke-linecap="square"></line>
+        <polyline id="Line-4" stroke="#DF8E1D" stroke-linecap="square" points="9.5 6 9.5 0.5 0.5 0.5 0.5 3.5 9.5 3.5"></polyline>
+        <polyline id="Path" stroke="#4C4F69" stroke-linecap="round" points="9.5 7.5 9.5 6.5 0.5 6.5 0.5 9.5 7.50174074 9.5"></polyline>
+        <g id="Lock" transform="translate(9.5, 8.5)" stroke="#8C8FA1">
+            <path d="M5.49820472,3 C5.77426543,3 5.99805686,3.22379143 5.99805686,3.49985214 L5.99805686,6.49879614 C5.99805686,6.77485686 5.77426543,6.99864829 5.49820472,6.99864829 L0.499852144,6.99864829 C0.223791428,6.99864829 0,6.77485686 0,6.49879614 L0,3.49968328 C0,3.22362256 0.223791428,2.99983113 0.499852144,2.99983113 L5.49820472,3 Z" id="Path"></path>
+            <path d="M1.49955643,3 L1.49955643,1.5 C1.49955643,0.671572875 2.17112931,0 2.99955643,0 C3.82798356,0 4.49955643,0.671572875 4.49955643,1.5 L4.49955643,3" id="Path"></path>
+        </g>
+    </g>
 </svg>

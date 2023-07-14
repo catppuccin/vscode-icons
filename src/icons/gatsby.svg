@@ -1,68 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="gatsby.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs8354">
-    <linearGradient
-       id="vscodeIconsFileTypeCapacitor0"
-       x1="3.8429999"
-       x2="28.148001"
-       y1="28.15"
-       y2="3.845"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(3.571771,0,0,3.571771,-7.1535818,-7.1501778)">
-      <stop
-         offset="0"
-         stop-color="#7ecefd"
-         id="stop2" />
-      <stop
-         offset="1"
-         stop-color="#56b1fc"
-         id="stop4" />
-    </linearGradient>
-  </defs>
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="2.4359829"
-     inkscape:cx="106.93835"
-     inkscape:cy="36.946073"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false"
-     showguides="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     fill="none"
-     stroke="currentColor"
-     d="M 74.209163,26.271176 A 33.911879,33.911879 0 0 0 17.653197,39.830505 L 60.175255,82.345778 A 33.92544,33.92544 0 0 0 83.734579,53.389831 H 60.175255 M 16.107434,56.779664 43.22611,83.898319 m 6.779654,13.559329 a 47.457648,47.457648 0 1 1 0,-94.9152956 47.457648,47.457648 0 0 1 0,94.9152956 z"
-     id="path9161"
-     style="stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke:#663399;stroke-opacity:1" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>gatsby</title>
+    <g id="gatsby" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M11.3150575,4.7900004 C10.1726072,3.62517302 8.50275463,3.14519852 6.91615112,3.5255996 C5.32954761,3.90600067 4.0588832,5.09098798 3.56882928,6.64722152 L9.39277888,12.4702124 C11.1644129,11.9120618 12.4334098,10.3524237 12.6196321,8.50430568 L9.39277888,8.50430568" id="Path" stroke="#8839EF"></path>
+        <line x1="3.35708416" y1="8.968611" x2="7.0715264" y2="12.6827793" id="Path" stroke="#8839EF"></line>
+        <path d="M8,14.5 C4.41014913,14.5 1.5,11.5898509 1.5,8 C1.5,4.41014913 4.41014913,1.5 8,1.5 C11.5898509,1.5 14.5,4.41014913 14.5,8 C14.5,11.5898509 11.5898509,14.5 8,14.5 Z" id="Path" stroke="#8839EF"></path>
+    </g>
 </svg>

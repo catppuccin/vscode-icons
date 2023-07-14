@@ -1,50 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="gitpod.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs8354" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="2.1089996"
-     inkscape:cx="21.811289"
-     inkscape:cy="35.087726"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false"
-     showguides="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     fill="url(#svgIDa)"
-     fill-rule="evenodd"
-     d="m 58.047741,7.5179481 a 9.353455,9.353455 0 0 1 -3.45027,12.7194799 l -27.62908,15.87999 a 2.3585802,2.3585802 0 0 0 -1.179292,2.0486 v 24.93356 a 2.3585802,2.3585802 0 0 0 1.179292,2.04858 l 21.87415,12.57124 a 2.3215168,2.3215168 0 0 0 2.32151,0 l 21.87078,-12.56449 a 2.3585802,2.3585802 0 0 0 1.17929,-2.0486 v -15.49924 l -19.66045,11.14598 a 9.235526,9.235526 0 0 1 -12.62514,-3.53787 9.353455,9.353455 0 0 1 3.51765,-12.69928 l 28.13112,-15.96421 a 12.857631,12.857631 0 0 1 19.1719,11.26054 v 27.18095 a 17.763479,17.763479 0 0 1 -8.88848,15.4049 l -25.10878,14.43114 a 17.554575,17.554575 0 0 1 -17.50404,0 L 16.13914,80.394708 A 17.763479,17.763479 0 0 1 7.2506622,64.989808 V 36.275788 A 17.760108,17.760108 0 0 1 16.13914,20.870878 L 45.402371,4.0508281 a 9.2422649,9.2422649 0 0 1 12.64537,3.46712 z"
-     id="path12239"
-     style="fill:none;stroke:#ffae33;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>gitpod</title>
+    <g id="gitpod" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8.69920093,3.26880103 L4.678008,5.79361722 C4.56682035,5.86077959 4.4984488,5.98496768 4.498739,6.11923583 L4.498739,10.0835788 C4.49848013,10.2178798 4.56691382,10.3420756 4.67816,10.4091974 L7.82399044,12.4080633 C7.9331903,12.4739502 8.06770294,12.4739502 8.1769028,12.4080633 L11.322277,10.4104694 C11.4335704,10.3433192 11.5020114,10.2190495 11.501698,10.0846918 L11.501698,7.5 L8.69235859,9.39243425 C8.36677825,9.58554691 7.98094224,9.63475802 7.62051509,9.5291416 C7.26008795,9.42352517 6.95489779,9.17182177 6.77270391,8.82991538 C6.39024339,8.11751264 6.62902688,7.21589334 7.30747028,6.8106984 L11.5848411,4.27268576 C12.1915757,3.91504431 12.9344536,3.92192924 13.5350304,4.29075994 C14.1356072,4.65959064 14.5031814,5.33466483 14.5000407,6.06295215 L14.5000407,10.3845535 C14.5009603,11.3949942 13.9856093,12.3289974 13.1485423,12.8338478 L9.33052023,15.1284414 C8.50665681,15.6238529 7.49302001,15.6238529 6.66915659,15.1284414 L2.85143858,12.8333708 C2.01437166,12.3285204 1.49902058,11.3945172 1.49998511,10.3840765 L1.49998511,5.81873819 C1.49892615,4.80827109 2.01430255,3.87422197 2.85143858,3.3694439 L7.30093205,0.695014857 C7.62554407,0.500186508 8.01107335,0.448816957 8.37203814,0.552296153 C8.73300293,0.65577535 9.03957514,0.905552358 9.22377983,1.24624519 C9.6099947,1.95674751 9.37574006,2.85986397 8.69920093,3.26880103 Z" id="Path" stroke="#FE640B"></path>
+    </g>
 </svg>

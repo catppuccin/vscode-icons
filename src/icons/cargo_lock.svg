@@ -4,13 +4,11 @@
     <g id="cargo_lock" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <path d="M15.0001479,11.5011828 C15.2762086,11.5011828 15.5,11.7249743 15.5,12.001035 L15.5,14.999979 C15.5,15.2760397 15.2762086,15.4998311 15.0001479,15.4998311 L10.0017953,15.4998311 C9.72573457,15.4998311 9.50194314,15.2760397 9.50194314,14.999979 L9.50194314,12.0008661 C9.50194314,11.7248054 9.72573457,11.501014 10.0017953,11.501014 L15.0001479,11.5011828 Z" id="Path" stroke="#8C8FA1"></path>
         <path d="M11.0014996,11.5011828 L11.0014996,10.0011828 C11.0014996,9.17275572 11.6730724,8.50118285 12.5014996,8.50118285 C13.3299267,8.50118285 14.0014996,9.17275572 14.0014996,10.0011828 L14.0014996,11.5011828" id="Path" stroke="#8C8FA1"></path>
-        <g id="cargo" transform="translate(0.5, 0.5)" stroke="#FE640B" stroke-linecap="round" stroke-linejoin="round">
-            <polyline id="Path" points="2.48981391e-13 5.5 6 8.49644181 12 4.99753926"></polyline>
-            <polyline id="Path" points="3 2.99709252 6 5 11.9984925 1.5"></polyline>
-            <line x1="3" y1="3.5" x2="3" y2="10.5" id="Path"></line>
-            <line x1="6" y1="4.99753926" x2="6" y2="12" id="Path"></line>
-            <polyline id="Path" points="5.99924627 2 9 3.5 9 6.5"></polyline>
-            <polyline id="Path" points="11.9984925 5 11.9984925 1.5 9.03846154 4.45597665e-16 3 3 3 3.99709252 2.48981391e-13 5.49753926 0 9.03846154 6 12"></polyline>
-        </g>
+        <polyline id="Path" stroke="#FE640B" stroke-linecap="round" stroke-linejoin="round" points="0.5 6 6.5 8.99644181 12.5 5.49753926"></polyline>
+        <polyline id="Path" stroke="#FE640B" stroke-linecap="round" stroke-linejoin="round" points="3.5 3.49709252 6.5 5.5 12.4984925 2"></polyline>
+        <line x1="3.5" y1="4" x2="3.5" y2="11" id="Path" stroke="#FE640B" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="6.5" y1="5.49753926" x2="6.5" y2="12.5" id="Path" stroke="#FE640B" stroke-linecap="round" stroke-linejoin="round"></line>
+        <polyline id="Path" stroke="#FE640B" stroke-linecap="round" stroke-linejoin="round" points="6.49924627 2.5 9.5 4 9.5 7"></polyline>
+        <polyline id="Path" stroke="#FE640B" stroke-linecap="round" stroke-linejoin="round" points="12.4984925 5.5 12.4984925 2 9.53846154 0.5 3.5 3.5 3.5 4.49709252 0.5 5.99753926 0.5 9.53846154 6.5 12.5"></polyline>
     </g>
 </svg>
