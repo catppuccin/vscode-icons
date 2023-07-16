@@ -182,6 +182,7 @@ export const files: IconMap = {
     '.eslintrc-md.js',
     '.eslintrc-jsdoc.js',
     '.eslintrc',
+    'eslint.config.js',
   ],
   eslint_ignore: ['.eslintignore', '.eslintcache'],
   favicon: ['favicon.ico'],
