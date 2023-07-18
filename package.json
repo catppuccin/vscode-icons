@@ -3,8 +3,8 @@
   "name": "catppuccin-perfect-icons",
   "displayName": "Catppuccin Perfect Icons",
   "type": "module",
-  "version": "0.21.1",
-  "description": "🐈 Catppuccin Icons but perfect (pixel) for non-retina display",
+  "version": "0.21.2",
+  "description": "🐈 Catppuccin (pixel) Perfect Icons for non-retina display",
   "author": "thang-nm",
   "license": "MIT",
   "repository": {

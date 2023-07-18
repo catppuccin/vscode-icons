@@ -1,16 +1,20 @@
 <h3 align="center">
-	<img src="https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/logo.png" width="100" alt="Logo"/><br/>
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin perfect pixel icons for <a href="https://code.visualstudio.com/">VSCode</a>
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+  <img src="https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/logo.png" width="100" alt="Logo"/><br/>
+  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+  <a href="https://github.com/thang-nm/Catppuccin-Perfect-Icons">Catppuccin Perfect Icons</a>
+  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
-  <a><img src="https://img.shields.io/github/directory-file-count/thang-nm/Catppuccin-Perfect-Icons/icons?label=icons&colorA=363a4f&colorB=eed49f&style=for-the-badge"></a>
+  (VSCode + non-retina display)
 </p>
 
 <p align="center">
-	<picture>
+  <a><img src="https://img.shields.io/github/directory-file-count/thang-nm/Catppuccin-Perfect-Icons/src/icons?label=icons&colorA=363a4f&colorB=eed49f&style=for-the-badge"></a>
+</p>
+
+<p align="center">
+  <picture>
     <source srcset="assets/preview@2x.webp 2x">
     <img src="assets/preview.webp">
   </picture>
@@ -58,9 +62,9 @@
 &nbsp;
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.png"/>
+  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.png"/>
 </p>
 
 <p align="center">
-	Redesign by <a href="https://github.com/thang-nm" target="_blank">thang-nm</a>
+  Redesign by <a href="https://github.com/thang-nm" target="_blank">thang-nm</a>
 </p>
