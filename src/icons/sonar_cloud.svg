@@ -1,58 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="sonar_cloud.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs8354" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="3.445"
-     inkscape:cx="7.5471698"
-     inkscape:cy="23.802612"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false"
-     showguides="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     style="fill:none;fill-opacity:1;stroke:#499cd2;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="m 2.774721,14.075055 c 58.019633,6.746468 78.259038,38.117547 82.644243,81.294948"
-     id="path4969"
-     sodipodi:nodetypes="cc" />
-  <path
-     style="fill:none;fill-opacity:1;stroke:#499cd2;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="m 37.181713,7.3285843 c 0,0 39.466842,9.1077347 57.007661,58.0196317"
-     id="path5067" />
-  <path
-     style="fill:none;fill-opacity:1;stroke:#499cd2;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="m 66.191528,4.6299968 c 0,0 24.624611,14.5049092 31.033751,35.0816382"
-     id="path5069"
-     sodipodi:nodetypes="cc" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>sonar_cloud</title>
+    <g id="sonar_cloud" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8.00239176,7.37923333 C7.31722556,6.82912441 6.44704834,6.5 5.5,6.5 C3.290861,6.5 1.5,8.290861 1.5,10.5 C1.5,12.709139 3.290861,14.5 5.5,14.5 C6.44651406,14.5 7.3162437,14.1712468 8.00123196,13.6216975" id="Path" stroke="#FE640B" fill-rule="nonzero"></path>
+        <path d="M8.00239176,7.37923333 C7.31722556,6.82912441 6.44704834,6.5 5.5,6.5 C3.290861,6.5 1.5,8.290861 1.5,10.5 C1.5,12.709139 3.290861,14.5 5.5,14.5 C6.44651406,14.5 7.3162437,14.1712468 8.00123196,13.6216975" id="Path" stroke="#FE640B" fill-rule="nonzero"></path>
+        <path d="M6.5,10.5 C6.5,12.709139 8.290861,14.5 10.5,14.5 C12.709139,14.5 14.5,12.709139 14.5,10.5 C14.5,8.81722032 13.460869,7.3771427 11.9892752,6.78643538" id="Path" stroke="#FE640B" fill-rule="nonzero"></path>
+        <path d="M9.49205595,10.2124472 C10.9621779,9.62104272 12,8.18171954 12,6.5 C12,4.290861 10.209139,2.5 8,2.5 C5.790861,2.5 4,4.290861 4,6.5 C4,6.59738468 4.00348014,6.69395653 4.01032285,6.78959797" id="Path" stroke="#FE640B" fill-rule="nonzero"></path>
+    </g>
 </svg>

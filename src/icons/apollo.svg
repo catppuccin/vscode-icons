@@ -1,73 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="apollo.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs8354" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="3.445"
-     inkscape:cx="56.458636"
-     inkscape:cy="31.640058"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false"
-     showguides="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     style="fill:none;stroke:#3f20ba;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     id="path6085"
-     sodipodi:type="arc"
-     sodipodi:cx="50.082455"
-     sodipodi:cy="49.877197"
-     sodipodi:rx="47.5"
-     sodipodi:ry="47.5"
-     sodipodi:start="6.0018085"
-     sodipodi:end="5.4900906"
-     sodipodi:arc-type="arc"
-     d="M 95.714472,36.687465 A 47.5,47.5 0 0 1 68.986173,93.453561 47.5,47.5 0 0 1 9.2739412,74.185945 47.5,47.5 0 0 1 20.76597,12.503493 47.5,47.5 0 0 1 83.410526,16.032114"
-     sodipodi:open="true" />
-  <circle
-     style="fill:none;stroke:#3f20ba;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     id="path6087"
-     cx="84.668083"
-     cy="17.754641"
-     r="2.5" />
-  <path
-     style="fill:none;stroke:#3f20ba;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="M 29.08754,70.545598 50.000001,22.786232 70.91246,70.51029"
-     id="path6143"
-     sodipodi:nodetypes="ccc" />
-  <path
-     style="fill:none;stroke:#3f20ba;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="m 36.322,56.533826 15.810996,0.121252"
-     id="path6241"
-     sodipodi:nodetypes="cc" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>apollo</title>
+    <g id="apollo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M14.2433266,6.1945517 C15.1511019,9.33491043 13.58513,12.6608431 10.5862232,13.9617917 C7.587355,15.2626908 4.08890323,14.1338027 2.41602869,11.3254153 C0.74308925,8.51701512 1.41639526,4.9030633 3.98844086,2.88553534 C6.56050355,0.868030628 10.2308176,1.07485015 12.559948,3.36853351" id="Path" stroke="#8839EF"></path>
+        <circle id="Path" stroke="#8839EF" cx="12.56" cy="3.37" r="1"></circle>
+        <polyline id="Path" stroke="#8839EF" points="4.98135556 10.4381232 8 4.57270329 11.0285907 10.4381232"></polyline>
+        <line x1="6" y1="8.5" x2="8.00497313" y2="8.5" id="Path" stroke="#8839EF"></line>
+    </g>
 </svg>

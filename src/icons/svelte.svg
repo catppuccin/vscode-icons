@@ -1,61 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="svelte.svg"
-   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="4.9254873"
-     inkscape:cx="49.436733"
-     inkscape:cy="47.50799"
-     inkscape:window-width="1432"
-     inkscape:window-height="760"
-     inkscape:window-x="0"
-     inkscape:window-y="38"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="SVGRoot"
-     showborder="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     style="fill:none;stroke:#ff3e00;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="m 85.323336,40.698505 c 0,0 10.101899,-14.367142 0.574183,-28.135051 C 76.369796,-1.2044546 60.44199,3.5678931 60.44199,3.5678931 c 0,0 -23.893181,12.6465899 -37.130606,21.6276249 -10.237152,7.347741 -16.2826612,16.444594 -7.464397,31.771554 8.818259,15.32696 33.302715,8.804166 33.302715,8.804166"
-     id="path23821"
-     sodipodi:nodetypes="czcczc" />
-  <path
-     style="fill:none;stroke:#ff3e00;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="m 14.676665,59.301494 c 0,0 -10.1019004,14.367142 -0.574184,28.13505 9.527723,13.767916 25.455529,8.995562 25.455529,8.995562 0,0 23.893181,-12.64659 37.130606,-21.627625 C 86.925768,67.45674 92.971273,58.359887 84.153014,43.032927 75.334754,27.705967 50.850298,34.228761 50.850298,34.228761"
-     id="path24240"
-     sodipodi:nodetypes="czcczc" />
-  <path
-     style="fill:none;stroke:#ff3e00;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="M 37.675849,42.415825 67.720748,23.874706"
-     id="path24242"
-     sodipodi:nodetypes="cc" />
-  <path
-     style="fill:none;stroke:#ff3e00;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="M 31.991704,76.520657 62.036614,57.979539"
-     id="path24244"
-     sodipodi:nodetypes="cc" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>svelte</title>
+    <g id="svelte" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12.8583551,6.72000722 C12.8583551,6.72000722 14.2477927,4.7426998 12.9374411,2.84796368 C11.626952,0.953365188 9.43620146,1.61008227 9.43620146,1.61008227 C9.43620146,1.61008227 6.14993815,3.35041005 4.32931003,4.58650242 C2.92102936,5.597588 2.08959498,6.84950654 3.30243011,8.95879042 C4.51526525,11.0680743 7.88295274,10.1703866 7.88295274,10.1703866" id="Path" stroke="#FE640B"></path>
+        <path d="M3.14164487,9.27999278 C3.14164487,9.27999278 1.75220729,11.2574378 3.06255889,13.1520363 C4.37304802,15.0466348 6.56379854,14.3899177 6.56379854,14.3899177 C6.56379854,14.3899177 9.85006185,12.6495899 11.67069,11.4134976 C13.0788331,10.402412 13.9102675,9.15049346 12.6974323,7.04120958 C11.4845972,4.9319257 8.11690971,5.82961336 8.11690971,5.82961336" id="Path" stroke="#FE640B"></path>
+        <line x1="6.30494667" y1="6.95629876" x2="10.4372237" y2="4.40470794" id="Path" stroke="#FE640B"></line>
+        <line x1="5.52316453" y1="11.6496515" x2="9.6555791" y2="9.0981983" id="Path" stroke="#FE640B"></line>
+    </g>
 </svg>

@@ -1,53 +1,59 @@
 <h3 align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
+	<img src="https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/logo.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin icons for <a href="https://code.visualstudio.com/">VSCode</a>
+	Catppuccin perfect pixel icons for <a href="https://code.visualstudio.com/">VSCode</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
-  <a><img src="https://img.shields.io/github/directory-file-count/catppuccin/vscode-icons/icons?label=icons&colorA=363a4f&colorB=eed49f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/vscode-icons/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/vscode-icons?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/vscode-icons/issues"><img src="https://img.shields.io/github/issues/catppuccin/vscode-icons?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/vscode-icons/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/vscode-icons?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+  <a><img src="https://img.shields.io/github/directory-file-count/thang-nm/Catppuccin-Perfect-Icons/icons?label=icons&colorA=363a4f&colorB=eed49f&style=for-the-badge"></a>
 </p>
 
-
-
 <p align="center">
-	<img src="assets/preview.webp"/>
+	<picture>
+    <source srcset="assets/preview@2x.webp 2x">
+    <img src="assets/preview.webp">
+  </picture>
 </p>
 
 ## Previews
 
 <details>
-<summary>🌻 Latte</summary>
-<img src="assets/previews/latte.png"/>
+  <summary>🌻 Latte</summary>
+  <picture>
+    <source srcset="assets/previews/latte-icons@2x.png 2x">
+    <img src="assets/previews/latte-icons.png">
+  </picture>
 </details>
 <details>
-<summary>🪴 Frappé</summary>
-<img src="assets/previews/frappe.png"/>
+  <summary>🪴 Frappé</summary>
+  <picture>
+    <source srcset="assets/previews/frappe-icons@2x.png 2x">
+    <img src="assets/previews/frappe-icons.png">
+  </picture>
 </details>
 <details>
-<summary>🌺 Macchiato</summary>
-<img src="assets/previews/macchiato.png"/>
+  <summary>🌺 Macchiato</summary>
+  <picture>
+    <source srcset="assets/previews/macchiato-icons@2x.png 2x">
+    <img src="assets/previews/macchiato-icons.png">
+  </picture>
 </details>
 <details>
-<summary>🌿 Mocha</summary>
-<img src="assets/previews/mocha.png"/>
+  <summary>🌿 Mocha</summary>
+  <picture>
+    <source srcset="assets/previews/mocha-icons@2x.png 2x">
+    <img src="assets/previews/mocha-icons.png">
+  </picture>
 </details>
 
 ## Usage
 
-1. Install the [icon theme extension](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons)
-2. Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> or <kbd>CMD</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>
+1. Install the [icon theme extension](https://marketplace.visualstudio.com/items?itemName=thang-nm.catppuccin-perfect-icons)
+2. Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> or <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>P</kbd>
 3. Type in `> File Icon Theme` and press enter
 4. Select your flavor and press enter
 5. Enjoy!
-
-## 💝 Thanks to
-
-- [PraZ](https://github.com/prazdevs)
 
 &nbsp;
 
@@ -56,9 +62,5 @@
 </p>
 
 <p align="center">
-	Copyright &copy; 2021-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
-</p>
-
-<p align="center">
-	<a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
+	Redesign by <a href="https://github.com/thang-nm" target="_blank">thang-nm</a>
 </p>

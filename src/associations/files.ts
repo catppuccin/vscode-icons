@@ -4,7 +4,7 @@ export const files: IconMap = {
   angular: ['angular-cli.json', '.angular-cli.json', 'angular.json'],
   apollo: ['apollo.config.js', 'apollo.config.ts'],
   appveyor: ['.appveyor.yml', 'appveyor.yml'],
-  astro: [
+  astro_config: [
     'astro.config.js',
     'astro.config.mjs',
     'astro.config.cjs',

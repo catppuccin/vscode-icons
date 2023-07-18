@@ -1,52 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="code_of_conduct.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs8354" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="4.2179991"
-     inkscape:cx="146.27789"
-     inkscape:cy="54.765303"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false"
-     showguides="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     d="M 89.303651,53.014716 50.043429,91.89804 10.783208,53.014716 A 26.173481,26.173481 0 1 1 50.043429,18.643701 26.173481,26.173481 0 1 1 89.303651,53.046125"
-     id="path61665"
-     style="fill:none;stroke:#b0204a;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
-  <path
-     d="M 50.043429,18.612293 32.805575,35.850148 a 5.2346962,5.2346962 0 0 0 0,7.40186 l 2.84244,2.84244 c 3.61194,3.61194 9.4748,3.61194 13.08674,0 l 5.234696,-5.234696 a 16.656803,16.656803 0 0 1 23.556133,0 L 89.303651,52.637818 M 52.660777,68.341907 63.13017,78.811299 M 65.747518,55.255166 76.21691,65.724559"
-     id="path61667"
-     style="fill:none;stroke:#b0204a;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>code_of_conduct</title>
+    <g id="code_of_conduct" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M13.4200833,8.93276311 L8.00595084,14.5 L2.59181841,8.93276311 C1.61851529,7.94905468 1.25955433,6.48130791 1.66293195,5.13466182 C2.06630956,3.78801573 3.16371463,2.79052196 4.50269673,2.55343839 C5.84167883,2.31635481 7.1954842,2.87983103 8.00595084,4.01155077 C8.81977338,2.88811378 10.1707163,2.33203661 11.5048931,2.57131078 C12.83907,2.81058495 13.932061,3.80496252 14.3357399,5.14674885 C14.7394188,6.48853519 14.3858835,7.95203038 13.4200833,8.93720166" id="Path" stroke="#D20F39"></path>
+        <path d="M8.00581294,4.00696904 L5.6287523,6.47509211 C5.3469504,6.76778384 5.3469504,7.24221284 5.6287523,7.53490456 L6.02067702,7.94181985 C6.51878823,8.45898313 7.32732258,8.45898313 7.82543379,7.94181985 L8.54722618,7.19241991 C8.97801399,6.74513819 9.5622974,6.49385651 10.1715349,6.49385651 C10.7807723,6.49385651 11.3650557,6.74513819 11.7958435,7.19241991 L13.4200833,8.87878455 M8.36670913,11.1272707 L9.81056971,12.626357 M10.1714659,9.25348452 L11.6151886,10.7525708" id="Shape" stroke="#D20F39"></path>
+    </g>
 </svg>

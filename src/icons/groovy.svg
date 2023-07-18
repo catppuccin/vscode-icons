@@ -1,53 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="groovy.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs44872" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="1.0544998"
-     inkscape:cx="0.94831693"
-     inkscape:cy="26.552874"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     fill="none"
-     stroke="#4298b8"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     stroke-width="5.53046"
-     d="m 75.104326,31.023542 c 2.66568,1.33284 3.63572,4.95087 10.42491,23.615055 6.78808,18.661976 -6.30472,29.517159 -6.30472,29.517159 0,0 -45.81874,17.900984 -45.81874,11.80642 -1.21227,-6.665307 -13.0917,-15.04395 -13.0917,-15.04395 0,0 -3.5594,-4.568158 0.39377,-5.475153 40.1102,-9.213743 47.24559,-13.378177 49.54848,-23.471262 M 45.768566,69.109593 C 13.362296,70.950129 12.381186,50.642289 12.554846,50.066015 19.988886,25.373632 58.456536,-1.4147983 69.042936,3.4099717 91.439076,14.021812 57.848186,61.349255 42.617306,58.827366 6.3319764,52.819077 56.921286,14.455402 56.921286,14.455402 c 14.62695,-8.9505003 -1.29413,27.803819 -7.51589,28.756164"
-     paint-order="fill markers stroke"
-     id="path69499"
-     style="stroke-width:5;stroke-dasharray:none" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>groovy</title>
+    <g id="groovy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M11.6832087,5.38161177 C12.0745341,5.56507259 12.2169143,6.06339184 13.2134288,8.63418477 C14.2097965,11.2045645 12.2881044,12.69966 12.2881044,12.69966 C12.2881044,12.69966 5.56247528,15.1650869 5.56247528,14.3257399 C5.38472022,13.4077471 3.64107667,12.2536794 3.64107667,12.2536794 C3.64107667,12.2536794 3.1185267,11.6245135 3.69876266,11.4995893 C9.58625681,10.2305143 10.6335585,9.65699261 10.9716014,8.26684994" id="Path" stroke="#209FB5"></path>
+        <path d="M7.37745571,10.627324 C2.62048961,10.8807534 2.47634802,8.08366458 2.50203516,8.00433017 C3.59322518,4.60341835 9.2397005,0.913817433 10.7935527,1.5782431 C14.0809204,3.03986939 9.15030923,9.55851327 6.91464671,9.21101203 C1.58860021,8.38364781 9.01424074,3.09950793 9.01424074,3.09950793 C11.1612459,1.86679447 8.82430263,6.92904593 7.91101446,7.06030581" id="Path" stroke="#209FB5"></path>
+    </g>
 </svg>

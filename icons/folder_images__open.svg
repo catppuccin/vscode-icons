@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
-    <path fill="none" stroke="var(--ctp-text)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M44.714 27.878v-2.974c0-7.56-7.295-7.56-7.295-7.56h-26.19c-8.729 0-8.729 9.047-8.729 9.047v48.21c0 7.436 7.773 8.056 7.773 8.056H40m54.627-37.656 1.939-7.332c1.833-8.827-7.31-9.543-7.31-9.543h-65.23s-4.886 1.207-6.747 5.588c-1.86 4.382-5.75 15.512-5.75 15.512" paint-order="fill markers stroke"/>
-    <circle cx="84.015" cy="66.289" r="2.481" fill="none" stroke="var(--ctp-yellow)" stroke-miterlimit="10" stroke-width="5"/>
-    <path fill="none" stroke="var(--ctp-green)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="m78.201 83.188-9.588-9.57a3.384 3.384 0 0 0-4.64-.137L51.127 84.902m18.613 8.461 13.045-13.044a3.384 3.384 0 0 1 4.559-.212l7.778 6.487"/>
-    <rect width="43.995" height="37.227" x="51.127" y="56.136" fill="none" stroke="var(--ctp-sapphire)" stroke-linejoin="round" stroke-width="5" rx="5.076" ry="5.076"/>
-</svg>

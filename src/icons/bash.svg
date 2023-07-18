@@ -1,62 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="bash.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="4.2179991"
-     inkscape:cx="73.731641"
-     inkscape:cy="37.458519"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     id="path3129"
-     style="fill:none;fill-opacity:1;stroke:#00d200;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="m 24.475489,79.796799 v 3.352806 M 25.31369,47.358394 25.22987,50.45974 m 6.621793,2.011684 c 0,0 -4.442529,-1.001119 -6.957073,-1.005842 -2.041916,-0.0038 -4.350193,0.393666 -5.867412,1.760224 -1.50753,1.357831 -2.776128,3.632981 -2.346965,5.615951 0.524088,2.421575 1.599809,3.442525 3.017526,4.610109 1.584655,1.305069 3.703481,1.861626 5.703983,2.322415 2.190621,0.50458 4.562627,1.087578 6.19848,2.622975 1.00218,0.940638 1.820357,2.313822 1.844044,3.688087 0.03124,1.812608 -0.92598,3.721252 -2.263144,4.94539 -1.355774,1.241175 -3.388198,1.516305 -5.196851,1.844043 -1.567304,0.284004 -3.191061,0.223546 -4.777749,0.08382 -1.304563,-0.114882 -3.855728,-0.754382 -3.855728,-0.754382"
-     sodipodi:nodetypes="cccccsasasaaaaac" />
-  <path
-     fill="none"
-     stroke="#00d200"
-     stroke-width="5"
-     d="m 16.602,91.486 c -3.976,0 -8.443,-4.449 -8.443,-8.424 V 32.516 c 0,-3.972 4.453,-8.425 8.424,-8.425 H 67.13 c 3.97,0 8.424,4.453 8.424,8.425 v 50.546 c 0,3.971 -4.453,8.424 -8.424,8.424 z"
-     id="path2"
-     style="stroke-width:4.43410018;stroke-dasharray:none"
-     transform="matrix(1.1276245,0,0,1.1276245,-6.381225,-6.381225)" />
-  <path
-     fill="none"
-     stroke="#00d200"
-     stroke-width="5"
-     d="M 10.976,26.903 24.565,13.181 c 2.18,-2.2 5.54,-4.667 8.638,-4.667 h 50.214 c 3.936,0 8.424,4.34 8.424,8.276 v 45.833 c 0,3.724 -1.71,7.64 -4.258,10.356 l -14.71,15.683"
-     id="path4"
-     style="stroke-width:4.43410018;stroke-dasharray:none"
-     transform="matrix(1.1276245,0,0,1.1276245,-6.381225,-6.381225)" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bash</title>
+    <g id="bash" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M2.00331627,15.5 C1.29537058,15.5 0.5,14.7078344 0.5,14.0000668 L0.5,5.00011128 C0.5,4.29287781 1.29287781,3.5 1.99993323,3.5 L11.0000668,3.5 C11.7069441,3.5 12.5,4.29287781 12.5,5.00011128 L12.5,14.0000668 C12.5,14.7071222 11.7071222,15.5 11.0000668,15.5 L2.00331627,15.5 Z" id="Path" stroke="#40A02B"></path>
+        <path d="M1.97128415,3.60280577 L4.24472407,1.28747047 C4.60943811,0.916260907 5.17156617,0.5 5.68986162,0.5 L14.0906647,0.5 C14.7491575,0.5 15.5,1.23229523 15.5,1.89642289 L15.5,9.62989924 C15.5,10.2582558 15.213917,10.9190088 14.7876365,11.3772839 L12.3266533,14.0235019" id="Path" stroke="#40A02B"></path>
+        <path d="M6,8.75 C6,8.05964406 5.4627417,7.5 4.8,7.5 L4.2,7.5 C3.5372583,7.5 3,8.05964406 3,8.75 C3,9.44035594 3.5372583,10 4.2,10 L4.8,10 C5.4627417,10 6,10.5596441 6,11.25 C6,11.9403559 5.4627417,12.5 4.8,12.5 L4.2,12.5 C3.5372583,12.5 3,11.9403559 3,11.25" id="Path" stroke="#40A02B" stroke-linecap="round" stroke-linejoin="round"></path>
+        <line x1="4.5" y1="6.5" x2="4.5" y2="7.5" id="Line" stroke="#40A02B" stroke-linecap="round"></line>
+        <line x1="4.5" y1="12.5" x2="4.5" y2="13.5" id="Line" stroke="#40A02B" stroke-linecap="round"></line>
+    </g>
 </svg>

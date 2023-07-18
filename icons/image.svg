@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
-    <circle cx="68.168" cy="31.832" r="7.267" fill="none" stroke="var(--ctp-yellow)" stroke-miterlimit="10" stroke-width="5"/>
-    <path fill="none" stroke="var(--ctp-green)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M60.9 68.12 40.313 47.57a7.267 7.267 0 0 0-9.963-.295L2.764 71.8M42.733 89.97l28.01-28.01a7.267 7.267 0 0 1 9.79-.454l16.703 13.93"/>
-    <rect width="94.473" height="79.939" x="2.764" y="10.031" fill="none" stroke="var(--ctp-sapphire)" stroke-linejoin="round" stroke-width="5" rx="10.901" ry="10.901"/>
-</svg>

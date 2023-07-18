@@ -1,71 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="commitlint.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs8354" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="4.2179991"
-     inkscape:cx="146.27789"
-     inkscape:cy="54.765303"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false"
-     showguides="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     style="fill:none;fill-opacity:1;stroke:#50b2dd;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     id="path14468"
-     sodipodi:type="arc"
-     sodipodi:cx="15.571316"
-     sodipodi:cy="45.272171"
-     sodipodi:rx="12.789401"
-     sodipodi:ry="14.081259"
-     sodipodi:start="1.0432769"
-     sodipodi:end="5.2478404"
-     sodipodi:arc-type="arc"
-     d="M 22.009392,57.439201 A 12.789401,14.081259 0 0 1 5.7630827,54.308998 12.789401,14.081259 0 0 1 5.8284944,36.149972 12.789401,14.081259 0 0 1 22.096843,33.161748"
-     sodipodi:open="true" />
-  <path
-     style="fill:none;fill-opacity:1;stroke:#50b2dd;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="m 31.646641,18.719336 h 9.329369 v 32.006927 c 0,0 -1.004701,8.755258 6.745862,8.611728 2.730824,0 5.597619,0 5.597619,0"
-     id="path14524"
-     sodipodi:nodetypes="ccccc" />
-  <path
-     style="fill:none;fill-opacity:1;stroke:#bd373a;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="M 66.667673,58.763877 H 97.239308"
-     id="path14526" />
-  <path
-     style="fill:none;fill-opacity:1;stroke:#bd373a;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="M 69.756394,81.280664 81.864482,69.172569 93.97257,81.280664"
-     id="path14528"
-     sodipodi:nodetypes="ccc" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>commitlint</title>
+    <g id="commitlint" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4.5,9.22807779 C3.75884119,9.71859168 2.46078972,9.5307702 1.91035549,8.78339803 C1.35985291,8.03606942 1.36363142,6.94674511 1.9193013,6.20436904 C2.47497001,5.46203361 3.76232042,5.28279157 4.5,5.77999884" id="Path" stroke="#209FB5"></path>
+        <path d="M5.5,4 L6.496645,4 L6.496645,8.40491672 C6.496645,8.40491672 6.35832859,9.51998641 7.425082,9.500168 L8.5,9.500168" id="Path" stroke="#209FB5"></path>
+        <line x1="10.5" y1="9.51116932" x2="14.5" y2="9.51116932" id="Path" stroke="#D20F39"></line>
+        <polyline id="Path" stroke="#D20F39" points="10.5 13.5 12.5 11.5010224 14.5 13.5"></polyline>
+    </g>
 </svg>

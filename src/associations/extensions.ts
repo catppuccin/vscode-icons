@@ -20,6 +20,7 @@ export const extensions: IconMap = {
   astro: ['astro'],
   bash: ['bash', 'sh', 'awk'],
   bat: ['bat'],
+  binary: ['bin'],
   c: ['c', 'i', 'mi'],
   css: ['css'],
   css_map: ['css.map'],

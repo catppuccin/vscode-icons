@@ -1,65 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="css_map.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs22695" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="2.9825758"
-     inkscape:cx="-35.707391"
-     inkscape:cy="41.910083"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     d="M 56.093576,12.689484 H 97.747743 L 90.198195,88.688273 60.000002,97.74773 29.801808,88.688273 28.858115,79.188424 28.622191,76.813462"
-     id="path22835"
-     style="fill:none;stroke:#2965f1;stroke-width:4.50456;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-     sodipodi:nodetypes="ccccccc" />
-  <path
-     d="M 57.731658,28.703587 H 82.648647 L 77.844114,75.350737 60.000002,79.643913 42.238431,75.350737 41.186527,63.625784 m 9.657382,-13.007368 h 26.661985"
-     id="path22837"
-     style="fill:none;stroke:#ffffff;stroke-width:4.50456;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-     sodipodi:nodetypes="cccccccc" />
-  <path
-     fill="currentColor"
-     d="M 25.248093,2.5 C 12.679838,2.5 2.5000309,12.685441 2.5000309,25.248048 c -0.0081,4.906552 1.577849,9.682964 4.518808,13.610437 L 21.610146,64.132124 c 0.08472,0.162934 0.16939,0.325074 0.273452,0.474301 l 0.03229,0.05567 0.01002,-0.0046 c 0.770721,1.073956 2.013579,1.70846 3.335455,1.702817 1.255134,0 2.348936,-0.571103 3.101532,-1.451145 l 0.0378,0.02167 0.144437,-0.250058 c 0.213005,-0.287163 0.401705,-0.593685 0.538028,-0.931668 L 43.378451,38.986749 c 3.00318,-3.949868 4.625941,-8.776779 4.618819,-13.738688 0,-12.562607 -10.179795,-22.74805 -22.748051,-22.74805 z"
-     id="path17414"
-     style="fill:none;stroke:#ea2d2e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-     sodipodi:nodetypes="cccccccccccccccc" />
-  <circle
-     style="fill:none;stroke:#ea2d2e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     id="path17976"
-     cx="25.249998"
-     cy="25.999998"
-     r="9.749999" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>css_map</title>
+    <g id="css_map" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polyline id="Path" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round" points="10 3.5 15.5 3.5 14.2307692 13.2962963 10 15 5.76923077 13.2962963 5.6017278 12.0034591"></polyline>
+        <polyline id="Path" stroke="#4C4F69" stroke-linecap="round" stroke-linejoin="round" points="9.46153846 5.5 12.5384615 5.5 12 10.9998124 10 12 8 10.9998124 7.95 10.4958597"></polyline>
+        <line x1="8.5" y1="8.5" x2="12.1153846" y2="8.5" id="Path" stroke="#4C4F69" stroke-linecap="round" stroke-linejoin="round"></line>
+        <g id="Marker" transform="translate(-0, 0)">
+            <rect id="Rectangle" x="0" y="0" width="8" height="11"></rect>
+            <path d="M0.5,4.06216337 C0.498807515,4.83047285 0.742799811,5.57839894 1.195276,6.19338561 L3.44013403,10.1511013 C3.45321147,10.1766259 3.46628891,10.2019938 3.48228954,10.2253261 L3.48721282,10.2340953 C3.60730759,10.4014763 3.79849422,10.5008435 4.00184856,10.5 C4.19493312,10.5 4.36340132,10.4107315 4.47909821,10.2729302 L4.48494459,10.276062 L4.50709931,10.2369139 C4.54067368,10.192158 4.5684899,10.1432178 4.58987182,10.091283 L6.78918959,6.21358603 C7.25130653,5.59507437 7.50103674,4.83919757 7.5,4.06216337 C7.5,2.09489335 5.81550266,0.5 3.88173385,0.5 C1.94796505,0.5 0.5,2.09489335 0.5,4.06216337 Z" id="Path" stroke="#D20F39" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" stroke="#D20F39" stroke-linecap="round" stroke-linejoin="round" cx="4.00001175" cy="4" r="1.5"></circle>
+        </g>
+    </g>
 </svg>

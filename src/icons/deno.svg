@@ -1,61 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="deno.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs8354" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="2.9698485"
-     inkscape:cx="-9.9331666"
-     inkscape:cy="94.280904"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false"
-     showguides="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     d="M 3,12 A 9,9 0 1 0 21,12 9,9 0 1 0 3,12"
-     id="path1665"
-     style="stroke-width:0.94999998;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1;fill:none;stroke-linejoin:round;stroke-linecap:round"
-     transform="matrix(5.263158,0,0,5.263158,-13.157896,-13.157896)" />
-  <path
-     d="M 13.47,20.882 12,15 C 9.351,14.912 7,13.376 7,11.5 7,9.567 9.239,8 12,8 c 2.761,0 4,1 5,3 0.024,0.048 0.69,2.215 2,6.5"
-     id="path1667"
-     style="stroke-width:0.95;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1;fill:none;stroke-linejoin:round;stroke-linecap:round"
-     sodipodi:nodetypes="ccsssc"
-     transform="matrix(5.263158,0,0,5.263158,-13.157896,-13.157896)" />
-  <circle
-     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     id="path6692"
-     cx="54.758686"
-     cy="42.426407"
-     r="2.5" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>deno</title>
+    <g id="deno" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M1.5,8 C1.5,10.3222265 2.73889296,12.4680522 4.74999997,13.6291653 C6.76110699,14.7902785 9.23889301,14.7902785 11.25,13.6291653 C13.261107,12.4680522 14.5,10.3222265 14.5,8 C14.5,5.67777377 13.2611071,3.5319481 11.25,2.3708349 C9.23889302,1.2097217 6.76110698,1.2097217 4.74999996,2.3708349 C2.73889294,3.5319481 1.5,5.67777377 1.5,8" id="Path" stroke="#4C4F69" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M9.17277778,13.8036667 L8.11111111,9.55555556 C6.19794444,9.492 4.5,8.38266667 4.5,7.02777778 C4.5,5.63172222 6.11705556,4.5 8.11111111,4.5 C10.1051667,4.5 11,5.22222222 11.7222222,6.66666667 C11.7395556,6.70133333 12.2205556,8.26638889 13.1666667,11.3611111" id="Path" stroke="#4C4F69" stroke-linecap="round" stroke-linejoin="round"></path>
+        <circle id="Oval" fill="#4C4F69" fill-rule="nonzero" cx="8.5" cy="6.5" r="1"></circle>
+    </g>
 </svg>

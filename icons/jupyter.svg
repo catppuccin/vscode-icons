@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
-    <path fill="none" stroke="var(--ctp-peach)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M15.482 61.22c4.523 6.144 7.549 8.999 13.887 13.352 6.355 4.37 13.886 6.74 21.818 6.74 7.932 0 15.484-2.37 21.819-6.74 6.355-4.353 8.613-6.458 13.136-12.602m0-23.906c-3.773-5.894-6.781-8.5-13.136-12.852-6.74-4.758-12.68-7.32-22.526-6.967-17.362 2.455-23.425 7.674-33.248 19.07"/>
-    <circle cx="17.125" cy="15.438" r="5" fill="var(--ctp-overlay1)" paint-order="fill markers stroke"/>
-    <circle cx="79" cy="8.75" r="5" fill="var(--ctp-overlay1)" paint-order="fill markers stroke"/>
-    <circle cx="22.875" cy="90.125" r="5" fill="var(--ctp-overlay1)" paint-order="fill markers stroke"/>
-</svg>

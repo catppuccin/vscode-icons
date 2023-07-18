@@ -1,58 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="cmake.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs8354" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="-5.8336309"
-     inkscape:cy="24.04163"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false"
-     showguides="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     fill="currentColor"
-     d="M 34.694379,75.271264 9.0092694,97.159684 H 88.040479 Z"
-     id="path6494"
-     style="fill:none;fill-opacity:1;stroke:#249847;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-     sodipodi:nodetypes="cccc" />
-  <path
-     d="m 57.081953,2.494771 40.41832,80.38613 -34.70031,-14.21564 -5.71801,-66.17066 z"
-     style="fill:none;fill-opacity:1;stroke:#be2128;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-     id="path6745" />
-  <path
-     d="M 2.5,81.566361 45.858409,44.641009 42.211549,2.4993492 2.5,81.566531 Z"
-     style="fill:none;fill-opacity:1;stroke:#064f8c;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-     id="path8399" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cmake</title>
+    <g id="cmake" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <polygon id="Path" stroke="#40A02B" points="5.90549474 11.4940633 2.39084211 14.5 13.2054737 14.5"></polygon>
+        <polygon id="Path" stroke="#D20F39" points="8.96911579 1.5 14.5 12.5389796 9.75157895 10.5868853"></polygon>
+        <polygon id="Path" stroke="#1E66F5" points="1.5 12.3585327 7.4332 7.28775683 6.93427368 1.50054931 1.5 12.35867"></polygon>
+    </g>
 </svg>

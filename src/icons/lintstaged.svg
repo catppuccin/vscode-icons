@@ -1,59 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="stagedlint.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs8354" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="4.8719657"
-     inkscape:cx="32.53307"
-     inkscape:cy="32.430442"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false"
-     showguides="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     id="path8310-2"
-     style="fill:none;fill-opacity:1;stroke:#934f06;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="m 25.796423,51.473823 c -0.09114,0.09873 0.935105,1.515545 2.772716,2.612003 0.918806,0.548229 2.040454,1.016369 3.326692,1.199618 m 3.263821,-21.395749 c -0.182277,0.197467 4.104972,5.667244 10.413643,3.301887 M 20.909404,67.903006 c -0.167674,-0.47363 -0.318056,-0.967014 -0.442783,-1.47613 -0.99782,-4.072933 -0.353774,-9.152758 6.213715,-13.180334 -4.862119,-8.92598 4.862119,-18.650217 8.272859,-18.940493 1.741655,-0.07257 -1.233671,-20.464442 20.754717,-17.198839 m 2.521326,11.050085 C 57.064828,27.112866 51.180232,24.222657 55.71454,17.962351 m 15.668263,32.417718 c 0,0 0.70755,-2.449203 0.09525,-5.451742 -0.153075,-0.750635 -0.388641,-1.535853 -0.738375,-2.326033 M 38.418365,73.565846 h 1.578375 3.156749 6.313498 25.253991 c 4.433296,0.492588 14.785968,-12.026232 -3.120465,-23.512337 -4.078385,4.656464 -8.15433,8.804034 -15.20977,7.723208"
-     sodipodi:nodetypes="csccccsccccccscccccccc" />
-  <circle
-     style="fill:none;fill-opacity:1;stroke:#f80000;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     id="path6367"
-     cx="50"
-     cy="50"
-     r="47.5" />
-  <path
-     style="fill:none;fill-opacity:1;stroke:#f80000;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="M 16.420477,83.949688 83.949688,16.420477"
-     id="path6370" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>lintstaged</title>
+    <g id="lintstaged" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4.277874,8.20170526 C4.26555821,8.21525263 4.40595805,8.40902105 4.657337,8.55913684 C4.79670235,8.64352631 4.95146435,8.69934657 5.112611,8.72334737" id="Path" stroke="#FE640B"></path>
+        <path d="M5.559263,5.79547368 C5.53422089,5.82243158 6.121,6.57095789 6.9842,6.24732632" id="Path" stroke="#FE640B"></path>
+        <path d="M3.609263,10.4498842 C3.58575065,10.3836071 3.5655643,10.3161968 3.548779,10.2479053 C3.41221058,9.69054737 3.50033689,8.99538947 4.398979,8.44432632 C3.73365268,7.22287368 5.06430558,5.89222105 5.531074,5.8524 C5.76945295,5.84241053 5.36234779,3.05206316 8.371232,3.49885263" id="Path" stroke="#FE640B"></path>
+        <path d="M8.716211,5.01095789 C8.55692679,4.86809474 7.75161005,4.47262105 8.372189,3.61585263" id="Path" stroke="#FE640B"></path>
+        <path d="M10.9260947,8.332 C10.9260947,8.332 11.0228421,7.996737 10.9390947,7.585937 C10.9169827,7.47651399 10.8831234,7.36979732 10.8381053,7.267642" id="Path" stroke="#FE640B"></path>
+        <path d="M6.41509474,11.504821 L11.3828737,11.504821 C11.9894947,11.5721473 13.4062211,9.85915742 10.9559263,8.287389 C10.3977474,8.92452584 9.83997895,9.49214732 8.87455789,9.344221" id="Path" stroke="#FE640B"></path>
+        <circle id="Oval" stroke="#D20F39" cx="8" cy="8" r="6.5"></circle>
+        <line x1="3.40484211" y1="12.6457895" x2="12.6457895" y2="3.40484211" id="Path" stroke="#D20F39"></line>
+    </g>
 </svg>

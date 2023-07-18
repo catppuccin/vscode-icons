@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
-    <path fill="none" stroke="var(--ctp-text)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M44.714 27.878v-2.974c0-7.56-7.295-7.56-7.295-7.56h-26.19c-8.729 0-8.729 9.047-8.729 9.047v48.21c0 7.436 7.773 8.056 7.773 8.056H40m54.627-37.656 1.939-7.332c1.833-8.827-7.31-9.543-7.31-9.543h-65.23s-4.886 1.207-6.747 5.588c-1.86 4.382-5.75 15.512-5.75 15.512" paint-order="fill markers stroke"/>
-    <rect width="32.357" height="32.357" x="59.036" y="61.216" fill="none" stroke="var(--ctp-maroon)" stroke-width="5" rx="5.393"/>
-    <path fill="none" stroke="var(--ctp-maroon)" stroke-width="5" d="M80.608 61.216v-5.393a5.393 5.393 0 0 0-5.393-5.393H53.644a5.393 5.393 0 0 0-5.393 5.393v21.571a5.393 5.393 0 0 0 5.393 5.393h5.392"/>
-</svg>

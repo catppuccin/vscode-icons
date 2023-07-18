@@ -44,6 +44,8 @@ const icons = values.all
     : positionals.map(p => `${p}.svg`)
 
 await Promise.all(icons.map(async (icon) => {
+  if (icon === '.DS_Store')
+    return null
   const svg = await readFile(resolve(join(SOURCE, icon)), 'utf8')
   const catppuccinized = catppuccinizeSvg(svg)
   const optimized = optimizeSvg(catppuccinized)

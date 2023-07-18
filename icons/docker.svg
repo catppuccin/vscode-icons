@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
-    <path fill="none" stroke="var(--ctp-blue)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M3.298 46.546h65.091l6.282-2.28c-2.032-7.105-1.335-14.21 1.548-21.317 6.312 3.801 3.854 13.056 8.543 13.857 4.795-.569 7.419-1.03 12.214 2.239 0 0-4.793 9.376-14.384 10.765C70.5 73.164 52.265 88.07 37.566 86.95-2.313 83.916 3.298 46.546 3.298 46.546Z"/>
-    <path fill="none" stroke="var(--ctp-blue)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M22.684 16.488H52.684V31.488H22.684z" paint-order="fill markers stroke"/>
-    <path fill="none" stroke="var(--ctp-blue)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M37.684 16.488v15" paint-order="fill markers stroke"/>
-    <path fill="none" stroke="var(--ctp-blue)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M15.199 31.532H60.199V46.532H15.199z" paint-order="fill markers stroke"/>
-    <path fill="none" stroke="var(--ctp-blue)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M30.184 31.488v15M45.184 31.488v15" paint-order="fill markers stroke"/>
-</svg>

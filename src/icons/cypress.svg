@@ -1,48 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="cypress.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs8354" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="1.4912879"
-     inkscape:cx="65.71501"
-     inkscape:cy="14.752349"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false"
-     showguides="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     id="path7902"
-     style="fill:none;stroke:#04c38e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke"
-     d="M 47.810756,57.744661 A 14.935991,14.817452 0 0 1 31.240678,64.757482 14.935991,14.817452 0 0 1 19.922299,50.853314 14.935991,14.817452 0 0 1 30.321333,36.259615 14.935991,14.817452 0 0 1 47.309507,42.206959 M 68.278819,65.789487 55.002382,36.273 m -5.026531,61.236004 c 2.685146,-0.349017 3.854066,-0.537857 5.34743,-1.533825 0.915613,-0.775219 1.789314,-2.053359 2.202006,-3.163858 L 80.962558,36.273 M 49.733974,97.505195 A 47.505939,47.505939 0 0 1 3.0417286,57.192707 47.505939,47.505939 0 0 1 35.526821,4.7524435 47.505939,47.505939 0 0 1 92.415448,28.605045 47.505939,47.505939 0 0 1 77.786488,88.532134" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cypress</title>
+    <g id="cypress" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M7.5,9.39328462 C7.02379845,10.2664421 6.05354515,10.7012197 5.12400605,10.4579848 C4.19445152,10.214734 3.53172338,9.35261329 3.50110324,8.34680521 C3.47049495,7.34096959 4.07947542,6.43611831 4.99237283,6.13100805 C5.9052158,5.82585073 6.89994737,6.19459407 7.42830435,7.03399891" id="Path" stroke="#40A02B"></path>
+        <line x1="10.5" y1="10.0018311" x2="8.5" y2="6" id="Path" stroke="#40A02B"></line>
+        <path d="M7.99671558,14.5002368 C8.3640616,14.4524886 8.52399735,14.4266308 8.7282609,14.2903639 C8.85358267,14.1843329 8.97315824,14.0094844 9.02952568,13.8574839 L12.5,6" id="Path" stroke="#40A02B"></path>
+        <path d="M7.96360655,14.4996895 C4.76790175,14.4817788 2.05937394,12.1433445 1.57547976,8.98443707 C1.0916378,5.82550562 2.97604437,2.78353914 6.01988777,1.80990248 C9.06370709,0.836310827 12.3636792,2.21992312 13.8029717,5.07319384 C15.2422283,7.9265387 14.3936202,11.4028211 11.8015174,13.2720561" id="Path" stroke="#40A02B"></path>
+    </g>
 </svg>

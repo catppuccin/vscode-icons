@@ -1,73 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="dependabot.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs8354" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="2.4359829"
-     inkscape:cx="102.01221"
-     inkscape:cy="47.208871"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false"
-     showguides="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <rect
-     style="fill:none;fill-opacity:1;stroke:#0366d6;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
-     id="rect998"
-     width="78.664719"
-     height="66.037735"
-     x="10.667641"
-     y="25.062437"
-     rx="7"
-     ry="7" />
-  <path
-     style="fill:none;fill-opacity:1;stroke:#0366d6;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
-     d="M 36.574746,49.59074 V 65.991321"
-     id="path1106" />
-  <path
-     style="fill:none;fill-opacity:1;stroke:#0366d6;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
-     d="M 63.570392,49.59074 V 65.991321"
-     id="path1162" />
-  <path
-     style="fill:none;fill-opacity:1;stroke:#0366d6;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
-     d="m 2.5,57.01038 h 7.692308"
-     id="path1164" />
-  <path
-     style="fill:none;fill-opacity:1;stroke:#0366d6;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
-     d="M 89.807692,57.01038 H 97.5"
-     id="path1166" />
-  <path
-     style="fill:none;fill-opacity:1;stroke:#0366d6;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:fill markers stroke"
-     d="M 50.903478,24.601908 V 8.8998276 H 40.435424"
-     id="path1168" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>dependabot</title>
+    <g id="dependabot" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="13.5" y1="8.5" x2="15" y2="8.5" id="Line" stroke="#1E66F5"></line>
+        <line x1="6.5" y1="7.5" x2="6.5" y2="9.5" id="Line-3" stroke="#1E66F5"></line>
+        <line x1="9.5" y1="7.5" x2="9.5" y2="9.5" id="Line-4" stroke="#1E66F5"></line>
+        <line x1="2.5" y1="8.5" x2="1" y2="8.5" id="Line-2" stroke="#1E66F5"></line>
+        <polyline id="Line-5" stroke="#1E66F5" points="8 4.5 8 1.5 6.01923856 1.5"></polyline>
+        <path d="M3.5,4.5 L12.5,4.5 C13.0522847,4.5 13.5,4.94771525 13.5,5.5 L13.5,12.5 C13.5,13.0522847 13.0522847,13.5 12.5,13.5 L3.5,13.5 C2.94771525,13.5 2.5,13.0522847 2.5,12.5 L2.5,5.5 C2.5,4.94771525 2.94771525,4.5 3.5,4.5 Z" id="Rectangle" stroke="#1E66F5"></path>
+    </g>
 </svg>

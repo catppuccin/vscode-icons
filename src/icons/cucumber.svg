@@ -1,52 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="cucumber.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs22695" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="5.9651516"
-     inkscape:cx="49.621539"
-     inkscape:cy="45.765811"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     fill="none"
-     stroke="#23d96c"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     stroke-width="5.59597"
-     d="M 91.940979,44.798192 C 91.888379,73.69579 68.488259,97.149628 39.589545,97.20223 V 85.370107 l -0.05148,-0.05148 C 17.13179,79.506648 3.6242331,56.681797 9.3836071,34.275526 A 41.88585,41.88585 0 0 1 60.374109,4.1210723 c 18.47901,4.76441 31.56575,21.6217157 31.56575,40.7308407 z M 42.20734,29.145139 39.589545,23.909548 m 18.323454,36.6469 2.61779,5.234472 M 34.353953,52.703061 29.118362,55.320857 m 15.705655,5.235591 -2.617796,5.234472 m 13.087858,-36.645781 2.6178,-5.235591 m 13.08786,28.793513 -5.23559,-2.617795 M 34.353953,39.615202 29.118362,36.997407"
-     id="path26633"
-     style="stroke-width:5;stroke-dasharray:none" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cucumber</title>
+    <g id="cucumber" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M14,7.2832467 C13.9924182,11.2628997 10.6449915,14.4928389 6.51106249,14.5 L6.51106249,12.8705705 L6.50362376,12.8635471 C3.29839112,12.0631545 1.36603896,8.91983735 2.19002093,5.83422223 C2.58514136,4.35227698 3.5756533,3.08215676 4.94361856,2.30332081 C6.31158381,1.52448487 7.94492471,1.30074339 9.48426409,1.68132527 C12.1278729,2.33739375 13.9998569,4.65897278 13.9998569,7.29040782 L14,7.2832467 Z M6.88543068,5.12761279 L6.51106249,4.40668112 M9.13221207,9.45334056 L9.50672332,10.1742722 M5.76203999,8.37187419 L5.01301749,8.73240888 M7.25979888,9.45334056 L6.88528763,10.1742722 M8.75755777,5.12761279 L9.13206902,4.40668112 M11.0043392,8.37187419 L10.2553167,8.01133949 M5.76203999,6.56947614 L5.01301749,6.20894145" id="Shape" stroke="#40A02B"></path>
+    </g>
 </svg>
