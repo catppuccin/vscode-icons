@@ -2,7 +2,7 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>readme</title>
     <g id="readme" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <circle id="Path" stroke="#179299" cx="8" cy="8" r="6.5"></circle>
+        <circle id="Path" stroke="#179299" cx="8" cy="8" r="7.5"></circle>
         <circle id="Path" fill="#179299" cx="8" cy="5" r="1"></circle>
         <rect id="Path" fill="#179299" x="7" y="7" width="2" height="5" rx="1"></rect>
     </g>

@@ -1,49 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="nextflow.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs8354" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="3.445"
-     inkscape:cx="5.6603774"
-     inkscape:cy="23.802612"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false"
-     showguides="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     fill="currentColor"
-     d="M 97.488313,26.619446 V 8.8660516 C 79.982563,12.659922 66.766901,20.659293 50.290124,36.484772 25.877421,7.9474496 5.343177,6.3278396 2.511687,6.2439926 V 24.286212 C 3.694443,24.432209 18.622096,26.694018 37.694591,49.647385 27.115085,59.497126 15.075684,66.999166 2.511687,71.638553 V 90.458954 C 20.382874,85.178287 35.919902,75.693241 48.767716,64.075666 61.320027,80.300904 80.061773,90.303684 97.488313,93.756054 V 75.15102 C 86.892854,72.456241 73.225495,66.008589 61.435409,50.925301 74.727871,36.245105 84.81858,29.584869 97.488313,26.619446 Z"
-     id="path2"
-     style="fill:none;stroke:#26af64;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>nextflow</title>
+    <g id="nextflow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M14.5,2.35940214 C12.1039736,2.87978791 10.2950114,3.97678033 8.03969424,6.14676844 C4.69812374,2.23352226 1.88749789,2.01151842 1.5,2 L1.5,4.47399214 C1.66178824,4.49401225 3.70508339,4.80418685 6.3157324,7.95159521 C4.86757707,9.30226712 3.21958179,10.3311089 1.5,10.9673645 L1.5,13.5480391 C3.94598635,12.8240241 6.07277628,11.5232654 7.83136792,9.93029527 C9.54944407,12.1548588 12.1147869,13.5266478 14.5,14 L14.5,11.448807 C13.0497915,11.0792577 11.178961,10.1952189 9.56518489,8.12683975 C11.3846867,6.11385867 12.7659093,5.20061249 14.5,4.79390255 L14.5,2.35940214 Z" id="Path" stroke="#40A02B"></path>
+    </g>
 </svg>

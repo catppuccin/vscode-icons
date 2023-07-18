@@ -1,54 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="netlify.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs8354" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="31.819805"
-     inkscape:cy="10.253048"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false"
-     showguides="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <rect
-     style="fill:none;stroke:#00c7b7;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     id="rect70551"
-     width="73.57859"
-     height="73.57859"
-     x="-36.789295"
-     y="33.921383"
-     rx="12.262913"
-     ry="12.262913"
-     transform="rotate(-45)" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>netlify</title>
+    <g id="netlify" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <line x1="3.5" y1="3.5" x2="4.5" y2="4.5" id="Line-3" stroke="#179299" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="3.5" y1="13.5" x2="4.5" y2="12.5" id="Line-4" stroke="#179299" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="1.5" y1="8.5" x2="4.5" y2="8.5" id="Line" stroke="#179299" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="11.5" y1="8.5" x2="14.5" y2="8.5" id="Line" stroke="#179299" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="8.5" y1="1.5" x2="8.5" y2="3.5" id="Line-2" stroke="#179299" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="8.5" y1="12.5" x2="8.5" y2="14.5" id="Line-2" stroke="#179299" stroke-linecap="round" stroke-linejoin="round"></line>
+        <path d="M6.5,10.5 L6.5,6.5 L8.5,6.5 C9.18120694,6.5 9.46697998,7.06799316 9.5,7.5 L9.5,10.5" id="Line-10" stroke="#8C8FA1" stroke-linecap="square"></path>
+    </g>
 </svg>

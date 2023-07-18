@@ -3,6 +3,6 @@
     <title>html</title>
     <g id="html" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
         <polygon id="Path" stroke="#FE640B" points="1.5 1.5 14.5 1.5 13 13 8 15 3 13"></polygon>
-        <polyline id="Path" stroke="#8C8FA1" points="11 4.5 5 4.5 5.25237601 7.5 10.75 7.5 10.5 10.5 8 11.5 5.5 10.5 5.42 9.5"></polyline>
+        <polyline id="Path" stroke="#4C4F69" points="11 4.5 5 4.5 5.25237601 7.5 10.75 7.5 10.5 10.5 8 11.5 5.5 10.5 5.42 9.5"></polyline>
     </g>
 </svg>

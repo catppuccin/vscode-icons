@@ -2,15 +2,12 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>pnpm_lock</title>
     <g id="pnpm_lock" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <line x1="3.5" y1="0.5" x2="3.5" y2="3.5" id="Line-6" stroke="#DF8E1D" stroke-linecap="square"></line>
-        <line x1="6.5" y1="6.5" x2="6.5" y2="9.5" id="Line-2" stroke="#4C4F69" stroke-linecap="square"></line>
-        <line x1="3.5" y1="4.5" x2="3.5" y2="8.5" id="Line-3" stroke="#4C4F69" stroke-linecap="square"></line>
-        <line x1="6.5" y1="0.5" x2="6.5" y2="6.5" id="Line-5" stroke="#DF8E1D" stroke-linecap="square"></line>
-        <polyline id="Line-4" stroke="#DF8E1D" stroke-linecap="square" points="9.5 6 9.5 0.5 0.5 0.5 0.5 3.5 9.5 3.5"></polyline>
-        <polyline id="Path" stroke="#4C4F69" stroke-linecap="round" points="9.5 7.5 9.5 6.5 0.5 6.5 0.5 9.5 7.50174074 9.5"></polyline>
-        <g id="Lock" transform="translate(9.5, 8.5)" stroke="#8C8FA1">
-            <path d="M5.49820472,3 C5.77426543,3 5.99805686,3.22379143 5.99805686,3.49985214 L5.99805686,6.49879614 C5.99805686,6.77485686 5.77426543,6.99864829 5.49820472,6.99864829 L0.499852144,6.99864829 C0.223791428,6.99864829 0,6.77485686 0,6.49879614 L0,3.49968328 C0,3.22362256 0.223791428,2.99983113 0.499852144,2.99983113 L5.49820472,3 Z" id="Path"></path>
-            <path d="M1.49955643,3 L1.49955643,1.5 C1.49955643,0.671572875 2.17112931,0 2.99955643,0 C3.82798356,0 4.49955643,0.671572875 4.49955643,1.5 L4.49955643,3" id="Path"></path>
-        </g>
+        <path d="M14.9982047,11.5 C15.2742654,11.5 15.4980569,11.7237914 15.4980569,11.9998521 L15.4980569,14.9987961 C15.4980569,15.2748569 15.2742654,15.4986483 14.9982047,15.4986483 L9.99985214,15.4986483 C9.72379143,15.4986483 9.5,15.2748569 9.5,14.9987961 L9.5,11.9996833 C9.5,11.7236226 9.72379143,11.4998311 9.99985214,11.4998311 L14.9982047,11.5 Z M10.9995564,11.5 L10.9995564,10 C10.9995564,9.17157288 11.6711293,8.5 12.4995564,8.5 C13.3279836,8.5 13.9995564,9.17157288 13.9995564,10 L13.9995564,11.5" id="lock" stroke="#8C8FA1"></path>
+        <line x1="4.5" y1="1.5" x2="4.5" y2="4.5" id="Line-6" stroke="#DF8E1D" stroke-linecap="square"></line>
+        <line x1="7.5" y1="7.5" x2="7.5" y2="10.5" id="Line-2" stroke="#4C4F69" stroke-linecap="square"></line>
+        <line x1="4.5" y1="5.5" x2="4.5" y2="9.5" id="Line-3" stroke="#4C4F69" stroke-linecap="square"></line>
+        <line x1="7.5" y1="1.5" x2="7.5" y2="7.5" id="Line-5" stroke="#DF8E1D" stroke-linecap="square"></line>
+        <polyline id="Line-4" stroke="#DF8E1D" stroke-linecap="round" points="10.5 6.5 10.5 1.5 1.5 1.5 1.5 4.5 10.5 4.5"></polyline>
+        <polyline id="Path" stroke="#4C4F69" stroke-linecap="round" points="9.5 7.5 1.5 7.5 1.5 10.5 7.50174074 10.5"></polyline>
     </g>
 </svg>

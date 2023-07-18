@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>css_map</title>
-    <g id="css_map" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <polyline id="Path" stroke="#1E66F5" points="10 3.5 15.5 3.5 14.2307692 13.2962963 10 15 5.76923077 13.2962963 5.6017278 12.0034591"></polyline>
-        <polyline id="Path" stroke="#8C8FA1" points="9.46153846 5.5 12.5384615 5.5 12 10.9998124 10 12 8 10.9998124 7.95 10.4958597"></polyline>
-        <line x1="8.5" y1="8.5" x2="12.1153846" y2="8.5" id="Path" stroke="#8C8FA1"></line>
-        <g id="Marker" transform="translate(0.5, 0.5)" stroke="#D20F39">
-            <path d="M0,3.56216337 C-0.00119248479,4.33047285 0.242799811,5.07839894 0.695275997,5.69338561 L2.94013403,9.65110132 C2.95321147,9.67662588 2.96628891,9.70199385 2.98228954,9.72532611 L2.98721282,9.73409528 C3.10730759,9.90147633 3.29849422,10.0008435 3.50184856,10 C3.69493312,10 3.86340132,9.91073148 3.97909821,9.77293019 L3.98494459,9.77606204 L4.00709931,9.73691395 C4.04067368,9.69215803 4.0684899,9.64321784 4.08987182,9.59128304 L6.28918959,5.71358603 C6.75130653,5.09507437 7.00103674,4.33919757 7,3.56216337 C7,1.59489335 5.31550266,0 3.38173385,0 C1.44796505,0 0,1.59489335 0,3.56216337 Z" id="Path"></path>
-            <circle id="Oval" cx="3.50001175" cy="3.5" r="1.5"></circle>
+    <g id="css_map" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polyline id="Path" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round" points="10 3.5 15.5 3.5 14.2307692 13.2962963 10 15 5.76923077 13.2962963 5.6017278 12.0034591"></polyline>
+        <polyline id="Path" stroke="#4C4F69" stroke-linecap="round" stroke-linejoin="round" points="9.46153846 5.5 12.5384615 5.5 12 10.9998124 10 12 8 10.9998124 7.95 10.4958597"></polyline>
+        <line x1="8.5" y1="8.5" x2="12.1153846" y2="8.5" id="Path" stroke="#4C4F69" stroke-linecap="round" stroke-linejoin="round"></line>
+        <g id="Marker" transform="translate(-0, 0)">
+            <rect id="Rectangle" x="0" y="0" width="8" height="11"></rect>
+            <path d="M0.5,4.06216337 C0.498807515,4.83047285 0.742799811,5.57839894 1.195276,6.19338561 L3.44013403,10.1511013 C3.45321147,10.1766259 3.46628891,10.2019938 3.48228954,10.2253261 L3.48721282,10.2340953 C3.60730759,10.4014763 3.79849422,10.5008435 4.00184856,10.5 C4.19493312,10.5 4.36340132,10.4107315 4.47909821,10.2729302 L4.48494459,10.276062 L4.50709931,10.2369139 C4.54067368,10.192158 4.5684899,10.1432178 4.58987182,10.091283 L6.78918959,6.21358603 C7.25130653,5.59507437 7.50103674,4.83919757 7.5,4.06216337 C7.5,2.09489335 5.81550266,0.5 3.88173385,0.5 C1.94796505,0.5 0.5,2.09489335 0.5,4.06216337 Z" id="Path" stroke="#D20F39" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" stroke="#D20F39" stroke-linecap="round" stroke-linejoin="round" cx="4.00001175" cy="4" r="1.5"></circle>
         </g>
     </g>
 </svg>

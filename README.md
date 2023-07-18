@@ -1,12 +1,12 @@
 <h3 align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
+	<img src="https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/logo.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 	Catppuccin perfect pixel icons for <a href="https://code.visualstudio.com/">VSCode</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
-  <a><img src="https://img.shields.io/github/directory-file-count/catppuccin/vscode-icons/icons?label=icons&colorA=363a4f&colorB=eed49f&style=for-the-badge"></a>
+  <a><img src="https://img.shields.io/github/directory-file-count/thang-nm/Catppuccin-Perfect-Icons/icons?label=icons&colorA=363a4f&colorB=eed49f&style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -49,7 +49,7 @@
 
 ## Usage
 
-1. Install the [icon theme extension](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons)
+1. Install the [icon theme extension](https://marketplace.visualstudio.com/items?itemName=thang-nm.catppuccin-perfect-icons)
 2. Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> or <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>P</kbd>
 3. Type in `> File Icon Theme` and press enter
 4. Select your flavor and press enter

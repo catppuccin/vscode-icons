@@ -2,9 +2,9 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>commitlint</title>
     <g id="commitlint" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M4.14639504,9.22807779 C3.40523623,9.71859168 2.46078972,9.5307702 1.91035549,8.78339803 C1.35985291,8.03606942 1.36363142,6.94674511 1.9193013,6.20436904 C2.47497001,5.46203361 3.42068909,5.28279157 4.15836867,5.77999884" id="Path" stroke="#209FB5"></path>
+        <path d="M4.5,9.22807779 C3.75884119,9.71859168 2.46078972,9.5307702 1.91035549,8.78339803 C1.35985291,8.03606942 1.36363142,6.94674511 1.9193013,6.20436904 C2.47497001,5.46203361 3.76232042,5.28279157 4.5,5.77999884" id="Path" stroke="#209FB5"></path>
         <path d="M5.5,4 L6.496645,4 L6.496645,8.40491672 C6.496645,8.40491672 6.35832859,9.51998641 7.425082,9.500168 L8.5,9.500168" id="Path" stroke="#209FB5"></path>
         <line x1="10.5" y1="9.51116932" x2="14.5" y2="9.51116932" id="Path" stroke="#D20F39"></line>
-        <polyline id="Path" stroke="#D20F39" points="11 13 12.5 11.5010224 14 13"></polyline>
+        <polyline id="Path" stroke="#D20F39" points="10.5 13.5 12.5 11.5010224 14.5 13.5"></polyline>
     </g>
 </svg>

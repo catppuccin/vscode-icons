@@ -2,19 +2,19 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>folder_api</title>
     <g id="folder_api" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="folder" transform="translate(0.5, 2.5)" stroke="#4C4F69" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M4,2 L11.5,2 C12.3284271,2 13,2.67157288 13,3.5 C13,3.93429905 13,3.76763238 13,4 M6,11 C4.88123915,11 3.71457248,11 1.5,11 C0.671572875,11 0,10.3284271 0,9.5 L0,1 C0,0.44771525 0.44771525,0 1,0 L6,0 C6.55228475,0 7,0.44771525 7,1 L7,2" id="Shape"></path>
+        <g id="folder" stroke="#4C4F69" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4.5,4.5 L12,4.5 C12.8284271,4.5 13.5,5.17157288 13.5,6 C13.5,6.43429905 13.5,6.26763238 13.5,6.5 M6.5,13.5 C5.38123915,13.5 4.21457248,13.5 2,13.5 C1.17157288,13.5 0.5,12.8284271 0.5,12 L0.5,3.5 C0.5,2.94771525 0.94771525,2.5 1.5,2.5 L6.5,2.5 C7.05228475,2.5 7.5,2.94771525 7.5,3.5 L7.5,4.5" id="Shape"></path>
         </g>
-        <g id="icon" transform="translate(8, 8)">
-            <circle id="Path" fill="#DF8E1D" cx="1" cy="1" r="1"></circle>
-            <circle id="Path" fill="#DF8E1D" cx="7" cy="1" r="1"></circle>
-            <circle id="Path" fill="#DF8E1D" cx="7" cy="7" r="1"></circle>
-            <circle id="Path" fill="#DF8E1D" cx="1" cy="7" r="1"></circle>
-            <circle id="Path" stroke="#DF8E1D" cx="4" cy="4" r="1.5"></circle>
-            <line x1="5.5" y1="2.5" x2="6.5" y2="1.5" id="Path" stroke="#DF8E1D" stroke-linecap="square"></line>
-            <line x1="5.5" y1="5.5" x2="6.5" y2="6.5" id="Path" stroke="#DF8E1D" stroke-linecap="square"></line>
-            <line x1="1.5" y1="6.5" x2="2.5" y2="5.5" id="Path" stroke="#DF8E1D" stroke-linecap="square"></line>
-            <line x1="1.5" y1="1.5" x2="2.5" y2="2.5" id="Path" stroke="#DF8E1D" stroke-linecap="square"></line>
+        <g id="icon">
+            <circle id="Path" fill="#DF8E1D" cx="9" cy="9" r="1"></circle>
+            <circle id="Path" fill="#DF8E1D" cx="15" cy="9" r="1"></circle>
+            <circle id="Path" fill="#DF8E1D" cx="15" cy="15" r="1"></circle>
+            <circle id="Path" fill="#DF8E1D" cx="9" cy="15" r="1"></circle>
+            <circle id="Path" stroke="#DF8E1D" cx="12" cy="12" r="1.5"></circle>
+            <line x1="13.5" y1="10.5" x2="14.5" y2="9.5" id="Path" stroke="#DF8E1D" stroke-linecap="square"></line>
+            <line x1="13.5" y1="13.5" x2="14.5" y2="14.5" id="Path" stroke="#DF8E1D" stroke-linecap="square"></line>
+            <line x1="9.5" y1="14.5" x2="10.5" y2="13.5" id="Path" stroke="#DF8E1D" stroke-linecap="square"></line>
+            <line x1="9.5" y1="9.5" x2="10.5" y2="10.5" id="Path" stroke="#DF8E1D" stroke-linecap="square"></line>
         </g>
     </g>
 </svg>

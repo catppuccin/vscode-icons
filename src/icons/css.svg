@@ -3,7 +3,7 @@
     <title>css</title>
     <g id="css" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
         <polygon id="Path" stroke="#1E66F5" points="1.5 1.5 14.5 1.5 13 13 8 15 3 13"></polygon>
-        <polyline id="Path" stroke="#8C8FA1" points="5 4.5 11 4.5 10.5 10.5 8 11.5 5.5 10.5 5.42 9.5"></polyline>
-        <line x1="6.5" y1="7.5" x2="10.5" y2="7.5" id="Path" stroke="#8C8FA1"></line>
+        <polyline id="Path" stroke="#4C4F69" points="5 4.5 11 4.5 10.5 10.5 8 11.5 5.5 10.5 5.42 9.5"></polyline>
+        <line x1="6.5" y1="7.5" x2="10.5" y2="7.5" id="Path" stroke="#4C4F69"></line>
     </g>
 </svg>

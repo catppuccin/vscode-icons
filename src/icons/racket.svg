@@ -1,59 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="racket.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs8354" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="4.8719657"
-     inkscape:cx="48.953546"
-     inkscape:cy="49.671942"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false"
-     showguides="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     id="blue-piece"
-     fill="#3e5ba9"
-     d="m 87.37536,79.317238 c 6.342012,-8.07409 10.124467,-18.253914 10.124467,-29.317333 0,-26.233403 -21.266328,-47.4999198 -47.49992,-47.4999198 -5.70653,0 -11.177712,1.0072664 -16.246511,2.8521385 C 53.037282,15.467765 78.545314,48.470898 87.37536,79.317238 Z"
-     style="fill:none;stroke:#3e5ba9;stroke-width:4.99997;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
-  <path
-     id="left-red-piece"
-     fill="#9f1d20"
-     d="M 43.196963,32.799427 C 35.787259,24.816937 27.489276,18.477366 18.700699,14.272826 8.7712394,22.97901 2.5001734,35.756294 2.5001734,49.999905 c 0,11.976473 4.4340694,22.916202 11.7480646,31.271425 6.447671,-19.371531 18.56902,-38.042647 28.948725,-48.471903 z"
-     style="fill:none;stroke:#9f1d20;stroke-width:4.99997;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
-  <path
-     id="bottom-red-piece"
-     fill="#9f1d20"
-     d="M 51.949315,43.570255 C 41.666076,54.652817 31.418871,74.053248 27.71036,91.952451 c 6.647358,3.539036 14.233478,5.547564 22.289733,5.547564 8.282594,0 16.068593,-2.121882 22.847888,-5.848599 C 68.940343,73.595879 61.564045,57.059966 51.949315,43.570255 Z"
-     style="fill:none;stroke:#9f1d20;stroke-width:4.99997;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>racket</title>
+    <g id="racket" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M13.1144669,12.0117977 C14.0141168,10.8682836 14.5022165,9.45498788 14.5,8 C14.5,4.41022321 11.5897731,1.5 7.99999622,1.5 C7.2417935,1.49917791 6.48931504,1.63126805 5.77672383,1.89027731 C8.41558545,3.27457124 11.9061518,7.79076861 13.1144669,12.0117977 L13.1144669,12.0117977 Z" id="Path" stroke="#1E66F5"></path>
+        <path d="M7.06905992,5.64631723 C6.05506051,4.55390734 4.91954538,3.68632889 3.71697766,3.11104502 C2.3579995,4.30239169 1.5,6.05082225 1.5,8.00000007 C1.5,9.63882016 2.1066207,11.1358719 3.10748327,12.279187 C3.9899775,9.62842017 5.64877653,7.07357955 7.06905992,5.64631723 Z" id="Path" stroke="#D20F39"></path>
+        <path d="M8.26683817,7.12010584 C6.85941793,8.63672601 5.4571977,11.2914613 4.94978747,13.7407967 C5.88867523,14.2407039 6.93631617,14.5014626 7.99999622,14.5000031 C9.09306166,14.5015777 10.1687119,14.2262154 11.1265628,13.6996073 C10.5917842,11.2289245 9.5824374,8.96610477 8.26670132,7.12024268 L8.26683817,7.12010584 Z" id="Path" stroke="#D20F39"></path>
+    </g>
 </svg>

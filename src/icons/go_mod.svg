@@ -2,9 +2,8 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>go_mod</title>
     <g id="go_mod" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <line x1="1.5" y1="9.51281588" x2="0.5" y2="9.51922381" id="Path" stroke="#209FB5" stroke-linecap="round" stroke-linejoin="round"></line>
-        <line x1="1.5" y1="11.5160198" x2="2.5" y2="11.5160198" id="Path" stroke="#209FB5" stroke-linecap="round" stroke-linejoin="round"></line>
-        <line x1="1.5" y1="7.53203969" x2="2.5" y2="7.51281588" id="Path" stroke="#209FB5" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="2.5" y1="8.51281588" x2="0.5" y2="8.51922381" id="Path" stroke="#209FB5" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="2" y1="10.5160198" x2="3.5" y2="10.5160198" id="Path" stroke="#209FB5" stroke-linecap="round" stroke-linejoin="round"></line>
         <g id="Group-2" transform="translate(10.0659, 6.9577) rotate(-15) translate(-10.0659, -6.9577)translate(4.8159, 1.7077)" stroke="#209FB5">
             <path d="M5.1215366,2.49609449 C5.35698453,2.23118806 5.5,1.88229556 5.5,1.5 C5.5,0.671572875 4.82842712,0 4,0 C3.17157288,0 2.5,0.671572875 2.5,1.5 C2.5,1.88317219 2.64367212,2.23278797 2.88008457,2.49791553" id="Path"></path>
             <path d="M5.12319539,2.5 C5.67459947,2.5 6.63353434,2.5 8,2.5 L8,5.38 M8,7.61512219 L8,10.5 L0,10.5 L0,2.5 C0.792108205,2.5 1.7521364,2.5 2.88008457,2.5" id="Shape" stroke-linecap="round" stroke-linejoin="round" transform="translate(4, 6.5) rotate(-360) translate(-4, -6.5)"></path>

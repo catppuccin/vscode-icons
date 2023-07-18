@@ -3,7 +3,7 @@
     <title>cpp</title>
     <g id="cpp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
         <path d="M12.6428571,12.4752977 C10.8297263,14.3971354 8.03877685,15.0187869 5.58911981,14.0464357 C3.13932866,13.0741186 1.52144964,10.7023879 1.50021014,8.05229611 C1.4790418,5.40217229 3.05879767,3.00450867 5.49275516,1.99263831 C7.92662646,0.9807825 10.7272043,1.55727754 12.5707774,3.44963931" id="Path" stroke="#1E66F5"></path>
-        <path d="M6.5,7 L6.5,10 M5,8.5 L8,8.5" id="Combined-Shape" stroke="#8C8FA1"></path>
-        <path d="M12.5,7 L12.5,10 M11,8.5 L14,8.5" id="Combined-Shape" stroke="#8C8FA1"></path>
+        <path d="M6.5,7 L6.5,10 M5,8.5 L8,8.5" id="Combined-Shape" stroke="#4C4F69"></path>
+        <path d="M12.5,7 L12.5,10 M11,8.5 L14,8.5" id="Combined-Shape" stroke="#4C4F69"></path>
     </g>
 </svg>

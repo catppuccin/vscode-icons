@@ -2,11 +2,11 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>folder_node</title>
     <g id="folder_node" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="folder" transform="translate(0.5, 2.5)" stroke="#4C4F69" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M4,2 L11.5,2 C12.3284271,2 13,2.67157288 13,3.5 C13,3.93429905 13,3.76763238 13,4 M6,11 C4.88123915,11 3.71457248,11 1.5,11 C0.671572875,11 0,10.3284271 0,9.5 L0,1 C0,0.44771525 0.44771525,0 1,0 L6,0 C6.55228475,0 7,0.44771525 7,1 L7,2" id="Shape"></path>
+        <g id="folder" stroke="#4C4F69" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4.5,4.5 L12,4.5 C12.8284271,4.5 13.5,5.17157288 13.5,6 C13.5,6.43429905 13.5,6.26763238 13.5,6.5 M6.5,13.5 C5.38123915,13.5 4.21457248,13.5 2,13.5 C1.17157288,13.5 0.5,12.8284271 0.5,12 L0.5,3.5 C0.5,2.94771525 0.94771525,2.5 1.5,2.5 L6.5,2.5 C7.05228475,2.5 7.5,2.94771525 7.5,3.5 L7.5,4.5" id="Shape"></path>
         </g>
-        <g id="icon" transform="translate(9, 8)" stroke="#40A02B">
-            <path d="M3.5,0.575875553 L6.5,2.29016127 L6.5,5.70983873 L3.5,7.42412445 L0.5,5.70983873 L0.5,2.29016127 L3.5,0.575875553 Z" id="Path"></path>
+        <g id="icon" stroke="#40A02B">
+            <path d="M12.5,8.57587555 L15.5,10.2901613 L15.5,13.7098387 L12.5,15.4241244 L9.5,13.7098387 L9.5,10.2901613 L12.5,8.57587555 Z" id="Path"></path>
         </g>
     </g>
 </svg>

@@ -2,12 +2,12 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>folder_types</title>
     <g id="folder_types" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="folder" transform="translate(0.5, 2.5)" stroke="#4C4F69" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M4,2 L11.5,2 C12.3284271,2 13,2.67157288 13,3.5 C13,3.93429905 13,3.76763238 13,4 M6,11 C4.88123915,11 3.71457248,11 1.5,11 C0.671572875,11 0,10.3284271 0,9.5 L0,1 C0,0.44771525 0.44771525,0 1,0 L6,0 C6.55228475,0 7,0.44771525 7,1 L7,2" id="Shape"></path>
+        <g id="folder" stroke="#4C4F69" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4.5,4.5 L12,4.5 C12.8284271,4.5 13.5,5.17157288 13.5,6 C13.5,6.43429905 13.5,6.26763238 13.5,6.5 M6.5,13.5 C5.38123915,13.5 4.21457248,13.5 2,13.5 C1.17157288,13.5 0.5,12.8284271 0.5,12 L0.5,3.5 C0.5,2.94771525 0.94771525,2.5 1.5,2.5 L6.5,2.5 C7.05228475,2.5 7.5,2.94771525 7.5,3.5 L7.5,4.5" id="Shape"></path>
         </g>
-        <g id="icon" transform="translate(7.6711, 7.7021)">
-            <polygon id="Path" stroke="#179299" stroke-linecap="round" stroke-linejoin="round" transform="translate(4.5479, 4.2109) rotate(-22) translate(-4.5479, -4.2109)" points="0.878842438 3.36162982 6.08695454 1.15170472 8.2170306 2.55324938 7.74468632 5.05707606 2.53639287 7.27018606"></polygon>
-            <circle id="Oval" fill="#179299" cx="5.32887745" cy="3.29794054" r="1"></circle>
+        <g id="icon">
+            <polygon id="Path" stroke="#179299" stroke-linecap="round" stroke-linejoin="round" transform="translate(12.2191, 11.913) rotate(-22) translate(-12.2191, -11.913)" points="8.54996544 11.0636888 13.7580775 8.85376372 15.8881536 10.2553084 15.4158093 12.7591351 10.2075159 14.9722451"></polygon>
+            <circle id="Oval" fill="#179299" cx="13" cy="11" r="1"></circle>
         </g>
     </g>
 </svg>

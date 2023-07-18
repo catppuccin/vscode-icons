@@ -2,14 +2,14 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>assembly</title>
     <g id="assembly" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M5.31818187,1.5 L10.6818181,1.5 C11.6859722,1.5 12.5,2.31402775 12.5,3.31818187 L12.5,12.6818181 C12.5,13.6859722 11.6859722,14.5 10.6818181,14.5 L5.31818187,14.5 C4.31402775,14.5 3.5,13.6859722 3.5,12.6818181 L3.5,3.31818187 C3.5,2.31402775 4.31402775,1.5 5.31818187,1.5 Z" id="Path" stroke="#8C8FA1"></path>
-        <line x1="3.5" y1="3.5" x2="1.5" y2="3.5" id="Line" stroke="#8C8FA1" stroke-linecap="round"></line>
-        <line x1="3.5" y1="6.5" x2="1.5" y2="6.5" id="Line" stroke="#8C8FA1" stroke-linecap="round"></line>
-        <line x1="3.5" y1="9.5" x2="1.5" y2="9.5" id="Line" stroke="#8C8FA1" stroke-linecap="round"></line>
-        <line x1="3.5" y1="12.5" x2="1.5" y2="12.5" id="Line" stroke="#8C8FA1" stroke-linecap="round"></line>
-        <line x1="14.5" y1="3.5" x2="12.5" y2="3.5" id="Line" stroke="#8C8FA1" stroke-linecap="round"></line>
-        <line x1="14.5" y1="6.5" x2="12.5" y2="6.5" id="Line" stroke="#8C8FA1" stroke-linecap="round"></line>
-        <line x1="14.5" y1="9.5" x2="12.5" y2="9.5" id="Line" stroke="#8C8FA1" stroke-linecap="round"></line>
-        <line x1="14.5" y1="12.5" x2="12.5" y2="12.5" id="Line" stroke="#8C8FA1" stroke-linecap="round"></line>
+        <path d="M5.31818187,1.5 L10.6818181,1.5 C11.6859722,1.5 12.5,2.31402775 12.5,3.31818187 L12.5,12.6818181 C12.5,13.6859722 11.6859722,14.5 10.6818181,14.5 L5.31818187,14.5 C4.31402775,14.5 3.5,13.6859722 3.5,12.6818181 L3.5,3.31818187 C3.5,2.31402775 4.31402775,1.5 5.31818187,1.5 Z" id="Path" stroke="#4C4F69"></path>
+        <line x1="3.5" y1="3.5" x2="1.5" y2="3.5" id="Line" stroke="#4C4F69" stroke-linecap="round"></line>
+        <line x1="3.5" y1="6.5" x2="1.5" y2="6.5" id="Line" stroke="#4C4F69" stroke-linecap="round"></line>
+        <line x1="3.5" y1="9.5" x2="1.5" y2="9.5" id="Line" stroke="#4C4F69" stroke-linecap="round"></line>
+        <line x1="3.5" y1="12.5" x2="1.5" y2="12.5" id="Line" stroke="#4C4F69" stroke-linecap="round"></line>
+        <line x1="14.5" y1="3.5" x2="12.5" y2="3.5" id="Line" stroke="#4C4F69" stroke-linecap="round"></line>
+        <line x1="14.5" y1="6.5" x2="12.5" y2="6.5" id="Line" stroke="#4C4F69" stroke-linecap="round"></line>
+        <line x1="14.5" y1="9.5" x2="12.5" y2="9.5" id="Line" stroke="#4C4F69" stroke-linecap="round"></line>
+        <line x1="14.5" y1="12.5" x2="12.5" y2="12.5" id="Line" stroke="#4C4F69" stroke-linecap="round"></line>
     </g>
 </svg>

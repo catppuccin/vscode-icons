@@ -1,48 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="100.0px"
-   height="100.0px"
-   viewBox="0 0 100.0 100.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="sass.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs44872" />
-  <sodipodi:namedview
-     id="namedview32486"
-     pagecolor="#181825"
-     bordercolor="#000000"
-     borderopacity="0.24705882"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#313244"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="5.6568544"
-     inkscape:cx="43.487066"
-     inkscape:cy="47.0226"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="SVGRoot"
-     showborder="false">
-    <inkscape:grid
-       type="xygrid"
-       id="grid32609" />
-  </sodipodi:namedview>
-  <path
-     style="display:inline;fill:none;stroke:#cf649a;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-     d="m 41.162623,38.19638 c 13.121748,7.78719 23.811252,5.43676 34.3986,-1.4716 C 86.148572,29.81643 94.774671,16.457722 84.790274,6.4808264 79.798074,1.4923784 61.624214,0.66052037 44.790847,7.8514384 27.95748,15.042359 12.096702,29.88815 10.994864,37.86003 8.7911883,53.8038 33.460388,58.88227 36.931778,68.73202 40.403163,78.5818 38.915943,83.13726 35.460179,89.33441 32.004416,95.53155 21.524731,101.1926 15.593606,94.30104 9.6624829,87.40951 27.456195,74.2297 36.747827,70.57153 c 9.291633,-3.65816 22.174471,-2.86596 26.304815,1.83949 4.130345,4.70547 -0.455079,13.06044 -0.183953,13.06044"
-     id="path9209"
-     sodipodi:nodetypes="czssszzzzzc" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>sass</title>
+    <g id="sass" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6.75493783,6.37874251 C8.59704262,7.44605494 10.0977101,7.12386034 11.5841978,6.17714818 C13.0706856,5.23029898 14.281721,3.39964162 12.880031,2.032336 C12.1790456,1.34861467 9.62753184,1.23472964 7.26428591,2.2200887 C4.90089959,3.20558481 2.67425666,5.24016627 2.51954288,6.33269513 C2.20997493,8.51775284 5.67348572,9.21367125 6.1609324,10.5635721 C6.64823868,11.9134729 6.43947335,12.5377163 5.95427298,13.3869889 C5.4690726,14.2363986 3.99788778,15.0122147 3.16521317,14.0676953 C2.33239818,13.1233129 4.83056238,11.3170497 6.13509997,10.8155992 C7.43949716,10.3142858 9.24818826,10.4229631 9.82815434,11.0677634 C10.40798,11.7125638 9.76427524,12.8575812 9.80232191,12.8575812" id="Path" stroke="#EA76CB"></path>
+    </g>
 </svg>

@@ -58,7 +58,7 @@
     ]
   },
   "scripts": {
-    "build": "yarn build:themes && yarn build:preview",
+    "build": "yarn build:icons -a && yarn build:themes && yarn build:preview && yarn catwalk && yarn package",
     "build:icons": "tsx scripts/icons.ts",
     "build:themes": "tsx scripts/themes.ts",
     "build:preview": "tsx scripts/preview.ts",

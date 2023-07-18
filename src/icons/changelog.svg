@@ -2,10 +2,10 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>changelog</title>
     <g id="changelog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M2.31241474,6.00336067 C2.10956994,6.6324523 2,7.30343044 2,8 C2,11.5898509 4.91014913,14.5 8.5,14.5 C12.0898509,14.5 15,11.5898509 15,8 C15,4.41014913 12.0898509,1.5 8.5,1.5 C6.90925905,1.5 5.45198221,2.07142778 4.3222407,3.02021213" id="Path" stroke="#209FB5" stroke-linecap="round" stroke-linejoin="round" transform="translate(8.5, 8) rotate(-45) translate(-8.5, -8)"></path>
+        <path d="M2.7128793,10.9634463 C3.01428132,11.5517142 3.41125686,12.103645 3.90380592,12.5961941 C6.44221382,15.134602 10.5577862,15.134602 13.0961941,12.5961941 C15.634602,10.0577862 15.634602,5.94221382 13.0961941,3.40380592 C10.5577862,0.865398026 6.44221382,0.865398026 3.90380592,3.40380592 C2.77898221,4.52862964 2.15259233,5.96314043 2.02463629,7.43288016" id="Path" stroke="#209FB5" stroke-linecap="round" stroke-linejoin="round"></path>
         <line x1="2.00069592" y1="8" x2="3.5" y2="6.5" id="Line" stroke="#209FB5" stroke-linecap="round" stroke-linejoin="round"></line>
         <line x1="0.500695915" y1="8" x2="2" y2="6.5" id="Line" stroke="#209FB5" stroke-linecap="round" stroke-linejoin="round" transform="translate(1.2503, 7.25) scale(-1, 1) translate(-1.2503, -7.25)"></line>
         <rect id="Path" fill="#209FB5" x="8" y="4" width="1" height="5" rx="0.5"></rect>
-        <rect id="Path" fill="#209FB5" transform="translate(10, 8.5) rotate(-270) translate(-10, -8.5)" x="9.5" y="6.5" width="1" height="4" rx="0.5"></rect>
+        <path d="M12,8.5 C12,8.77614237 11.7761424,9 11.5,9 L8.5,9 C8.22385763,9 8,8.77614237 8,8.5 C8,8.22385763 8.22385763,8 8.5,8 L11.5,8 C11.7761424,8 12,8.22385763 12,8.5 Z" id="Path" fill="#209FB5"></path>
     </g>
 </svg>
