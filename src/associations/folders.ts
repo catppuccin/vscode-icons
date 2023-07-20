@@ -1,4 +1,5 @@
 export const folders: IconMap = {
+  folder_android: ['android'],
   folder_api: ['api', 'apis', 'restapi'],
   folder_client: ['client', 'clients', 'frontend', 'pwa'],
   folder_components: ['components', 'widget', 'widgets', 'fragments'],
@@ -62,6 +63,7 @@ export const folders: IconMap = {
     'samples',
     'sample-data',
   ],
+  folder_fastlane: ['fastlane'],
   folder_fonts: ['font', 'fonts'],
   folder_functions: [
     'func',
@@ -104,6 +106,7 @@ export const folders: IconMap = {
     'picture',
     'pictures',
   ],
+  folder_ios: ['ios'],
   folder_layouts: ['layout', 'layouts', '_layouts'],
   folder_locales: [
     'i18n',
@@ -165,6 +168,7 @@ export const folders: IconMap = {
     'theme',
     'themes',
   ],
+  folder_tauri: ['src-tauri', 'tauri'],
   folder_templates: ['template', 'templates', '_template', '_templates'],
   folder_tests: [
     'test',

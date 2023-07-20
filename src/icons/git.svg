@@ -2,12 +2,12 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>git</title>
     <g id="git" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <circle id="Oval" fill="#8C8FA1" cx="7.5" cy="11" r="1.5"></circle>
-        <circle id="Oval" fill="#8C8FA1" cx="10.5" cy="8" r="1.5"></circle>
-        <circle id="Oval" fill="#8C8FA1" cx="7.5" cy="5" r="1.5"></circle>
-        <line x1="7.5" y1="6.5" x2="7.5" y2="10.5" id="Path" stroke="#8C8FA1" stroke-linecap="square"></line>
-        <line x1="6.5" y1="4" x2="5.5" y2="3" id="Path" stroke="#8C8FA1" stroke-linecap="square"></line>
-        <line x1="9.5" y1="7" x2="8.5" y2="6" id="Path" stroke="#8C8FA1" stroke-linecap="square"></line>
+        <circle id="Oval" fill="#4C4F69" cx="7.5" cy="11" r="1.5"></circle>
+        <circle id="Oval" fill="#4C4F69" cx="10.5" cy="8" r="1.5"></circle>
+        <circle id="Oval" fill="#4C4F69" cx="7.5" cy="5" r="1.5"></circle>
+        <line x1="7.5" y1="6.5" x2="7.5" y2="10.5" id="Path" stroke="#4C4F69" stroke-linecap="square"></line>
+        <line x1="6.5" y1="4" x2="5.5" y2="3" id="Path" stroke="#4C4F69" stroke-linecap="square"></line>
+        <line x1="9.5" y1="7" x2="8.5" y2="6" id="Path" stroke="#4C4F69" stroke-linecap="square"></line>
         <path d="M3.84314575,2.34314575 L12.1568542,2.34314575 C12.9852814,2.34314575 13.6568542,3.01471863 13.6568542,3.84314575 L13.6568542,12.1568542 C13.6568542,12.9852814 12.9852814,13.6568542 12.1568542,13.6568542 L3.84314575,13.6568542 C3.01471863,13.6568542 2.34314575,12.9852814 2.34314575,12.1568542 L2.34314575,3.84314575 C2.34314575,3.01471863 3.01471863,2.34314575 3.84314575,2.34314575 Z" id="Path" stroke="#FE640B" stroke-linecap="round" stroke-linejoin="round" transform="translate(8, 8) rotate(45) translate(-8, -8)"></path>
     </g>
 </svg>

@@ -184,6 +184,7 @@ export const files: IconMap = {
     '.eslintrc',
   ],
   eslint_ignore: ['.eslintignore', '.eslintcache'],
+  fastlane: ['fastfile', 'fastlane/appfile', 'fastlane/pluginfile'],
   favicon: ['favicon.ico'],
   firebase: [
     'firebase.json',
@@ -408,6 +409,7 @@ export const files: IconMap = {
   r: ['.Rhistory'],
   readme: ['readme.md', 'readme.rst', 'readme.txt', 'readme'],
   redwood: ['redwood.toml'],
+  remix: ['remix.config.js', 'remix.config.ts'],
   renovate: [
     '.renovaterc',
     '.renovaterc.json',

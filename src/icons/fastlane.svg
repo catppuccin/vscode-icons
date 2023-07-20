@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>fastlane</title>
+    <g id="fastlane" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <line x1="4.5" y1="13.5" x2="3.04993943" y2="8.42478799" id="Path" stroke="#209FB5" stroke-linecap="round" stroke-linejoin="round"></line>
+        <path d="M4.25160019,4.80515739 C3.9563844,4.63332859 3.61317407,4.53491032 3.24697691,4.53491032 C2.14240741,4.53491032 1.24697691,5.43034082 1.24697691,6.53491032 C1.24697691,7.63947982 2.14240741,8.53491032 3.24697691,8.53491032 L3.24003881,13.8150169" id="Path" stroke="#209FB5" stroke-linecap="round" stroke-linejoin="round" transform="translate(2.7493, 9.175) rotate(344) translate(-2.7493, -9.175)"></path>
+        <path d="M2.5,6.5 L6.38290793,3.67606696 C5.73271635,2.78195501 5.930814,1.53121567 6.8244295,0.881966011 C7.71804499,0.232716349 8.96878433,0.430813999 9.61803399,1.3244295 C9.83327928,1.62068922 9.9553912,1.95620102 9.98990226,2.29603404" id="Path" stroke="#D20F39" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M14.3088968,8.32948056 C14.6214327,8.19164441 14.9027887,7.97183023 15.118034,7.6755705 C15.7672837,6.78195501 15.569186,5.53121567 14.6755705,4.88196601 C13.781955,4.23271635 12.5312157,4.430814 11.881966,5.3244295 L8,2.5" id="Path" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M10.0575096,14.8858335 C10.2939268,15.1323785 10.596714,15.3215858 10.9487253,15.4225234 C12.0105056,15.726984 13.1180628,15.1130551 13.4225234,14.0512747 C13.726984,12.9894944 13.1130551,11.8819372 12.0512747,11.5774766 L13.5,6.5" id="Path" stroke="#40A02B" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M11.5,13.5 L6.5,13.5 C6.5,14.6045695 5.6045695,15.5 4.5,15.5 C3.3954305,15.5 2.5,14.6045695 2.5,13.5 C2.5,13.1338028 2.59841827,12.7905925 2.77024707,12.4953767" id="Path" stroke="#8839EF" stroke-linecap="round" stroke-linejoin="round"></path>
+        <circle id="Oval" fill="#8839EF" cx="11.5" cy="13.5" r="1"></circle>
+        <circle id="Oval" fill="#209FB5" cx="4.5" cy="13.5" r="1"></circle>
+        <circle id="Oval" fill="#D20F39" cx="2.5" cy="6.5" r="1"></circle>
+        <circle id="Oval" fill="#1E66F5" cx="8" cy="2.5" r="1"></circle>
+        <circle id="Oval" fill="#40A02B" cx="13.5" cy="6.5" r="1"></circle>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>folder_tauri</title>
+    <g id="folder_tauri" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="folder" stroke="#4C4F69" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4.5,4.5 L12,4.5 C12.8284271,4.5 13.5,5.17157288 13.5,6 C13.5,6.43429905 13.5,6.26763238 13.5,6.5 M6.5,13.5 C5.38123915,13.5 4.21457248,13.5 2,13.5 C1.17157288,13.5 0.5,12.8284271 0.5,12 L0.5,3.5 C0.5,2.94771525 0.94771525,2.5 1.5,2.5 L6.5,2.5 C7.05228475,2.5 7.5,2.94771525 7.5,3.5 L7.5,4.5" id="Shape"></path>
+        </g>
+        <g id="icon">
+            <path d="M11.11,9.81163539 C11.5908037,8.87585735 12.6387615,8.3801442 13.6653703,8.60287421 C14.6919474,8.82560304 15.4413924,9.71123815 15.4928588,10.7624564 C15.5443406,11.8136347 14.8850712,12.7685047 13.885237,13.090897" id="Path" stroke="#DF8E1D" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" fill="#04A5E5" cx="12" cy="13" r="1"></circle>
+            <path d="M13.881417,14.2428302 C13.4000813,15.1705036 12.3602097,15.6624197 11.3394982,15.4452968 C10.3187757,15.2281672 9.56803819,14.3553378 9.50436211,13.3117139 C9.44067842,12.2680847 10.0797117,11.3101088 11.0664401,10.97" id="Path" stroke="#04A5E5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" fill="#DF8E1D" cx="13" cy="11" r="1"></circle>
+        </g>
+    </g>
+</svg>

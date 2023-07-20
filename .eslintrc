@@ -1,4 +1,4 @@
 {
   "extends": "@antfu",
-  "ignorePatterns": ["themes", "previews"]
+  "ignorePatterns": ["themes", "previews", "demo"]
 }

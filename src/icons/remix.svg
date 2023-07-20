@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>remix_config</title>
+    <g id="remix_config" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="2.5" y1="14.5" x2="7.5" y2="14.5" id="Line-15" stroke="#4C4F69"></line>
+        <path d="M10.5,14.5 L9,11.5 L2.5,11.5 L2.5,8.5 L9.125,8.5 C10.0416667,8.33333333 10.5,7.83333333 10.5,7 C10.5,6.16666667 10.0416667,5.66666667 9.125,5.5 L2.5,5.5 L2.5,2.5 L11,2.5 C12.6666667,3.5 13.5,4.83333333 13.5,6.5 C13.5,8.16666667 12.8333333,9.50145236 11.5,10.5043571 L13.5,14.5" id="Line" stroke="#4C4F69"></path>
+    </g>
+</svg>
