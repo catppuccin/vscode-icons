@@ -3,7 +3,7 @@
   "name": "catppuccin-perfect-icons",
   "displayName": "Catppuccin Perfect Icons",
   "type": "module",
-  "version": "0.21.3",
+  "version": "0.21.4",
   "description": "🐈 Catppuccin (pixel) Perfect Icons for non-retina display",
   "author": "thang-nm",
   "license": "MIT",
@@ -59,6 +59,7 @@
   },
   "scripts": {
     "build": "yarn build:icons -a && yarn build:themes && yarn build:preview && yarn catwalk && yarn package",
+    "build:dev": "yarn build:icons -a && yarn build:themes && yarn package",
     "build:icons": "tsx scripts/icons.ts",
     "build:themes": "tsx scripts/themes.ts",
     "build:preview": "tsx scripts/preview.ts",

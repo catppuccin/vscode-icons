@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>folder_fastlane</title>
-    <g id="folder_fastlane" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="folder" stroke="#4C4F69" stroke-linecap="round" stroke-linejoin="round">
+    <g id="folder_fastlane" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="folder" stroke="#4C4F69" stroke-linecap="round">
             <path d="M4.5,4.5 L12,4.5 C12.8284271,4.5 13.5,5.17157288 13.5,6 C13.5,6.43429905 13.5,6.26763238 13.5,6.5 M6.5,13.5 C5.38123915,13.5 4.21457248,13.5 2,13.5 C1.17157288,13.5 0.5,12.8284271 0.5,12 L0.5,3.5 C0.5,2.94771525 0.94771525,2.5 1.5,2.5 L6.5,2.5 C7.05228475,2.5 7.5,2.94771525 7.5,3.5 L7.5,4.5" id="Shape"></path>
         </g>
         <g id="icon">
-            <rect id="Frame" x="8" y="8" width="8" height="8"></rect>
-            <line x1="9.75" y1="15.5" x2="8.5" y2="11.5" id="Path" stroke="#209FB5" stroke-linejoin="round"></line>
-            <line x1="14.25" y1="15.5" x2="9.75" y2="15.5" id="Path" stroke="#8839EF" stroke-linecap="round" stroke-linejoin="round"></line>
-            <line x1="15.5" y1="11.5" x2="14.25" y2="15.5" id="Path" stroke="#40A02B" stroke-linecap="round" stroke-linejoin="round"></line>
-            <polyline id="Path" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round" points="8.5 11.5 12 8.5 15.5 11.5"></polyline>
-            <line x1="8.5" y1="11.5" x2="12" y2="8.5" id="Path" stroke="#D20F39" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="9.75" y1="15.5" x2="8.5" y2="11.5" id="Path" stroke="#209FB5"></line>
+            <line x1="14.25" y1="15.5" x2="9.75" y2="15.5" id="Path" stroke="#8839EF" stroke-linecap="round"></line>
+            <line x1="15.5" y1="11.5" x2="14.25" y2="15.5" id="Path" stroke="#40A02B" stroke-linecap="round"></line>
+            <polyline id="Path" stroke="#1E66F5" stroke-linecap="round" points="8.5 11.5 12 8.5 15.5 11.5"></polyline>
+            <line x1="8.5" y1="11.5" x2="12" y2="8.5" id="Path" stroke="#D20F39" stroke-linecap="round"></line>
         </g>
     </g>
 </svg>

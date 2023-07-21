@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>metro</title>
+    <g id="metro" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <polygon id="Line" stroke="#D20F39" stroke-linecap="square" points="3.5 5.5 3.5 10.5 8.00261614 12.5 12.5 10.5 12.5 5.5 8.00261614 7.5"></polygon>
+        <polyline id="Line-2" stroke="#D20F39" stroke-linecap="round" points="10.5 4.5 8.00377887 3.46646063 5.5 4.5"></polyline>
+        <polygon id="Path" stroke="#D20F39" stroke-linecap="round" points="1.5 11.5 1.5 4.5 8 1.5 14.5 4.5 14.5 11.5 8 14.5"></polygon>
+    </g>
+</svg>

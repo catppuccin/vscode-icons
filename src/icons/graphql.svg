@@ -3,19 +3,19 @@
     <title>graphql</title>
     <g id="graphql" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <circle id="Oval" stroke="#D20F39" cx="8" cy="1.5" r="1"></circle>
-        <circle id="Oval" stroke="#D20F39" cx="1.5" cy="4.5" r="1"></circle>
-        <circle id="Oval" stroke="#D20F39" cx="1.5" cy="11.5" r="1"></circle>
-        <circle id="Oval" stroke="#D20F39" cx="14.5" cy="11.5" r="1"></circle>
+        <circle id="Oval" stroke="#D20F39" cx="2.5" cy="4.5" r="1"></circle>
+        <circle id="Oval" stroke="#D20F39" cx="2.5" cy="11.5" r="1"></circle>
+        <circle id="Oval" stroke="#D20F39" cx="13.5" cy="11.5" r="1"></circle>
         <circle id="Oval" stroke="#D20F39" cx="8" cy="14.5" r="1"></circle>
-        <circle id="Oval" stroke="#D20F39" cx="14.5" cy="4.5" r="1"></circle>
-        <line x1="1.5" y1="5.5" x2="1.5" y2="10.5" id="Line-7" stroke="#D20F39" stroke-linecap="square"></line>
-        <line x1="14.5" y1="5.5" x2="14.5" y2="10.5" id="Line" stroke="#D20F39" stroke-linecap="square"></line>
-        <line x1="2.5" y1="11.5" x2="13.5" y2="11.5" id="Line-2" stroke="#D20F39" stroke-linecap="square"></line>
-        <line x1="6.5" y1="13.9958171" x2="2.5" y2="12.5" id="Line-3" stroke="#D20F39" stroke-linecap="square"></line>
-        <line x1="9.5" y1="14" x2="13.5" y2="12.5" id="Line-4" stroke="#D20F39" stroke-linecap="square"></line>
-        <line x1="2.5" y1="10.5" x2="7.5" y2="2.5" id="Line-5" stroke="#D20F39" stroke-linecap="square"></line>
-        <line x1="13.5" y1="10.5" x2="8.5" y2="2.5" id="Line-6" stroke="#D20F39" stroke-linecap="square"></line>
-        <line x1="2.5" y1="4" x2="6.5" y2="2" id="Line-8" stroke="#D20F39" stroke-linecap="square"></line>
-        <line x1="9.5" y1="2" x2="13.5" y2="4" id="Line-9" stroke="#D20F39" stroke-linecap="square"></line>
+        <circle id="Oval" stroke="#D20F39" cx="13.5" cy="4.5" r="1"></circle>
+        <line x1="2.5" y1="5.5" x2="2.5" y2="10.5" id="Line-7" stroke="#D20F39" stroke-linecap="square"></line>
+        <line x1="13.5" y1="5.5" x2="13.5" y2="10.5" id="Line" stroke="#D20F39" stroke-linecap="square"></line>
+        <line x1="3.5" y1="11.5" x2="12.5" y2="11.5" id="Line-2" stroke="#D20F39" stroke-linecap="square"></line>
+        <line x1="6.5" y1="13.9958171" x2="3.5" y2="12.5" id="Line-3" stroke="#D20F39" stroke-linecap="square"></line>
+        <line x1="9.5" y1="13.9958171" x2="12.5" y2="12.5" id="Line-4" stroke="#D20F39" stroke-linecap="square"></line>
+        <line x1="3.49681938" y1="10.5" x2="7.5" y2="2.5" id="Line-5" stroke="#D20F39" stroke-linecap="square"></line>
+        <line x1="12.5" y1="10.5" x2="8.5" y2="2.5" id="Line-6" stroke="#D20F39" stroke-linecap="square"></line>
+        <line x1="3.49681938" y1="3.5" x2="6.5" y2="2" id="Line-8" stroke="#D20F39" stroke-linecap="square"></line>
+        <line x1="9.5" y1="2" x2="12.5" y2="3.5" id="Line-9" stroke="#D20F39" stroke-linecap="square"></line>
     </g>
 </svg>

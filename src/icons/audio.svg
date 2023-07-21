@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>audio</title>
+    <g id="audio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#D20F39" cx="8" cy="8" r="6.5"></circle>
+        <polyline id="Line" stroke="#D20F39" stroke-linecap="round" stroke-linejoin="round" points="8.5 9.5 8.5 4.5 10.5 5.55"></polyline>
+        <circle id="Oval" stroke="#D20F39" cx="7" cy="10" r="1.5"></circle>
+    </g>
+</svg>

@@ -4,9 +4,7 @@
     <g id="vue_config" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
         <circle id="Path" stroke="#8C8FA1" cx="12" cy="12.5" r="1.5"></circle>
         <polygon id="Path" stroke="#8C8FA1" transform="translate(12, 12.5) rotate(-330) translate(-12, -12.5)" points="12.0155445 9.02692379 15.0310889 10.75 15.0155445 14.2230762 11.9844555 15.9730762 8.96891109 14.25 8.98445554 10.7769238"></polygon>
-        <g id="Group" transform="translate(0.5, 0.5)" stroke="#40A02B">
-            <polygon id="Path" points="0 0 4.66666667 0 6 2.58827839 7.33333333 0 12 0 6.00546344 11"></polygon>
-            <polyline id="Path" points="9.47157106 0.196336996 6 6.57973138 2.52842894 0.196336996"></polyline>
-        </g>
+        <polygon id="Path" stroke="#40A02B" points="0.5 0.5 5.16666667 0.5 6.5 3.08827839 7.83333333 0.5 12.5 0.5 6.50546344 11.5"></polygon>
+        <polyline id="Path" stroke="#40A02B" points="9.97157106 0.696336996 6.5 7.07973138 3.02842894 0.696336996"></polyline>
     </g>
 </svg>

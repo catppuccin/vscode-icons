@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>watchman</title>
+    <g id="watchman" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <path d="M0.5,4.5 C2.16666667,9.83333333 4.66666667,12.5 8,12.5 C11.3333333,12.5 13.8436686,9.83333333 15.5310059,4.5" id="Line" stroke="#1E66F5" stroke-linecap="round"></path>
+        <path d="M0.5,11.5 C2.16552734,6.16666667 4.66552734,3.5 8,3.5 C11.3344727,3.5 13.8448079,6.16666667 15.5310059,11.5" id="Line-2" stroke="#1E66F5" stroke-linecap="round"></path>
+        <polygon id="Path" stroke="#1E66F5" points="8 5.5 10.5 7 10.5 9 8.01550293 10.5119629 5.5 9 5.5 7"></polygon>
+    </g>
+</svg>

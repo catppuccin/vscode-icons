@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>buck</title>
+    <g id="buck" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polyline id="Line" stroke="#1E66F5" stroke-linecap="square" points="3.5 14.5 7.5 11 5 8.5 15.5 8.5 15.5 10.5 11.5 12.5 9.5 14.5"></polyline>
+        <polyline id="Line-2" stroke="#1E66F5" stroke-linecap="square" points="11.75 8.25 8.5 5.5 8.5 2.5"></polyline>
+        <polyline id="Line-3" stroke="#1E66F5" stroke-linecap="square" points="12.5 2.5 12.5 5 10.5411932 6.99997322"></polyline>
+        <polyline id="Line-15" stroke="#1E66F5" stroke-linecap="square" points="8 8 4.5 4.5 4.5 1.5"></polyline>
+        <polyline id="Line-4" stroke="#1E66F5" stroke-linecap="square" points="0.5 1.5 0.5 4 2.95920159 6.52577973 6 6.52577973"></polyline>
+        <rect id="Rectangle" fill="#1E66F5" x="9" y="10" width="1" height="1"></rect>
+    </g>
+</svg>

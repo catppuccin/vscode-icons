@@ -32,6 +32,7 @@ export const files: IconMap = {
   ],
   bash: ['commit-msg', 'pre-commit', 'pre-push', 'post-merge'],
   browserslist: ['browserslist', '.browserslistrc'],
+  buck: ['.buckconfig'],
   caddy: ['Caddyfile'],
   capacitor: ['capacitor.config.json', 'capacitor.config.ts'],
   cargo: ['cargo.toml'],
@@ -46,6 +47,7 @@ export const files: IconMap = {
     'changes.rst',
     'changes.txt',
   ],
+  circle_ci: ['circle.yml'],
   cmake: ['cmakelists.txt', 'cmakecache.txt'],
   code_of_conduct: [
     'code_of_conduct.md',
@@ -86,6 +88,7 @@ export const files: IconMap = {
     'cypress.config.mjs',
   ],
   dart: ['.pubignore'],
+  dart_generated: ['freezed.dart', 'g.dart'],
   deno: ['deno.json', 'deno.jsonc'],
   deno_lock: ['deno.lock'],
   dependabot: ['dependabot.yml', 'dependabot.yaml'],
@@ -192,6 +195,7 @@ export const files: IconMap = {
     'firestore.rules',
     'firestore.indexes.json',
   ],
+  flow: ['.flowconfig'],
   gatsby: [
     'gatsby-config.js',
     'gatsby-config.mjs',
@@ -235,6 +239,7 @@ export const files: IconMap = {
   ],
   helm: ['.helmignore'],
   heroku: ['procfile', 'procfile.windows'],
+  ionic: ['ionic.config.json', '.io-config.json'],
   javascript_config: ['jsconfig.json'],
   jest: [
     'jest.config.js',
@@ -341,6 +346,7 @@ export const files: IconMap = {
   makefile: ['makefile', 'gnumakefile', 'kbuild'],
   maven: ['maven.config', 'jvm.config', 'pom.xml'],
   meson: ['meson.build', 'meson_options.txt'],
+  metro: ['metro.config.js', 'metro.config.ts'],
   netlify: [
     'netlify.json',
     'netlify.yml',
@@ -544,6 +550,7 @@ export const files: IconMap = {
     'vetur.config.ts',
     'volar.config.js',
   ],
+  watchman: ['.watchmanconfig'],
   webpack: [
     'webpack.js',
     'webpack.cjs',

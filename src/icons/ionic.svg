@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ionic</title>
+    <g id="ionic" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M12.5968186,3.40443057 C11.4205007,2.22779486 9.79524314,1.5 8,1.5 C4.41014913,1.5 1.5,4.41014913 1.5,8 C1.5,11.5898509 4.41014913,14.5 8,14.5 C11.5898509,14.5 14.5,11.5898509 14.5,8 C14.5,7.11439305 14.3228894,6.27015248 14.002156,5.50076605" id="Path" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round"></path>
+        <circle id="Oval" stroke="#1E66F5" cx="8" cy="8" r="2.5"></circle>
+        <circle id="Oval" fill="#1E66F5" cx="12.1" cy="2.9" r="1.5"></circle>
+    </g>
+</svg>
