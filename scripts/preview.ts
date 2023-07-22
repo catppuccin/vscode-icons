@@ -1,28 +1,29 @@
 import { readdir, unlink, writeFile } from 'node:fs/promises'
 import { join, resolve } from 'pathe'
 import { ensureDir, remove } from 'fs-extra'
-import { type Variants, variants } from '@catppuccin/palette'
 import { launch } from 'puppeteer'
 import consola from 'consola'
-import { catppuccinVariants } from '@/palettes'
+import { type CattppucinVariant, catppuccinVariants, varToHex } from '@/palettes'
 
 const THEMES = resolve('themes')
 const PREVIEWS = resolve(join('assets', 'previews'))
 
-function generateIconOnlyHtml(scale: number, files: string[], folders: string[], flavor: keyof Variants<any>) {
+function generateIconOnlyHtml(scale: number, files: string[], folders: string[], flavor: CattppucinVariant) {
+  const s = (v: number): number => scale * v
+
   const tags = (icons: string[]) => icons.map(icon =>
-    `<img style="width: ${scale * 16}px; margin: 2px;" src="../../themes/${flavor}/icons/${icon}" />`,
+    `<img style="width: ${s(16)}px; margin: ${s(2)}px;" src="../../themes/${flavor}/icons/${icon}" />`,
   ).reduce((a, c) => a + c, '')
 
   return `
     <html>
-      <body style="font-family: sans-serif; font-size: 14px;">
-        <div style="background-color: ${variants[flavor].mantle.hex}; padding: 16px; border-radius: 16px;">
-          <div style="justify-items: center; display: grid; grid-template-columns: repeat(15, 1fr); gap: 10px;">
+      <body style="margin: 0;">
+        <div style="background-color: ${varToHex[flavor]['--ctp-mantle']}; padding: ${s(16)}px; border-radius: ${s(16)}px;">
+          <div style="justify-items: center; display: grid; grid-template-columns: repeat(15, 1fr); gap: ${s(10)}px;">
            ${tags(files)}
           </div>
-          <div style="margin: 16px 0;"/>
-          <div style="justify-items: center; display: grid; grid-template-columns: repeat(15, 1fr); gap: 10px;">
+          <div style="margin: ${s(8)}px 0;"/>
+          <div style="justify-items: center; display: grid; grid-template-columns: repeat(15, 1fr); gap: ${s(10)}px;">
           ${tags(folders)}
          </div>
         </div>

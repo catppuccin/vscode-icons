@@ -6,7 +6,7 @@
 </h3>
 
 <p align="center">
-  (VSCode + non-retina display)
+  (Pixel perfect + More icons + More palettes)
 </p>
 
 <p align="center">

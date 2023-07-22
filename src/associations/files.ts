@@ -353,6 +353,12 @@ export const files: IconMap = {
     'netlify.yaml',
     'netlify.toml',
   ],
+  nest: [
+    'nest-cli.json',
+    '.nest-cli.json',
+    'nestconfig.json',
+    '.nestconfig.json',
+  ],
   next: [
     'next.config.js',
     'next.config.mjs',
@@ -392,6 +398,20 @@ export const files: IconMap = {
   ],
   pnpm: ['pnpm-workspace.yaml', '.pnpmfile.cjs'],
   pnpm_lock: ['pnpm-lock.yaml'],
+  postcss: [
+    'postcss.config.js',
+    'postcss.config.cjs',
+    'postcss.config.ts',
+    'postcss.config.cts',
+    '.postcssrc.js',
+    '.postcssrc.cjs',
+    '.postcssrc.ts',
+    '.postcssrc.cts',
+    '.postcssrc',
+    '.postcssrc.json',
+    '.postcssrc.yaml',
+    '.postcssrc.yml',
+  ],
   premake: ['premake4.lua', 'premake5.lua', 'premake.lua'],
   prettier: [
     '.prettierrc',
@@ -550,6 +570,7 @@ export const files: IconMap = {
     'vetur.config.ts',
     'volar.config.js',
   ],
+  wallaby: ['wallaby.js', 'wallaby.conf.js'],
   watchman: ['.watchmanconfig'],
   webpack: [
     'webpack.js',

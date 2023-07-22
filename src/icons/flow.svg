@@ -2,9 +2,9 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>flow</title>
     <g id="flow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
-        <polygon id="Line-2" stroke="#DF8E1D" stroke-linecap="square" points="6.5 15.5 1.5 10.5 5 10.5638666 2.0467657 6.5 4.5 6.5 1.44105296 2.53317209 6.5 2.53317209"></polygon>
-        <polygon id="Line-3" stroke="#DF8E1D" stroke-linecap="square" points="14.5 3.5 14.5 7.5 7.5 0.5 7.5 3.5"></polygon>
-        <polygon id="Line-17" stroke="#DF8E1D" stroke-linecap="round" points="14.5 13.5 14.5 9.5 12.5 9.5 12.5 6.5 9.5 6.5 9.5 9.5"></polygon>
-        <polygon id="Line-5" stroke="#DF8E1D" stroke-linecap="square" points="13.5 15.5 10.5 12.5 9.5 12.5 9.5 15.5"></polygon>
+        <polygon id="Line-2" stroke="#DF8E1D" stroke-linecap="square" points="6.5 14.5 2.5 10.5 5 10.5638666 2.5467657 6.5 4.5 6.5 2.44105296 2.53317209 6.5 2.53317209"></polygon>
+        <polygon id="Line-3" stroke="#DF8E1D" stroke-linecap="square" points="13.5 3.5 13.5 6.5 6.5 1.5 6.5 3.5"></polygon>
+        <polygon id="Line-17" stroke="#DF8E1D" stroke-linecap="round" points="13.5 12.5 13.5 8.5 11.5 8.5 11.5 6.5 9.5 6.5 9.5 9.5"></polygon>
+        <polygon id="Line-5" stroke="#DF8E1D" stroke-linecap="square" points="13 14.5 10.5 12.5 9.5 12.5 9.5 14.5"></polygon>
     </g>
 </svg>

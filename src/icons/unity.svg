@@ -2,6 +2,10 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>unity</title>
     <g id="unity" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M1.5,8.502569 L9,8.502569 M1.5,8.502569 L4.5,12.5 M1.5,8.502707 L4.55344907,4.53429828 M9,8.502707 L13.281491,1.5001377 M9,8.502569 L13.2813533,14.5 M13.2813533,1.5 L8.40621557,2.31243115 M13.2813533,1.5 L14.5,5.96878443 M13.2813533,14.5 L14.5,10.0312156 M13.2813533,14.5 L8.40621557,14.0937844" id="Shape" stroke="#4C4F69" fill-rule="nonzero"></path>
+        <polyline id="Path" stroke="#2C3E50" points="9.5 1 14.5 4 14.5 9.5"></polyline>
+        <polyline id="Path" stroke="#2C3E50" points="13.5 12.5 8 15.5 2.5 12.5"></polyline>
+        <polyline id="Path" stroke="#2C3E50" points="1.503333 9.5 1.503333 3.83333333 6.503333 1"></polyline>
+        <polyline id="Path" stroke="#2C3E50" points="1.5 4 8 8 8 15.5"></polyline>
+        <line x1="14.5" y1="4" x2="8" y2="8" id="Path" stroke="#2C3E50"></line>
     </g>
 </svg>

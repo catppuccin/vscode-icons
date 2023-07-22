@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>processing</title>
+    <g id="processing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <path d="M7.5,1.5 L8,1.5 C11.5898509,1.5 14.5,4.41014913 14.5,8 C14.5,11.5898509 11.5898509,14.5 8,14.5 L7.5,14.5 L7.5,12 C9.709139,12 11.5,10.209139 11.5,8 C11.5,5.790861 9.709139,4 7.5,4 L7.5,1.5 Z" id="Path" stroke="#1E66F5"></path>
+        <polyline id="Path" stroke="#1E66F5" transform="translate(4.5, 9.5) rotate(-60) translate(-4.5, -9.5)" points="5.01688358 8.5 8.5 8.5 8.5 10.5 0.5 10.5 0.5 8.5 2.71509663 8.5"></polyline>
+        <rect id="Rectangle" stroke="#04A5E5" transform="translate(3.049, 9.0849) rotate(-30) translate(-3.049, -9.0849)" x="2.04903811" y="7.08493649" width="2" height="4"></rect>
+    </g>
+</svg>

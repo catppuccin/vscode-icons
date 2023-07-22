@@ -3,7 +3,7 @@
   "name": "catppuccin-perfect-icons",
   "displayName": "Catppuccin Perfect Icons",
   "type": "module",
-  "version": "0.21.4",
+  "version": "0.21.5",
   "description": "🐈 Catppuccin (pixel) Perfect Icons for non-retina display",
   "author": "thang-nm",
   "license": "MIT",
@@ -54,6 +54,11 @@
         "id": "catppuccin-perfect-macchiato",
         "label": "Catppuccin Perfect Macchiato",
         "path": "themes/macchiato/theme.json"
+      },
+      {
+        "id": "catppuccin-perfect-dark",
+        "label": "Catppuccin Perfect Latte (Dark)",
+        "path": "themes/dark/theme.json"
       }
     ]
   },

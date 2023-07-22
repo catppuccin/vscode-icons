@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>odin</title>
+    <g id="odin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8.78082353,1.54641753 C8.52482519,1.51576907 8.26425413,1.5 8,1.5 C4.41014913,1.5 1.5,4.41014913 1.5,8 C1.5,9.46398332 1.9839881,10.8149252 2.80068792,11.9015491 L8.78082353,1.54641753 Z" id="Path" stroke="#04A5E5"></path>
+        <path d="M4.28568506,13.334911 C5.33853596,14.0693068 6.61897109,14.5 8,14.5 C11.5898509,14.5 14.5,11.5898509 14.5,8 C14.5,5.39646563 12.9693036,3.15044457 10.7587602,2.1127862 L4.28568506,13.334911 Z" id="Path" stroke="#04A5E5"></path>
+    </g>
+</svg>
