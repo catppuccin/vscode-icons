@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ruby_gem_lock</title>
+    <g id="ruby_gem_lock" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" stroke="#D20F39" stroke-linecap="round" stroke-linejoin="round" points="5.99962675 10.5 9.5 6.5 8 4.5 4 4.5 2.5 6.5"></polygon>
+        <polyline id="Path" stroke="#D20F39" stroke-linecap="round" stroke-linejoin="round" points="7.50086719 12.681199 5.99963154 13.5 0.5 10.5 0.5 3.5 5.99993071 0.5 11.5 3.5 11.5 6.5"></polyline>
+        <path d="M14.9982047,11.5 C15.2742654,11.5 15.4980569,11.7237914 15.4980569,11.9998521 L15.4980569,14.9987961 C15.4980569,15.2748569 15.2742654,15.4986483 14.9982047,15.4986483 L9.99985214,15.4986483 C9.72379143,15.4986483 9.5,15.2748569 9.5,14.9987961 L9.5,11.9996833 C9.5,11.7236226 9.72379143,11.4998311 9.99985214,11.4998311 L14.9982047,11.5 Z M10.9995564,11.5 L10.9995564,10 C10.9995564,9.17157288 11.6711293,8.5 12.4995564,8.5 C13.3279836,8.5 13.9995564,9.17157288 13.9995564,10 L13.9995564,11.5" id="lock" stroke="#8C8FA1"></path>
+    </g>
+</svg>

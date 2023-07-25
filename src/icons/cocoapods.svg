@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cocoapods</title>
+    <g id="cocoapods" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <path d="M6,13.5 C2.96243388,13.5 0.5,11.0375661 0.5,8 C0.5,4.96243388 2.96243388,2.5 6,2.5 C8.51735465,2.5 10.6397021,4.191227 11.2928122,6.49945094 L7.99856775,6.49785184 C7.54236645,5.89185047 6.81694402,5.5 6,5.5 C4.61928813,5.5 3.5,6.61928813 3.5,8 C3.5,9.38071187 4.61928813,10.5 6,10.5 C6.81949535,10.5 7.54689658,10.1056982 8.00283405,9.49646423 L11.2929493,9.49646423 C10.6399991,11.8085363 8.51753078,13.5 6,13.5 Z" id="Path" stroke="#D20F39"></path>
+        <polyline id="Line" stroke="#D20F39" stroke-linecap="round" points="12.5 2.5 15.5 8 12.5 13.5"></polyline>
+    </g>
+</svg>

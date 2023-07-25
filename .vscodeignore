@@ -5,6 +5,7 @@ icons/
 node_modules/
 scripts/
 src/
+demo/
 
 todo.md
 *.vsix

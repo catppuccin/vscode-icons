@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>matlab</title>
+    <g id="matlab" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <path d="M4,11 C1.66666667,9.33333333 0.5,8.5 0.5,8.5 C0.5,8.5 2,8 5,7 C5.51734988,5.81598345 6.14668735,5.18664598 6.88801241,5.11198759 C7.62933747,5.0373292 8.83333333,3.83333333 10.5,1.5" id="Line-2" stroke="#209FB5" stroke-linecap="round"></path>
+        <line x1="5" y1="7" x2="6.5" y2="8.5" id="Line-3" stroke="#209FB5" stroke-linecap="round"></line>
+        <path d="M15.5,12.5 L10.5,1.5 C8.5,6.83333333 6.33333333,10 4,11 C5.66666667,10.6666667 6.66666667,11.8333333 7,14.5 C10.5,13 10.5,11 12,10.5 C13.5,10 13.5,12 15.5,12.5 Z" id="Line" stroke="#FE640B" stroke-linecap="square"></path>
+    </g>
+</svg>

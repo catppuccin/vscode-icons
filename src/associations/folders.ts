@@ -187,6 +187,7 @@ export const folders: IconMap = {
   folder_utils: ['tools', 'tooling', 'util', 'utils', 'utility', 'utilities'],
   folder_views: ['view', 'views', 'screen', 'screens', 'page', 'pages', 'html'],
   folder_vscode: ['.vscode', '.vscode-test'],
+  folder_windows: ['windows'],
   folder_workflows: ['workflow', 'workflows', 'ci', '.ci'],
 }
 

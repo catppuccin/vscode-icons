@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>solidity</title>
+    <g id="solidity" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3,11.5 L5.5,15.5 L8,11.5 L10.5,15.5 L13,11.5 L10.5,7.5 L8,11.5 M10.5,15.5 L5.5,15.5 M13,11.5 L3,11.5" id="Combined-Shape" stroke="#8839EF"></path>
+        <path d="M13,4.5 L10.5,0.5 L8,4.5 L5.5,0.5 L3,4.5 L5.5,8.5 L8,4.5 M5.5,0.5 L10.5,0.5 M3,4.5 L13,4.5" id="Combined-Shape" stroke="#8839EF"></path>
+    </g>
+</svg>

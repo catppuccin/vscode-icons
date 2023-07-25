@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>taurignore</title>
+    <g id="taurignore" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M4.72865317,4.02327077 C5.6902606,2.1517147 7.78617613,1.16028841 9.83939379,1.60574842 C11.892548,2.05120607 13.391438,3.8224763 13.4943709,5.92491272 C13.5973344,8.02726944 12.2787955,9.93700937 10.2791272,10.581794" id="Path" stroke="#8C8FA1" stroke-linecap="round" stroke-linejoin="round"></path>
+        <circle id="Oval" fill="#8C8FA1" cx="7" cy="10" r="1"></circle>
+        <path d="M11.262834,11.9932811 C10.3001626,13.848628 8.22041949,14.8324602 6.17899637,14.3982143 C4.13755149,13.9639551 2.63607637,12.2182963 2.50872422,10.1310486 C2.38135683,8.04379019 3.65942339,6.1278383 5.63288019,5.4476207" id="Path" stroke="#8C8FA1" stroke-linecap="round" stroke-linejoin="round"></path>
+        <circle id="Oval" fill="#8C8FA1" cx="9" cy="6" r="1"></circle>
+    </g>
+</svg>

@@ -49,6 +49,8 @@ export const files: IconMap = {
   ],
   circle_ci: ['circle.yml'],
   cmake: ['cmakelists.txt', 'cmakecache.txt'],
+  cocoapods: ['podfile'],
+  cocoapods_lock: ['podfile.lock'],
   code_of_conduct: [
     'code_of_conduct.md',
     'code_of_conduct.txt',
@@ -433,6 +435,7 @@ export const files: IconMap = {
     '.clang-tidy',
   ],
   r: ['.Rhistory'],
+  reactnative_config: ['react-native.config.js', 'react-native.config.ts'],
   readme: ['readme.md', 'readme.rst', 'readme.txt', 'readme'],
   redwood: ['redwood.toml'],
   remix: ['remix.config.js', 'remix.config.ts'],
@@ -469,6 +472,7 @@ export const files: IconMap = {
   ],
   rome: ['rome.json'],
   ruby_gem: ['gemfile'],
+  ruby_gem_lock: ['gemfile.lock'],
   sonar_cloud: [
     'sonar-project.properties',
     '.sonarcloud.properties',
@@ -500,6 +504,7 @@ export const files: IconMap = {
     'tailwind.config.cjs',
     'tailwind.config.ts',
     'tailwind.config.cts',
+    'tailwind.css',
   ],
   tauri: [
     'tauri.conf.json',
@@ -508,6 +513,7 @@ export const files: IconMap = {
     'tauri.windows.conf.json',
     'tauri.macos.conf.json',
   ],
+  taurignore: ['.taurignore'],
   typescript_config: [
     'tsconfig.json',
     'tsconfig.app.json',

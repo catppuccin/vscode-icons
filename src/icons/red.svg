@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>red</title>
+    <g id="red" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <polygon id="Triangle" stroke="#D20F39" points="8 1.5 14.5 12 8 14.5 1.5 12"></polygon>
+        <polyline id="Path" stroke="#D20F39" stroke-linecap="round" points="3.5 9 8 10.5 12.5 9"></polyline>
+        <polyline id="Line-31" stroke="#D20F39" stroke-linecap="round" points="5.5 5.5 8 6.5 10.5 5.5"></polyline>
+        <line x1="8" y1="1.5" x2="8" y2="14.5" id="Line-32" stroke="#D20F39" stroke-linecap="round"></line>
+        <polygon id="Line-33" stroke="#DF8E1D" stroke-linecap="round" points="5.5 5.5 8 1.5 10.5 5.5 8 6.5"></polygon>
+        <line x1="8" y1="2" x2="8" y2="6" id="Line-34" stroke="#DF8E1D" stroke-linecap="square"></line>
+    </g>
+</svg>

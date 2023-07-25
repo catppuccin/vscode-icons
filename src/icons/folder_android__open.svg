@@ -9,8 +9,8 @@
             <path d="M15.5,14 C15.5,12.0670034 13.9329966,10.5 12,10.5 C10.0670034,10.5 8.50964355,12.0670034 8.50964355,14 L8.5,15.5 L15.5,15.5 L15.5,14 Z" id="Path" stroke="#40A02B"></path>
             <line x1="14.5" y1="11.0268555" x2="15.5" y2="9" id="Line" stroke="#40A02B" stroke-linecap="round" stroke-linejoin="round"></line>
             <line x1="8.5" y1="11.0268555" x2="9.5" y2="9" id="Line" stroke="#40A02B" stroke-linecap="round" stroke-linejoin="round" transform="translate(9, 10.0134) scale(-1, 1) translate(-9, -10.0134)"></line>
-            <circle id="Oval" fill="#40A02B" cx="10.5" cy="13.5" r="1"></circle>
-            <circle id="Oval" fill="#40A02B" cx="13.5" cy="13.5" r="1"></circle>
+            <rect id="Rectangle" fill="#40A02B" x="10" y="13" width="1" height="1"></rect>
+            <rect id="Rectangle" fill="#40A02B" x="13" y="13" width="1" height="1"></rect>
         </g>
     </g>
 </svg>

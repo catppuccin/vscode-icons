@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>http</title>
+    <g id="http" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#1E66F5" cx="8" cy="8" r="6.5"></circle>
+        <path d="M8,1.5 C9.66666667,3.5 10.5,5.66666667 10.5,8 C10.5,10.3333333 9.66666667,12.5 8,14.5" id="Line" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M8,1.5 C6.33333333,3.5 5.5,5.66666667 5.5,8 C5.5,10.3333333 6.33333333,12.5 8,14.5" id="Line" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round"></path>
+        <line x1="2.5" y1="10.5" x2="13.5" y2="10.5" id="Line-2" stroke="#1E66F5" stroke-linecap="square"></line>
+        <line x1="2.5" y1="5.5" x2="13.5" y2="5.5" id="Line-3" stroke="#1E66F5" stroke-linecap="square"></line>
+    </g>
+</svg>
