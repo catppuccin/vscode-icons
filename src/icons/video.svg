@@ -2,11 +2,11 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>video</title>
     <g id="video" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M3,2.5 L13,2.5 C13.8284271,2.5 14.5,3.17157288 14.5,4 L14.5,12 C14.5,12.8284271 13.8284271,13.5 13,13.5 L3,13.5 C2.17157288,13.5 1.5,12.8284271 1.5,12 L1.5,4 C1.5,3.17157288 2.17157288,2.5 3,2.5 Z" id="Path" stroke="#1E66F5" stroke-linejoin="round"></path>
+        <path d="M3,2.5 L13,2.5 C13.8284271,2.5 14.5,3.17157288 14.5,4 L14.5,13 C14.5,13.8284271 13.8284271,14.5 13,14.5 L3,14.5 C2.17157288,14.5 1.5,13.8284271 1.5,13 L1.5,4 C1.5,3.17157288 2.17157288,2.5 3,2.5 Z" id="Path" stroke="#1E66F5" stroke-linejoin="round"></path>
         <line x1="2.5" y1="5.5" x2="13.5" y2="5.5" id="Line" stroke="#1E66F5" stroke-linecap="square"></line>
         <line x1="3.5" y1="5.5" x2="5.5" y2="2.5" id="Line-2" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round"></line>
         <line x1="7" y1="5.5" x2="9" y2="2.5" id="Line-2" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round"></line>
         <line x1="10.5" y1="5.5" x2="12.5" y2="2.5" id="Line-2" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round"></line>
-        <polygon id="Line-22" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round" points="6.5 7.5 6.5 11.5 10.5 9"></polygon>
+        <polygon id="Line-22" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round" points="6.5 8 6.5 12 10.5 10"></polygon>
     </g>
 </svg>

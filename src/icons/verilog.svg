@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>verilog</title>
+    <g id="verilog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M4.5,2.5 L11.5,2.5 C12.6045695,2.5 13.5,3.3954305 13.5,4.5 L13.5,11.5 C13.5,12.6045695 12.6045695,13.5 11.5,13.5 L4.5,13.5 C3.3954305,13.5 2.5,12.6045695 2.5,11.5 L2.5,4.5 C2.5,3.3954305 3.3954305,2.5 4.5,2.5 Z" id="Rectangle" stroke="#4C4F69"></path>
+        <rect id="Rectangle" stroke="#4C4F69" stroke-linejoin="round" x="5.5" y="5.5" width="5" height="5"></rect>
+        <path d="M14,5.5 L16,5.5 M14,8 L16,8 M14,10.5 L16,10.5 M0,5 L2,5 M0,7.5 L2,7.5 M0,10 L2,10" id="Combined-Shape" stroke="#4C4F69"></path>
+        <path d="M5.5,2 L5.5,0 M8,2 L8,0 M10.5,2 L10.5,0 M5.5,16 L5.5,14 M8,16 L8,14 M10.5,16 L10.5,14" id="Combined-Shape" stroke="#4C4F69"></path>
+    </g>
+</svg>

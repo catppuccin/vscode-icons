@@ -6,7 +6,7 @@
         <line x1="0.49869213" y1="5.5" x2="4.5" y2="10.5" id="Path" stroke="#40A02B" stroke-linecap="round" stroke-linejoin="round"></line>
         <line x1="4.5" y1="5.5" x2="0.49869213" y2="10.5" id="Path" stroke="#40A02B" stroke-linecap="round" stroke-linejoin="round"></line>
         <polygon id="Path" stroke="#40A02B" stroke-linejoin="round" points="7.5 5.5 12.5 5.5 12.5 10.5 7.5 10.5"></polygon>
-        <line x1="9.5" y1="6.5" x2="9.5" y2="9.5" id="Path" stroke="#40A02B" stroke-linecap="square"></line>
-        <line x1="7.5" y1="7.5" x2="11.5" y2="7.5" id="Path" stroke="#40A02B" stroke-linecap="square"></line>
+        <line x1="9.5" y1="5.5" x2="9.5" y2="10.5" id="Path" stroke="#40A02B" stroke-linecap="square"></line>
+        <line x1="7.5" y1="7.5" x2="12.5" y2="7.5" id="Path" stroke="#40A02B" stroke-linecap="square"></line>
     </g>
 </svg>

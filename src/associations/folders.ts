@@ -1,6 +1,7 @@
 export const folders: IconMap = {
   folder_android: ['android'],
   folder_api: ['api', 'apis', 'restapi'],
+  folder_app: ['app', 'apps', 'application'],
   folder_circle_ci: ['.circleci'],
   folder_client: ['client', 'clients', 'frontend', 'pwa'],
   folder_components: ['components', 'widget', 'widgets', 'fragments'],
@@ -109,6 +110,7 @@ export const folders: IconMap = {
   ],
   folder_ios: ['ios'],
   folder_layouts: ['layout', 'layouts', '_layouts'],
+  folder_linux: ['linux'],
   folder_locales: [
     'i18n',
     'internationalization',
@@ -124,6 +126,7 @@ export const folders: IconMap = {
     'translate',
     'translations',
   ],
+  folder_macos: ['mac', 'macos'],
   folder_mocks: [
     'mock',
     'mocks',

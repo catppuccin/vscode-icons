@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>travis</title>
+    <g id="travis" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polyline id="Line-4" stroke="#4C4F69" stroke-linecap="square" stroke-linejoin="round" points="2 8.5 2.5 10.5 4 11.5 7 11 8 9.5 9 11 12 11.5 13.5 10.5 14 8.5"></polyline>
+        <line x1="6" y1="2.5" x2="10" y2="2.5" id="Line-2" stroke="#D20F39" stroke-linejoin="round"></line>
+        <line x1="8" y1="2.5" x2="8" y2="6" id="Line-3" stroke="#D20F39" stroke-linejoin="round"></line>
+        <line x1="5" y1="9.5" x2="6" y2="9.5" id="Line-40" stroke="#4C4F69"></line>
+        <line x1="10" y1="9.5" x2="11" y2="9.5" id="Line-5" stroke="#4C4F69"></line>
+        <path d="M1.5,8.5 C2.5,13.1666667 4.66666667,15.5 8,15.5 C11.3333333,15.5 13.5,13.1666667 14.5,8.5" id="Line-6" stroke="#4C4F69" stroke-linecap="square"></path>
+        <path d="M2,4.5 C3.33333333,1.83333333 5.33333333,0.5 8,0.5 C10.6666667,0.5 12.6666667,1.83333333 14,4.5 L15.5,5.5 L15.5,8 C13.5,7.66666667 11,7.5 8,7.5 C5,7.5 2.5,7.66666667 0.5,8 L0.5,5.5 L2,4.5 Z" id="Line" stroke="#DF8E1D" stroke-linecap="square" stroke-linejoin="round"></path>
+        <polyline id="Path" stroke="#D20F39" stroke-linecap="round" stroke-linejoin="round" points="1.5 13.5 3 14 6.5 12.5 8 12.5 9.5 12.5 13 14 14.5 13.5"></polyline>
+    </g>
+</svg>

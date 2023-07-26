@@ -2,10 +2,10 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>marko</title>
     <g id="marko" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <polyline id="Path" stroke="#D20F39" points="12.0022982 13.5 14.5 8.5 12.0022982 2.5"></polyline>
-        <polyline id="Path" stroke="#1E66F5" points="4 2.5 1.52844238 8.5 3.99536133 13.5"></polyline>
+        <polyline id="Path" stroke="#D20F39" points="12.0022982 13.5 15.5 8.5 12.0022982 2.5"></polyline>
+        <polyline id="Path" stroke="#1E66F5" points="4 2.5 0.528442383 8.5 3.99536133 13.5"></polyline>
         <line x1="6.4342041" y1="8.5" x2="4" y2="2.5" id="Path" stroke="#179299"></line>
         <line x1="9" y1="2.5" x2="6.4342041" y2="8.5" id="Path" stroke="#40A02B"></line>
-        <polyline id="Path" stroke="#DF8E1D" points="9.00524902 13.5 11.5113525 8.5 9 2.5"></polyline>
+        <polyline id="Path" stroke="#DF8E1D" points="9.00524902 13.5 12.5113525 8.5 9 2.5"></polyline>
     </g>
 </svg>

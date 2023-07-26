@@ -2,10 +2,10 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>ninja</title>
     <g id="ninja" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <circle id="Oval" stroke="#8C8FA1" stroke-linecap="round" stroke-linejoin="round" cx="8" cy="8" r="7"></circle>
-        <line x1="2.17806316" y1="4.5" x2="13.8975368" y2="4.5" id="Path" stroke="#8C8FA1" stroke-linecap="round" stroke-linejoin="round"></line>
-        <line x1="1.25082105" y1="9.5" x2="14.7413684" y2="9.5" id="Path" stroke="#8C8FA1" stroke-linecap="round" stroke-linejoin="round"></line>
-        <circle id="Oval" fill="#8C8FA1" cx="6" cy="7" r="1"></circle>
-        <circle id="Oval" fill="#8C8FA1" cx="10" cy="7" r="1"></circle>
+        <circle id="Oval" stroke="#4C4F69" stroke-linecap="round" stroke-linejoin="round" cx="8" cy="8" r="6.5"></circle>
+        <line x1="2.67806316" y1="4.5" x2="13.3975368" y2="4.5" id="Path" stroke="#4C4F69" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="1.75082105" y1="9.5" x2="14.2413684" y2="9.5" id="Path" stroke="#4C4F69" stroke-linecap="round" stroke-linejoin="round"></line>
+        <circle id="Oval" fill="#4C4F69" cx="6" cy="7" r="1"></circle>
+        <circle id="Oval" fill="#4C4F69" cx="10" cy="7" r="1"></circle>
     </g>
 </svg>

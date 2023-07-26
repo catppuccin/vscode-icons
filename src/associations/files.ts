@@ -373,6 +373,7 @@ export const files: IconMap = {
   npm_lock: ['package-lock.json'],
   nuxt: ['nuxt.config.js', 'nuxt.config.ts', '.nuxtrc'],
   nuxt_ignore: ['.nuxtignore'],
+  nx: ['nx.json'],
   package_json: [
     'package.json',
     '.nvmrc',
@@ -473,6 +474,17 @@ export const files: IconMap = {
   rome: ['rome.json'],
   ruby_gem: ['gemfile'],
   ruby_gem_lock: ['gemfile.lock'],
+  sentry: ['.sentryclirc'],
+  snowpack: [
+    'snowpack.config.js',
+    'snowpack.config.cjs',
+    'snowpack.config.mjs',
+    'snowpack.config.ts',
+    'snowpack.config.cts',
+    'snowpack.config.mts',
+    'snowpack.deps.json',
+    'snowpack.config.json',
+  ],
   sonar_cloud: [
     'sonar-project.properties',
     '.sonarcloud.properties',
@@ -514,6 +526,8 @@ export const files: IconMap = {
     'tauri.macos.conf.json',
   ],
   taurignore: ['.taurignore'],
+  todo: ['todo', 'todo.txt', 'todo.md'],
+  travis: ['.travis.yml'],
   typescript_config: [
     'tsconfig.json',
     'tsconfig.app.json',

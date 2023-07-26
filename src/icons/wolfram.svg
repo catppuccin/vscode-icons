@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>wolfram</title>
+    <g id="wolfram" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#D20F39" cx="8" cy="8" r="6.5"></circle>
+        <polyline id="Line" stroke="#D20F39" stroke-linecap="square" points="3 11 5 6 7 3 8 6 13 9.5 12 10.5 5 10 6 9 5 8.5"></polyline>
+        <line x1="11" y1="13.5" x2="8.5" y2="10.5" id="Line-2" stroke="#D20F39" stroke-linecap="square"></line>
+        <polyline id="Line-3" stroke="#D20F39" stroke-linecap="square" points="8 5 9.5 3.5 9.5 6.5"></polyline>
+        <rect id="Rectangle" fill="#D20F39" x="8" y="8" width="1" height="1"></rect>
+    </g>
+</svg>

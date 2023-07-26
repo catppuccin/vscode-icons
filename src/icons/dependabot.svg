@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>dependabot</title>
-    <g id="dependabot" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <line x1="13.5" y1="8.5" x2="15" y2="8.5" id="Line" stroke="#1E66F5"></line>
-        <line x1="6.5" y1="7.5" x2="6.5" y2="9.5" id="Line-3" stroke="#1E66F5"></line>
-        <line x1="9.5" y1="7.5" x2="9.5" y2="9.5" id="Line-4" stroke="#1E66F5"></line>
-        <line x1="2.5" y1="8.5" x2="1" y2="8.5" id="Line-2" stroke="#1E66F5"></line>
-        <polyline id="Line-5" stroke="#1E66F5" points="8 4.5 8 1.5 6.01923856 1.5"></polyline>
-        <path d="M3.5,4.5 L12.5,4.5 C13.0522847,4.5 13.5,4.94771525 13.5,5.5 L13.5,12.5 C13.5,13.0522847 13.0522847,13.5 12.5,13.5 L3.5,13.5 C2.94771525,13.5 2.5,13.0522847 2.5,12.5 L2.5,5.5 C2.5,4.94771525 2.94771525,4.5 3.5,4.5 Z" id="Rectangle" stroke="#1E66F5"></path>
+    <g id="dependabot" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <line x1="5.5" y1="7.5" x2="5.5" y2="9.5" id="Line-3" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="15.5" y1="9" x2="15.5" y2="7" id="Line" stroke="#1E66F5"></line>
+        <line x1="10.5" y1="7.5" x2="10.5" y2="9.5" id="Line-4" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="0.5" y1="9" x2="0.5" y2="7" id="Line-2" stroke="#1E66F5"></line>
+        <polyline id="Line-5" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round" points="8.5 3.5 8.5 1.5 6.51923856 1.5"></polyline>
+        <path d="M2.5,3.5 L13.5,3.5 C14.0522847,3.5 14.5,3.94771525 14.5,4.5 L14.5,13.5 C14.5,14.0522847 14.0522847,14.5 13.5,14.5 L2.5,14.5 C1.94771525,14.5 1.5,14.0522847 1.5,13.5 L1.5,4.5 C1.5,3.94771525 1.94771525,3.5 2.5,3.5 Z" id="Rectangle" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round"></path>
     </g>
 </svg>

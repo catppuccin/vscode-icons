@@ -4,13 +4,6 @@
     <g id="zip" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <path d="M4.5,14.5 L3.5,14.5 C2.3954305,14.5 1.5,13.6045695 1.5,12.5 L1.5,3.5 C1.5,2.3954305 2.3954305,1.5 3.5,1.5 L12.5,1.5 C13.6045695,1.5 14.5,2.3954305 14.5,3.5 L14.5,12.5 C14.5,13.6045695 13.6045695,14.5 12.5,14.5 L11.4968262,14.5 L11.4968262,14.5" id="Path" stroke="#DF8E1D" stroke-linecap="round" stroke-linejoin="round"></path>
         <polygon id="Line-23" stroke="#DF8E1D" stroke-linecap="square" stroke-linejoin="round" points="6.5 14.5 6.5 12.5 8 11 9.5 12.5 9.5 14.5"></polygon>
-        <line x1="8.5" y1="9.5" x2="9.5" y2="9.5" id="Line-4" stroke="#DF8E1D" stroke-linecap="square"></line>
-        <line x1="6.5" y1="6.5" x2="7.5" y2="6.5" id="Line" stroke="#DF8E1D" stroke-linecap="square"></line>
-        <line x1="8.5" y1="5.5" x2="9.5" y2="5.5" id="Line" stroke="#DF8E1D" stroke-linecap="square"></line>
-        <line x1="6.5" y1="4.5" x2="7.5" y2="4.5" id="Line" stroke="#DF8E1D" stroke-linecap="square"></line>
-        <line x1="8.5" y1="3.5" x2="9.5" y2="3.5" id="Line" stroke="#DF8E1D" stroke-linecap="square"></line>
-        <line x1="6.5" y1="2.5" x2="7.5" y2="2.5" id="Line" stroke="#DF8E1D" stroke-linecap="square"></line>
-        <line x1="8.5" y1="7.5" x2="9.5" y2="7.5" id="Line-2" stroke="#DF8E1D" stroke-linecap="square"></line>
-        <line x1="6.5" y1="8.5" x2="7.5" y2="8.5" id="Line-3" stroke="#DF8E1D" stroke-linecap="square"></line>
+        <path d="M6,2.5 L8,2.5 M8,3.5 L10,3.5 M6,4.5 L8,4.5 M8,5.5 L10,5.5 M6,6.5 L8,6.5 M8,7.5 L10,7.5 M6,8.5 L8,8.5 M8,9.5 L10,9.5" id="=" stroke="#DF8E1D"></path>
     </g>
 </svg>

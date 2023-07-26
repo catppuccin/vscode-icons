@@ -2,9 +2,9 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>font</title>
     <g id="font" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <polyline id="Line-18" stroke="#4C4F69" points="7.00374673 4.49888343 11.3462707 14.5 13.5220417 14.5 8 1.54529345 3.5 14.5"></polyline>
-        <line x1="2.5" y1="14.5" x2="4.5" y2="14.5" id="Line-19" stroke="#4C4F69"></line>
-        <line x1="10.5" y1="14.5" x2="14.5" y2="14.5" id="Line-20" stroke="#4C4F69"></line>
-        <line x1="5" y1="10.5" x2="9.5" y2="10.5" id="Line-21" stroke="#4C4F69"></line>
+        <polyline id="Line-18" stroke="#4C4F69" points="7 5 11 13.5 13.5 13.5 8 2.5 3.5 13.5"></polyline>
+        <line x1="2.5" y1="13.5" x2="4.5" y2="13.5" id="Line-19" stroke="#4C4F69"></line>
+        <line x1="9.5" y1="13.5" x2="14.5" y2="13.5" id="Line-20" stroke="#4C4F69"></line>
+        <line x1="5.5" y1="9.5" x2="9" y2="9.5" id="Line-21" stroke="#4C4F69"></line>
     </g>
 </svg>

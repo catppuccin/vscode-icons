@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>smarty</title>
+    <g id="smarty" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <line x1="6.5" y1="14.5" x2="9.5" y2="14.5" id="Line" stroke="#DF8E1D" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="5.5" y1="12.5" x2="10.5" y2="12.5" id="Line-2" stroke="#DF8E1D" stroke-linecap="round" stroke-linejoin="round"></line>
+        <path d="M9.5,13 L9.49878941,11.2714789 C11.527968,10.634721 13,8.73926623 13,6.5 C13,3.73857625 10.7614237,1.5 8,1.5 C5.23857625,1.5 3,3.73857625 3,6.5 C3,8.73706673 4.46914161,10.630997 6.49523278,11.2695989 L6.5,13" id="Path" stroke="#DF8E1D"></path>
+    </g>
+</svg>

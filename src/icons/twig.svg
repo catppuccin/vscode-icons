@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>twig</title>
+    <g id="twig" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M0.5,11.5 C1.5,12.5 2.16666667,13.5 2.5,14.5 C2.83333333,13.5 2.83333333,11.5 2.5,8.5 C3.83333333,9.83333333 4.66666667,11.8333333 5,14.5 C5.33333333,12.8333333 5.83333333,11.5 6.5,10.5" id="Line-37" stroke="#40A02B"></path>
+        <line x1="2.5" y1="14.5" x2="5" y2="14.5" id="Line-38" stroke="#40A02B"></line>
+        <path d="M8,8 C9,9.66666667 9.66666667,11.8333333 10,14.5 C9.66666667,9.83333333 10.8333333,5.5 13.5,1.5 C12.5,7.83333333 12.1666667,12.1666667 12.5,14.5 C13.1666667,12.5 13.8333333,11.1666667 14.5,10.5" id="Line-39" stroke="#40A02B"></path>
+        <line x1="10" y1="14.5" x2="12.5" y2="14.5" id="Line" stroke="#40A02B"></line>
+    </g>
+</svg>
