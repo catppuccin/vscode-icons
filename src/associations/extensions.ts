@@ -1,5 +1,13 @@
 export const extensions: IconMap = {
   angular: ['ng-template'],
+  angularservice: ['service.ts'],
+  angularpipes: ['pipe.ts'],
+  angularcomponent: ['component.ts'],
+  angulardirectives: ['directive.ts'],
+  angularguard: ['guard.ts'],
+  angularroute: ['route.ts'],
+  angularmodule: ['module.ts'],
+  angularresolver: ['resolver.ts'],
   apl: ['apl'],
   apple: ['applescript', 'ipa'],
   arduino: ['ino'],
