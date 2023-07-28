@@ -7,8 +7,8 @@
         </g>
         <g id="icon">
             <polyline id="Path" stroke="#40A02B" stroke-linecap="round" stroke-linejoin="round" points="14.5 15.5 11 12 8.5 14.5"></polyline>
-            <circle id="Path" fill="#DF8E1D" cx="13.5" cy="10.5" r="1"></circle>
             <path d="M9.5,8.5 L14.4974843,8.5 C15.049769,8.5 15.4974843,8.94771525 15.4974843,9.5 L15.4974843,14.5 C15.4974843,15.0522847 15.049769,15.5 14.4974843,15.5 L9.5,15.5 C8.94771525,15.5 8.5,15.0522847 8.5,14.5 L8.5,9.5 C8.5,8.94771525 8.94771525,8.5 9.5,8.5 Z" id="Path" stroke="#209FB5" stroke-linejoin="round"></path>
+            <line x1="14" y1="10.5" x2="13" y2="10.5" id="Line-4" stroke="#DF8E1D"></line>
         </g>
     </g>
 </svg>

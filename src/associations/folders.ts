@@ -4,6 +4,7 @@ export const folders: IconMap = {
   folder_app: ['app', 'apps', 'application'],
   folder_circle_ci: ['.circleci'],
   folder_client: ['client', 'clients', 'frontend', 'pwa'],
+  folder_cloud: ['.aws', 'aws', 'azure', 'cloud', 'clouds'],
   folder_components: ['components', 'widget', 'widgets', 'fragments'],
   folder_composables: [
     'hook',
@@ -45,7 +46,7 @@ export const folders: IconMap = {
     '.nyc_output',
   ],
   folder_cypress: ['cypress', '.cypress'],
-  folder_docs: ['doc', 'docs', 'document', 'documents', 'documentation'],
+  folder_debug: ['debug'],
   folder_dist: [
     '.output',
     'dist',
@@ -56,6 +57,8 @@ export const folders: IconMap = {
     'bin',
     'target',
   ],
+  folder_docs: ['doc', 'docs', 'document', 'documents', 'documentation'],
+  folder_download: ['download', 'downloads'],
   folder_examples: [
     'demo',
     'demos',
@@ -126,7 +129,7 @@ export const folders: IconMap = {
     'translate',
     'translations',
   ],
-  folder_macos: ['mac', 'macos'],
+  folder_macos: ['mac', 'macos', 'osx', 'darwin'],
   folder_mocks: [
     'mock',
     'mocks',

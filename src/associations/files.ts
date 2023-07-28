@@ -472,6 +472,7 @@ export const files: IconMap = {
     'rollup.config.prod.vendor.ts',
   ],
   rome: ['rome.json'],
+  ruby: ['.ruby-version'],
   ruby_gem: ['gemfile'],
   ruby_gem_lock: ['gemfile.lock'],
   sentry: ['.sentryclirc'],
