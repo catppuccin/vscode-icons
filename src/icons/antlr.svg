@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>antlr</title>
+    <g id="antlr" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M1.5,7.99999987 C1.5,10.3222264 2.73889296,12.468052 4.74999997,13.6291652 C6.76110699,14.7902784 9.23889301,14.7902784 11.25,13.6291652 C13.261107,12.468052 14.5,10.3222264 14.5,7.99999987 C14.5,5.67777364 13.2611071,3.53194797 11.25,2.37083477 C9.23889302,1.20972157 6.76110698,1.20972157 4.74999996,2.37083477 C2.73889294,3.53194797 1.5,5.67777364 1.5,7.99999987" id="Path" stroke="#FE640B"></path>
+        <polyline id="Path" stroke="#FE640B" points="8 9.5 11 10.5 8 4.5 5 10.5"></polyline>
+    </g>
+</svg>

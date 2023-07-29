@@ -3,7 +3,9 @@ import { join, resolve } from 'pathe'
 import { ensureDir, remove } from 'fs-extra'
 import { launch } from 'puppeteer'
 import consola from 'consola'
-import { type CattppucinVariant, catppuccinVariants, varToHex } from '@/palettes'
+import { type CattppucinVariant, varToHex } from '@/palettes'
+
+const catppuccinVariants: CattppucinVariant[] = ['mocha']
 
 const THEMES = resolve('themes')
 const PREVIEWS = resolve(join('assets', 'previews'))
@@ -11,21 +13,28 @@ const PREVIEWS = resolve(join('assets', 'previews'))
 function generateIconOnlyHtml(scale: number, files: string[], folders: string[], flavor: CattppucinVariant) {
   const s = (v: number): number => scale * v
 
+  const n = (s: string) => s.replace('.svg', '').replace('folder', '').replaceAll('_', ' ').trim() || 'folder'
+
   const tags = (icons: string[]) => icons.map(icon =>
-    `<img style="width: ${s(16)}px; margin: ${s(2)}px;" src="../../themes/${flavor}/icons/${icon}" />`,
+    `<div style="width: 25%; display: flex; align-items: center; padding: ${s(6)}px 0">
+      <img style="width: ${s(16)}px;" src="../../themes/${flavor}/icons/${icon}" />
+      <span style="font-size: ${s(10)}px; font-family: 'JetBrains Mono'; color: ${varToHex[flavor]['--ctp-text']}; padding-left: ${s(10)}px">
+        ${n(icon)}
+      </span>
+    </div>
+    `,
   ).reduce((a, c) => a + c, '')
 
   return `
     <html>
       <body style="margin: 0;">
-        <div style="background-color: ${varToHex[flavor]['--ctp-mantle']}; padding: ${s(16)}px; border-radius: ${s(16)}px;">
-          <div style="justify-items: center; display: grid; grid-template-columns: repeat(15, 1fr); gap: ${s(10)}px;">
-           ${tags(files)}
+        <div style="background-color: ${varToHex[flavor]['--ctp-mantle']}; padding: ${s(16)}px; border-radius: ${s(8)}px;">
+          <div style="display: flex; flex-direction: column; align-items: flex-start; flex-wrap: wrap; max-height: ${s(Math.ceil(files.length / 4) * 28)}px">
+            ${tags(files)}
           </div>
-          <div style="margin: ${s(8)}px 0;"/>
-          <div style="justify-items: center; display: grid; grid-template-columns: repeat(15, 1fr); gap: ${s(10)}px;">
-          ${tags(folders)}
-         </div>
+          <div style="display: flex; flex-direction: column; align-items: flex-start; flex-wrap: wrap; max-height: ${s(Math.ceil(folders.length / 4) * 28)}px; margin-top: ${s(24)}px">
+            ${tags(folders)}
+          </div>
         </div>
       </body>
     </html>
