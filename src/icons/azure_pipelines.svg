@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>azure_pipelines</title>
+    <g id="azure_pipelines" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" fill-rule="nonzero" points="1 11.5 2.16667578 11.5 2.16667578 13.8333242 4.5 13.8333242 4.5 15 1 15"></polygon>
+        <circle id="Oval" stroke="#04A5E5" cx="10.5" cy="5.5" r="1"></circle>
+        <polyline id="Line" stroke="#04A5E5" stroke-linecap="round" stroke-linejoin="round" points="1.5 12 1.5 14.5 4 14.5"></polyline>
+        <polygon id="Line-44" stroke="#04A5E5" stroke-linecap="square" stroke-linejoin="round" points="6.5 5.5 8.5 1.5 14.5 1.5 14.5 7.5 10.5 10.5 10.5 14.5 6.5 14.5 6 14 7.5 12.5 6 11 4.5 12.5 3.5 11.5 5 10 3.5 8.5 2 10 1.5 9.5 1.5 5.5"></polygon>
+    </g>
+</svg>

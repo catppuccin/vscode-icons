@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>gulp</title>
+    <g id="gulp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M13,4 L12,11.5 L11,12.5 L10.5,15.5 L5.5,15.5 L5,12.5 L4,11.5 L3.065749,4.49311753 L3,4 M8,5.5 C10.7614237,5.5 13,4.82842712 13,4 C13,3.17157288 10.7614237,2.5 8,2.5 C5.23857625,2.5 3,3.17157288 3,4 C3,4.82842712 5.23857625,5.5 8,5.5 Z M4,11 C5.77777778,11.3333333 7.11111111,11.5 8,11.5 C8.88888889,11.5 10.2222222,11.3333333 12,11 M9.5,4 L10.5,1.5 L12.5,0.5" id="Combined-Shape" stroke="#D20F39"></path>
+    </g>
+</svg>
