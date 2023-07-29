@@ -1,9 +1,12 @@
 export const extensions: IconMap = {
   android: ['apk', 'smali', 'dex'],
   angular: ['ng-template'],
+  antlr: ['g4'],
+  api_blueprint: ['apib', 'apiblueprint'],
   apl: ['apl'],
   apple: ['applescript', 'ipa'],
   arduino: ['ino'],
+  ascii_doctor: ['ad', 'adoc', 'asciidoc'],
   assembly: [
     'asm',
     'a51',
@@ -181,6 +184,7 @@ export const extensions: IconMap = {
   kotlin: ['kt', 'kts'],
   laravel: ['blade.php', 'inky.php'],
   latex: ['tex', 'sty', 'dtx', 'ltx'],
+  less: ['less'],
   lib: ['lib', 'bib', 'dll', 'dlc'],
   lisp: ['lisp', 'lsp', 'cl', 'fast'],
   log: ['log'],

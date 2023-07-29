@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>api_blueprint</title>
+    <g id="api_blueprint" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#1E66F5" cx="3.5" cy="12.5" r="2"></circle>
+        <circle id="Oval" stroke="#1E66F5" cx="12.5" cy="12.5" r="2"></circle>
+        <circle id="Oval" stroke="#1E66F5" cx="8" cy="3.5" r="2"></circle>
+        <path d="M4,11 L7.5,5 M8.5,5 L12,11 M3.5,13 L3.5,12" id="Combined-Shape" stroke="#1E66F5"></path>
+    </g>
+</svg>

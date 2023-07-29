@@ -1,5 +1,5 @@
 <h3 align="center">
-  <img src="https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/logo.png" width="100" alt="Logo"/><br/>
+  <img src="https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/logo.png" width="200" alt="Logo"/><br/>
   <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
   <a href="https://github.com/thang-nm/Catppuccin-Perfect-Icons">Catppuccin Perfect Icons</a>
   <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
@@ -15,41 +15,10 @@
 
 <p align="center">
   <picture>
-    <source srcset="assets/preview@2x.webp 2x">
-    <img src="assets/preview.webp">
-  </picture>
-</p>
-
-## Previews
-
-<details>
-  <summary>🌻 Latte</summary>
-  <picture>
-    <source srcset="assets/previews/latte-icons@2x.png 2x">
-    <img src="assets/previews/latte-icons.png">
-  </picture>
-</details>
-<details>
-  <summary>🪴 Frappé</summary>
-  <picture>
-    <source srcset="assets/previews/frappe-icons@2x.png 2x">
-    <img src="assets/previews/frappe-icons.png">
-  </picture>
-</details>
-<details>
-  <summary>🌺 Macchiato</summary>
-  <picture>
-    <source srcset="assets/previews/macchiato-icons@2x.png 2x">
-    <img src="assets/previews/macchiato-icons.png">
-  </picture>
-</details>
-<details>
-  <summary>🌿 Mocha</summary>
-  <picture>
     <source srcset="assets/previews/mocha-icons@2x.png 2x">
     <img src="assets/previews/mocha-icons.png">
   </picture>
-</details>
+</p>
 
 ## Usage
 

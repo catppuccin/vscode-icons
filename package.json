@@ -3,7 +3,7 @@
   "name": "catppuccin-perfect-icons",
   "displayName": "Catppuccin Perfect Icons",
   "type": "module",
-  "version": "0.21.8",
+  "version": "0.21.9",
   "description": "🐈 Catppuccin Perfect Icons = Pixel perfect + more icons + more palettes",
   "author": "thang-nm",
   "license": "MIT",
@@ -63,7 +63,7 @@
     ]
   },
   "scripts": {
-    "build": "yarn build:icons -a && yarn build:themes && yarn build:preview && yarn catwalk && yarn package",
+    "build": "yarn build:icons -a && yarn build:themes && yarn build:preview && yarn package",
     "build:dev": "yarn build:icons -a && yarn build:themes && yarn package",
     "build:icons": "tsx scripts/icons.ts",
     "build:themes": "tsx scripts/themes.ts",
