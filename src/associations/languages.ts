@@ -68,6 +68,7 @@ export const languages: IconMap = {
   scala: ['scala'],
   search: ['search-result'],
   shader: ['hlsl', 'glsl', 'wgsl'],
+  solidity: ['solidity'],
   svelte: ['svelte'],
   svg: ['svg'],
   swift: ['swift'],

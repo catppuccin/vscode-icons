@@ -259,6 +259,7 @@ export const extensions: IconMap = {
     'ppa',
     'odp',
   ],
+  solidity: ['sol'],
   spreadsheet: ['xlsx', 'xlsm', 'xls', 'ods'],
   storybook: [
     'story.js',
