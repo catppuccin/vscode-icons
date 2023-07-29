@@ -68,6 +68,7 @@ export const extensions: IconMap = {
   haxe: ['hx', 'hxml'],
   hpp: ['hh', 'hpp', 'hxx', 'h++', 'hp', 'tcc', 'inl'],
   html: ['htm', 'xhtml', 'html_vm', 'asp'],
+  http: ['http', 'rest'],
   image: [
     'png',
     'jpeg',
@@ -171,6 +172,7 @@ export const extensions: IconMap = {
   meson: ['meson', 'wrap'],
   nextflow: ['nf'],
   nginx: ['nginx', 'nginxconfig'],
+  nim: ['nim', 'nimble'],
   ninja: ['ninja'],
   nix: ['nix'],
   ocaml: ['ml', 'mli', 'cmx'],
