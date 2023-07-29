@@ -1,5 +1,6 @@
 export const folders: IconMap = {
   folder_api: ['api', 'apis', 'restapi'],
+  folder_benchmarks: ['bench', 'benchs', 'benchmark', 'benchmarks'],
   folder_client: ['client', 'clients', 'frontend', 'pwa'],
   folder_components: ['components', 'widget', 'widgets', 'fragments'],
   folder_composables: [
