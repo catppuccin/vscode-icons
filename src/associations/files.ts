@@ -284,6 +284,7 @@ export const files: IconMap = {
     '.huskyrc.yaml',
     '.huskyrc.yml',
   ],
+  ionic: ['ionic.config.json', '.io-config.json'],
   json: [
     '.jscsrc',
     '.jshintrc',
@@ -409,6 +410,7 @@ export const files: IconMap = {
   r: ['.Rhistory'],
   readme: ['readme.md', 'readme.rst', 'readme.txt', 'readme'],
   redwood: ['redwood.toml'],
+  remix: ['remix.config.js', 'remix.config.ts'],
   renovate: [
     '.renovaterc',
     '.renovaterc.json',
@@ -442,6 +444,7 @@ export const files: IconMap = {
   ],
   rome: ['rome.json'],
   ruby_gem: ['gemfile'],
+  sentry: ['.sentryclirc'],
   sonar_cloud: [
     'sonar-project.properties',
     '.sonarcloud.properties',
@@ -480,6 +483,12 @@ export const files: IconMap = {
     'tauri.linux.conf.json',
     'tauri.windows.conf.json',
     'tauri.macos.conf.json',
+  ],
+  todo: [
+    'todo.md',
+    'todos.md',
+    'todo.txt',
+    'todos.txt',
   ],
   typescript_config: [
     'tsconfig.json',

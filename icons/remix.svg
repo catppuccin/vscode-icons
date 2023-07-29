@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
+    <path fill="none" stroke="var(--ctp-text)" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.98812" d="M87.653 75.765c.854 10.978.854 16.124.854 21.74H63.108c0-1.223.022-2.342.044-3.477.069-3.528.14-7.207-.431-14.637-.756-10.877-5.44-13.294-14.053-13.294H8.721V46.306h41.156c10.88 0 16.32-3.31 16.32-12.072 0-7.705-5.44-12.374-16.32-12.374H8.721V2.494h45.69c24.629 0 36.868 11.633 36.868 30.215 0 13.899-8.613 22.963-20.248 24.474 9.822 1.964 15.564 7.554 16.622 18.582z" clip-rule="evenodd"/>
+    <path fill="none" stroke="var(--ctp-text)" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.98812" d="M8.721 97.506V82.753h26.856c4.486 0 5.46 3.327 5.46 5.31v9.443z"/>
+</svg>

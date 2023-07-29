@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100.0px"
+   height="100.0px"
+   viewBox="0 0 100.0 100.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="xaml.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8354" />
+  <sodipodi:namedview
+     id="namedview32486"
+     pagecolor="#181825"
+     bordercolor="#000000"
+     borderopacity="0.24705882"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#313244"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="4.8719657"
+     inkscape:cx="36.022421"
+     inkscape:cy="70.197538"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="SVGRoot"
+     showborder="false"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid32609" />
+  </sodipodi:namedview>
+  <polyline
+     id="Line-24"
+     stroke="#4c4f69"
+     stroke-linecap="round"
+     points="2.5 12.5 0.5 8.5 2.5 4.5"
+     transform="matrix(6.3291179,0,0,6.3291179,-0.632943,-3.797502)"
+     style="stroke-width:0.7899995;stroke-dasharray:none;stroke:#808080;stroke-opacity:1;fill:none;stroke-linejoin:round" />
+  <path
+     id="Line-3"
+     style="stroke:#4782f7;stroke-width:5;stroke-linecap:round;stroke-dasharray:none;fill:none;stroke-linejoin:round;stroke-opacity:1"
+     d="M 22.240516,33.816472 H -6.2405145 L -20.48103,8.5000007 -6.2405145,-16.816472 H 22.240516 L 36.481032,8.5000007 Z"
+     sodipodi:nodetypes="ccccccc"
+     transform="translate(42,41.5)" />
+  <polyline
+     id="Line"
+     stroke="#4c4f69"
+     stroke-linecap="round"
+     points="13.5 4.5 15.5 8.5 13.5 12.5"
+     transform="matrix(6.3291179,0,0,6.3291179,-0.632943,-3.797502)"
+     style="stroke-width:0.7899995;stroke-dasharray:none;stroke:#808080;stroke-opacity:1;fill:none;stroke-linejoin:round" />
+</svg>

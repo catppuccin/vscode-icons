@@ -53,6 +53,7 @@ export const folders: IconMap = {
     'release',
     'bin',
     'target',
+    'storybook-static',
   ],
   folder_examples: [
     'demo',
@@ -157,6 +158,7 @@ export const folders: IconMap = {
   folder_scripts: ['scripts', 'script'],
   folder_server: ['server', 'servers', 'backend'],
   folder_src: ['src', 'srcs', 'source', 'sources', 'code'],
+  storybook: ['.storybook', 'storybook', 'stories', '__stories__'],
   folder_styles: [
     'css',
     'stylesheet',
