@@ -1,8 +1,16 @@
 export const folders: IconMap = {
   folder_android: ['android'],
   folder_api: ['api', 'apis', 'restapi'],
-  folder_app: ['app', 'apps', 'application'],
-  folder_aws: ['aws', '.aws'],
+  folder_app: ['app', 'apps', 'application', 'project', 'projects'],
+  folder_aws: ['aws', '.aws', 'amazon', 'ec2'],
+  folder_benchmark: [
+    'benchmark',
+    'benchmarks',
+    'performance',
+    'measure',
+    'measures',
+    'measurement',
+  ],
   folder_circle_ci: ['.circleci'],
   folder_client: ['client', 'clients', 'frontend', 'pwa'],
   folder_cloud: ['azure', 'cloud', 'clouds'],
@@ -113,6 +121,7 @@ export const folders: IconMap = {
     'pictures',
   ],
   folder_ios: ['ios'],
+  folder_kubernetes: ['kubernetes', '.kubernetes'],
   folder_layouts: ['layout', 'layouts', '_layouts'],
   folder_linux: ['linux'],
   folder_locales: [
@@ -193,9 +202,13 @@ export const folders: IconMap = {
   ],
   folder_types: ['typings', '@types', 'types'],
   folder_utils: ['tools', 'tooling', 'util', 'utils', 'utility', 'utilities'],
+  folder_vercel: ['vercel', '.vercel', 'now', '.now'],
+  folder_video: ['vid', 'vids', 'video', 'videos', 'movie', 'movies'],
   folder_views: ['view', 'views', 'screen', 'screens', 'page', 'pages', 'html'],
   folder_vscode: ['.vscode', '.vscode-test'],
+  folder_vue: ['vue'],
   folder_windows: ['windows'],
+  folder_webpack: ['.webpack', 'webpack'],
   folder_workflows: ['workflow', 'workflows', 'ci', '.ci'],
 }
 

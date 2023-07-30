@@ -1,23 +1,23 @@
 <h3 align="center">
-  <img src="https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/logo.png" width="200" alt="Logo"/><br/>
+  <img src="https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/logo.png" width="160" alt="Logo"/><br/>
   <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
   <a href="https://github.com/thang-nm/Catppuccin-Perfect-Icons">Catppuccin Perfect Icons</a>
   <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
-  (Pixel perfect + More icons + More palettes)
+  Pixel perfect + More icons + More palettes
+  <br />
+  Look good on non-retina display. (<a target="_blank" href="https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/assets/previews/mocha-icons.png">Preview ↗</a>)
 </p>
 
 <p align="center">
-  <a><img src="https://img.shields.io/github/directory-file-count/thang-nm/Catppuccin-Perfect-Icons/src/icons?label=icons&colorA=363a4f&colorB=eed49f&style=for-the-badge"></a>
+  <img src="https://img.shields.io/github/directory-file-count/thang-nm/Catppuccin-Perfect-Icons/src/icons?label=icons&colorA=363a4f&colorB=eed49f&style=for-the-badge">
+  <img src="https://img.shields.io/badge/palettes-5-_?colorA=363a4f&colorB=b7bdf8&style=for-the-badge">
 </p>
 
 <p align="center">
-  <picture>
-    <source srcset="assets/previews/mocha-icons@2x.png 2x">
-    <img src="assets/previews/mocha-icons.png">
-  </picture>
+  <img width="640" src="https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/assets/previews/mocha-icons@2x.png">
 </p>
 
 ## Usage

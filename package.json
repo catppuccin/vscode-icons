@@ -3,8 +3,8 @@
   "name": "catppuccin-perfect-icons",
   "displayName": "Catppuccin Perfect Icons",
   "type": "module",
-  "version": "0.21.9",
-  "description": "🐈 Catppuccin Perfect Icons = Pixel perfect + more icons + more palettes",
+  "version": "0.21.10",
+  "description": "🌈 Catppuccin Perfect Icons = Pixel perfect + more icons + more palettes",
   "author": "thang-nm",
   "license": "MIT",
   "repository": {
@@ -17,6 +17,7 @@
     "fancy",
     "pastel-colors",
     "perfect",
+    "pixel perfect",
     "perfect pixel",
     "vscode",
     "vscode-theme",

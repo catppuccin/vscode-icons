@@ -2,7 +2,7 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>diff</title>
     <g id="diff" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M4,1.5 L12,1.5 C13.3807119,1.5 14.5,2.61928813 14.5,4 L14.5,12 C14.5,13.3807119 13.3807119,14.5 12,14.5 L4,14.5 C2.61928813,14.5 1.5,13.3807119 1.5,12 L1.5,4 C1.5,2.61928813 2.61928813,1.5 4,1.5 Z" id="Path" stroke="#4C4F69"></path>
+        <path d="M4,1.5 L12,1.5 C13.3807119,1.5 14.5,2.61928813 14.5,4 L14.5,12 C14.5,13.3807119 13.3807119,14.5 12,14.5 L4,14.5 C2.61928813,14.5 1.5,13.3807119 1.5,12 L1.5,4 C1.5,2.61928813 2.61928813,1.5 4,1.5 Z" id="Path" stroke="#8C8FA1"></path>
         <line x1="8.5" y1="11.5" x2="11.5" y2="11.5" id="Path" stroke="#D20F39"></line>
         <path d="M5.5,3.5 L5.5,7.5 M3.5,5.5 L7.5,5.5" id="Path" stroke="#40A02B"></path>
         <line x1="5.5" y1="10.5" x2="10.5" y2="5.5" id="Path" stroke="#8C8FA1"></line>
