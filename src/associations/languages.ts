@@ -24,6 +24,7 @@ export const languages: IconMap = {
   env: ['dotenv'],
   erlang: ['erlang'],
   fsharp: ['fsharp'],
+  fortran: ['fortran'],
   git: ['git', 'git-commit', 'git-rebase', 'ignore'],
   go: ['go'],
   graphql: ['graphql'],
