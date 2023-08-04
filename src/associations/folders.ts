@@ -14,6 +14,8 @@ export const folders: IconMap = {
   folder_circle_ci: ['.circleci'],
   folder_client: ['client', 'clients', 'frontend', 'pwa'],
   folder_cloud: ['azure', 'cloud', 'clouds'],
+  folder_cocoapods: ['pods'],
+  folder_command: ['cmd', 'command', 'commands', 'cli', 'clis'],
   folder_components: ['components', 'widget', 'widgets', 'fragments'],
   folder_composables: [
     'hook',
@@ -48,6 +50,7 @@ export const folders: IconMap = {
     'handler',
     'handlers',
   ],
+  folder_core: ['core'],
   folder_coverage: [
     'coverage',
     'coverages',
@@ -77,7 +80,9 @@ export const folders: IconMap = {
     'samples',
     'sample-data',
   ],
+  folder_expo: ['.expo', '.expo-shared'],
   folder_fastlane: ['fastlane'],
+  folder_firebase: ['firebase', '.firebase'],
   folder_fonts: ['font', 'fonts'],
   folder_functions: [
     'func',
@@ -95,6 +100,7 @@ export const folders: IconMap = {
     'calculations',
   ],
   folder_github: ['.github'],
+  folder_gradle: ['gradle', '.gradle'],
   folder_husky: ['husky', '.husky'],
   folder_images: [
     'asset',
@@ -121,6 +127,8 @@ export const folders: IconMap = {
     'pictures',
   ],
   folder_ios: ['ios'],
+  folder_java: ['java', 'jar'],
+  folder_key: ['key', 'keys', 'token', 'tokens', 'jwt'],
   folder_kubernetes: ['kubernetes', '.kubernetes'],
   folder_layouts: ['layout', 'layouts', '_layouts'],
   folder_linux: ['linux'],
@@ -140,6 +148,8 @@ export const folders: IconMap = {
     'translations',
   ],
   folder_macos: ['mac', 'macos', 'osx', 'darwin'],
+  folder_message: ['message', 'messages', 'forum', 'chat', 'chats', 'conversation', 'conversations'],
+  folder_mobile: ['mobile', 'mobiles', 'phone', 'phones'],
   folder_mocks: [
     'mock',
     'mocks',
@@ -155,7 +165,7 @@ export const folders: IconMap = {
     'stubs',
   ],
   folder_next: ['.next'],
-  folder_node: ['node_modules'],
+  folder_node: ['node_modules', 'node', 'nodejs'],
   folder_nuxt: ['.nuxt', 'nuxt'],
   folder_packages: ['package', 'packages', 'pkg', 'pkgs'],
   folder_playground: ['playground', 'playgrounds'],
@@ -171,10 +181,15 @@ export const folders: IconMap = {
     'modules',
   ],
   folder_public: ['public', 'www', 'wwwroot', 'web', 'website', 'site'],
-  folder_routes: ['routes', 'router', 'routers'],
+  folder_python: ['python', '.pytest_cache', '__pycache__'],
+  folder_review: ['review', 'reviews', 'revisal', 'revisals', 'reviewed'],
+  folder_routes: ['route', 'routes', 'router', 'routers'],
   folder_sass: ['sass', '_sass', 'scss', '_scss'],
+  folder_scala: ['scala'],
   folder_scripts: ['scripts', 'script'],
   folder_server: ['server', 'servers', 'backend'],
+  folder_secure: ['auth', 'authentication', 'secure', 'security'],
+  folder_share: ['share', 'common'],
   folder_src: ['src', 'srcs', 'source', 'sources', 'code'],
   folder_styles: [
     'css',
@@ -185,6 +200,8 @@ export const folders: IconMap = {
     'theme',
     'themes',
   ],
+  folder_supabase: ['supabase', '.supabase'],
+  folder_svelte: ['svelte', '.svelte-kit'],
   folder_tauri: ['src-tauri', 'tauri'],
   folder_temp: ['temp', 'tmp', 'temporary'],
   folder_templates: ['template', 'templates', '_template', '_templates'],
@@ -201,6 +218,7 @@ export const folders: IconMap = {
     'specs',
   ],
   folder_types: ['typings', '@types', 'types'],
+  folder_upload: ['upload', 'uploads'],
   folder_utils: ['tools', 'tooling', 'util', 'utils', 'utility', 'utilities'],
   folder_vercel: ['vercel', '.vercel', 'now', '.now'],
   folder_video: ['vid', 'vids', 'video', 'videos', 'movie', 'movies'],
@@ -210,6 +228,7 @@ export const folders: IconMap = {
   folder_windows: ['windows'],
   folder_webpack: ['.webpack', 'webpack'],
   folder_workflows: ['workflow', 'workflows', 'ci', '.ci'],
+  folder_yarn: ['yarn', '.yarn'],
 }
 
 export const foldersExpanded: IconMap = Object.entries(folders).reduce(
