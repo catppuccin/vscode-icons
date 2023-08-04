@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>vagrant</title>
+    <g id="vagrant" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="round">
+        <path d="M8,14.5 L10.5,13.5 L14.5,3.5 L14.5,2.5 L13,1.5 L10.5,2.5 L10.5,3.5 L8,8.5 L5.5,3.5 L5.5,2.5 L3,1.5 L1.5,2.5 L1.5,3.5 L5.5,13.5 L8,14.5 Z M5.5,3.5 L4.5,4 L4.5,5.5 L6.5,10.5 L8,11.5 L9.5,10.5 L11.5,5.5 L11.5,4 L10.5,3.5" id="Combined-Shape" stroke="#1E66F5"></path>
+    </g>
+</svg>

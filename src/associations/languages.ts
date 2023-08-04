@@ -7,6 +7,7 @@ export const languages: IconMap = {
   binary: ['code-text-binary'],
   c: ['c', 'objective-c', 'objective-cpp'],
   clojure: ['clojure'],
+  cobol: ['cobol'],
   coffeescript: ['coffeescript'],
   cpp: ['cpp'],
   csharp: ['csharp'],
@@ -73,6 +74,7 @@ export const languages: IconMap = {
   rust: ['rust'],
   sass: ['sass', 'scss'],
   scala: ['scala'],
+  scheme: ['scheme'],
   search: ['search-result'],
   shader: ['hlsl', 'glsl', 'wgsl'],
   smarty: ['smarty'],
@@ -88,6 +90,7 @@ export const languages: IconMap = {
   typescript_react: ['typescriptreact'],
   unity: ['shaderlab'],
   v: ['v'],
+  vala: ['vala'],
   visual_studio: ['vb', 'testOutput'],
   vue: [
     'vue',
