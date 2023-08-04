@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>nim</title>
-    <g id="nim" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
-        <polygon id="Path" stroke="#DF8E1D" stroke-linejoin="round" points="8 2.5 10.5 6.5 14 4 12.5 10.5 3.5 10.5 2 4 5.5 6.5"></polygon>
-        <line x1="3.5" y1="13.5" x2="12.5" y2="13.5" id="Line" stroke="#DF8E1D"></line>
+    <g id="nim" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M1,7 L0.5,4.5 L1.51123663,5.17020145 C1.78775382,4.90153594 1.98491584,4.69237703 2.69101164,4.32059185 L3.25,2.5 L4.50280995,3.83510065 C5.2684249,3.66010253 6.02965553,3.47668557 6.90449449,3.51144 L8,1.5 L9.09550566,3.51144 C9.97034494,3.47668557 10.7315759,3.66010253 11.4971912,3.83510065 L12.75,2.5 L13.3089888,4.32059185 C14.0150838,4.69237703 14.2122462,4.90153594 14.488764,5.17020145 L15.5,4.5 L15,7 M13.5,8 C13,6.5 11,5.5 8,5.5 C5,5.5 3,6.5 2.5,8 M14,8.75 L13.5,8 L12.5,9.5 L11,10 L8,8.5 L5,10 L3.5,9.5 L2.5,8 L2,8.75 L1,7 L2.25,10.75 C3,12.75 6,13.5 8,13.5 C10,13.5 13,12.75 13.75,10.75 L15,7 L14,8.75 Z" id="Combined-Shape" stroke="#DF8E1D"></path>
     </g>
 </svg>

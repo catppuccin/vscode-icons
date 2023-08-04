@@ -57,6 +57,7 @@ export const folders: IconMap = {
     '.nyc-output',
     '.nyc_output',
   ],
+  folder_cron: ['cron', 'crontab', 'cronjob', 'cronjobs', 'schedule', 'schedules'],
   folder_cypress: ['cypress', '.cypress'],
   folder_debug: ['debug'],
   folder_dist: [
