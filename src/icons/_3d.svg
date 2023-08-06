@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>threed</title>
-    <g id="threed" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+    <title>_3d</title>
+    <g id="_3d" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
         <path d="M3.5,13 L1.5,11.75 L1.5,9.5 M1.5,6.33333333 L1.5,4 L3.5,3 M4,5.75 L1.5,4 M5.5,2 L8,0.5 L10.5,2 M12.5,3 L14.5,4 L14.5,6.5 M12,5.75 L14.5,4 M14.5,9.5 L14.5,12 L12.5,13 M10.5,14 L8,15.5 L5.5,14 M8,13 L8,15.5 M8,8 L10.25,6.75 M8,8 L8,10.25 M8,8 L5.75,6.75" id="Path" stroke="#4C4F69"></path>
     </g>
 </svg>

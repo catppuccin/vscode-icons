@@ -2,9 +2,9 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>vue_config</title>
     <g id="vue_config" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <circle id="Path" stroke="#8C8FA1" cx="12" cy="12.5" r="1.5"></circle>
-        <polygon id="Path" stroke="#8C8FA1" transform="translate(12, 12.5) rotate(-330) translate(-12, -12.5)" points="12.0155445 9.02692379 15.0310889 10.75 15.0155445 14.2230762 11.9844555 15.9730762 8.96891109 14.25 8.98445554 10.7769238"></polygon>
-        <polygon id="Path" stroke="#40A02B" points="0.5 0.5 5.16666667 0.5 6.5 3.08827839 7.83333333 0.5 12.5 0.5 6.50546344 11.5"></polygon>
-        <polyline id="Path" stroke="#40A02B" points="9.97157106 0.696336996 6.5 7.07973138 3.02842894 0.696336996"></polyline>
+        <g id="config" transform="translate(8, 9)" stroke="#8C8FA1">
+            <path d="M3.5,4.5 C4.05228475,4.5 4.5,4.05228475 4.5,3.5 C4.5,2.94771525 4.05228475,2.5 3.5,2.5 C2.94771525,2.5 2.5,2.94771525 2.5,3.5 C2.5,4.05228475 2.94771525,4.5 3.5,4.5 Z M5.25153811,0.5 L7.00153811,3.5 L5.25153811,6.5 L1.75153811,6.5 L0.00153810568,3.5 L1.75153811,0.5 L5.25153811,0.5 Z" id="Combined-Shape"></path>
+        </g>
+        <path d="M0.5,0.5 L5.16666667,0.5 L6.5,3.08827839 L7.83333333,0.5 L12.5,0.5 L6.50546344,11.5 L0.5,0.5 Z M9.97157106,0.696336996 L6.5,7.07973138 L3.02842894,0.696336996" id="Combined-Shape" stroke="#40A02B"></path>
     </g>
 </svg>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mermaid</title>
+    <g id="mermaid" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M1.5,2.5 C1.5,8.5 3.75,8.25 5.5,9.5 C6.33333333,10.1666667 6.66666667,11.5 6.5,13.5 L9.5,13.5 C9.33333333,11.5 9.66666667,10.1666667 10.5,9.5 C12.25,8.25 14.5,8.5 14.5,2.5 C12,2.5 10,3 8,7 C6,3 4,2.5 1.5,2.5 Z" id="Line" stroke="#E64553"></path>
+    </g>
+</svg>

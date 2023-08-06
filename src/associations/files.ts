@@ -1,6 +1,7 @@
 export const files: IconMap = {
   adonis: ['.adonisrc.json', 'ace'],
   alex: ['.alexrc', '.alexrc.yml', '.alexrc.yaml', 'alexrc.js'],
+  android: ['androidmanifest.xml'],
   angular: ['angular-cli.json', '.angular-cli.json', 'angular.json'],
   apollo: ['apollo.config.js', 'apollo.config.ts'],
   appveyor: ['.appveyor.yml', 'appveyor.yml'],
@@ -85,6 +86,14 @@ export const files: IconMap = {
     'contributing.md',
     'contributing.rst',
     'contributing.txt',
+  ],
+  craco: [
+    'craco.config.ts',
+    'craco.config.js',
+    'craco.config.cjs',
+    '.cracorc.ts',
+    '.cracorc.js',
+    '.cracorc',
   ],
   cypress: [
     'cypress.json',
@@ -216,6 +225,7 @@ export const files: IconMap = {
     'gatsby-ssr.js',
     'gatsby-ssr.tsx',
   ],
+  gcp: ['.gcloudignore'],
   git: [
     '.gitignore',
     '.gitconfig',
@@ -489,6 +499,7 @@ export const files: IconMap = {
     '.clang-format',
     '.clang-tidy',
   ],
+  pug: ['.pug-lintrc', '.pug-lintrc.js', '.pug-lintrc.json'],
   r: ['.Rhistory'],
   reactnative_config: ['react-native.config.js', 'react-native.config.ts'],
   readme: ['readme.md', 'readme.rst', 'readme.txt', 'readme'],

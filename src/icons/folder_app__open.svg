@@ -7,10 +7,8 @@
         </g>
         <g id="macos">
             <line x1="11.5" y1="7" x2="11.5" y2="8.5" id="Line" stroke="#8C8FA1"></line>
-            <line x1="12" y1="10.5" x2="14.5" y2="15.5" id="Path" stroke="#8C8FA1" stroke-linecap="round" stroke-linejoin="round"></line>
-            <line x1="8.5" y1="10.5" x2="11" y2="15.5" id="Path" stroke="#8C8FA1" stroke-linecap="round" stroke-linejoin="round" transform="translate(9.75, 13) scale(-1, 1) translate(-9.75, -13)"></line>
+            <path d="M12,10.5 L14.5,15.5 M11,10.5 L8.5,15.5 M7.79187803,11.0027627 C8.38595198,12.4672142 9.82236597,13.5 11.5,13.5 C12.1421827,13.5 12.7490198,13.3486672 13.2867944,13.0797184" id="Combined-Shape" stroke="#8C8FA1" stroke-linecap="round" stroke-linejoin="round"></path>
             <circle id="Oval" stroke="#1E66F5" cx="11.5" cy="9.5" r="1"></circle>
-            <path d="M7.79187803,11.0027627 C8.38595198,12.4672142 9.82236597,13.5 11.5,13.5 C12.1421827,13.5 12.7490198,13.3486672 13.2867944,13.0797184" id="Path" stroke="#8C8FA1" stroke-linecap="round" stroke-linejoin="round"></path>
         </g>
     </g>
 </svg>

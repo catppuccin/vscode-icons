@@ -1,7 +1,23 @@
 export const folders: IconMap = {
-  folder_android: ['android'],
+  folder_android: ['android', 'apk'],
   folder_api: ['api', 'apis', 'restapi'],
   folder_app: ['app', 'apps', 'application', 'project', 'projects'],
+  folder_archive: [
+    'arc',
+    'arcs',
+    'archive',
+    'archives',
+    'archival',
+    'bkp',
+    'bkps',
+    'bak',
+    'baks',
+    'backup',
+    'backups',
+    'back-up',
+    'back-ups',
+  ],
+  folder_audio: ['aud', 'auds', 'audio', 'audios', 'music', 'sound', 'sounds'],
   folder_aws: ['aws', '.aws', 'amazon', 'ec2'],
   folder_benchmark: [
     'benchmark',
@@ -60,6 +76,7 @@ export const folders: IconMap = {
   folder_cron: ['cron', 'crontab', 'cronjob', 'cronjobs', 'schedule', 'schedules'],
   folder_cypress: ['cypress', '.cypress'],
   folder_debug: ['debug'],
+  folder_diff: ['diff', 'diffs', 'patch', 'patches'],
   folder_dist: [
     '.output',
     'dist',
@@ -72,6 +89,7 @@ export const folders: IconMap = {
   ],
   folder_docs: ['doc', 'docs', 'document', 'documents', 'documentation'],
   folder_download: ['download', 'downloads'],
+  folder_event: ['event', 'events'],
   folder_examples: [
     'demo',
     'demos',
@@ -132,6 +150,7 @@ export const folders: IconMap = {
   folder_key: ['key', 'keys', 'token', 'tokens', 'jwt'],
   folder_kubernetes: ['kubernetes', '.kubernetes'],
   folder_layouts: ['layout', 'layouts', '_layouts'],
+  folder_library: ['lib', 'libs', 'library', 'libraries', 'vendor', 'vendors', 'third-party'],
   folder_linux: ['linux'],
   folder_locales: [
     'i18n',
