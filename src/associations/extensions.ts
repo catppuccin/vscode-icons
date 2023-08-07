@@ -87,6 +87,7 @@ export const extensions: IconMap = {
     'fpp',
     'fypp'],
   fsharp: ['fs', 'fsx', 'fsi', 'fsproj'],
+  gnuplot: ['plt'],
   go: ['go'],
   gradle: ['gradle'],
   graphql: ['graphql', 'gql'],

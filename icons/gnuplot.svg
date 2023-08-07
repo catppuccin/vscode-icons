@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="99.328163"
+   height="96.261543"
+   viewBox="0 0 3.9731265 3.8504617"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="gnuplot.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   inkscape:export-filename="gnuplot_small.svg"
+   inkscape:export-xdpi="12"
+   inkscape:export-ydpi="12"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs4">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect21"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,3.9822748,0,1 @ F,0,1,1,0,3.9822748,0,1 @ F,0,1,1,0,3.9822748,0,1 @ F,0,1,1,0,3.9822748,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="3.633312"
+     inkscape:cx="33.715794"
+     inkscape:cy="58.486581"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4"
+     inkscape:lockguides="false" />
+  <title
+     id="title1">file_type_gnuplot</title>
+  <path
+     id="path3"
+     style="fill:#e68183;fill-opacity:1;stroke-width:0.140631"
+     inkscape:label="Red Line"
+     d="M 0.08881107,0.99659394 A 0.07142827,0.06922054 0 0 0 0.01871107,1.11044 L 1.9785578,3.3037577 a 0.07142827,0.06922054 0 0 0 0.053716,0.023816 0.07142827,0.06922054 0 0 0 0.053716,-0.023405 L 2.7971253,2.5181046 3.7982483,3.632047 c 2.838e-4,-0.00968 5.392e-4,-0.019362 0.00102,-0.02904 0.00121,-0.022836 0.00321,-0.045666 0.00312,-0.068539 V 3.449932 3.4258779 L 2.8509876,2.367485 A 0.07142827,0.06922054 0 0 0 2.7972716,2.343669 0.07142827,0.06922054 0 0 0 2.7435556,2.367204 L 2.0327098,3.153138 0.12671267,1.019891 a 0.07142827,0.06922054 0 0 0 -0.0379016,-0.0232971 z" />
+  <path
+     id="path1"
+     style="fill:#8caaee;fill-opacity:1;stroke-width:0.140631"
+     inkscape:label="Blue Line"
+     d="M 3.9220751,1.443676 A 0.07142827,0.06922054 0 0 0 3.921323,1.4441098 L 3.1573197,2.287908 2.5449003,1.5990338 a 0.07142827,0.06922054 0 0 0 -0.052857,-0.023954 0.06399973,0.0620216 0 0 0 -0.053716,0.022291 L 0.44047127,3.6951709 a 0.07142827,0.06922054 0 0 0 -0.00824,0.016386 c 0.0059,0.00825 0.01174,0.016543 0.018136,0.024454 0.00355,0.00477 0.00842,0.00742 0.014197,0.011789 0.00822,0.00591 0.017406,0.010457 0.02654,0.014883 0.015913,0.00674 0.032021,0.012831 0.047824,0.019933 0.00284,0.00138 0.0056,0.00289 0.00841,0.00433 L 2.4886103,1.7482834 3.1028934,2.4384121 a 0.07142827,0.06922054 0 0 0 0.053851,0.024087 0.07142827,0.06922054 0 0 0 0.053716,-0.023535 L 3.9472762,1.6253153 c -0.01506,-0.031786 -0.02434,-0.072229 -0.02462,-0.1214178 -7.9e-5,-0.014491 -2.13e-5,-0.00725 -1.34e-4,-0.021707 -1.218e-4,-0.012839 -2.696e-4,-0.025675 -4.399e-4,-0.038515 z" />
+  <path
+     id="path2"
+     style="display:inline;fill:#a6d189;fill-opacity:1;stroke-width:0.140631"
+     inkscape:label="Green Line"
+     d="m 3.184532,-0.27117889 -0.014609,0.0192188 c 0.014301,0.0108955 0.028369,0.0220861 0.042344,0.0333594 -0.00928,-0.0175045 -0.018545,-0.0350286 -0.027734,-0.0525781 z M 2.9673445,0.01366487 2.0565632,1.2083523 1.8296882,0.95468054 a 0.07142827,0.06922054 0 0 0 -0.053984,-0.023828 0.07142827,0.06922054 0 0 0 -0.053984,0.024297 L 0.62828193,2.1944461 0.15554755,1.6545242 a 0.07150239,0.06929237 0 0 0 -0.10898437,0.089687 l 0.5271875,0.6014062 a 0.07142827,0.06922054 0 0 0 0.0542187,0.024531 0.07142827,0.06922054 0 0 0 0.0541406,-0.024531 L 1.7764069,1.1058523 2.007032,1.3638211 a 0.067714,0.06562107 0 0 0 0.057109,0.023672 0.07142827,0.06922054 0 0 0 0.054687,-0.027734 l 0.99875,-1.30992186 c -0.00625,-0.003934 -0.01238,-0.008045 -0.018594,-0.0120312 -0.00395,-0.001077 -0.00798,-0.002085 -0.012031,-0.002969 -0.035531,-0.009625 -0.071804,-0.017411 -0.1085937,-0.02 -0.00381,-2.6813e-4 -0.00747,-6.6813e-4 -0.011016,-0.001172 z" />
+  <path
+     id="rect1"
+     style="display:inline;fill:none;stroke:#8caaee;stroke-opacity:1"
+     d="M 6.5532749,2.5710001 H 25.400725 A 3.9822748,3.9822748 45 0 1 29.383,6.5532749 V 25.401725 A 3.9822748,3.9822748 135 0 1 25.400725,29.384 H 6.5532749 A 3.9822748,3.9822748 45 0 1 2.5710001,25.401725 V 6.5532749 A 3.9822748,3.9822748 135 0 1 6.5532749,2.5710001 Z"
+     inkscape:label="Box"
+     inkscape:path-effect="#path-effect21"
+     inkscape:original-d="M 2.5710001,2.5710001 H 29.383 V 29.384 H 2.5710001 Z"
+     transform="matrix(0.14285655,0,0,0.13844108,-0.29585593,-0.28671149)"
+     inkscape:export-filename="gnuplot_small.svg"
+     inkscape:export-xdpi="13.715246"
+     inkscape:export-ydpi="13.715246" />
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>file_type_gnuplot</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

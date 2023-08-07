@@ -26,6 +26,7 @@ export const languages: IconMap = {
   fsharp: ['fsharp'],
   fortran: ['fortran'],
   git: ['git', 'git-commit', 'git-rebase', 'ignore'],
+  gnuplot: ['gnuplot'],
   go: ['go'],
   graphql: ['graphql'],
   groovy: ['groovy'],
