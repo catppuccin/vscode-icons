@@ -77,8 +77,8 @@ export const extensions: IconMap = {
   fortran: [
     'for',
     'f',
-    'f77', 
-    'f90', 
+    'f77',
+    'f90',
     'f03',
     'f08',
     'f18',
