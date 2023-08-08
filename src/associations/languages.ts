@@ -75,6 +75,7 @@ export const languages: IconMap = {
   svelte: ['svelte'],
   svg: ['svg'],
   swift: ['swift'],
+  tailwind: ['tailwindcss'],
   toml: ['toml'],
   txt: ['plaintext'],
   typescript: ['typescript'],

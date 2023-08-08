@@ -158,7 +158,7 @@ export const folders: IconMap = {
   folder_scripts: ['scripts', 'script'],
   folder_server: ['server', 'servers', 'backend'],
   folder_src: ['src', 'srcs', 'source', 'sources', 'code'],
-  storybook: ['.storybook', 'storybook', 'stories', '__stories__'],
+  folder_storybook: ['.storybook', 'storybook', 'stories', '__stories__'],
   folder_styles: [
     'css',
     'stylesheet',
