@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>gcp</title>
+    <g id="gcp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <path d="M2.12405239,7.28178076 C2.68639174,4.55243053 5.10351045,2.5 8,2.5 C11.1857126,2.5 13.7915416,4.98277708 13.988095,8.11893931" id="Path" stroke="#D20F39"></path>
+        <path d="M7.61913596,7.99557852 C6.88599159,7.08365054 5.76115524,6.5 4.5,6.5 C2.290861,6.5 0.5,8.290861 0.5,10.5 C0.5,12.709139 2.290861,14.5 4.5,14.5" id="Path" stroke="#DF8E1D" stroke-linejoin="round"></path>
+        <line x1="4.5" y1="14.5" x2="12" y2="14.5" id="Line" stroke="#40A02B" stroke-linejoin="round"></line>
+        <path d="M12,14.5 C13.9329966,14.5 15.5,12.9329966 15.5,11 C15.5,9.80541835 14.9015341,8.7506159 13.9880682,8.11905861" id="Path" stroke="#1E66F5" stroke-linejoin="round"></path>
+    </g>
+</svg>

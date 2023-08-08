@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ejs</title>
+    <g id="ejs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <path d="M0.5,8 L4,2.5 L6.5,2.5 L3,8 L6.5,13.5 L4,13.5 L0.5,8 Z M9.5,13.5 L14.5,2.5 M10,5.5 C10.8284271,5.5 11.5,4.82842712 11.5,4 C11.5,3.17157288 10.8284271,2.5 10,2.5 C9.17157288,2.5 8.5,3.17157288 8.5,4 C8.5,4.82842712 9.17157288,5.5 10,5.5 Z M14,13.5 C14.8284271,13.5 15.5,12.8284271 15.5,12 C15.5,11.1715729 14.8284271,10.5 14,10.5 C13.1715729,10.5 12.5,11.1715729 12.5,12 C12.5,12.8284271 13.1715729,13.5 14,13.5 Z" id="Combined-Shape" stroke="#40A02B"></path>
+    </g>
+</svg>

@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>folder_locales</title>
-    <g id="folder_locales" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="folder" stroke="#4C4F69">
+    <g id="folder_locales" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="folder" stroke="#4C4F69" stroke-linecap="round">
             <path d="M4.5,4.5 L12,4.5 C12.8284271,4.5 13.5,5.17157288 13.5,6 C13.5,6.43429905 13.5,6.26763238 13.5,6.5 M6.5,13.5 C5.38123915,13.5 4.21457248,13.5 2,13.5 C1.17157288,13.5 0.5,12.8284271 0.5,12 L0.5,3.5 C0.5,2.94771525 0.94771525,2.5 1.5,2.5 L6.5,2.5 C7.05228475,2.5 7.5,2.94771525 7.5,3.5 L7.5,4.5" id="Shape"></path>
         </g>
         <g id="icon" stroke="#8839EF">
-            <line x1="12" y1="14.5" x2="15" y2="14.5" id="Path"></line>
-            <polyline id="Path" points="11.5 15.5000003 13.5 11.499077 15.5 15.5000003"></polyline>
-            <path d="M9.5,11.499077 C9.5,11.499077 10.0558951,13.2337821 12.5,13.4995386" id="Path"></path>
-            <path d="M11.5,10 C11.5,10 11.6478765,13.3008014 8.5,13.5" id="Path"></path>
-            <line x1="8.5" y1="9.5" x2="12.5" y2="9.5" id="Path"></line>
-            <line x1="10.5" y1="8.5" x2="10.5" y2="9.5" id="Path"></line>
+            <path d="M12,14.5 L15,14.5 M11.5,16 L13.5,11.499077 L15.5,16 M9.5,11 L9.5,11.499077 C9.5,11.499077 10.0558951,13.2337821 12.5,13.4995386 M11.5,10 C11.5,10 11.6478765,13.3008014 8.5,13.5 L8,13.5 M8,9.5 L13,9.5 M10.5,8 L10.5,9.5" id="Combined-Shape"></path>
         </g>
     </g>
 </svg>

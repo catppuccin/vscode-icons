@@ -33,23 +33,20 @@ export const catppuccinColors = [
 ] as const satisfies Readonly<CatppuccinColor[]>
 
 const dark: Partial<Record<CatppuccinColor, string>> = {
-  blue: '#1e66f5',
-  flamingo: '#dd7878',
-  green: '#40a02b',
-  lavender: '#7287fd',
-  mantle: '#e6e9ef',
-  maroon: '#e64553',
-  mauve: '#8839ef',
-  overlay1: '#4c4f69',
-  peach: '#fe640b',
-  pink: '#ea76cb',
-  red: '#d20f39',
-  rosewater: '#dc8a78',
-  sapphire: '#209fb5',
-  sky: '#04a5e5',
-  teal: '#179299',
-  text: '#8c8fa1',
-  yellow: '#df8e1d',
+  blue: '#42A0FF',
+  green: '#32C06D',
+  maroon: '#F96E66',
+  mauve: '#A761FF',
+  overlay1: '#414348',
+  peach: '#FB9D42',
+  pink: '#E96FEB',
+  red: '#F95148',
+  rosewater: '#F48FB1',
+  sapphire: '#0097A7',
+  sky: '#66B2FF',
+  teal: '#26A69A',
+  text: '#757981',
+  yellow: '#F9C509',
 }
 
 export const varToHex: Record<CattppucinVariant, Partial<Record<string, string>>> = {
