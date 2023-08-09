@@ -3,7 +3,7 @@
   "name": "catppuccin-perfect-icons",
   "displayName": "Catppuccin Perfect Icons",
   "type": "module",
-  "version": "0.21.14",
+  "version": "0.21.15",
   "description": "🌈 Catppuccin Perfect Icons = Pixel perfect + more icons + more palettes",
   "author": "thang-nm",
   "license": "MIT",
@@ -58,7 +58,7 @@
       },
       {
         "id": "catppuccin-perfect-dark",
-        "label": "Catppuccin Perfect Latte (Dark)",
+        "label": "Catppuccin Perfect Dark",
         "path": "themes/dark/theme.json"
       }
     ]
