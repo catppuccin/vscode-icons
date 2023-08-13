@@ -109,6 +109,7 @@ export const extensions: IconMap = {
   ],
   fortran: ['f', 'for', 'f77', 'f90', 'f95', 'f03', 'f08', 'f18', 'f23', 'fypp'],
   fsharp: ['fs', 'fsx', 'fsi', 'fsproj'],
+  gleam: ['gleam'],
   go: ['go'],
   gradle: ['gradle'],
   graphql: ['graphql', 'gql'],
@@ -117,6 +118,7 @@ export const extensions: IconMap = {
   handlebars: ['hbs', 'mustache'],
   haskell: ['hs'],
   haxe: ['hx', 'hxml'],
+  hcl: ['hcl'],
   hpp: ['hh', 'hpp', 'hxx', 'h++', 'hp', 'tcc', 'inl'],
   html: ['htm', 'xhtml', 'html_vm', 'asp'],
   http: ['http', 'rest', 'cname'],
@@ -273,7 +275,7 @@ export const extensions: IconMap = {
   rust: ['rs', 'ron'],
   sass: ['scss', 'sass'],
   scala: ['scala', 'sc'],
-  scheme: ['sc', 'scm'],
+  scheme: ['ss', 'scm'],
   search: ['code-search'],
   shader: [
     'glsl',
@@ -373,6 +375,7 @@ export const extensions: IconMap = {
     'tsx.snap',
     'cy.tsx',
   ],
+  uml: ['iuml', 'pu', 'puml', 'plantuml', 'wsd'],
   unity: ['unity'],
   v: ['v'],
   video: [

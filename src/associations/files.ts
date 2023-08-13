@@ -236,6 +236,7 @@ export const files: IconMap = {
   ],
   gitlab: ['gitlab-ci.yml'],
   gitpod: ['.gitpod.yml'],
+  gleam: ['gleam.toml'],
   go_mod: ['go.mod', 'go.sum', 'go.work', 'go.work.sum'],
   gradle: ['gradle.properties', 'gradlew', 'gradle-wrapper.properties'],
   graphql: [
@@ -537,6 +538,7 @@ export const files: IconMap = {
     'rollup.config.prod.vendor.ts',
   ],
   rome: ['rome.json'],
+  rubocop: ['.rubocop.yml', '.rubocop-todo.yml', '.rubocop_todo.yml'],
   ruby: ['.ruby-version'],
   ruby_gem: ['gemfile'],
   ruby_gem_lock: ['gemfile.lock'],

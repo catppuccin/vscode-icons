@@ -2,8 +2,6 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>prisma</title>
     <g id="prisma" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <polyline id="Path" stroke="#179299" points="4.5 15.5 14.5 12.5472412 8 0.5"></polyline>
-        <polyline id="Path" stroke="#179299" points="4.5 15.5 1.5 10.5 8 0.500157891"></polyline>
-        <line x1="4.5" y1="15.5" x2="8" y2="0.5" id="Path" stroke="#179299"></line>
+        <path d="M8,0.5 L14.5,12.5472412 L4.5,15.5 L1.5,10.5 L8,0.500157891 M4.5,15.5 L8,0.5" id="Combined-Shape" stroke="#179299"></path>
     </g>
 </svg>
