@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>javascript_config</title>
-    <g id="javascript_config" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="config" transform="translate(8, 9)" stroke="#8C8FA1">
+    <g id="javascript_config" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="config" transform="translate(8, 9)" stroke="#8C8FA1" stroke-linecap="round">
             <path d="M3.5,4.5 C4.05228475,4.5 4.5,4.05228475 4.5,3.5 C4.5,2.94771525 4.05228475,2.5 3.5,2.5 C2.94771525,2.5 2.5,2.94771525 2.5,3.5 C2.5,4.05228475 2.94771525,4.5 3.5,4.5 Z M5.25153811,0.5 L7.00153811,3.5 L5.25153811,6.5 L1.75153811,6.5 L0.00153810568,3.5 L1.75153811,0.5 L5.25153811,0.5 Z" id="Combined-Shape"></path>
         </g>
-        <path d="M6.5,11.5 L2.5,11.5 C1.3954305,11.5 0.5,10.6045695 0.5,9.5 L0.5,2.5 C0.5,1.3954305 1.3954305,0.5 2.5,0.5 L9.5,0.5 C10.6045695,0.5 11.5,1.3954305 11.5,2.5 L11.5,7 L11.5,7" id="Path" stroke="#DF8E1D"></path>
+        <path d="M6.5,11.5 L2.5,11.5 C1.3954305,11.5 0.5,10.6045695 0.5,9.5 L0.5,2.5 C0.5,1.3954305 1.3954305,0.5 2.5,0.5 L9.5,0.5 C10.6045695,0.5 11.5,1.3954305 11.5,2.5 L11.5,7 L11.5,7" id="Path" stroke="#DF8E1D" stroke-linecap="round"></path>
         <g id="js_small" transform="translate(2, 4)" stroke="#DF8E1D">
-            <path d="M7.5,1 C7.16666667,0.666666667 6.66666667,0.5 6,0.5 C5,0.5 4.5,0.996419271 4.5,1.5 C4.5,2.00358073 5,2.5 6,2.5 C7,2.5 7.50024414,3 7.5,3.5 C7.49975586,4 7,4.5 6,4.5 C5.33333333,4.5 4.83333333,4.33333333 4.5,4" id="Path"></path>
-            <path d="M2.5,0.5 L2.5,3.5 C2.5,4.05228475 2.05228475,4.5 1.5,4.5 C0.94771525,4.5 0.5,4.05228475 0.5,3.5" id="Path"></path>
+            <path d="M7.5,1 C7.16666667,0.666666667 6.66666667,0.5 6,0.5 C5,0.5 4.5,0.996419271 4.5,1.5 C4.5,2.00358073 5,2.5 6,2.5 C7,2.5 7.50024414,3 7.5,3.5 C7.49975586,4 7,4.5 6,4.5 C5.33333333,4.5 4.83333333,4.33333333 4.5,4" id="Path" stroke-linecap="round"></path>
+            <path d="M2.5,0 L2.5,3.5 C2.5,4.05228475 2.05228475,4.5 1.5,4.5 C0.94771525,4.5 0.5,4.05228475 0.5,3.5 L0.5,3" id="Path"></path>
         </g>
     </g>
 </svg>

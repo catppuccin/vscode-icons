@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>javascript_test</title>
-    <g id="javascript_test" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+    <g id="javascript_test" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="js_small" transform="translate(8, 11)" stroke="#DF8E1D" stroke-linejoin="round">
-            <path d="M7.5,1 C7.16666667,0.666666667 6.66666667,0.5 6,0.5 C5,0.5 4.5,0.996419271 4.5,1.5 C4.5,2.00358073 5,2.5 6,2.5 C7,2.5 7.50024414,3 7.5,3.5 C7.49975586,4 7,4.5 6,4.5 C5.33333333,4.5 4.83333333,4.33333333 4.5,4" id="Path"></path>
-            <path d="M2.5,0.5 L2.5,3.5 C2.5,4.05228475 2.05228475,4.5 1.5,4.5 C0.94771525,4.5 0.5,4.05228475 0.5,3.5" id="Path"></path>
+            <path d="M7.5,1 C7.16666667,0.666666667 6.66666667,0.5 6,0.5 C5,0.5 4.5,0.996419271 4.5,1.5 C4.5,2.00358073 5,2.5 6,2.5 C7,2.5 7.50024414,3 7.5,3.5 C7.49975586,4 7,4.5 6,4.5 C5.33333333,4.5 4.83333333,4.33333333 4.5,4" id="Path" stroke-linecap="round"></path>
+            <path d="M2.5,0 L2.5,3.5 C2.5,4.05228475 2.05228475,4.5 1.5,4.5 C0.94771525,4.5 0.5,4.05228475 0.5,3.5 L0.5,3" id="Path"></path>
         </g>
-        <path d="M10.4996328,1.5 L14.0016885,5 L9.5,9.50391419 C8.16555768,10.8372569 7.16472593,11.8372639 6.49750477,12.5039352 C6.10917038,12.8919496 5.52666879,13.4739712 4.75,14.25 C3.77368927,15.2263107 2.20854378,15.2440777 1.23223305,14.267767 C0.255922318,13.2914562 0.273689271,11.7263107 1.25,10.75 L10.4996328,1.5 Z" id="Path" stroke="#DF8E1D"></path>
-        <line x1="9.5" y1="0.5" x2="15" y2="6" id="Path" stroke="#DF8E1D" stroke-linejoin="round"></line>
-        <line x1="11.5" y1="7.5" x2="4.48403055" y2="7.5" id="Path" stroke="#DF8E1D" stroke-linejoin="round"></line>
+        <path d="M10.4996328,1.5 L14.0016885,5 L9.5,9.50391419 C8.16555768,10.8372569 7.16472593,11.8372639 6.49750477,12.5039352 C6.10917038,12.8919496 5.52666879,13.4739712 4.75,14.25 C3.77368927,15.2263107 2.20854378,15.2440777 1.23223305,14.267767 C0.255922318,13.2914562 0.273689271,11.7263107 1.25,10.75 L10.4996328,1.5 Z" id="Path" stroke="#DF8E1D" stroke-linecap="round"></path>
+        <line x1="9.5" y1="0.5" x2="15" y2="6" id="Path" stroke="#DF8E1D" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="11.5" y1="7.5" x2="4.48403055" y2="7.5" id="Path" stroke="#DF8E1D" stroke-linecap="round" stroke-linejoin="round"></line>
     </g>
 </svg>

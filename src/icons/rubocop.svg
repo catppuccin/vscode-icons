@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>rubocop</title>
+    <g id="rubocop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <path d="M3.5,10.5 L3.5,14.5 L4.5,15.5 L11.5,15.5 L12.5,14.5 L12.5,10.5 M7,15.5 L7.5,14.5 L8.5,14.5 L9,15.5 M5.25,13.75 L6.5,12.5 L9.5,12.5 L10.75,13.75 M3.5,6.5 L12.5,6.5 L13.5,7.5 L13.5,9.5 L12.5,10.5 L3.5,10.5 L2.5,9.5 L2.5,7.5 L3.5,6.5 Z M12.5,6.5 C12.5,6.5 12.5,6.33333333 12.5,6 C12.5,3.51471863 10.4852814,1.5 8,1.5 C5.51471863,1.5 3.5,3.51471863 3.5,6 C3.5,6.33333333 3.5,6.5 3.5,6.5" id="Combined-Shape" stroke="#4C4F69" stroke-linecap="square"></path>
+        <line x1="4.5" y1="8.5" x2="11.5" y2="8.5" id="Line-2" stroke="#D20F39" stroke-linecap="round"></line>
+    </g>
+</svg>

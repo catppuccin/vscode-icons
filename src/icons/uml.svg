@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>uml</title>
+    <g id="uml" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <path d="M2.5,13 L2.5,6.25 L3.5,6.75 L5,12 C6,9.5 6.5,8.25 6.5,8.25 C6.5,8.25 6.83333333,8.41666667 7.5,8.75 L7.5,15" id="Line-60" stroke="#DF8E1D"></path>
+        <polyline id="Line" stroke="#8839EF" points="10.5 8 10.5 14.5 15 12"></polyline>
+        <path d="M4,4.5 L9,6.5 C10.8333333,7 12,6.75 12.5,5.75 C13,4.75 12.8333333,4 12,3.5 L7,1.5" id="Line-2" stroke="#D20F39"></path>
+    </g>
+</svg>

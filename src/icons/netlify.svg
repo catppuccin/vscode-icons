@@ -2,12 +2,7 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>netlify</title>
     <g id="netlify" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <line x1="3.5" y1="3.5" x2="4.5" y2="4.5" id="Line-3" stroke="#179299" stroke-linecap="round" stroke-linejoin="round"></line>
-        <line x1="3.5" y1="13.5" x2="4.5" y2="12.5" id="Line-4" stroke="#179299" stroke-linecap="round" stroke-linejoin="round"></line>
-        <line x1="1.5" y1="8.5" x2="4.5" y2="8.5" id="Line" stroke="#179299" stroke-linecap="round" stroke-linejoin="round"></line>
-        <line x1="11.5" y1="8.5" x2="14.5" y2="8.5" id="Line" stroke="#179299" stroke-linecap="round" stroke-linejoin="round"></line>
-        <line x1="8.5" y1="1.5" x2="8.5" y2="3.5" id="Line-2" stroke="#179299" stroke-linecap="round" stroke-linejoin="round"></line>
-        <line x1="8.5" y1="12.5" x2="8.5" y2="14.5" id="Line-2" stroke="#179299" stroke-linecap="round" stroke-linejoin="round"></line>
-        <path d="M6.5,10.5 L6.5,6.5 L8.5,6.5 C9.18120694,6.5 9.46697998,7.06799316 9.5,7.5 L9.5,10.5" id="Line-10" stroke="#8C8FA1" stroke-linecap="square"></path>
+        <path d="M3.25,3.25 L5,5 M3.25,13.75 L5,12 M1,8.5 L5,8.5 M11,8.5 L15,8.5 M8.5,1 L8.5,4 M8.5,12 L8.5,15" id="Combined-Shape" stroke="#179299" stroke-linejoin="round"></path>
+        <path d="M6.5,10.5 L6.5,6.5 L8.5,6.5 C9.18120694,6.5 9.46697998,7.06799316 9.5,7.5 L9.5,10.5" id="Line-10" stroke="#4C4F69" stroke-linecap="square"></path>
     </g>
 </svg>

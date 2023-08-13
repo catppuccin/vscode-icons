@@ -2,9 +2,6 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>terraform</title>
     <g id="terraform" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <polyline id="Path" stroke="#8839EF" points="1.50410036 6 9.5 10.25 13.5 8"></polyline>
-        <polyline id="Path" stroke="#8839EF" points="1.50410036 6 1.5 1.5 9.5 5.75 13.4958996 3.5 13.5 8"></polyline>
-        <line x1="9.5" y1="5.75" x2="9.5" y2="14.5" id="Path" stroke="#8839EF"></line>
-        <polyline id="Path" stroke="#8839EF" points="5.53446256 3.82221053 5.5 12.5 9.5 14.5"></polyline>
+        <path d="M1.50410036,6 L9.5,10.25 L13.5,8 M1.50410036,6 L1.5,1.5 L9.5,5.75 L13.4958996,3.5 L13.5,8 M9.5,5.75 L9.5,14.5 M5.53446256,3.82221053 L5.5,12.5 L9.5,14.5" id="Combined-Shape" stroke="#8839EF"></path>
     </g>
 </svg>

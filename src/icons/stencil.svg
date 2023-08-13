@@ -2,8 +2,6 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>stencil</title>
     <g id="stencil" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <polygon id="Path" stroke="#1E66F5" points="14.5 6.5 4 6.5 1.5 9.5 12 9.5"></polygon>
-        <polygon id="Path" stroke="#1E66F5" points="6.5 11.5 11.5 11.5 9 14.5 4 14.5"></polygon>
-        <polygon id="Path" stroke="#1E66F5" points="8 1.5 13 1.5 10.5 4.5 5.5 4.5"></polygon>
+        <path d="M14.5,6.5 L4,6.5 L1.5,9.5 L12,9.5 L14.5,6.5 Z M6.5,11.5 L11.5,11.5 L9,14.5 L4,14.5 L6.5,11.5 Z M8,1.5 L13,1.5 L10.5,4.5 L5.5,4.5 L8,1.5 Z" id="Combined-Shape" stroke="#1E66F5"></path>
     </g>
 </svg>
