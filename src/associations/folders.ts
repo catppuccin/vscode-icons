@@ -110,6 +110,7 @@ export const folders: IconMap = {
   ],
   folder_expo: ['.expo', '.expo-shared'],
   folder_fastlane: ['fastlane'],
+  folder_favorite: ['favorite', 'favorites', 'like', 'likes', 'heart', 'hearts'],
   folder_firebase: ['firebase', '.firebase'],
   folder_flow: ['flow-typed'],
   folder_fonts: ['font', 'fonts'],
@@ -132,6 +133,14 @@ export const folders: IconMap = {
   folder_github: ['.github'],
   folder_gradle: ['gradle', '.gradle'],
   folder_graphql: ['graphql', 'gql'],
+  folder_gulp: [
+    'gulp',
+    'gulp-tasks',
+    'gulpfile.js',
+    'gulpfile.mjs',
+    'gulpfile.ts',
+    'gulpfile.babel.js',
+  ],
   folder_home: ['home', '.home', 'start', '.start'],
   folder_husky: ['husky', '.husky'],
   folder_images: [
@@ -187,6 +196,7 @@ export const folders: IconMap = {
   folder_mail: ['mail', 'mails', 'email', 'emails', 'smtp', 'mailer', 'mailers'],
   folder_markdown: ['md', 'markdown', 'markdowns'],
   folder_message: ['message', 'messages', 'forum', 'chat', 'chats', 'conversation', 'conversations'],
+  folder_middleware: ['middleware', 'middlewares'],
   folder_mobile: ['mobile', 'mobiles', 'phone', 'phones'],
   folder_mocks: [
     'mock',
@@ -223,6 +233,7 @@ export const folders: IconMap = {
   ],
   folder_prisma: ['prisma'],
   folder_private: ['private', '.private'],
+  folder_project: ['project', 'projects', '.project', '.projects'],
   folder_public: ['public', 'www', 'wwwroot', 'web', 'website', 'site'],
   folder_python: ['python', '.pytest_cache', '__pycache__'],
   folder_queue: ['queue', 'queues', 'bull', 'mq'],

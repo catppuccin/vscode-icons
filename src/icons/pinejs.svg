@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pinejs</title>
+    <g id="pinejs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <path d="M8,2.5 L14.5,14.5 L1.5,14.5 L8,2.5 Z M3.5,11 L7,9 L10,11 L12.25,10 M7,9.5 C7.27614237,9.5 7.5,9.27614237 7.5,9 C7.5,8.72385763 7.27614237,8.5 7,8.5 C6.72385763,8.5 6.5,8.72385763 6.5,9 C6.5,9.27614237 6.72385763,9.5 7,9.5 Z M10,11.5 C10.2761424,11.5 10.5,11.2761424 10.5,11 C10.5,10.7238576 10.2761424,10.5 10,10.5 C9.72385763,10.5 9.5,10.7238576 9.5,11 C9.5,11.2761424 9.72385763,11.5 10,11.5 Z" id="Combined-Shape" stroke="#40A02B"></path>
+    </g>
+</svg>

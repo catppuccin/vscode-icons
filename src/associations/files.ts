@@ -302,6 +302,14 @@ export const files: IconMap = {
     '.jestrc.js',
     '.jestrc.json',
     'jest.teardown.js',
+    'jest-preset.json',
+    'jest-preset.js',
+    'jest-preset.cjs',
+    'jest-preset.mjs',
+    'jest.preset.js',
+    'jest.preset.mjs',
+    'jest.preset.cjs',
+    'jest.preset.json',
   ],
   histoire: [
     'histoire.config.ts',
@@ -513,6 +521,7 @@ export const files: IconMap = {
     'renovate.json',
     'renovate.json5',
   ],
+  replit: ['.replit'],
   robots: ['robots.txt'],
   rollup: [
     'rollup.config.js',
@@ -553,6 +562,13 @@ export const files: IconMap = {
     'release.config.cjs',
   ],
   sentry: ['.sentryclirc'],
+  serverless: [
+    'serverless.yml',
+    'serverless.yaml',
+    'serverless.json',
+    'serverless.js',
+    'serverless.ts',
+  ],
   snowpack: [
     'snowpack.config.js',
     'snowpack.config.cjs',

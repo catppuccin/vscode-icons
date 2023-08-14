@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>url</title>
+    <g id="url" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5.5,10.5 L10.5,5.5 M3.73223305,6.6109127 L2.67157288,7.67157288 C1.10947571,9.23367004 1.10947571,11.76633 2.67157288,13.3284271 C4.23367004,14.8905243 6.76632996,14.8905243 8.32842712,13.3284271 L9.3890873,12.267767 M12.267767,9.3890873 L13.3284271,8.32842712 C14.8905243,6.76632996 14.8905243,4.23367004 13.3284271,2.67157288 C11.76633,1.10947571 9.23367004,1.10947571 7.67157288,2.67157288 L6.6109127,3.73223305" id="Combined-Shape" stroke="#04A5E5" stroke-width="1.25"></path>
+    </g>
+</svg>

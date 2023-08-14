@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>velocity</title>
+    <g id="velocity" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#1E66F5" stroke-linecap="round" cx="8" cy="8" r="4.5"></circle>
+        <path d="M8,3.5 L14.5,3.5 M3.5,8 L3.5,1.5 M8,12.5 L1.5,12.5 M12.5,8 L12.5,14.5" id="Combined-Shape" stroke="#1E66F5" stroke-linecap="round"></path>
+        <path d="M14.5,3.5 L13.0857864,2.08578644 M14.5,3.5 L13.0857864,4.91421356 M3.5,1.5 L2.08578644,2.91421356 M3.5,1.5 L4.91421356,2.91421356 M1.5,12.5 L2.91421356,13.9142136 M1.5,12.5 L2.91421356,11.0857864 M12.5,14.5 L13.9142136,13.0857864 M12.5,14.5 L11.0857864,13.0857864" id="Combined-Shape" stroke="#1E66F5"></path>
+    </g>
+</svg>

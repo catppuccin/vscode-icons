@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>serverless</title>
+    <g id="serverless" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <path d="M6.5,11.5 L5.5,13.5 L14.5,13.5 L14.5,11.5 L6.5,11.5 Z M8.5,7.5 L7.5,9.5 L14.5,9.5 L14.5,7.5 L8.5,7.5 Z M10.5,3.5 L9.5,5.5 L14.5,5.5 L14.5,3.5 L10.5,3.5 Z M2.5,13.5 L3.5,11.5 L1.5,11.5 L1.5,13.5 L2.5,13.5 Z M4.5,9.5 L5.5,7.5 L1.5,7.5 L1.5,9.5 L4.5,9.5 Z M6.5,5.5 L7.5,3.5 L1.5,3.5 L1.5,5.5 L6.5,5.5 Z" id="Combined-Shape" stroke="#D20F39"></path>
+    </g>
+</svg>
