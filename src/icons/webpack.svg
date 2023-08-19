@@ -2,12 +2,8 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>webpack</title>
     <g id="webpack" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <polygon id="Path" stroke="#209FB5" points="14.5 11.7520983 8 15.5 1.5 11.7480093 1.50236732 4.24790169 7.99894547 0.5 14.5 4.2519907"></polygon>
-        <line x1="4.49790309" y1="10.0204405" x2="1.5" y2="11.75" id="Path" stroke="#209FB5"></line>
-        <line x1="11.4657132" y1="9.99944992" x2="14.5" y2="11.75" id="Path" stroke="#209FB5"></line>
-        <polygon id="Path" stroke="#1E66F5" points="11.5 10.0588222 8 12.0769231 4.5 10.0566204 4.50127471 6.01810091 7.99943217 4 11.5 6.02030269"></polygon>
-        <line x1="1.5" y1="4.25" x2="8" y2="8" id="Path" stroke="#209FB5"></line>
-        <line x1="14.5" y1="4.25" x2="8" y2="8" id="Path" stroke="#209FB5"></line>
-        <line x1="8.00278812" y1="8" x2="8.00278812" y2="15.5" id="Path" stroke="#209FB5"></line>
+        <path d="M4.49790309,10.0204405 L1.5,11.75 M11.4657132,9.99944992 L14.5,11.75" id="Combined-Shape" stroke="#209FB5"></path>
+        <polygon id="Path" stroke="#1E66F5" points="11.5 10 8 12 4.5 10 4.5 6 7.99943217 4 11.5 6"></polygon>
+        <path d="M14.5,11.7520983 L8,15.5 L1.5,11.7480093 L1.50236732,4.24790169 L7.99894547,0.5 L14.5,4.2519907 L14.5,11.7520983 Z M1.5,4.25 L8,8 M14.5,4.25 L8,8 M8.00278812,8 L8.00278812,15.5" id="Combined-Shape" stroke="#209FB5"></path>
     </g>
 </svg>

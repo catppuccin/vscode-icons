@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>restql</title>
+    <g id="restql" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M11.5,10 L8,12 L4.5,10 L4.5,6 L8,4 L11.5,6 L11.5,10 Z M8,12 L14.5,8.25 M11.5,6 L5,2.25 M4.5,6 L4.5,13.25" id="Combined-Shape" stroke="#FE640B"></path>
+        <path d="M14.5,11.7520983 L8,15.5 L1.5,11.7480093 L1.50236732,4.24790169 L7.99894547,0.5 L14.5,4.2519907 L14.5,11.7520983 Z M1.5,4.25 L8,8 M14.5,4.25 L8,8 M8.00278812,8 L8.00278812,15.5" id="Combined-Shape" stroke="#179299"></path>
+    </g>
+</svg>

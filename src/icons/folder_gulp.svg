@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>folder_php</title>
-    <g id="folder_php" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>folder_glup</title>
+    <g id="folder_glup" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="folder" stroke="#4C4F69" stroke-linecap="round" stroke-linejoin="round">
             <path d="M4.5,4.5 L12,4.5 C12.8284271,4.5 13.5,5.17157288 13.5,6 C13.5,6.43429905 13.5,6.26763238 13.5,6.5 M6.5,13.5 C5.38123915,13.5 4.21457248,13.5 2,13.5 C1.17157288,13.5 0.5,12.8284271 0.5,12 L0.5,3.5 C0.5,2.94771525 0.94771525,2.5 1.5,2.5 L6.5,2.5 C7.05228475,2.5 7.5,2.94771525 7.5,3.5 L7.5,4.5" id="Shape"></path>
         </g>
-        <g id="macos" stroke="#1E66F5">
-            <path d="M7.5,14 L7.5,14.5 C7.5,15.1666667 7.83333333,15.5 8.5,15.5 C9.16666667,15.5 9.5,15.1666667 9.5,14.5 L9.5,10.2504498 C9.5,9.39275554 10.1722035,8.51131773 11.25,8.5 C12.4221374,8.5 13.5,9 13.5,10.25 C13.5,11.5 13.5,12.25 11.4981079,13 L11.4981079,15.5 L15.4989882,15.5 L15.5,13 C15.5,12 14.0292426,11.5012663 13.5,11.5 M13.5,15.5 L13.5,14" id="Combined-Shape" stroke-linejoin="round"></path>
-            <line x1="11" y1="10.5" x2="12" y2="10.5" id="Line"></line>
+        <g id="macos" stroke="#D20F39">
+            <polygon id="Line-26" stroke-linejoin="round" points="10.5 15.5 13.5 15.5 14 13.5 14.5 9.5 9.5 9.5 10 13.5"></polygon>
+            <polyline id="Line" points="12.25 12 13 8.5 13.75 7"></polyline>
         </g>
     </g>
 </svg>

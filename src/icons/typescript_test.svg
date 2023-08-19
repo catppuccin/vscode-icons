@@ -2,7 +2,7 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>typescript_test</title>
     <g id="typescript_test" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <line x1="9.5" y1="0.5" x2="15" y2="6" id="Path" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round"></line>
+        <line x1="9" y1="-1.0658141e-14" x2="15.5" y2="6.5" id="Path" stroke="#1E66F5" stroke-linejoin="round"></line>
         <path d="M6.49750477,12.5039352 C6.10917038,12.8919496 5.52666879,13.4739712 4.75,14.25 C3.77368927,15.2263107 2.20854378,15.2440777 1.23223305,14.267767 C0.255922318,13.2914562 0.273689271,11.7263107 1.25,10.75 L10.4996328,1.5" id="Path" stroke="#1E66F5" stroke-linecap="round"></path>
         <line x1="14.0016885" y1="5" x2="9.5" y2="9.50391419" id="Path" stroke="#1E66F5" stroke-linecap="round"></line>
         <line x1="11.5" y1="7.5" x2="4.48403055" y2="7.5" id="Path" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round"></line>
