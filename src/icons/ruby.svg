@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>ruby</title>
-    <g id="ruby" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
-        <polygon id="Line" stroke="#D20F39" stroke-linecap="square" points="14.5 14.5 14.5 3 9 2 2 9 3 14.5"></polygon>
-        <line x1="3" y1="14.5" x2="14.5" y2="3" id="Line-2" stroke="#D20F39" stroke-linecap="round"></line>
-        <line x1="9" y1="2" x2="8.75" y2="8.75" id="Line-3" stroke="#D20F39" stroke-linecap="round"></line>
-        <line x1="8.75" y1="8.75" x2="2" y2="9" id="Line-4" stroke="#D20F39" stroke-linecap="round"></line>
+    <g id="ruby" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M1.496854,9.05685425 L1.496854,11.5559621 C1.51992204,12.4245017 1.85946238,13.1731709 2.4,13.7137085 C4.15735931,15.4710678 8.11464043,14.3630291 11.2388348,11.2388348 C14.3630291,8.11464043 15.4710678,4.15735931 13.7137085,2.4 C13.1714225,1.85771403 12.4289801,1.51839795 11.5568542,1.496854 L9.05685425,1.496854 M14.5,4 L14.25,14.25 L4,14.5 M8.38528137,8.38528137 C10.7284271,6.04213562 11.6781746,3.19289322 10.5066017,2.02132034 C9.33502884,0.849747468 6.48578644,1.79949494 4.14264069,4.14264069 C1.79949494,6.48578644 0.849747468,9.33502884 2.02132034,10.5066017 C3.19289322,11.6781746 6.04213562,10.7284271 8.38528137,8.38528137 Z M5.5,14.5 L5.75,10.75 L11,11 L10.75,5.75 L14.5,5.5" id="Combined-Shape" stroke="#D20F39"></path>
     </g>
 </svg>

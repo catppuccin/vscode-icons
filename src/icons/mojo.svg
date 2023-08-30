@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mojo</title>
+    <g id="mojo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8,15.5 C11.0378333,15.5 13.5,13.625 13.5,10.34375 C13.5,8.9375 12.75,6.5 11.5,4.5 C11.25,6 9.5,6.5 9.5,6.5 C10,4 9,1.75 6.25,0.75 C6.57725,2.625 6,4.5 4.25,6.5 C3.22794911,7.66805816 2.5,8.6834375 2.5,10.34375 C2.5,13.625 4.96216667,15.5 8,15.5 Z" id="Path" stroke="#DF8E1D" fill-rule="nonzero"></path>
+        <path d="M8,14.5 C6.61916667,14.5 5.5,13.5311808 5.5,12 C5.5,9.75 7.5,8.5 8.5,8.5 C8.35083333,9.375 8.75,9.75 9.5,10.5 C9.9884029,10.9884029 10.5,11.22475 10.5,12 C10.5,13.53125 9.38083333,14.5 8,14.5 Z" id="Path" stroke="#FE640B" fill-rule="nonzero"></path>
+    </g>
+</svg>

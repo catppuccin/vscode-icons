@@ -64,7 +64,7 @@ export const languages: IconMap = {
   postcss: ['postcss'],
   powershell: ['powershell'],
   processing: ['processing'],
-  properties: ['properties', 'ini'],
+  properties: ['properties', 'ini', 'spring-boot-properties'],
   pug: ['jade', 'pug'],
   puppet: ['puppet'],
   purescript: ['purescript'],
@@ -109,5 +109,11 @@ export const languages: IconMap = {
   windi: ['windi'],
   wolfram: ['wolframlanguage'],
   xml: ['xml', 'xquery', 'xsl'],
-  yaml: ['yaml'],
+  yaml: [
+    'yaml',
+    'github-actions-workflow',
+    'spring-boot-properties-yaml',
+    'ansible',
+    'ansible-jinja',
+  ],
 }

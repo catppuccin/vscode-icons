@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bun</title>
+    <g id="bun" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M0.5,8.5 C0.5,13.75 6,14.5 8,14.5 C10,14.5 15.5,13.75 15.5,8.5 C15.5,4.5 11,2.5 8,1.5 C5,2.5 0.5,4.5 0.5,8.5 Z" id="Line" stroke="#DC8A78" stroke-linecap="square"></path>
+        <path d="M6.5,10.5 L9.5,10.5 C9.16666667,11.1666667 8.66666667,11.5 8,11.5 C7.33333333,11.5 6.83333333,11.1666667 6.5,10.5 Z" id="Line-2" stroke="#D20F39" stroke-linecap="round" stroke-linejoin="round"></path>
+        <line x1="5" y1="7.5" x2="6" y2="7.5" id="Line-72" stroke="#4C4F69"></line>
+        <line x1="10" y1="7.5" x2="11" y2="7.5" id="Line-72-Copy" stroke="#4C4F69"></line>
+        <polyline id="Line-3" stroke="#EA76CB" stroke-linecap="square" points="11.5 9.5 12.5 9.5 12.5 8.5"></polyline>
+        <polyline id="Line-3" stroke="#EA76CB" stroke-linecap="square" transform="translate(4, 9) scale(-1, 1) translate(-4, -9)" points="3.5 9.5 4.5 9.5 4.5 8.5"></polyline>
+    </g>
+</svg>
