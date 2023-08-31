@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>prettier_ignore</title>
-    <g id="prettier_ignore" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <line x1="1.5" y1="2.5" x2="12.5" y2="2.5" id="Path" stroke="#8C8FA1"></line>
-        <line x1="1.5" y1="4.5" x2="6.5" y2="4.5" id="Path" stroke="#8C8FA1"></line>
-        <line x1="9.5" y1="4.5" x2="14.5" y2="4.5" id="Path" stroke="#8C8FA1"></line>
-        <line x1="1.5" y1="6.5" x2="6.5" y2="6.5" id="Path" stroke="#8C8FA1"></line>
-        <line x1="9.5" y1="6.5" x2="14.5" y2="6.5" id="Path" stroke="#8C8FA1"></line>
-        <line x1="1.5" y1="8.5" x2="6.5" y2="8.5" id="Path" stroke="#8C8FA1"></line>
-        <line x1="9.5" y1="8.5" x2="14.5" y2="8.5" id="Path" stroke="#8C8FA1"></line>
-        <line x1="1.5" y1="10.5" x2="12.5" y2="10.5" id="Path" stroke="#8C8FA1"></line>
-        <line x1="1.5" y1="12.5" x2="6.5" y2="12.5" id="Path" stroke="#8C8FA1"></line>
-        <line x1="1.5" y1="14.5" x2="6.5" y2="14.5" id="Path" stroke="#8C8FA1"></line>
+    <g id="prettier_ignore" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <path d="M1,2.5 L13,2.5 M1,4.5 L7,4.5 M9,4.5 L15,4.5 M1,6.5 L7,6.5 M9,6.5 L15,6.5 M1,8.5 L7,8.5 M9,8.5 L15,8.5 M1,10.5 L13,10.5 M1,12.5 L7,12.5 M1,14.5 L7,14.5" id="Combined-Shape" stroke="#8C8FA1"></path>
     </g>
 </svg>
