@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>nunjucks</title>
+    <g id="nunjucks" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M14.5,14.5 L10.5,14.5 C9.75,14.5 9.5,14.25 9.5,13.5 L9.5,10.5 L11.5,10 L11.5,12.5 L13.5,12.5 L13.5,4.5 L15.5,4.5 L15.5,13.5 C15.5,14.25 15.25,14.5 14.5,14.5 Z" id="Path" stroke="#40A02B" fill-rule="nonzero"></path>
+        <polygon id="Line-66" stroke="#40A02B" stroke-linecap="square" points="0.5 14.5 0.5 1.5 2 1.5 4.5 7.5 4.5 1.5 6.5 1.5 6.5 14.5 5 14.5 2.5 8.5 2.5 14.5"></polygon>
+    </g>
+</svg>

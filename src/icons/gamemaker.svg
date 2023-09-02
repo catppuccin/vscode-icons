@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>gamemaker</title>
+    <g id="gamemaker" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <path d="M8,1 L15.5,8 L15.5,8.5 L11.5,8.5 L11.5,12 L8,15 L1,8 L8,1 Z M5,8 L8,11 L8.5,11 L8.5,8.5 L11,8.5 L11,8 L8,5 L5,8 Z" id="Shape" stroke="#04A5E5" fill-rule="nonzero"></path>
+    </g>
+</svg>

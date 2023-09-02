@@ -6,14 +6,14 @@
 </h3>
 
 <p align="center">
-  Pixel perfect + More icons + More palettes
+  Pixel perfect + More icons + New palettes
   <br />
   Look good on non-retina display. (<a target="_blank" href="https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/assets/previews/mocha-icons.png">Preview ↗</a>)
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/github/directory-file-count/thang-nm/Catppuccin-Perfect-Icons/src/icons?label=icons&colorA=363a4f&colorB=eed49f&style=for-the-badge">
-  <img src="https://img.shields.io/badge/palettes-5-_?colorA=363a4f&colorB=b7bdf8&style=for-the-badge">
+  <img src="https://img.shields.io/badge/palettes-6-_?colorA=363a4f&colorB=b7bdf8&style=for-the-badge">
 </p>
 
 <p align="center">

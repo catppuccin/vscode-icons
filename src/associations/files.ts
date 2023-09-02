@@ -470,6 +470,7 @@ export const files: IconMap = {
   ],
   pnpm: ['pnpm-workspace.yaml', '.pnpmfile.cjs'],
   pnpm_lock: ['pnpm-lock.yaml'],
+  poetry: ['poetry.lock'],
   postcss: [
     'postcss.config.js',
     'postcss.config.cjs',
