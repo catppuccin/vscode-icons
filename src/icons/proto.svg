@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>proto</title>
+    <g id="proto" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polyline id="Path" stroke="#D20F39" stroke-linecap="round" points="0.5 8.5 3.5 2.5 6.5 2.5 3.5 8.5"></polyline>
+        <polygon id="Path" stroke="#1E66F5" stroke-linecap="square" points="6.5 13.5 3.5 13.5 0.5 8.5 1.86 5.77"></polygon>
+        <polyline id="Path-Copy-2" stroke="#DF8E1D" stroke-linecap="round" transform="translate(12.5, 10.5) scale(-1, -1) translate(-12.5, -10.5)" points="9.5 13.5 12.5 7.5 15.5 7.5 12.5 13.5"></polyline>
+        <polygon id="Path-Copy" stroke="#40A02B" stroke-linecap="square" transform="translate(12.5, 6.365) scale(-1, -1) translate(-12.5, -6.365)" points="15.5 10.23 12.5 10.23 9.5 5.23 10.86 2.5"></polygon>
+    </g>
+</svg>

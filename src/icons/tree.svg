@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>tree</title>
-    <g id="tree" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M6.5,12 L6.5,14 C6.5,14.2761424 6.72385763,14.5 7,14.5 L9,14.5 C9.27614237,14.5 9.5,14.2761424 9.5,14 L9.5,12 L9.5,12" id="Line" stroke="#4C4F69" stroke-linecap="square"></path>
-        <polygon id="Path" stroke="#40A02B" stroke-linecap="round" stroke-linejoin="round" points="7.95833333 1.375 11 4 9.5 5 12.5 7.5 10.5 8.5 13.5 11.5 2.5 11.5 5.5 8.5 3.5 7.5 6.5 5 5 4"></polygon>
+    <g id="tree" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <polygon id="Line-3" stroke="#40A02B" points="14.5 14.5 14.5 11.5 10.5 11.5 10.5 14.5"></polygon>
+        <polygon id="Line-4" stroke="#40A02B" points="14.5 9.5 14.5 6.5 10.5 6.5 10.5 9.5"></polygon>
+        <path d="M3.5,6.5 L3.5,13.5 L8.5,13.5 M3.5,8.5 L8.5,8.5" id="Combined-Shape" stroke="#4C4F69"></path>
+        <polygon id="Line-2" stroke="#40A02B" points="1.5 1.5 1.5 4.5 5.5 4.5 5.5 1.5"></polygon>
     </g>
 </svg>

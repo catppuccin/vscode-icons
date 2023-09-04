@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>poetry</title>
+    <g id="poetry" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <path d="M10.2916667,8.86666667 L12.5833333,11.0333333 C11.2083333,13.2 8,14.5 5.25,14.5 L2.5,12.1166667" id="Line-74" stroke="#8839EF" stroke-linecap="round"></path>
+        <path d="M2.5,1.5 L13.5,1.5 C13.5,1.72179123 13.5,1.86623568 13.5,1.93333333 C13.5,4.68599749 12.3197021,7.17802502 10.4114916,8.98170603" id="Line" stroke="#04A5E5" stroke-linecap="round"></path>
+        <path d="M2.95833333,11.9 C5.86886337,11.9 8.50389834,10.7848037 10.4114916,8.98170603 L2.5,1.5 L2.5,11.9 C2.7316987,11.9 2.88447648,11.9 2.95833333,11.9 Z" id="Path" stroke="#1E66F5"></path>
+    </g>
+</svg>
