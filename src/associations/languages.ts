@@ -7,6 +7,8 @@ export const languages: IconMap = {
   binary: ['code-text-binary'],
   c: ['c', 'objective-c', 'objective-cpp'],
   clojure: ['clojure'],
+  cmake: ['cmake'],
+  cmake_in: ['cmake-cache'],
   cobol: ['cobol'],
   coffeescript: ['coffeescript'],
   cpp: ['cpp'],

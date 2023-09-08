@@ -3,8 +3,8 @@
   "name": "catppuccin-perfect-icons",
   "displayName": "Catppuccin Perfect Icons",
   "type": "module",
-  "version": "0.21.19",
-  "description": "🌈 Unofficial Catppuccin. Pixel perfect + more icons + new palettes",
+  "version": "0.21.20",
+  "description": "🌈 Unofficial. Pixel perfect + more icons + new palettes",
   "author": "thang-nm",
   "license": "MIT",
   "repository": {
@@ -20,7 +20,11 @@
     "pixel perfect",
     "perfect pixel",
     "line icons",
+    "aura",
+    "ayu",
     "dracula",
+    "monokai",
+    "sequoia",
     "vscode",
     "vscode-theme",
     "vscode-icons",
@@ -49,6 +53,11 @@
         "path": "themes/latte/theme.json"
       },
       {
+        "id": "catppuccin-perfect-aura",
+        "label": "Catppuccin Perfect Aura",
+        "path": "themes/aura/theme.json"
+      },
+      {
         "id": "catppuccin-perfect-ayu",
         "label": "Catppuccin Perfect Ayu",
         "path": "themes/ayu/theme.json"
@@ -57,6 +66,11 @@
         "id": "catppuccin-perfect-dracula",
         "label": "Catppuccin Perfect Dracula",
         "path": "themes/dracula/theme.json"
+      },
+      {
+        "id": "catppuccin-perfect-monokai",
+        "label": "Catppuccin Perfect Monokai",
+        "path": "themes/monokai/theme.json"
       },
       {
         "id": "catppuccin-perfect-sequoia",

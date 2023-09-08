@@ -1,12 +1,22 @@
 import { type labels, variants } from '@catppuccin/palette'
 
-export type CattppucinVariant = 'latte' | 'mocha' | 'ayu' | 'dracula' | 'sequoia' | 'dark'
+export type CattppucinVariant =
+  | 'latte'
+  | 'mocha'
+  | 'aura'
+  | 'ayu'
+  | 'dracula'
+  | 'monokai'
+  | 'sequoia'
+  | 'dark'
 
 export const catppuccinVariants = [
   'latte',
   'mocha',
+  'aura',
   'ayu',
   'dracula',
+  'monokai',
   'sequoia',
   'dark',
 ] as const satisfies Readonly<CattppucinVariant[]>
@@ -32,6 +42,23 @@ export const catppuccinColors = [
   'text',
   'yellow',
 ] as const satisfies Readonly<CatppuccinColor[]>
+
+const aura: Partial<Record<CatppuccinColor, string>> = {
+  blue: '#82E2FF',
+  green: '#61FFCA',
+  maroon: '#FF6796',
+  mauve: '#A277FF',
+  overlay1: '#6D6D6D',
+  peach: '#FFCA85',
+  pink: '#F694FF',
+  red: '#FF6767',
+  rosewater: '#FF94DE',
+  sapphire: '#67FFF9',
+  sky: '#82C8FF',
+  teal: '#67FFDB',
+  text: '#7F7F7F',
+  yellow: '#F9FF85',
+}
 
 const ayu: Partial<Record<CatppuccinColor, string>> = {
   blue: '#73B8FF',
@@ -65,6 +92,23 @@ const dracula: Partial<Record<CatppuccinColor, string>> = {
   teal: '#4DB6AC',
   text: '#6272A4',
   yellow: '#F1FA8C',
+}
+
+const monokai: Partial<Record<CatppuccinColor, string>> = {
+  blue: '#78DCE8',
+  green: '#A9DC76',
+  maroon: '#FF61A6',
+  mauve: '#AB9DF2',
+  overlay1: '#727072',
+  peach: '#FC9867',
+  pink: '#FF79F1',
+  red: '#FF6188',
+  rosewater: '#E979FF',
+  sapphire: '#6EE6CC',
+  sky: '#78C0E8',
+  teal: '#5ED7CC',
+  text: '#c1c0c0',
+  yellow: '#FFD866',
 }
 
 const sequoia: Partial<Record<CatppuccinColor, string>> = {
@@ -104,8 +148,10 @@ const dark: Partial<Record<CatppuccinColor, string>> = {
 export const varToHex: Record<CattppucinVariant, Partial<Record<string, string>>> = {
   latte: catppuccinColors.reduce((acc, label) => ({ ...acc, [`--ctp-${label}`]: variants.latte[label].hex }), {}),
   mocha: catppuccinColors.reduce((acc, label) => ({ ...acc, [`--ctp-${label}`]: variants.mocha[label].hex }), {}),
+  aura: catppuccinColors.reduce((acc, label) => ({ ...acc, [`--ctp-${label}`]: aura[label] }), {}),
   ayu: catppuccinColors.reduce((acc, label) => ({ ...acc, [`--ctp-${label}`]: ayu[label] }), {}),
   dracula: catppuccinColors.reduce((acc, label) => ({ ...acc, [`--ctp-${label}`]: dracula[label] }), {}),
+  monokai: catppuccinColors.reduce((acc, label) => ({ ...acc, [`--ctp-${label}`]: monokai[label] }), {}),
   sequoia: catppuccinColors.reduce((acc, label) => ({ ...acc, [`--ctp-${label}`]: sequoia[label] }), {}),
   dark: catppuccinColors.reduce((acc, label) => ({ ...acc, [`--ctp-${label}`]: dark[label] }), {}),
 }
@@ -113,8 +159,10 @@ export const varToHex: Record<CattppucinVariant, Partial<Record<string, string>>
 export const hexToVar: Record<CattppucinVariant, Partial<Record<string, string>>> = {
   latte: Object.fromEntries(Object.entries(varToHex.latte).map(([label, hex]) => [hex, label])),
   mocha: Object.fromEntries(Object.entries(varToHex.mocha).map(([label, hex]) => [hex, label])),
+  aura: Object.fromEntries(Object.entries(varToHex.aura).map(([label, hex]) => [hex, label])),
   ayu: Object.fromEntries(Object.entries(varToHex.ayu).map(([label, hex]) => [hex, label])),
   dracula: Object.fromEntries(Object.entries(varToHex.dracula).map(([label, hex]) => [hex, label])),
+  monokai: Object.fromEntries(Object.entries(varToHex.monokai).map(([label, hex]) => [hex, label])),
   sequoia: Object.fromEntries(Object.entries(varToHex.sequoia).map(([label, hex]) => [hex, label])),
   dark: Object.fromEntries(Object.entries(varToHex.dark).map(([label, hex]) => [hex, label])),
 }
@@ -122,8 +170,10 @@ export const hexToVar: Record<CattppucinVariant, Partial<Record<string, string>>
 export const cssVarStyleTags: Record<CattppucinVariant, string> = {
   latte: `\n<style>:root {${Object.entries(varToHex.latte).reduce((str, [label, value]) => `${str}${label}: ${value};`, '')}}</style>\n`,
   mocha: `\n<style>:root {${Object.entries(varToHex.mocha).reduce((str, [label, value]) => `${str}${label}: ${value};`, '')}}</style>\n`,
+  aura: `\n<style>:root {${Object.entries(varToHex.aura).reduce((str, [label, value]) => `${str}${label}: ${value};`, '')}}</style>\n`,
   ayu: `\n<style>:root {${Object.entries(varToHex.ayu).reduce((str, [label, value]) => `${str}${label}: ${value};`, '')}}</style>\n`,
   dracula: `\n<style>:root {${Object.entries(varToHex.dracula).reduce((str, [label, value]) => `${str}${label}: ${value};`, '')}}</style>\n`,
+  monokai: `\n<style>:root {${Object.entries(varToHex.monokai).reduce((str, [label, value]) => `${str}${label}: ${value};`, '')}}</style>\n`,
   sequoia: `\n<style>:root {${Object.entries(varToHex.sequoia).reduce((str, [label, value]) => `${str}${label}: ${value};`, '')}}</style>\n`,
   dark: `\n<style>:root {${Object.entries(varToHex.dark).reduce((str, [label, value]) => `${str}${label}: ${value};`, '')}}</style>\n`,
 }

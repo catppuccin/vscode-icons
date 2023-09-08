@@ -2,7 +2,7 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>i18n</title>
     <g id="i18n" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
-        <path d="M14.5,14.5 L11.5,7.5 L8.5,14.5 M9.5,12.5 L13.5,12.5" id="Combined-Shape" stroke="#DF8E1D" stroke-linejoin="round"></path>
-        <path d="M7.5,11 C5.5,9.5 4.5,8.5 3.5,6 M2,12.5 C6,9.5 8,6.5 8,3.5 M1.5,3.5 L9.5,3.5 M5.5,3.5 L5.5,2" id="Combined-Shape" stroke="#1E66F5"></path>
+        <path d="M15,15 L11.5,7.5 L8,15 M9.5,12.5 L13.5,12.5" id="Combined-Shape" stroke="#DF8E1D" stroke-linejoin="round"></path>
+        <path d="M7.5,11 C5.5,9.5 4.5,8.5 3.5,6 M1,13.5 C5.66666667,9.83333333 8,6.5 8,3.5 M1,3.5 L10,3.5 M5.5,3.5 L5.5,2" id="Combined-Shape" stroke="#1E66F5"></path>
     </g>
 </svg>
