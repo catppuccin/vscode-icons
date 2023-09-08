@@ -110,6 +110,13 @@ export const files: IconMap = {
   deno: ['deno.json', 'deno.jsonc'],
   deno_lock: ['deno.lock'],
   dependabot: ['dependabot.yml', 'dependabot.yaml'],
+  detox: [
+    '.detoxrc',
+    '.detoxrc.js',
+    '.detoxrc.json',
+    'detox.config.js',
+    'detox.config.json',
+  ],
   docker: [
     'dockerfile',
     'dockerfile',
@@ -393,8 +400,17 @@ export const files: IconMap = {
   mail: ['.mailmap'],
   makefile: ['makefile', 'gnumakefile', 'kbuild'],
   maven: ['maven.config', 'jvm.config', 'pom.xml'],
+  mercurial: [
+    '.hg',
+    '.hgignore',
+    '.hgflow',
+    '.hgrc',
+    'hgrc',
+    'mercurial.ini',
+  ],
   meson: ['meson.build', 'meson_options.txt'],
   metro: ['metro.config.js', 'metro.config.ts'],
+  mjml: ['.mjmlconfig'],
   mocha: [
     'mocha.opts',
     '.mocharc.yml',
@@ -403,6 +419,7 @@ export const files: IconMap = {
     '.mocharc.json',
     '.mocharc.jsonc',
   ],
+  modernizr: ['.modernizrrc', '.modernizrrc.js', '.modernizrrc.json'],
   netlify: [
     'netlify.json',
     'netlify.yml',
@@ -513,6 +530,7 @@ export const files: IconMap = {
     '.clang-tidy',
   ],
   pug: ['.pug-lintrc', '.pug-lintrc.js', '.pug-lintrc.json'],
+  quasar: ['quasar.conf.js', 'quasar.config.js'],
   r: ['.Rhistory'],
   reactnative_config: ['react-native.config.js', 'react-native.config.ts'],
   readme: ['readme.md', 'readme.rst', 'readme.txt', 'readme'],

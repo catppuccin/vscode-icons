@@ -44,7 +44,7 @@ const theme: Theme = {
   folderNames: flattenMap(folders),
   folderNamesExpanded: flattenMap(foldersExpanded),
 }
-const themeString = JSON.stringify(theme, null, 2)
+const themeString = JSON.stringify(theme)
 
 consola.info(`Creating ${catppuccinVariants.length} themes...`)
 await Promise.all(catppuccinVariants.map(async (variant) => {
