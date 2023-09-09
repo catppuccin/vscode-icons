@@ -61,6 +61,7 @@ export const languages: IconMap = {
   nim: ['nim', 'nimble'],
   nix: ['nix'],
   nunjucks: ['nunjucks'],
+  pawn: ['pawn'],
   pdf: ['pdf'],
   perl: ['perl', 'perl6'],
   php: ['php'],

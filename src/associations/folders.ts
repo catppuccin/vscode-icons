@@ -1,4 +1,5 @@
 export const folders: IconMap = {
+  folder_admin: ['admin', 'manager', 'moderator'],
   folder_android: ['android', 'apk'],
   folder_angular: ['angular', '.angular'],
   folder_animation: ['anim', 'anims', 'animation', 'animations', 'animated'],
@@ -61,6 +62,7 @@ export const folders: IconMap = {
     '.settings',
     'META-INF',
   ],
+  folder_constant: ['const', 'constant', 'constants'],
   folder_controllers: [
     'controller',
     'controllers',
@@ -135,6 +137,7 @@ export const folders: IconMap = {
   folder_gitlab: ['.gitlab'],
   folder_gradle: ['gradle', '.gradle'],
   folder_graphql: ['graphql', 'gql'],
+  folder_guard: ['guard', 'guards'],
   folder_gulp: [
     'gulp',
     'gulp-tasks',
@@ -239,9 +242,10 @@ export const folders: IconMap = {
   folder_private: ['private', '.private'],
   folder_project: ['project', 'projects', '.project', '.projects'],
   folder_proto: ['protobufs', 'proto'],
-  folder_public: ['public', 'www', 'wwwroot', 'web', 'website', 'site'],
+  folder_public: ['public', 'www', 'wwwroot', 'web', 'website', 'site', 'http'],
   folder_python: ['python', 'python2', 'python3', '.pytest_cache', '__pycache__'],
   folder_queue: ['queue', 'queues', 'bull', 'mq'],
+  folder_redux: ['redux'],
   folder_review: ['review', 'reviews', 'revisal', 'revisals', 'reviewed'],
   folder_resource: ['res', 'resource', 'resources', 'static'],
   folder_robot: ['.bot', 'bot', 'bots', '.robot', 'robot', 'robots', '_bot', '_robot'],
