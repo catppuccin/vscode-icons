@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>powershell</title>
-    <g id="powershell" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M2.00331627,15.5 C1.29537058,15.5 0.5,14.7078344 0.5,14.0000668 L0.5,5.00011128 C0.5,4.29287781 1.29287781,3.5 1.99993323,3.5 L11.0000668,3.5 C11.7069441,3.5 12.5,4.29287781 12.5,5.00011128 L12.5,14.0000668 C12.5,14.7071222 11.7071222,15.5 11.0000668,15.5 L2.00331627,15.5 Z" id="Path" stroke="#1E66F5"></path>
-        <path d="M1.97128415,3.60280577 L4.24472407,1.28747047 C4.60943811,0.916260907 5.17156617,0.5 5.68986162,0.5 L14.0906647,0.5 C14.7491575,0.5 15.5,1.23229523 15.5,1.89642289 L15.5,9.62989924 C15.5,10.2582558 15.213917,10.9190088 14.7876365,11.3772839 L12.3266533,14.0235019" id="Path" stroke="#1E66F5"></path>
-        <polyline id="Path" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round" points="3.5 8.49982533 6.5 10.5 3.5 12.5"></polyline>
-        <line x1="7.5" y1="12.5" x2="9.5" y2="12.5" id="Line" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round"></line>
+    <g id="powershell" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3.5,8.5 L7.5,10.5 L3.5,12.5 M2.87803991,14.5 C2.2290897,14.5 1.5,13.7738482 1.5,13.1250612 L1.5,4.87510201 C1.5,4.22680466 2.22680466,3.5 2.87493879,3.5 L11.1250612,3.5 C11.7730321,3.5 12.5,4.22680466 12.5,4.87510201 L12.5,13.1250612 C12.5,13.7731953 11.7731953,14.5 11.1250612,14.5 L2.87803991,14.5 Z M2,3.9 C3.5,1.65 4,1.5 4.87493879,1.5 L13.1250612,1.5 C13.7730321,1.5 14.5,2.22680466 14.5,2.87510201 L14.5,11.1250612 C14.5,12 14.25,12.6 12,14.1 M8.5,12.5 L10.5,12.5" id="Combined-Shape" stroke="#1E66F5"></path>
     </g>
 </svg>

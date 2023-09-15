@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img width="640" src="https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/assets/previews/mocha-icons@2x.png">
+  <img width="640" src="https://raw.githubusercontent.com/thang-nm/Catppuccin-Perfect-Icons/main/assets/previews/mocha-icons@2x.png?t=20230915">
 </p>
 
 ## Usage

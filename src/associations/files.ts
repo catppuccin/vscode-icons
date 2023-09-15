@@ -170,6 +170,7 @@ export const files: IconMap = {
     'docker-compose.worker.yaml',
   ],
   docker_ignore: ['dockerignore', '.dockerignore'],
+  docusaurus: ['docusaurus.config.js'],
   editorconfig: ['.editorconfig'],
   ember: ['.ember-cli', '.ember-cli.js', 'ember-cli-builds.js'],
   env: [
@@ -243,6 +244,7 @@ export const files: IconMap = {
     '.gitkeep',
     '.git-include',
   ],
+  gitbook: ['.gitbook.yaml'],
   gitlab: ['gitlab-ci.yml'],
   gitpod: ['.gitpod.yml'],
   gleam: ['gleam.toml'],
@@ -278,6 +280,7 @@ export const files: IconMap = {
   heroku: ['procfile', 'procfile.windows'],
   ionic: ['ionic.config.json', '.io-config.json'],
   javascript_config: ['jsconfig.json'],
+  jenkins: ['jenkinsfile'],
   jest: [
     'jest.config.js',
     'jest.config.cjs',
@@ -384,6 +387,16 @@ export const files: IconMap = {
     'licence.rst',
     'licence.txt',
   ],
+  lighthouse: [
+    '.lighthouserc.js',
+    'lighthouserc.js',
+    '.lighthouserc.json',
+    'lighthouserc.json',
+    '.lighthouserc.yml',
+    'lighthouserc.yml',
+    '.lighthouserc.yaml',
+    'lighthouserc.yaml',
+  ],
   lintstaged: [
     '.lintstagedrc',
     '.lintstagedrc.json',
@@ -456,6 +469,7 @@ export const files: IconMap = {
     'panda.config.mjs',
     'panda.config.js',
   ],
+  parse: ['.parse.local', '.parse.project'],
   phpunit: [
     '.phpunit.result.cache',
     '.phpunit-watcher.yml',

@@ -79,6 +79,7 @@ export const extensions: IconMap = {
     'db',
     'db3',
   ],
+  dhall: ['dhall', 'dhallb'],
   disc: ['iso', 'vcd', 'cue', 'dmg', 'hdd', 'vmdk', 'qcow', 'qcow2', 'qed'],
   django: ['djt'],
   doc: ['doc', 'docx', 'rtf', 'odt'],
@@ -216,6 +217,7 @@ export const extensions: IconMap = {
     'jsx.snap',
     'cy.jsx',
   ],
+  jenkins: ['jenkinsfile', 'jenkins'],
   jinja: ['jinja', 'jinja2', 'j2', 'jinja-html'],
   json: [
     'json',
@@ -260,6 +262,7 @@ export const extensions: IconMap = {
   nx: ['nx'],
   ocaml: ['ml', 'mli', 'cmx'],
   odin: ['odin'],
+  pawn: ['pwn', 'amx'],
   pdf: ['pdf'],
   perl: ['pm', 'raku'],
   php: ['php'],
