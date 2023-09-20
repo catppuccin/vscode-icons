@@ -2,11 +2,9 @@
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>python</title>
     <g id="python" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <circle id="Oval" fill="#DF8E1D" cx="8.5" cy="12.5" r="1"></circle>
-        <line x1="10.5" y1="10.5" x2="7.5" y2="10.5" id="Path" stroke="#DF8E1D" stroke-linecap="round" stroke-linejoin="round"></line>
-        <path d="M14.5,8.5 L14.5,7 C14.5,6.2 13.8,5.5 13,5.5 L10,5.5 C9.2,5.5 8.5,6.2 8.5,7 L8.5,9.5 L6,9.5 C5.2,9.5 4.5,10.2 4.5,11 L4.5,13 C4.5,13.8 5.2,14.5 5.98325795,14.4916833 L7.5,14.5 C7.5,13 7.5,12.5 8.5,12.5 L10.5,12.5" id="Path" stroke="#DF8E1D" stroke-linecap="round" stroke-linejoin="round" transform="translate(9.5, 10) rotate(-180) translate(-9.5, -10)"></path>
-        <circle id="Oval" fill="#1E66F5" cx="7.5" cy="3.5" r="1"></circle>
-        <line x1="8.5" y1="5.5" x2="5.5" y2="5.5" id="Path" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round"></line>
-        <path d="M11.5,4.5 L11.5,3 C11.5,2.2 10.8,1.5 10,1.5 L7,1.5 C6.2,1.5 5.5,2.2 5.5,3 L5.5,5.5 L3,5.5 C2.2,5.5 1.5,6.2 1.5,7 L1.5,9 C1.5,9.8 2.2,10.5 2.98325795,10.4916833 L4.5,10.5 C4.5,9 4.5,8.50018311 5.50067139,8.50018311 L7.5,8.50018311" id="Path" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M10.5,10.5 L7.5,10.5 M4.5,11.5 L4.5,13 C4.5,13.8 5.2,14.5 6,14.5 L9,14.5 C9.8,14.5 10.5,13.8 10.5,13 L10.5,10.5 L13,10.5 C13.8,10.5 14.5,9.8 14.5,9 L14.5,7 C14.5,6.2 13.8,5.5 13.0167421,5.50831666 L11.5,5.5 C11.5,7 11.5,7.5 10.5,7.5 L8.5,7.5" id="Combined-Shape" stroke="#DF8E1D" stroke-linecap="round" stroke-linejoin="round"></path>
+        <line x1="8" y1="12.5" x2="9" y2="12.5" id="Line" stroke="#DF8E1D"></line>
+        <line x1="7" y1="3.5" x2="8" y2="3.5" id="Line" stroke="#1E66F5"></line>
+        <path d="M8.5,5.5 L5.5,5.5 M11.5,4.5 L11.5,3 C11.5,2.2 10.8,1.5 10,1.5 L7,1.5 C6.2,1.5 5.5,2.2 5.5,3 L5.5,5.5 L3,5.5 C2.2,5.5 1.5,6.2 1.5,7 L1.5,9 C1.5,9.8 2.2,10.5 2.98325795,10.4916833 L4.5,10.5 C4.5,9 4.5,8.50018311 5.50067139,8.50018311 L7.5,8.50018311" id="Combined-Shape" stroke="#1E66F5" stroke-linecap="round" stroke-linejoin="round"></path>
     </g>
 </svg>
