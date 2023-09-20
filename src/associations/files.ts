@@ -212,7 +212,7 @@ export const files: IconMap = {
     '.gitkeep',
     '.git-include',
   ],
-  gitlab: ['gitlab-ci.yml'],
+  gitlab: ['.gitlab-ci.yml'],
   gitpod: ['.gitpod.yml'],
   go_mod: ['go.mod', 'go.sum', 'go.work', 'go.work.sum'],
   gradle: ['gradle.properties', 'gradlew', 'gradle-wrapper.properties'],
