@@ -27,6 +27,7 @@ export const extensions: IconMap = {
   clojure: ['clj', 'cljs', 'cljc'],
   cmake: ['cmake'],
   coffeescript: ['coffee', 'cson', 'iced'],
+  coq: ['g', 'v'],
   cpp: ['cc', 'cpp', 'cxx', 'c++', 'cp', 'mm', 'mii', 'ii'],
   csharp: ['cs', 'csx'],
   csv: ['csv', 'tsv', 'psv'],
