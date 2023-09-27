@@ -187,6 +187,7 @@ export const extensions: IconMap = {
   ],
   julia: ['jl'],
   jupyter: ['ipynb'],
+  just: ['justfile'],
   key: ['pub', 'key', 'pem', 'asc', 'gpg', 'passwd'],
   kotlin: ['kt', 'kts'],
   laravel: ['blade.php', 'inky.php'],

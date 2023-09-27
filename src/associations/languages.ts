@@ -41,6 +41,7 @@ export const languages: IconMap = {
   json: ['json', 'jsonc', 'json5'],
   julia: ['julia', 'juliamarkdown'],
   jupyter: ['jupyter'],
+  just: ['just']
   latex: [
     'bibtex',
     'bibtex-style',
