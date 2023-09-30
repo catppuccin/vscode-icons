@@ -152,6 +152,7 @@ export const folders: IconMap = {
     'module',
     'modules',
   ],
+  folder_prisma: ['prisma'],
   folder_public: ['public', 'www', 'wwwroot', 'web', 'website', 'site'],
   folder_routes: ['routes', 'router', 'routers'],
   folder_sass: ['sass', '_sass', 'scss', '_scss'],
