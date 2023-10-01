@@ -68,6 +68,7 @@ export const languages: IconMap = {
   postcss: ['postcss'],
   powershell: ['powershell'],
   processing: ['processing'],
+  prolog: ['prolog'],
   properties: ['properties', 'ini', 'spring-boot-properties'],
   pug: ['jade', 'pug'],
   puppet: ['puppet'],
