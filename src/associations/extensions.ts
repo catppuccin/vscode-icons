@@ -272,6 +272,7 @@ export const extensions: IconMap = {
   powershell: ['ps1', 'psm1', 'psd1', 'ps1xml', 'psc1', 'pssc'],
   prisma: ['prisma'],
   processing: ['pde'],
+  prolog: ['p', 'pro', 'pl'],
   properties: [
     'ini',
     'dlc',
