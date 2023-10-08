@@ -1,5 +1,5 @@
 export const folders: IconMap = {
-  folder_admin: ['admin', 'manager', 'moderator'],
+  folder_admin: ['admin', 'manager', 'managers', 'moderator', 'moderators'],
   folder_android: ['android', 'apk'],
   folder_angular: ['angular', '.angular'],
   folder_animation: ['anim', 'anims', 'animation', 'animations', 'animated'],
@@ -249,7 +249,7 @@ export const folders: IconMap = {
   folder_review: ['review', 'reviews', 'revisal', 'revisals', 'reviewed'],
   folder_resource: ['res', 'resource', 'resources', 'static'],
   folder_robot: ['.bot', 'bot', 'bots', '.robot', 'robot', 'robots', '_bot', '_robot'],
-  folder_routes: ['route', 'routes', 'router', 'routers', 'navigation'],
+  folder_routes: ['route', 'routes', 'router', 'routers', 'navigation', 'navigator', 'navigators'],
   folder_sass: ['sass', '_sass', 'scss', '_scss'],
   folder_scala: ['scala'],
   folder_scripts: ['scripts', 'script'],

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>stan</title>
+    <g id="stan" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M9,10 L3.5,7.75 L4.75,4.5 L6,3.5 L12.3256658,2.49611435 C11.134981,1.55902325 9.63277396,1 8,1 C4.13400675,1 1,4.13400675 1,8 C1,9.7155345 1.61713,11.2869306 2.6415,12.5042982 L9,10 Z M3.67084056,13.5011343 C4.86207989,14.4398824 6.36562871,15 8,15 C11.8659932,15 15,11.8659932 15,8 C15,6.68103893 14.635211,5.44727889 14.0010201,4.39410691 L6.5,6.5 L11.5,9.5 L11.25,11.25 L3.67084056,13.5011343 Z" id="Combined-Shape" stroke="#D20F39"></path>
+    </g>
+</svg>
