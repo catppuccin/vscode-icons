@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>esbuild</title>
+    <g id="esbuild" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8,15 C11.8659932,15 15,11.8659932 15,8 C15,4.13400675 11.8659932,1 8,1 C4.13400675,1 1,4.13400675 1,8 C1,11.8659932 4.13400675,15 8,15 Z M8.5,4.5 L10.5,4.5 L13,8 L10.5,11.5 L8.5,11.5 L11,8 L8.5,4.5 Z M4,4.5 L6,4.5 L8.5,8 L6,11.5 L4,11.5 L6.5,8 L4,4.5 Z" id="Combined-Shape" stroke="#DF8E1D"></path>
+    </g>
+</svg>

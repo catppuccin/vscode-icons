@@ -2,6 +2,7 @@ export const extensions: IconMap = {
   _3d: [
     'ac',
     'blend',
+    'dxf',
     'fbx',
     'mesh',
     'mqo',
@@ -9,9 +10,11 @@ export const extensions: IconMap = {
     'obj',
     'pmd',
     'pmx',
+    'reality',
     'skp',
     'stl',
     'stp',
+    'usdz',
     'vac',
     'vdp',
     'vox',
@@ -365,6 +368,7 @@ export const extensions: IconMap = {
   smarty: ['tpl'],
   solidity: ['sol'],
   spreadsheet: ['xlsx', 'xlsm', 'xls', 'ods'],
+  stan: ['stan'],
   storybook: [
     'story.js',
     'story.ts',
@@ -377,6 +381,7 @@ export const extensions: IconMap = {
   ],
   storybook_svelte: ['story.svelte', 'stories.svelte'],
   storybook_vue: ['story.vue', 'stories.vue'],
+  spwn: ['spwn'],
   svelte: ['svelte'],
   svg: ['svg'],
   swift: ['swift'],
@@ -469,7 +474,7 @@ export const extensions: IconMap = {
   vala: ['vala'],
   xaml: ['xaml'],
   xcode_project: ['pbxproj'],
-  xib: ['xib', 'nib'],
+  xib: ['xib', 'nib', 'storyboard'],
   xml: [
     'xml',
     'plist',
@@ -507,5 +512,6 @@ export const extensions: IconMap = {
     'tz',
     'xz',
     'zip',
+    'zst',
   ],
 }

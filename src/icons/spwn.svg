@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>spwn</title>
+    <g id="spwn" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M10.5,10 C12.9852814,10 15,7.98528137 15,5.5 C15,3.01471863 12.9852814,1 10.5,1 C8.01471863,1 6,3.01471863 6,5.5 L10.5,5.5 L10.5,10 Z" id="Path" stroke="#EA76CB"></path>
+        <path d="M6.25,11.75 L4.25,9.75 L6.74991152,7.24991152 C6.47215341,6.97215341 6.05551623,6.55551623 5.5,6 C3.01471863,6 1,8.01471863 1,10.5 C1,12.9852814 3.01471863,15 5.5,15 C7.98528137,15 10,12.9852814 10,10.5 C9.42050718,9.92050718 9.00359265,9.50359265 8.7492564,9.2492564 L6.25,11.75 Z" id="Path" stroke="#40A02B"></path>
+    </g>
+</svg>
