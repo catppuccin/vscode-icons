@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>auto</title>
+    <g id="auto" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4.5,5.5 L7.29,8.71 C7.47317789,8.88776663 7.72348219,9 8,9 C8.55228475,9 9,8.55228475 9,8 C9,7.72322896 8.88756097,7.47271945 8.70586975,7.29165834 L4.5,5.5 Z M1.5,8 C1.5,11.5898509 4.41014913,14.5 8,14.5 C11.5898509,14.5 14.5,11.5898509 14.5,8" id="Combined-Shape" stroke="#4C4F69"></path>
+        <path d="M14.1877539,6.00388375 C13.8052801,4.81735448 13.0910014,3.77980395 12.1542385,3.0005527" id="Path" stroke="#D20F39"></path>
+        <path d="M10.5039996,1.99983284 C9.73333424,1.67784282 8.88743583,1.5 8,1.5 C7.11228207,1.5 6.27086249,1.67781596 5.5,2" id="Path" stroke="#DF8E1D"></path>
+        <path d="M3.84877992,3.00121996 C2.91153925,3.78046224 2.19615542,4.8178453 1.81294876,6.00410402" id="Path" stroke="#EA76CB"></path>
+    </g>
+</svg>

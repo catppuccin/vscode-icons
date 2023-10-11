@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cadence</title>
+    <g id="cadence" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M5.5,12.5 C4.3954305,12.5 3.5,11.6045695 3.5,10.5 C3.5,9.3954305 4.3954305,8.5 5.5,8.5 L5.5,6.5 C3.290861,6.5 1.5,8.290861 1.5,10.5 C1.5,12.709139 3.290861,14.5 5.5,14.5 C7.709139,14.5 9.5,12.709139 9.5,10.5 L7.5,10.5 C7.5,11.6045695 6.6045695,12.5 5.5,12.5 Z M13.5,8.5 L13.5,6.5 L11.5,6.5 L11.5,8.5 L13.5,8.5 Z M9.5,5.5 L7.5,5.5 L7.5,4.5 C7.5,2.84314575 8.84314575,1.5 10.5,1.5 L14.5,1.5 L14.5,3.5 L10.5,3.5 C9.94771525,3.5 9.5,3.94771525 9.5,4.5 L9.5,5.5 Z" id="Combined-Shape" stroke="#40A02B"></path>
+    </g>
+</svg>

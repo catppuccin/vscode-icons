@@ -6,6 +6,8 @@ export const languages: IconMap = {
   bat: ['bat'],
   binary: ['code-text-binary'],
   c: ['c', 'objective-c', 'objective-cpp'],
+  cabal: ['cabal'],
+  cadence: ['cadence'],
   clojure: ['clojure'],
   cmake: ['cmake'],
   cmake_in: ['cmake-cache'],
