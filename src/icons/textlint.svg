@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>textlint</title>
+    <g id="textlint" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="round">
+        <polyline id="Path" stroke="#EA76CB" points="6.5 11.5 4.5 11.5 4.5 4.5 1.5 4.5 1.5 14.5 14.5 14.5 14.5 11.5 9.5 11.5"></polyline>
+        <polygon id="Line" stroke="#04A5E5" points="1.5 1.5 14.5 1.5 14.5 4.5 9.5 4.5 9.5 14.5 6.5 14.5 6.5 4.5 1.5 4.5"></polygon>
+    </g>
+</svg>

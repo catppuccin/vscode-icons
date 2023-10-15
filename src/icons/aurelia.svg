@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>aurelia</title>
+    <g id="aurelia" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M14.1568542,4.46446609 L12.0355339,2.34314575 L2.84314575,11.5355339 L4.96446609,13.6568542 L14.1568542,4.46446609 Z M3.55025253,8 L2.13603897,6.58578644 L0.721825407,8 L2.13603897,9.41421356 L3.55025253,8 Z M7.79289322,13.6568542 L8.5,12.9497475 L9.20710678,13.6568542 L8.5,14.363961 L7.79289322,13.6568542 Z" id="Combined-Shape" stroke="#EA76CB" stroke-linecap="square"></path>
+        <path d="M12.0355339,9.41421356 L14.863961,12.2426407 L12.7426407,14.363961 L9.91421356,11.5355339 L12.0355339,9.41421356 Z M9.20710678,2.34314575 L7.79289322,0.928932188 L7.08578644,1.63603897 L8.5,3.05025253 L9.20710678,2.34314575 Z M14.863961,8 L14.1568542,7.29289322 L13.4497475,8 L14.1568542,8.70710678 L14.863961,8 Z" id="Combined-Shape" stroke="#8839EF" stroke-linecap="square"></path>
+        <polygon id="Line-3" stroke="#D20F39" stroke-linecap="square" transform="translate(4.6109, 4.1109) rotate(-45) translate(-4.6109, -4.1109)" points="6.1109127 2.1109127 6.1109127 6.1109127 3.1109127 6.1109127 3.1109127 2.1109127"></polygon>
+        <line x1="0.221825407" y1="5.17157288" x2="1.22182541" y2="5.17157288" id="Line-9" stroke="#EA76CB" stroke-linejoin="round" transform="translate(0.7218, 5.1716) rotate(-45) translate(-0.7218, -5.1716)"></line>
+        <line x1="5.87867966" y1="15.0710678" x2="6.87867966" y2="15.0710678" id="Line-8" stroke="#EA76CB" stroke-linejoin="round" transform="translate(6.3787, 15.0711) rotate(-45) translate(-6.3787, -15.0711)"></line>
+    </g>
+</svg>

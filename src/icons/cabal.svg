@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cabal</title>
+    <g id="cabal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <polygon id="Line" stroke="#8839EF" stroke-linecap="square" points="8.5 9.5 15.5 9.5 11.5 14.5 4.5 14.5"></polygon>
+        <polygon id="Star" stroke="#1E66F5" points="3.5 9.5 1.73664424 10.427051 2.07341523 8.46352549 0.646830451 7.07294902 2.61832212 6.78647451 3.5 5 4.38167788 6.78647451 6.35316955 7.07294902 4.92658477 8.46352549 5.26335576 10.427051"></polygon>
+        <polygon id="Line" stroke="#179299" stroke-linecap="square" transform="translate(10, 4) scale(1, -1) translate(-10, -4)" points="8.5 1.5 15.5 1.5 11.5 6.5 4.5 6.5"></polygon>
+    </g>
+</svg>

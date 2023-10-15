@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bithound</title>
+    <g id="bithound" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <path d="M4.5,2.5 C6.5,2 6.75,0.5 8,0.5 C9.25,0.5 9.5,1.5 9.5,3 C9.5,4.5 9.75,5.5 8,5.5 C6.83333333,5.5 6.66666667,4.83333333 7.5,3.5 C6.16666667,3.5 5.16666667,3.16666667 4.5,2.5 Z" id="Line" stroke="#D20F39" stroke-linecap="square"></path>
+        <path d="M11,1.5 C12.6666667,3.5 13.5,5.83333333 13.5,8.5 C13.5,11.1666667 12.5,13.5 10.5,15.5 C10.3333333,12.1666667 9.33333333,10.5 7.5,10.5 C5.66666667,10.5 4.66666667,12.1666667 4.5,15.5 C3.33333333,14.3333333 2.75,13 2.75,11.5 C2.75,9.25 4,7.5 7.5,7.5 C9,7.5 12,7 11,1.5 Z" id="Line-2" stroke="#D20F39" stroke-linecap="square"></path>
+        <path d="M3,9 C2,8.33333333 1.5,6.83333333 1.5,4.5" id="Line-72" stroke="#D20F39" stroke-linecap="round"></path>
+    </g>
+</svg>
