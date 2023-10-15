@@ -1,7 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 26.458 26.458">
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
 <style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
-    <g fill="none" stroke-linecap="round" stroke-width="1.26657">
-        <path stroke="var(--ctp-yellow)" d="m8.246 8.248-1.28.996s-.453.093 1.652-.108c.68 1.007 2.604 3.462.642 4.891-6.54 3.534-2.34 1.93 1.599 5.878.541.543-2.005 3.142-2.005 3.142l.027 1.68 6.58.027-.123-2.105c-.047-.815-1.388-.82-.856-2.814.193-.723.686-2.546 1.906-2.792-.296-.692-.279-1.285.078-1.526 1.396-.945 1.555 1.18-1.527 3.293 16.252-1.721 3.856-19.315-1.882-5.361-.73-.396-.395-7.368-1.257-7.052" transform="translate(-1.197 -.023)"/>
-        <path stroke="var(--ctp-peach)" stroke-linejoin="round" d="M8.457 7.949c-2.068-.307-3.85-3.18-.115-5.478 3.973-2.444 10.825 1.894 5.995 5.843-.687.562-.807-4.555-5.88-.365Z" transform="translate(-1.197 -.023)"/>
-    </g>
+    <path fill="none" stroke="var(--ctp-yellow)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.20736261" d="m8.246 8.248-1.28.996s-.453.093 1.652-.108c.68 1.007 2.604 3.462.642 4.891-6.54 3.534-2.34 1.93 1.599 5.878.541.543-2.005 3.142-2.005 3.142l.027 1.68 6.58.027-.123-2.105c-.047-.815-1.388-.82-.856-2.814.193-.723.686-2.546 1.906-2.792-.296-.692-.279-1.285.078-1.526 1.396-.945 1.555 1.18-1.527 3.293 16.252-1.721 3.856-19.315-1.882-5.361-.73-.396-.395-7.368-1.257-7.052" transform="matrix(4.1443 0 0 4.13822 -9.788 -4.84)"/>
+    <path fill="none" stroke="var(--ctp-maroon)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.20736261" d="M8.457 7.949c-2.068-.307-3.85-3.18-.115-5.478 3.973-2.444 10.825 1.894 5.995 5.843-.687.562-.807-4.555-5.88-.365Z" transform="matrix(4.1443 0 0 4.13822 -9.788 -4.84)"/>
 </svg>
