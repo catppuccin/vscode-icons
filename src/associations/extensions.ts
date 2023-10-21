@@ -90,6 +90,7 @@ export const extensions: IconMap = {
   fsharp: ['fs', 'fsx', 'fsi', 'fsproj'],
   gnuplot: ['plt'],
   go: ['go'],
+  godot: ['gd', 'godot', 'res', 'scn', 'tres', 'tscn'],
   gradle: ['gradle'],
   graphql: ['graphql', 'gql'],
   groovy: ['groovy'],
