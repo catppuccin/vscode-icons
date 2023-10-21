@@ -14,6 +14,7 @@ function deltaE(c1: string, c2: string) {
 
 function catppuccinizeColor(color: string) {
   switch (color) {
+    case '#fff':
     case '#ffffff': return mocha.text.hex
     case '#808080': return mocha.overlay1.hex
     default: return [...catppuccinPalette].sort(
@@ -27,5 +28,5 @@ function catppuccinizeColor(color: string) {
  * @param svg SVG as string
  */
 export function catppuccinizeSvg(svg: string) {
-  return svg.replaceAll(/#([a-dA-F0-9]{6})/gi, catppuccinizeColor)
+  return svg.replaceAll(/#(([a-fA-F0-9]{3}){1,2})/gi, catppuccinizeColor)
 }
