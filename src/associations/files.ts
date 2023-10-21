@@ -357,6 +357,7 @@ export const files: IconMap = {
     'next.config.mts',
   ],
   nginx: ['nginx.conf'],
+  nix_flake_lock: ['flake.lock'],
   npm: ['.npmrc'],
   npm_ignore: ['.npmignore'],
   npm_lock: ['package-lock.json'],
