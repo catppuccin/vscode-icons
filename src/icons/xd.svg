@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>xd</title>
+    <g id="xd" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Path" stroke="#8839EF" x="1.5" y="1.5" width="13" height="13" rx="2.5"></rect>
+        <path d="M3.25,5.25 L7.75,10.75 M7.75,5.25 L3.25,10.75 M12.5,5 L12.5,11 M11,10.5 C11.8284271,10.5 12.5,9.82842712 12.5,9 C12.5,8.17157288 11.8284271,7.5 11,7.5 C10.1715729,7.5 9.5,8.17157288 9.5,9 C9.5,9.82842712 10.1715729,10.5 11,10.5 Z" id="Combined-Shape" stroke="#EA76CB"></path>
+    </g>
+</svg>
