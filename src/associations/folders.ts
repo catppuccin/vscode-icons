@@ -135,6 +135,7 @@ export const folders: IconMap = {
   folder_git: ['.git', 'git', 'githooks', '.githooks', 'submodules', '.submodules'],
   folder_github: ['.github'],
   folder_gitlab: ['.gitlab'],
+  folder_godot: ['.godot', 'godot', '.godot-cpp', 'godot-cpp'],
   folder_gradle: ['gradle', '.gradle'],
   folder_graphql: ['graphql', 'gql'],
   folder_guard: ['guard', 'guards'],

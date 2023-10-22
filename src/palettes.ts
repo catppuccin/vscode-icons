@@ -82,7 +82,7 @@ const dracula: Partial<Record<CatppuccinColor, string>> = {
   green: '#50FA7B',
   maroon: '#FF5555',
   mauve: '#BD93F9',
-  overlay1: '#5E627C',
+  overlay1: '#6272A4',
   peach: '#FFB86C',
   pink: '#FF79C6',
   red: '#FF5555',
@@ -90,7 +90,7 @@ const dracula: Partial<Record<CatppuccinColor, string>> = {
   sapphire: '#4DB6AC',
   sky: '#8BE9FD',
   teal: '#4DB6AC',
-  text: '#6272A4',
+  text: '#F8F8F2',
   yellow: '#F1FA8C',
 }
 

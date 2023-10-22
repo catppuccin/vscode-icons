@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>coconut</title>
+    <g id="coconut" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#8C8FA1" cx="8" cy="8" r="7"></circle>
+        <path d="M10.75,12 L7.5,5.5 M6.25,12 L8.25,7" id="Combined-Shape" stroke="#E64553"></path>
+        <path d="M10.1265053,5.06783008 C9.92721523,4.47326161 9.36561125,4.04485076 8.70394654,4.04485076 C7.87551942,4.04485076 7.20394654,4.71642364 7.20394654,5.54485076 C7.20394654,4.71642364 6.53237367,4.04485076 5.70394654,4.04485076 C5.11268474,4.04485076 4.60132304,4.38694375 4.35699273,4.88399842" id="Path" stroke="#40A02B" stroke-linejoin="round" transform="translate(7.2417, 4.7949) rotate(-23) translate(-7.2417, -4.7949)"></path>
+    </g>
+</svg>
