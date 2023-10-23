@@ -99,7 +99,7 @@ export const extensions: IconMap = {
   haskell: ['hs'],
   haxe: ['hx', 'hxml'],
   hpp: ['hh', 'hpp', 'hxx', 'h++', 'hp', 'tcc', 'inl'],
-  html: ['htm', 'xhtml', 'html_vm', 'asp'],
+  html: ['htm', 'html', 'xhtml', 'html_vm', 'asp'],
   http: ['http', 'rest'],
   image: [
     'png',
