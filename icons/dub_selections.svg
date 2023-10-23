@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-miterlimit="1.5" clip-rule="evenodd" viewBox="0 0 100 100">
+<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
+    <path fill="none" stroke="var(--ctp-red)" stroke-width="5" d="m30.974 65.959-6.955 3.353a11.095 11.095 0 0 1-4.82 1.101H4.698V28.535H24.52a10.1 10.1 0 0 1 10.1 10.1v17.088c0 8.71 7.06 15.771 15.77 15.771h.008c8.71 0 15.771-7.061 15.771-15.771V28.506h19.056a10.077 10.077 0 0 1 10.077 10.077v.377c0 5.358-4.344 9.702-9.703 9.702H73.8h10.573c6.036 0 10.929 4.894 10.929 10.93v.017c0 2.054-.578 4.048-1.644 5.766"/>
+    <circle cx="50" cy="55.903" r="9.184" fill="var(--ctp-maroon)"/>
+    <circle cx="58.286" cy="44.14" r="3.076" fill="var(--ctp-maroon)"/>
+    <path fill="none" stroke="var(--ctp-overlay1)" stroke-miterlimit="4" stroke-width="5" d="M70.735 73.695v-8.88c.002-4.87 4.01-8.876 8.88-8.876s8.877 4.006 8.879 8.876v8.88m-23.679 0h29.599a2.974 2.974 0 0 1 2.96 2.96v17.759a2.974 2.974 0 0 1-2.96 2.96H64.815a2.975 2.975 0 0 1-2.96-2.96V76.655a2.975 2.975 0 0 1 2.96-2.96z"/>
+</svg>

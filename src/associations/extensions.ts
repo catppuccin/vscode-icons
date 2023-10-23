@@ -33,6 +33,7 @@ export const extensions: IconMap = {
   csv: ['csv', 'tsv', 'psv'],
   cucumber: ['feature', 'features'],
   cuda: ['cu', 'cuh'],
+  d: ['d', 'di'],
   dart: ['dart'],
   dart_generated: ['freezed.dart', 'g.dart'],
   database: [

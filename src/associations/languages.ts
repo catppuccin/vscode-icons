@@ -14,6 +14,7 @@ export const languages: IconMap = {
   csv: ['csv', 'tsv', 'psv'],
   cucumber: ['cucumber'],
   cuda: ['cuda-cpp'],
+  d: ['d'],
   dart: ['dart'],
   database: ['sql'],
   diff: ['diff'],

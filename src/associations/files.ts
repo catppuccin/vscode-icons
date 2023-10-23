@@ -144,6 +144,8 @@ export const files: IconMap = {
     'docker-compose.worker.yaml',
   ],
   docker_ignore: ['dockerignore', '.dockerignore'],
+  dub: ['dub.json', 'dub.sdl'],
+  dub_selections: ['dub.selections.json'],
   editorconfig: ['.editorconfig'],
   ember: ['.ember-cli', '.ember-cli.js', 'ember-cli-builds.js'],
   env: [
