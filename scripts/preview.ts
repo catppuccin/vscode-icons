@@ -84,14 +84,14 @@ await Promise.all(catppuccinVariants.map(async (flavor) => {
   await writeFile(FILE_ICON_PREVIEW, generateIconOnlyHtml(fileIcons, folderIcons, flavor))
   const browser = await launch({ headless: 'new' })
   const page = await browser.newPage()
-  await page.setViewport({ height: 10, width: 1200 })
+  await page.setViewport({ height: 10, width: 1200, deviceScaleFactor: 2 })
   await page.goto(join('file:', FILE_PREVIEW))
   await page.screenshot({
     path: join(PREVIEWS, `${flavor}.png`),
     fullPage: true,
     omitBackground: true,
   })
-  await page.setViewport({ height: 10, width: 800 })
+  await page.setViewport({ height: 10, width: 800, deviceScaleFactor: 2 })
   await page.goto(join('file:', FILE_ICON_PREVIEW))
   await page.screenshot({
     path: join(PREVIEWS, `${flavor}-icons.png`),
