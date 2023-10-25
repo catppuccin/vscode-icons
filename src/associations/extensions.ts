@@ -194,6 +194,7 @@ export const extensions: IconMap = {
   laravel: ['blade.php', 'inky.php'],
   latex: ['tex', 'sty', 'dtx', 'ltx'],
   lib: ['lib', 'bib', 'dll', 'dlc'],
+  liquid: ['liquid'],
   lisp: ['lisp', 'lsp', 'cl', 'fast'],
   log: ['log'],
   lua: ['lua'],
