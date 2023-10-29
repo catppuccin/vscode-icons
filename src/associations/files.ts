@@ -343,6 +343,7 @@ export const files: IconMap = {
     'lint-staged.config.cjs',
   ],
   lua: ['.luacheckrc'],
+  liquid: ['.liquidrc', '.liquidrc.json'],
   makefile: ['makefile', 'gnumakefile', 'kbuild'],
   maven: ['maven.config', 'jvm.config', 'pom.xml'],
   meson: ['meson.build', 'meson_options.txt'],

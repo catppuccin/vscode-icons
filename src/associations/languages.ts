@@ -52,6 +52,7 @@ export const languages: IconMap = {
     'latex',
     'latex-expl3',
   ],
+  liquid: ['liquid'],
   log: ['log'],
   lua: ['lua'],
   makefile: ['makefile'],
