@@ -113,19 +113,19 @@ const monokai: Partial<Record<CatppuccinColor, string>> = {
 
 const sequoia: Partial<Record<CatppuccinColor, string>> = {
   blue: '#8EB6F5',
-  green: '#5FD89D',
+  green: '#61C997',
   maroon: '#EE8679',
   mauve: '#C58FFF',
   overlay1: '#575861',
-  peach: '#FF9B85',
+  peach: '#FAA28E',
   pink: '#F58EE0',
-  red: '#FF6B6C',
+  red: '#d97062',
   rosewater: '#F58EE0',
-  sapphire: '#00C7BF',
-  sky: '#55BDFF',
-  teal: '#00C7BF',
+  sapphire: '#7EBFC6',
+  sky: '#8EC5F5',
+  teal: '#7EBFC6',
   text: '#868690',
-  yellow: '#FFF08F',
+  yellow: '#CAC17E',
 }
 
 const dark: Partial<Record<CatppuccinColor, string>> = {
