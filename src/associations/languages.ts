@@ -33,6 +33,7 @@ export const languages: IconMap = {
   go: ['go'],
   graphql: ['graphql'],
   groovy: ['groovy'],
+  haml: ['haml'],
   handlebars: ['handlebars'],
   haskell: ['haskell'],
   haxe: ['haxe', 'hxml'],
