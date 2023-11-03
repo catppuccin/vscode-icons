@@ -51,6 +51,7 @@ export const extensions: IconMap = {
     'db',
     'db3',
   ],
+  dhall: ['dhall'],
   django: ['djt'],
   doc: ['doc', 'docx', 'rtf', 'odt'],
   docker: ['dockerfile'],
