@@ -310,6 +310,7 @@ export const files: IconMap = {
   ],
   helm: ['.helmignore'],
   heroku: ['procfile', 'procfile.windows'],
+  htaccess: ['.htaccess'],
   ionic: ['ionic.config.json', '.io-config.json'],
   javascript_config: ['jsconfig.json'],
   jenkins: ['jenkinsfile'],
@@ -377,6 +378,7 @@ export const files: IconMap = {
     '.esformatter',
     'cdp.pid',
     '.lintstagedrc',
+    '.whitesource',
   ],
   karma: [
     'karma.conf.js',
@@ -465,6 +467,7 @@ export const files: IconMap = {
     '.mocharc.jsonc',
   ],
   modernizr: ['.modernizrrc', '.modernizrrc.js', '.modernizrrc.json'],
+  nativescript: ['nativescript.config.ts'],
   netlify: [
     'netlify.json',
     'netlify.yml',
@@ -669,6 +672,7 @@ export const files: IconMap = {
     '.stylelintrc',
     'stylelint.config.js',
     'stylelint.config.cjs',
+    'stylelint.config.mjs',
     '.stylelintrc.json',
     '.stylelintrc.yaml',
     '.stylelintrc.yml',
@@ -687,6 +691,12 @@ export const files: IconMap = {
     'tailwind.config.mts',
     'tailwind.css',
   ],
+  task: [
+    'taskfile.yml',
+    'taskfile.yaml',
+    'taskfile.dist.yml',
+    'taskfile.dist.yaml',
+  ],
   tauri: [
     'tauri.conf.json',
     'tauri.config.json',
@@ -695,7 +705,13 @@ export const files: IconMap = {
     'tauri.macos.conf.json',
   ],
   taurignore: ['.taurignore'],
-  textlint: ['.textlintrc'],
+  textlint: [
+    '.textlintrc',
+    '.textlintrc.js',
+    '.textlintrc.json',
+    '.textlintrc.yml',
+    '.textlintrc.yaml',
+  ],
   todo: ['todo', 'todo.txt', 'todo.md'],
   travis: ['.travis.yml'],
   typescript_config: [

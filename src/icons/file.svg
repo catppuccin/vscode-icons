@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>file</title>
-    <g id="file" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M13.5,6.5 L13.5,6.5 L13.5,12.5 C13.5,13.6045695 12.6045695,14.5 11.5,14.5 L4.5,14.5 C3.3954305,14.5 2.5,13.6045695 2.5,12.5 L2.5,3.5 C2.5,2.3954305 3.3954305,1.5 4.5,1.5 L8.51049805,1.5 L8.51049805,1.5" id="Path" stroke="#4C4F69"></path>
-        <path d="M8.5,1.5 L13.5,6.5 L9.5,6.5 C8.94771525,6.5 8.5,6.05228475 8.5,5.5 L8.5,1.5 L8.5,1.5 Z" id="Path" stroke="#4C4F69" stroke-linejoin="round"></path>
+    <g id="file" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <path d="M13.5,6.5 L13.5,6.5 L13.5,12.5 C13.5,13.6045695 12.6045695,14.5 11.5,14.5 L4.5,14.5 C3.3954305,14.5 2.5,13.6045695 2.5,12.5 L2.5,3.5 C2.5,2.3954305 3.3954305,1.5 4.5,1.5 L8.51049805,1.5 L8.51049805,1.5 M8.5,1.5 L13.5,6.5 L9.5,6.5 C8.94771525,6.5 8.5,6.05228475 8.5,5.5 L8.5,1.5 L8.5,1.5 Z" id="Combined-Shape" stroke="#4C4F69"></path>
     </g>
 </svg>

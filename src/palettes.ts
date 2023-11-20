@@ -125,7 +125,7 @@ const sequoia: Partial<Record<CatppuccinColor, string>> = {
   sky: '#8EC5F5',
   teal: '#7EBFC6',
   text: '#868690',
-  yellow: '#CAC17E',
+  yellow: '#E6DA7E',
 }
 
 const dark: Partial<Record<CatppuccinColor, string>> = {

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>folder_lottie</title>
+    <g id="folder_lottie" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="folder" stroke="#4C4F69" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4.5,4.5 L12,4.5 C12.8284271,4.5 13.5,5.17157288 13.5,6 C13.5,6.43429905 13.5,6.26763238 13.5,6.5 M6.5,13.5 C5.38123915,13.5 4.21457248,13.5 2,13.5 C1.17157288,13.5 0.5,12.8284271 0.5,12 L0.5,3.5 C0.5,2.94771525 0.94771525,2.5 1.5,2.5 L6.5,2.5 C7.05228475,2.5 7.5,2.94771525 7.5,3.5 L7.5,4.5" id="Shape"></path>
+        </g>
+        <g id="macos" stroke="#179299">
+            <path d="M8,15.5 L8.5,15.5 C10.5,15.5 11.6666667,14.3333333 12,12 C12.3333333,9.66666667 13.5,8.5 15.5,8.5 L16,8.5" id="Line"></path>
+        </g>
+    </g>
+</svg>
