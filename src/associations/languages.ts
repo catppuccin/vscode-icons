@@ -17,6 +17,7 @@ export const languages: IconMap = {
   d: ['d'],
   dart: ['dart'],
   database: ['sql'],
+  dhall: ['dhall'],
   diff: ['diff'],
   django: ['django-html', 'django-txt'],
   docker: ['dockerfile', 'dockercompose'],

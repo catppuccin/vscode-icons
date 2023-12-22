@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 100 100">
+<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
+    <g fill="none">
+        <path d="M0 0h100v100H0z"/>
+        <path stroke="var(--ctp-text)" stroke-width="9.998372800000002" d="m48.498 6.96 21.827 5.848s-2.65 22.26-1.724 32.961C54.154 55.656 40.69 79.737 40.69 79.737s.161-27.036-7.188-43.373c6.29-8.15 14.997-29.404 14.997-29.404z"/>
+        <path stroke="var(--ctp-text)" stroke-linecap="round" stroke-miterlimit="1.5" stroke-width="9.9957078" d="M51.142 40.703 42.625 72.51"/>
+    </g>
+    <path fill="var(--ctp-text)" d="M35.501 87.547a6.002 6.002 0 0 1 7.348 4.241c.856 3.198-1.045 6.49-4.243 7.348a6 6 0 0 1-7.346-4.242 6.002 6.002 0 0 1 4.241-7.347z"/>
+</svg>
