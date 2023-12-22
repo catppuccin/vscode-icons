@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="1.5" clip-rule="evenodd" viewBox="0 0 100 100">
+<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
+    <g fill="none">
+        <path d="M0 0h100v100H0z"/>
+        <path stroke="var(--ctp-overlay1)" stroke-width="10" d="M53.979 58.763s11.039 6.655 16.202 7.685c5.164 1.031 9.679 4.984 16.067-1.658 6.885-7.159 7.45-7.914 1.785-12.028-5.666-4.114-13.929-13.268-14.413-16.267"/>
+        <g stroke-miterlimit="2" stroke-width="10.98">
+            <path stroke="var(--ctp-yellow)" stroke-linecap="butt" d="M45.117 31.214a5.537 5.537 0 0 0 8.503 1.962L79.931 11.88l7.55 9.327-23.662 19.152A47.302 47.302 0 0 0 47.56 66.185l-7.219 30.361-11.675-2.776 7.127-29.972a47.303 47.303 0 0 0-3.16-30.956L20.477 6.807 31.35 1.73l13.767 29.484z" transform="matrix(.91114 0 0 .91114 4.797 4.367)"/>
+            <path stroke="var(--ctp-overlay1)" d="m81.648 25.929-7.55-9.328zM34.272 7.989l-10.873 5.077z" transform="matrix(.91114 0 0 .91114 4.797 4.367)"/>
+        </g>
+    </g>
+</svg>

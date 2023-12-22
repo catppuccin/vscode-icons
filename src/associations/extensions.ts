@@ -96,6 +96,7 @@ export const extensions: IconMap = {
   graphql: ['graphql', 'gql'],
   groovy: ['groovy'],
   h: ['h'],
+  haml: ['haml'],
   handlebars: ['hbs', 'mustache'],
   haskell: ['hs'],
   haxe: ['hx', 'hxml'],
