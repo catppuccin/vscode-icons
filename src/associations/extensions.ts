@@ -325,6 +325,7 @@ export const extensions: IconMap = {
   typescript_def: ['d.ts', 'd.cts', 'd.mts'],
   typescript_react: ['tsx'],
   typescript_test: [
+    'spec-d.ts',
     'spec.ts',
     'spec.cts',
     'spec.mts',
@@ -332,6 +333,7 @@ export const extensions: IconMap = {
     'e2e-spec.ts',
     'e2e-spec.cts',
     'e2e-spec.mts',
+    'test-d.ts',
     'test.ts',
     'test.cts',
     'test.mts',
