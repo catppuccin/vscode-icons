@@ -357,6 +357,7 @@ export const extensions: IconMap = {
     'vcxproj',
     'vcxproj.filters',
   ],
+  vue: ['vue'],
   vs_code: [
     'vsixmanifest',
     'vsix',
