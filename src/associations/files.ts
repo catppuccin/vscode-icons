@@ -523,7 +523,7 @@ export const files: IconMap = {
     'uno.config.js',
     'uno.config.ts',
     'unocss.config.js',
-    'unocss.config.ts'
+    'unocss.config.ts',
   ],
   v: ['vpkg.json', 'v.mod'],
   vercel: ['vercel.json', 'now.json'],
