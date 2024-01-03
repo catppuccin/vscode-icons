@@ -16,7 +16,6 @@
 
 <!-- TODO -->
 
-1. Enjoy!
 
 ## 💝 Thanks to
 
