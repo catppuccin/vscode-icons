@@ -1,5 +1,6 @@
 export const languages: IconMap = {
   angular: ['ng-template'],
+  antlr: ['antlr'],
   apple: ['applescript'],
   bash: ['awk', 'shellscript'],
   bat: ['bat'],
