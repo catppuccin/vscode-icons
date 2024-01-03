@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
-    <path fill="none" stroke="var(--ctp-red)" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.790349" d="M.5 8.5 3.5 2.5 6.5 2.5 3.5 8.5" transform="matrix(6.32632 0 0 6.32632 -.61 -.61)"/>
-    <path fill="none" stroke="var(--ctp-blue)" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.790349" d="M3.5 13.5.5 8.5 1.86 5.77 6.5 13.5z" transform="matrix(6.32632 0 0 6.32632 -.61 -.61)"/>
-    <path fill="none" stroke="var(--ctp-peach)" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.790349" d="M9.5 13.5 12.5 7.5 15.5 7.5 12.5 13.5" transform="matrix(-6.32632 0 0 -6.32632 157.547 132.242)"/>
-    <path fill="none" stroke="var(--ctp-green)" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.790349" d="M12.5 10.23 9.5 5.23 10.86 2.5 15.5 10.23z" transform="matrix(-6.32632 0 0 -6.32632 157.547 79.924)"/>
-</svg>

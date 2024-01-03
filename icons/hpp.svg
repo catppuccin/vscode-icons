@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
-    <path fill="none" stroke="var(--ctp-blue)" stroke-width="5" d="m52.747 3.446 36.197 20.898a5.49 5.49 0 0 1 2.747 4.757V70.9a5.49 5.49 0 0 1-2.747 4.758L52.747 96.554a5.49 5.49 0 0 1-5.494 0L11.056 75.656A5.491 5.491 0 0 1 8.309 70.9V29.102a5.493 5.493 0 0 1 2.747-4.758L47.253 3.446a5.488 5.488 0 0 1 5.494 0z"/>
-    <path fill="none" stroke="var(--ctp-text)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M23.557 50.262H55.05m.597-21.24v41.956m-32.39-41.956v41.956"/>
-    <path fill="none" stroke="var(--ctp-text)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M72.814 64.517V55.08m4.719 4.719h-9.438M72.814 44.92v-9.437m4.719 4.718h-9.438"/>
-</svg>

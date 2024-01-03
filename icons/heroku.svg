@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
-    <rect width="85.713" height="95" x="7.144" y="2.5" fill="none" stroke="var(--ctp-mauve)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" rx="6" ry="6"/>
-    <path fill="none" stroke="var(--ctp-mauve)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M32.376 17.69v33.965s4.544-3.203 7.066-4.33c2.173-.973 4.517-1.531 6.84-2.053 2.474-.555 4.987-1.054 7.522-1.14 1.829-.06 3.698.003 5.47.457 1.45.37 2.87.976 4.104 1.823.975.67 1.83 1.54 2.508 2.508.539.77.953 1.648 1.19 2.558.456 1.744.338 3.59.405 5.391.318 8.475 0 25.442 0 25.442"/>
-    <path fill="none" stroke="var(--ctp-mauve)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M32.376 70.793V82.31"/>
-    <path fill="none" stroke="var(--ctp-mauve)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M66.344 17.69s-.335 2.263-.681 3.347c-.512 1.599-1.22 3.14-2.045 4.601-.683 1.207-2.386 3.408-2.386 3.408"/>
-</svg>

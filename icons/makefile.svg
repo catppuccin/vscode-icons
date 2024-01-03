@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
-    <path fill="none" stroke="var(--ctp-peach)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M62.644 49.808 20.67 93.496c-4.098 4.266-10.715 4.266-14.814 0v0c-4.094-4.256-4.094-11.163 0-15.42L47.83 34.39"/>
-    <path fill="none" stroke="var(--ctp-text)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="m91.827 48.267-6.173-6.425c-2.962-3.084-4.592-7.196-4.592-11.564v-4.42L67.631 11.774a27.455 28.577 0 0 0-19.455-8.43h-15.16L37.56 7.56a30.516 31.763 0 0 1 10.27 23.745v8.018l9.877 10.28h12.196l11.16 9.817m-5.379 5.818 21.535-22.463"/>
-</svg>

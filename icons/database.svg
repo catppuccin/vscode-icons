@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
-    <ellipse cx="49.996" cy="19.668" fill="none" stroke="var(--ctp-yellow)" stroke-width="5" rx="41.628" ry="16.858"/>
-    <path fill="none" stroke="var(--ctp-yellow)" stroke-width="5" d="M91.622 49.618A41.628 16.858 0 0 1 70.81 64.216a41.628 16.858 0 0 1-41.627 0A41.628 16.858 0 0 1 8.367 49.62m83.255 30.7a41.628 16.858 0 0 1-20.813 14.6 41.628 16.858 0 0 1-41.627 0 41.628 16.858 0 0 1-20.815-14.6m.01-60.24v60.24m83.256-60.273v60.24"/>
-</svg>
