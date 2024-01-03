@@ -1,46 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="100"
-   height="100"
-   viewBox="0 0 100 100"
-   version="1.1"
-   id="svg2"
-   sodipodi:docname="antlr.svg"
-   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs2" />
-  <sodipodi:namedview
-     id="namedview2"
-     pagecolor="#797979"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="true"
-     inkscape:deskcolor="#000000"
-     inkscape:zoom="5.6568543"
-     inkscape:cx="17.147339"
-     inkscape:cy="67.528697"
-     inkscape:window-width="3440"
-     inkscape:window-height="1369"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
+<svg width="100" height="100" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
   <circle
-     style="fill:none;stroke:#e44a32;stroke-width:4.74746;stroke-dasharray:none;stroke-opacity:1"
-     id="path3"
      cx="50"
      cy="50"
-     r="47.474617" />
+     r="47.5"
+     fill="none"
+     stroke="#e44a32"
+     stroke-width="5" />
   <path
      d="m 43.489287,18.707139 c 1.994688,-4.061144 7.125813,-5.410996 10.860715,-2.857142 1.628125,1.502297 2.83686,3.402786 3.507143,5.514285 18.135052,41.66621 14.25428,32.654488 21.832142,49.332145 0.516625,4.411265 -4.380645,7.395605 -8.064285,4.914285 -10,-5.614285 -20.1,-11.05 -29.94643,-16.896427 7.175,0.0285 14.35,-0.0285 21.517858,0.0465 C 55.812415,41.138597 59.44319,49.672625 50.175002,28.464282 39.079737,53.267082 38.573075,54.902 31.717857,69.75 30.714282,71.85715 30.203582,74.55 28.02143,75.785712 25.251877,77.429357 21.669861,76.166927 20.542857,73.15 19.682132,70.971425 21.082132,68.864285 21.907132,66.925 32.881462,42.380167 33.959787,39.89742 43.489287,18.707139 Z"
-     style="fill:#ffffff;stroke-width:3.57142"
-     id="path1"
-     inkscape:label="path1"
-     sodipodi:nodetypes="ccccccccccccc" />
+     fill="#ffffff" />
 </svg>
