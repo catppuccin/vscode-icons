@@ -1,0 +1,18 @@
+{
+  "name": "@catppuccin/code-icons",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@catppuccin/palette": "^1.0.3",
+    "@iconify/tools": "^4.0.0",
+    "@types/node": "^20.10.8",
+    "tsx": "^4.7.0"
+  }
+}

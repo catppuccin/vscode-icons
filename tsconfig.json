@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "moduleResolution": "nodenext",
+    "module": "esnext",
+    "target": "esnext",
+  },
+  "include": ["scripts/**/*.ts"]
+}
