@@ -25,7 +25,7 @@ for(const origin of flavors) {
       parseColors(svg, {
         callback(attr, color) {
           if (attr === "stroke") {
-            const newColorName = palettes[origin].find(v => v[1] === color)?.[0]
+            const newColorName = palettes[origin].find(v => v[1] === color.toLowerCase())?.[0]
             if (!newColorName) 
               throw new Error(`Color '${color}' found in '${i}' is not in ${origin} palette.`)
             const newColor = palettes[dest].find(v => v[0] === newColorName)?.[1]
