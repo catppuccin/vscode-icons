@@ -4,8 +4,8 @@
   "type": "module",
   "description": "",
   "scripts": {
-    "generate": "tsx scripts/generate.ts",
-    "optimize": "tsx scripts/optimize.ts"
+    "generate": "tsx --no-cache scripts/generate.ts",
+    "optimize": "tsx --no-cache scripts/optimize.ts"
   },
   "keywords": [],
   "author": "",

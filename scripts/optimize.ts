@@ -11,7 +11,45 @@ await Promise.all(flavorEntries.map(async ([flavor]) => {
     const str = await readFile(svgPath, 'utf8')
     const svg = new SVG(str)
     cleanupSVG(svg)
-    runSVGO(svg)
+    runSVGO(svg, { plugins: [
+      'cleanupAttrs',
+      'cleanupEnableBackground',
+      'cleanupIds',
+      'cleanupListOfValues',
+      'cleanupNumericValues',
+      'collapseGroups',
+      'convertColors',
+      'convertEllipseToCircle',
+      'convertShapeToPath',
+      'convertStyleToAttrs',
+      'convertTransform',
+      'inlineStyles',
+      'mergePaths',
+      'mergeStyles',
+      'minifyStyles',
+      'moveElemsAttrsToGroup',
+      'removeComments',
+      'removeDesc',
+      'removeDoctype',
+      'removeEditorsNSData',
+      'removeEmptyAttrs',
+      'removeEmptyContainers',
+      'removeEmptyText',
+      'removeHiddenElems',
+      'removeMetadata',
+      'removeNonInheritableGroupAttrs',
+      'removeRasterImages',
+      'removeScriptElement',
+      'removeStyleElement',
+      'removeTitle',
+      'removeUnknownsAndDefaults',
+      'removeUnusedNS',
+      'removeUselessDefs',
+      'removeUselessStrokeAndFill',
+      'removeXMLProcInst',
+      'sortAttrs',
+      'sortDefsChildren',
+    ] })
     await writeFile(svgPath, svg.toPrettyString())
   }))
 }))
