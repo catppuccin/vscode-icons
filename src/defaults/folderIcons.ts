@@ -200,6 +200,7 @@ export const folderIcons: Record<string, {
       'build',
       'release',
       'bin',
+      '.output',
     ],
   },
   'docker': {
