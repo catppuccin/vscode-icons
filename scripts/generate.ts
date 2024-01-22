@@ -26,9 +26,9 @@ for (const origin of flavors) {
         callback(attr, color) {
           if (attr === 'stroke') {
             const newColorName = palettes[origin].find(v => v[1] === color.toLowerCase())?.[0]
-            if (!newColorName)
-              throw new Error(`Color '${color}' found in '${i}' is not in ${origin} palette.`)
             const newColor = palettes[dest].find(v => v[0] === newColorName)?.[1]
+            if (!newColor)
+              throw new Error(`Color '${color}' found in '${i}' is not in ${origin} palette.`)
             return newColor
           }
           return color
