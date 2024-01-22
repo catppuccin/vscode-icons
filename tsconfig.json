@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    },
-    "moduleResolution": "nodenext",
+    "target": "es2017",
+    "lib": ["esnext"],
     "module": "esnext",
-    "target": "esnext",
-  },
-  "include": ["scripts/**/*.ts"]
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true
+  }
 }

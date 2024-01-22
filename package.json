@@ -1,19 +1,39 @@
 {
-  "name": "@catppuccin/code-icons",
+  "publisher": "Catppuccin",
+  "name": "catppuccin-vsc-icons",
+  "displayName": "Catppuccin Icons for VSCode",
+  "type": "commonjs",
   "version": "1.0.0",
-  "type": "module",
-  "description": "",
-  "scripts": {
-    "generate": "tsx --no-cache scripts/generate.ts",
-    "optimize": "tsx --no-cache scripts/optimize.ts"
-  },
+  "description": "🦊 Soothing pastel icon theme for VSCode",
+  "author": "prazdevs",
+  "license": "MIT",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "categories": ["Themes"],
+  "extensionKind": ["ui", "workspace"],
+  "main": "dist/index.cjs",
+  "engines": {
+    "vscode": "^1.83.0",
+    "node": ">=20.0.0"
+  },
+  "activationEvents": ["onStartupFinished"],
+  "scripts": {
+    "build": "tsx scripts/build.ts",
+    "dev": "tsx scripts/build.ts --dev",
+    "gen:types": "tsx scripts/typegen.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
   "devDependencies": {
+    "@antfu/eslint-config": "^2.6.3",
     "@catppuccin/palette": "^1.0.3",
     "@iconify/tools": "^4.0.0",
     "@types/node": "^20.10.8",
-    "tsx": "^4.7.0"
+    "@types/vscode": "^1.85.0",
+    "eslint": "^8.56.0",
+    "magic-regexp": "^0.7.0",
+    "tsup": "^8.0.1",
+    "tsx": "^4.7.0",
+    "type-flag": "^3.0.0",
+    "typescript": "^5.3.3"
   }
 }
