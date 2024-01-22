@@ -10,12 +10,36 @@
   "keywords": [],
   "categories": ["Themes"],
   "extensionKind": ["ui", "workspace"],
-  "main": "dist/index.cjs",
+  "main": "dist/index.js",
   "engines": {
     "vscode": "^1.83.0",
     "node": ">=20.0.0"
   },
   "activationEvents": ["onStartupFinished"],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "catppuccin-mocha",
+        "label": "Catppuccin Mocha",
+        "path": "./themes/mocha.json"
+      },
+      {
+        "id": "catppuccin-latte",
+        "label": "Catppuccin Latte",
+        "path": "./themes/latte.json"
+      },
+      {
+        "id": "catppuccin-frappe",
+        "label": "Catppuccin Frappé",
+        "path": "./themes/frappe.json"
+      },
+      {
+        "id": "catppuccin-macchiato",
+        "label": "Catppuccin Macchiato",
+        "path": "./themes/macchiato.json"
+      }
+    ]
+  },
   "scripts": {
     "build": "tsx scripts/build.ts",
     "dev": "tsx scripts/build.ts --dev",

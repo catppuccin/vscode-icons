@@ -6,6 +6,7 @@ import generateThemes from '../src/hooks/generateThemes'
 const dev = getFlag('--dev', Boolean) ?? false
 
 ;(async () => {
+  // TODO check icons integrity
   await generateThemes()
   await build({
     entry: ['src/index.ts'],
