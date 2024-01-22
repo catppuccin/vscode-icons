@@ -1,5 +1,4 @@
-export const base = {
-  hidesExplorerArrows: false,
+export const baseIcons = {
   file: '_file',
   folder: '_folder',
   folderExpanded: '_folder_open',
