@@ -12,9 +12,7 @@ export const folderIcons: Record<string, {
     ],
   },
   'android': {
-    folderNames: [
-      'android',
-    ],
+    folderNames: ['android'],
   },
   'animation': {
     folderNames: [
@@ -66,9 +64,7 @@ export const folderIcons: Record<string, {
     ],
   },
   'circle-ci': {
-    folderNames: [
-      '.circleci',
-    ],
+    folderNames: ['.circleci'],
   },
   'client': {
     folderNames: [
@@ -80,9 +76,7 @@ export const folderIcons: Record<string, {
     ],
   },
   'cloud': {
-    folderNames: [
-      'cloud',
-    ],
+    folderNames: ['cloud'],
   },
   'command': {
     folderNames: [
@@ -154,9 +148,7 @@ export const folderIcons: Record<string, {
     ],
   },
   'core': {
-    folderNames: [
-      'core',
-    ],
+    folderNames: ['core'],
   },
   'coverage': {
     folderNames: [
@@ -288,9 +280,7 @@ export const folderIcons: Record<string, {
     ],
   },
   'gitlab': {
-    folderNames: [
-      '.gitlab',
-    ],
+    folderNames: ['.gitlab'],
   },
   'husky': {
     folderNames: [
@@ -386,14 +376,10 @@ export const folderIcons: Record<string, {
     ],
   },
   'next': {
-    folderNames: [
-      '.next',
-    ],
+    folderNames: ['.next'],
   },
   'node': {
-    folderNames: [
-      'node_modules',
-    ],
+    folderNames: ['node_modules'],
   },
   'nuxt': {
     folderNames: [
@@ -426,9 +412,7 @@ export const folderIcons: Record<string, {
     ],
   },
   'prisma': {
-    folderNames: [
-      'prisma',
-    ],
+    folderNames: ['prisma'],
   },
   'public': {
     folderNames: [
@@ -452,9 +436,7 @@ export const folderIcons: Record<string, {
     ],
   },
   'redux': {
-    folderNames: [
-      'redux',
-    ],
+    folderNames: ['redux'],
   },
   'routes': {
     folderNames: [
@@ -518,9 +500,7 @@ export const folderIcons: Record<string, {
     ],
   },
   'tauri': {
-    folderNames: [
-      'src-tauri',
-    ],
+    folderNames: ['src-tauri'],
   },
   'temp': {
     folderNames: [
