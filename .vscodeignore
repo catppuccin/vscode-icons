@@ -1,0 +1,11 @@
+*
+**/*
+
+!CHANGELOG.md
+!LICENSE
+!README.md
+!icon.png
+!dist/*.js
+!package.json
+!themes/*.json
+!icons/**/*.svg
