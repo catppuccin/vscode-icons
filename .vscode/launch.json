@@ -5,8 +5,6 @@
       "name": "Extension",
       "type": "extensionHost",
       "request": "launch",
-      // "runtimeExecutable": "${execPath}",
-      // "preLaunchTask": "npm: dev",
       "args": [
         "--extensionDevelopmentPath=${workspaceFolder}"
       ],
