@@ -63,7 +63,6 @@
   },
   "scripts": {
     "build": "tsx scripts/build.ts",
-    "dev": "pnpm build --dev",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "pack": "vsce package --no-dependencies"
