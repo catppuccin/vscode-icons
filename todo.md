@@ -1,29 +1,33 @@
-[ ] hooks folder
-[ ] class folder
-[ ] decorators folder
-[ ] target folder
-[ ] pipe folder
-[ ] assets folder
-[ ] vuepress folder
-[ ] vitepress folder
-[ ] expo folder
-[ ] resource folder
-[ ] lib folder
-[ ] theme folder (palette?)
-[ ] logs folder
-[ ] extra/other/misc folder
-[ ] folder ci
-[ ] tasks folder
-[ ] tools folder
-[ ] helpers folder
-[ ] devcontainer folder
-[ ] content folder
-[ ] env folder
-[ ] intellij folder (.idea)
-[ ] yarn folder
-[ ] netlify folder
-[ ] resolver folder
+- [ ] hooks folder
+- [ ] class folder
+- [ ] decorators folder
+- [ ] target folder
+- [ ] pipe folder
+- [ ] assets folder
+- [ ] vuepress folder
+- [ ] vitepress folder
+- [ ] expo folder
+- [ ] resource folder
+- [ ] lib folder
+- [ ] theme folder (palette?)
+- [ ] logs folder
+- [ ] extra/other/misc folder
+- [ ] folder ci
+- [ ] tasks folder
+- [ ] tools folder
+- [ ] helpers folder
+- [ ] devcontainer folder
+- [ ] content folder
+- [ ] env folder
+- [ ] intellij folder (.idea)
+- [ ] yarn folder
+- [ ] netlify folder
+- [ ] resolver folder
+- [ ] devcontainer file
+- [ ] psd file
+- [ ] illustrator file
+- [ ]
 
-[ ] devcontainer file
+- [ ] change C icon (smaller)
 
-# language based ?
+<!-- language based ? -->
