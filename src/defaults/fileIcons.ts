@@ -844,7 +844,10 @@ export const fileIcons: Record<string, {
     fileExtensions: ['hx'],
   },
   'helm': {
-    fileNames: ['.helmignore'],
+    fileNames: [
+      '.helmignore',
+      'chart.lock',
+    ],
   },
   'heroku': {
     fileNames: ['procfile'],
