@@ -1431,6 +1431,14 @@ export const fileIcons: Record<string, {
       'raku',
     ],
   },
+  'phrase': {
+    fileNames: [
+      '.phrase.yml',
+      '.phraseapp.yml',
+      '.phrase.yaml',
+      '.phraseapp.yaml',
+    ],
+  },
   'playwright': {
     fileNames: [
       'playwright.config.js',
