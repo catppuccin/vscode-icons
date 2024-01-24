@@ -1,4 +1,6 @@
-export const baseIcons = {
+import type { BaseIcons } from '~/types'
+
+export const baseIcons: BaseIcons = {
   file: '_file',
   folder: '_folder',
   folderExpanded: '_folder_open',

@@ -1,8 +1,6 @@
-export const fileIcons: Record<string, {
-  fileExtensions?: string[]
-  fileNames?: string[]
-  languageIds?: string[]
-}> = {
+import type { FileIcons } from '~/types'
+
+export const fileIcons: FileIcons = {
   'adonis': {
     fileNames: [
       '.adonisrc.json',

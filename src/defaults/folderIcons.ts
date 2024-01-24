@@ -1,6 +1,6 @@
-export const folderIcons: Record<string, {
-  folderNames?: string[]
-}> = {
+import type { FolderIcons } from '~/types'
+
+export const folderIcons: FolderIcons = {
   'admin': {
     folderNames: [
       'admin',

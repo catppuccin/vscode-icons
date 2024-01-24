@@ -1,22 +1,49 @@
+import { cp, readdir, writeFile } from 'node:fs/promises'
+import { basename, join } from 'node:path'
+import { flavorEntries } from '@catppuccin/palette'
 import { build } from 'tsup'
-import { getFlag } from 'type-flag'
+import { rimraf } from 'rimraf'
+import { defaults } from '~/defaults'
+import { createVscTheme } from '~/hooks/generateThemes'
 
-import generateThemes from '../src/hooks/generateThemes'
+const DIST = 'dist'
+const flavors = flavorEntries.map(([f]) => f)
 
-const dev = getFlag('--dev', Boolean) ?? false
+// CLEANUP
+await rimraf(DIST)
 
-;(async () => {
-  // TODO check icons integrity
-  await generateThemes()
-  await build({
-    entry: ['src/index.ts'],
-    format: ['cjs'],
-    external: ['vscode'],
-    minify: !dev,
-    sourcemap: dev,
-    watch: dev,
-    dts: false,
-    clean: true,
-    shims: false,
-  })
-})()
+// COPY ICONS TO DIST
+await Promise.all(flavors.map(async (f) => {
+  await cp(join('icons', f), join(DIST, f, 'icons'), { recursive: true })
+}))
+
+// GENERATE ICON DEFINITIONS AND SAVE THEM TO DIST
+const icons = await readdir(join(DIST, flavors[0], 'icons'))
+const iconDefinitions = icons.reduce((d, i) => ({
+  ...d,
+  [basename(i, '.svg')]: { iconPath: `./icons/${i}` },
+}), {} as Record<string, { iconPath: string }>)
+await writeFile(
+  join(DIST, 'iconDefinitions.json'),
+  JSON.stringify(iconDefinitions, null, 2),
+)
+
+// CREATE THEME AND INJECT ICON DEFINITIONS
+const theme = createVscTheme(defaults, iconDefinitions)
+
+// WRITE THEMES
+await Promise.all(flavors.map(async (f) => {
+  await writeFile(
+    join(DIST, f, 'theme.json'),
+    JSON.stringify(theme, null, 2),
+  )
+}))
+
+// BUILD EXTENSION RUNTIME
+await build({
+  entry: ['src/index.ts'],
+  format: ['cjs'],
+  external: ['vscode'],
+  minify: true,
+  shims: true,
+})

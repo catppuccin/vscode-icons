@@ -1,4 +1,6 @@
-export async function activate() {
+import type { ExtensionContext } from 'vscode'
+
+export async function activate(_context: ExtensionContext) {
 
 }
 

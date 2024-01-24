@@ -24,6 +24,7 @@
 
 - [ ] devcontainer folder
 - [ ] devcontainer file
+- [ ] puppeteer file
 
 - [ ] psd file
 - [ ] illustrator file

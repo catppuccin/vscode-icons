@@ -2,7 +2,7 @@
   "publisher": "Catppuccin",
   "name": "catppuccin-vsc-icons",
   "displayName": "Catppuccin Icons for VSCode",
-  "type": "commonjs",
+  "type": "module",
   "version": "0.34.0",
   "private": true,
   "packageManager": "pnpm@8.14.3",
@@ -26,8 +26,8 @@
   "categories": [
     "Themes"
   ],
-  "main": "dist/index.js",
-  "icon": "icon.png",
+  "main": "dist/index.cjs",
+  "icon": "assets/icon.png",
   "extensionKind": [
     "ui",
     "workspace"
@@ -44,29 +44,31 @@
       {
         "id": "catppuccin-mocha",
         "label": "Catppuccin Mocha",
-        "path": "./themes/mocha.json"
+        "path": "./dist/mocha/theme.json"
       },
       {
         "id": "catppuccin-latte",
         "label": "Catppuccin Latte",
-        "path": "./themes/latte.json"
+        "path": "./dist/latte/theme.json"
       },
       {
         "id": "catppuccin-frappe",
         "label": "Catppuccin Frappé",
-        "path": "./themes/frappe.json"
+        "path": "./dist/frappe/theme.json"
       },
       {
         "id": "catppuccin-macchiato",
         "label": "Catppuccin Macchiato",
-        "path": "./themes/macchiato.json"
+        "path": "./dist/macchiato/theme.json"
       }
     ]
   },
   "scripts": {
     "build": "tsx scripts/build.ts",
+    "icons:associations": "tsx scripts/associations.ts",
     "icons:generate": "tsx scripts/generate.ts",
     "icons:optimize": "tsx scripts/optimize.ts",
+    "icons:preview": "tsx scripts/preview.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "pack": "vsce package --no-dependencies"
@@ -78,8 +80,13 @@
     "@types/node": "^20.10.8",
     "@types/vscode": "^1.83.0",
     "@vscode/vsce": "^2.22.0",
+    "bumpp": "^9.3.0",
+    "defu": "^6.1.4",
     "eslint": "^8.56.0",
     "magic-regexp": "^0.7.0",
+    "puppeteer": "^21.9.0",
+    "rimraf": "^5.0.5",
+    "tempy": "^3.1.0",
     "tsup": "^8.0.1",
     "tsx": "^4.7.0",
     "type-flag": "^3.0.0",

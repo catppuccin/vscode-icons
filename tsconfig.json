@@ -2,8 +2,12 @@
   "compilerOptions": {
     "target": "es2017",
     "lib": ["esnext"],
+    "baseUrl": ".",
     "module": "esnext",
     "moduleResolution": "node",
+    "paths": {
+      "~/*": ["./src/*"]
+    },
     "resolveJsonModule": true,
     "strict": true,
     "strictNullChecks": true,

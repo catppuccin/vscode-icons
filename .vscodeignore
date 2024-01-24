@@ -4,8 +4,6 @@
 !CHANGELOG.md
 !LICENSE
 !README.md
-!icon.png
-!dist/*.js
+!assets/*.png
+!dist/**/*
 !package.json
-!themes/*.json
-!icons/**/*.svg

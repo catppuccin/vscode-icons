@@ -1,79 +1,54 @@
-import { basename, join } from 'node:path'
-import { mkdir, readdir, writeFile } from 'node:fs/promises'
-import { flavorEntries } from '@catppuccin/palette'
+import type { IconDefinitions, Theme, VscTheme } from '~/types'
 
-import { options } from '../defaults/options'
-import { baseIcons } from '../defaults/baseIcons'
-import { folderIconEntries } from '../defaults/folderIcons'
-import { fileIconEntries } from '../defaults/fileIcons'
+export function createVscTheme(theme: Theme, iconDefinitions: IconDefinitions): VscTheme {
+  const { fileIcons, folderIcons, ...rest } = theme
 
-const root = join(__dirname, '../..')
-const flavors = flavorEntries.map(([f]) => f)
-
-async function generateThemes() {
-  await mkdir(join(root, 'themes'), { recursive: true })
-
-  await Promise.all(flavors.map(async (flavor) => {
-    const icons = await readdir(join(root, `icons/${flavor}`))
-    const iconDefinitions = icons.reduce((d, i) => ({
-      ...d,
-      [basename(i, '.svg')]: {
-        iconPath: `../icons/${flavor}/${i}`,
+  const { folderNames, folderNamesExpanded } = Object.entries(folderIcons).reduce(
+    ({ folderNames, folderNamesExpanded }, [name, icon]) => ({
+      folderNames: {
+        ...folderNames,
+        ...icon.folderNames?.reduce((a, c) => ({ ...a, [c]: `folder_${name}` }), {}),
       },
-    }), {})
-
-    const folderIcons = folderIconEntries.reduce(
-      ({ folderNames, folderNamesExpanded }, [name, icon]) => ({
-        folderNames: {
-          ...folderNames,
-          ...icon.folderNames?.reduce((a, c) => ({ ...a, [c]: `folder_${name}` }), {}),
-        },
-        folderNamesExpanded: {
-          ...folderNamesExpanded,
-          ...icon.folderNames?.reduce((a, c) => ({ ...a, [c]: `folder_${name}_open` }), {}),
-        },
-      }),
-      {
-        folderNames: {},
-        folderNamesExpanded: {},
+      folderNamesExpanded: {
+        ...folderNamesExpanded,
+        ...icon.folderNames?.reduce((a, c) => ({ ...a, [c]: `folder_${name}_open` }), {}),
       },
-    )
+    }),
+    {
+      folderNames: {},
+      folderNamesExpanded: {},
+    },
+  )
 
-    const fileIcons = fileIconEntries.reduce(
-      ({ languageIds, fileExtensions, fileNames }, [name, icon]) => ({
-        languageIds: {
-          ...languageIds,
-          ...icon.languageIds?.reduce((a, c) => ({ ...a, [c]: name }), {}),
-        },
-        fileExtensions: {
-          ...fileExtensions,
-          ...icon.fileExtensions?.reduce((a, c) => ({ ...a, [c]: name }), {}),
-        },
-        fileNames: {
-          ...fileNames,
-          ...icon.fileNames?.reduce((a, c) => ({ ...a, [c]: name }), {}),
-        },
-      }),
-      {
-        languageIds: {},
-        fileExtensions: {},
-        fileNames: {},
+  const { languageIds, fileExtensions, fileNames } = Object.entries(fileIcons).reduce(
+    ({ languageIds, fileExtensions, fileNames }, [name, icon]) => ({
+      languageIds: {
+        ...languageIds,
+        ...icon.languageIds?.reduce((a, c) => ({ ...a, [c]: name }), {}),
       },
-    )
+      fileExtensions: {
+        ...fileExtensions,
+        ...icon.fileExtensions?.reduce((a, c) => ({ ...a, [c]: name }), {}),
+      },
+      fileNames: {
+        ...fileNames,
+        ...icon.fileNames?.reduce((a, c) => ({ ...a, [c]: name }), {}),
+      },
+    }),
+    {
+      languageIds: {},
+      fileExtensions: {},
+      fileNames: {},
+    },
+  )
 
-    const theme = {
-      ...options,
-      ...baseIcons,
-      ...fileIcons,
-      ...folderIcons,
-      iconDefinitions,
-    }
-
-    await writeFile(
-      join(root, `themes/${flavor}.json`),
-      JSON.stringify(theme, null, 2),
-    )
-  }))
+  return {
+    ...rest,
+    languageIds,
+    fileExtensions,
+    fileNames,
+    folderNames,
+    folderNamesExpanded,
+    iconDefinitions,
+  }
 }
-
-export default generateThemes
