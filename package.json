@@ -65,6 +65,8 @@
   },
   "scripts": {
     "build": "tsx scripts/build.ts",
+    "icons:generate": "tsx scripts/generate.ts",
+    "icons:optimize": "tsx scripts/optimize.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "pack": "vsce package --no-dependencies"

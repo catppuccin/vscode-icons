@@ -1,3 +1,7 @@
+/**
+ * Optimizes SVGs by running them through SVGO + Iconify cleanup
+ */
+
 import { readFile, readdir, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { flavorEntries } from '@catppuccin/palette'

@@ -1,3 +1,8 @@
+/**
+ * Generate missing icons from existing ones from other palettes.
+ * If an icon exists in `icons/latte`, it will create its counterparts for other palettes.
+ */
+
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { SVG, parseColors } from '@iconify/tools'
