@@ -16,14 +16,16 @@
 - [ ] tasks folder
 - [ ] tools folder
 - [ ] helpers folder
-- [ ] devcontainer folder
 - [ ] content folder
 - [ ] env folder
 - [ ] intellij folder (.idea)
 - [ ] yarn folder
 - [ ] netlify folder
 - [ ] resolver folder
+
+- [ ] devcontainer folder
 - [ ] devcontainer file
+
 - [ ] psd file
 - [ ] illustrator file
 - [ ]
