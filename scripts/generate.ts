@@ -1,21 +1,11 @@
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { resolve } from 'node:path'
-import type { AccentName, FlavorName, MonochromaticName } from '@catppuccin/palette'
-import { flavorEntries } from '@catppuccin/palette'
 import { SVG, parseColors } from '@iconify/tools'
+import { palettes } from '../src/palettes'
 
-type Flavor = FlavorName | 'css-variables'
-type ColorName = AccentName | Extract<MonochromaticName, 'text' | 'overlay1'>
-const palettes = flavorEntries.reduce((acc, [name, flavor]) => ({
-  ...acc,
-  [name]: flavor.colorEntries
-    .filter(([color, { accent }]) => accent || ['text', 'overlay1'].includes(color))
-    .map(([color, { hex }]) => [color, hex]),
-}), {} as Record<Flavor, Array<[ColorName, string]>>)
-palettes['css-variables'] = (palettes.latte.map(([name]) => ([name, `var(--vscode-ctp-${name})`])))
-const flavors = Object.keys(palettes) as Flavor[]
+const flavors = Object.keys(palettes) as Array<keyof typeof palettes>
 
-for (const origin of flavors.filter(f => f !== 'css-variables')) {
+for (const origin of flavors) {
   const originPath = resolve('icons', origin)
   const originSvgs = readdirSync(originPath)
 
@@ -23,6 +13,7 @@ for (const origin of flavors.filter(f => f !== 'css-variables')) {
     const destPath = resolve('icons', dest)
     const destSvgs = readdirSync(destPath)
     originSvgs.filter(s => !destSvgs.includes(s)).forEach(async (i) => {
+      console.log('should read', resolve(originPath, i))
       const svg = new SVG(readFileSync(resolve(originPath, i), 'utf8'))
       parseColors(svg, {
         callback(attr, color) {
