@@ -2397,6 +2397,27 @@ export const fileIcons: FileIcons = {
   'xmake': {
     fileNames: ['xmake.lua'],
   },
+  'xml': {
+    fileExtensions: [
+      'xml',
+      'plist',
+      'xsd',
+      'dtd',
+      'xsl',
+      'xslt',
+      'resx',
+      'iml',
+      'xquery',
+      'tmLanguage',
+      'manifest',
+      'project',
+      'xml.dist',
+      'xml.dist.sample',
+      'dmn',
+      'jrxml',
+    ],
+    fileNames: ['.htaccess'],
+  },
   'yaml': {
     languageIds: [
       'yaml',
@@ -2423,6 +2444,7 @@ export const fileIcons: FileIcons = {
   'zig': {
     fileExtensions: ['zig'],
   },
+
 }
 
 export const fileIconEntries = Object.entries(fileIcons)
