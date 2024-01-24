@@ -15,9 +15,7 @@ const palettes = flavorEntries.reduce((acc, [name, flavor]) => ({
 palettes['css-variables'] = (palettes.latte.map(([name]) => ([name, `var(--vscode-ctp-${name})`])))
 const flavors = Object.keys(palettes) as Flavor[]
 
-console.log(palettes)
-
-for (const origin of flavors) {
+for (const origin of flavors.filter(f => f !== 'css-variables')) {
   const originPath = resolve('icons', origin)
   const originSvgs = readdirSync(originPath)
 
