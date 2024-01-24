@@ -12,7 +12,6 @@
 - [ ] theme folder (palette?)
 - [ ] logs folder
 - [ ] extra/other/misc folder
-- [ ] folder ci
 - [ ] tasks folder
 - [ ] tools folder
 - [ ] helpers folder
