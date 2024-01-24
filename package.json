@@ -81,6 +81,7 @@
     "@types/vscode": "^1.83.0",
     "@vscode/vsce": "^2.22.0",
     "bumpp": "^9.3.0",
+    "changelogen": "^0.5.5",
     "defu": "^6.1.4",
     "eslint": "^8.56.0",
     "magic-regexp": "^0.7.0",
@@ -89,7 +90,6 @@
     "tempy": "^3.1.0",
     "tsup": "^8.0.1",
     "tsx": "^4.7.0",
-    "type-flag": "^3.0.0",
     "typescript": "^5.3.3"
   }
 }
