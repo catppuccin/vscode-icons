@@ -12,7 +12,10 @@
   <a href="https://github.com/catppuccin/vscode-icons/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/vscode-icons?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
-## Previews
+> [!IMPORTANT]
+> The repository is currently a WIP towards v1. New icons and features may wait until the release.
+
+<!-- ## Previews -->
 
 <!-- TODO -->
 
