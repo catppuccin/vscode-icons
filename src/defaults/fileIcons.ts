@@ -1088,6 +1088,9 @@ export const fileIcons: Record<string, {
     languageIds: ['jupyter'],
     fileExtensions: ['ipynb'],
   },
+  'just': {
+    fileNames: ['justfile'],
+  },
   'key': {
     fileExtensions: [
       'pub',
