@@ -4,6 +4,8 @@
   "displayName": "Catppuccin Icons for VSCode",
   "type": "commonjs",
   "version": "0.34.0",
+  "private": true,
+  "packageManager": "pnpm@8.14.3",
   "description": "🦊 Soothing pastel icon theme for VSCode",
   "author": "prazdevs",
   "license": "MIT",
