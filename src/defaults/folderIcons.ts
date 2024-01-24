@@ -590,6 +590,14 @@ export const folderIcons: Record<string, {
       '.vscode-test',
     ],
   },
+  'workflows': {
+    folderNames: [
+      'workflow',
+      'workflows',
+      'ci',
+      '.ci',
+    ],
+  },
 }
 
 export const folderIconEntries = Object.entries(folderIcons)
