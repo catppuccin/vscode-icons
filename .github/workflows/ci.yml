@@ -1,0 +1,35 @@
+on: [push, pull_request]
+
+jobs:
+  ci:
+    name: CI
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          cache: pnpm
+          node-version: lts/*
+
+      - name: Install dependencies
+        run: pnpm i --frozen-lockfile
+
+      - name: Lint files
+        run: pnpm lint
+
+      - name: Build extension
+        run: pnpm build
+
+      - name: Package extension
+        uses: haaleo/publish-vscode-extension@v1
+        with:
+          pat: _
+          dependencies: false
+          dryRun: true
