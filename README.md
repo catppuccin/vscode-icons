@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/catwalk.png"/>
+  <img src="assets/catwalk.png" width=600/>
 </p>
 
 > [!IMPORTANT]
