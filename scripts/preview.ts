@@ -27,7 +27,7 @@ function generateHtml(flavor: FlavorName) {
         .container {
           color: ${flavors[flavor].colors.text.hex};
           background-color: ${flavors[flavor].colors.mantle.hex};
-          width: 1300px;
+          width: 1500px;
           display: flex;
           flex-direction: column;
           gap: 50px;
@@ -45,7 +45,7 @@ function generateHtml(flavor: FlavorName) {
         }
         .grid {
           display: grid;
-          grid-template-columns: 1fr 1fr 1fr 1fr;
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
           gap: 20px;
         }
       </style>

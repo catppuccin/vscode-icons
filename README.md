@@ -19,22 +19,30 @@
 ## Previews
 
 <details>
-<summary>🌻 Latte</summary>
-<img src="./assets/latte.webp" width=600/>
+  <summary>🌻 Latte</summary>
+  <img src="./assets/latte.webp"/>
 </details>
 <details>
-<summary>🪴 Frappé</summary>
-<img src="./assets/frappe.webp" width=600/>
+  <summary>🪴 Frappé</summary>
+  <img src="./assets/frappe.webp"/>
 </details>
 <details>
-<summary>🌺 Macchiato</summary>
-<img src="./assets/macchiato.webp" width=600/>
+  <summary>🌺 Macchiato</summary>
+  <img src="./assets/macchiato.webp"/>
 </details>
 <details>
-<summary>🌿 Mocha</summary>
-<img src="./assets/mocha.webp" width=600/>
+  <summary>🌿 Mocha</summary>
+  <img src="./assets/mocha.webp"/>
 </details>
-<!-- TODO -->
+
+## Usage
+
+**Preferred method of installation**
+
+Install the extension from a Marketplace:
+
+- [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons)
+- [Open-VSX](https://open-vsx.org/extension/Catppuccin/catppuccin-vsc-icons)
 
 ## 💝 Thanks to
 
