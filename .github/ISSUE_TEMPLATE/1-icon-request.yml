@@ -1,0 +1,23 @@
+name: Icon request
+description: Request a specific icon
+labels: [icon request]
+body:
+  - type: checkboxes
+    attributes:
+      label: Type
+      description: What type of icon would you like added?
+      options:
+        - label: File icon
+        - label: Folder icon
+  - type: textarea
+    attributes:
+      label: Context and associations
+      description: What language/extension/file/folder name(s) should the icon be associated with?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: References
+      description: Links, images, docs with ideas/examples of what the icon should like.
+    validations:
+      required: true

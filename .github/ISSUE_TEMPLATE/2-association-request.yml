@@ -1,0 +1,16 @@
+name: Association request
+description: Request an existing icon to have new association(s)
+labels: [association request]
+body:
+  - type: input
+    attributes:
+      label: Icon
+      description: What icon do you want new associations for?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Context and associations
+      description: What language/extension/file/folder name(s) should the icon be associated with?
+    validations:
+      required: true
