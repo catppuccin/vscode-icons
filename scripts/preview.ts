@@ -1,61 +1,93 @@
 import { readdir, writeFile } from 'node:fs/promises'
 import { join, resolve } from 'node:path'
-import { temporaryWriteTask } from 'tempy'
-import { flavors } from '@catppuccin/palette'
+import type { FlavorName } from '@catppuccin/palette'
+import { flavorEntries, flavors } from '@catppuccin/palette'
 import { launch } from 'puppeteer'
+import { temporaryDirectoryTask } from 'tempy'
 
 const allIcons = await readdir('icons/latte')
 const fileIcons = allIcons.filter(i => !i.startsWith('folder_'))
-// const folderIcons = allIcons.filter(i => i.startsWith('folder_') && !i.endsWith('_open.svg'))
-const icons = fileIcons.toSorted(() => 0.5 - Math.random()).map(i => `${resolve(join('icons', 'latte', i))}`)
+const folderIcons = allIcons.filter(i => i.startsWith('folder_') && !i.endsWith('_open.svg'))
 
-// console.log(icons.map(i => resolve(i)))
+function iconPath(icon: string, flavor: FlavorName) {
+  return `${resolve(join('icons', flavor, icon))}`
+}
 
-const html = `
+function generateHtml(flavor: FlavorName) {
+  return `
   <html>
     <head>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space%20Mono">
       <style>
         body {
-          color: ${flavors.latte.colors.text.hex};
-          background-color: ${flavors.latte.colors.mantle.hex};
+          font-family: Space Mono, monospace;
+          font-size: 20px;
+          margin: 0;
+        }
+        .container {
+          color: ${flavors[flavor].colors.text.hex};
+          background-color: ${flavors[flavor].colors.mantle.hex};
+          width: 1300px;
+          display: flex;
+          flex-direction: column;
+          gap: 50px;
+          padding: 30px;
+          border-radius: 30px;
+        }
+        .icon-block {
+          display: inline-flex;
+          align-items: center;
+          gap: 10px;
         }
         .icon {
           width: 32px;
           height: 32px;
         }
         .grid {
-          transform: rotate(-45deg) translate(0%, -50%);
-          width: 200%;
-          display: inline-flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-          gap: 3px;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          gap: 20px;
         }
       </style>
     </head>
     <body>
-    <div class="grid">
-        ${Array(3).fill(icons).flat().map(i => `<img class="icon" src="${i}">`).join('\n')}
+      <div class="container">
+        <div class="grid">
+          ${fileIcons.map(i => `
+            <div class="icon-block">
+              <img class="icon" src="${iconPath(i, flavor)}">
+              ${i.slice(0, -4)}
+            </div>
+          `).join('\n')}
+        </div>
+        <div class="grid">
+          ${folderIcons.map(i => `
+            <div class="icon-block">
+              <img class="icon" src="${iconPath(i, flavor)}">
+              ${i.slice(7, -4)}
+            </div>
+          `).join('\n')}
+        </div>
       </div>
     </body>
   </html>
 `
-await temporaryWriteTask(html, async (f) => {
-  const browser = await launch({ headless: 'new' })
-  const page = await browser.newPage()
-  await page.setViewport({
-    height: 300,
-    width: 600,
-    deviceScaleFactor: 3,
-  })
-  await page.goto(join('file:', f))
-  await page.screenshot({
-    path: join(`latte.png`),
-    // fullPage: true,
-    omitBackground: true,
-    // captureBeyondViewport: true,
-  })
-  await browser.close()
-}, { extension: 'html' })
-await writeFile('preview.html', html)
+}
+
+await temporaryDirectoryTask(async (tmp) => {
+  await Promise.all(flavorEntries.map(async ([flavor]) => {
+    const htmlPath = join(tmp, `${flavor}.html`)
+    const screenshotPath = join('assets', `${flavor}.webp`)
+    await writeFile(htmlPath, generateHtml(flavor))
+    const browser = await launch({ headless: 'new' })
+    const page = await browser.newPage()
+    await page.goto(join('file:', htmlPath))
+    await page.screenshot({
+      type: 'webp',
+      path: screenshotPath,
+      fullPage: true,
+      omitBackground: true,
+    })
+    await browser.close()
+  }))
+})

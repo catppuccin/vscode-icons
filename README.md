@@ -13,14 +13,27 @@
 </p>
 
 <p align="center">
-  <img src="assets/catwalk.png" width=600/>
+  <img src="assets/catwalk.webp" width=600/>
 </p>
 
-> [!IMPORTANT]
-> The repository is currently a WIP towards v1. New icons and features may wait until the release.
+## Previews
 
-<!-- ## Previews -->
-
+<details>
+<summary>🌻 Latte</summary>
+<img src="./assets/latte.webp"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="./assets/frappe.webp"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="./assets/macchiato.webp"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="./assets/mocha.webp"/>
+</details>
 <!-- TODO -->
 
 ## 💝 Thanks to
