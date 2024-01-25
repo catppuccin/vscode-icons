@@ -6,7 +6,7 @@ import { launch } from 'puppeteer'
 import { temporaryDirectoryTask } from 'tempy'
 
 const allIcons = await readdir('icons/latte')
-const fileIcons = allIcons.filter(i => !i.startsWith('folder_'))
+const fileIcons = allIcons.filter(i => !i.startsWith('folder_') && !i.startsWith('_'))
 const folderIcons = allIcons.filter(i => i.startsWith('folder_') && !i.endsWith('_open.svg'))
 
 function iconPath(icon: string, flavor: FlavorName) {
