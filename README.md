@@ -50,6 +50,11 @@ Download the VSIX from
 [the latest GitHub release](https://github.com/catppuccin/vscode-icons/releases/latest).
 Open the Command Palette and select "Extensions: Install from VSIX...", then open the file you just downloaded.
 
+## Customization
+
+> [!NOTE]
+> We also have a [Catppuccin Theme](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc)!
+
 ## 💝 Thanks to
 
 - [PraZ](https://github.com/prazdevs)
