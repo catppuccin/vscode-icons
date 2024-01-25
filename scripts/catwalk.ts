@@ -42,7 +42,7 @@ function generateHtml(flavor: FlavorName) {
           height: 32px;
         }
         .grid {
-          transform: rotate(-45deg) translate(0%, -50%);
+          transform: rotate(-30deg) translate(0%, -50%);
           width: 200%;
           display: inline-flex;
           align-items: center;
