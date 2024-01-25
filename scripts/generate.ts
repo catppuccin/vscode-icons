@@ -18,7 +18,6 @@ for (const origin of flavors) {
     const destPath = resolve('icons', dest)
     const destSvgs = readdirSync(destPath)
     originSvgs.filter(s => !destSvgs.includes(s)).forEach(async (i) => {
-      console.log('should read', resolve(originPath, i))
       const svg = new SVG(readFileSync(resolve(originPath, i), 'utf8'))
       parseColors(svg, {
         callback(attr, color) {
