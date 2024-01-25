@@ -65,6 +65,7 @@
   },
   "scripts": {
     "build": "tsx scripts/build.ts",
+    "catwalk": "tsx scripts/catwalk.ts",
     "icons:associations": "tsx scripts/associations.ts",
     "icons:generate": "tsx scripts/generate.ts",
     "icons:optimize": "tsx scripts/optimize.ts",
@@ -84,6 +85,7 @@
     "changelogen": "^0.5.5",
     "defu": "^6.1.4",
     "eslint": "^8.56.0",
+    "lookpath": "^1.2.2",
     "magic-regexp": "^0.7.0",
     "puppeteer": "^21.9.0",
     "rimraf": "^5.0.5",

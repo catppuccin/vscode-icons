@@ -35,6 +35,9 @@ devDependencies:
   eslint:
     specifier: ^8.56.0
     version: 8.56.0
+  lookpath:
+    specifier: ^1.2.2
+    version: 1.2.2
   magic-regexp:
     specifier: ^0.7.0
     version: 0.7.0
@@ -3150,6 +3153,12 @@ packages:
 
   /lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: true
+
+  /lookpath@1.2.2:
+    resolution: {integrity: sha512-k2Gmn8iV6qdME3ztZC2spubmQISimFOPLuQKiPaLcVdRz0IpdxrNClVepMlyTJlhodm/zG/VfbkWERm3kUIh+Q==}
+    engines: {npm: '>=6.13.4'}
+    hasBin: true
     dev: true
 
   /lru-cache@10.1.0:
