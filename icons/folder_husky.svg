@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
-    <path fill="none" stroke="var(--ctp-text)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M24.023 28.126H78.31s9.207.248 9.207 9.543V45M40 82.656H10.272S2.5 82.036 2.5 74.601V26.39s0-9.047 8.729-9.047h26.186s7.294 0 7.294 7.56v2.974" paint-order="fill markers stroke"/>
-    <path fill="none" stroke="var(--ctp-rosewater)" stroke-width="5" d="m52.75 74.58 13.516-4.974c4.146-1.527 8.678 1.046 9.406 5.339l2.376 13.995c.764 4.504-4.148 7.855-8.173 5.57a3.9 3.9 0 0 1-1.315-1.217l-.697-1.038c-2.898-4.315-7.693-7.037-12.943-7.347l-1.263-.074a3.974 3.974 0 0 1-1.727-.51c-4.025-2.284-3.53-8.143.82-9.743z"/>
-    <ellipse cx="80.076" cy="24.989" fill="var(--ctp-rosewater)" paint-order="fill markers stroke" rx="5.321" ry="6.332" transform="matrix(.86966 .49365 -.50638 .86231 0 0)"/>
-    <ellipse cx="91.528" cy="11.644" fill="var(--ctp-rosewater)" paint-order="fill markers stroke" rx="5.321" ry="6.332" transform="matrix(.86966 .49365 -.50638 .86231 0 0)"/>
-    <ellipse cx="105.75" cy="10.291" fill="var(--ctp-rosewater)" paint-order="fill markers stroke" rx="5.321" ry="6.332" transform="matrix(.86966 .49365 -.50638 .86231 0 0)"/>
-    <ellipse cx="116.246" cy="23.342" fill="var(--ctp-rosewater)" paint-order="fill markers stroke" rx="5.321" ry="6.332" transform="matrix(.86966 .49365 -.50638 .86231 0 0)"/>
-</svg>

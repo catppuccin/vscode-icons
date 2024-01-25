@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+	<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+		<path stroke="var(--vscode-ctp-yellow)" d="M8 9a2 2 0 100-4 2 2 0 000 4" />
+		<path stroke="var(--vscode-ctp-red)" d="M9.86 2.5h.89c.97 0 1.75.78 1.75 1.75v.9m0 3.72v.88c0 .97-.78 1.75-1.75 1.75m-5.5 0c-.97 0-1.75-.78-1.75-1.75v-.88m0-3.73v-.89c0-.97.78-1.75 1.75-1.75h.89" />
+		<path stroke="var(--vscode-ctp-red)" d="m12.5 5.14.63.62c.68.69.68 1.8 0 2.48l-.64.63M10.5 11.5V15L8 13l-2.5 2v-3.5m-2-2.64-.63-.62a1.75 1.75 0 010-2.48l.63-.62M6.13 2.5l.63-.63c.69-.68 1.8-.68 2.48 0l.62.63" />
+	</g>
+</svg>

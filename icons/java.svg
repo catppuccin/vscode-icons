@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
-    <path fill="none" stroke="var(--ctp-red)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M76.319 47.895v17.894A31.579 31.579 0 0 1 44.74 97.37H34.214a31.579 31.579 0 0 1-31.58-31.58V47.895a3.158 3.158 0 0 1 3.159-3.158H73.16a3.158 3.158 0 0 1 3.158 3.158zM50.003 34.21c0-5.264 3.758-10.527 11.28-10.527v0A15.037 15.037 0 0 0 76.318 8.647V5.263M28.95 34.211v-2.632a15.79 15.79 0 0 1 15.789-15.79v0A10.526 10.526 0 0 0 55.266 5.263V2.632"/>
-    <path fill="none" stroke="var(--ctp-red)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M71.056 44.737h13.158a13.158 13.158 0 0 1 0 26.316h-7.895"/>
-</svg>

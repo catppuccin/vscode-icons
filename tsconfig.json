@@ -1,12 +1,18 @@
 {
   "compilerOptions": {
+    "target": "es2017",
+    "lib": ["esnext"],
     "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    },
-    "moduleResolution": "node",
     "module": "esnext",
-    "target": "esnext",
-    "typeRoots": ["./src/types"]
+    "moduleResolution": "node",
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+    "resolveJsonModule": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true
   }
 }

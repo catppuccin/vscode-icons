@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
-    <path fill="none" stroke="var(--ctp-green)" stroke-width="5" d="M70.933 26.939c.01 11.563-9.36 20.943-20.924 20.943s-20.924-9.38-20.924-20.943c0-11.564 9.36-20.944 20.924-20.944s20.935 9.38 20.924 20.944z"/>
-    <path fill="none" stroke="var(--ctp-red)" stroke-width="5" d="M44.645 72.987c.001 11.557-9.367 20.926-20.924 20.926-11.557 0-20.925-9.37-20.924-20.926C2.796 61.43 12.164 52.06 23.721 52.06c11.557 0 20.925 9.369 20.924 20.926z"/>
-    <path fill="none" stroke="var(--ctp-mauve)" stroke-width="5" d="M97.203 73.08c0 11.557-9.368 20.925-20.924 20.925S55.355 84.637 55.355 73.08c0-11.556 9.368-20.924 20.924-20.924s20.924 9.368 20.924 20.924z"/>
-</svg>

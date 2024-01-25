@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
-    <path fill="none" stroke="var(--ctp-red)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.55556" d="m16.667 3.062 66.666-.049c6.548-.005 13.89 7.342 13.89 13.889v66.667c0 6.437-7.452 13.418-13.89 13.418H16.667c-6.438 0-13.89-6.981-13.89-13.418V16.902c0-6.536 7.354-13.835 13.89-13.84z" paint-order="fill markers stroke"/>
-    <path fill="none" stroke="var(--ctp-red)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M68.324 71.418h15.203M86 50H67.44v35.03H86M45.874 74.246 53.24 85.03m-17.885 0V50h7.666c5.575 0 11.832 4.734 11.832 11.96 0 7.983-5.134 11.1-9.64 12.308-3.362.475-6.006.149-9.103.149" paint-order="fill markers stroke"/>
-</svg>

@@ -1,4 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-<style>:root {--ctp-rosewater: #f5e0dc;--ctp-flamingo: #f2cdcd;--ctp-pink: #f5c2e7;--ctp-mauve: #cba6f7;--ctp-red: #f38ba8;--ctp-maroon: #eba0ac;--ctp-peach: #fab387;--ctp-yellow: #f9e2af;--ctp-green: #a6e3a1;--ctp-teal: #94e2d5;--ctp-sky: #89dceb;--ctp-sapphire: #74c7ec;--ctp-blue: #89b4fa;--ctp-lavender: #b4befe;--ctp-text: #cdd6f4;--ctp-overlay1: #7f849c;}</style>
-    <path fill="none" stroke="var(--ctp-sapphire)" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.994" d="M54.548 41.395a22.333 22.333 0 1 1 4.881 24.408c-9.177-9.763-10.373-22.968-18.843-31.535a22.309 22.309 0 1 0 0 31.535 22.528 22.528 0 0 0 4.882-7.078m-15.01-8.69H18.545m62.484 0H69.119m5.956 5.932V44.08"/>
-</svg>

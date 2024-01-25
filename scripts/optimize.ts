@@ -1,21 +1,29 @@
-import { optimize } from 'svgo'
-
 /**
- * Optimizes an SVG
- * @param svg SVG as string
+ * Optimizes SVGs by running them through SVGO + Iconify cleanup
  */
-export function optimizeSvg(svg: string) {
-  return optimize(svg, {
-    js2svg: { pretty: true },
-    plugins: [
+
+import { readFile, readdir, writeFile } from 'node:fs/promises'
+import { resolve } from 'node:path'
+import { flavorEntries } from '@catppuccin/palette'
+import { SVG, cleanupSVG, runSVGO } from '@iconify/tools'
+
+Promise.all(flavorEntries.map(async ([flavor]) => {
+  const flavorPath = resolve('icons', flavor)
+  const svgs = await readdir(flavorPath)
+  await Promise.all(svgs.map(async (s) => {
+    const svgPath = resolve(flavorPath, s)
+    const str = await readFile(svgPath, 'utf8')
+    const svg = new SVG(str)
+    cleanupSVG(svg)
+    runSVGO(svg, { plugins: [
       'cleanupAttrs',
       'cleanupEnableBackground',
       'cleanupIds',
+      'cleanupListOfValues',
       'cleanupNumericValues',
       'collapseGroups',
       'convertColors',
       'convertEllipseToCircle',
-      'convertPathData',
       'convertShapeToPath',
       'convertStyleToAttrs',
       'convertTransform',
@@ -24,7 +32,6 @@ export function optimizeSvg(svg: string) {
       'mergeStyles',
       'minifyStyles',
       'moveElemsAttrsToGroup',
-      'moveGroupAttrsToElems',
       'removeComments',
       'removeDesc',
       'removeDoctype',
@@ -36,6 +43,8 @@ export function optimizeSvg(svg: string) {
       'removeMetadata',
       'removeNonInheritableGroupAttrs',
       'removeRasterImages',
+      'removeScriptElement',
+      'removeStyleElement',
       'removeTitle',
       'removeUnknownsAndDefaults',
       'removeUnusedNS',
@@ -44,6 +53,7 @@ export function optimizeSvg(svg: string) {
       'removeXMLProcInst',
       'sortAttrs',
       'sortDefsChildren',
-    ],
-  }).data
-}
+    ] })
+    await writeFile(svgPath, svg.toPrettyString())
+  }))
+}))

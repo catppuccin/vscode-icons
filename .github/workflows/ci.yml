@@ -1,4 +1,13 @@
-on: [push, pull_request]
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  PUPPETEER_SKIP_DOWNLOAD: true
 
 jobs:
   ci:
@@ -9,34 +18,27 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Install Node.js
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+
+      - name: Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: 18
-          cache: yarn
+          cache: pnpm
+          node-version: lts/*
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: pnpm i --frozen-lockfile
 
       - name: Lint files
-        run: yarn lint
+        run: pnpm lint
 
-      - name: Verify icons integrity
-        run: yarn integrity
+      - name: Build extension
+        run: pnpm build
 
-      - name: Build themes
-        run: yarn build
-
-      - name: Package Extension
-        id: packageExtension
-        uses: HaaLeo/publish-vscode-extension@v1
+      - name: Package extension
+        uses: haaleo/publish-vscode-extension@v1
         with:
-          pat: stub
-          yarn: true
+          pat: _
+          dependencies: false
           dryRun: true
-
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: catppuccin-vsc-icons.vsix
-          path: ${{ steps.packageExtension.outputs.vsixPath }}

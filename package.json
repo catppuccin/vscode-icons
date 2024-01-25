@@ -3,8 +3,10 @@
   "name": "catppuccin-vsc-icons",
   "displayName": "Catppuccin Icons for VSCode",
   "type": "module",
-  "version": "0.33.0",
-  "description": "🦌 Soothing pastel icon theme for VSCode",
+  "version": "0.34.0",
+  "private": true,
+  "packageManager": "pnpm@8.14.3",
+  "description": "🦊 Soothing pastel icon theme for VSCode",
   "author": "prazdevs",
   "license": "MIT",
   "repository": {
@@ -24,75 +26,72 @@
   "categories": [
     "Themes"
   ],
-  "icon": "logo.png",
-  "files": [
-    "dist"
+  "main": "dist/index.cjs",
+  "icon": "assets/icon.png",
+  "extensionKind": [
+    "ui",
+    "workspace"
   ],
   "engines": {
-    "vscode": "^1.69.0"
+    "vscode": "^1.83.0",
+    "node": ">=20.0.0"
   },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "contributes": {
     "iconThemes": [
       {
         "id": "catppuccin-mocha",
         "label": "Catppuccin Mocha",
-        "path": "themes/mocha/theme.json"
+        "path": "./dist/mocha/theme.json"
       },
       {
         "id": "catppuccin-latte",
         "label": "Catppuccin Latte",
-        "path": "themes/latte/theme.json"
+        "path": "./dist/latte/theme.json"
       },
       {
         "id": "catppuccin-frappe",
         "label": "Catppuccin Frappé",
-        "path": "themes/frappe/theme.json"
+        "path": "./dist/frappe/theme.json"
       },
       {
         "id": "catppuccin-macchiato",
         "label": "Catppuccin Macchiato",
-        "path": "themes/macchiato/theme.json"
+        "path": "./dist/macchiato/theme.json"
       }
     ]
   },
   "scripts": {
-    "build": "yarn build:themes && yarn build:preview",
-    "build:icons": "tsx scripts/icons.ts",
-    "build:themes": "tsx scripts/themes.ts",
-    "build:preview": "tsx scripts/preview.ts",
+    "build": "tsx scripts/build.ts",
     "catwalk": "tsx scripts/catwalk.ts",
-    "dev": "chokidar \"src/**/*\" -c \"yarn build\"",
-    "integrity": "tsx scripts/integrity.ts",
+    "icons:associations": "tsx scripts/associations.ts",
+    "icons:generate": "tsx scripts/generate.ts",
+    "icons:optimize": "tsx scripts/optimize.ts",
+    "icons:preview": "tsx scripts/preview.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "package": "vsce package --no-dependencies -o dist",
-    "release": "bumpp -t \"v%s\" -c \"chore: release v\""
+    "pack": "vsce package --no-dependencies"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.38.6",
-    "@catppuccin/palette": "^0.1.8",
-    "@types/fs-extra": "^11.0.1",
-    "@types/node": "^18.16.5",
-    "@vscode/vsce": "^2.19.0",
-    "bumpp": "^9.1.0",
-    "chokidar-cli": "^3.0.0",
-    "colorsea": "^1.2.1",
-    "consola": "^3.1.0",
-    "eslint": "^8.40.0",
-    "fs-extra": "^11.1.1",
-    "lint-staged": "^15.2.0",
-    "pathe": "^1.1.0",
-    "puppeteer": "^20.1.2",
-    "scule": "^1.0.0",
-    "simple-git-hooks": "^2.9.0",
-    "svgo": "^3.0.2",
-    "tsx": "^3.12.7",
-    "typescript": "^5.0.4"
-  },
-  "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged"
-  },
-  "lint-staged": {
-    "*": "eslint --fix"
+    "@antfu/eslint-config": "^2.6.3",
+    "@catppuccin/palette": "^1.0.3",
+    "@iconify/tools": "^4.0.0",
+    "@types/node": "^20.10.8",
+    "@types/vscode": "^1.83.0",
+    "@vscode/vsce": "^2.22.0",
+    "bumpp": "^9.3.0",
+    "changelogen": "^0.5.5",
+    "defu": "^6.1.4",
+    "eslint": "^8.56.0",
+    "lookpath": "^1.2.2",
+    "magic-regexp": "^0.7.0",
+    "puppeteer": "^21.9.0",
+    "rimraf": "^5.0.5",
+    "tempy": "^3.1.0",
+    "tsup": "^8.0.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
   }
 }
