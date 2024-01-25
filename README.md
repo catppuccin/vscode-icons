@@ -44,6 +44,12 @@ Install the extension from a Marketplace:
 - [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons)
 - [Open-VSX](https://open-vsx.org/extension/Catppuccin/catppuccin-vsc-icons)
 
+**Manual method for installation**
+
+Download the VSIX from
+[the latest GitHub release](https://github.com/catppuccin/vscode-icons/releases/latest).
+Open the Command Palette and select "Extensions: Install from VSIX...", then open the file you just downloaded.
+
 ## 💝 Thanks to
 
 - [PraZ](https://github.com/prazdevs)
