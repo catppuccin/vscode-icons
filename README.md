@@ -6,7 +6,6 @@
 </h3>
 
 <p align="center">
-  <a><img src="https://img.shields.io/github/directory-file-count/catppuccin/vscode-icons/icons?label=icons&colorA=363a4f&colorB=eed49f&style=for-the-badge"></a>
   <a href="https://github.com/catppuccin/vscode-icons/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/vscode-icons?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
   <a href="https://github.com/catppuccin/vscode-icons/issues"><img src="https://img.shields.io/github/issues/catppuccin/vscode-icons?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
   <a href="https://github.com/catppuccin/vscode-icons/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/vscode-icons?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
