@@ -599,5 +599,3 @@ export const folderIcons: FolderIcons = {
     ],
   },
 }
-
-export const folderIconEntries = Object.entries(folderIcons)

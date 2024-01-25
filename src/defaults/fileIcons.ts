@@ -2446,5 +2446,3 @@ export const fileIcons: FileIcons = {
   },
 
 }
-
-export const fileIconEntries = Object.entries(fileIcons)
