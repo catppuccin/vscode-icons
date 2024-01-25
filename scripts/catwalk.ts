@@ -14,7 +14,7 @@ if (!await lookpath('catwalk')) {
   exit()
 }
 
-const OUT = 'assets/catwalk.png'
+const OUT = 'assets/catwalk.webp'
 
 const allIcons = await readdir('icons/latte')
 const fileIcons = allIcons
