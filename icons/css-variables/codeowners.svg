@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+	<g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+		<path stroke="var(--vscode-ctp-peach)" d="M8.01086697,1.5 L13.7375756,3.27421271 C15.2496841,11.1531677 9.81324305,14.5 7.984414,14.5 C6.15558496,14.5 0.702986199,11.142964 2.28401535,3.27421271 L8.01086697,1.5 Z" />
+		<path stroke="var(--vscode-ctp-peach)" d="m 8,8.5 v 2 z" />
+		<circle cx="8" cy="7" r="1.5" stroke="var(--vscode-ctp-peach)" />
+	</g>
+</svg>

@@ -234,6 +234,9 @@ export const fileIcons: FileIcons = {
       'code_of_conduct',
     ],
   },
+  'codeowners': {
+    fileNames: ['codeowners', 'owners'],
+  },
   'coffeescript': {
     languageIds: ['coffeescript'],
     fileExtensions: [
@@ -258,6 +261,14 @@ export const fileIcons: FileIcons = {
       'commitlint.config.cjs',
       'commitlint.config.ts',
       'commitlint.config.cts',
+    ],
+  },
+  'contributing': {
+    fileNames: [
+      'contributing.md',
+      'contributing.rst',
+      'contributing.txt',
+      'contributing',
     ],
   },
   'cpp': {
