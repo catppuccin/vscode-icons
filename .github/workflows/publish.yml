@@ -1,0 +1,68 @@
+name: Publish
+
+on:
+  push:
+    branches: [main]
+    tags: [v*]
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    name: Publish
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          cache: pnpm
+          node-version: lts/*
+
+      - name: Install dependencies
+        run: pnpm i --frozen-lockfile
+
+      - name: Lint files
+        run: pnpm lint
+
+      - name: Build extension
+        run: pnpm build
+
+      - name: Package extension
+        uses: haaleo/publish-vscode-extension@v1
+        id: package
+        with:
+          pat: _
+          dependencies: false
+          dryRun: true
+
+      - name: Upload binary to GitHub release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ${{ steps.pack.outputs.vsixPath }}
+          tag: ${{ github.ref }}
+          overwrite: true
+
+      - name: Publish to Visual Studio Marketplace
+        uses: haaleo/publish-vscode-extension@v1
+        with:
+          pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+          extensionFile: ${{ steps.package.outputs.vsixPath }}
+          registryUrl: https://marketplace.visualstudio.com
+          dependencies: false
+
+      - name: Publish to OpenVSX Registry
+        uses: haaleo/publish-vscode-extension@v1
+        continue-on-error: true
+        timeout-minutes: 10
+        with:
+          pat: ${{ secrets.OPEN_VSX_TOKEN }}
+          extensionFile: ${{ steps.package.outputs.vsixPath }}
