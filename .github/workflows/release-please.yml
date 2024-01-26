@@ -1,9 +1,12 @@
-on: 
+name: Release please
+
+on:
   push:
     branches: [main]
 
 jobs:
   release-please:
+    name: Release please
     runs-on: ubuntu-latest
 
     steps:
