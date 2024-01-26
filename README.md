@@ -34,6 +34,13 @@
   <img src="./assets/mocha.webp"/>
 </details>
 
+## Features
+
+- Soothing colors from the Catppuccin palette.
+- Ever growing collection of language/technology specific icons.
+- Look and feel consistency.
+- Customization features (coming soon™).
+
 ## Usage
 
 **Preferred method of installation**
@@ -54,6 +61,14 @@ Open the Command Palette and select "Extensions: Install from VSIX...", then ope
 > [!NOTE]
 > We also have a [Catppuccin Theme](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc)!
 
+## Requesting icons and features
+
+To request a new icon or a specific feature, [open an issue](https://github.com/catppuccin/vscode-icons/issues/new/choose) documenting everything needed, the more info the faster your request will be processed.
+
+## Contributing
+
+If you are willing to contribute, new icons or features, refer to the [contribution guide](./CONTRIBUTING.md).
+
 ## 💝 Thanks to
 
 - [PraZ](https://github.com/prazdevs)
@@ -69,5 +84,7 @@ Open the Command Palette and select "Extensions: Install from VSIX...", then ope
 </p>
 
 <p align="center">
-  <a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
+  <a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE">
+    <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/>
+  </a>
 </p>
