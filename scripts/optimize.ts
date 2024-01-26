@@ -54,6 +54,10 @@ Promise.all(flavorEntries.map(async ([flavor]) => {
       'sortAttrs',
       'sortDefsChildren',
     ] })
-    await writeFile(svgPath, svg.toPrettyString())
+    await writeFile(
+      svgPath,
+      svg.toPrettyString()
+        .replaceAll(/#[A-Fa-f0-9]{6}/g, s => s.toLowerCase()),
+    )
   }))
 }))

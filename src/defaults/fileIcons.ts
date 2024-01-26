@@ -1413,6 +1413,10 @@ export const fileIcons: FileIcons = {
       'cmx',
     ],
   },
+  'org': {
+    languageIds: ['org'],
+    fileExtensions: ['org'],
+  },
   'package-json': {
     fileNames: [
       'package.json',
