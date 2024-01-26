@@ -5,7 +5,7 @@ in
   pkgs.mkShell {
     buildInputs = with pkgs; ([
         nodejs
-        yarn
+        nodejs.pkgs.pnpm
       ]
       ++ lib.optionals isLinux [chromium]);
     PUPPETEER_EXECUTABLE_PATH =
