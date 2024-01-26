@@ -1443,6 +1443,10 @@ export const fileIcons: FileIcons = {
       'raku',
     ],
   },
+  'php': {
+    languageIds: ['php'],
+    fileExtensions: ['php'],
+  },
   'phrase': {
     fileNames: [
       '.phrase.yml',
