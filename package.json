@@ -66,13 +66,13 @@
   "scripts": {
     "build": "tsx scripts/build.ts",
     "catwalk": "tsx scripts/catwalk.ts",
-    "icons:associations": "tsx scripts/associations.ts",
     "icons:generate": "tsx scripts/generate.ts",
     "icons:optimize": "tsx scripts/optimize.ts",
     "icons:preview": "tsx scripts/preview.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "pack": "vsce package --no-dependencies"
+    "pack": "vsce package --no-dependencies",
+    "vscode:prepublish": "pnpm build"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.3",
