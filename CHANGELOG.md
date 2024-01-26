@@ -3,5 +3,17 @@
 
 ## v1.0.0
 
-[compare changes](https://github.com/catppuccin/vscode-icons/compare/1619f5b599ab8bcabc4c0e37198cad954fc42bb2...v1.0.0)
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v0.33.0...v1.0.0)
 
+### 🚀 Enhancements
+
+- Rework all existing icons for lower resolutions
+- Add many new file and folder icons
+- Build extension for upcoming customization features
+- Centralize file and folder icon associations
+
+### 🏡 Chore
+
+- Explicit design guidelines
+- Rework icon previews
+- Better documentation
