@@ -1,6 +1,26 @@
 # Changelog
 
 
+## v1.4.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.3.0...v1.4.0)
+
+### 🚀 Enhancements
+
+- Evelenty and astro icons ([#82](https://github.com/catppuccin/vscode-icons/pull/82))
+
+### 🩹 Fixes
+
+- Regenerate themes on fresh install ([#81](https://github.com/catppuccin/vscode-icons/pull/81))
+
+### 🏡 Chore
+
+- Add bug report issue template ([#80](https://github.com/catppuccin/vscode-icons/pull/80))
+
+### ❤️ Contributors
+
+- Sacha
+
 ## v1.3.0
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.2.0...v1.3.0)
