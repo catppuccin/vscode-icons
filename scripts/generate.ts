@@ -6,7 +6,7 @@
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { SVG, parseColors } from '@iconify/tools'
-import { palettes } from '../src/palettes'
+import { palettes } from '~/utils/palettes'
 
 const flavors = Object.keys(palettes) as Array<keyof typeof palettes>
 

@@ -1,3 +1,6 @@
+import type { FlavorName } from '@catppuccin/palette'
+import type { Uri } from 'vscode'
+
 export interface Options {
   hidesExplorerArrows: boolean
 }
@@ -45,3 +48,12 @@ export type VscTheme = Options & BaseIcons & {
 
   iconDefinitions: IconDefinitions
 }
+
+export type Flavor = FlavorName
+
+export type ThemePaths = Record<Flavor, {
+  theme: Uri
+  icons: Uri
+}>
+
+export type Config = Pick<Theme, 'hidesExplorerArrows'>

@@ -4,7 +4,7 @@ import { flavorEntries } from '@catppuccin/palette'
 import { build } from 'tsup'
 import { rimraf } from 'rimraf'
 import { defaults } from '~/defaults'
-import { createVscTheme } from '~/hooks/generateThemes'
+import { createVscTheme } from '~/hooks/generateTheme'
 
 const DIST = 'dist'
 const flavors = flavorEntries.map(([f]) => f)

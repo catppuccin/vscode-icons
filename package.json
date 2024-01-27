@@ -41,6 +41,22 @@
     "onStartupFinished"
   ],
   "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "%configuration.title%",
+      "properties": {
+        "catppuccin-icons.hidesExplorerArrows": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "catppuccin-icons.reset",
+        "title": "Catppuccin Icons: Factory reset settings"
+      }
+    ],
     "iconThemes": [
       {
         "id": "catppuccin-mocha",
