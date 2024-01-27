@@ -30,3 +30,8 @@ export function iconDefinitionsPath(context: ExtensionContext) {
   const root = rootPath(context)
   return Uri.joinPath(root, 'iconDefinitions.json')
 }
+
+export function flagPath(context: ExtensionContext) {
+  const root = rootPath(context)
+  return Uri.joinPath(root, '.flag')
+}

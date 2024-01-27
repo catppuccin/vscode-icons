@@ -1,12 +1,21 @@
 import { ConfigurationTarget, type ExtensionContext, commands, workspace } from 'vscode'
 import { iconDefinitionsPath, themePaths } from './utils/paths'
 import type { IconDefinitions } from './types'
-import { getConfiguration } from './utils/vscode'
+import { getConfiguration, isFreshInstall } from './utils/vscode'
 import { updateThemes } from './hooks/updateThemes'
 import { mergeTheme } from './hooks/mergeTheme'
 
 export async function activate(context: ExtensionContext) {
   const paths = themePaths(context)
+
+  if (await isFreshInstall(context)) {
+    const iconDefinitions = await workspace.fs
+      .readFile(iconDefinitionsPath(context))
+      .then(b => JSON.parse(b.toString()) as IconDefinitions)
+
+    // TODO only trigger if config is not the default
+    await updateThemes(mergeTheme(getConfiguration()), paths, iconDefinitions)
+  }
 
   context.subscriptions.push(
     // TODO centralize commands and factorize reset
