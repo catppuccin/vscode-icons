@@ -20,12 +20,6 @@
 - [ ] netlify folder
 - [ ] resolver folder
 
-- [ ] puppeteer file
-
-- [ ] psd file
-- [ ] illustrator file
-- [ ]
-
 - [ ] change C icon (smaller)
 
 <!-- language based ? -->

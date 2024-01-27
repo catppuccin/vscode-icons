@@ -1649,6 +1649,17 @@ export const fileIcons: FileIcons = {
       '.pug-lintrc.json',
     ],
   },
+  'puppeteer': {
+    fileNames: [
+      '.puppeteerrc.cjs,',
+      '.puppeteerrc.js,',
+      '.puppeteerrc',
+      '.puppeteerrc.json,',
+      '.puppeteerrc.yaml,',
+      'puppeteer.config.js',
+      'puppeteer.config.cjs',
+    ],
+  },
   'python': {
     languageIds: ['python'],
     fileExtensions: ['py'],
