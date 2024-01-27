@@ -1,3 +1,6 @@
+/**
+ * Things related to the catppuccin palette
+ */
 import type { AccentName, FlavorName, MonochromaticName } from '@catppuccin/palette'
 import { flavorEntries, flavors } from '@catppuccin/palette'
 

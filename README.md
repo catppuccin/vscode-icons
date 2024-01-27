@@ -61,6 +61,25 @@ Open the Command Palette and select "Extensions: Install from VSIX...", then ope
 > [!NOTE]
 > We also have a [Catppuccin Theme](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc)!
 
+### Settings
+
+We provide some options to further customize your catppuccin experience:
+
+```jsonc
+{
+  // hides arrows next to folders in explorer
+  "catppuccin-icons.hidesExplorerArrows": false
+}
+```
+
+To see all available options, open your settings UI and look for `Extensions > Catppuccin Icons`.
+
+### Commands
+
+We provide a set of commands to interact with the extension and icons if needed, they are prefixed with `Catppuccin Icons:`:
+
+- `Factory reset settings`: removes all customization and resets the theme to its factory defaults.
+
 ## Requesting icons and features
 
 To request a new icon or a specific feature, [open an issue](https://github.com/catppuccin/vscode-icons/issues/new/choose) documenting everything needed, the more info the faster your request will be processed.

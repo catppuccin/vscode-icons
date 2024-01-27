@@ -4,7 +4,7 @@ import { flavorEntries } from '@catppuccin/palette'
 import { build } from 'tsup'
 import { rimraf } from 'rimraf'
 import { defaults } from '~/defaults'
-import { createVscTheme } from '~/hooks/generateThemes'
+import { createVscTheme } from '~/hooks/generateTheme'
 
 const DIST = 'dist'
 const flavors = flavorEntries.map(([f]) => f)
@@ -41,7 +41,7 @@ await Promise.all(flavors.map(async (f) => {
 
 // BUILD EXTENSION RUNTIME
 await build({
-  entry: ['src/index.ts', 'src/browser.ts'],
+  entry: ['src/main.ts', 'src/browser.ts'],
   format: ['cjs'],
   external: ['vscode'],
   minify: true,

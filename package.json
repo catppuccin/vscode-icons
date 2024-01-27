@@ -26,7 +26,7 @@
   "categories": [
     "Themes"
   ],
-  "main": "dist/index.cjs",
+  "main": "dist/main.cjs",
   "browser": "dist/browser.cjs",
   "icon": "assets/icon.png",
   "extensionKind": [
@@ -41,6 +41,22 @@
     "onStartupFinished"
   ],
   "contributes": {
+    "configuration": {
+      "title": "Catppuccin Icons",
+      "properties": {
+        "catppuccin-icons.hidesExplorerArrows": {
+          "type": "boolean",
+          "default": false,
+          "description": "Hides arrows next to folders in the explorer."
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "catppuccin-icons.reset",
+        "title": "Catppuccin Icons: Factory reset settings"
+      }
+    ],
     "iconThemes": [
       {
         "id": "catppuccin-mocha",
