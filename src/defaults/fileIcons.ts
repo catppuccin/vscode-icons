@@ -409,6 +409,12 @@ export const fileIcons: FileIcons = {
       'dependabot.yaml',
     ],
   },
+  'devcontainer': {
+    fileNames: [
+      'devcontainer.json',
+      '.devcontainer.json',
+    ],
+  },
   'dhall': {
     languageIds: ['dhall'],
     fileExtensions: [

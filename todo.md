@@ -16,13 +16,10 @@
 - [ ] helpers folder
 - [ ] content folder
 - [ ] env folder
-- [ ] intellij folder (.idea)
 - [ ] yarn folder
 - [ ] netlify folder
 - [ ] resolver folder
 
-- [ ] devcontainer folder
-- [ ] devcontainer file
 - [ ] puppeteer file
 
 - [ ] psd file

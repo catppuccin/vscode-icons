@@ -185,6 +185,9 @@ export const folderIcons: FolderIcons = {
       'debugging',
     ],
   },
+  'devcontainer': {
+    folderNames: ['.devcontainer'],
+  },
   'dist': {
     folderNames: [
       'dist',
