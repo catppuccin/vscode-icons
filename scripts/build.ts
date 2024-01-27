@@ -41,7 +41,7 @@ await Promise.all(flavors.map(async (f) => {
 
 // BUILD EXTENSION RUNTIME
 await build({
-  entry: ['src/index.ts'],
+  entry: ['src/index.ts', 'src/browser.ts'],
   format: ['cjs'],
   external: ['vscode'],
   minify: true,
