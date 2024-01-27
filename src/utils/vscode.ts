@@ -2,8 +2,9 @@
  * Functions to interact with VSCode window/workspace
  */
 import { Buffer } from 'node:buffer'
-import type { Uri } from 'vscode'
+import type { ExtensionContext, Uri } from 'vscode'
 import { commands, window, workspace } from 'vscode'
+import { flagPath } from './paths'
 import type { Config } from '~/types'
 
 export async function writeFile(uri: Uri, content: unknown) {
@@ -32,4 +33,15 @@ export function getConfiguration(): Config {
   return {
     hidesExplorerArrows: config.get('hidesExplorerArrows', false),
   }
+}
+
+export async function isFreshInstall(context: ExtensionContext) {
+  const flag = flagPath(context)
+  return await workspace.fs.stat(flag).then(
+    () => false,
+    () => workspace.fs.writeFile(flag, Buffer.from('')).then(
+      () => true,
+      () => true,
+    ),
+  )
 }
