@@ -26,7 +26,7 @@
   "categories": [
     "Themes"
   ],
-  "main": "dist/index.cjs",
+  "main": "dist/main.cjs",
   "browser": "dist/browser.cjs",
   "icon": "assets/icon.png",
   "extensionKind": [
@@ -42,12 +42,12 @@
   ],
   "contributes": {
     "configuration": {
-      "type": "object",
-      "title": "%configuration.title%",
+      "title": "Catppuccin Icons",
       "properties": {
         "catppuccin-icons.hidesExplorerArrows": {
           "type": "boolean",
-          "default": false
+          "default": false,
+          "description": "Hides arrows next to folders in the explorer."
         }
       }
     },
