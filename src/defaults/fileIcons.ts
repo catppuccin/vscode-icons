@@ -38,6 +38,20 @@ export const fileIcons: FileIcons = {
       'apollo.config.ts',
     ],
   },
+  'astro': {
+    fileExtensions: ['astro'],
+    languageIds: ['astro'],
+  },
+  'astro-config': {
+    fileNames: [
+      'astro.config.js',
+      'astro.config.mjs',
+      'astro.config.cjs',
+      'astro.config.ts',
+      'astro.config.cts',
+      'astro.config.mts',
+    ],
+  },
   'audio': {
     fileExtensions: [
       'mp3',
@@ -171,6 +185,7 @@ export const fileIcons: FileIcons = {
     fileExtensions: ['h'],
   },
   'caddy': {
+    fileExtensions: ['caddyfile'],
     fileNames: ['caddyfile'],
   },
   'capacitor': {
@@ -546,6 +561,15 @@ export const fileIcons: FileIcons = {
   },
   'ejs': {
     fileExtensions: ['ejs'],
+  },
+  'eleventy': {
+    fileNames: [
+      '.eleventy.js',
+      'eleventy.config.js',
+      'eleventy.config.mjs',
+      'eleventy.config.cjs',
+      '.eleventyignore',
+    ],
   },
   'elixir': {
     languageIds: ['elixir'],
