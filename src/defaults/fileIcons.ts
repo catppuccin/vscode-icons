@@ -1,6 +1,28 @@
 import type { FileIcons } from '~/types'
 
 export const fileIcons: FileIcons = {
+  'adobe-ae': {
+    fileExtensions: ['aep'],
+  },
+  'adobe-ai': {
+    fileExtensions: ['ai'],
+  },
+  'adobe-id': {
+    fileExtensions: [
+      'indd',
+      'indl',
+      'indb',
+    ],
+  },
+  'adobe-ps': {
+    fileExtensions: [
+      'psd',
+      'psb',
+    ],
+  },
+  'adobe-xd': {
+    fileExtensions: ['xd'],
+  },
   'adonis': {
     fileNames: [
       '.adonisrc.json',
