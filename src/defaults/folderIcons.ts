@@ -282,6 +282,9 @@ export const folderIcons: FolderIcons = {
   'gitlab': {
     folderNames: ['.gitlab'],
   },
+  'hooks': {
+    folderNames: ['hook', 'hooks', 'trigger', 'triggers'],
+  },
   'husky': {
     folderNames: [
       'husky',

@@ -83,6 +83,7 @@
   "scripts": {
     "build": "tsx scripts/build.ts",
     "catwalk": "tsx scripts/catwalk.ts",
+    "icons": "pnpm icons:optimize && pnpm icons:generate && icons:preview",
     "icons:generate": "tsx scripts/generate.ts",
     "icons:optimize": "tsx scripts/optimize.ts",
     "icons:preview": "tsx scripts/preview.ts",
