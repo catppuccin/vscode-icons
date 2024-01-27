@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.2.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.1.0...v1.2.0)
+
+### 🚀 Enhancements
+
+- Browser-compatible build ([#77](https://github.com/catppuccin/vscode-icons/pull/77))
+
+### ❤️ Contributors
+
+- Sacha
+
 ## v1.1.0
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.0.0...v1.1.0)
