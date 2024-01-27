@@ -323,6 +323,9 @@ export const folderIcons: FolderIcons = {
       'photographs',
     ],
   },
+  'intellij': {
+    folderNames: ['.idea'],
+  },
   'kubernetes': {
     folderNames: [
       'kubernetes',

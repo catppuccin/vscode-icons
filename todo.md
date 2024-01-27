@@ -1,4 +1,3 @@
-- [ ] hooks folder
 - [ ] class folder
 - [ ] decorators folder
 - [ ] target folder
