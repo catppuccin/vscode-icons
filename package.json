@@ -27,6 +27,7 @@
     "Themes"
   ],
   "main": "dist/index.cjs",
+  "browser": "dist/browser.cjs",
   "icon": "assets/icon.png",
   "extensionKind": [
     "ui",
