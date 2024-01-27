@@ -2,7 +2,7 @@ import { window } from 'vscode'
 import { flavorEntries } from '@catppuccin/palette'
 import type { IconDefinitions, Theme, ThemePaths } from '~/types'
 import { createVscTheme } from '~/hooks/generateTheme'
-import { writeFile } from '~/utils/vscode'
+import { promptToReload, writeFile } from '~/utils/vscode'
 
 export async function updateThemes(theme: Theme, paths: ThemePaths, iconDefinitions: IconDefinitions) {
   const flavors = flavorEntries.map(([f]) => f)
@@ -13,7 +13,7 @@ export async function updateThemes(theme: Theme, paths: ThemePaths, iconDefiniti
       createVscTheme(theme, iconDefinitions),
     ),
   )).then(async () => {
-    // await promptToReload()
+    await promptToReload()
   }).catch((error: Error) => {
     window.showErrorMessage(
       `Failed to save re-compiled theme: \n${error.message}`,
