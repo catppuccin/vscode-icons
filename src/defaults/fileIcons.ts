@@ -38,6 +38,20 @@ export const fileIcons: FileIcons = {
       'apollo.config.ts',
     ],
   },
+  'astro': {
+    fileExtensions: ['astro'],
+    languageIds: ['astro'],
+  },
+  'astro-config': {
+    fileNames: [
+      'astro.config.js',
+      'astro.config.mjs',
+      'astro.config.cjs',
+      'astro.config.ts',
+      'astro.config.cts',
+      'astro.config.mts',
+    ],
+  },
   'audio': {
     fileExtensions: [
       'mp3',
