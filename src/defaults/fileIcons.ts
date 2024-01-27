@@ -185,6 +185,7 @@ export const fileIcons: FileIcons = {
     fileExtensions: ['h'],
   },
   'caddy': {
+    fileExtensions: ['caddyfile'],
     fileNames: ['caddyfile'],
   },
   'capacitor': {
@@ -560,6 +561,15 @@ export const fileIcons: FileIcons = {
   },
   'ejs': {
     fileExtensions: ['ejs'],
+  },
+  'eleventy': {
+    fileNames: [
+      '.eleventy.js',
+      'eleventy.config.js',
+      'eleventy.config.mjs',
+      'eleventy.config.cjs',
+      '.eleventyignore',
+    ],
   },
   'elixir': {
     languageIds: ['elixir'],
