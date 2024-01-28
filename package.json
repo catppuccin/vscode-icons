@@ -13,6 +13,12 @@
     "type": "git",
     "url": "https://github.com/catppuccin/vscode-icons"
   },
+  "bugs": {
+    "url": "https://github.com/catppuccin/vscode-icons/issues"
+  },
+  "sponsor": {
+    "url": "https://opencollective.com/catppuccin"
+  },
   "keywords": [
     "catppuccin",
     "theme",
