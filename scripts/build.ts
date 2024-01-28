@@ -16,6 +16,9 @@ await Promise.all(flavors.map(async (f) => {
   await cp(join('icons', f), join(DIST, f, 'icons'), { recursive: true })
 }))
 
+// COPY CSS-VAR ICONS TO DISE
+await cp(join('icons', 'css-variables'), join(DIST, 'unflavored'), { recursive: true })
+
 // GENERATE ICON DEFINITIONS AND SAVE THEM TO DIST
 const icons = await readdir(join(DIST, flavors[0], 'icons'))
 const iconDefinitions = icons.reduce((d, i) => ({

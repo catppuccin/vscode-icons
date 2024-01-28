@@ -11,6 +11,11 @@ export function getFlagPath(context: ExtensionContext) {
   return Uri.joinPath(root, '.flag')
 }
 
+export function getUnflavoredPath(context: ExtensionContext) {
+  const root = getRootPath(context)
+  return Uri.joinPath(root, 'unflavored')
+}
+
 export function getThemePaths(context: ExtensionContext): ThemePaths {
   const root = getRootPath(context)
   return {

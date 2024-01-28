@@ -1,11 +1,11 @@
 import { defu } from 'defu'
 import { defaultConfig } from '~/defaults'
-import type { Config, IconDefinitions, VscTheme } from '~/types'
+import type { IconDefinitions, ThemeConfig, VscTheme } from '~/types'
 
 /**
  * Generates a VSC theme from defaults + overrides & icon definitions.
  */
-export function compileTheme(overrides: Partial<Config>, iconDefinitions: IconDefinitions): VscTheme {
+export function compileTheme(overrides: Partial<ThemeConfig>, iconDefinitions: IconDefinitions): VscTheme {
   const {
     associations,
     hidesExplorerArrows,

@@ -22,13 +22,18 @@ export async function isFreshInstall(context: ExtensionContext) {
   )
 }
 
-export async function writeJsonFile(uri: Uri, content: unknown) {
+export async function readFile(uri: Uri) {
   return workspace.fs
-    .writeFile(uri, Buffer.from(JSON.stringify(content, null, 2)))
-    .then(
-      () => {},
-      (error: Error) => {
-        window.showErrorMessage(error.message)
-      },
-    )
+    .readFile(uri)
+    .then(b => b.toString())
+}
+
+export async function writeFile(uri: Uri, content: string) {
+  return workspace.fs
+    .writeFile(uri, Buffer.from(content))
+    .then(() => {})
+}
+
+export async function writeJsonFile(uri: Uri, json: unknown) {
+  return writeFile(uri, JSON.stringify(json, null, 2))
 }
