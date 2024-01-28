@@ -94,6 +94,7 @@ If you are willing to contribute, new icons or features, refer to the [contribut
 ## 💝 Thanks to
 
 - [PraZ](https://github.com/prazdevs)
+- [thang-nm](https://github.com/thang-nm)
 
 &nbsp;
 
