@@ -67,8 +67,11 @@ We provide some options to further customize your catppuccin experience:
 
 ```jsonc
 {
-  // hides arrows next to folders in explorer
-  "catppuccin-icons.hidesExplorerArrows": false
+  // set to true to disable folding arrows next to folder icons
+  "catppuccin-icons.hidesExplorerArrows": false,
+
+  // set to false to only use default folder icon
+  "catppuccin-icons.specificFolders": true
 }
 ```
 
