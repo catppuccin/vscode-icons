@@ -55,7 +55,7 @@
           "default": false,
           "description": "Hides arrows next to folders in the explorer."
         },
-        "catppuccin-icons.specificFolderIcons": {
+        "catppuccin-icons.specificFolders": {
           "type": "boolean",
           "default": true,
           "description": "Display specific folder icons. Disable to only use default folder icon."

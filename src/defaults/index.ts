@@ -1,13 +1,15 @@
-import { baseIcons } from './baseIcons'
-import { fileIcons } from './fileIcons'
-import { folderIcons } from './folderIcons'
-import { options } from './options'
+import { fileExtensions, fileNames, languageIds } from './fileIcons'
+import { folderNames } from './folderIcons'
+import type { Config } from '~/types'
 
-import type { Theme } from '~/types'
-
-export const defaults: Theme = {
-  ...options,
-  ...baseIcons,
-  fileIcons,
-  folderIcons,
+export const defaultConfig: Config = {
+  hidesExplorerArrows: false,
+  specificFolders: true,
+  associations: {
+    languageIds,
+    fileExtensions,
+    fileNames,
+    folderNames,
+  },
+  monochrome: false,
 }

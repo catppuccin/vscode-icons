@@ -1,6 +1,6 @@
-import type { FolderIcons } from '~/types'
-
-export const folderIcons: FolderIcons = {
+const folderIcons: Record<string, {
+  folderNames?: Array<string>
+}> = {
   'admin': {
     folderNames: [
       'admin',
@@ -608,3 +608,17 @@ export const folderIcons: FolderIcons = {
     ],
   },
 }
+
+const { folderNames } = Object.entries(folderIcons).reduce(
+  ({ folderNames }, [name, icon]) => ({
+    folderNames: {
+      ...folderNames,
+      ...icon.folderNames?.reduce((a, c) => ({ ...a, [c]: `folder_${name}` }), {}),
+    },
+  }),
+  {
+    folderNames: {},
+  },
+)
+
+export { folderNames }

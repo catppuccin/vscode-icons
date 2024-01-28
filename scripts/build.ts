@@ -3,8 +3,7 @@ import { basename, join } from 'node:path'
 import { flavorEntries } from '@catppuccin/palette'
 import { build } from 'tsup'
 import { rimraf } from 'rimraf'
-import { defaults } from '~/defaults'
-import { createVscTheme } from '~/hooks/generateTheme'
+import { compileTheme } from '~/utils/themes'
 
 const DIST = 'dist'
 const flavors = flavorEntries.map(([f]) => f)
@@ -29,7 +28,7 @@ await writeFile(
 )
 
 // CREATE THEME AND INJECT ICON DEFINITIONS
-const theme = createVscTheme(defaults, iconDefinitions)
+const theme = compileTheme({}, iconDefinitions)
 
 // WRITE THEMES
 await Promise.all(flavors.map(async (f) => {

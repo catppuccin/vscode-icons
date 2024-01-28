@@ -1,11 +1,14 @@
 /**
  * Things related to the catppuccin palette
  */
-import type { AccentName, FlavorName, MonochromaticName } from '@catppuccin/palette'
+import type { AccentName, MonochromaticName } from '@catppuccin/palette'
 import { flavorEntries, flavors } from '@catppuccin/palette'
 
-type Flavor = FlavorName | 'css-variables'
+export const FLAVORS = ['frappe', 'latte', 'macchiato', 'mocha', 'css-variables'] as const
+export type Flavor = typeof FLAVORS[number]
+
 type ColorName = AccentName | Extract<MonochromaticName, 'text' | 'overlay1'>
+
 export const palettes = {
   ...flavorEntries.reduce((acc, [flavorName, flavor]) => ({
     ...acc,

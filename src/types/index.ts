@@ -1,62 +1,60 @@
 import type { FlavorName } from '@catppuccin/palette'
 import type { Uri } from 'vscode'
 
-export interface Options {
+/**
+ * Config interacting with `<flavor>/theme.json` files.
+ */
+export interface ThemeConfig {
   hidesExplorerArrows: boolean
+  specificFolders: boolean
+  associations: {
+    languageIds: Record<string, string>
+    fileExtensions: Record<string, string>
+    fileNames: Record<string, string>
+    folderNames: Record<string, string>
+  }
 }
 
-export interface BaseIcons {
-  file: string
-  folder: string
-  folderExpanded: string
-  rootFolder: string
-  rootFolderExpanded: string
+/**
+ * Config interacting with `<flavor>/icons/*.svg` files.
+ */
+export interface IconsConfig {
+  monochrome: boolean
 }
 
-export type FileIcons = Record<string, {
-  fileExtensions?: string[]
-  fileNames?: string[]
-  languageIds?: string[]
+/**
+ * User facing configuration
+ */
+export type Config = ThemeConfig & IconsConfig
+
+/**
+ * Runtime theme paths
+ */
+export type ThemePaths = Record<FlavorName, {
+  icons: Uri
+  theme: Uri
 }>
-
-export type FolderIcons = Record<string, {
-  folderNames?: string[]
-}>
-
-export type Theme = Options & BaseIcons & {
-  fileIcons: FileIcons
-  folderIcons: FolderIcons
-}
-
+/**
+ * Icon name/path mapping.
+ * @see https://code.visualstudio.com/api/extension-guides/file-icon-theme#icon-definitions
+ */
 export type IconDefinitions = Record<string, { iconPath: string }>
 
-export type VscTheme = Options & BaseIcons & {
+/**
+ * Icon theme respecting VSC schema.
+ * @see https://code.visualstudio.com/api/extension-guides/file-icon-theme#file-association
+ */
+export interface VscTheme {
   hidesExplorerArrows: boolean
-
   file: string
   folder: string
   folderExpanded: string
   rootFolder: string
   rootFolderExpanded: string
-
   languageIds: Record<string, string>
   fileExtensions: Record<string, string>
   fileNames: Record<string, string>
-
   folderNames: Record<string, string>
   folderNamesExpanded: Record<string, string>
-
   iconDefinitions: IconDefinitions
-}
-
-export type Flavor = FlavorName
-
-export type ThemePaths = Record<Flavor, {
-  theme: Uri
-  icons: Uri
-}>
-
-export interface Config {
-  hidesExplorerArrows: boolean
-  specificFolderIcons: boolean
 }
