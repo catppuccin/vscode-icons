@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v1.6.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.5.0...v1.6.0)
+
+### 🚀 Enhancements
+
+- Add specificFolders customization option ([#85](https://github.com/catppuccin/vscode-icons/pull/85))
+
+### 🏡 Chore
+
+- Add license/readme credits ([#86](https://github.com/catppuccin/vscode-icons/pull/86))
+
+### ❤️ Contributors
+
+- Sacha
+
 ## v1.5.0
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.4.0...v1.5.0)
@@ -19,7 +35,7 @@
 
 ### ❤️ Contributors
 
-- Prazdevs
+- PraZ ([@prazdevs](https://github.com/prazdevs))
 
 ## v1.4.0
 
@@ -39,7 +55,7 @@
 
 ### ❤️ Contributors
 
-- Sacha
+- PraZ ([@prazdevs](https://github.com/prazdevs))
 
 ## v1.3.0
 
@@ -51,7 +67,7 @@
 
 ### ❤️ Contributors
 
-- Sacha
+- PraZ ([@prazdevs](https://github.com/prazdevs))
 
 ## v1.2.0
 
@@ -63,7 +79,7 @@
 
 ### ❤️ Contributors
 
-- Sacha
+- PraZ ([@prazdevs](https://github.com/prazdevs))
 
 ## v1.1.0
 
@@ -80,8 +96,7 @@
 
 ### ❤️ Contributors
 
-- Sacha 
-- Prazdevs
+- PraZ ([@prazdevs](https://github.com/prazdevs)) 
 
 ## v1.0.0
 
