@@ -4,6 +4,7 @@ import type { IconDefinitions } from './types'
 import { getConfiguration, isFreshInstall } from './utils/vscode'
 import { updateThemes } from './hooks/updateThemes'
 import { mergeTheme } from './hooks/mergeTheme'
+import { defaults } from './defaults'
 
 export async function activate(context: ExtensionContext) {
   const paths = themePaths(context)
@@ -28,6 +29,7 @@ export async function activate(context: ExtensionContext) {
 
       const config = workspace.getConfiguration('catppuccin-icons')
       await config.update('hidesExplorerArrows', undefined, ConfigurationTarget.Global)
+      await config.update('specificFolderIcons', undefined, ConfigurationTarget.Global)
     }),
   )
 
@@ -38,8 +40,14 @@ export async function activate(context: ExtensionContext) {
           .readFile(iconDefinitionsPath(context))
           .then(b => JSON.parse(b.toString()) as IconDefinitions)
 
-        const configuration = getConfiguration()
-        const theme = mergeTheme(configuration)
+        const { hidesExplorerArrows, specificFolderIcons } = getConfiguration()
+        const theme = mergeTheme({
+          hidesExplorerArrows,
+          folderIcons: specificFolderIcons ? undefined : {},
+        }, {
+          ...defaults,
+          folderIcons: specificFolderIcons ? defaults.folderIcons : {},
+        })
 
         await updateThemes(theme, paths, iconDefinitions)
       }

@@ -32,6 +32,7 @@ export function getConfiguration(): Config {
 
   return {
     hidesExplorerArrows: config.get('hidesExplorerArrows', false),
+    specificFolderIcons: config.get('specificFolderIcons', true),
   }
 }
 

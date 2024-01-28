@@ -56,4 +56,7 @@ export type ThemePaths = Record<Flavor, {
   icons: Uri
 }>
 
-export type Config = Pick<Theme, 'hidesExplorerArrows'>
+export interface Config {
+  hidesExplorerArrows: boolean
+  specificFolderIcons: boolean
+}
