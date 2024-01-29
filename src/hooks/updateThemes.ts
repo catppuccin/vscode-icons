@@ -17,10 +17,10 @@ export async function updateThemes(context: ExtensionContext, icons = false) {
   const iconDefinitions = await getIconDefinitions(context)
   const paths = getThemePaths(context)
   const config = getConfig()
+  const hash = iconHash(config)
   const flavors = flavorEntries.map(([f]) => f)
 
   if (icons) {
-    const hash = iconHash(config)
     const unflavored = getUnflavoredPath(context)
     const unflavoredIcons = await workspace.fs.readDirectory(unflavored)
 
@@ -40,10 +40,11 @@ export async function updateThemes(context: ExtensionContext, icons = false) {
     })).catch((e: Error) => {
       window.showErrorMessage(`Failed to save re-compiled icons: \n${e.message}`)
     })
-    // add hashed paths to iconDefs
-    for (const i in iconDefinitions)
-      iconDefinitions[i].iconPath = hashedSvgPath(iconDefinitions[i].iconPath, hash)
   }
+
+  // add hashed paths to iconDefs
+  for (const i in iconDefinitions)
+    iconDefinitions[i].iconPath = hashedSvgPath(iconDefinitions[i].iconPath, hash)
 
   // create and write `theme.json` files
   const theme = compileTheme(config, iconDefinitions)
