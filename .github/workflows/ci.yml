@@ -34,6 +34,9 @@ jobs:
       - name: Lint files
         run: pnpm lint
 
+      - name: Typecheck
+        run: pnpm typecheck
+
       - name: Build extension
         run: pnpm build
 
