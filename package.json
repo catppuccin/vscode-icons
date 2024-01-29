@@ -64,6 +64,26 @@
           "type": "boolean",
           "default": false,
           "description": "Only use Text color for icons."
+        },
+        "catppuccin-icons.associations.languages": {
+          "type": "object",
+          "default": {},
+          "description": "Custom languageId/icon associations."
+        },
+        "catppuccin-icons.associations.extensions": {
+          "type": "object",
+          "default": {},
+          "description": "Custom fileExtension/icon associations."
+        },
+        "catppuccin-icons.associations.files": {
+          "type": "object",
+          "default": {},
+          "description": "Custom fileName/icon associations."
+        },
+        "catppuccin-icons.associations.folders": {
+          "type": "object",
+          "default": {},
+          "description": "Custom folderName/icon associations."
         }
       }
     },

@@ -14,7 +14,12 @@ export function getConfig(): Partial<Config> {
   return {
     hidesExplorerArrows: config.get(CONFIG_KEYS.HidesExplorerArrows),
     specificFolders: config.get(CONFIG_KEYS.SpecificFolders),
-    associations: config.get(CONFIG_KEYS.Associations),
+    associations: {
+      languageIds: config.get(CONFIG_KEYS.AssociationsLanguages, {}),
+      fileExtensions: config.get(CONFIG_KEYS.AssociationsExtensions, {}),
+      fileNames: config.get(CONFIG_KEYS.AssociationsFiles, {}),
+      folderNames: config.get(CONFIG_KEYS.AssociationsFolders, {}),
+    },
     monochrome: config.get(CONFIG_KEYS.Monochrome),
   }
 }
@@ -25,7 +30,7 @@ export function getConfig(): Partial<Config> {
  */
 export async function resetConfig() {
   const config = workspace.getConfiguration(CONFIG_ROOT)
-  for (const k in Object.values(CONFIG_KEYS))
+  for (const k of Object.values(CONFIG_KEYS))
     await config.update(k, undefined, ConfigurationTarget.Global)
 }
 

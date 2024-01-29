@@ -83,6 +83,37 @@ To see all available options, open your settings UI and look for `Extensions > C
 > [!IMPORTANT]
 > Changing settings regenerates/rewrites theme files and icons. It may take some time on lower spec configs. You may also be prompted to reload the window for changes to take effect.
 
+### Custom icon associations
+
+You can also associate specific languagesIds/fileExtensions/fileNames/folderNames to icons and override the provided defaults:
+
+```jsonc
+{
+  // custom languageId/icon associations
+  "catppuccin-icons.associations.languages": {
+    "typescriptreact": "typescript-react"
+  },
+
+  // custom extension/icon associations
+  "catppuccin-icons.associations.extensions": {
+    "spec.ts": "typescript-test"
+  },
+
+  // custom file/icon associations
+  "catppuccin-icons.associations.files": {
+    "vite.config.ts": "vite"
+  },
+
+  // custom folder/icon associations
+  "catppuccin-icons.associations.folders": {
+    "typings": "folder_types"
+  }
+}
+```
+
+> [!NOTE]
+> All icons available are listed in the [previews](#previews). Custom/external SVGs are not supported, you may [request icons](#requesting-icons-and-features).
+
 ### Commands
 
 We provide a set of commands to interact with the extension and icons if needed, they are prefixed with `Catppuccin Icons:`:
