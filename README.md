@@ -71,11 +71,17 @@ We provide some options to further customize your catppuccin experience:
   "catppuccin-icons.hidesExplorerArrows": false,
 
   // set to false to only use default folder icon
-  "catppuccin-icons.specificFolders": true
+  "catppuccin-icons.specificFolders": true,
+
+  // set this to true to only use `Text` color for all icons
+  "catpuccin-icons.monochrome": false
 }
 ```
 
 To see all available options, open your settings UI and look for `Extensions > Catppuccin Icons`.
+
+> [!IMPORTANT]
+> Changing settings regenerates/rewrites theme files and icons. It may take some time on lower spec configs. You may also be prompted to reload the window for changes to take effect.
 
 ### Commands
 
