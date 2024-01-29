@@ -1,11 +1,11 @@
-/**
- * Things related to the catppuccin palette
- */
 import type { AccentName, FlavorName, MonochromaticName } from '@catppuccin/palette'
 import { flavorEntries, flavors } from '@catppuccin/palette'
 
 export type ColorName = AccentName | Extract<MonochromaticName, 'text' | 'overlay1'>
 
+/**
+ * Simplified ColorName/Hexcode palettes
+ */
 export const palettes = {
   ...flavorEntries.reduce((acc, [flavorName, flavor]) => ({
     ...acc,

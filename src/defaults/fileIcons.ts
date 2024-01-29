@@ -1,3 +1,7 @@
+/**
+ * Default file icon associations
+ * Keys are icon file basenames
+ */
 const fileIcons: Record<string, {
   languageIds?: Array<string>
   fileExtensions?: Array<string>

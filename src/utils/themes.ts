@@ -3,7 +3,10 @@ import { defaultConfig } from '~/defaults'
 import type { IconDefinitions, ThemeConfig, VscTheme } from '~/types'
 
 /**
- * Generates a VSC theme from defaults + overrides & icon definitions.
+ * Generates a VSC theme from defaults + overrides & icon definitions
+ * @param overrides parsed user configuration
+ * @param iconDefinitions icon/svg associations
+ * @returns VSC-valid icon theme as JSON object
  */
 export function compileTheme(overrides: Partial<ThemeConfig>, iconDefinitions: IconDefinitions): VscTheme {
   const {
@@ -32,6 +35,11 @@ export function compileTheme(overrides: Partial<ThemeConfig>, iconDefinitions: I
   }
 }
 
+/**
+ * Appends `_open` to values of given object
+ * @param obj values as `folder_<basename>`
+ * @returns values as `folder_<basename>_open`
+ */
 function expanded(obj: Record<string, string>) {
   return Object.entries(obj).reduce((a, [f, i]) => ({ ...a, [f]: `${i}_open` }), {})
 }
