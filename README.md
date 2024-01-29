@@ -112,7 +112,7 @@ You can also associate specific languagesIds/fileExtensions/fileNames/folderName
 ```
 
 > [!NOTE]
-> All icons available are listed in the [previews](#previews). Custom/external SVGs are not supported.
+> All icons available are listed in the [previews](#previews). Custom/external SVGs are not supported, you may [request icons](#requesting-icons-and-features).
 
 ### Commands
 
