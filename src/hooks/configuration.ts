@@ -30,7 +30,7 @@ export function getConfig(): Partial<Config> {
  */
 export async function resetConfig() {
   const config = workspace.getConfiguration(CONFIG_ROOT)
-  for (const k in Object.values(CONFIG_KEYS))
+  for (const k of Object.values(CONFIG_KEYS))
     await config.update(k, undefined, ConfigurationTarget.Global)
 }
 
