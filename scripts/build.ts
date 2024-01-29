@@ -8,15 +8,18 @@ import { compileTheme } from '~/utils/themes'
 const DIST = 'dist'
 const flavors = flavorEntries.map(([f]) => f)
 
-// CLEANUP
+// cleanup
 await rimraf(DIST)
 
-// COPY ICONS TO DIST
+// copy icons to dist
 await Promise.all(flavors.map(async (f) => {
   await cp(join('icons', f), join(DIST, f, 'icons'), { recursive: true })
 }))
 
-// GENERATE ICON DEFINITIONS AND SAVE THEM TO DIST
+// copy css-vars/unflavored icons to dist
+await cp(join('icons', 'css-variables'), join(DIST, 'unflavored'), { recursive: true })
+
+// generate iconDefinitions.json file and save to dist
 const icons = await readdir(join(DIST, flavors[0], 'icons'))
 const iconDefinitions = icons.reduce((d, i) => ({
   ...d,
@@ -27,10 +30,8 @@ await writeFile(
   JSON.stringify(iconDefinitions, null, 2),
 )
 
-// CREATE THEME AND INJECT ICON DEFINITIONS
+// compile theme.json and write to dist
 const theme = compileTheme({}, iconDefinitions)
-
-// WRITE THEMES
 await Promise.all(flavors.map(async (f) => {
   await writeFile(
     join(DIST, f, 'theme.json'),
@@ -38,7 +39,7 @@ await Promise.all(flavors.map(async (f) => {
   )
 }))
 
-// BUILD EXTENSION RUNTIME
+// build extension runtime
 await build({
   entry: ['src/main.ts', 'src/browser.ts'],
   format: ['cjs'],
