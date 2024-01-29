@@ -1,6 +1,27 @@
 # Changelog
 
 
+## v1.7.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.6.0...v1.7.0)
+
+### 🚀 Enhancements
+
+- Add monochrome icons configuration option ([#87](https://github.com/catppuccin/vscode-icons/pull/87))
+
+### 📖 Documentation
+
+- Document monochrome configuration ([009d5bd](https://github.com/catppuccin/vscode-icons/commit/009d5bd))
+
+### 🤖 CI
+
+- Typecheck ([4854772](https://github.com/catppuccin/vscode-icons/commit/4854772))
+
+### ❤️ Contributors
+
+- Prazdevs 
+- PraZ
+
 ## v1.6.0
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.5.0...v1.6.0)
