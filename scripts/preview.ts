@@ -48,6 +48,11 @@ function generateHtml(flavor: FlavorName) {
           grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
           gap: 20px;
         }
+        .folder-grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          gap: 20px;
+        }
       </style>
     </head>
     <body>
@@ -60,11 +65,11 @@ function generateHtml(flavor: FlavorName) {
             </div>
           `).join('\n')}
         </div>
-        <div class="grid">
+        <div class="folder-grid">
           ${folderIcons.map(i => `
             <div class="icon-block">
               <img class="icon" src="${iconPath(i, flavor)}">
-              ${i.slice(7, -4)}
+              ${i.slice(0, -4)}
             </div>
           `).join('\n')}
         </div>

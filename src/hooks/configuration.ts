@@ -14,7 +14,12 @@ export function getConfig(): Partial<Config> {
   return {
     hidesExplorerArrows: config.get(CONFIG_KEYS.HidesExplorerArrows),
     specificFolders: config.get(CONFIG_KEYS.SpecificFolders),
-    associations: config.get(CONFIG_KEYS.Associations),
+    associations: {
+      languageIds: config.get(CONFIG_KEYS.AssociationsLanguages, {}),
+      fileExtensions: config.get(CONFIG_KEYS.AssociationsExtensions, {}),
+      fileNames: config.get(CONFIG_KEYS.AssociationsFiles, {}),
+      folderNames: config.get(CONFIG_KEYS.AssociationsFolders, {}),
+    },
     monochrome: config.get(CONFIG_KEYS.Monochrome),
   }
 }
