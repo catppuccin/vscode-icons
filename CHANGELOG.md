@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.8.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.7.0...v1.8.0)
+
+### 🚀 Enhancements
+
+- Custom icon associations ([#89](https://github.com/catppuccin/vscode-icons/pull/89))
+
+### ❤️ Contributors
+
+- PraZ
+
 ## v1.7.0
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.6.0...v1.7.0)
@@ -19,8 +31,7 @@
 
 ### ❤️ Contributors
 
-- Prazdevs 
-- PraZ
+- PraZ ([@prazdevs](https://github.com/prazdevs))
 
 ## v1.6.0
 
@@ -36,7 +47,7 @@
 
 ### ❤️ Contributors
 
-- Sacha
+- PraZ ([@prazdevs](https://github.com/prazdevs))
 
 ## v1.5.0
 
@@ -135,3 +146,7 @@
 - Explicit design guidelines
 - Rework icon previews
 - Better documentation
+
+### ❤️ Contributors
+
+- PraZ ([@prazdevs](https://github.com/prazdevs))
