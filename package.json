@@ -106,6 +106,7 @@
     "lint:fix": "eslint . --fix",
     "pack": "vsce package --no-dependencies",
     "release": "changelogen --release --push",
+    "typecheck": "tsc",
     "vscode:prepublish": "pnpm build"
   },
   "devDependencies": {
