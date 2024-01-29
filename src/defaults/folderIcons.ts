@@ -1,3 +1,7 @@
+/**
+ * Default folder icon associations
+ * Keys are icon file basenames (without folder_ prefix)
+ */
 const folderIcons: Record<string, {
   folderNames?: Array<string>
 }> = {

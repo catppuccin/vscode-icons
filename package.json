@@ -59,6 +59,11 @@
           "type": "boolean",
           "default": true,
           "description": "Display specific folder icons. Disable to only use default folder icon."
+        },
+        "catppuccin-icons.monochrome": {
+          "type": "boolean",
+          "default": false,
+          "description": "Only use Text color for icons."
         }
       }
     },
@@ -101,6 +106,7 @@
     "lint:fix": "eslint . --fix",
     "pack": "vsce package --no-dependencies",
     "release": "changelogen --release --push",
+    "typecheck": "tsc",
     "vscode:prepublish": "pnpm build"
   },
   "devDependencies": {

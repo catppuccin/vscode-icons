@@ -8,7 +8,13 @@ import { resolve } from 'node:path'
 import { SVG, parseColors } from '@iconify/tools'
 import { palettes } from '~/utils/palettes'
 
-const flavors = Object.keys(palettes) as Array<keyof typeof palettes>
+const flavors = [
+  'css-variables',
+  'frappe',
+  'latte',
+  'macchiato',
+  'mocha',
+] satisfies Array<keyof typeof palettes>
 
 for (const origin of flavors) {
   const originPath = resolve('icons', origin)
