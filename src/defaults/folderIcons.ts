@@ -198,6 +198,9 @@ const folderIcons: Record<string, {
   'devcontainer': {
     folderNames: ['.devcontainer'],
   },
+  'direnv': {
+    folderNames: ['.direnv'],
+  },
   'dist': {
     folderNames: [
       'dist',
