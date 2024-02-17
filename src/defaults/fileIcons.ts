@@ -1844,6 +1844,13 @@ const fileIcons: Record<string, {
     languageIds: ['search-result'],
     fileExtensions: ['code-search'],
   },
+  'security': {
+    fileNames: [
+      'security.md',
+      'security.txt',
+      'security',
+    ],
+  },
   'semantic-release': {
     fileNames: [
       '.releaserc',
