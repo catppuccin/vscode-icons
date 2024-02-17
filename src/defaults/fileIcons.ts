@@ -82,12 +82,19 @@ const fileIcons: Record<string, {
   },
   'audio': {
     fileExtensions: [
-      'mp3',
+      'aac',
+      'aiff',
+      'alac',
       'flac',
       'm4a',
-      'wma',
-      'aiff',
+      'm4p',
+      'mogg',
+      'mp3',
+      'oga',
+      'opus',
       'wav',
+      'wma',
+      'wv',
     ],
   },
   'azure-pipelines': {
@@ -1135,6 +1142,7 @@ const fileIcons: Record<string, {
       'jsonl',
       'ndjson',
       'hjson',
+      'webmanifest',
     ],
     fileNames: [
       '.jscsrc',
