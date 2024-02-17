@@ -1142,6 +1142,7 @@ const fileIcons: Record<string, {
       'jsonl',
       'ndjson',
       'hjson',
+      'webmanifest',
     ],
     fileNames: [
       '.jscsrc',
