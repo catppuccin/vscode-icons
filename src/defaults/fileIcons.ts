@@ -177,6 +177,9 @@ const fileIcons: Record<string, {
     languageIds: ['code-text-binary'],
     fileExtensions: ['bin'],
   },
+  'biome': {
+    fileNames: ['biome.json', 'biome.jsonc'],
+  },
   'bitbucket': {
     fileNames: [
       'bitbucket-pipelines.yaml',
