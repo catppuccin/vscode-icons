@@ -66,6 +66,22 @@ const fileIcons: Record<string, {
       'apollo.config.ts',
     ],
   },
+  'assembly': {
+    fileExtensions: [
+      'asm',
+      'a51',
+      'inc',
+      'nasm',
+      's',
+      'ms',
+      'agc',
+      'ags',
+      'aea',
+      'argus',
+      'mitigus',
+      'binsource',
+    ],
+  },
   'astro': {
     fileExtensions: ['astro'],
     languageIds: ['astro'],
