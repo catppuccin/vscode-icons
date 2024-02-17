@@ -51,6 +51,12 @@ const folderIcons: Record<string, {
       'sounds',
     ],
   },
+  'audit': {
+    folderNames: [
+      'audit',
+      'audits',
+    ],
+  },
   'aws': {
     folderNames: [
       'aws',
@@ -472,6 +478,9 @@ const folderIcons: Record<string, {
       'scripts',
       'scripting',
     ],
+  },
+  'security': {
+    folderNames: ['security'],
   },
   'server': {
     folderNames: [
