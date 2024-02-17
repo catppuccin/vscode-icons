@@ -2567,6 +2567,7 @@ const fileIcons: Record<string, {
       'yarn-error.log',
       '.yarnrc.yml',
       '.yarnrc.yaml',
+      'yarn.config.cjs',
     ],
   },
   'yarn-lock': {

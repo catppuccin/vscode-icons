@@ -620,6 +620,9 @@ const folderIcons: Record<string, {
       '.ci',
     ],
   },
+  'yarn': {
+    folderNames: ['.yarn'],
+  },
 }
 
 const { folderNames } = Object.entries(folderIcons).reduce(
