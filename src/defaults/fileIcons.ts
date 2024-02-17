@@ -2082,6 +2082,10 @@ const fileIcons: Record<string, {
     languageIds: ['toml'],
     fileExtensions: ['toml'],
   },
+  'twig': {
+    languageIds: ['twig'],
+    fileExtensions: ['twig'],
+  },
   'twine': {
     languageIds: [
       'twee3',
