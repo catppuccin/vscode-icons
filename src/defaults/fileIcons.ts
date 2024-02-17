@@ -1268,6 +1268,11 @@ const fileIcons: Record<string, {
       'lint-staged.config.cjs',
     ],
   },
+  'liquid': {
+    fileExtensions: ['liquid'],
+    fileNames: ['.liquidrc.json', '.liquidrc'],
+    languageIds: ['liquid'],
+  },
   'lisp': {
     fileExtensions: [
       'lisp',
