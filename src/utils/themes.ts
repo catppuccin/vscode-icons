@@ -21,8 +21,8 @@ export function compileTheme(overrides: Partial<ThemeConfig>, iconDefinitions: I
     file: '_file',
     folder: '_folder',
     folderExpanded: '_folder_open',
-    rootFolder: '_folder',
-    rootFolderExpanded: '_folder_open',
+    rootFolder: '_root',
+    rootFolderExpanded: '_root_open',
 
     languageIds: associations.languageIds,
     fileExtensions: associations.fileExtensions,
