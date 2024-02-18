@@ -1,6 +1,33 @@
 # Changelog
 
 
+## v1.9.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.8.0...v1.9.0)
+
+### 🚀 Enhancements
+
+- Webmanifest + more audio associations (#93,#94) ([#93](https://github.com/catppuccin/vscode-icons/issues/93), [#94](https://github.com/catppuccin/vscode-icons/issues/94))
+- Liquid icon ([#100](https://github.com/catppuccin/vscode-icons/pull/100))
+- Biome icon ([#101](https://github.com/catppuccin/vscode-icons/pull/101))
+- Assembly icon ([#102](https://github.com/catppuccin/vscode-icons/pull/102))
+- Twig icon ([#103](https://github.com/catppuccin/vscode-icons/pull/103))
+- Security.md icon & security/audit folder ([#104](https://github.com/catppuccin/vscode-icons/pull/104))
+- Yarn folder and latest yarn files ([#105](https://github.com/catppuccin/vscode-icons/pull/105))
+- Root folder ([#106](https://github.com/catppuccin/vscode-icons/pull/106))
+- Direnv folder ([#107](https://github.com/catppuccin/vscode-icons/pull/107))
+- Add GCP icon ([#108](https://github.com/catppuccin/vscode-icons/pull/108))
+- New c-related icons ([#109](https://github.com/catppuccin/vscode-icons/pull/109))
+- Assets folder ([d852e85](https://github.com/catppuccin/vscode-icons/commit/d852e85))
+- Content folder ([bff3c3b](https://github.com/catppuccin/vscode-icons/commit/bff3c3b))
+
+### ❤️ Contributors
+
+- Prazdevs ([@prazdevs](http://github.com/prazdevs))
+- PraZ ([@prazdevs](http://github.com/prazdevs))
+- Winston <hey@winston.sh>
+- _eyewave
+
 ## v1.8.0
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.7.0...v1.8.0)
@@ -11,7 +38,7 @@
 
 ### ❤️ Contributors
 
-- PraZ
+- PraZ ([@prazdevs](https://github.com/prazdevs))
 
 ## v1.7.0
 
