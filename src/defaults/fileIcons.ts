@@ -799,6 +799,12 @@ const fileIcons: Record<string, {
       'gatsby-ssr.tsx',
     ],
   },
+  'gcp': {
+    fileNames: [
+      'release-please-config.json',
+      '.release-please-manifest.json',
+    ],
+  },
   'git': {
     languageIds: [
       'git',
