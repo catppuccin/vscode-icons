@@ -151,6 +151,12 @@ const folderIcons: Record<string, {
       'constants',
     ],
   },
+  'content': {
+    folderNames: [
+      'content',
+      'contents',
+    ],
+  },
   'controllers': {
     folderNames: [
       'controller',
