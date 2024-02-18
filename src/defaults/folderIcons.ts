@@ -40,6 +40,12 @@ const folderIcons: Record<string, {
       'apps',
     ],
   },
+  'assets': {
+    folderNames: [
+      'asset',
+      'assets',
+    ],
+  },
   'audio': {
     folderNames: [
       'aud',
