@@ -1,3 +1,7 @@
+/**
+ * CLI for icon SVG file manipulation.
+ */
+
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { readFile, readdir, writeFile } from 'node:fs/promises'
 import { join, resolve } from 'node:path'

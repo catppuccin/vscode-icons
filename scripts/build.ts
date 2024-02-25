@@ -1,3 +1,7 @@
+/**
+ * Build themes and extension.
+ */
+
 import { cp, readdir, writeFile } from 'node:fs/promises'
 import { basename, join } from 'node:path'
 import { exit } from 'node:process'

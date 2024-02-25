@@ -41,6 +41,7 @@ We provide a set of npm scripts to make development and contribution easier:
 | `build` | Builds the extension and themes to `dist`. |
 | `catwalk` | Generates the main preview (requires `catwalk`). |
 | `icons` | CLI to optimize/generate icons and icon previews. |
+| `integrity` | Ensures all default associations refer to existing icons. |
 | `pack` | Generates VSIX extension file. |
 
 ### Notes

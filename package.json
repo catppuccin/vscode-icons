@@ -120,6 +120,7 @@
     "build": "tsx scripts/build.ts",
     "catwalk": "tsx scripts/catwalk.ts",
     "icons": "tsx scripts/icons.ts",
+    "integrity": "tsx scripts/integrity.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "pack": "vsce package --no-dependencies",

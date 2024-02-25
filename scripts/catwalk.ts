@@ -1,3 +1,7 @@
+/**
+ * Generate main preview using Catwalk.
+ */
+
 import { exec } from 'node:child_process'
 import { readdir, writeFile } from 'node:fs/promises'
 import { join, resolve } from 'node:path'

@@ -34,6 +34,9 @@ jobs:
       - name: Typecheck
         run: pnpm typecheck
 
+      - name: Integrity
+        run: pnpm integrity
+
       - name: Build extension
         run: pnpm build
 

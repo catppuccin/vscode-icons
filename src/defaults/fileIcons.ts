@@ -2607,4 +2607,4 @@ const { languageIds, fileExtensions, fileNames } = Object.entries(fileIcons).red
   },
 )
 
-export { languageIds, fileExtensions, fileNames }
+export { languageIds, fileExtensions, fileNames, fileIcons }
