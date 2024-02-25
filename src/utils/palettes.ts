@@ -1,5 +1,10 @@
-import type { AccentName, FlavorName, MonochromaticName } from '@catppuccin/palette'
-import { flavorEntries, flavors } from '@catppuccin/palette'
+import {
+  type AccentName,
+  type FlavorName,
+  type MonochromaticName,
+  flavorEntries,
+  flavors,
+} from '@catppuccin/palette'
 
 export type ColorName = AccentName | Extract<MonochromaticName, 'text' | 'overlay1'>
 

@@ -1,5 +1,4 @@
-import { Uri, workspace } from 'vscode'
-import type { ExtensionContext } from 'vscode'
+import { type ExtensionContext, Uri, workspace } from 'vscode'
 import type { IconDefinitions } from '~/types'
 
 /**

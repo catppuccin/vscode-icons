@@ -1,5 +1,4 @@
-import type { ConfigurationChangeEvent, ExtensionContext } from 'vscode'
-import { window, workspace } from 'vscode'
+import { type ConfigurationChangeEvent, type ExtensionContext, window, workspace } from 'vscode'
 import { CONFIG_ROOT } from '~/constants'
 
 /**

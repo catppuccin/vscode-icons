@@ -3,14 +3,14 @@ import { readdir, writeFile } from 'node:fs/promises'
 import { join, resolve } from 'node:path'
 import { exit } from 'node:process'
 import { promisify } from 'node:util'
-import type { FlavorName } from '@catppuccin/palette'
-import { flavorEntries, flavors } from '@catppuccin/palette'
+import { type FlavorName, flavorEntries, flavors } from '@catppuccin/palette'
+import { consola } from 'consola'
 import { lookpath } from 'lookpath'
 import { launch } from 'puppeteer'
 import { temporaryDirectoryTask } from 'tempy'
 
 if (!await lookpath('catwalk')) {
-  console.error('Catwalk not installed.')
+  consola.error('Catwalk not installed.')
   exit()
 }
 
@@ -61,22 +61,29 @@ function generateHtml(flavor: FlavorName) {
 `
 }
 
-await temporaryDirectoryTask(async (tmp) => {
-  const images = await Promise.all(flavorEntries.map(async ([flavor]) => {
-    const htmlPath = join(tmp, `${flavor}.html`)
-    const screenshotPath = join(tmp, `${flavor}.png`)
-    await writeFile(htmlPath, generateHtml(flavor))
-    const browser = await launch({ headless: 'new' })
-    const page = await browser.newPage()
-    await page.setViewport({
-      height: 400,
-      width: 700,
-      deviceScaleFactor: 3,
-    })
-    await page.goto(join('file:', htmlPath))
-    await page.screenshot({ path: screenshotPath })
-    await browser.close()
-    return screenshotPath
-  }))
-  await promisify(exec)(`catwalk ${images.join(' ')} --output="${OUT}"`)
-})
+try {
+  consola.info('Generating Catwalk preview...')
+  await temporaryDirectoryTask(async (tmp) => {
+    const images = await Promise.all(flavorEntries.map(async ([flavor]) => {
+      const htmlPath = join(tmp, `${flavor}.html`)
+      const screenshotPath = join(tmp, `${flavor}.png`)
+      await writeFile(htmlPath, generateHtml(flavor))
+      const browser = await launch()
+      const page = await browser.newPage()
+      await page.setViewport({
+        height: 400,
+        width: 700,
+        deviceScaleFactor: 3,
+      })
+      await page.goto(join('file:', htmlPath))
+      await page.screenshot({ path: screenshotPath })
+      await browser.close()
+      return screenshotPath
+    }))
+    await promisify(exec)(`catwalk ${images.join(' ')} --output="${OUT}"`)
+  })
+  consola.success('Catwalk preview generated.')
+}
+catch (error) {
+  consola.error('Catwalk preview generation failed: ', error)
+}

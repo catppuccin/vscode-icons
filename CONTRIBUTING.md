@@ -19,8 +19,10 @@ The repository is structured so different components live as independently as po
 | `assets` | Auto-generated previews. |
 | `icons` | Icon SVG files for each flavour. |
 | `scripts` | Scripts for optimizing icons, generating flavoured icons, building previews and building the extension. |
+| `src/constants` | Values used throughout the extension, mostly config-related. |
 | `src/defaults` | Default file/folder icon associations. |
 | `src/hooks` | Extension runtime code (commands). |
+| `src/utils` | Helper functions independant from VSCode API. |
 
 ### Setup
 
@@ -38,9 +40,7 @@ We provide a set of npm scripts to make development and contribution easier:
 |---|---|
 | `build` | Builds the extension and themes to `dist`. |
 | `catwalk` | Generates the main preview (requires `catwalk`). |
-| `icons:generate` | Generates missing flavoured icon SVGs in their respective flavour folder. |
-| `icons:optimize` | Runs all SVGs through `@iconify/tools/cleanupSVG` and `svgo`. |
-| `icons:preview` | Generates complete flavour previews from existing icons. |
+| `icons` | CLI to optimize/generate icons and icon previews. |
 | `pack` | Generates VSIX extension file. |
 
 ### Notes
@@ -77,9 +77,7 @@ _Make sure to run `pnpm install` to ensure dependencies are installed and up to 
     - `src/defaults/fileIcons.ts` for files.
     - `src/defaults/folderIcons.ts` for folders.
 
-4. Run `pnpm icons:optimize` and `pnpm icons:generate` and other flavours will be automatically created in their respective folders!
-
-5. You can run `pnpm icons:preview` to regenerate flavour previews and ensure everything is looking fine.
+4. Run `pnpm icons -a` to optimize the SVGs, generate other flavors and generate previews. You can also proceed step by step (run `pnpm icons --help` for more info).
 
 ### Running the extension locally
 

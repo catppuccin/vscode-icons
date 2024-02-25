@@ -1,5 +1,4 @@
-import { Uri } from 'vscode'
-import type { ExtensionContext } from 'vscode'
+import { type ExtensionContext, Uri } from 'vscode'
 import type { ThemePaths } from '~/types'
 
 /**

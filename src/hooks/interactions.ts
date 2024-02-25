@@ -1,6 +1,5 @@
 import { Buffer } from 'node:buffer'
-import { Uri, commands, window, workspace } from 'vscode'
-import type { ExtensionContext } from 'vscode'
+import { type ExtensionContext, Uri, commands, window, workspace } from 'vscode'
 
 /**
  * Inform the user changes happened and reload is required
