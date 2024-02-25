@@ -1,6 +1,27 @@
 # Changelog
 
 
+## v1.9.1
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.9.0...v1.9.1)
+
+### 🩹 Fixes
+
+- Android/assets/cypress/docs open folders ([6a0f920](https://github.com/catppuccin/vscode-icons/commit/6a0f920))
+
+### 📦 Build
+
+- New and cleaner icons CLI scripts ([a711f50](https://github.com/catppuccin/vscode-icons/commit/a711f50))
+- Icons/associations integrity check ([96e7e24](https://github.com/catppuccin/vscode-icons/commit/96e7e24))
+
+### 🏡 Chore
+
+- Bump dependencies ([a4fe485](https://github.com/catppuccin/vscode-icons/commit/a4fe485))
+
+### ❤️ Contributors
+
+- Prazdevs ([@prazdevs](http://github.com/prazdevs))
+
 ## v1.9.0
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.8.0...v1.9.0)
@@ -23,7 +44,6 @@
 
 ### ❤️ Contributors
 
-- Prazdevs ([@prazdevs](http://github.com/prazdevs))
 - PraZ ([@prazdevs](http://github.com/prazdevs))
 - Winston <hey@winston.sh>
 - _eyewave
