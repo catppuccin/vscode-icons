@@ -686,6 +686,7 @@ const fileIcons: Record<string, {
       '.env.staging.local',
       '.env.test.local',
       '.env.uat',
+      '.env.cat',
     ],
   },
   'erlang': {
