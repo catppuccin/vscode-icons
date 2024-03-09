@@ -2229,6 +2229,9 @@ const fileIcons: Record<string, {
       'svh',
     ],
   },
+  'vhs': {
+    fileExtensions: ['tape'],
+  },
   'video': {
     fileExtensions: [
       'webm',
