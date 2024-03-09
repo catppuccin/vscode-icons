@@ -635,6 +635,9 @@ const folderIcons: Record<string, {
       '.ci',
     ],
   },
+  'wxt': {
+    folderNames: ['.wxt'],
+  },
   'yarn': {
     folderNames: ['.yarn'],
   },

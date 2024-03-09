@@ -2535,6 +2535,12 @@ const fileIcons: Record<string, {
       'workflows/yaml',
     ],
   },
+  'wxt': {
+    fileNames: [
+      'wxt.config.js',
+      'wxt.config.ts',
+    ],
+  },
   'xaml': {
     fileExtensions: ['xaml'],
   },
