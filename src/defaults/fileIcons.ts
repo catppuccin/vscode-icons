@@ -2207,6 +2207,9 @@ const fileIcons: Record<string, {
       'v.mod',
     ],
   },
+  'vento': {
+    fileExtensions: ['vto'],
+  },
   'vercel': {
     fileNames: [
       'vercel.json',
