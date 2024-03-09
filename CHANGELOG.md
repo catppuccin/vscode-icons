@@ -1,6 +1,29 @@
 # Changelog
 
 
+## v1.10.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.9.1...v1.10.0)
+
+### 🚀 Enhancements
+
+- Vento file icon ([1bf4bb6](https://github.com/catppuccin/vscode-icons/commit/1bf4bb6))
+- Vhs/tape file icon ([180fa4e](https://github.com/catppuccin/vscode-icons/commit/180fa4e))
+- Wxt file and folder ([b5d3b6a](https://github.com/catppuccin/vscode-icons/commit/b5d3b6a))
+- Cargo file icons ([9d20bc7](https://github.com/catppuccin/vscode-icons/commit/9d20bc7))
+- .env.cat file association ([#118](https://github.com/catppuccin/vscode-icons/pull/118))
+- Asciidoc files ([5a07e62](https://github.com/catppuccin/vscode-icons/commit/5a07e62))
+
+### 🩹 Fixes
+
+- Add html extension association ([#112](https://github.com/catppuccin/vscode-icons/pull/112))
+
+### ❤️ Contributors
+
+- Prazdevs ([@prazdevs](http://github.com/prazdevs))
+- Elijah Olmos ([@elijaholmos](http://github.com/elijaholmos))
+- Quentin <git@arra.red>
+
 ## v1.9.1
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.9.0...v1.9.1)
@@ -44,7 +67,7 @@
 
 ### ❤️ Contributors
 
-- PraZ ([@prazdevs](http://github.com/prazdevs))
+- Prazdevs ([@prazdevs](http://github.com/prazdevs))
 - Winston <hey@winston.sh>
 - _eyewave
 
@@ -58,7 +81,7 @@
 
 ### ❤️ Contributors
 
-- PraZ ([@prazdevs](https://github.com/prazdevs))
+- Prazdevs ([@prazdevs](https://github.com/prazdevs))
 
 ## v1.7.0
 
@@ -78,7 +101,7 @@
 
 ### ❤️ Contributors
 
-- PraZ ([@prazdevs](https://github.com/prazdevs))
+- Prazdevs ([@prazdevs](https://github.com/prazdevs))
 
 ## v1.6.0
 
@@ -94,7 +117,7 @@
 
 ### ❤️ Contributors
 
-- PraZ ([@prazdevs](https://github.com/prazdevs))
+- Prazdevs ([@prazdevs](https://github.com/prazdevs))
 
 ## v1.5.0
 
@@ -114,7 +137,7 @@
 
 ### ❤️ Contributors
 
-- PraZ ([@prazdevs](https://github.com/prazdevs))
+- Prazdevs ([@prazdevs](https://github.com/prazdevs))
 
 ## v1.4.0
 
@@ -134,7 +157,7 @@
 
 ### ❤️ Contributors
 
-- PraZ ([@prazdevs](https://github.com/prazdevs))
+- Prazdevs ([@prazdevs](https://github.com/prazdevs))
 
 ## v1.3.0
 
@@ -146,7 +169,7 @@
 
 ### ❤️ Contributors
 
-- PraZ ([@prazdevs](https://github.com/prazdevs))
+- Prazdevs ([@prazdevs](https://github.com/prazdevs))
 
 ## v1.2.0
 
@@ -158,7 +181,7 @@
 
 ### ❤️ Contributors
 
-- PraZ ([@prazdevs](https://github.com/prazdevs))
+- Prazdevs ([@prazdevs](https://github.com/prazdevs))
 
 ## v1.1.0
 
@@ -175,7 +198,7 @@
 
 ### ❤️ Contributors
 
-- PraZ ([@prazdevs](https://github.com/prazdevs)) 
+- Prazdevs ([@prazdevs](https://github.com/prazdevs)) 
 
 ## v1.0.0
 
@@ -196,4 +219,4 @@
 
 ### ❤️ Contributors
 
-- PraZ ([@prazdevs](https://github.com/prazdevs))
+- Prazdevs ([@prazdevs](https://github.com/prazdevs))

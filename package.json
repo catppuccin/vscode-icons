@@ -3,7 +3,7 @@
   "name": "catppuccin-vsc-icons",
   "displayName": "Catppuccin Icons for VSCode",
   "type": "module",
-  "version": "1.9.1",
+  "version": "1.10.0",
   "private": true,
   "packageManager": "pnpm@8.15.4",
   "description": "🦊 Soothing pastel icon theme for VSCode",
