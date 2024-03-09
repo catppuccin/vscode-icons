@@ -248,6 +248,12 @@ const fileIcons: Record<string, {
       'capacitor.config.ts',
     ],
   },
+  'cargo': {
+    fileNames: ['cargo.toml'],
+  },
+  'cargo-lock': {
+    fileNames: ['cargo.lock'],
+  },
   'certificate': {
     fileExtensions: [
       'cer',
