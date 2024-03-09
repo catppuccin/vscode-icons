@@ -66,6 +66,9 @@ const fileIcons: Record<string, {
       'apollo.config.ts',
     ],
   },
+  'asciidoc': {
+    fileExtensions: ['adoc', 'asciidoc', 'asc'],
+  },
   'assembly': {
     fileExtensions: [
       'asm',
