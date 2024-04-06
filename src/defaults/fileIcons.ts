@@ -426,7 +426,7 @@ const fileIcons: Record<string, {
   },
   'd': {
     languageIds: ['d'],
-    fileExtensions: ['d'],
+    fileExtensions: ['d', 'di'],
   },
   'dart': {
     languageIds: ['dart'],
@@ -623,6 +623,12 @@ const fileIcons: Record<string, {
       'drawio',
       'dio',
     ],
+  },
+  'dub': {
+    fileNames: ['dub.json', 'dub.sdl'],
+  },
+  'dub-selections': {
+    fileNames: ['dub.selections.json'],
   },
   'editorconfig': {
     languageIds: ['editorconfig'],
