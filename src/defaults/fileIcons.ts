@@ -1572,6 +1572,12 @@ const fileIcons: Record<string, {
       '.phraseapp.yaml',
     ],
   },
+  'pixi': {
+    fileNames: ['pixi.toml'],
+  },
+  'pixi-lock': {
+    fileNames: ['pixi.lock'],
+  },
   'playwright': {
     fileNames: [
       'playwright.config.js',
