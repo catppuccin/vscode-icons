@@ -1836,6 +1836,9 @@ const fileIcons: Record<string, {
   'ruby-gem-lock': {
     fileNames: ['gemfile.lock'],
   },
+  'ruff': {
+    fileNames: ['ruff.toml', '.ruff.toml'],
+  },
   'rust': {
     languageIds: ['rust'],
     fileExtensions: [
