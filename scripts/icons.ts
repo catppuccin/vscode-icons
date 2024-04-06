@@ -84,7 +84,7 @@ async function optimizeIcons() {
  * Generates missing icons from existing ones from other palettes.
  * If an icon exists in `icons/latte`, it will create its counterparts for other palettes.
  */
-function generateIcons() {
+async function generateIcons() {
   const flavors = [
     'css-variables',
     'frappe',
@@ -98,7 +98,7 @@ function generateIcons() {
     let generated = 0
     for (const origin of flavors) {
       const originPath = resolve('icons', origin)
-      const originSvgs = readdirSync(originPath)
+      const originSvgs = await readdir(originPath)
 
       for (const dest of flavors.filter(f => f !== origin)) {
         const destPath = resolve('icons', dest)
@@ -271,7 +271,7 @@ if (argv.flags.all || argv.flags.optimize)
   await optimizeIcons()
 
 if (argv.flags.all || argv.flags.generate)
-  generateIcons()
+  await generateIcons()
 
 if (argv.flags.all || argv.flags.preview)
   await previewIcons()

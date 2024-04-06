@@ -986,6 +986,9 @@ const fileIcons: Record<string, {
     ],
     fileNames: ['CNAME'],
   },
+  'huff': {
+    fileExtensions: ['huff'],
+  },
   'husky': {
     fileNames: [
       '.huskyrc',
