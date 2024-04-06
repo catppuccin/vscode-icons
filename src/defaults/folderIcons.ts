@@ -69,6 +69,9 @@ const folderIcons: Record<string, {
       '.aws',
     ],
   },
+  'azure-pipelines': {
+    folderNames: ['.azure-pipelines'],
+  },
   'benchmark': {
     folderNames: [
       'benchmark',
