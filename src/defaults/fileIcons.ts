@@ -1332,6 +1332,9 @@ const fileIcons: Record<string, {
     fileExtensions: ['lua'],
     fileNames: ['.luacheckrc'],
   },
+  'luau': {
+    fileExtensions: ['luau'],
+  },
   'makefile': {
     languageIds: ['makefile'],
     fileExtensions: ['mk'],
