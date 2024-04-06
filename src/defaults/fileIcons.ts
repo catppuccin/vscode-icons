@@ -844,6 +844,9 @@ const fileIcons: Record<string, {
       'git-history',
     ],
   },
+  'git-cliff': {
+    fileNames: ['cliff.toml'],
+  },
   'gitlab': {
     fileExtensions: ['gitlab-ci.yml'],
   },
