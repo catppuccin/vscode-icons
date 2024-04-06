@@ -1,6 +1,27 @@
 # Changelog
 
 
+## v1.11.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.10.0...v1.11.0)
+
+### 🚀 Enhancements
+
+- Supercollider icon ([a5d7196](https://github.com/catppuccin/vscode-icons/commit/a5d7196))
+- Huff icon ([e762f30](https://github.com/catppuccin/vscode-icons/commit/e762f30))
+- Ruff icon ([6fedbb2](https://github.com/catppuccin/vscode-icons/commit/6fedbb2))
+- Git cliff icon ([08b9f08](https://github.com/catppuccin/vscode-icons/commit/08b9f08))
+- Pixi icons ([5fc81c5](https://github.com/catppuccin/vscode-icons/commit/5fc81c5))
+- Azure pipeliens folder ([3e59d2b](https://github.com/catppuccin/vscode-icons/commit/3e59d2b))
+- Luau icon ([77dc8f3](https://github.com/catppuccin/vscode-icons/commit/77dc8f3))
+- Gleam icons ([509ec9c](https://github.com/catppuccin/vscode-icons/commit/509ec9c))
+- Dub icons ([c31fdf8](https://github.com/catppuccin/vscode-icons/commit/c31fdf8))
+- Nuxtrc icon ([a626dc5](https://github.com/catppuccin/vscode-icons/commit/a626dc5))
+
+### ❤️ Contributors
+
+- Prazdevs ([@prazdevs](http://github.com/prazdevs))
+
 ## v1.10.0
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.9.1...v1.10.0)
