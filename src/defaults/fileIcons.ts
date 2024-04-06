@@ -1528,6 +1528,7 @@ const fileIcons: Record<string, {
   },
   'nuxt': {
     fileNames: [
+      '.nuxtrc',
       'nuxt.config.js',
       'nuxt.config.ts',
     ],
