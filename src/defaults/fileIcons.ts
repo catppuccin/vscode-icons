@@ -853,6 +853,13 @@ const fileIcons: Record<string, {
   'gitpod': {
     fileNames: ['.gitpod.yml'],
   },
+  'gleam': {
+    fileExtensions: ['gleam'],
+    languageIds: ['gleam'],
+  },
+  'gleam-config': {
+    fileNames: ['gleam.toml'],
+  },
   'go': {
     languageIds: ['go'],
     fileExtensions: ['go'],
