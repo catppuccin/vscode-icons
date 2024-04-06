@@ -65,7 +65,7 @@ async function optimizeIcons() {
           'removeXMLProcInst',
           'sortAttrs',
           'sortDefsChildren',
-        ] })
+        ], multipass: true })
         await writeFile(
           svgPath,
           svg.toPrettyString()
@@ -84,7 +84,7 @@ async function optimizeIcons() {
  * Generates missing icons from existing ones from other palettes.
  * If an icon exists in `icons/latte`, it will create its counterparts for other palettes.
  */
-async function generateIcons() {
+function generateIcons() {
   const flavors = [
     'css-variables',
     'frappe',
@@ -103,7 +103,7 @@ async function generateIcons() {
       for (const dest of flavors.filter(f => f !== origin)) {
         const destPath = resolve('icons', dest)
         const destSvgs = readdirSync(destPath)
-        originSvgs.filter(s => !destSvgs.includes(s)).forEach(async (i) => {
+        originSvgs.filter(s => !destSvgs.includes(s)).forEach((i) => {
           const svg = new SVG(readFileSync(resolve(originPath, i), 'utf8'))
           parseColors(svg, {
             callback(attr, color) {
@@ -271,7 +271,7 @@ if (argv.flags.all || argv.flags.optimize)
   await optimizeIcons()
 
 if (argv.flags.all || argv.flags.generate)
-  await generateIcons()
+  generateIcons()
 
 if (argv.flags.all || argv.flags.preview)
   await previewIcons()

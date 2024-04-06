@@ -2036,6 +2036,9 @@ const fileIcons: Record<string, {
       'sublime-workspace',
     ],
   },
+  'super-collider': {
+    fileExtensions: ['sc', 'scd'],
+  },
   'svelte': {
     languageIds: ['svelte'],
     fileExtensions: ['svelte'],
