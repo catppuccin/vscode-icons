@@ -6,7 +6,7 @@
 		<path stroke="#e64553" stroke-linecap="round" stroke-linejoin="round" d="M10.5204 15.3782C9.992 15.2447 9.49645 15.0047 9.06416 14.6728M7.83342 13.0988C7.6135 12.5945 7.5 12.0502 7.5 11.5" />
 		<defs>
 			<radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="matrix(0 8.03571 -8.85135 0 11.5 7.643)" gradientUnits="userSpaceOnUse">
-				<stop stop-color="#1e66f5" />
+				<stop offset=".7" stop-color="#1e66f5" />
 				<stop offset="1" stop-color="#e64553" />
 			</radialGradient>
 		</defs>
