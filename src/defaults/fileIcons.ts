@@ -1394,6 +1394,9 @@ const fileIcons: Record<string, {
     ],
     fileExtensions: ['wrap'],
   },
+  'midi': {
+    fileNames: ['mid', 'midi'],
+  },
   'mjml': {
     fileExtensions: ['mjml'],
     fileNames: ['.mjmlconfig'],
