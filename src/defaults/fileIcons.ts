@@ -1210,6 +1210,9 @@ const fileIcons: Record<string, {
       '.whitesource',
     ],
   },
+  'json-schema': {
+    fileNames: ['schema.json'],
+  },
   'julia': {
     languageIds: ['julia'],
     fileExtensions: ['jl'],
