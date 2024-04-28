@@ -573,6 +573,11 @@ const folderIcons: Record<string, {
       'specs',
     ],
   },
+  'turbo': {
+    folderNames: [
+      '.turbo',
+    ],
+  },
   'types': {
     folderNames: [
       'typings',

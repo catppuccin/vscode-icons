@@ -2150,6 +2150,11 @@ const fileIcons: Record<string, {
     languageIds: ['toml'],
     fileExtensions: ['toml'],
   },
+  'turbo': {
+    fileNames: [
+      'turbo.json',
+    ],
+  },
   'twig': {
     languageIds: ['twig'],
     fileExtensions: ['twig'],
