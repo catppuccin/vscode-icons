@@ -1211,7 +1211,6 @@ const fileIcons: Record<string, {
     ],
   },
   'json-schema': {
-    fileNames: ['schema.json'],
     fileExtensions: ['schema.json'],
   },
   'julia': {
