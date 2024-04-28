@@ -2001,6 +2001,9 @@ const fileIcons: Record<string, {
       'sonarcloud.yaml',
     ],
   },
+  'spwn': {
+    fileExtensions: ['spwn'],
+  },
   'stackblitz': {
     fileNames: ['.stackblitzrc'],
   },
