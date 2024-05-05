@@ -69,6 +69,9 @@ const folderIcons: Record<string, {
       '.aws',
     ],
   },
+  'azure-devops': {
+    folderNames: ['.azure-devops', '.azuredevops'],
+  },
   'azure-pipelines': {
     folderNames: ['.azure-pipelines'],
   },
