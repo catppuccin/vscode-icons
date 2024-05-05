@@ -418,6 +418,9 @@ const folderIcons: Record<string, {
   'next': {
     folderNames: ['.next'],
   },
+  'nix': {
+    folderNames: ['nix'],
+  },
   'node': {
     folderNames: ['node_modules'],
   },
