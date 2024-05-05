@@ -2687,6 +2687,9 @@ const fileIcons: Record<string, {
   'yarn-lock': {
     fileNames: ['yarn.lock'],
   },
+  'zap': {
+    fileExtensions: ['zap'],
+  },
   'zig': {
     fileExtensions: ['zig'],
   },
