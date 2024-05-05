@@ -1,6 +1,52 @@
 # Changelog
 
 
+## v1.12.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.11.0...v1.12.0)
+
+### 🚀 Enhancements
+
+- Spwn icon ([#144](https://github.com/catppuccin/vscode-icons/pull/144))
+- Midi icon ([#145](https://github.com/catppuccin/vscode-icons/pull/145))
+- Json schema icon ([#149](https://github.com/catppuccin/vscode-icons/pull/149))
+- Turborepo file + folder icons ([#143](https://github.com/catppuccin/vscode-icons/pull/143))
+- Humans txt icon ([#135](https://github.com/catppuccin/vscode-icons/pull/135), [#150](https://github.com/catppuccin/vscode-icons/pull/150))
+- Add java alt icons ([8f8d319](https://github.com/catppuccin/vscode-icons/commit/8f8d319))
+- Angular icons (require custom associations) ([215be97](https://github.com/catppuccin/vscode-icons/commit/215be97))
+- Azure devops folder icon ([1e2ac09](https://github.com/catppuccin/vscode-icons/commit/1e2ac09))
+- Ansible-lint icon ([ed5a3fa](https://github.com/catppuccin/vscode-icons/commit/ed5a3fa))
+- Salesforce apex class icon ([6236014](https://github.com/catppuccin/vscode-icons/commit/6236014))
+- Add nix folder icons ([#154](https://github.com/catppuccin/vscode-icons/pull/154))
+- Add cspell icon ([1d0f6d5](https://github.com/catppuccin/vscode-icons/commit/1d0f6d5))
+- Add zap icon ([c5efbdd](https://github.com/catppuccin/vscode-icons/commit/c5efbdd))
+- Solid icon (requires custom association) ([bdd6b6e](https://github.com/catppuccin/vscode-icons/commit/bdd6b6e))
+- Bazel icon ([cc99273](https://github.com/catppuccin/vscode-icons/commit/cc99273))
+- Add nest alt icons (require custom associations) ([ea17069](https://github.com/catppuccin/vscode-icons/commit/ea17069))
+- Typst icon ([307eb09](https://github.com/catppuccin/vscode-icons/commit/307eb09))
+- Taskfile icon ([9fd804f](https://github.com/catppuccin/vscode-icons/commit/9fd804f))
+- Plantuml icon ([42945fb](https://github.com/catppuccin/vscode-icons/commit/42945fb))
+
+### 🩹 Fixes
+
+- Json schema extension ([205d500](https://github.com/catppuccin/vscode-icons/commit/205d500))
+- Security + assembly icon viewbox ([5f6a4fb](https://github.com/catppuccin/vscode-icons/commit/5f6a4fb))
+
+### 📖 Documentation
+
+- Fix typo ([#155](https://github.com/catppuccin/vscode-icons/pull/155))
+
+### 🏡 Chore
+
+- Optimize icons ([#153](https://github.com/catppuccin/vscode-icons/pull/153))
+
+### ❤️ Contributors
+
+- Prazdevs ([@prazdevs](http://github.com/prazdevs))
+- Uncenter ([@uncenter](http://github.com/uncenter))
+- _eyewave ([@eye-wave](http://github.com/eye-wave))
+- PraZ ([@prazdevs](http://github.com/prazdevs))
+
 ## v1.11.0
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.10.0...v1.11.0)
