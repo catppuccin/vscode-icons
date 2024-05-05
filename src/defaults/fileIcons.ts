@@ -208,6 +208,10 @@ const fileIcons: Record<string, {
       'cmd',
     ],
   },
+  'bazel': {
+    fileExtensions: ['bzl', 'bazel'],
+    fileNames: ['.bazelrc'],
+  },
   'binary': {
     languageIds: ['code-text-binary'],
     fileExtensions: ['bin'],
