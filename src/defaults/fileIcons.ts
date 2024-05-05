@@ -396,6 +396,20 @@ const fileIcons: Record<string, {
       'csharp',
     ],
   },
+  'cspell': {
+    fileNames: [
+      'cspell.json',
+      'cspell.yml',
+      'cspell.yaml',
+      '.cspell.json',
+      '.cspell.yml',
+      '.cspell.yaml',
+      'cspell.config.js',
+      'cspell.config.cjs',
+      'cspell.config.yml',
+      'cspell.config.yaml',
+    ],
+  },
   'css': {
     languageIds: ['css'],
     fileExtensions: ['css'],
