@@ -51,6 +51,15 @@ const fileIcons: Record<string, {
       'dex',
     ],
   },
+  'angular': {
+    fileExtensions: ['ng-template'],
+    fileNames: [
+      'angular-cli.json',
+      '.angular-cli.json',
+      'angular.json',
+      'ng-package.json',
+    ],
+  },
   'antlr': {
     fileExtensions: ['g4'],
   },
