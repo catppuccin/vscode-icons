@@ -2279,6 +2279,10 @@ const fileIcons: Record<string, {
       'cy.tsx',
     ],
   },
+  'typst': {
+    languageIds: ['typst'],
+    fileExtensions: ['typ'],
+  },
   'unity': {
     languageIds: ['shaderlab'],
     fileExtensions: ['unity'],
