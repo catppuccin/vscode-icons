@@ -1897,6 +1897,9 @@ const fileIcons: Record<string, {
       'ron',
     ],
   },
+  'salesforce': {
+    fileExtensions: ['cls'],
+  },
   'sass': {
     languageIds: [
       'sass',
