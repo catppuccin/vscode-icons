@@ -1638,6 +1638,9 @@ const fileIcons: Record<string, {
   'pixi-lock': {
     fileNames: ['pixi.lock'],
   },
+  'plantuml': {
+    fileExtensions: ['pu', 'puml', 'plantuml'],
+  },
   'playwright': {
     fileNames: [
       'playwright.config.js',
