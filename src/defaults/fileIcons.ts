@@ -2152,6 +2152,15 @@ const fileIcons: Record<string, {
       'tailwind.config.mts',
     ],
   },
+  'taskfile': {
+    fileNames: [
+      'taskfile.yml',
+      'taskfile.yaml',
+      'taskfile.dist.yml',
+      'taskfile.yaml',
+      'taskfile.dist.yaml',
+    ],
+  },
   'tauri': {
     fileNames: [
       'tauri.conf.json',
