@@ -60,6 +60,13 @@ const fileIcons: Record<string, {
       'ng-package.json',
     ],
   },
+  'ansible-lint': {
+    fileNames: [
+      '.ansible-lint',
+      'ansible-lint.yml',
+      'ansible-lint.yaml',
+    ],
+  },
   'antlr': {
     fileExtensions: ['g4'],
   },
