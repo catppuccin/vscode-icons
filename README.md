@@ -74,7 +74,7 @@ We provide some options to further customize your catppuccin experience:
   "catppuccin-icons.specificFolders": true,
 
   // set this to true to only use `Text` color for all icons
-  "catpuccin-icons.monochrome": false
+  "catppuccin-icons.monochrome": false
 }
 ```
 
