@@ -43,8 +43,8 @@
 
 ## Usage
 
-> [!NOTE]
-> We also have a [Catppuccin theme for the rest of VSCode/VSCodium](https://github.com/catppuccin/vscode)!
+> [!TIP]
+> We also have [a Catppuccin theme for the rest of VSCode/VSCodium](https://github.com/catppuccin/vscode), as well as [a Catppuccin theme that brings these icons right into GitHub](https://github.com/catppuccin/github-file-explorer-icons).
 
 ### Marketplace
 
