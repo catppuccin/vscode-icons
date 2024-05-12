@@ -2024,6 +2024,9 @@ const fileIcons: Record<string, {
       'wgsl',
     ],
   },
+  'shortcut': {
+    fileExtensions: ['lnk', 'webloc', 'alias', 'desktop'],
+  },
   'sketch': {
     fileExtensions: ['sketch'],
   },
