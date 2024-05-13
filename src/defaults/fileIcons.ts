@@ -2401,6 +2401,16 @@ const fileIcons: Record<string, {
       'vcxproj.filters',
     ],
   },
+  'vital': {
+    fileExtensions: [
+      'vital',
+      'vitalbank',
+      'vitallfo',
+      'vitalskin',
+      'vitaltable',
+      'vitaltheme',
+    ],
+  },
   'vite': {
     fileNames: [
       'vite.config.js',
