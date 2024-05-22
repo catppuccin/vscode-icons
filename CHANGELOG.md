@@ -1,6 +1,29 @@
 # Changelog
 
 
+## v1.13.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.12.0...v1.13.0)
+
+### 🚀 Enhancements
+
+- Vital icons ([#159](https://github.com/catppuccin/vscode-icons/pull/159))
+- Apple file icons ([bd9e725](https://github.com/catppuccin/vscode-icons/commit/bd9e725))
+- Add amber files ([0992918](https://github.com/catppuccin/vscode-icons/commit/0992918))
+- Add fastlane folder ([ee7d193](https://github.com/catppuccin/vscode-icons/commit/ee7d193))
+- Add stata icons ([8a52dc4](https://github.com/catppuccin/vscode-icons/commit/8a52dc4))
+- Add caddy folder ([35a1fe2](https://github.com/catppuccin/vscode-icons/commit/35a1fe2))
+
+### 📖 Documentation
+
+- Various improvements ([#157](https://github.com/catppuccin/vscode-icons/pull/157))
+
+### ❤️ Contributors
+
+- Prazdevs ([@prazdevs](http://github.com/prazdevs))
+- _eyewave ([@eye-wave](http://github.com/eye-wave))
+- Uncenter ([@uncenter](http://github.com/uncenter))
+
 ## v1.12.0
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.11.0...v1.12.0)
@@ -45,7 +68,6 @@
 - Prazdevs ([@prazdevs](http://github.com/prazdevs))
 - Uncenter ([@uncenter](http://github.com/uncenter))
 - _eyewave ([@eye-wave](http://github.com/eye-wave))
-- PraZ ([@prazdevs](http://github.com/prazdevs))
 
 ## v1.11.0
 
