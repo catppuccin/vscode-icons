@@ -2066,6 +2066,9 @@ const fileIcons: Record<string, {
   'stackblitz': {
     fileNames: ['.stackblitzrc'],
   },
+  'stata': {
+    fileExtensions: ['ado', 'do', 'dta'],
+  },
   'stencil': {
     fileNames: [
       'stencil.config.js',
