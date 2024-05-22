@@ -268,6 +268,9 @@ const folderIcons: Record<string, {
       'sample-data',
     ],
   },
+  'fastlane': {
+    folderNames: ['fastlane', '.fastlane'],
+  },
   'firebase': {
     folderNames: [
       'firebase',
