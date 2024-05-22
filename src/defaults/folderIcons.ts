@@ -85,6 +85,14 @@ const folderIcons: Record<string, {
       'measurement',
     ],
   },
+  'caddy': {
+    folderNames: [
+      '.caddy',
+      '.caddyfiles',
+      'caddy',
+      'caddyfiles',
+    ],
+  },
   'circle-ci': {
     folderNames: ['.circleci'],
   },
