@@ -43,6 +43,10 @@ const fileIcons: Record<string, {
       '.alexrc.js',
     ],
   },
+  'amber': {
+    languageIds: ['amber'],
+    fileExtensions: ['ab', 'amber'],
+  },
   'android': {
     fileNames: ['androidmanifest.xml'],
     fileExtensions: [
