@@ -82,6 +82,12 @@ const fileIcons: Record<string, {
       'apollo.config.ts',
     ],
   },
+  'apple': {
+    fileNames: [
+      '.ds_store',
+      'apple-app-site-association',
+    ],
+  },
   'asciidoc': {
     fileExtensions: ['adoc', 'asciidoc', 'asc'],
   },
