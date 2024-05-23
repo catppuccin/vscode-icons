@@ -922,6 +922,16 @@ const fileIcons: Record<string, {
       'go.work.sum',
     ],
   },
+  'go-template': {
+    fileExtensions: [
+      'tmpl',
+      'templ',
+      'gotmpl',
+      'gohtml',
+      'go.tmp',
+      'go.html',
+    ],
+  },
   'godot': {
     languageIds: ['gdscript'],
     fileExtensions: ['gd'],
