@@ -69,7 +69,7 @@ async function optimizeIcons() {
         await writeFile(
           svgPath,
           svg.toPrettyString()
-            .replaceAll(/#[A-Fa-f0-9]{6}/g, s => s.toLowerCase()),
+            .replaceAll(/#[A-F0-9]{6}/gi, s => s.toLowerCase()),
         )
       }))
     }))
