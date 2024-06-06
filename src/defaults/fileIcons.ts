@@ -811,6 +811,7 @@ const fileIcons: Record<string, {
     fileNames: [
       '.flutter-plugins',
       '.flutter-plugins-dependencies',
+      '.metadata',
     ],
   },
   'font': {
