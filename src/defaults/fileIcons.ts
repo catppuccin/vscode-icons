@@ -807,6 +807,13 @@ const fileIcons: Record<string, {
       'firestore.indexes.json',
     ],
   },
+  'flutter': {
+    fileNames: [
+      '.flutter-plugins',
+      '.flutter-plugins-dependencies',
+      '.metadata',
+    ],
+  },
   'font': {
     fileExtensions: [
       'woff',
