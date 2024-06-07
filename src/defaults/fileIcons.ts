@@ -2459,6 +2459,9 @@ const fileIcons: Record<string, {
       'vitest.config.js',
       'vitest.config.mjs',
       'vitest.config.cjs',
+      'vitest.workspace.js',
+      'vitest.workspace.ts',
+      'vitest.workspace.json',
     ],
   },
   'vs-codium': {
