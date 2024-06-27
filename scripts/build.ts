@@ -2,12 +2,12 @@
  * Build themes and extension.
  */
 
-import { cp, readdir, writeFile } from 'node:fs/promises'
+import { cp, readdir, rm, writeFile } from 'node:fs/promises'
+import { existsSync } from 'node:fs'
 import { basename, join } from 'node:path'
 import { exit } from 'node:process'
 import { flavorEntries } from '@catppuccin/palette'
 import { build } from 'tsup'
-import { rimraf } from 'rimraf'
 import { consola } from 'consola'
 import { compileTheme } from '~/utils/themes'
 
@@ -18,7 +18,8 @@ try {
   consola.info('Deleting previous build...')
 
   // cleanup
-  await rimraf(DIST)
+  if (existsSync(DIST))
+    await rm(DIST, { recursive: true })
 
   consola.success('Deleted previous build.')
 }

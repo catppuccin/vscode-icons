@@ -3,11 +3,11 @@
  */
 
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs'
-import { readFile, readdir, writeFile } from 'node:fs/promises'
+import { mkdtemp, readFile, readdir, realpath, rm, writeFile } from 'node:fs/promises'
+import { tmpdir } from 'node:os'
 import { join, resolve } from 'node:path'
 import { type FlavorName, flavorEntries, flavors } from '@catppuccin/palette'
 import { SVG, cleanupSVG, parseColors, runSVGO } from '@iconify/tools'
-import { temporaryDirectoryTask } from 'tempy'
 import { cli } from 'cleye'
 import { consola } from 'consola'
 import { launch } from 'puppeteer'
@@ -210,23 +210,25 @@ async function previewIcons() {
     `
     }
 
-    await temporaryDirectoryTask(async (tmp) => {
-      await Promise.all(flavorEntries.map(async ([flavor]) => {
-        const htmlPath = join(tmp, `${flavor}.html`)
-        const screenshotPath = join('assets', `${flavor}.webp`)
-        await writeFile(htmlPath, generateHtml(flavor))
-        const browser = await launch()
-        const page = await browser.newPage()
-        await page.goto(join('file:', htmlPath))
-        await page.screenshot({
-          type: 'webp',
-          path: screenshotPath,
-          fullPage: true,
-          omitBackground: true,
-        })
-        await browser.close()
-      }))
-    })
+    const tmp = await mkdtemp(join(await realpath(tmpdir())))
+
+    await Promise.all(flavorEntries.map(async ([flavor]) => {
+      const htmlPath = join(tmp, `${flavor}.html`)
+      const screenshotPath = join('assets', `${flavor}.webp`)
+      await writeFile(htmlPath, generateHtml(flavor))
+      const browser = await launch()
+      const page = await browser.newPage()
+      await page.goto(join('file:', htmlPath))
+      await page.screenshot({
+        type: 'webp',
+        path: screenshotPath,
+        fullPage: true,
+        omitBackground: true,
+      })
+      await browser.close()
+    }))
+
+    await rm(tmp, { recursive: true })
 
     consola.success('Previews generated.')
   }
