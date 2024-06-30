@@ -2255,7 +2255,11 @@ const fileIcons: Record<string, {
   },
   'typescript': {
     languageIds: ['typescript'],
-    fileExtensions: ['ts'],
+    fileExtensions: [
+      'ts',
+      'cts',
+      'mts',
+    ],
   },
   'typescript-config': {
     fileNames: [
