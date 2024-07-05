@@ -119,7 +119,10 @@
   "scripts": {
     "build": "tsx scripts/build.ts",
     "catwalk": "tsx scripts/catwalk.ts",
-    "icons": "tsx scripts/icons.ts",
+    "icons:generate": "tsx scripts/icons/generate.ts",
+    "icons:optimize": "tsx scripts/icons/optimize.ts",
+    "icons:preview": "tsx scripts/icons/preview.ts",
+    "icons": "pnpm run '/^icons:.*/'",
     "integrity": "tsx scripts/integrity.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
