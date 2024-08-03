@@ -791,6 +791,7 @@ const fileIcons: Record<string, {
     fileNames: [
       'fastfile',
       'appfile',
+      'snapfile',
     ],
   },
   'favicon': {
