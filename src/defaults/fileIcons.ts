@@ -2328,6 +2328,7 @@ const fileIcons: Record<string, {
   'typst': {
     languageIds: ['typst'],
     fileExtensions: ['typ'],
+    fileNames: ['typst.toml'],
   },
   'unity': {
     languageIds: ['shaderlab'],
