@@ -39,8 +39,8 @@ export function getThemePaths(context: ExtensionContext): ThemePaths {
   const root = getRootPath(context)
   return {
     frappe: {
-      icons: Uri.joinPath(root, 'latte', 'icons'),
-      theme: Uri.joinPath(root, 'latte', 'theme.json'),
+      icons: Uri.joinPath(root, 'frappe', 'icons'),
+      theme: Uri.joinPath(root, 'frappe', 'theme.json'),
     },
     latte: {
       icons: Uri.joinPath(root, 'latte', 'icons'),
