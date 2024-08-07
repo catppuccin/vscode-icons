@@ -79,6 +79,8 @@ const folderIcons: Record<string, {
     folderNames: [
       'benchmark',
       'benchmarks',
+      'bench',
+      'benches',
       'performance',
       'measure',
       'measures',
