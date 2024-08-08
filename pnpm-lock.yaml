@@ -48,8 +48,8 @@ importers:
         specifier: ^1.2.2
         version: 1.2.2
       puppeteer:
-        specifier: ^22.12.1
-        version: 22.12.1(typescript@5.5.4)
+        specifier: ^23.0.0
+        version: 23.0.2(typescript@5.5.4)
       simple-git-hooks:
         specifier: ^2.11.1
         version: 2.11.1
@@ -181,10 +181,6 @@ packages:
 
   '@babel/helper-string-parser@7.24.8':
     resolution: {integrity: sha512-pO9KhhRcuUyGnJWwyEgnRJTSIZHiT+vMD0kPeD+so0l7mxkMT19g3pjY9GTnHySck/hDzq+dtW/4VgnMkippsQ==}
-    engines: {node: '>=6.9.0'}
-
-  '@babel/helper-validator-identifier@7.24.5':
-    resolution: {integrity: sha512-3q93SSKX2TWCG30M2G2kwaKeTYgEUp5Snjuj8qm729SObL6nbtUldAi37qbxkD5gg3xnBio+f9nqpSepGZMvxA==}
     engines: {node: '>=6.9.0'}
 
   '@babel/helper-validator-identifier@7.24.7':
@@ -594,8 +590,8 @@ packages:
     resolution: {integrity: sha512-cq8o4cWH0ibXh9VGi5P20Tu9XF/0fFXl9EUinr9QfTM7a7p0oTA4iJRCQWppXR1Pg8dSM0UCItCkPwsk9qWWYA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@puppeteer/browsers@2.2.3':
-    resolution: {integrity: sha512-bJ0UBsk0ESOs6RFcLXOt99a3yTDcOKlzfjad+rhFwdaG1Lu/Wzq58GHYCDTlZ9z6mldf4g+NTb+TXEfe0PpnsQ==}
+  '@puppeteer/browsers@2.3.0':
+    resolution: {integrity: sha512-ioXoq9gPxkss4MYhD+SFaU9p1IHFUX0ILAWFPyjGaBdjLsYAlZw6j1iLA0N/m12uVHLFDfSYNF7EQccjinIMDA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1122,8 +1118,8 @@ packages:
     resolution: {integrity: sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==}
     engines: {node: '>=10'}
 
-  chromium-bidi@0.5.24:
-    resolution: {integrity: sha512-5xQNN2SVBdZv4TxeMLaI+PelrnZsHDhn8h2JtyriLr+0qHcZS8BMuo93qN6J1VmtmrgYP+rmcLHcbpnA8QJh+w==}
+  chromium-bidi@0.6.4:
+    resolution: {integrity: sha512-8zoq6ogmhQQkAKZVKO2ObFTl4uOkqoX1PlKQX3hZQ5E9cbUotcAb7h4pTNVAGGv8Z36PF3CtdOriEp/Rz82JqQ==}
     peerDependencies:
       devtools-protocol: '*'
 
@@ -1268,15 +1264,6 @@ packages:
       supports-color:
         optional: true
 
-  debug@4.3.5:
-    resolution: {integrity: sha512-pt0bNEmneDIvdL1Xsd9oDQ/wrQRkXDT4AUWlNZNPKvW5x/jyO9VFXkJUP07vQ2upmw5PlaITaPKc31jK13V+jg==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-
   debug@4.3.6:
     resolution: {integrity: sha512-O/09Bd4Z1fBrU4VzkhFqVgpPzaGbw6Sm9FEkBT1A/YBXQFGuuSxa1dN2nxgxS34JmKXqYx8CZAwEVoJFImUXIg==}
     engines: {node: '>=6.0'}
@@ -1335,8 +1322,8 @@ packages:
     resolution: {integrity: sha512-UX6sGumvvqSaXgdKGUsgZWqcUyIXZ/vZTrlRT/iobiKhGL0zL4d3osHj3uqllWJK+i+sixDS/3COVEOFbupFyw==}
     engines: {node: '>=8'}
 
-  devtools-protocol@0.0.1299070:
-    resolution: {integrity: sha512-+qtL3eX50qsJ7c+qVyagqi7AWMoQCBGNfoyJZMwm/NSXVqLYbuitrWEEIzxfUmTNy7//Xe8yhMmQ+elj3uAqSg==}
+  devtools-protocol@0.0.1312386:
+    resolution: {integrity: sha512-DPnhUXvmvKT2dFA/j7B+riVLUt9Q6RKJlcppojL5CoRywJJKLDYnRlw0gTFKfgDPHP5E04UoB71SxoJlVZy8FA==}
 
   dir-glob@3.0.1:
     resolution: {integrity: sha512-WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA==}
@@ -2618,12 +2605,12 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  puppeteer-core@22.12.1:
-    resolution: {integrity: sha512-XmqeDPVdC5/3nGJys1jbgeoZ02wP0WV1GBlPtr/ULRbGXJFuqgXMcKQ3eeNtFpBzGRbpeoCGWHge1ZWKWl0Exw==}
+  puppeteer-core@23.0.2:
+    resolution: {integrity: sha512-MvOHn+g1TYkAR2oVd/bf/YWXKqFTJmkhyyurYgxkrjh8rBOL1ZH5VyOsLJi0bLO7/yoipAmk1gFZEx9HUJnaoA==}
     engines: {node: '>=18'}
 
-  puppeteer@22.12.1:
-    resolution: {integrity: sha512-1GxY8dnEnHr1SLzdSDr0FCjM6JQfAh2E2I/EqzeF8a58DbGVk9oVjj4lFdqNoVbpgFSpAbz7VER9St7S1wDpNg==}
+  puppeteer@23.0.2:
+    resolution: {integrity: sha512-I/l1P8s8brcLG+oW9AwF8hUaOSGGJcGKMflXRgULUH0S3ABptlLI9ZKjqWDo8ipY6v789ZKd+bNKtcCwpTh5Ww==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -2749,13 +2736,13 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  semver@7.6.0:
-    resolution: {integrity: sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==}
+  semver@7.6.2:
+    resolution: {integrity: sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==}
     engines: {node: '>=10'}
     hasBin: true
 
-  semver@7.6.2:
-    resolution: {integrity: sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==}
+  semver@7.6.3:
+    resolution: {integrity: sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -2946,8 +2933,8 @@ packages:
   tar-fs@2.1.1:
     resolution: {integrity: sha512-V0r2Y9scmbDRLCNex/+hYzvp/zyYjvFbHPNgVTKfQvVrb6guiE/fxP+XblDNR011utopbkex2nM4dHNV6GDsng==}
 
-  tar-fs@3.0.5:
-    resolution: {integrity: sha512-JOgGAmZyMgbqpLwct7ZV8VzkEB6pxXFBVErLtb+XCOqzc6w1xiWKI9GVd6bwk68EX7eJ4DWmfXVmq8K2ziZTGg==}
+  tar-fs@3.0.6:
+    resolution: {integrity: sha512-iokBDQQkUyeXhgPYaZxmczGPhnhXZ0CmrqI+MOb/WFGS9DW5wnfrLgtjUJBvz50vQ3qfRwJ62QVoCFu8mPVu5w==}
 
   tar-stream@2.2.0:
     resolution: {integrity: sha512-ujeqbceABgwMZxEJnk2HDY2DlnUZ+9oEcb1KzTVfYHio0UE6dG71n60d8D2I4qNvleWrrXpmjpt7vZeF1LnMZQ==}
@@ -3168,8 +3155,8 @@ packages:
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
-  ws@8.17.1:
-    resolution: {integrity: sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==}
+  ws@8.18.0:
+    resolution: {integrity: sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -3394,13 +3381,11 @@ snapshots:
 
   '@babel/helper-string-parser@7.24.8': {}
 
-  '@babel/helper-validator-identifier@7.24.5': {}
-
   '@babel/helper-validator-identifier@7.24.7': {}
 
   '@babel/highlight@7.23.4':
     dependencies:
-      '@babel/helper-validator-identifier': 7.24.5
+      '@babel/helper-validator-identifier': 7.24.7
       chalk: 2.4.2
       js-tokens: 4.0.0
 
@@ -3703,14 +3688,14 @@ snapshots:
 
   '@pkgr/core@0.1.1': {}
 
-  '@puppeteer/browsers@2.2.3':
+  '@puppeteer/browsers@2.3.0':
     dependencies:
-      debug: 4.3.4
+      debug: 4.3.6
       extract-zip: 2.0.1
       progress: 2.0.3
       proxy-agent: 6.4.0
-      semver: 7.6.0
-      tar-fs: 3.0.5
+      semver: 7.6.3
+      tar-fs: 3.0.6
       unbzip2-stream: 1.4.3
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -3872,7 +3857,7 @@ snapshots:
       '@typescript-eslint/types': 7.14.1
       '@typescript-eslint/typescript-estree': 7.14.1(typescript@5.5.4)
       '@typescript-eslint/visitor-keys': 7.14.1
-      debug: 4.3.4
+      debug: 4.3.6
       eslint: 9.5.0
     optionalDependencies:
       typescript: 5.5.4
@@ -3924,7 +3909,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 7.14.1
       '@typescript-eslint/visitor-keys': 7.14.1
-      debug: 4.3.4
+      debug: 4.3.6
       globby: 11.1.0
       is-glob: 4.0.3
       minimatch: 9.0.4
@@ -4077,7 +4062,7 @@ snapshots:
 
   agent-base@7.1.0:
     dependencies:
-      debug: 4.3.4
+      debug: 4.3.6
     transitivePeerDependencies:
       - supports-color
 
@@ -4339,9 +4324,9 @@ snapshots:
 
   chownr@2.0.0: {}
 
-  chromium-bidi@0.5.24(devtools-protocol@0.0.1299070):
+  chromium-bidi@0.6.4(devtools-protocol@0.0.1312386):
     dependencies:
-      devtools-protocol: 0.0.1299070
+      devtools-protocol: 0.0.1312386
       mitt: 3.0.1
       urlpattern-polyfill: 10.0.0
       zod: 3.23.8
@@ -4467,10 +4452,6 @@ snapshots:
     dependencies:
       ms: 2.1.2
 
-  debug@4.3.5:
-    dependencies:
-      ms: 2.1.2
-
   debug@4.3.6:
     dependencies:
       ms: 2.1.2
@@ -4522,7 +4503,7 @@ snapshots:
   detect-libc@2.0.2:
     optional: true
 
-  devtools-protocol@0.0.1299070: {}
+  devtools-protocol@0.0.1312386: {}
 
   dir-glob@3.0.1:
     dependencies:
@@ -4713,7 +4694,7 @@ snapshots:
   eslint-plugin-import-x@0.5.2(eslint@9.5.0)(typescript@5.5.4):
     dependencies:
       '@typescript-eslint/utils': 7.10.0(eslint@9.5.0)(typescript@5.5.4)
-      debug: 4.3.4
+      debug: 4.3.6
       doctrine: 3.0.0
       eslint: 9.5.0
       eslint-import-resolver-node: 0.3.9
@@ -4731,7 +4712,7 @@ snapshots:
       '@es-joy/jsdoccomment': 0.43.1
       are-docs-informative: 0.0.2
       comment-parser: 1.4.1
-      debug: 4.3.4
+      debug: 4.3.6
       escape-string-regexp: 4.0.0
       eslint: 9.5.0
       esquery: 1.5.0
@@ -4799,7 +4780,7 @@ snapshots:
 
   eslint-plugin-toml@0.11.0(eslint@9.5.0):
     dependencies:
-      debug: 4.3.4
+      debug: 4.3.6
       eslint: 9.5.0
       eslint-compat-utils: 0.5.0(eslint@9.5.0)
       lodash: 4.17.21
@@ -4809,7 +4790,7 @@ snapshots:
 
   eslint-plugin-unicorn@53.0.0(eslint@9.5.0):
     dependencies:
-      '@babel/helper-validator-identifier': 7.24.5
+      '@babel/helper-validator-identifier': 7.24.7
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.5.0)
       '@eslint/eslintrc': 3.1.0
       ci-info: 4.0.0
@@ -4862,7 +4843,7 @@ snapshots:
 
   eslint-plugin-yml@1.14.0(eslint@9.5.0):
     dependencies:
-      debug: 4.3.4
+      debug: 4.3.6
       eslint: 9.5.0
       eslint-compat-utils: 0.5.0(eslint@9.5.0)
       lodash: 4.17.21
@@ -5133,7 +5114,7 @@ snapshots:
     dependencies:
       basic-ftp: 5.0.4
       data-uri-to-buffer: 6.0.1
-      debug: 4.3.4
+      debug: 4.3.6
       fs-extra: 8.1.0
     transitivePeerDependencies:
       - supports-color
@@ -5780,7 +5761,7 @@ snapshots:
     dependencies:
       '@tootallnate/quickjs-emscripten': 0.23.0
       agent-base: 7.1.0
-      debug: 4.3.4
+      debug: 4.3.6
       get-uri: 6.0.2
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.4
@@ -5925,7 +5906,7 @@ snapshots:
   proxy-agent@6.4.0:
     dependencies:
       agent-base: 7.1.0
-      debug: 4.3.4
+      debug: 4.3.6
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.4
       lru-cache: 7.18.3
@@ -5944,24 +5925,25 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  puppeteer-core@22.12.1:
+  puppeteer-core@23.0.2:
     dependencies:
-      '@puppeteer/browsers': 2.2.3
-      chromium-bidi: 0.5.24(devtools-protocol@0.0.1299070)
-      debug: 4.3.5
-      devtools-protocol: 0.0.1299070
-      ws: 8.17.1
+      '@puppeteer/browsers': 2.3.0
+      chromium-bidi: 0.6.4(devtools-protocol@0.0.1312386)
+      debug: 4.3.6
+      devtools-protocol: 0.0.1312386
+      ws: 8.18.0
     transitivePeerDependencies:
       - bufferutil
       - supports-color
       - utf-8-validate
 
-  puppeteer@22.12.1(typescript@5.5.4):
+  puppeteer@23.0.2(typescript@5.5.4):
     dependencies:
-      '@puppeteer/browsers': 2.2.3
+      '@puppeteer/browsers': 2.3.0
+      chromium-bidi: 0.6.4(devtools-protocol@0.0.1312386)
       cosmiconfig: 9.0.0(typescript@5.5.4)
-      devtools-protocol: 0.0.1299070
-      puppeteer-core: 22.12.1
+      devtools-protocol: 0.0.1312386
+      puppeteer-core: 23.0.2
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -6108,11 +6090,9 @@ snapshots:
     dependencies:
       lru-cache: 6.0.0
 
-  semver@7.6.0:
-    dependencies:
-      lru-cache: 6.0.0
-
   semver@7.6.2: {}
+
+  semver@7.6.3: {}
 
   set-function-length@1.2.0:
     dependencies:
@@ -6171,7 +6151,7 @@ snapshots:
   socks-proxy-agent@8.0.2:
     dependencies:
       agent-base: 7.1.0
-      debug: 4.3.4
+      debug: 4.3.6
       socks: 2.7.1
     transitivePeerDependencies:
       - supports-color
@@ -6315,7 +6295,7 @@ snapshots:
       tar-stream: 2.2.0
     optional: true
 
-  tar-fs@3.0.5:
+  tar-fs@3.0.6:
     dependencies:
       pump: 3.0.0
       tar-stream: 3.1.7
@@ -6511,7 +6491,7 @@ snapshots:
 
   vue-eslint-parser@9.4.3(eslint@9.5.0):
     dependencies:
-      debug: 4.3.4
+      debug: 4.3.6
       eslint: 9.5.0
       eslint-scope: 7.2.2
       eslint-visitor-keys: 3.4.3
@@ -6554,7 +6534,7 @@ snapshots:
 
   wrappy@1.0.2: {}
 
-  ws@8.17.1: {}
+  ws@8.18.0: {}
 
   xml-name-validator@4.0.0: {}
 
