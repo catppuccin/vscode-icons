@@ -32,7 +32,7 @@ try {
         const svg = new SVG(readFileSync(resolve(originPath, i), 'utf8'))
         parseColors(svg, {
           callback(attr, color) {
-            if (attr === 'stroke') {
+            if ((attr === 'stroke' || attr === 'fill') && color !== 'none') {
               const newColorName = palettes[origin].find(v => v[1] === color.toLowerCase())?.[0]
               const newColor = palettes[dest].find(v => v[0] === newColorName)?.[1]
               if (!newColor)
