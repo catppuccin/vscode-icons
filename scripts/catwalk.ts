@@ -3,9 +3,9 @@
  */
 
 import { exec } from 'node:child_process'
-import { mkdtemp, readdir, realpath, rm, writeFile } from 'node:fs/promises'
+import { mkdtemp, readdir, rm, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
-import { join, resolve } from 'node:path'
+import { join, resolve, sep } from 'node:path'
 import { exit } from 'node:process'
 import { promisify } from 'node:util'
 import { type FlavorName, flavorEntries, flavors } from '@catppuccin/palette'
@@ -68,7 +68,7 @@ function generateHtml(flavor: FlavorName) {
 try {
   consola.info('Generating Catwalk preview...')
 
-  const tmp = await mkdtemp(join(await realpath(tmpdir())))
+  const tmp = await mkdtemp(join(tmpdir(), sep))
 
   const images = await Promise.all(flavorEntries.map(async ([flavor]) => {
     const htmlPath = join(tmp, `${flavor}.html`)
