@@ -1,0 +1,56 @@
+name: Generate Previews
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'icons/**'
+      - scripts/icons/preview.ts
+      - scripts/catwalk.ts
+    tags-ignore: [v*]
+
+jobs:
+  generate-previews:
+    name: Generate Previews
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+
+      - name: Install dependencies
+        run: pnpm i --frozen-lockfile
+
+      - name: Generate Flavor Previews
+        run: pnpm icons:preview
+
+      - name: Install catppuccin/catwalk
+        shell: bash
+        run: |
+          mkdir /tmp/catwalk
+          cd /tmp/catwalk
+          curl -LSs https://github.com/catppuccin/catwalk/releases/download/v1.3.2/catwalk-aarch64-apple-darwin -o catwalk
+          chmod +x catwalk
+          echo `pwd` >> $GITHUB_PATH
+
+      - name: Generate Catwalk Preview
+        run: pnpm catwalk
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: 'chore: re-generate previews'
+          committer: GitHub <noreply@github.com>
+          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          signoff: false
+          branch: chore/re-generate-previews
+          delete-branch: true
+          title: 'chore: re-generate previews'
