@@ -39,7 +39,7 @@ jobs:
           cd /tmp/catwalk
           curl -LSs https://github.com/catppuccin/catwalk/releases/download/v1.3.2/catwalk-aarch64-apple-darwin -o catwalk
           chmod +x catwalk
-          echo `pwd` >> $GITHUB_PATH
+          echo $(pwd) >> $GITHUB_PATH
 
       - name: Generate Catwalk Preview
         run: pnpm catwalk
