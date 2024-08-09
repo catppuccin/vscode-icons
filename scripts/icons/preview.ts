@@ -2,9 +2,9 @@
  * Generates previews (.webp) for all flavors.
  */
 
-import { mkdtemp, readdir, realpath, rm, writeFile } from 'node:fs/promises'
+import { mkdtemp, readdir, rm, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
-import { join, resolve } from 'node:path'
+import { join, resolve, sep } from 'node:path'
 import { exit } from 'node:process'
 import { type FlavorName, flavorEntries, flavors } from '@catppuccin/palette'
 import { consola } from 'consola'
@@ -87,7 +87,7 @@ try {
     `
   }
 
-  const tmp = await mkdtemp(join(await realpath(tmpdir())))
+  const tmp = await mkdtemp(join(tmpdir(), sep))
 
   await Promise.all(flavorEntries.map(async ([flavor]) => {
     const htmlPath = join(tmp, `${flavor}.html`)
