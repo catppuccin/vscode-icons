@@ -122,7 +122,7 @@
     "icons:generate": "tsx scripts/icons/generate.ts",
     "icons:optimize": "tsx scripts/icons/optimize.ts",
     "icons:preview": "tsx scripts/icons/preview.ts",
-    "icons": "pnpm run '/^icons:.*/'",
+    "icons": "pnpm run --sequential '/^icons:.*/'",
     "integrity": "tsx scripts/integrity.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
