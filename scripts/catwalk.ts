@@ -74,7 +74,9 @@ try {
     const htmlPath = join(tmp, `${flavor}.html`)
     const screenshotPath = join(tmp, `${flavor}.png`)
     await writeFile(htmlPath, generateHtml(flavor))
-    const browser = await launch()
+    const browser = await launch({
+      args: ['--no-sandbox'],
+    })
     const page = await browser.newPage()
     await page.setViewport({
       height: 400,

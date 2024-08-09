@@ -4,3 +4,4 @@ node_modules/
 .pnpm-debug.log*
 *.vsix
 .DS_Store
+.cache
