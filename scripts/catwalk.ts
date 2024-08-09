@@ -15,7 +15,7 @@ import { launch } from 'puppeteer'
 
 if (!await lookpath('catwalk')) {
   consola.error('Catwalk not installed.')
-  exit()
+  exit(1)
 }
 
 const OUT = 'assets/catwalk.webp'
@@ -94,4 +94,5 @@ try {
 }
 catch (error) {
   consola.error('Catwalk preview generation failed: ', error)
+  exit(1)
 }

@@ -6,6 +6,7 @@
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { readdir } from 'node:fs/promises'
 import { resolve } from 'node:path'
+import { exit } from 'node:process'
 import { SVG, parseColors } from '@iconify/tools'
 import { consola } from 'consola'
 import { palettes } from '~/utils/palettes'
@@ -51,4 +52,5 @@ try {
 }
 catch (error) {
   consola.error('Generation failed: ', error)
+  exit(1)
 }

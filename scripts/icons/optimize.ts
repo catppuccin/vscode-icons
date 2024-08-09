@@ -4,6 +4,7 @@
 
 import { readFile, readdir, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
+import { exit } from 'node:process'
 import { flavorEntries } from '@catppuccin/palette'
 import { SVG, cleanupSVG, runSVGO } from '@iconify/tools'
 import { consola } from 'consola'
@@ -68,4 +69,5 @@ try {
 }
 catch (error) {
   consola.error('Optimization failed: ', error)
+  exit(1)
 }
