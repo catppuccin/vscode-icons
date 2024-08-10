@@ -1068,7 +1068,11 @@ const fileIcons: Record<string, {
     fileExtensions: ['huff'],
   },
   'hugo': {
-    fileNames: ['hugo.toml'],
+    fileNames: [
+      'hugo.toml',
+      'hugo.yaml',
+      'hugo.json',
+    ],
   },
   'humans': {
     fileNames: ['humans.txt'],
