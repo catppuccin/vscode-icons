@@ -1,6 +1,62 @@
 # Changelog
 
 
+## v1.14.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.13.0...v1.14.0)
+
+### 🚀 Enhancements
+
+- Go templates icon ([90ba81d](https://github.com/catppuccin/vscode-icons/commit/90ba81d))
+- Add flutter icons ([#181](https://github.com/catppuccin/vscode-icons/pull/181))
+- Add vitest-workspace associations ([#186](https://github.com/catppuccin/vscode-icons/pull/186))
+- **associations:** Add `typst.toml` manifest file to typst ([#210](https://github.com/catppuccin/vscode-icons/pull/210))
+- **associations:** Add snapfile to fastlane ([#209](https://github.com/catppuccin/vscode-icons/pull/209))
+- **associations:** Add `bench` and `benches` to `benchmark` ([#206](https://github.com/catppuccin/vscode-icons/pull/206))
+
+### 🩹 Fixes
+
+- **associations:** Add `cts` and `mts` to typescript file extensions ([#197](https://github.com/catppuccin/vscode-icons/pull/197))
+- Apply settings when using Frappé ([#212](https://github.com/catppuccin/vscode-icons/pull/212))
+- Change toml icon color to maroon ([#191](https://github.com/catppuccin/vscode-icons/pull/191))
+- Incorrect icon fill colors ([#229](https://github.com/catppuccin/vscode-icons/pull/229))
+- Inconsistencies in `unflavored` icons ([#230](https://github.com/catppuccin/vscode-icons/pull/230))
+- **scripts:** Exit on all `consola.error`s ([#234](https://github.com/catppuccin/vscode-icons/pull/234))
+
+### 💅 Refactors
+
+- **scripts:** Split `icons.ts` & add new commands ([#199](https://github.com/catppuccin/vscode-icons/pull/199))
+- **scripts:** Pass OS path separator to `mkdtemp` ([#224](https://github.com/catppuccin/vscode-icons/pull/224))
+
+### 📖 Documentation
+
+- **readme:** Add reference to jetbrains-icons ([#180](https://github.com/catppuccin/vscode-icons/pull/180))
+
+### 📦 Build
+
+- **package.json:** Add `--sequential` to `icons` script ([#233](https://github.com/catppuccin/vscode-icons/pull/233))
+
+### 🏡 Chore
+
+- Update dependencies ([c244a4f](https://github.com/catppuccin/vscode-icons/commit/c244a4f))
+- Upgrade to pnpm@9 ([19b6c32](https://github.com/catppuccin/vscode-icons/commit/19b6c32))
+- Cleanup and update dependencies ([#195](https://github.com/catppuccin/vscode-icons/pull/195))
+- Configure Renovate ([#213](https://github.com/catppuccin/vscode-icons/pull/213))
+
+### 🤖 CI
+
+- Update actions ([14e6285](https://github.com/catppuccin/vscode-icons/commit/14e6285))
+- Upload VSIX as CI artifact ([#225](https://github.com/catppuccin/vscode-icons/pull/225))
+
+### ❤️ Contributors
+
+- Uncenter ([@uncenter](http://github.com/uncenter))
+- Hammy ([@sgoudham](http://github.com/sgoudham))
+- Quentin <git@quentinguidee.dev>
+- PraZ <hi@praz.dev>
+- Thelooter <evekolb2204@gmail.com>
+- Prazdevs <hi@praz.dev>
+
 ## v1.13.0
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.12.0...v1.13.0)
