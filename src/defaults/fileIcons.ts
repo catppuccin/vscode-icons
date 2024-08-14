@@ -1708,8 +1708,10 @@ const fileIcons: Record<string, {
     fileNames: [
       'postcss.config.js',
       'postcss.config.cjs',
+      'postcss.config.mjs',
       'postcss.config.ts',
       'postcss.config.cts',
+      'postcss.config.mts',
       '.postcssrc.js',
       '.postcssrc.cjs',
       '.postcssrc.ts',
