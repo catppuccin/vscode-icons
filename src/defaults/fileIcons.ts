@@ -1901,6 +1901,9 @@ const fileIcons: Record<string, {
     languageIds: ['rescript'],
     fileExtensions: ['res'],
   },
+  'roblox': {
+    fileExtensions: ['rbxl', 'rbxlx', 'rbxm', 'rbxmx'],
+  },
   'robots': {
     fileNames: ['robots.txt'],
   },
