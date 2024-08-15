@@ -449,6 +449,8 @@ const folderIcons: Record<string, {
       'packages',
       'pkg',
       'pkgs',
+      'crate',
+      'crates',
     ],
   },
   'plugins': {
