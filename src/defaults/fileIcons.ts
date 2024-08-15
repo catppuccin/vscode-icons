@@ -1946,6 +1946,14 @@ const fileIcons: Record<string, {
       'ron',
     ],
   },
+  'rust-config': {
+    fileNames: [
+      'rustfmt.toml',
+      '.rustfmt.toml',
+      'rust-toolchain.toml',
+      'clippy.toml',
+    ],
+  },
   'salesforce': {
     fileExtensions: ['cls'],
   },
