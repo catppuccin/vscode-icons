@@ -787,6 +787,8 @@ const fileIcons: Record<string, {
       'eslint.config.cjs',
       'eslint.config.mjs',
       'eslint.config.ts',
+      'eslint.config.cts',
+      'eslint.config.mts',
     ],
   },
   'eslint-ignore': {
@@ -2531,13 +2533,19 @@ const fileIcons: Record<string, {
   'vue-config': {
     fileNames: [
       'vue.config.js',
+      'vue.config.cjs',
+      'vue.config.mjs',
       'vue.config.ts',
+      'vue.config.cts',
+      'vue.config.mts',
+      
+      '.vuerc'
     ],
   },
   'web-assembly': {
     fileExtensions: [
       'wat',
-      'wasm',
+      'wasm', 
     ],
   },
   'webpack': {
