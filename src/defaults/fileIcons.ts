@@ -1874,6 +1874,9 @@ const fileIcons: Record<string, {
   'redwood': {
     fileNames: ['redwood.toml'],
   },
+  'release': {
+    fileNames: ['.goreleaser.yaml'],
+  },
   'remix': {
     fileNames: [
       'remix.config.js',
