@@ -2358,6 +2358,9 @@ const fileIcons: Record<string, {
       'v.mod',
     ],
   },
+  'vanilla-extract': {
+    fileExtensions: ['css.ts'],
+  },
   'vento': {
     fileExtensions: ['vto'],
   },
