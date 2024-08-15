@@ -1,5 +1,37 @@
 # Changelog
 
+## v1.15.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.14.0...v1.15.0)
+
+### 🚀 Enhancements
+
+- Add thrift icon as apache ([#245](https://github.com/catppuccin/vscode-icons/pull/245))
+- Release icon (go-releaser) ([#246](https://github.com/catppuccin/vscode-icons/pull/246))
+- Vanilla-extract icon ([#248](https://github.com/catppuccin/vscode-icons/pull/248))
+- Rojo icon (unassociated) ([#249](https://github.com/catppuccin/vscode-icons/pull/249))
+- Roblox icon ([#250](https://github.com/catppuccin/vscode-icons/pull/250))
+- .luaurc association ([#251](https://github.com/catppuccin/vscode-icons/pull/251))
+- Pyproject.toml + poetry.lock icons ([#252](https://github.com/catppuccin/vscode-icons/pull/252))
+- Rust config icons ([#253](https://github.com/catppuccin/vscode-icons/pull/253))
+- Pre-commit file and folder icons ([#255](https://github.com/catppuccin/vscode-icons/pull/255))
+- Authotkey icon ([#256](https://github.com/catppuccin/vscode-icons/pull/256))
+- Crates folder association ([#257](https://github.com/catppuccin/vscode-icons/pull/257))
+- Gradle folder icon ([#258](https://github.com/catppuccin/vscode-icons/pull/258))
+- Themes folder icon ([#259](https://github.com/catppuccin/vscode-icons/pull/259))
+
+### 🩹 Fixes
+
+- Add missing postcss.config.{mts,mjs} to defaults ([#243](https://github.com/catppuccin/vscode-icons/pull/243))
+
+### 📖 Documentation
+
+- Document palettes and compound icons ([#260](https://github.com/catppuccin/vscode-icons/pull/260))
+
+### ❤️ Contributors
+
+- Prazdevs ([@prazdevs](http://github.com/prazdevs))
+- Xenos ([@Xenos-the-stupid](http://github.com/Xenos-the-stupid))
 
 ## v1.14.0
 
@@ -52,10 +84,9 @@
 
 - Uncenter ([@uncenter](http://github.com/uncenter))
 - Hammy ([@sgoudham](http://github.com/sgoudham))
+- Prazdevs ([@prazdevs](http://github.com/prazdevs))
 - Quentin <git@quentinguidee.dev>
-- PraZ <hi@praz.dev>
 - Thelooter <evekolb2204@gmail.com>
-- Prazdevs <hi@praz.dev>
 
 ## v1.13.0
 
