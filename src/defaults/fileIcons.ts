@@ -1740,6 +1740,12 @@ const fileIcons: Record<string, {
       'pssc',
     ],
   },
+  'pre-commit': {
+    fileNames: [
+      '.pre-commit-config.yaml',
+      '.pre-commit-hooks.yaml',
+    ],
+  },
   'premake': {
     fileNames: [
       'premake4.lua',

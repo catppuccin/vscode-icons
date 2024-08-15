@@ -467,6 +467,9 @@ const folderIcons: Record<string, {
       'modules',
     ],
   },
+  'pre-commit': {
+    folderNames: ['pre-commit-channel'],
+  },
   'prisma': {
     folderNames: ['prisma'],
   },
