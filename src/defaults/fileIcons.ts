@@ -74,6 +74,16 @@ const fileIcons: Record<string, {
   'antlr': {
     fileExtensions: ['g4'],
   },
+  'apache': {
+    fileNames: [
+      'maven.config',
+      'jvm.config',
+      'pom.xml',
+    ],
+    fileExtensions: [
+      'thrift',
+    ],
+  },
   'api-blueprint': {
     fileExtensions: [
       'apib',
@@ -1441,13 +1451,6 @@ const fileIcons: Record<string, {
   },
   'matlab': {
     languageIds: ['matlab'],
-  },
-  'maven': {
-    fileNames: [
-      'maven.config',
-      'jvm.config',
-      'pom.xml',
-    ],
   },
   'mermaid': {
     fileExtensions: [
