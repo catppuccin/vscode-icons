@@ -1703,6 +1703,9 @@ const fileIcons: Record<string, {
   'pnpm-lock': {
     fileNames: ['pnpm-lock.yaml'],
   },
+  'poetry-lock': {
+    fileNames: ['poetry.lock'],
+  },
   'postcss': {
     languageIds: ['postcss'],
     fileExtensions: [
@@ -1834,6 +1837,9 @@ const fileIcons: Record<string, {
       'pyo',
       'pyd',
     ],
+  },
+  'python-config': {
+    fileNames: ['pyproject.toml', 'requirements.txt'],
   },
   'r': {
     languageIds: [
