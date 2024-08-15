@@ -600,6 +600,12 @@ const folderIcons: Record<string, {
       'specs',
     ],
   },
+  'themes': {
+    folderNames: [
+      'theme',
+      'themes',
+    ],
+  },
   'turbo': {
     folderNames: [
       '.turbo',
