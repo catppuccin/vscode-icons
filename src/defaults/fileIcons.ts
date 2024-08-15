@@ -1425,6 +1425,7 @@ const fileIcons: Record<string, {
   },
   'luau': {
     fileExtensions: ['luau'],
+    fileNames: ['.luaurc'],
   },
   'makefile': {
     languageIds: ['makefile'],
