@@ -152,6 +152,10 @@ const fileIcons: Record<string, {
       'wv',
     ],
   },
+  'autohotkey': {
+    fileExtensions: ['ahk'],
+    languageIds: ['ahk'],
+  },
   'azure-pipelines': {
     fileNames: [
       'azure-pipelines.yml',
