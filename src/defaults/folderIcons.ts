@@ -329,6 +329,9 @@ const folderIcons: Record<string, {
   'gitlab': {
     folderNames: ['.gitlab'],
   },
+  'gradle': {
+    folderNames: ['gradle', '.gradle'],
+  },
   'hooks': {
     folderNames: ['hook', 'hooks', 'trigger', 'triggers'],
   },
