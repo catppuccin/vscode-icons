@@ -62,6 +62,22 @@ The following guidelines are what make the icons and the theme consistent. They 
 > [!NOTE]
 > The design guidelines are still a work in progress. Keep in mind the decision to add an icon is ultimately that of the catppuccin maintainers and team.
 
+### Palettes and usable colors
+
+Given any Catppuccin flavours, only `accent` (`rosewater`, `flamingo`, `pink`, `mauve`, `red`, `maroon`, `peach`, `yellow`, `green`, `teal`, `sky`, `sapphire`, `blue`, `lavender`), `text` and `overlay1` can be used in icon colors.
+
+- `accent` colors are used like any color, to match a logo for instance.
+- `overlay1` is used to represent gray.
+- `test` is used as the default (black or white) color. It is also the folder color.
+
+### Compound icons
+
+Some icons are composed of several other icons, usually smaller, such as `folder` icons and `config` icons (`vue-config`, `ts-config`...).
+Shared symbols should have the same size across icons. For example, the cog in `config` icons should always have the same size and be positionned at the bottom right.
+
+> [!WARNING]
+> Compound icons can be harder to design as the icon parts are much smaller. They may need to be simplified for the best readability.
+
 ## Workflow examples
 
 _Make sure to run `pnpm install` to ensure dependencies are installed and up to date before callign any other script._
