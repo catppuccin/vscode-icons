@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+	<defs>
+		<radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="matrix(10.5875 0 0 10.784 4.993 -.868)" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#fff" />
+			<stop offset="1" />
+		</radialGradient>
+	</defs>
+	<path fill="none" stroke="#8c8fa1" stroke-linecap="round" stroke-linejoin="round" d="M15 11.5c.27 0 .5.22.5.5v3a.5.5 0 01-.5.5h-5a.5.5 0 01-.5-.5v-3c0-.28.22-.5.5-.5zm-4 0V10a1.5 1.5 0 013 0v1.5" />
+	<path fill="url(#a)" d="M 0,0 7.7784996,7.9229996 Q 7.8819999,7.8164997 7.9834997,7.7079997 Z" />
+	<path fill="none" stroke="#04a5e5" stroke-linecap="round" stroke-linejoin="round" d="m 0.5,0.5 h 10 c 0,2.8329293 -1.2015774,5.5329239 -3.3062239,7.4292234" />
+	<path fill="none" stroke="#8839ef" stroke-linecap="round" stroke-linejoin="round" d="m 7.2502363,7.8347083 1.057875,1.1595724 0.5289375,0.5797861 M 7.4288841,11.668574 C 6.3094357,12.383783 4.7105596,13.160462 2.6914458,13.511083 L 0.50019052,10.5" />
+	<path fill="none" stroke="#1e66f5" stroke-linecap="round" stroke-linejoin="round" d="M 7.3199836,7.813537 A 10,10 0 0 1 0.5,10.5 v -10 z" />
+</svg>
