@@ -787,6 +787,8 @@ const fileIcons: Record<string, {
       'eslint.config.cjs',
       'eslint.config.mjs',
       'eslint.config.ts',
+      'eslint.config.cts',
+      'eslint.config.mts',
     ],
   },
   'eslint-ignore': {
