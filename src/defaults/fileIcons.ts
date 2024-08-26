@@ -808,6 +808,10 @@ const fileIcons: Record<string, {
       'fastfile',
       'appfile',
       'snapfile',
+      'matchfile',
+      'deliverfile',
+      'scanfile',
+      'gymfile',
     ],
   },
   'favicon': {
