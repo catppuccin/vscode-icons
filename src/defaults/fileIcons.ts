@@ -2236,10 +2236,12 @@ const fileIcons: Record<string, {
   'tauri': {
     fileNames: [
       'tauri.conf.json',
+      'tauri.conf.json5',
       'tauri.config.json',
       'tauri.linux.conf.json',
       'tauri.windows.conf.json',
       'tauri.macos.conf.json',
+      'Tauri.toml',
     ],
     fileExtensions: ['tauri'],
   },
