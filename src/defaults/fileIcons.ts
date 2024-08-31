@@ -1855,7 +1855,11 @@ const fileIcons: Record<string, {
     ],
   },
   'python-config': {
-    fileNames: ['pyproject.toml', 'requirements.txt'],
+    fileNames: [
+      'pyproject.toml',
+      'requirements.txt',
+      '.python-version',
+    ],
   },
   'r': {
     languageIds: [
