@@ -513,6 +513,7 @@ const fileIcons: Record<string, {
       'psql',
       'db',
       'db3',
+      'dat',
     ],
   },
   'deno': {
