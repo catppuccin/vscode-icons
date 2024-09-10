@@ -236,6 +236,16 @@ const fileIcons: Record<string, {
     fileExtensions: ['bzl', 'bazel'],
     fileNames: ['.bazelrc'],
   },
+  'benchmark': {
+    fileNames: [
+      'benchmark.md',
+      'benchmark.rst',
+      'benchmark.txt',
+      'benchmarks.md',
+      'benchmarks.rst',
+      'benchmarks.txt',
+    ],
+  },
   'binary': {
     languageIds: ['code-text-binary'],
     fileExtensions: ['bin'],
