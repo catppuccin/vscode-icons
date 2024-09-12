@@ -55,10 +55,10 @@ importers:
         version: 2.11.1
       tsup:
         specifier: ^8.1.0
-        version: 8.2.4(jiti@1.21.0)(postcss@8.4.45)(tsx@4.19.0)(typescript@5.6.2)(yaml@2.5.0)
+        version: 8.2.4(jiti@1.21.0)(postcss@8.4.45)(tsx@4.19.1)(typescript@5.6.2)(yaml@2.5.0)
       tsx:
         specifier: ^4.15.7
-        version: 4.19.0
+        version: 4.19.1
       typescript:
         specifier: ^5.5.2
         version: 5.6.2
@@ -1743,8 +1743,8 @@ packages:
     resolution: {integrity: sha512-VaUJspBffn/LMCJVoMvSAdmscJyS1auj5Zulnn5UoYcY531UWmdwhRWkcGKnGU93m5HSXP9LP2usOryrBtQowA==}
     engines: {node: '>=16'}
 
-  get-tsconfig@4.8.0:
-    resolution: {integrity: sha512-Pgba6TExTZ0FJAn1qkJAjIeKoDJ3CsI2ChuLohJnZl/tTU8MVrq3b+2t5UOPfRa4RMsorClBjJALkJUMjG1PAw==}
+  get-tsconfig@4.8.1:
+    resolution: {integrity: sha512-k9PN+cFBmaLWtVz29SkUoqU5O0slLuHJXt/2P+tMVFT+phsSGXGkp9t3rQIqdz0e+06EHNGs3oM6ZX1s2zHxRg==}
 
   get-uri@6.0.3:
     resolution: {integrity: sha512-BzUrJBS9EcUb4cFol8r4W3v1cPsSyajLSthNkz5BxbpDcHN5tIrM10E2eNvfnvBn3DaT3DUgx0OpsBKkaOpanw==}
@@ -2994,8 +2994,8 @@ packages:
       typescript:
         optional: true
 
-  tsx@4.19.0:
-    resolution: {integrity: sha512-bV30kM7bsLZKZIOCHeMNVMJ32/LuJzLVajkQI/qf92J2Qr08ueLQvW00PUZGiuLPP760UINwupgUj8qrSCPUKg==}
+  tsx@4.19.1:
+    resolution: {integrity: sha512-0flMz1lh74BR4wOvBjuh9olbnwqCPc35OOlfyzHba0Dc+QNUeWX/Gq2YTbnwcWPO3BMd8fkzRVrHcsR+a7z7rA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -4618,7 +4618,7 @@ snapshots:
       doctrine: 3.0.0
       eslint: 9.10.0(jiti@1.21.0)
       eslint-import-resolver-node: 0.3.9
-      get-tsconfig: 4.8.0
+      get-tsconfig: 4.8.1
       is-glob: 4.0.3
       minimatch: 9.0.5
       semver: 7.6.3
@@ -4669,7 +4669,7 @@ snapshots:
       enhanced-resolve: 5.17.1
       eslint: 9.10.0(jiti@1.21.0)
       eslint-plugin-es-x: 7.8.0(eslint@9.10.0(jiti@1.21.0))
-      get-tsconfig: 4.8.0
+      get-tsconfig: 4.8.1
       globals: 15.9.0
       ignore: 5.3.2
       minimatch: 9.0.5
@@ -5009,7 +5009,7 @@ snapshots:
 
   get-stream@8.0.1: {}
 
-  get-tsconfig@4.8.0:
+  get-tsconfig@4.8.1:
     dependencies:
       resolve-pkg-maps: 1.0.0
 
@@ -5781,13 +5781,13 @@ snapshots:
 
   pluralize@8.0.0: {}
 
-  postcss-load-config@6.0.1(jiti@1.21.0)(postcss@8.4.45)(tsx@4.19.0)(yaml@2.5.0):
+  postcss-load-config@6.0.1(jiti@1.21.0)(postcss@8.4.45)(tsx@4.19.1)(yaml@2.5.0):
     dependencies:
       lilconfig: 3.1.2
     optionalDependencies:
       jiti: 1.21.0
       postcss: 8.4.45
-      tsx: 4.19.0
+      tsx: 4.19.1
       yaml: 2.5.0
 
   postcss-selector-parser@6.1.2:
@@ -6299,7 +6299,7 @@ snapshots:
 
   tslib@2.7.0: {}
 
-  tsup@8.2.4(jiti@1.21.0)(postcss@8.4.45)(tsx@4.19.0)(typescript@5.6.2)(yaml@2.5.0):
+  tsup@8.2.4(jiti@1.21.0)(postcss@8.4.45)(tsx@4.19.1)(typescript@5.6.2)(yaml@2.5.0):
     dependencies:
       bundle-require: 5.0.0(esbuild@0.23.0)
       cac: 6.7.14
@@ -6311,7 +6311,7 @@ snapshots:
       globby: 11.1.0
       joycon: 3.1.1
       picocolors: 1.0.1
-      postcss-load-config: 6.0.1(jiti@1.21.0)(postcss@8.4.45)(tsx@4.19.0)(yaml@2.5.0)
+      postcss-load-config: 6.0.1(jiti@1.21.0)(postcss@8.4.45)(tsx@4.19.1)(yaml@2.5.0)
       resolve-from: 5.0.0
       rollup: 4.20.0
       source-map: 0.8.0-beta.0
@@ -6326,10 +6326,10 @@ snapshots:
       - tsx
       - yaml
 
-  tsx@4.19.0:
+  tsx@4.19.1:
     dependencies:
       esbuild: 0.23.1
-      get-tsconfig: 4.8.0
+      get-tsconfig: 4.8.1
     optionalDependencies:
       fsevents: 2.3.3
 
