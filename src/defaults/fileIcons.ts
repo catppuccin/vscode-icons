@@ -1675,7 +1675,7 @@ const fileIcons: Record<string, {
       'pod',
       't',
       'PL',
-      'psgi,
+      'psgi',
       'raku',
       'rakumod', 
       'rakutest', 
