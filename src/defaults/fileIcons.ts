@@ -1667,10 +1667,23 @@ const fileIcons: Record<string, {
     languageIds: [
       'perl',
       'perl6',
+      'raku',
     ],
     fileExtensions: [
+      'pl',
       'pm',
+      'pod',
+      't',
+      'PL',
+      'psgi,
       'raku',
+      'rakumod', 
+      'rakutest', 
+      'rakudoc', 
+      'nqp', 
+      'p6', 
+      'pl6', 
+      'pm6',
     ],
   },
   'php': {
@@ -1802,7 +1815,6 @@ const fileIcons: Record<string, {
     fileExtensions: [
       'p',
       'pro',
-      'pl',
     ],
   },
   'properties': {
