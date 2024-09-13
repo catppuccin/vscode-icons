@@ -93,7 +93,9 @@ try {
     const htmlPath = join(tmp, `${flavor}.html`)
     const screenshotPath = join('assets', `${flavor}.webp`)
     await writeFile(htmlPath, generateHtml(flavor))
-    const browser = await launch()
+    const browser = await launch({
+      args: ['--no-sandbox'],
+    })
     const page = await browser.newPage()
     await page.goto(join('file:', htmlPath))
     await page.screenshot({
