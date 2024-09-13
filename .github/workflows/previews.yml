@@ -54,3 +54,5 @@ jobs:
           branch: chore/re-generate-previews
           delete-branch: true
           title: 'chore: re-generate previews'
+          add-paths: |
+            assets/*
