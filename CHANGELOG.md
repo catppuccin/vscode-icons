@@ -1,5 +1,43 @@
 # Changelog
 
+## v1.16.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.15.0...v1.16.0)
+
+### 🚀 Enhancements
+
+- **associations:** Add fastline built-in action files ([#268](https://github.com/catppuccin/vscode-icons/pull/268))
+- **associations:** Add `.python-version` to `python-config` icon ([#272](https://github.com/catppuccin/vscode-icons/pull/272))
+- **associations:** Add `database` icon for `.dat` files ([#271](https://github.com/catppuccin/vscode-icons/pull/271))
+- Add benchmark icon ([#283](https://github.com/catppuccin/vscode-icons/pull/283))
+- **associations:** Change `pl` to Perl from Prolog & add more ([#294](https://github.com/catppuccin/vscode-icons/pull/294))
+- Java class/interface/record/enum/exception icons ([#247](https://github.com/catppuccin/vscode-icons/pull/247))
+
+### 🩹 Fixes
+
+- **associations:** Add `.cts` and `.mts` extensions for eslint ([#263](https://github.com/catppuccin/vscode-icons/pull/263))
+- **associations:** Add common extensions and `.vuerc` for vue ([#265](https://github.com/catppuccin/vscode-icons/pull/265))
+- **associations:** Add `tauri.conf.json5` and `Tauri.toml` ([#270](https://github.com/catppuccin/vscode-icons/pull/270))
+
+### 🏡 Chore
+
+- Re-generate previews ([#297](https://github.com/catppuccin/vscode-icons/pull/297))
+
+### 🤖 CI
+
+- Add `previews.yml` to re-generate assets ([#232](https://github.com/catppuccin/vscode-icons/pull/232))
+- **previews:** Limit to assets dir ([#296](https://github.com/catppuccin/vscode-icons/pull/296))
+- **previews:** Rely on more default values ([#298](https://github.com/catppuccin/vscode-icons/pull/298))
+
+### ❤️ Contributors
+
+- Hammy ([@sgoudham](http://github.com/sgoudham))
+- PraZ ([@prazdevs](http://github.com/prazdevs))
+- Yttrium ([@Alecton4](http://github.com/Alecton4))
+- Uncenter ([@uncenter](http://github.com/uncenter))
+- Quentin <git@quentinguidee.dev>
+- Xenos ([@Xenos-the-stupid](http://github.com/Xenos-the-stupid))
+
 ## v1.15.0
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.14.0...v1.15.0)
