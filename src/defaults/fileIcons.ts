@@ -2809,13 +2809,6 @@ const fileIcons: Record<string, {
       'yarn.config.cjs',
     ],
   },
-  "hardhat.svg": {
-  "extensions": ["hh"],
-  "filenames": [
-    "hardhat.config.js",
-    "hardhat.config.ts"
-  ]
-}
   'yarn-lock': {
     fileNames: ['yarn.lock'],
   },
