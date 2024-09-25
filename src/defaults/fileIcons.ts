@@ -1484,6 +1484,9 @@ const fileIcons: FileIcons = {
   'matlab': {
     languageIds: ['matlab'],
   },
+  'mdbook': {
+    fileNames: ['book.toml'],
+  },
   'mermaid': {
     fileExtensions: [
       'mmd',
