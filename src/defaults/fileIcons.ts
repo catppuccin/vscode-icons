@@ -1054,6 +1054,12 @@ const fileIcons: FileIcons = {
       'mustache',
     ],
   },
+  'hardhat': {
+    fileNames: [
+      'hardhat.config.js',
+      'hardhat.config.ts',
+    ],
+  },
   'haskell': {
     languageIds: ['haskell'],
     fileExtensions: ['hs'],
