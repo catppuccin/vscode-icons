@@ -1,9 +1,9 @@
 import {
   type AccentName,
-  type FlavorName,
-  type MonochromaticName,
   flavorEntries,
+  type FlavorName,
   flavors,
+  type MonochromaticName,
 } from '@catppuccin/palette'
 
 export type ColorName = AccentName | Extract<MonochromaticName, 'text' | 'overlay1'>

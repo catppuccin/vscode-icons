@@ -1,11 +1,11 @@
-import { type ExtensionContext, Uri, window, workspace } from 'vscode'
 import { flavorEntries } from '@catppuccin/palette'
-import { readFile, writeFile, writeJsonFile } from '~/hooks/interactions'
+import { type ExtensionContext, Uri, window, workspace } from 'vscode'
 import { getConfig } from '~/hooks/configuration'
 import { getIconDefinitions } from '~/hooks/iconDefinitions'
-import { compileTheme } from '~/utils/themes'
+import { readFile, writeFile, writeJsonFile } from '~/hooks/interactions'
 import { getThemePaths, getUnflavoredPath } from '~/hooks/paths'
 import { compileIcon, hashedSvgPath, iconHash } from '~/utils/icons'
+import { compileTheme } from '~/utils/themes'
 
 /**
  * Update themes and icons according to configuration

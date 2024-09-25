@@ -6,7 +6,7 @@ import { mkdtemp, readdir, rm, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { join, resolve, sep } from 'node:path'
 import { exit } from 'node:process'
-import { type FlavorName, flavorEntries, flavors } from '@catppuccin/palette'
+import { flavorEntries, type FlavorName, flavors } from '@catppuccin/palette'
 import { consola } from 'consola'
 import { launch } from 'puppeteer'
 
