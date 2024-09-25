@@ -1,6 +1,6 @@
+import type { Config } from '~/types'
 import { fileExtensions, fileNames, languageIds } from './fileIcons'
 import { folderNames } from './folderIcons'
-import type { Config } from '~/types'
 
 export const defaultConfig: Config = {
   hidesExplorerArrows: false,

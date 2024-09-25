@@ -2,11 +2,11 @@
  * Optimizes SVGs by running them through SVGO + Iconify cleanup.
  */
 
-import { readFile, readdir, writeFile } from 'node:fs/promises'
+import { readdir, readFile, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { exit } from 'node:process'
 import { flavorEntries } from '@catppuccin/palette'
-import { SVG, cleanupSVG, runSVGO } from '@iconify/tools'
+import { cleanupSVG, runSVGO, SVG } from '@iconify/tools'
 import { consola } from 'consola'
 
 try {

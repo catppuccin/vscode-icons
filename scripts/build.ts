@@ -2,13 +2,13 @@
  * Build themes and extension.
  */
 
-import { cp, readdir, rm, writeFile } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
+import { cp, readdir, rm, writeFile } from 'node:fs/promises'
 import { basename, join } from 'node:path'
 import { exit } from 'node:process'
 import { flavorEntries } from '@catppuccin/palette'
-import { build } from 'tsup'
 import { consola } from 'consola'
+import { build } from 'tsup'
 import { compileTheme } from '~/utils/themes'
 
 const DIST = 'dist'

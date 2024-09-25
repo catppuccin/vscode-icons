@@ -696,4 +696,4 @@ const { folderNames } = Object.entries(folderIcons).reduce(
   },
 )
 
-export { folderNames, folderIcons }
+export { folderIcons, folderNames }

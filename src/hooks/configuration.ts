@@ -1,7 +1,7 @@
 import defu from 'defu'
 import { ConfigurationTarget, workspace } from 'vscode'
-import { defaultConfig } from '~/defaults'
 import { CONFIG_KEYS, CONFIG_ROOT } from '~/constants'
+import { defaultConfig } from '~/defaults'
 import type { Config } from '~/types'
 
 /**

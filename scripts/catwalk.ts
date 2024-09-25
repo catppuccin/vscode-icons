@@ -8,7 +8,7 @@ import { tmpdir } from 'node:os'
 import { join, resolve, sep } from 'node:path'
 import { exit } from 'node:process'
 import { promisify } from 'node:util'
-import { type FlavorName, flavorEntries, flavors } from '@catppuccin/palette'
+import { flavorEntries, type FlavorName, flavors } from '@catppuccin/palette'
 import { consola } from 'consola'
 import { lookpath } from 'lookpath'
 import { launch } from 'puppeteer'
@@ -26,7 +26,7 @@ const fileIcons = allIcons
   .toSorted(() => 0.5 - Math.random())
 
 function generateIcons(flavor: FlavorName) {
-  return Array(6)
+  return Array.from({ length: 6 })
     .fill(fileIcons.map(i => `${resolve(join('icons', flavor, i))}`))
     .flat()
 }

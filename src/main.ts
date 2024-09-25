@@ -1,8 +1,8 @@
-import { type ExtensionContext, commands, workspace } from 'vscode'
+import { commands, type ExtensionContext, workspace } from 'vscode'
 import { COMMANDS, CONFIG_KEYS, CONFIG_ROOT } from '~/constants'
-import { updateThemes } from '~/hooks/updateThemes'
-import { isFreshInstall, promptToReload } from '~/hooks/interactions'
 import { isDefaultConfig, resetConfig } from '~/hooks/configuration'
+import { isFreshInstall, promptToReload } from '~/hooks/interactions'
+import { updateThemes } from '~/hooks/updateThemes'
 
 /**
  * Desktop extension entrypoint

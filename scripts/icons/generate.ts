@@ -3,11 +3,11 @@
  * If an icon exists in `icons/latte`, it will create its counterparts for other palettes.
  */
 
-import { readFileSync, readdirSync, writeFileSync } from 'node:fs'
+import { readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { readdir } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { exit } from 'node:process'
-import { SVG, parseColors } from '@iconify/tools'
+import { parseColors, SVG } from '@iconify/tools'
 import { consola } from 'consola'
 import { palettes } from '~/utils/palettes'
 
