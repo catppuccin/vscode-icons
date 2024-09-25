@@ -2,11 +2,15 @@
  * Default file icon associations
  * Keys are icon file basenames
  */
-const fileIcons: Record<string, {
+
+type FileIcons = Record<string, {
   languageIds?: Array<string>
   fileExtensions?: Array<string>
   fileNames?: Array<string>
-}> = {
+}>
+
+// @keep-sorted
+const fileIcons: FileIcons = {
   'adobe-ae': {
     fileExtensions: ['aep'],
   },
@@ -121,10 +125,6 @@ const fileIcons: Record<string, {
       'binsource',
     ],
   },
-  'astro': {
-    fileExtensions: ['astro'],
-    languageIds: ['astro'],
-  },
   'astro-config': {
     fileNames: [
       'astro.config.js',
@@ -134,6 +134,10 @@ const fileIcons: Record<string, {
       'astro.config.cts',
       'astro.config.mts',
     ],
+  },
+  'astro': {
+    fileExtensions: ['astro'],
+    languageIds: ['astro'],
   },
   'audio': {
     fileExtensions: [
@@ -278,11 +282,14 @@ const fileIcons: Record<string, {
       '.browserslistrc',
     ],
   },
+  'bun-lock': {
+    fileNames: ['bun.lockb'],
+  },
   'bun': {
     fileNames: ['bunfig.toml'],
   },
-  'bun-lock': {
-    fileNames: ['bun.lockb'],
+  'c-header': {
+    fileExtensions: ['h'],
   },
   'c': {
     languageIds: ['c'],
@@ -291,9 +298,6 @@ const fileIcons: Record<string, {
       'i',
       'mi',
     ],
-  },
-  'c-header': {
-    fileExtensions: ['h'],
   },
   'caddy': {
     fileExtensions: ['caddyfile'],
@@ -305,11 +309,11 @@ const fileIcons: Record<string, {
       'capacitor.config.ts',
     ],
   },
-  'cargo': {
-    fileNames: ['cargo.toml'],
-  },
   'cargo-lock': {
     fileNames: ['cargo.lock'],
+  },
+  'cargo': {
+    fileNames: ['cargo.toml'],
   },
   'certificate': {
     fileExtensions: [
@@ -403,6 +407,17 @@ const fileIcons: Record<string, {
       'contributing',
     ],
   },
+  'cpp-header': {
+    fileExtensions: [
+      'hh',
+      'hpp',
+      'hxx',
+      'h++',
+      'hp',
+      'tcc',
+      'inl',
+    ],
+  },
   'cpp': {
     languageIds: ['cpp'],
     fileExtensions: [
@@ -413,17 +428,6 @@ const fileIcons: Record<string, {
       'cp',
       'mii',
       'ii',
-    ],
-  },
-  'cpp-header': {
-    fileExtensions: [
-      'hh',
-      'hpp',
-      'hxx',
-      'h++',
-      'hp',
-      'tcc',
-      'inl',
     ],
   },
   'csharp': {
@@ -448,12 +452,12 @@ const fileIcons: Record<string, {
       'cspell.config.yaml',
     ],
   },
+  'css-map': {
+    fileExtensions: ['css.map'],
+  },
   'css': {
     languageIds: ['css'],
     fileExtensions: ['css'],
-  },
-  'css-map': {
-    fileExtensions: ['css.map'],
   },
   'csv': {
     languageIds: [
@@ -496,15 +500,15 @@ const fileIcons: Record<string, {
     languageIds: ['d'],
     fileExtensions: ['d', 'di'],
   },
-  'dart': {
-    languageIds: ['dart'],
-    fileExtensions: ['dart'],
-  },
   'dart-generated': {
     fileExtensions: [
       'freezed.dart',
       'g.dart',
     ],
+  },
+  'dart': {
+    languageIds: ['dart'],
+    fileExtensions: ['dart'],
   },
   'database': {
     languageIds: ['sql'],
@@ -526,14 +530,14 @@ const fileIcons: Record<string, {
       'dat',
     ],
   },
+  'deno_lock': {
+    fileNames: ['deno.lock'],
+  },
   'deno': {
     fileNames: [
       'deno.json',
       'deno.jsonc',
     ],
-  },
-  'deno_lock': {
-    fileNames: ['deno.lock'],
   },
   'dependabot': {
     fileNames: [
@@ -563,45 +567,6 @@ const fileIcons: Record<string, {
       'django-txt',
     ],
     fileExtensions: ['djt'],
-  },
-  'docker': {
-    fileExtensions: [
-      'dockerfile',
-      'containerfile',
-    ],
-    fileNames: [
-      'dockerfile',
-      'dockerfile.prod',
-      'dockerfile.production',
-      'dockerfile.alpha',
-      'dockerfile.beta',
-      'dockerfile.stage',
-      'dockerfile.staging',
-      'dockerfile.dev',
-      'dockerfile.development',
-      'dockerfile.local',
-      'dockerfile.test',
-      'dockerfile.testing',
-      'dockerfile.ci',
-      'dockerfile.web',
-      'dockerfile.worker',
-
-      'containerfile',
-      'containerfile.prod',
-      'containerfile.production',
-      'containerfile.alpha',
-      'containerfile.beta',
-      'containerfile.stage',
-      'containerfile.staging',
-      'containerfile.dev',
-      'containerfile.development',
-      'containerfile.local',
-      'containerfile.test',
-      'containerfile.testing',
-      'containerfile.ci',
-      'containerfile.web',
-      'containerfile.worker',
-    ],
   },
   'docker-compose': {
     fileExtensions: [
@@ -687,17 +652,56 @@ const fileIcons: Record<string, {
       'containerignore',
     ],
   },
+  'docker': {
+    fileExtensions: [
+      'dockerfile',
+      'containerfile',
+    ],
+    fileNames: [
+      'dockerfile',
+      'dockerfile.prod',
+      'dockerfile.production',
+      'dockerfile.alpha',
+      'dockerfile.beta',
+      'dockerfile.stage',
+      'dockerfile.staging',
+      'dockerfile.dev',
+      'dockerfile.development',
+      'dockerfile.local',
+      'dockerfile.test',
+      'dockerfile.testing',
+      'dockerfile.ci',
+      'dockerfile.web',
+      'dockerfile.worker',
+
+      'containerfile',
+      'containerfile.prod',
+      'containerfile.production',
+      'containerfile.alpha',
+      'containerfile.beta',
+      'containerfile.stage',
+      'containerfile.staging',
+      'containerfile.dev',
+      'containerfile.development',
+      'containerfile.local',
+      'containerfile.test',
+      'containerfile.testing',
+      'containerfile.ci',
+      'containerfile.web',
+      'containerfile.worker',
+    ],
+  },
   'drawio': {
     fileExtensions: [
       'drawio',
       'dio',
     ],
   },
-  'dub': {
-    fileNames: ['dub.json', 'dub.sdl'],
-  },
   'dub-selections': {
     fileNames: ['dub.selections.json'],
+  },
+  'dub': {
+    fileNames: ['dub.json', 'dub.sdl'],
   },
   'editorconfig': {
     languageIds: ['editorconfig'],
@@ -783,6 +787,12 @@ const fileIcons: Record<string, {
       'esbuild.config.mjs',
     ],
   },
+  'eslint-ignore': {
+    fileNames: [
+      '.eslintignore',
+      '.eslintcache,',
+    ],
+  },
   'eslint': {
     fileNames: [
       '.eslintrc.js',
@@ -800,12 +810,6 @@ const fileIcons: Record<string, {
       'eslint.config.ts',
       'eslint.config.cts',
       'eslint.config.mts',
-    ],
-  },
-  'eslint-ignore': {
-    fileNames: [
-      '.eslintignore',
-      '.eslintcache,',
     ],
   },
   'exe': {
@@ -904,6 +908,9 @@ const fileIcons: Record<string, {
       '.release-please-manifest.json',
     ],
   },
+  'git-cliff': {
+    fileNames: ['cliff.toml'],
+  },
   'git': {
     languageIds: [
       'git',
@@ -933,25 +940,18 @@ const fileIcons: Record<string, {
       'git-history',
     ],
   },
-  'git-cliff': {
-    fileNames: ['cliff.toml'],
-  },
   'gitlab': {
     fileExtensions: ['gitlab-ci.yml'],
   },
   'gitpod': {
     fileNames: ['.gitpod.yml'],
   },
-  'gleam': {
-    fileExtensions: ['gleam'],
-    languageIds: ['gleam'],
-  },
   'gleam-config': {
     fileNames: ['gleam.toml'],
   },
-  'go': {
-    languageIds: ['go'],
-    fileExtensions: ['go'],
+  'gleam': {
+    fileExtensions: ['gleam'],
+    languageIds: ['gleam'],
   },
   'go-mod': {
     fileNames: [
@@ -971,9 +971,9 @@ const fileIcons: Record<string, {
       'go.html',
     ],
   },
-  'godot': {
-    languageIds: ['gdscript'],
-    fileExtensions: ['gd'],
+  'go': {
+    languageIds: ['go'],
+    fileExtensions: ['go'],
   },
   'godot-assets': {
     fileExtensions: [
@@ -991,6 +991,10 @@ const fileIcons: Record<string, {
       '._sc_',
       '_sc_',
     ],
+  },
+  'godot': {
+    languageIds: ['gdscript'],
+    fileExtensions: ['gd'],
   },
   'gradle': {
     fileExtensions: ['gradle'],
@@ -1173,26 +1177,17 @@ const fileIcons: Record<string, {
       '.io-config.json',
     ],
   },
-  'java': {
-    languageIds: ['java'],
-    fileExtensions: [
-      'java',
-      'jsp',
-    ],
-  },
   'java-class': {
     fileExtensions: ['class'],
   },
   'java-jar': {
     fileExtensions: ['jar'],
   },
-  'javascript': {
-    languageIds: ['javascript'],
+  'java': {
+    languageIds: ['java'],
     fileExtensions: [
-      'esx',
-      'js',
-      'cjs',
-      'mjs',
+      'java',
+      'jsp',
     ],
   },
   'javascript-config': {
@@ -1228,6 +1223,15 @@ const fileIcons: Record<string, {
       'test.jsx',
       'jsx.snap',
       'cy.jsx',
+    ],
+  },
+  'javascript': {
+    languageIds: ['javascript'],
+    fileExtensions: [
+      'esx',
+      'js',
+      'cjs',
+      'mjs',
     ],
   },
   'jest': {
@@ -1283,6 +1287,9 @@ const fileIcons: Record<string, {
       'jinja-html',
     ],
   },
+  'json-schema': {
+    fileExtensions: ['schema.json'],
+  },
   'json': {
     languageIds: ['hjson'],
     fileExtensions: [
@@ -1305,9 +1312,6 @@ const fileIcons: Record<string, {
       '.lintstagedrc',
       '.whitesource',
     ],
-  },
-  'json-schema': {
-    fileExtensions: ['schema.json'],
   },
   'julia': {
     languageIds: ['julia'],
@@ -1457,6 +1461,9 @@ const fileIcons: Record<string, {
       'kbuild',
     ],
   },
+  'markdown-mdx': {
+    fileExtensions: ['mdx'],
+  },
   'markdown': {
     languageIds: ['markdown'],
     fileExtensions: [
@@ -1464,9 +1471,6 @@ const fileIcons: Record<string, {
       'markdown',
       'rst',
     ],
-  },
-  'markdown-mdx': {
-    fileExtensions: ['mdx'],
   },
   'marko': {
     fileExtensions: ['marko'],
@@ -1585,12 +1589,12 @@ const fileIcons: Record<string, {
   'ninja': {
     fileExtensions: ['ninja'],
   },
+  'nix-lock': {
+    fileNames: ['flake.lock'],
+  },
   'nix': {
     languageIds: ['nix'],
     fileExtensions: ['nix'],
-  },
-  'nix-lock': {
-    fileNames: ['flake.lock'],
   },
   'nodemon': {
     fileNames: [
@@ -1598,14 +1602,14 @@ const fileIcons: Record<string, {
       'nodemon-debug.json',
     ],
   },
-  'npm': {
-    fileNames: ['.npmrc'],
-  },
   'npm-ignore': {
     fileNames: ['.npmignore'],
   },
   'npm-lock': {
     fileNames: ['package-lock.json'],
+  },
+  'npm': {
+    fileNames: ['.npmrc'],
   },
   'nuget': {
     fileNames: [
@@ -1622,15 +1626,15 @@ const fileIcons: Record<string, {
       'nunjucks',
     ],
   },
+  'nuxt-ignore': {
+    fileNames: ['.nuxtignore'],
+  },
   'nuxt': {
     fileNames: [
       '.nuxtrc',
       'nuxt.config.js',
       'nuxt.config.ts',
     ],
-  },
-  'nuxt-ignore': {
-    fileNames: ['.nuxtignore'],
   },
   'ocaml': {
     fileExtensions: [
@@ -1697,11 +1701,11 @@ const fileIcons: Record<string, {
       '.phraseapp.yaml',
     ],
   },
-  'pixi': {
-    fileNames: ['pixi.toml'],
-  },
   'pixi-lock': {
     fileNames: ['pixi.lock'],
+  },
+  'pixi': {
+    fileNames: ['pixi.toml'],
   },
   'plantuml': {
     fileExtensions: ['pu', 'puml', 'plantuml'],
@@ -1727,14 +1731,14 @@ const fileIcons: Record<string, {
       'plopfile.ts',
     ],
   },
+  'pnpm-lock': {
+    fileNames: ['pnpm-lock.yaml'],
+  },
   'pnpm': {
     fileNames: [
       'pnpm-workspace.yaml',
       '.pnpmfile.cjs',
     ],
-  },
-  'pnpm-lock': {
-    fileNames: ['pnpm-lock.yaml'],
   },
   'poetry-lock': {
     fileNames: ['poetry.lock'],
@@ -1786,6 +1790,9 @@ const fileIcons: Record<string, {
       'premake.lua',
     ],
   },
+  'prettier-ignore': {
+    fileNames: ['.prettierignore'],
+  },
   'prettier': {
     fileNames: [
       '.prettierrc',
@@ -1801,9 +1808,6 @@ const fileIcons: Record<string, {
       'prettier.config.mjs',
       '.prettierrc.mjs',
     ],
-  },
-  'prettier-ignore': {
-    fileNames: ['.prettierignore'],
   },
   'prisma': {
     fileNames: ['prisma.yml'],
@@ -1865,10 +1869,6 @@ const fileIcons: Record<string, {
       'puppeteer.config.cjs',
     ],
   },
-  'python': {
-    languageIds: ['python'],
-    fileExtensions: ['py'],
-  },
   'python-compiled': {
     fileExtensions: [
       'pyc',
@@ -1882,6 +1882,10 @@ const fileIcons: Record<string, {
       'requirements.txt',
       '.python-version',
     ],
+  },
+  'python': {
+    languageIds: ['python'],
+    fileExtensions: ['py'],
   },
   'r': {
     languageIds: [
@@ -1981,6 +1985,12 @@ const fileIcons: Record<string, {
       'rollup.config.prod.vendor.ts',
     ],
   },
+  'ruby-gem-lock': {
+    fileNames: ['gemfile.lock'],
+  },
+  'ruby-gem': {
+    fileNames: ['gemfile'],
+  },
   'ruby': {
     languageIds: ['ruby'],
     fileExtensions: [
@@ -1990,21 +2000,8 @@ const fileIcons: Record<string, {
     ],
     fileNames: ['.ruby-version'],
   },
-  'ruby-gem': {
-    fileNames: ['gemfile'],
-  },
-  'ruby-gem-lock': {
-    fileNames: ['gemfile.lock'],
-  },
   'ruff': {
     fileNames: ['ruff.toml', '.ruff.toml'],
-  },
-  'rust': {
-    languageIds: ['rust'],
-    fileExtensions: [
-      'rs',
-      'ron',
-    ],
   },
   'rust-config': {
     fileNames: [
@@ -2012,6 +2009,13 @@ const fileIcons: Record<string, {
       '.rustfmt.toml',
       'rust-toolchain.toml',
       'clippy.toml',
+    ],
+  },
+  'rust': {
+    languageIds: ['rust'],
+    fileExtensions: [
+      'rs',
+      'ron',
     ],
   },
   'salesforce': {
@@ -2057,11 +2061,11 @@ const fileIcons: Record<string, {
       'release.config.cjs',
     ],
   },
-  'semgrep': {
-    fileNames: ['semgrep.yml'],
-  },
   'semgrep-ignore': {
     fileNames: ['.semgrepignore'],
+  },
+  'semgrep': {
+    fileNames: ['semgrep.yml'],
   },
   'sentry': {
     fileNames: ['.sentryclirc'],
@@ -2167,6 +2171,18 @@ const fileIcons: Record<string, {
       'stitches.config.ts',
     ],
   },
+  'storybook-svelte': {
+    fileExtensions: [
+      'story.svelte',
+      'stories.svelte',
+    ],
+  },
+  'storybook-vue': {
+    fileExtensions: [
+      'story.vue',
+      'stories.vue',
+    ],
+  },
   'storybook': {
     fileExtensions: [
       'stories.js',
@@ -2181,16 +2197,10 @@ const fileIcons: Record<string, {
       'story.mdx',
     ],
   },
-  'storybook-svelte': {
-    fileExtensions: [
-      'story.svelte',
-      'stories.svelte',
-    ],
-  },
-  'storybook-vue': {
-    fileExtensions: [
-      'story.vue',
-      'stories.vue',
+  'stylelint-ignore': {
+    fileNames: [
+      '.stylelintignore',
+      '.stylelintcache',
     ],
   },
   'stylelint': {
@@ -2207,12 +2217,6 @@ const fileIcons: Record<string, {
       '.stylelintrc.mjs',
     ],
   },
-  'stylelint-ignore': {
-    fileNames: [
-      '.stylelintignore',
-      '.stylelintcache',
-    ],
-  },
   'sublime': {
     fileExtensions: [
       'sublime-project',
@@ -2222,10 +2226,6 @@ const fileIcons: Record<string, {
   'super-collider': {
     fileExtensions: ['sc', 'scd'],
   },
-  'svelte': {
-    languageIds: ['svelte'],
-    fileExtensions: ['svelte'],
-  },
   'svelte-config': {
     fileNames: [
       'svelte.config.js',
@@ -2233,6 +2233,10 @@ const fileIcons: Record<string, {
       'svelte.config.cjs',
       'svelte.config.mjs',
     ],
+  },
+  'svelte': {
+    languageIds: ['svelte'],
+    fileExtensions: ['svelte'],
   },
   'svg': {
     languageIds: ['svg'],
@@ -2263,6 +2267,9 @@ const fileIcons: Record<string, {
       'taskfile.dist.yaml',
     ],
   },
+  'tauri-ignore': {
+    fileNames: ['.taurignore'],
+  },
   'tauri': {
     fileNames: [
       'tauri.conf.json',
@@ -2274,9 +2281,6 @@ const fileIcons: Record<string, {
       'Tauri.toml',
     ],
     fileExtensions: ['tauri'],
-  },
-  'tauri-ignore': {
-    fileNames: ['.taurignore'],
   },
   'terraform': {
     languageIds: ['terraform'],
@@ -2322,14 +2326,6 @@ const fileIcons: Record<string, {
     fileExtensions: [
       'tw',
       'twee',
-    ],
-  },
-  'typescript': {
-    languageIds: ['typescript'],
-    fileExtensions: [
-      'ts',
-      'cts',
-      'mts',
     ],
   },
   'typescript-config': {
@@ -2396,6 +2392,14 @@ const fileIcons: Record<string, {
       'cy.tsx',
     ],
   },
+  'typescript': {
+    languageIds: ['typescript'],
+    fileExtensions: [
+      'ts',
+      'cts',
+      'mts',
+    ],
+  },
   'typst': {
     languageIds: ['typst'],
     fileExtensions: ['typ'],
@@ -2434,16 +2438,16 @@ const fileIcons: Record<string, {
   'vento': {
     fileExtensions: ['vto'],
   },
-  'vercel': {
-    fileNames: [
-      'vercel.json',
-      'now.json',
-    ],
-  },
   'vercel-ignore': {
     fileNames: [
       '.vercelignore',
       '.nowignore',
+    ],
+  },
+  'vercel': {
+    fileNames: [
+      'vercel.json',
+      'now.json',
     ],
   },
   'verilog': {
@@ -2545,6 +2549,9 @@ const fileIcons: Record<string, {
   },
   'vs-codium': {
   },
+  'vscode-ignore': {
+    fileNames: ['.vscodeignore'],
+  },
   'vscode': {
     fileExtensions: [
       'vsixmanifest',
@@ -2554,13 +2561,6 @@ const fileIcons: Record<string, {
       'code-profile',
       'code-snippets',
     ],
-  },
-  'vscode-ignore': {
-    fileNames: ['.vscodeignore'],
-  },
-  'vue': {
-    languageIds: ['vue'],
-    fileExtensions: ['vue'],
   },
   'vue-config': {
     fileNames: [
@@ -2572,6 +2572,10 @@ const fileIcons: Record<string, {
       'vue.config.mts',
       '.vuerc',
     ],
+  },
+  'vue': {
+    languageIds: ['vue'],
+    fileExtensions: ['vue'],
   },
   'web-assembly': {
     fileExtensions: [
@@ -2820,6 +2824,9 @@ const fileIcons: Record<string, {
       'yaml',
     ],
   },
+  'yarn-lock': {
+    fileNames: ['yarn.lock'],
+  },
   'yarn': {
     fileNames: [
       '.yarnrc',
@@ -2830,9 +2837,6 @@ const fileIcons: Record<string, {
       '.yarnrc.yaml',
       'yarn.config.cjs',
     ],
-  },
-  'yarn-lock': {
-    fileNames: ['yarn.lock'],
   },
   'zap': {
     fileExtensions: ['zap'],

@@ -2,9 +2,13 @@
  * Default folder icon associations
  * Keys are icon file basenames (without folder_ prefix)
  */
-const folderIcons: Record<string, {
+
+type FolderIcons = Record<string, {
   folderNames?: Array<string>
-}> = {
+}>
+
+// @keep-sorted
+const folderIcons: FolderIcons = {
   'admin': {
     folderNames: [
       'admin',
