@@ -1918,6 +1918,7 @@ const fileIcons: FileIcons = {
     fileExtensions: [
       'cshtml',
       'vbhtml',
+      'razor',
     ],
   },
   'readme': {
