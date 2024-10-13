@@ -2797,7 +2797,10 @@ const fileIcons: FileIcons = {
     ],
   },
   'xaml': {
-    fileExtensions: ['xaml'],
+    fileExtensions: [
+      'xaml',
+      'axaml',
+    ],
   },
   'xmake': {
     fileNames: ['xmake.lua'],
