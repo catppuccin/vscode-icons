@@ -1,5 +1,25 @@
 # Changelog
 
+## v1.17.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.16.0...v1.17.0)
+
+### 🚀 Enhancements
+
+- Add hardhat icon ([#311](https://github.com/catppuccin/vscode-icons/pull/311))
+- Add mdbook icon ([#312](https://github.com/catppuccin/vscode-icons/pull/312))
+- **associations:** Add `xaml` icon for `.axaml` files ([#328](https://github.com/catppuccin/vscode-icons/pull/328))
+
+### 🏡 Chore
+
+- Upgrade dependencies ([#308](https://github.com/catppuccin/vscode-icons/pull/308))
+- Sort associations with eslint-plugin-command ([#310](https://github.com/catppuccin/vscode-icons/pull/310))
+
+### ❤️ Contributors
+
+- Hammy ([@sgoudham](http://github.com/sgoudham))
+- PraZ <hi@praz.dev>
+
 ## v1.16.0
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.15.0...v1.16.0)
