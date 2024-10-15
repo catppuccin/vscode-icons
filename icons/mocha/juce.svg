@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+	<g fill="none">
+		<path stroke="#cba6f7" stroke-linecap="round" stroke-linejoin="round" d="M9 3c-.5-.5-1.5-.5-2 0s.5 1.5 1 2.5c.5-1 1.5-2 1-2.5Z" />
+		<path stroke="#f9e2af" stroke-linecap="round" stroke-linejoin="round" d="M9 13c-.5.5-1.5.5-2 0s.5-1.5 1-2.5c.5 1 1.5 2 1 2.5Z" />
+		<path stroke="#94e2d5" stroke-linecap="round" stroke-linejoin="round" d="M3 7c-.5.5-.5 1.5 0 2s1.5-.5 2.5-1c-1-.5-2-1.5-2.5-1Z" />
+		<path stroke="#fab387" stroke-linecap="round" stroke-linejoin="round" d="M13 7c.5.5.5 1.5 0 2s-1.5-.5-2.5-1c1-.5 2-1.5 2.5-1Z" />
+		<path stroke="#89b4fa" stroke-linecap="round" stroke-linejoin="round" d="M5.2 3.8c-.7 0-1.4.7-1.4 1.4s1.4.7 2.4 1c-.3-1-.3-2.4-1-2.4Z" />
+		<path stroke="#fab387" stroke-linecap="round" stroke-linejoin="round" d="M12.2 10.8c0 .7-.7 1.4-1.4 1.4s-.7-1.4-1-2.4c1 .3 2.4.3 2.4 1Z" />
+		<path stroke="#f38ba8" stroke-linecap="round" stroke-linejoin="round" d="M12.2 5.2c0-.7-.7-1.4-1.4-1.4s-.7 1.4-1 2.4c1-.3 2.4-.3 2.4-1Z" />
+		<path stroke="#a6e3a1" stroke-linecap="round" stroke-linejoin="round" d="M5.2 12.2c-.7 0-1.4-.7-1.4-1.4s1.4-.7 2.4-1c-.3 1-.3 2.4-1 2.4Z" />
+		<circle cx="8" cy="8" r="7" stroke="#a6e3a1" />
+		<path stroke="#cdd6f4" stroke-linejoin="round" d="M7.9 7.9h.2v.2h-.2z" />
+	</g>
+</svg>
