@@ -1319,6 +1319,9 @@ const fileIcons: FileIcons = {
       '.whitesource',
     ],
   },
+  'juce': {
+    fileExtensions: ['jucer'],
+  },
   'julia': {
     languageIds: ['julia'],
     fileExtensions: ['jl'],
