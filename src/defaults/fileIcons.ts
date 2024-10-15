@@ -1710,6 +1710,9 @@ const fileIcons: FileIcons = {
       '.phraseapp.yaml',
     ],
   },
+  'phtml': {
+    fileExtensions: ['phtml'],
+  },
   'pixi-lock': {
     fileNames: ['pixi.lock'],
   },
