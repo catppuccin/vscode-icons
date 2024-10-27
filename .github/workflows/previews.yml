@@ -37,4 +37,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5.0.1
         with:
           file_pattern: 'assets/*'
-          commit_message: "chore: regenerate previews"
+          commit_message: 'chore: regenerate previews'
