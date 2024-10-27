@@ -2,13 +2,6 @@ name: Generate Previews
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'icons/**'
-      - scripts/icons/preview.ts
-      - scripts/catwalk.ts
-    tags-ignore: [v*]
 
 jobs:
   generate-previews:
@@ -17,6 +10,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
@@ -32,24 +27,14 @@ jobs:
       - name: Generate Flavor Previews
         run: pnpm icons:preview
 
-      - name: Install catppuccin/catwalk
-        shell: bash
-        run: |
-          mkdir /tmp/catwalk
-          cd /tmp/catwalk
-          curl -LSs https://github.com/catppuccin/catwalk/releases/download/v1.3.2/catwalk-aarch64-apple-darwin -o catwalk
-          chmod +x catwalk
-          echo $(pwd) >> $GITHUB_PATH
+      - name: Setup catppuccin/catwalk
+        uses: catppuccin/setup-catwalk@v1.0.0
 
       - name: Generate Catwalk Preview
         run: pnpm catwalk
 
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v7
+      - name: Commit
+        uses: stefanzweifel/git-auto-commit-action@v5.0.1
         with:
-          title: 'chore: re-generate previews'
-          commit-message: 'chore: re-generate previews'
-          branch: chore/re-generate-previews
-          delete-branch: true
-          add-paths: |
-            assets/*
+          file_pattern: 'assets/*'
+          commit_message: "chore: regenerate previews"
