@@ -1328,7 +1328,8 @@ const fileIcons: FileIcons = {
     fileExtensions: ['ipynb'],
   },
   'just': {
-    fileNames: ['justfile'],
+    fileExtensions: ['just'],
+    fileNames: ['justfile', '.justfile'],
   },
   'key': {
     fileExtensions: [
