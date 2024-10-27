@@ -2,16 +2,13 @@ name: Generate Previews
 
 on:
   workflow_dispatch:
-  pull_request:
-    types:
-      - opened
-      - synchronize
-    branches:
-      - main
+  push:
+    branches: [main]
     paths:
       - 'icons/**'
       - scripts/icons/preview.ts
       - scripts/catwalk.ts
+    tags-ignore: [v*]
 
 jobs:
   generate-previews:
@@ -41,8 +38,12 @@ jobs:
       - name: Generate Catwalk Preview
         run: pnpm catwalk
 
-      - name: Commit
-        uses: stefanzweifel/git-auto-commit-action@v5.0.1
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
         with:
-          file_pattern: 'assets/*'
-          commit_message: 'chore: regenerate previews'
+          title: 'chore: re-generate previews'
+          commit-message: 'chore: re-generate previews'
+          branch: chore/re-generate-previews
+          delete-branch: true
+          add-paths: |
+            assets/*
