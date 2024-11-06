@@ -1370,6 +1370,9 @@ const fileIcons: FileIcons = {
       'ltx',
     ],
   },
+  'latte': {
+    fileExtensions: ['latte'],
+  },
   'lerna': {
     fileNames: ['lerna.json'],
   },
