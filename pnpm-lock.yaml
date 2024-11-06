@@ -13,7 +13,7 @@ importers:
         version: 3.8.0(@typescript-eslint/utils@8.13.0(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.3))(@vue/compiler-sfc@3.4.15)(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.3)
       '@catppuccin/palette':
         specifier: ^1.4.0
-        version: 1.5.0
+        version: 1.7.1
       '@iconify/tools':
         specifier: ^4.0.6
         version: 4.0.7
@@ -191,8 +191,8 @@ packages:
     resolution: {integrity: sha512-Z/yiTPj+lDVnF7lWeKCIJzaIkI0vYO87dMpZ4bg4TDrFe4XXLFWL1TbXU27gBP3QccxV9mZICCrnjnYlJjXHOA==}
     engines: {node: '>=6.9.0'}
 
-  '@catppuccin/palette@1.5.0':
-    resolution: {integrity: sha512-SQd/1h2gkK+nA5SWfd7NnUA/RsM8fIMJaqB8HzwATlNSDtPzTI7qmy3ei+jlgThlGILvdDt0C5CJ+3n/G9trKw==}
+  '@catppuccin/palette@1.7.1':
+    resolution: {integrity: sha512-aRc1tbzrevOTV7nFTT9SRdF26w/MIwT4Jwt4fDMc9itRZUDXCuEDBLyz4TQMlqO9ZP8mf5Hu4Jr6D03NLFc6Gw==}
 
   '@clack/core@0.3.4':
     resolution: {integrity: sha512-H4hxZDXgHtWTwV3RAVenqcC4VbJZNegbBjlPvzOzCouXtS2y3sDvlO3IsbrPNWuLWPPlYVYPghQdSF64683Ldw==}
@@ -3326,7 +3326,7 @@ snapshots:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
 
-  '@catppuccin/palette@1.5.0': {}
+  '@catppuccin/palette@1.7.1': {}
 
   '@clack/core@0.3.4':
     dependencies:
