@@ -2434,6 +2434,9 @@ const fileIcons: FileIcons = {
   'url': {
     fileExtensions: ['url'],
   },
+  'uv': {
+    fileNames: ['uv.lock'],
+  },
   'v': {
     languageIds: ['v'],
     fileExtensions: ['v'],
