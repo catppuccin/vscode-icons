@@ -1334,6 +1334,10 @@ const fileIcons: FileIcons = {
     fileExtensions: ['just'],
     fileNames: ['justfile', '.justfile'],
   },
+  'kdl': {
+    languageIds: ['kdl'],
+    fileExtensions: ['kdl'],
+  },
   'key': {
     fileExtensions: [
       'pub',
