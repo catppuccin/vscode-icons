@@ -395,6 +395,12 @@ const folderIcons: FolderIcons = {
       '_layouts',
     ],
   },
+  'lib': {
+    folderNames: [
+      'lib',
+      'library',
+    ],
+  },
   'locales': {
     folderNames: [
       'i18n',
