@@ -771,6 +771,9 @@ const fileIcons: FileIcons = {
       '.env.cat',
     ],
   },
+  'envrc': {
+    fileNames: ['.envrc'],
+  },
   'erlang': {
     languageIds: ['erlang'],
     fileExtensions: ['erl'],
