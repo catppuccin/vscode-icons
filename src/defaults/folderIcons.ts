@@ -506,6 +506,12 @@ const folderIcons: FolderIcons = {
   'redux': {
     folderNames: ['redux'],
   },
+  'renovate': {
+    folderNames: [
+      '.renovate',
+      'renovate',
+    ],
+  },
   'routes': {
     folderNames: [
       'routes',
