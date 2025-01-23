@@ -561,6 +561,12 @@ const folderIcons: FolderIcons = {
       '__stories__',
     ],
   },
+  'strapi': {
+    folderNames: [
+      '.strapi',
+      'strapi',
+    ],
+  },
   'styles': {
     folderNames: [
       'css',
