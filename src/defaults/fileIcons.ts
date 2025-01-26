@@ -283,7 +283,7 @@ const fileIcons: FileIcons = {
     ],
   },
   'bun-lock': {
-    fileNames: ['bun.lockb'],
+    fileNames: ['bun.lock', 'bun.lockb'],
   },
   'bun': {
     fileNames: ['bunfig.toml'],
