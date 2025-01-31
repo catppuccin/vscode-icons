@@ -486,6 +486,9 @@ const fileIcons: FileIcons = {
       'cuh',
     ],
   },
+  'cursor': {
+    fileNames: ['.cursorrules'],
+  },
   'cypress': {
     fileNames: [
       'cypress.json',
