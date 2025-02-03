@@ -1913,6 +1913,8 @@ const fileIcons: FileIcons = {
     fileNames: [
       'pyproject.toml',
       'requirements.txt',
+      'requirements-dev.txt',
+      'requirements-test.txt',
       '.python-version',
     ],
   },
