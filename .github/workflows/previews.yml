@@ -32,14 +32,8 @@ jobs:
       - name: Generate Flavor Previews
         run: pnpm icons:preview
 
-      - name: Install catppuccin/catwalk
-        shell: bash
-        run: |
-          mkdir /tmp/catwalk
-          cd /tmp/catwalk
-          curl -LSs https://github.com/catppuccin/catwalk/releases/download/v1.3.2/catwalk-aarch64-apple-darwin -o catwalk
-          chmod +x catwalk
-          echo $(pwd) >> $GITHUB_PATH
+      - name: Setup catppuccin/catwalk
+        uses: catppuccin/setup-catwalk@v1.0.0
 
       - name: Generate Catwalk Preview
         run: pnpm catwalk

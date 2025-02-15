@@ -30,7 +30,7 @@ We use a set of tools to build the extension and assets:
 
 - [`nodejs@latest`](https://nodejs.org/en) as runtime.
 - [`pnpm`](http://pnpm.io) as dependency manager.
-- [`catwalk`](https://github.com/catppuccin/toolbox/tree/main/catwalk) as in-house preview generator (_optional_).
+- [`catwalk`](https://github.com/catppuccin/catwalk) as in-house preview generator (_optional_).
 
 ### Scripts
 

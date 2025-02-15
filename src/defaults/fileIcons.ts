@@ -771,6 +771,9 @@ const fileIcons: FileIcons = {
       '.env.cat',
     ],
   },
+  'envrc': {
+    fileNames: ['.envrc'],
+  },
   'erlang': {
     languageIds: ['erlang'],
     fileExtensions: ['erl'],
@@ -1108,6 +1111,13 @@ const fileIcons: FileIcons = {
   'huff': {
     fileExtensions: ['huff'],
   },
+  'hugo': {
+    fileNames: [
+      'hugo.toml',
+      'hugo.yaml',
+      'hugo.json',
+    ],
+  },
   'humans': {
     fileNames: ['humans.txt'],
   },
@@ -1319,6 +1329,9 @@ const fileIcons: FileIcons = {
       '.whitesource',
     ],
   },
+  'juce': {
+    fileExtensions: ['jucer'],
+  },
   'julia': {
     languageIds: ['julia'],
     fileExtensions: ['jl'],
@@ -1328,7 +1341,12 @@ const fileIcons: FileIcons = {
     fileExtensions: ['ipynb'],
   },
   'just': {
-    fileNames: ['justfile'],
+    fileExtensions: ['just'],
+    fileNames: ['justfile', '.justfile'],
+  },
+  'kdl': {
+    languageIds: ['kdl'],
+    fileExtensions: ['kdl'],
   },
   'key': {
     fileExtensions: [
@@ -1368,6 +1386,9 @@ const fileIcons: FileIcons = {
       'dtx',
       'ltx',
     ],
+  },
+  'latte': {
+    fileExtensions: ['latte'],
   },
   'lerna': {
     fileNames: ['lerna.json'],
@@ -1709,6 +1730,9 @@ const fileIcons: FileIcons = {
       '.phrase.yaml',
       '.phraseapp.yaml',
     ],
+  },
+  'phtml': {
+    fileExtensions: ['phtml'],
   },
   'pixi-lock': {
     fileNames: ['pixi.lock'],
@@ -2432,6 +2456,9 @@ const fileIcons: FileIcons = {
   },
   'url': {
     fileExtensions: ['url'],
+  },
+  'uv': {
+    fileNames: ['uv.lock'],
   },
   'v': {
     languageIds: ['v'],
