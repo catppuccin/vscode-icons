@@ -1,5 +1,51 @@
 # Changelog
 
+## v1.18.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.17.0...v1.18.0)
+
+### 🚀 Enhancements
+
+- Add uv icon ([#330](https://github.com/catppuccin/vscode-icons/pull/330))
+- Add phtml icons ([#211](https://github.com/catppuccin/vscode-icons/pull/211), [#331](https://github.com/catppuccin/vscode-icons/pull/331))
+- Add latte icon ([#198](https://github.com/catppuccin/vscode-icons/pull/198), [#332](https://github.com/catppuccin/vscode-icons/pull/332))
+- Add juce icon ([#333](https://github.com/catppuccin/vscode-icons/pull/333))
+- Kdl icon ([#351](https://github.com/catppuccin/vscode-icons/pull/351))
+- **icons:** Add Hugo icons ([#184](https://github.com/catppuccin/vscode-icons/pull/184))
+- Envrc icon ([#367](https://github.com/catppuccin/vscode-icons/pull/367))
+- Symlink icon (unassociated) ([#368](https://github.com/catppuccin/vscode-icons/pull/368))
+- **icons:** Add bun.lock as bun-lock icon ([#394](https://github.com/catppuccin/vscode-icons/pull/394))
+- **associations:** Add more common `requirements.txt` variants ([#396](https://github.com/catppuccin/vscode-icons/pull/396))
+
+### 🩹 Fixes
+
+- **associations:** Add `.just` ext, `.justfile` filename for just ([#341](https://github.com/catppuccin/vscode-icons/pull/341))
+
+### 📖 Documentation
+
+- **CONTRIBUTING:** Update `catwalk` repo link ([#355](https://github.com/catppuccin/vscode-icons/pull/355))
+
+### 🏡 Chore
+
+- Re-generate previews ([#309](https://github.com/catppuccin/vscode-icons/pull/309))
+
+### 🤖 CI
+
+- **previews:** Run manually to commit on PR ([#345](https://github.com/catppuccin/vscode-icons/pull/345))
+- **previews:** Screw it, just run on `pull_request` ([#346](https://github.com/catppuccin/vscode-icons/pull/346))
+- **previews:** Remove `{{ github.head_ref }}` ([#347](https://github.com/catppuccin/vscode-icons/pull/347))
+- **previews:** Revert to creating PR ([#348](https://github.com/catppuccin/vscode-icons/pull/348))
+
+### ❤️ Contributors
+
+- Spenser Black ([@spenserblack](http://github.com/spenserblack))
+- _eyewave ([@eye-wave](http://github.com/eye-wave))
+- PraZ ([@prazdevs](http://github.com/prazdevs))
+- Nestor Vera ([@hacknug](http://github.com/hacknug))
+- Thelooter <evekolb2204@gmail.com>
+- Hammy ([@sgoudham](http://github.com/sgoudham))
+- Uncenter ([@uncenter](http://github.com/uncenter))
+
 ## v1.17.0
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.16.0...v1.17.0)
