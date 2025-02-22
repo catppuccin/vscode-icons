@@ -43,7 +43,7 @@ importers:
         version: 15.2.10
       lookpath:
         specifier: ^1.2.2
-        version: 1.2.2
+        version: 1.2.3
       puppeteer:
         specifier: ^23.0.0
         version: 23.7.0(typescript@5.6.3)
@@ -2107,8 +2107,8 @@ packages:
   longest-streak@3.1.0:
     resolution: {integrity: sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g==}
 
-  lookpath@1.2.2:
-    resolution: {integrity: sha512-k2Gmn8iV6qdME3ztZC2spubmQISimFOPLuQKiPaLcVdRz0IpdxrNClVepMlyTJlhodm/zG/VfbkWERm3kUIh+Q==}
+  lookpath@1.2.3:
+    resolution: {integrity: sha512-kthRVhf4kH4+HW3anM4UBHxsw/XFESf13euCEldhXr6GpBdmBoa7rDd7WO5G0Mhd4G5XtKTcEy8OR0iRZXpS3Q==}
     engines: {npm: '>=6.13.4'}
     hasBin: true
 
@@ -5393,7 +5393,7 @@ snapshots:
 
   longest-streak@3.1.0: {}
 
-  lookpath@1.2.2: {}
+  lookpath@1.2.3: {}
 
   lru-cache@10.4.3: {}
 
