@@ -395,6 +395,12 @@ const folderIcons: FolderIcons = {
       '_layouts',
     ],
   },
+  'lib': {
+    folderNames: [
+      'lib',
+      'library',
+    ],
+  },
   'locales': {
     folderNames: [
       'i18n',
@@ -553,6 +559,12 @@ const folderIcons: FolderIcons = {
       'storybook',
       'stories',
       '__stories__',
+    ],
+  },
+  'strapi': {
+    folderNames: [
+      '.strapi',
+      'strapi',
     ],
   },
   'styles': {
