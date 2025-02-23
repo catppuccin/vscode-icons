@@ -2832,6 +2832,14 @@ const fileIcons: FileIcons = {
       'axaml',
     ],
   },
+  'xcode': {
+    fileExtensions: [
+      'xcodeproj',
+      'xcsettings',
+      'xcworkspace',
+      'xcworkspacedata',
+    ],
+  },
   'xmake': {
     fileNames: ['xmake.lua'],
   },
