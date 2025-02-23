@@ -44,7 +44,7 @@ jobs:
         run: pnpm build
 
       - name: Package extension
-        uses: haaleo/publish-vscode-extension@v1
+        uses: haaleo/publish-vscode-extension@v2
         id: package
         with:
           pat: _
