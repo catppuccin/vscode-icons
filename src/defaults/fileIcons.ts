@@ -2298,8 +2298,9 @@ const fileIcons: FileIcons = {
       'taskfile.yml',
       'taskfile.yaml',
       'taskfile.dist.yml',
-      'taskfile.yaml',
       'taskfile.dist.yaml',
+      '.taskrc.yml',
+      '.taskrc.yaml',
     ],
   },
   'tauri-ignore': {
