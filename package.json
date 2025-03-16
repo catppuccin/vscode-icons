@@ -123,6 +123,7 @@
     "icons:optimize": "tsx scripts/icons/optimize.ts",
     "icons:preview": "tsx scripts/icons/preview.ts",
     "icons": "pnpm run --sequential '/^icons:.*/'",
+    "previews": "npx puppeteer browsers install chrome && pnpm run icons:preview && pnpm run catwalk",
     "integrity": "tsx scripts/integrity.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
