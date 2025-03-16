@@ -2837,9 +2837,7 @@ const fileIcons: FileIcons = {
   },
   'xcode': {
     fileExtensions: [
-      'xcodeproj',
       'xcsettings',
-      'xcworkspace',
       'xcworkspacedata',
     ],
   },
