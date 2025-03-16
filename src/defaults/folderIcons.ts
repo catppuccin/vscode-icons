@@ -697,6 +697,14 @@ const folderIcons: FolderIcons = {
   'wxt': {
     folderNames: ['.wxt'],
   },
+  'xcode': {
+    folderNames: [
+      'xcodeproj',
+      'xcworkspace',
+      'xcshareddata',
+      'xcschemes',
+    ],
+  },
   'yarn': {
     folderNames: ['.yarn'],
   },
