@@ -99,6 +99,11 @@ const folderIcons: FolderIcons = {
       'caddyfiles',
     ],
   },
+  'cargo': {
+    folderNames: [
+      '.cargo',
+    ],
+  },
   'circle-ci': {
     folderNames: ['.circleci'],
   },
