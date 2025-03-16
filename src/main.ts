@@ -1,4 +1,5 @@
-import { commands, type ExtensionContext, workspace } from 'vscode'
+import type { ExtensionContext } from 'vscode'
+import { commands, workspace } from 'vscode'
 import { COMMANDS, CONFIG_KEYS, CONFIG_ROOT } from '~/constants'
 import { isDefaultConfig, resetConfig } from '~/hooks/configuration'
 import { isFreshInstall, promptToReload } from '~/hooks/interactions'

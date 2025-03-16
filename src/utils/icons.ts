@@ -1,5 +1,6 @@
+import type { ColorName, FlavorName } from '@catppuccin/palette'
 import type { IconsConfig } from '~/types'
-import { type ColorName, type FlavorName, flavors } from '@catppuccin/palette'
+import { flavors } from '@catppuccin/palette'
 import defu from 'defu'
 import { defaultConfig } from '~/defaults'
 

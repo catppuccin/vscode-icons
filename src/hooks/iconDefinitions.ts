@@ -1,5 +1,6 @@
+import type { ExtensionContext } from 'vscode'
 import type { IconDefinitions } from '~/types'
-import { type ExtensionContext, Uri, workspace } from 'vscode'
+import { Uri, workspace } from 'vscode'
 
 /**
  * Reads `iconDefinitions.json` file from dist
