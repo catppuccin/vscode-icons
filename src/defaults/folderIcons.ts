@@ -276,6 +276,9 @@ const folderIcons: FolderIcons = {
       'download',
     ],
   },
+  'drizzle-orm': {
+    folderNames: ['drizzle'],
+  },
   'examples': {
     folderNames: [
       'demo',

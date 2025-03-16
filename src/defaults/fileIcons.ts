@@ -697,6 +697,12 @@ const fileIcons: FileIcons = {
       'dio',
     ],
   },
+  'drizzle-orm': {
+    fileNames: [
+      'drizzle.config.ts',
+      'drizzle.config.js',
+    ],
+  },
   'dub-selections': {
     fileNames: ['dub.selections.json'],
   },
