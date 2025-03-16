@@ -299,6 +299,10 @@ const fileIcons: FileIcons = {
       'mi',
     ],
   },
+  'cabal': {
+    fileExtensions: ['cabal'],
+    fileNames: ['cabal.project'],
+  },
   'caddy': {
     fileExtensions: ['caddyfile'],
     fileNames: ['caddyfile'],
