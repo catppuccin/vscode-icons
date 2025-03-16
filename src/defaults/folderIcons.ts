@@ -241,6 +241,7 @@ const folderIcons: FolderIcons = {
   'dist': {
     folderNames: [
       'dist',
+      'dist-newstyle',
       'out',
       'build',
       'release',
