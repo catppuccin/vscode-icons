@@ -698,6 +698,8 @@ const folderIcons: FolderIcons = {
     folderNames: [
       'xcodeproj',
       'xcworkspace',
+      'xcshareddata',
+      'xcschemes',
     ],
   },
   'yarn': {
