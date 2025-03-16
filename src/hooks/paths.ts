@@ -1,5 +1,6 @@
+import type { ExtensionContext } from 'vscode'
 import type { ThemePaths } from '~/types'
-import { type ExtensionContext, Uri } from 'vscode'
+import { Uri } from 'vscode'
 
 /**
  * Get extension runtime root (`dist`)
