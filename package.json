@@ -127,12 +127,11 @@
     "integrity": "tsx scripts/integrity.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "pack": "vsce package --no-dependencies",
     "release": "changelogen --release",
-    "typecheck": "tsc",
-    "vscode:prepublish": "pnpm build"
+    "typecheck": "tsc"
   },
   "devDependencies": {
+    "@actions/core": "^1.11.1",
     "@antfu/eslint-config": "^3.7.1",
     "@catppuccin/palette": "^1.4.0",
     "@iconify/tools": "^4.0.6",

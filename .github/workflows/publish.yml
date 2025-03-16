@@ -38,21 +38,14 @@ jobs:
         run: pnpm integrity
 
       - name: Build extension
+        id: build
         run: pnpm build
-
-      - name: Package extension
-        uses: haaleo/publish-vscode-extension@v1
-        id: package
-        with:
-          pat: _
-          dependencies: false
-          dryRun: true
 
       - name: Upload binary to GitHub release
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ${{ steps.package.outputs.vsixPath }}
+          file: ${{ steps.build.outputs.vsixPath }}
           tag: ${{ github.ref }}
           body: Please refer to [CHANGELOG.md](https://github.com/catppuccin/vscode-icons/blob/main/CHANGELOG.md) for details.
           overwrite: true
@@ -61,7 +54,7 @@ jobs:
         uses: haaleo/publish-vscode-extension@v1
         with:
           pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
-          extensionFile: ${{ steps.package.outputs.vsixPath }}
+          extensionFile: ${{ steps.build.outputs.vsixPath }}
           registryUrl: https://marketplace.visualstudio.com
           dependencies: false
 
@@ -71,4 +64,4 @@ jobs:
         timeout-minutes: 10
         with:
           pat: ${{ secrets.OPEN_VSX_TOKEN }}
-          extensionFile: ${{ steps.package.outputs.vsixPath }}
+          extensionFile: ${{ steps.build.outputs.vsixPath }}
