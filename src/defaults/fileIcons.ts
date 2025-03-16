@@ -2546,6 +2546,7 @@ const fileIcons: FileIcons = {
       'csproj',
       'ruleset',
       'sln',
+      'slnx',
       'suo',
       'vb',
       'vbs',
