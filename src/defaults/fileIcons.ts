@@ -849,6 +849,7 @@ const fileIcons: FileIcons = {
       'firebase.json',
       '.firebaserc',
       'firestore.rules',
+      'storage.rules',
       'firestore.indexes.json',
     ],
   },
