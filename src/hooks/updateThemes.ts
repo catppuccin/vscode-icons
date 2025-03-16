@@ -1,5 +1,6 @@
+import type { ExtensionContext } from 'vscode'
 import { flavorEntries } from '@catppuccin/palette'
-import { type ExtensionContext, Uri, window, workspace } from 'vscode'
+import { Uri, window, workspace } from 'vscode'
 import { getConfig } from '~/hooks/configuration'
 import { getIconDefinitions } from '~/hooks/iconDefinitions'
 import { readFile, writeFile, writeJsonFile } from '~/hooks/interactions'

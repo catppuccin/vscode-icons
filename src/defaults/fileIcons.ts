@@ -283,7 +283,7 @@ const fileIcons: FileIcons = {
     ],
   },
   'bun-lock': {
-    fileNames: ['bun.lockb'],
+    fileNames: ['bun.lock', 'bun.lockb'],
   },
   'bun': {
     fileNames: ['bunfig.toml'],
@@ -1424,6 +1424,7 @@ const fileIcons: FileIcons = {
       'license-mit',
       'license-gpl',
       'license-lgpl',
+      'unlicense',
       'license.md',
       'license.rst',
       'license.txt',
@@ -1434,6 +1435,7 @@ const fileIcons: FileIcons = {
       'licence-mit',
       'licence-gpl',
       'licence-lgpl',
+      'unlicence',
       'licence.md',
       'licence.rst',
       'licence.txt',
@@ -1913,6 +1915,8 @@ const fileIcons: FileIcons = {
     fileNames: [
       'pyproject.toml',
       'requirements.txt',
+      'requirements-dev.txt',
+      'requirements-test.txt',
       '.python-version',
     ],
   },
@@ -2296,8 +2300,9 @@ const fileIcons: FileIcons = {
       'taskfile.yml',
       'taskfile.yaml',
       'taskfile.dist.yml',
-      'taskfile.yaml',
       'taskfile.dist.yaml',
+      '.taskrc.yml',
+      '.taskrc.yaml',
     ],
   },
   'tauri-ignore': {
@@ -2541,6 +2546,7 @@ const fileIcons: FileIcons = {
       'csproj',
       'ruleset',
       'sln',
+      'slnx',
       'suo',
       'vb',
       'vbs',

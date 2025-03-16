@@ -9,24 +9,16 @@ import { resolve } from 'node:path'
 import { exit } from 'node:process'
 import { parseColors, SVG } from '@iconify/tools'
 import { consola } from 'consola'
-import { palettes } from '~/utils/palettes'
-
-const flavors = [
-  'css-variables',
-  'frappe',
-  'latte',
-  'macchiato',
-  'mocha',
-] satisfies Array<keyof typeof palettes>
+import { folders, palettes } from '~/utils/palettes'
 
 try {
   consola.info('Generating icons...')
   let generated = 0
-  for (const origin of flavors) {
+  for (const origin of folders) {
     const originPath = resolve('icons', origin)
     const originSvgs = await readdir(originPath)
 
-    for (const dest of flavors.filter(f => f !== origin)) {
+    for (const dest of folders.filter(f => f !== origin)) {
       const destPath = resolve('icons', dest)
       const destSvgs = readdirSync(destPath)
       originSvgs.filter(s => !destSvgs.includes(s)).forEach((i) => {

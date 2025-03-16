@@ -5,13 +5,13 @@
 import { readdir, readFile, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { exit } from 'node:process'
-import { flavorEntries } from '@catppuccin/palette'
 import { cleanupSVG, runSVGO, SVG } from '@iconify/tools'
 import { consola } from 'consola'
+import { folders } from '~/utils/palettes'
 
 try {
   consola.info('Optimizing SVG files...')
-  Promise.all(flavorEntries.map(async ([flavor]) => {
+  Promise.all(folders.map(async (flavor) => {
     const flavorPath = resolve('icons', flavor)
     const svgs = await readdir(flavorPath)
     await Promise.all(svgs.map(async (s) => {

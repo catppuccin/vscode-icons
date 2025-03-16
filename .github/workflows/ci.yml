@@ -41,18 +41,11 @@ jobs:
         run: pnpm integrity
 
       - name: Build extension
+        id: build
         run: pnpm build
-
-      - name: Package extension
-        uses: haaleo/publish-vscode-extension@v1
-        id: package
-        with:
-          pat: _
-          dependencies: false
-          dryRun: true
 
       - name: Upload VSIX artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ steps.package.outputs.vsixPath }}
-          path: ${{ steps.package.outputs.vsixPath }}
+          name: ${{ steps.build.outputs.vsixPath }}
+          path: ${{ steps.build.outputs.vsixPath }}

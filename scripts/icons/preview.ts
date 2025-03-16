@@ -2,11 +2,12 @@
  * Generates previews (.webp) for all flavors.
  */
 
+import type { FlavorName } from '@catppuccin/palette'
 import { mkdtemp, readdir, rm, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { join, resolve, sep } from 'node:path'
 import { exit } from 'node:process'
-import { flavorEntries, type FlavorName, flavors } from '@catppuccin/palette'
+import { flavorEntries, flavors } from '@catppuccin/palette'
 import { consola } from 'consola'
 import { launch } from 'puppeteer'
 
