@@ -51,7 +51,7 @@ jobs:
           overwrite: true
 
       - name: Publish to Visual Studio Marketplace
-        uses: haaleo/publish-vscode-extension@v1
+        uses: haaleo/publish-vscode-extension@v2
         with:
           pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
           extensionFile: ${{ steps.build.outputs.vsixPath }}
@@ -59,7 +59,7 @@ jobs:
           dependencies: false
 
       - name: Publish to OpenVSX Registry
-        uses: haaleo/publish-vscode-extension@v1
+        uses: haaleo/publish-vscode-extension@v2
         continue-on-error: true
         timeout-minutes: 10
         with:
