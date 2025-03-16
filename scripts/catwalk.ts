@@ -2,13 +2,14 @@
  * Generate main preview using Catwalk.
  */
 
+import type { FlavorName } from '@catppuccin/palette'
 import { exec } from 'node:child_process'
 import { mkdtemp, readdir, rm, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { join, resolve, sep } from 'node:path'
 import { exit } from 'node:process'
 import { promisify } from 'node:util'
-import { flavorEntries, type FlavorName, flavors } from '@catppuccin/palette'
+import { flavorEntries, flavors } from '@catppuccin/palette'
 import { consola } from 'consola'
 import { lookpath } from 'lookpath'
 import { launch } from 'puppeteer'

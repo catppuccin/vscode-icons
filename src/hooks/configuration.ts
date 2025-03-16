@@ -1,8 +1,8 @@
+import type { Config } from '~/types'
 import defu from 'defu'
 import { ConfigurationTarget, workspace } from 'vscode'
 import { CONFIG_KEYS, CONFIG_ROOT } from '~/constants'
 import { defaultConfig } from '~/defaults'
-import type { Config } from '~/types'
 
 /**
  * Get user catppuccin-icons configuration

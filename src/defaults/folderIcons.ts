@@ -99,6 +99,11 @@ const folderIcons: FolderIcons = {
       'caddyfiles',
     ],
   },
+  'cargo': {
+    folderNames: [
+      '.cargo',
+    ],
+  },
   'circle-ci': {
     folderNames: ['.circleci'],
   },
@@ -505,6 +510,12 @@ const folderIcons: FolderIcons = {
   },
   'redux': {
     folderNames: ['redux'],
+  },
+  'renovate': {
+    folderNames: [
+      '.renovate',
+      'renovate',
+    ],
   },
   'routes': {
     folderNames: [

@@ -1,10 +1,5 @@
-import {
-  type AccentName,
-  flavorEntries,
-  type FlavorName,
-  flavors,
-  type MonochromaticName,
-} from '@catppuccin/palette'
+import type { AccentName, FlavorName, MonochromaticName } from '@catppuccin/palette'
+import { flavorEntries, flavors } from '@catppuccin/palette'
 
 export type ColorName = AccentName | Extract<MonochromaticName, 'text' | 'overlay1'>
 
@@ -22,3 +17,11 @@ export const palettes = {
     .filter(([color, { accent }]) => accent || ['text', 'overlay1'].includes(color))
     .map(([color]) => ([color, `var(--vscode-ctp-${color})`])) as Array<[ColorName, string]>,
 }
+
+export const folders = [
+  'css-variables',
+  'frappe',
+  'latte',
+  'macchiato',
+  'mocha',
+] satisfies Array<keyof typeof palettes>

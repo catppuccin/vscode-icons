@@ -1,7 +1,8 @@
-import { type ColorName, type FlavorName, flavors } from '@catppuccin/palette'
+import type { ColorName, FlavorName } from '@catppuccin/palette'
+import type { IconsConfig } from '~/types'
+import { flavors } from '@catppuccin/palette'
 import defu from 'defu'
 import { defaultConfig } from '~/defaults'
-import type { IconsConfig } from '~/types'
 
 /**
  * Create icon with Text color from `flavor` only

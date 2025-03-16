@@ -1,6 +1,6 @@
+import type { IconDefinitions, ThemeConfig, VscTheme } from '~/types'
 import { defu } from 'defu'
 import { defaultConfig } from '~/defaults'
-import type { IconDefinitions, ThemeConfig, VscTheme } from '~/types'
 
 /**
  * Generates a VSC theme from defaults + overrides & icon definitions

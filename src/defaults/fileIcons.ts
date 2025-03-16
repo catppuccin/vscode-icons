@@ -2546,6 +2546,7 @@ const fileIcons: FileIcons = {
       'csproj',
       'ruleset',
       'sln',
+      'slnx',
       'suo',
       'vb',
       'vbs',
@@ -2832,6 +2833,14 @@ const fileIcons: FileIcons = {
     fileExtensions: [
       'xaml',
       'axaml',
+    ],
+  },
+  'xcode': {
+    fileExtensions: [
+      'xcodeproj',
+      'xcsettings',
+      'xcworkspace',
+      'xcworkspacedata',
     ],
   },
   'xmake': {

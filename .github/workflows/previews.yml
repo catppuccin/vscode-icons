@@ -26,17 +26,14 @@ jobs:
         with:
           node-version: lts/*
 
-      - name: Install dependencies
-        run: pnpm i --frozen-lockfile
-
-      - name: Generate Flavor Previews
-        run: pnpm icons:preview
-
       - name: Setup catppuccin/catwalk
         uses: catppuccin/setup-catwalk@v1.0.0
 
-      - name: Generate Catwalk Preview
-        run: pnpm catwalk
+      - name: Install dependencies
+        run: pnpm i --frozen-lockfile
+
+      - name: Generate Previews
+        run: pnpm previews
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7

@@ -5,9 +5,12 @@
 import { existsSync } from 'node:fs'
 import { cp, readdir, rm, writeFile } from 'node:fs/promises'
 import { basename, join } from 'node:path'
-import { exit } from 'node:process'
+import { env, exit } from 'node:process'
+import { setOutput } from '@actions/core'
 import { flavorEntries } from '@catppuccin/palette'
+import { createVSIX } from '@vscode/vsce'
 import { consola } from 'consola'
+import packageJson from 'package.json' assert { type: 'json' }
 import { build } from 'tsup'
 import { compileTheme } from '~/utils/themes'
 
@@ -87,6 +90,13 @@ try {
     minify: true,
     shims: true,
   })
+
+  // package .vsix
+  const packagePath = `${packageJson.name}-${packageJson.version}.vsix`
+  await createVSIX({ dependencies: false, packagePath })
+  if (env.GITHUB_ACTIONS) {
+    setOutput('vsixPath', packagePath)
+  }
 
   consola.success('Built VSC extension.')
 }
