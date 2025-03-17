@@ -902,6 +902,12 @@ const fileIcons: FileIcons = {
       'fsproj',
     ],
   },
+  'fvm': {
+    fileNames: [
+      '.fvmrc',
+      'fvm_config.json',
+    ],
+  },
   'gatsby': {
     fileNames: [
       'gatsby-config.js',
