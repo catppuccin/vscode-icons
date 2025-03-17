@@ -323,6 +323,9 @@ const folderIcons: FolderIcons = {
       'calculations',
     ],
   },
+  'fvm': {
+    folderNames: ['.fvm'],
+  },
   'git': {
     folderNames: [
       '.git',
