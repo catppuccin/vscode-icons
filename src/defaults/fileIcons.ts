@@ -2912,7 +2912,30 @@ const fileIcons: FileIcons = {
   'zig': {
     fileExtensions: ['zig'],
   },
-
+  'zip': {
+    fileExtensions: [
+      '7z',
+      'arj',
+      'aseprite-extension',
+      'bz',
+      'bz2',
+      'db',
+      'gz',
+      'paq8n',
+      'paq8o',
+      'pkg',
+      'rar',
+      'tar',
+      'tbz',
+      'tbz2',
+      'tgz',
+      'xz',
+      'z',
+      'zip',
+      'zpaq',
+      'zst',
+    ],
+  },
 }
 
 const { languageIds, fileExtensions, fileNames } = Object.entries(fileIcons).reduce(
