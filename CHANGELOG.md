@@ -1,5 +1,47 @@
 # Changelog
 
+## v1.19.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.18.0...v1.19.0)
+
+### 🚀 Enhancements
+
+- **associations:** `.taskrc.yml` files to `taskfile` ([#411](https://github.com/catppuccin/vscode-icons/pull/411))
+- **associations:** Add unlicense files to license icon ([#419](https://github.com/catppuccin/vscode-icons/pull/419))
+- **icons:** Add `.cargo` folder ([#425](https://github.com/catppuccin/vscode-icons/pull/425))
+- **icons:** Add `renovate` folder ([#375](https://github.com/catppuccin/vscode-icons/pull/375))
+- **associations:** `slnx` to `visual-studio` icon ([#431](https://github.com/catppuccin/vscode-icons/pull/431))
+- **icons:** Xcode ([#369](https://github.com/catppuccin/vscode-icons/pull/369))
+- **icons:** Update `css` to match new official logo ([#421](https://github.com/catppuccin/vscode-icons/pull/421))
+- **icons:** Drizzle-orm ([#435](https://github.com/catppuccin/vscode-icons/pull/435))
+- **icons:** Xcode folders ([#434](https://github.com/catppuccin/vscode-icons/pull/434))
+- **associations:** `storage.rules` to `firebase` icon ([#436](https://github.com/catppuccin/vscode-icons/pull/436))
+- **icons:** Cabal ([#437](https://github.com/catppuccin/vscode-icons/pull/437))
+
+### 🩹 Fixes
+
+- **scripts:** Optimise `css-variables/` directory ([#428](https://github.com/catppuccin/vscode-icons/pull/428))
+
+### 💅 Refactors
+
+- Create `.vsix` instead of relying on CI ([#432](https://github.com/catppuccin/vscode-icons/pull/432))
+
+### 🏡 Chore
+
+- Re-generate previews ([#427](https://github.com/catppuccin/vscode-icons/pull/427))
+
+### 🤖 CI
+
+- **previews:** Install chrome before generation ([#426](https://github.com/catppuccin/vscode-icons/pull/426))
+
+### ❤️ Contributors
+
+- Hammy ([@sgoudham](https://github.com/sgoudham))
+- PraZ ([@prazdevs](https://github.com/prazdevs))
+- Bernd Schorgers <me@bjw-s.dev>
+- Tahir Murata ([@tahirmurata](https://github.com/tahirmurata))
+- Pete Davison <github@pd93.uk>
+
 ## v1.18.0
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.17.0...v1.18.0)
