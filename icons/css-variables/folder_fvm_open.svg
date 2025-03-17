@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-	<g fill="none" stroke-linecap="round" stroke-linejoin="round">
-		<path stroke="var(--vscode-ctp-mauve)" stroke-width=".75" d="m11.28 15.62-0.01556-1.546 4.366 2.32e-4v1.549l-4.35-0.0031m-2.434-3.194-3.292-3.197 2.306 0.00311 2.732 2.633c0.3153 0.3141 0.3153 0.8172 0 1.121l-2.687 2.637h-2.351z" />
+	<g fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(0 .004)">
+		<path stroke="var(--vscode-ctp-mauve)" stroke-width=".65" d="m11.95 15.67-0.01332-1.323 3.738 1.99e-4v1.326l-3.724-0.0027m-2.084-2.734-2.818-2.737 1.974 0.0027 2.339 2.255c0.27 0.2689 0.27 0.6996 0 0.9593l-2.3 2.257h-2.013z" />
 		<path stroke="var(--vscode-ctp-text)" d="m1.873 8 0.7015-2.74a1.002 1 0 0 1 0.962-0.76h10.96a1.002 1 0 0 1 0.972 1.24l-0.2195 0.875m-9.24 6.885h-4.008a1.503 1.5 0 0 1-1.503-1.5v-8.5a1.002 1 0 0 1 1.002-1h5.01a1.002 1 0 0 1 1.002 1v1" />
 	</g>
 </svg>
