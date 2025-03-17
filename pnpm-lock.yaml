@@ -34,7 +34,7 @@ importers:
         version: 0.6.1
       consola:
         specifier: ^3.2.3
-        version: 3.4.0
+        version: 3.4.1
       defu:
         specifier: ^6.1.4
         version: 6.1.4
@@ -1150,8 +1150,8 @@ packages:
   confbox@0.2.1:
     resolution: {integrity: sha512-hkT3yDPFbs95mNCy1+7qNKC6Pro+/ibzYxtM2iqEigpf0sVw+bg4Zh9/snjsBcf990vfIsg5+1U7VyiyBb3etg==}
 
-  consola@3.4.0:
-    resolution: {integrity: sha512-EiPU8G6dQG0GFHNR8ljnZFki/8a+cQwEQ+7wpxdChl02Q8HXlwEZWD5lqAF8vC2sEC3Tehr8hy7vErz88LHyUA==}
+  consola@3.4.1:
+    resolution: {integrity: sha512-zaUUWockhqxFf4bSXS+kTJwxWvAyMuKtShx0BWcGrMEUqbETcBCT91iQs9pECNx7yz8VH4VeWW/1KAbhE8kiww==}
     engines: {node: ^14.18.0 || >=16.10.0}
 
   convert-gitmoji@0.1.5:
@@ -4195,7 +4195,7 @@ snapshots:
     dependencies:
       c12: 3.0.2
       confbox: 0.2.1
-      consola: 3.4.0
+      consola: 3.4.1
       convert-gitmoji: 0.1.5
       mri: 1.2.0
       node-fetch-native: 1.6.6
@@ -4253,7 +4253,7 @@ snapshots:
 
   citty@0.1.6:
     dependencies:
-      consola: 3.4.0
+      consola: 3.4.1
 
   clean-regexp@1.0.0:
     dependencies:
@@ -4310,7 +4310,7 @@ snapshots:
 
   confbox@0.2.1: {}
 
-  consola@3.4.0: {}
+  consola@3.4.1: {}
 
   convert-gitmoji@0.1.5: {}
 
@@ -4988,7 +4988,7 @@ snapshots:
   giget@2.0.0:
     dependencies:
       citty: 0.1.6
-      consola: 3.4.0
+      consola: 3.4.1
       defu: 6.1.4
       node-fetch-native: 1.6.6
       nypm: 0.6.0
@@ -5784,7 +5784,7 @@ snapshots:
   nypm@0.6.0:
     dependencies:
       citty: 0.1.6
-      consola: 3.4.0
+      consola: 3.4.1
       pathe: 2.0.3
       pkg-types: 2.1.0
       tinyexec: 0.3.2
@@ -6493,7 +6493,7 @@ snapshots:
       bundle-require: 5.1.0(esbuild@0.25.0)
       cac: 6.7.14
       chokidar: 4.0.3
-      consola: 3.4.0
+      consola: 3.4.1
       debug: 4.4.0
       esbuild: 0.25.0
       joycon: 3.1.1
