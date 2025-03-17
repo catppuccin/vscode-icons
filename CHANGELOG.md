@@ -1,5 +1,23 @@
 # Changelog
 
+## v1.20.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.19.0...v1.20.0)
+
+### 🚀 Enhancements
+
+- **icons:** Add `fvm` icon & folder ([#440](https://github.com/catppuccin/vscode-icons/pull/440))
+- **icons:** Add `zip` icon ([#443](https://github.com/catppuccin/vscode-icons/pull/443))
+- **icons:** Re-include old `css3` icon (unassociated) ([#445](https://github.com/catppuccin/vscode-icons/pull/445))
+
+### 🏡 Chore
+
+- Re-generate previews ([#441](https://github.com/catppuccin/vscode-icons/pull/441))
+
+### ❤️ Contributors
+
+- Hammy ([@sgoudham](https://github.com/sgoudham))
+
 ## v1.19.0
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.18.0...v1.19.0)
