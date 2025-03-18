@@ -1,0 +1,34 @@
+{
+  "name": "catppuccin-code-icons",
+  "version": "1.0.0",
+  "license": "MIT",
+  "fontVersion": "1.0",
+  "description": "🦊 Soothing pastel code icons for the high spirited!",
+  "scripts": {
+    "clean": "bun run ./scripts/reset.js",
+    "mocha-svgo": "svgo -f ./icons/mocha --config svgo.config.js",
+    "macchiato-svgo": "svgo -f ./icons/macchiato --config svgo.config.js",
+    "frappe-svgo": "svgo -f ./icons/frappe --config svgo.config.js",
+    "latte-svgo": "svgo -f ./icons/latte --config svgo.config.js",
+    "svgo": "bun run mocha-svgo && bun run macchiato-svgo && bun run frappe-svgo && bun run latte-svgo",
+    "sprite": "bun run ./scripts/svg-sprite.js --outDir dist --outFile codicon.svg",
+    "fonts": "fantasticon",
+    "build": "bun run clean && bun run svgo && bun run fonts && bun run sprite",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catppuccin/code-icons"
+  },
+  "author": {
+    "name": "Catppuccin"
+  },
+  "dependencies": {
+    "ansi-regex": "^6.1.0",
+    "fantasticon": "^1.2.3",
+    "husky": "^9.1.7",
+    "opentype.js": "^1.3.4",
+    "svg-sprite": "^2.0.4",
+    "svgo": "^3.3.2"
+  }
+}
