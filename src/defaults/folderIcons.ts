@@ -306,6 +306,9 @@ const folderIcons: FolderIcons = {
       'fonts',
     ],
   },
+  'forgejo': {
+    folderNames: ['.forgejo'],
+  },
   'functions': {
     folderNames: [
       'func',
