@@ -15,12 +15,8 @@ try {
   consola.info('Generating previews...')
 
   const allIcons = await readdir('icons/latte')
-  const fileIcons = allIcons.filter(
-    i => !i.startsWith('folder_') && !i.startsWith('_'),
-  )
-  const folderIcons = allIcons.filter(
-    i => i.startsWith('folder_') && !i.endsWith('_open.svg'),
-  )
+  const fileIcons = allIcons.filter(i => !i.startsWith('folder_') && !i.startsWith('_'))
+  const folderIcons = allIcons.filter(i => i.startsWith('folder_') && !i.endsWith('_open.svg'))
 
   function iconPath(icon: string, flavor: FlavorName) {
     return `${resolve(join('icons', flavor, icon))}`
@@ -71,28 +67,20 @@ try {
         <body>
           <div class="container">
             <div class="grid">
-              ${fileIcons
-                .map(
-                  i => `
+              ${fileIcons.map(i => `
                 <div class="icon-block">
                   <img class="icon" src="${iconPath(i, flavor)}">
                   ${i.slice(0, -4)}
                 </div>
-              `,
-                )
-                .join('\n')}
+              `).join('\n')}
             </div>
             <div class="folder-grid">
-              ${folderIcons
-                .map(
-                  i => `
+              ${folderIcons.map(i => `
                 <div class="icon-block">
                   <img class="icon" src="${iconPath(i, flavor)}">
                   ${i.slice(0, -4)}
                 </div>
-              `,
-                )
-                .join('\n')}
+              `).join('\n')}
             </div>
           </div>
         </body>
@@ -102,25 +90,23 @@ try {
 
   const tmp = await mkdtemp(join(tmpdir(), sep))
 
-  await Promise.all(
-    flavorEntries.map(async ([flavor]) => {
-      const htmlPath = join(tmp, `${flavor}.html`)
-      const screenshotPath = join('assets', `${flavor}.webp`)
-      await writeFile(htmlPath, generateHtml(flavor))
-      const browser = await launch({
-        args: ['--no-sandbox'],
-      })
-      const page = await browser.newPage()
-      await page.goto(join('file:', htmlPath))
-      await page.screenshot({
-        type: 'webp',
-        path: screenshotPath,
-        fullPage: true,
-        omitBackground: true,
-      })
-      await browser.close()
-    }),
-  )
+  await Promise.all(flavorEntries.map(async ([flavor]) => {
+    const htmlPath = join(tmp, `${flavor}.html`)
+    const screenshotPath = join('assets', `${flavor}.webp`)
+    await writeFile(htmlPath, generateHtml(flavor))
+    const browser = await launch({
+      args: ['--no-sandbox'],
+    })
+    const page = await browser.newPage()
+    await page.goto(join('file:', htmlPath))
+    await page.screenshot({
+      type: 'webp',
+      path: screenshotPath,
+      fullPage: true,
+      omitBackground: true,
+    })
+    await browser.close()
+  }))
 
   await rm(tmp, { recursive: true })
 

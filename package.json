@@ -1,57 +1,159 @@
 {
   "publisher": "Catppuccin",
-  "name": "@catppuccin/code-icons",
-  "displayName": "Catppuccin Code Icons for the high spirited!",
+  "name": "catppuccin-vsc-icons",
+  "displayName": "Catppuccin Icons for VSCode",
   "type": "module",
-  "version": "1.0.0",
-  "packageManager": "bun@1.2.3",
-  "description": "Soothing pastel code icons for the high spirited!",
-  "author": "MuntasirSZN",
+  "version": "1.21.0",
+  "private": true,
+  "packageManager": "pnpm@10.10.0",
+  "description": "🦊 Soothing pastel icon theme for VSCode",
+  "author": "prazdevs",
   "license": "MIT",
-  "fontVersion": "1.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/catppuccin/code-icons"
+    "url": "https://github.com/catppuccin/vscode-icons"
   },
   "bugs": {
-    "url": "https://github.com/catppuccin/code-icons/issues"
-  },
-  "scripts": {
-    "clean": "bun run ./scripts/reset.js",
-    "sprite": "bun run ./scripts/svg-sprite.ts",
-    "prepare": "husky",
-    "catwalk": "bun run scripts/catwalk.ts",
-    "icons:build": "bun run clean && bun run icons:optimize && bun run ./scripts/build.ts && bun run sprite",
-    "icons:generate": "bun run scripts/icons/generate.ts",
-    "icons:optimize": "bun run scripts/icons/optimize.ts",
-    "icons:preview": "bun run scripts/icons/preview.ts",
-    "genmap": "bun run scripts/genmap.ts",
-    "icons": "bun run-s icons:*",
-    "previews": "bunx puppeteer browsers install chrome && bun run icons:preview && bun run catwalk",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "typecheck": "tsc"
+    "url": "https://github.com/catppuccin/vscode-icons/issues"
   },
   "sponsor": {
     "url": "https://opencollective.com/catppuccin"
   },
-  "dependencies": {
-    "@antfu/eslint-config": "^4.10.1",
+  "keywords": [
+    "catppuccin",
+    "theme",
+    "fancy",
+    "pastel-colors",
+    "vscode",
+    "vscode-theme",
+    "vscode-icons",
+    "vscode-extension"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "main": "dist/main.cjs",
+  "browser": "dist/browser.cjs",
+  "icon": "assets/icon.png",
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "engines": {
+    "vscode": "^1.83.0",
+    "node": ">=20.0.0"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "configuration": {
+      "title": "Catppuccin Icons",
+      "properties": {
+        "catppuccin-icons.hidesExplorerArrows": {
+          "type": "boolean",
+          "default": false,
+          "description": "Hides arrows next to folders in the explorer."
+        },
+        "catppuccin-icons.specificFolders": {
+          "type": "boolean",
+          "default": true,
+          "description": "Display specific folder icons. Disable to only use default folder icon."
+        },
+        "catppuccin-icons.monochrome": {
+          "type": "boolean",
+          "default": false,
+          "description": "Only use Text color for icons."
+        },
+        "catppuccin-icons.associations.languages": {
+          "type": "object",
+          "default": {},
+          "description": "Custom languageId/icon associations."
+        },
+        "catppuccin-icons.associations.extensions": {
+          "type": "object",
+          "default": {},
+          "description": "Custom fileExtension/icon associations."
+        },
+        "catppuccin-icons.associations.files": {
+          "type": "object",
+          "default": {},
+          "description": "Custom fileName/icon associations."
+        },
+        "catppuccin-icons.associations.folders": {
+          "type": "object",
+          "default": {},
+          "description": "Custom folderName/icon associations."
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "catppuccin-icons.reset",
+        "title": "Catppuccin Icons: Factory reset settings"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "catppuccin-mocha",
+        "label": "Catppuccin Mocha",
+        "path": "./dist/mocha/theme.json"
+      },
+      {
+        "id": "catppuccin-latte",
+        "label": "Catppuccin Latte",
+        "path": "./dist/latte/theme.json"
+      },
+      {
+        "id": "catppuccin-frappe",
+        "label": "Catppuccin Frappé",
+        "path": "./dist/frappe/theme.json"
+      },
+      {
+        "id": "catppuccin-macchiato",
+        "label": "Catppuccin Macchiato",
+        "path": "./dist/macchiato/theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "tsx scripts/build.ts",
+    "catwalk": "tsx scripts/catwalk.ts",
+    "icons:generate": "tsx scripts/icons/generate.ts",
+    "icons:optimize": "tsx scripts/icons/optimize.ts",
+    "icons:preview": "tsx scripts/icons/preview.ts",
+    "icons": "pnpm run --sequential '/^icons:.*/'",
+    "previews": "npx puppeteer browsers install chrome && pnpm run icons:preview && pnpm run catwalk",
+    "integrity": "tsx scripts/integrity.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "release": "changelogen --release",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "@actions/core": "^1.11.1",
+    "@antfu/eslint-config": "^4.12.0",
     "@catppuccin/palette": "^1.7.1",
     "@iconify/tools": "^4.1.2",
-    "@twbs/fantasticon": "^3.1.0",
-    "@types/bun": "^1.2.5",
-    "@types/svg-sprite": "^0.0.39",
-    "ansi-regex": "^6.1.0",
+    "@types/node": "^22.15.3",
+    "@types/vscode": "1.83.0",
+    "@vscode/vsce": "^3.3.2",
+    "changelogen": "^0.6.1",
     "consola": "^3.4.2",
-    "husky": "^9.1.7",
+    "defu": "^6.1.4",
+    "eslint": "^9.26.0",
+    "lint-staged": "^15.5.1",
     "lookpath": "^1.2.3",
-    "npm-run-all2": "^7.0.2",
-    "opentype.js": "^1.3.4",
-    "puppeteer": "^24.4.0",
-    "rimraf": "^6.0.1",
-    "svg-sprite": "^2.0.4",
-    "svgo": "^3.3.2",
-    "typescript": "^5.8.2"
+    "puppeteer": "^24.8.0",
+    "simple-git-hooks": "^2.13.0",
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
   }
 }

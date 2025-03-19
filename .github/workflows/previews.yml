@@ -1,4 +1,5 @@
 name: Generate Previews
+
 on:
   workflow_dispatch:
   push:
@@ -8,9 +9,7 @@ on:
       - scripts/icons/preview.ts
       - scripts/catwalk.ts
     tags-ignore: [v*]
-permissions:
-  contents: write
-  pull-requests: write
+
 jobs:
   generate-previews:
     name: Generate Previews
@@ -18,16 +17,24 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup bun
-        uses: oven-sh/setup-bun@v2
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup node
+        uses: actions/setup-node@v4
         with:
-          bun-version: latest
+          node-version: lts/*
+
       - name: Setup catppuccin/catwalk
         uses: catppuccin/setup-catwalk@v1.0.0
+
       - name: Install dependencies
-        run: bun i --frozen-lockfile
+        run: pnpm i --frozen-lockfile
+
       - name: Generate Previews
-        run: bun previews
+        run: pnpm previews
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
