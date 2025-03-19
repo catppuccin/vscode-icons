@@ -5,7 +5,7 @@
   "type": "module",
   "version": "1.20.0",
   "private": true,
-  "packageManager": "pnpm@10.6.4",
+  "packageManager": "pnpm@10.6.5",
   "description": "🦊 Soothing pastel icon theme for VSCode",
   "author": "prazdevs",
   "license": "MIT",
