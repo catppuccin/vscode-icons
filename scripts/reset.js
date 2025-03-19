@@ -3,10 +3,12 @@ const rimraf = require("rimraf");
 
 const outputDirectory = "dist";
 
-// clear dist folder
 rimraf(outputDirectory, function () {
   console.log(`deleted "${outputDirectory}" folder`);
 
-  // re-create dist folder
   fs.mkdirSync(outputDirectory);
+  fs.mkdirSync(`${outputDirectory}/mocha`);
+  fs.mkdirSync(`${outputDirectory}/macchiato`);
+  fs.mkdirSync(`${outputDirectory}/frappe`);
+  fs.mkdirSync(`${outputDirectory}/latte`);
 });

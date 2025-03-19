@@ -19,15 +19,13 @@ const findNames = (symbol) => {
   return mappingEntries.filter(([_, s]) => s === symbol).map(([name]) => name);
 };
 
-const dirs = ["mocha", "macchiato", "frappe", "latte"];
-
 mappingEntries.forEach(([mappedName, symbol]) => {
-  const file = path.resolve(`./icons/${dirs.entries()}/${mappedName}.svg`);
+  const file = path.resolve(`./icons/${opts.flavour}/${mappedName}.svg`);
 
   if (fs.existsSync(file)) {
     for (const name of findNames(symbol)) {
       spriter.add(
-        path.resolve(`./icons/${name}.svg`),
+        path.resolve(`./icons/${opts.flavour}/${name}.svg`),
         name + ".svg",
         fs.readFileSync(file, "utf-8"),
       );
