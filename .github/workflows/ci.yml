@@ -1,0 +1,32 @@
+name: CI
+on:
+  push:
+    branches: [main]
+    tags-ignore: [v*]
+  pull_request:
+    branches: [main]
+env:
+  PUPPETEER_SKIP_DOWNLOAD: true
+jobs:
+  ci:
+    name: CI
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup bun
+        uses: oven-sh/bun@v1
+      - name: Install dependencies
+        run: bun i --frozen-lockfile
+      - name: Lint files
+        run: bun lint
+      - name: Typecheck
+        run: bun typecheck
+      - name: Build
+        id: build
+        run: bun build
+      - name: Upload VSIX artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: font
+          path: ./dist
