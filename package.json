@@ -1,21 +1,14 @@
 {
   "publisher": "Catppuccin",
-  "displayName": "Catppuccin Code Icons for the high spirited!",
   "name": "catppuccin-code-icons",
+  "displayName": "Catppuccin Code Icons for the high spirited!",
+  "type": "module",
   "version": "1.0.0",
+  "packageManager": "bun@1.2.3",
+  "description": "Soothing pastel code icons for the high spirited!",
+  "author": "MuntasirSZN",
   "license": "MIT",
   "fontVersion": "1.0",
-  "description": "Soothing pastel code icons for the high spirited!",
-  "type": "module",
-  "packageManager": "bun@1.2.3",
-  "scripts": {
-    "clean": "bun run ./scripts/reset.js",
-    "svgo": "bunx --bun svgo -f ./icons/mocha --config svgo.config.js && bunx --bun svgo -f ./icons/macchiato --config svgo.config.js && bunx --bun svgo -f ./icons/frappe --config svgo.config.js && bunx --bun svgo -f ./icons/latte --config svgo.config.js",
-    "sprite": "bun run ./scripts/svg-sprite.js --outDir dist/mocha --outFile catppuccin-code-icons.svg --flavour mocha && bun run ./scripts/svg-sprite.js --outDir dist/macchiato --outFile catppuccin-code-icons.svg --flavour macchiato && bun run ./scripts/svg-sprite.js --outDir dist/frappe --outFile catppuccin-code-icons.svg --flavour frappe && bun run ./scripts/svg-sprite.js --outDir dist/latte --outFile catppuccin-code-icons.svg --flavour latte",
-    "fonts": "bun run ./scripts/build.js --flavour mocha && bun run ./scripts/build.js --flavour macchiato && bun run ./scripts/build.js --flavour frappe && bun run ./scripts/build.js --flavour latte",
-    "build": "bun run clean && bun run svgo && bun run fonts && bun run sprite",
-    "prepare": "husky"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/catppuccin/code-icons"
@@ -23,21 +16,39 @@
   "bugs": {
     "url": "https://github.com/catppuccin/code-icons/issues"
   },
+  "scripts": {
+    "clean": "bun run ./scripts/reset.js",
+    "sprite": "bun run ./scripts/svg-sprite.ts",
+    "build": "bun run clean && bun run icons:optimize && bun run ./scripts/build.ts && bun run sprite",
+    "prepare": "husky",
+    "catwalk": "bun run scripts/catwalk.ts",
+    "icons:generate": "bun run scripts/icons/generate.ts",
+    "icons:optimize": "bun run scripts/icons/optimize.ts",
+    "icons:preview": "bun run scripts/icons/preview.ts",
+    "icons": "bun run-s icons:*",
+    "previews": "bunx puppeteer browsers install chrome && bun run icons:preview && bun run catwalk",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "tsc"
+  },
   "sponsor": {
     "url": "https://opencollective.com/catppuccin"
   },
-  "author": "MuntasirSZN",
   "dependencies": {
     "@antfu/eslint-config": "^4.10.1",
     "@catppuccin/palette": "^1.7.1",
+    "@iconify/tools": "^4.1.2",
     "@types/bun": "^1.2.5",
+    "@types/svg-sprite": "^0.0.39",
     "ansi-regex": "^6.1.0",
     "consola": "^3.4.2",
     "fantasticon": "^3.0.0",
     "husky": "^9.1.7",
     "lookpath": "^1.2.3",
+    "npm-run-all2": "^7.0.2",
     "opentype.js": "^1.3.4",
     "puppeteer": "^24.4.0",
+    "rimraf": "^6.0.1",
     "svg-sprite": "^2.0.4",
     "svgo": "^3.3.2",
     "typescript": "^5.8.2"

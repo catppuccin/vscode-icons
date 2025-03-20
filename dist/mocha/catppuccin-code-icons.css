@@ -1,0 +1,3411 @@
+@font-face {
+    font-family: "catppuccin-code-icons";
+    src: url("./catppuccin-code-icons.ttf?01bf5cc8cb0a92e8bc0d83a2160bb60f") format("truetype"),
+url("./catppuccin-code-icons.woff?01bf5cc8cb0a92e8bc0d83a2160bb60f") format("woff"),
+url("./catppuccin-code-icons.woff2?01bf5cc8cb0a92e8bc0d83a2160bb60f") format("woff2");
+}
+
+i[class^="catppuccin-mocha-"]:before, i[class*=" catppuccin-mocha-"]:before {
+    font-family: catppuccin-code-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.catppuccin-mocha-add:before {
+    content: "\ea60";
+}
+.catppuccin-mocha-plus:before {
+    content: "\ea60";
+}
+.catppuccin-mocha-gist-new:before {
+    content: "\ea60";
+}
+.catppuccin-mocha-repo-create:before {
+    content: "\ea60";
+}
+.catppuccin-mocha-lightbulb:before {
+    content: "\ea61";
+}
+.catppuccin-mocha-light-bulb:before {
+    content: "\ea61";
+}
+.catppuccin-mocha-repo:before {
+    content: "\ea62";
+}
+.catppuccin-mocha-repo-delete:before {
+    content: "\ea62";
+}
+.catppuccin-mocha-gist-fork:before {
+    content: "\ea63";
+}
+.catppuccin-mocha-repo-forked:before {
+    content: "\ea63";
+}
+.catppuccin-mocha-git-pull-request:before {
+    content: "\ea64";
+}
+.catppuccin-mocha-git-pull-request-abandoned:before {
+    content: "\ea64";
+}
+.catppuccin-mocha-record-keys:before {
+    content: "\ea65";
+}
+.catppuccin-mocha-keyboard:before {
+    content: "\ea65";
+}
+.catppuccin-mocha-tag:before {
+    content: "\ea66";
+}
+.catppuccin-mocha-git-pull-request-label:before {
+    content: "\ea66";
+}
+.catppuccin-mocha-tag-add:before {
+    content: "\ea66";
+}
+.catppuccin-mocha-tag-remove:before {
+    content: "\ea66";
+}
+.catppuccin-mocha-person:before {
+    content: "\ea67";
+}
+.catppuccin-mocha-person-follow:before {
+    content: "\ea67";
+}
+.catppuccin-mocha-person-outline:before {
+    content: "\ea67";
+}
+.catppuccin-mocha-person-filled:before {
+    content: "\ea67";
+}
+.catppuccin-mocha-git-branch:before {
+    content: "\ea68";
+}
+.catppuccin-mocha-git-branch-create:before {
+    content: "\ea68";
+}
+.catppuccin-mocha-git-branch-delete:before {
+    content: "\ea68";
+}
+.catppuccin-mocha-source-control:before {
+    content: "\ea68";
+}
+.catppuccin-mocha-mirror:before {
+    content: "\ea69";
+}
+.catppuccin-mocha-mirror-public:before {
+    content: "\ea69";
+}
+.catppuccin-mocha-star:before {
+    content: "\ea6a";
+}
+.catppuccin-mocha-star-add:before {
+    content: "\ea6a";
+}
+.catppuccin-mocha-star-delete:before {
+    content: "\ea6a";
+}
+.catppuccin-mocha-star-empty:before {
+    content: "\ea6a";
+}
+.catppuccin-mocha-comment:before {
+    content: "\ea6b";
+}
+.catppuccin-mocha-comment-add:before {
+    content: "\ea6b";
+}
+.catppuccin-mocha-alert:before {
+    content: "\ea6c";
+}
+.catppuccin-mocha-warning:before {
+    content: "\ea6c";
+}
+.catppuccin-mocha-search:before {
+    content: "\ea6d";
+}
+.catppuccin-mocha-search-save:before {
+    content: "\ea6d";
+}
+.catppuccin-mocha-log-out:before {
+    content: "\ea6e";
+}
+.catppuccin-mocha-sign-out:before {
+    content: "\ea6e";
+}
+.catppuccin-mocha-log-in:before {
+    content: "\ea6f";
+}
+.catppuccin-mocha-sign-in:before {
+    content: "\ea6f";
+}
+.catppuccin-mocha-eye:before {
+    content: "\ea70";
+}
+.catppuccin-mocha-eye-unwatch:before {
+    content: "\ea70";
+}
+.catppuccin-mocha-eye-watch:before {
+    content: "\ea70";
+}
+.catppuccin-mocha-circle-filled:before {
+    content: "\ea71";
+}
+.catppuccin-mocha-primitive-dot:before {
+    content: "\ea71";
+}
+.catppuccin-mocha-close-dirty:before {
+    content: "\ea71";
+}
+.catppuccin-mocha-debug-breakpoint:before {
+    content: "\ea71";
+}
+.catppuccin-mocha-debug-breakpoint-disabled:before {
+    content: "\ea71";
+}
+.catppuccin-mocha-debug-hint:before {
+    content: "\ea71";
+}
+.catppuccin-mocha-terminal-decoration-success:before {
+    content: "\ea71";
+}
+.catppuccin-mocha-primitive-square:before {
+    content: "\ea72";
+}
+.catppuccin-mocha-edit:before {
+    content: "\ea73";
+}
+.catppuccin-mocha-pencil:before {
+    content: "\ea73";
+}
+.catppuccin-mocha-info:before {
+    content: "\ea74";
+}
+.catppuccin-mocha-issue-opened:before {
+    content: "\ea74";
+}
+.catppuccin-mocha-gist-private:before {
+    content: "\ea75";
+}
+.catppuccin-mocha-git-fork-private:before {
+    content: "\ea75";
+}
+.catppuccin-mocha-lock:before {
+    content: "\ea75";
+}
+.catppuccin-mocha-mirror-private:before {
+    content: "\ea75";
+}
+.catppuccin-mocha-close:before {
+    content: "\ea76";
+}
+.catppuccin-mocha-remove-close:before {
+    content: "\ea76";
+}
+.catppuccin-mocha-x:before {
+    content: "\ea76";
+}
+.catppuccin-mocha-repo-sync:before {
+    content: "\ea77";
+}
+.catppuccin-mocha-sync:before {
+    content: "\ea77";
+}
+.catppuccin-mocha-clone:before {
+    content: "\ea78";
+}
+.catppuccin-mocha-desktop-download:before {
+    content: "\ea78";
+}
+.catppuccin-mocha-beaker:before {
+    content: "\ea79";
+}
+.catppuccin-mocha-microscope:before {
+    content: "\ea79";
+}
+.catppuccin-mocha-vm:before {
+    content: "\ea7a";
+}
+.catppuccin-mocha-device-desktop:before {
+    content: "\ea7a";
+}
+.catppuccin-mocha-file:before {
+    content: "\ea7b";
+}
+.catppuccin-mocha-file-text:before {
+    content: "\ea7b";
+}
+.catppuccin-mocha-more:before {
+    content: "\ea7c";
+}
+.catppuccin-mocha-ellipsis:before {
+    content: "\ea7c";
+}
+.catppuccin-mocha-kebab-horizontal:before {
+    content: "\ea7c";
+}
+.catppuccin-mocha-mail-reply:before {
+    content: "\ea7d";
+}
+.catppuccin-mocha-reply:before {
+    content: "\ea7d";
+}
+.catppuccin-mocha-organization:before {
+    content: "\ea7e";
+}
+.catppuccin-mocha-organization-filled:before {
+    content: "\ea7e";
+}
+.catppuccin-mocha-organization-outline:before {
+    content: "\ea7e";
+}
+.catppuccin-mocha-new-file:before {
+    content: "\ea7f";
+}
+.catppuccin-mocha-file-add:before {
+    content: "\ea7f";
+}
+.catppuccin-mocha-new-folder:before {
+    content: "\ea80";
+}
+.catppuccin-mocha-file-directory-create:before {
+    content: "\ea80";
+}
+.catppuccin-mocha-trash:before {
+    content: "\ea81";
+}
+.catppuccin-mocha-trashcan:before {
+    content: "\ea81";
+}
+.catppuccin-mocha-history:before {
+    content: "\ea82";
+}
+.catppuccin-mocha-clock:before {
+    content: "\ea82";
+}
+.catppuccin-mocha-folder:before {
+    content: "\ea83";
+}
+.catppuccin-mocha-file-directory:before {
+    content: "\ea83";
+}
+.catppuccin-mocha-symbol-folder:before {
+    content: "\ea83";
+}
+.catppuccin-mocha-logo-github:before {
+    content: "\ea84";
+}
+.catppuccin-mocha-mark-github:before {
+    content: "\ea84";
+}
+.catppuccin-mocha-github:before {
+    content: "\ea84";
+}
+.catppuccin-mocha-terminal:before {
+    content: "\ea85";
+}
+.catppuccin-mocha-console:before {
+    content: "\ea85";
+}
+.catppuccin-mocha-repl:before {
+    content: "\ea85";
+}
+.catppuccin-mocha-zap:before {
+    content: "\ea86";
+}
+.catppuccin-mocha-symbol-event:before {
+    content: "\ea86";
+}
+.catppuccin-mocha-error:before {
+    content: "\ea87";
+}
+.catppuccin-mocha-stop:before {
+    content: "\ea87";
+}
+.catppuccin-mocha-variable:before {
+    content: "\ea88";
+}
+.catppuccin-mocha-symbol-variable:before {
+    content: "\ea88";
+}
+.catppuccin-mocha-array:before {
+    content: "\ea8a";
+}
+.catppuccin-mocha-symbol-array:before {
+    content: "\ea8a";
+}
+.catppuccin-mocha-symbol-module:before {
+    content: "\ea8b";
+}
+.catppuccin-mocha-symbol-package:before {
+    content: "\ea8b";
+}
+.catppuccin-mocha-symbol-namespace:before {
+    content: "\ea8b";
+}
+.catppuccin-mocha-symbol-object:before {
+    content: "\ea8b";
+}
+.catppuccin-mocha-symbol-method:before {
+    content: "\ea8c";
+}
+.catppuccin-mocha-symbol-function:before {
+    content: "\ea8c";
+}
+.catppuccin-mocha-symbol-constructor:before {
+    content: "\ea8c";
+}
+.catppuccin-mocha-symbol-boolean:before {
+    content: "\ea8f";
+}
+.catppuccin-mocha-symbol-null:before {
+    content: "\ea8f";
+}
+.catppuccin-mocha-symbol-numeric:before {
+    content: "\ea90";
+}
+.catppuccin-mocha-symbol-number:before {
+    content: "\ea90";
+}
+.catppuccin-mocha-symbol-structure:before {
+    content: "\ea91";
+}
+.catppuccin-mocha-symbol-struct:before {
+    content: "\ea91";
+}
+.catppuccin-mocha-symbol-parameter:before {
+    content: "\ea92";
+}
+.catppuccin-mocha-symbol-type-parameter:before {
+    content: "\ea92";
+}
+.catppuccin-mocha-symbol-key:before {
+    content: "\ea93";
+}
+.catppuccin-mocha-symbol-text:before {
+    content: "\ea93";
+}
+.catppuccin-mocha-symbol-reference:before {
+    content: "\ea94";
+}
+.catppuccin-mocha-go-to-file:before {
+    content: "\ea94";
+}
+.catppuccin-mocha-symbol-enum:before {
+    content: "\ea95";
+}
+.catppuccin-mocha-symbol-value:before {
+    content: "\ea95";
+}
+.catppuccin-mocha-symbol-ruler:before {
+    content: "\ea96";
+}
+.catppuccin-mocha-symbol-unit:before {
+    content: "\ea96";
+}
+.catppuccin-mocha-activate-breakpoints:before {
+    content: "\ea97";
+}
+.catppuccin-mocha-archive:before {
+    content: "\ea98";
+}
+.catppuccin-mocha-arrow-both:before {
+    content: "\ea99";
+}
+.catppuccin-mocha-arrow-down:before {
+    content: "\ea9a";
+}
+.catppuccin-mocha-arrow-left:before {
+    content: "\ea9b";
+}
+.catppuccin-mocha-arrow-right:before {
+    content: "\ea9c";
+}
+.catppuccin-mocha-arrow-small-down:before {
+    content: "\ea9d";
+}
+.catppuccin-mocha-arrow-small-left:before {
+    content: "\ea9e";
+}
+.catppuccin-mocha-arrow-small-right:before {
+    content: "\ea9f";
+}
+.catppuccin-mocha-arrow-small-up:before {
+    content: "\eaa0";
+}
+.catppuccin-mocha-arrow-up:before {
+    content: "\eaa1";
+}
+.catppuccin-mocha-bell:before {
+    content: "\eaa2";
+}
+.catppuccin-mocha-bold:before {
+    content: "\eaa3";
+}
+.catppuccin-mocha-book:before {
+    content: "\eaa4";
+}
+.catppuccin-mocha-bookmark:before {
+    content: "\eaa5";
+}
+.catppuccin-mocha-debug-breakpoint-conditional-unverified:before {
+    content: "\eaa6";
+}
+.catppuccin-mocha-debug-breakpoint-conditional:before {
+    content: "\eaa7";
+}
+.catppuccin-mocha-debug-breakpoint-conditional-disabled:before {
+    content: "\eaa7";
+}
+.catppuccin-mocha-debug-breakpoint-data-unverified:before {
+    content: "\eaa8";
+}
+.catppuccin-mocha-debug-breakpoint-data:before {
+    content: "\eaa9";
+}
+.catppuccin-mocha-debug-breakpoint-data-disabled:before {
+    content: "\eaa9";
+}
+.catppuccin-mocha-debug-breakpoint-log-unverified:before {
+    content: "\eaaa";
+}
+.catppuccin-mocha-debug-breakpoint-log:before {
+    content: "\eaab";
+}
+.catppuccin-mocha-debug-breakpoint-log-disabled:before {
+    content: "\eaab";
+}
+.catppuccin-mocha-briefcase:before {
+    content: "\eaac";
+}
+.catppuccin-mocha-broadcast:before {
+    content: "\eaad";
+}
+.catppuccin-mocha-browser:before {
+    content: "\eaae";
+}
+.catppuccin-mocha-bug:before {
+    content: "\eaaf";
+}
+.catppuccin-mocha-calendar:before {
+    content: "\eab0";
+}
+.catppuccin-mocha-case-sensitive:before {
+    content: "\eab1";
+}
+.catppuccin-mocha-check:before {
+    content: "\eab2";
+}
+.catppuccin-mocha-checklist:before {
+    content: "\eab3";
+}
+.catppuccin-mocha-chevron-down:before {
+    content: "\eab4";
+}
+.catppuccin-mocha-chevron-left:before {
+    content: "\eab5";
+}
+.catppuccin-mocha-chevron-right:before {
+    content: "\eab6";
+}
+.catppuccin-mocha-chevron-up:before {
+    content: "\eab7";
+}
+.catppuccin-mocha-chrome-close:before {
+    content: "\eab8";
+}
+.catppuccin-mocha-chrome-maximize:before {
+    content: "\eab9";
+}
+.catppuccin-mocha-chrome-minimize:before {
+    content: "\eaba";
+}
+.catppuccin-mocha-chrome-restore:before {
+    content: "\eabb";
+}
+.catppuccin-mocha-circle-outline:before {
+    content: "\eabc";
+}
+.catppuccin-mocha-circle:before {
+    content: "\eabc";
+}
+.catppuccin-mocha-debug-breakpoint-unverified:before {
+    content: "\eabc";
+}
+.catppuccin-mocha-terminal-decoration-incomplete:before {
+    content: "\eabc";
+}
+.catppuccin-mocha-circle-slash:before {
+    content: "\eabd";
+}
+.catppuccin-mocha-circuit-board:before {
+    content: "\eabe";
+}
+.catppuccin-mocha-clear-all:before {
+    content: "\eabf";
+}
+.catppuccin-mocha-clippy:before {
+    content: "\eac0";
+}
+.catppuccin-mocha-close-all:before {
+    content: "\eac1";
+}
+.catppuccin-mocha-cloud-download:before {
+    content: "\eac2";
+}
+.catppuccin-mocha-cloud-upload:before {
+    content: "\eac3";
+}
+.catppuccin-mocha-code:before {
+    content: "\eac4";
+}
+.catppuccin-mocha-collapse-all:before {
+    content: "\eac5";
+}
+.catppuccin-mocha-color-mode:before {
+    content: "\eac6";
+}
+.catppuccin-mocha-comment-discussion:before {
+    content: "\eac7";
+}
+.catppuccin-mocha-credit-card:before {
+    content: "\eac9";
+}
+.catppuccin-mocha-dash:before {
+    content: "\eacc";
+}
+.catppuccin-mocha-dashboard:before {
+    content: "\eacd";
+}
+.catppuccin-mocha-database:before {
+    content: "\eace";
+}
+.catppuccin-mocha-debug-continue:before {
+    content: "\eacf";
+}
+.catppuccin-mocha-debug-disconnect:before {
+    content: "\ead0";
+}
+.catppuccin-mocha-debug-pause:before {
+    content: "\ead1";
+}
+.catppuccin-mocha-debug-restart:before {
+    content: "\ead2";
+}
+.catppuccin-mocha-debug-start:before {
+    content: "\ead3";
+}
+.catppuccin-mocha-debug-step-into:before {
+    content: "\ead4";
+}
+.catppuccin-mocha-debug-step-out:before {
+    content: "\ead5";
+}
+.catppuccin-mocha-debug-step-over:before {
+    content: "\ead6";
+}
+.catppuccin-mocha-debug-stop:before {
+    content: "\ead7";
+}
+.catppuccin-mocha-debug:before {
+    content: "\ead8";
+}
+.catppuccin-mocha-device-camera-video:before {
+    content: "\ead9";
+}
+.catppuccin-mocha-device-camera:before {
+    content: "\eada";
+}
+.catppuccin-mocha-device-mobile:before {
+    content: "\eadb";
+}
+.catppuccin-mocha-diff-added:before {
+    content: "\eadc";
+}
+.catppuccin-mocha-diff-ignored:before {
+    content: "\eadd";
+}
+.catppuccin-mocha-diff-modified:before {
+    content: "\eade";
+}
+.catppuccin-mocha-diff-removed:before {
+    content: "\eadf";
+}
+.catppuccin-mocha-diff-renamed:before {
+    content: "\eae0";
+}
+.catppuccin-mocha-diff:before {
+    content: "\eae1";
+}
+.catppuccin-mocha-diff-sidebyside:before {
+    content: "\eae1";
+}
+.catppuccin-mocha-discard:before {
+    content: "\eae2";
+}
+.catppuccin-mocha-editor-layout:before {
+    content: "\eae3";
+}
+.catppuccin-mocha-empty-window:before {
+    content: "\eae4";
+}
+.catppuccin-mocha-exclude:before {
+    content: "\eae5";
+}
+.catppuccin-mocha-extensions:before {
+    content: "\eae6";
+}
+.catppuccin-mocha-eye-closed:before {
+    content: "\eae7";
+}
+.catppuccin-mocha-file-binary:before {
+    content: "\eae8";
+}
+.catppuccin-mocha-file-code:before {
+    content: "\eae9";
+}
+.catppuccin-mocha-file-media:before {
+    content: "\eaea";
+}
+.catppuccin-mocha-file-pdf:before {
+    content: "\eaeb";
+}
+.catppuccin-mocha-file-submodule:before {
+    content: "\eaec";
+}
+.catppuccin-mocha-file-symlink-directory:before {
+    content: "\eaed";
+}
+.catppuccin-mocha-file-symlink-file:before {
+    content: "\eaee";
+}
+.catppuccin-mocha-file-zip:before {
+    content: "\eaef";
+}
+.catppuccin-mocha-files:before {
+    content: "\eaf0";
+}
+.catppuccin-mocha-filter:before {
+    content: "\eaf1";
+}
+.catppuccin-mocha-flame:before {
+    content: "\eaf2";
+}
+.catppuccin-mocha-fold-down:before {
+    content: "\eaf3";
+}
+.catppuccin-mocha-fold-up:before {
+    content: "\eaf4";
+}
+.catppuccin-mocha-fold:before {
+    content: "\eaf5";
+}
+.catppuccin-mocha-folder-active:before {
+    content: "\eaf6";
+}
+.catppuccin-mocha-folder-opened:before {
+    content: "\eaf7";
+}
+.catppuccin-mocha-gear:before {
+    content: "\eaf8";
+}
+.catppuccin-mocha-gift:before {
+    content: "\eaf9";
+}
+.catppuccin-mocha-gist-secret:before {
+    content: "\eafa";
+}
+.catppuccin-mocha-gist:before {
+    content: "\eafb";
+}
+.catppuccin-mocha-git-commit:before {
+    content: "\eafc";
+}
+.catppuccin-mocha-git-compare:before {
+    content: "\eafd";
+}
+.catppuccin-mocha-compare-changes:before {
+    content: "\eafd";
+}
+.catppuccin-mocha-git-merge:before {
+    content: "\eafe";
+}
+.catppuccin-mocha-github-action:before {
+    content: "\eaff";
+}
+.catppuccin-mocha-github-alt:before {
+    content: "\eb00";
+}
+.catppuccin-mocha-globe:before {
+    content: "\eb01";
+}
+.catppuccin-mocha-grabber:before {
+    content: "\eb02";
+}
+.catppuccin-mocha-graph:before {
+    content: "\eb03";
+}
+.catppuccin-mocha-gripper:before {
+    content: "\eb04";
+}
+.catppuccin-mocha-heart:before {
+    content: "\eb05";
+}
+.catppuccin-mocha-home:before {
+    content: "\eb06";
+}
+.catppuccin-mocha-horizontal-rule:before {
+    content: "\eb07";
+}
+.catppuccin-mocha-hubot:before {
+    content: "\eb08";
+}
+.catppuccin-mocha-inbox:before {
+    content: "\eb09";
+}
+.catppuccin-mocha-issue-reopened:before {
+    content: "\eb0b";
+}
+.catppuccin-mocha-issues:before {
+    content: "\eb0c";
+}
+.catppuccin-mocha-italic:before {
+    content: "\eb0d";
+}
+.catppuccin-mocha-jersey:before {
+    content: "\eb0e";
+}
+.catppuccin-mocha-json:before {
+    content: "\eb0f";
+}
+.catppuccin-mocha-kebab-vertical:before {
+    content: "\eb10";
+}
+.catppuccin-mocha-key:before {
+    content: "\eb11";
+}
+.catppuccin-mocha-law:before {
+    content: "\eb12";
+}
+.catppuccin-mocha-lightbulb-autofix:before {
+    content: "\eb13";
+}
+.catppuccin-mocha-link-external:before {
+    content: "\eb14";
+}
+.catppuccin-mocha-link:before {
+    content: "\eb15";
+}
+.catppuccin-mocha-list-ordered:before {
+    content: "\eb16";
+}
+.catppuccin-mocha-list-unordered:before {
+    content: "\eb17";
+}
+.catppuccin-mocha-live-share:before {
+    content: "\eb18";
+}
+.catppuccin-mocha-loading:before {
+    content: "\eb19";
+}
+.catppuccin-mocha-location:before {
+    content: "\eb1a";
+}
+.catppuccin-mocha-mail-read:before {
+    content: "\eb1b";
+}
+.catppuccin-mocha-mail:before {
+    content: "\eb1c";
+}
+.catppuccin-mocha-markdown:before {
+    content: "\eb1d";
+}
+.catppuccin-mocha-megaphone:before {
+    content: "\eb1e";
+}
+.catppuccin-mocha-mention:before {
+    content: "\eb1f";
+}
+.catppuccin-mocha-milestone:before {
+    content: "\eb20";
+}
+.catppuccin-mocha-git-pull-request-milestone:before {
+    content: "\eb20";
+}
+.catppuccin-mocha-mortar-board:before {
+    content: "\eb21";
+}
+.catppuccin-mocha-move:before {
+    content: "\eb22";
+}
+.catppuccin-mocha-multiple-windows:before {
+    content: "\eb23";
+}
+.catppuccin-mocha-mute:before {
+    content: "\eb24";
+}
+.catppuccin-mocha-no-newline:before {
+    content: "\eb25";
+}
+.catppuccin-mocha-note:before {
+    content: "\eb26";
+}
+.catppuccin-mocha-octoface:before {
+    content: "\eb27";
+}
+.catppuccin-mocha-open-preview:before {
+    content: "\eb28";
+}
+.catppuccin-mocha-package:before {
+    content: "\eb29";
+}
+.catppuccin-mocha-paintcan:before {
+    content: "\eb2a";
+}
+.catppuccin-mocha-pin:before {
+    content: "\eb2b";
+}
+.catppuccin-mocha-play:before {
+    content: "\eb2c";
+}
+.catppuccin-mocha-run:before {
+    content: "\eb2c";
+}
+.catppuccin-mocha-plug:before {
+    content: "\eb2d";
+}
+.catppuccin-mocha-preserve-case:before {
+    content: "\eb2e";
+}
+.catppuccin-mocha-preview:before {
+    content: "\eb2f";
+}
+.catppuccin-mocha-project:before {
+    content: "\eb30";
+}
+.catppuccin-mocha-pulse:before {
+    content: "\eb31";
+}
+.catppuccin-mocha-question:before {
+    content: "\eb32";
+}
+.catppuccin-mocha-quote:before {
+    content: "\eb33";
+}
+.catppuccin-mocha-radio-tower:before {
+    content: "\eb34";
+}
+.catppuccin-mocha-reactions:before {
+    content: "\eb35";
+}
+.catppuccin-mocha-references:before {
+    content: "\eb36";
+}
+.catppuccin-mocha-refresh:before {
+    content: "\eb37";
+}
+.catppuccin-mocha-regex:before {
+    content: "\eb38";
+}
+.catppuccin-mocha-remote-explorer:before {
+    content: "\eb39";
+}
+.catppuccin-mocha-remote:before {
+    content: "\eb3a";
+}
+.catppuccin-mocha-remove:before {
+    content: "\eb3b";
+}
+.catppuccin-mocha-replace-all:before {
+    content: "\eb3c";
+}
+.catppuccin-mocha-replace:before {
+    content: "\eb3d";
+}
+.catppuccin-mocha-repo-clone:before {
+    content: "\eb3e";
+}
+.catppuccin-mocha-repo-force-push:before {
+    content: "\eb3f";
+}
+.catppuccin-mocha-repo-pull:before {
+    content: "\eb40";
+}
+.catppuccin-mocha-repo-push:before {
+    content: "\eb41";
+}
+.catppuccin-mocha-report:before {
+    content: "\eb42";
+}
+.catppuccin-mocha-request-changes:before {
+    content: "\eb43";
+}
+.catppuccin-mocha-rocket:before {
+    content: "\eb44";
+}
+.catppuccin-mocha-root-folder-opened:before {
+    content: "\eb45";
+}
+.catppuccin-mocha-root-folder:before {
+    content: "\eb46";
+}
+.catppuccin-mocha-rss:before {
+    content: "\eb47";
+}
+.catppuccin-mocha-ruby:before {
+    content: "\eb48";
+}
+.catppuccin-mocha-save-all:before {
+    content: "\eb49";
+}
+.catppuccin-mocha-save-as:before {
+    content: "\eb4a";
+}
+.catppuccin-mocha-save:before {
+    content: "\eb4b";
+}
+.catppuccin-mocha-screen-full:before {
+    content: "\eb4c";
+}
+.catppuccin-mocha-screen-normal:before {
+    content: "\eb4d";
+}
+.catppuccin-mocha-search-stop:before {
+    content: "\eb4e";
+}
+.catppuccin-mocha-server:before {
+    content: "\eb50";
+}
+.catppuccin-mocha-settings-gear:before {
+    content: "\eb51";
+}
+.catppuccin-mocha-settings:before {
+    content: "\eb52";
+}
+.catppuccin-mocha-shield:before {
+    content: "\eb53";
+}
+.catppuccin-mocha-smiley:before {
+    content: "\eb54";
+}
+.catppuccin-mocha-sort-precedence:before {
+    content: "\eb55";
+}
+.catppuccin-mocha-split-horizontal:before {
+    content: "\eb56";
+}
+.catppuccin-mocha-split-vertical:before {
+    content: "\eb57";
+}
+.catppuccin-mocha-squirrel:before {
+    content: "\eb58";
+}
+.catppuccin-mocha-star-full:before {
+    content: "\eb59";
+}
+.catppuccin-mocha-star-half:before {
+    content: "\eb5a";
+}
+.catppuccin-mocha-symbol-class:before {
+    content: "\eb5b";
+}
+.catppuccin-mocha-symbol-color:before {
+    content: "\eb5c";
+}
+.catppuccin-mocha-symbol-constant:before {
+    content: "\eb5d";
+}
+.catppuccin-mocha-symbol-enum-member:before {
+    content: "\eb5e";
+}
+.catppuccin-mocha-symbol-field:before {
+    content: "\eb5f";
+}
+.catppuccin-mocha-symbol-file:before {
+    content: "\eb60";
+}
+.catppuccin-mocha-symbol-interface:before {
+    content: "\eb61";
+}
+.catppuccin-mocha-symbol-keyword:before {
+    content: "\eb62";
+}
+.catppuccin-mocha-symbol-misc:before {
+    content: "\eb63";
+}
+.catppuccin-mocha-symbol-operator:before {
+    content: "\eb64";
+}
+.catppuccin-mocha-symbol-property:before {
+    content: "\eb65";
+}
+.catppuccin-mocha-wrench:before {
+    content: "\eb65";
+}
+.catppuccin-mocha-wrench-subaction:before {
+    content: "\eb65";
+}
+.catppuccin-mocha-symbol-snippet:before {
+    content: "\eb66";
+}
+.catppuccin-mocha-tasklist:before {
+    content: "\eb67";
+}
+.catppuccin-mocha-telescope:before {
+    content: "\eb68";
+}
+.catppuccin-mocha-text-size:before {
+    content: "\eb69";
+}
+.catppuccin-mocha-three-bars:before {
+    content: "\eb6a";
+}
+.catppuccin-mocha-thumbsdown:before {
+    content: "\eb6b";
+}
+.catppuccin-mocha-thumbsup:before {
+    content: "\eb6c";
+}
+.catppuccin-mocha-tools:before {
+    content: "\eb6d";
+}
+.catppuccin-mocha-triangle-down:before {
+    content: "\eb6e";
+}
+.catppuccin-mocha-triangle-left:before {
+    content: "\eb6f";
+}
+.catppuccin-mocha-triangle-right:before {
+    content: "\eb70";
+}
+.catppuccin-mocha-triangle-up:before {
+    content: "\eb71";
+}
+.catppuccin-mocha-twitter:before {
+    content: "\eb72";
+}
+.catppuccin-mocha-unfold:before {
+    content: "\eb73";
+}
+.catppuccin-mocha-unlock:before {
+    content: "\eb74";
+}
+.catppuccin-mocha-unmute:before {
+    content: "\eb75";
+}
+.catppuccin-mocha-unverified:before {
+    content: "\eb76";
+}
+.catppuccin-mocha-verified:before {
+    content: "\eb77";
+}
+.catppuccin-mocha-versions:before {
+    content: "\eb78";
+}
+.catppuccin-mocha-vm-active:before {
+    content: "\eb79";
+}
+.catppuccin-mocha-vm-outline:before {
+    content: "\eb7a";
+}
+.catppuccin-mocha-vm-running:before {
+    content: "\eb7b";
+}
+.catppuccin-mocha-watch:before {
+    content: "\eb7c";
+}
+.catppuccin-mocha-whitespace:before {
+    content: "\eb7d";
+}
+.catppuccin-mocha-whole-word:before {
+    content: "\eb7e";
+}
+.catppuccin-mocha-window:before {
+    content: "\eb7f";
+}
+.catppuccin-mocha-word-wrap:before {
+    content: "\eb80";
+}
+.catppuccin-mocha-zoom-in:before {
+    content: "\eb81";
+}
+.catppuccin-mocha-zoom-out:before {
+    content: "\eb82";
+}
+.catppuccin-mocha-list-filter:before {
+    content: "\eb83";
+}
+.catppuccin-mocha-list-flat:before {
+    content: "\eb84";
+}
+.catppuccin-mocha-list-selection:before {
+    content: "\eb85";
+}
+.catppuccin-mocha-selection:before {
+    content: "\eb85";
+}
+.catppuccin-mocha-list-tree:before {
+    content: "\eb86";
+}
+.catppuccin-mocha-debug-breakpoint-function-unverified:before {
+    content: "\eb87";
+}
+.catppuccin-mocha-debug-breakpoint-function:before {
+    content: "\eb88";
+}
+.catppuccin-mocha-debug-breakpoint-function-disabled:before {
+    content: "\eb88";
+}
+.catppuccin-mocha-debug-stackframe-active:before {
+    content: "\eb89";
+}
+.catppuccin-mocha-circle-small-filled:before {
+    content: "\eb8a";
+}
+.catppuccin-mocha-debug-stackframe-dot:before {
+    content: "\eb8a";
+}
+.catppuccin-mocha-terminal-decoration-mark:before {
+    content: "\eb8a";
+}
+.catppuccin-mocha-debug-stackframe:before {
+    content: "\eb8b";
+}
+.catppuccin-mocha-debug-stackframe-focused:before {
+    content: "\eb8b";
+}
+.catppuccin-mocha-debug-breakpoint-unsupported:before {
+    content: "\eb8c";
+}
+.catppuccin-mocha-symbol-string:before {
+    content: "\eb8d";
+}
+.catppuccin-mocha-debug-reverse-continue:before {
+    content: "\eb8e";
+}
+.catppuccin-mocha-debug-step-back:before {
+    content: "\eb8f";
+}
+.catppuccin-mocha-debug-restart-frame:before {
+    content: "\eb90";
+}
+.catppuccin-mocha-debug-alt:before {
+    content: "\eb91";
+}
+.catppuccin-mocha-call-incoming:before {
+    content: "\eb92";
+}
+.catppuccin-mocha-call-outgoing:before {
+    content: "\eb93";
+}
+.catppuccin-mocha-menu:before {
+    content: "\eb94";
+}
+.catppuccin-mocha-expand-all:before {
+    content: "\eb95";
+}
+.catppuccin-mocha-feedback:before {
+    content: "\eb96";
+}
+.catppuccin-mocha-git-pull-request-reviewer:before {
+    content: "\eb96";
+}
+.catppuccin-mocha-group-by-ref-type:before {
+    content: "\eb97";
+}
+.catppuccin-mocha-ungroup-by-ref-type:before {
+    content: "\eb98";
+}
+.catppuccin-mocha-account:before {
+    content: "\eb99";
+}
+.catppuccin-mocha-git-pull-request-assignee:before {
+    content: "\eb99";
+}
+.catppuccin-mocha-bell-dot:before {
+    content: "\eb9a";
+}
+.catppuccin-mocha-debug-console:before {
+    content: "\eb9b";
+}
+.catppuccin-mocha-library:before {
+    content: "\eb9c";
+}
+.catppuccin-mocha-output:before {
+    content: "\eb9d";
+}
+.catppuccin-mocha-run-all:before {
+    content: "\eb9e";
+}
+.catppuccin-mocha-sync-ignored:before {
+    content: "\eb9f";
+}
+.catppuccin-mocha-pinned:before {
+    content: "\eba0";
+}
+.catppuccin-mocha-github-inverted:before {
+    content: "\eba1";
+}
+.catppuccin-mocha-server-process:before {
+    content: "\eba2";
+}
+.catppuccin-mocha-server-environment:before {
+    content: "\eba3";
+}
+.catppuccin-mocha-pass:before {
+    content: "\eba4";
+}
+.catppuccin-mocha-issue-closed:before {
+    content: "\eba4";
+}
+.catppuccin-mocha-stop-circle:before {
+    content: "\eba5";
+}
+.catppuccin-mocha-play-circle:before {
+    content: "\eba6";
+}
+.catppuccin-mocha-record:before {
+    content: "\eba7";
+}
+.catppuccin-mocha-debug-alt-small:before {
+    content: "\eba8";
+}
+.catppuccin-mocha-vm-connect:before {
+    content: "\eba9";
+}
+.catppuccin-mocha-cloud:before {
+    content: "\ebaa";
+}
+.catppuccin-mocha-merge:before {
+    content: "\ebab";
+}
+.catppuccin-mocha-export:before {
+    content: "\ebac";
+}
+.catppuccin-mocha-graph-left:before {
+    content: "\ebad";
+}
+.catppuccin-mocha-magnet:before {
+    content: "\ebae";
+}
+.catppuccin-mocha-notebook:before {
+    content: "\ebaf";
+}
+.catppuccin-mocha-redo:before {
+    content: "\ebb0";
+}
+.catppuccin-mocha-check-all:before {
+    content: "\ebb1";
+}
+.catppuccin-mocha-pinned-dirty:before {
+    content: "\ebb2";
+}
+.catppuccin-mocha-pass-filled:before {
+    content: "\ebb3";
+}
+.catppuccin-mocha-circle-large-filled:before {
+    content: "\ebb4";
+}
+.catppuccin-mocha-circle-large:before {
+    content: "\ebb5";
+}
+.catppuccin-mocha-circle-large-outline:before {
+    content: "\ebb5";
+}
+.catppuccin-mocha-combine:before {
+    content: "\ebb6";
+}
+.catppuccin-mocha-gather:before {
+    content: "\ebb6";
+}
+.catppuccin-mocha-table:before {
+    content: "\ebb7";
+}
+.catppuccin-mocha-variable-group:before {
+    content: "\ebb8";
+}
+.catppuccin-mocha-type-hierarchy:before {
+    content: "\ebb9";
+}
+.catppuccin-mocha-type-hierarchy-sub:before {
+    content: "\ebba";
+}
+.catppuccin-mocha-type-hierarchy-super:before {
+    content: "\ebbb";
+}
+.catppuccin-mocha-git-pull-request-create:before {
+    content: "\ebbc";
+}
+.catppuccin-mocha-run-above:before {
+    content: "\ebbd";
+}
+.catppuccin-mocha-run-below:before {
+    content: "\ebbe";
+}
+.catppuccin-mocha-notebook-template:before {
+    content: "\ebbf";
+}
+.catppuccin-mocha-debug-rerun:before {
+    content: "\ebc0";
+}
+.catppuccin-mocha-workspace-trusted:before {
+    content: "\ebc1";
+}
+.catppuccin-mocha-workspace-untrusted:before {
+    content: "\ebc2";
+}
+.catppuccin-mocha-workspace-unknown:before {
+    content: "\ebc3";
+}
+.catppuccin-mocha-terminal-cmd:before {
+    content: "\ebc4";
+}
+.catppuccin-mocha-terminal-debian:before {
+    content: "\ebc5";
+}
+.catppuccin-mocha-terminal-linux:before {
+    content: "\ebc6";
+}
+.catppuccin-mocha-terminal-powershell:before {
+    content: "\ebc7";
+}
+.catppuccin-mocha-terminal-tmux:before {
+    content: "\ebc8";
+}
+.catppuccin-mocha-terminal-ubuntu:before {
+    content: "\ebc9";
+}
+.catppuccin-mocha-terminal-bash:before {
+    content: "\ebca";
+}
+.catppuccin-mocha-arrow-swap:before {
+    content: "\ebcb";
+}
+.catppuccin-mocha-copy:before {
+    content: "\ebcc";
+}
+.catppuccin-mocha-person-add:before {
+    content: "\ebcd";
+}
+.catppuccin-mocha-filter-filled:before {
+    content: "\ebce";
+}
+.catppuccin-mocha-wand:before {
+    content: "\ebcf";
+}
+.catppuccin-mocha-debug-line-by-line:before {
+    content: "\ebd0";
+}
+.catppuccin-mocha-inspect:before {
+    content: "\ebd1";
+}
+.catppuccin-mocha-layers:before {
+    content: "\ebd2";
+}
+.catppuccin-mocha-layers-dot:before {
+    content: "\ebd3";
+}
+.catppuccin-mocha-layers-active:before {
+    content: "\ebd4";
+}
+.catppuccin-mocha-compass:before {
+    content: "\ebd5";
+}
+.catppuccin-mocha-compass-dot:before {
+    content: "\ebd6";
+}
+.catppuccin-mocha-compass-active:before {
+    content: "\ebd7";
+}
+.catppuccin-mocha-azure:before {
+    content: "\ebd8";
+}
+.catppuccin-mocha-issue-draft:before {
+    content: "\ebd9";
+}
+.catppuccin-mocha-git-pull-request-closed:before {
+    content: "\ebda";
+}
+.catppuccin-mocha-git-pull-request-draft:before {
+    content: "\ebdb";
+}
+.catppuccin-mocha-debug-all:before {
+    content: "\ebdc";
+}
+.catppuccin-mocha-debug-coverage:before {
+    content: "\ebdd";
+}
+.catppuccin-mocha-run-errors:before {
+    content: "\ebde";
+}
+.catppuccin-mocha-folder-library:before {
+    content: "\ebdf";
+}
+.catppuccin-mocha-debug-continue-small:before {
+    content: "\ebe0";
+}
+.catppuccin-mocha-beaker-stop:before {
+    content: "\ebe1";
+}
+.catppuccin-mocha-graph-line:before {
+    content: "\ebe2";
+}
+.catppuccin-mocha-graph-scatter:before {
+    content: "\ebe3";
+}
+.catppuccin-mocha-pie-chart:before {
+    content: "\ebe4";
+}
+.catppuccin-mocha-bracket:before {
+    content: "\eb0f";
+}
+.catppuccin-mocha-bracket-dot:before {
+    content: "\ebe5";
+}
+.catppuccin-mocha-bracket-error:before {
+    content: "\ebe6";
+}
+.catppuccin-mocha-lock-small:before {
+    content: "\ebe7";
+}
+.catppuccin-mocha-azure-devops:before {
+    content: "\ebe8";
+}
+.catppuccin-mocha-verified-filled:before {
+    content: "\ebe9";
+}
+.catppuccin-mocha-newline:before {
+    content: "\ebea";
+}
+.catppuccin-mocha-layout:before {
+    content: "\ebeb";
+}
+.catppuccin-mocha-layout-activitybar-left:before {
+    content: "\ebec";
+}
+.catppuccin-mocha-layout-activitybar-right:before {
+    content: "\ebed";
+}
+.catppuccin-mocha-layout-panel-left:before {
+    content: "\ebee";
+}
+.catppuccin-mocha-layout-panel-center:before {
+    content: "\ebef";
+}
+.catppuccin-mocha-layout-panel-justify:before {
+    content: "\ebf0";
+}
+.catppuccin-mocha-layout-panel-right:before {
+    content: "\ebf1";
+}
+.catppuccin-mocha-layout-panel:before {
+    content: "\ebf2";
+}
+.catppuccin-mocha-layout-sidebar-left:before {
+    content: "\ebf3";
+}
+.catppuccin-mocha-layout-sidebar-right:before {
+    content: "\ebf4";
+}
+.catppuccin-mocha-layout-statusbar:before {
+    content: "\ebf5";
+}
+.catppuccin-mocha-layout-menubar:before {
+    content: "\ebf6";
+}
+.catppuccin-mocha-layout-centered:before {
+    content: "\ebf7";
+}
+.catppuccin-mocha-target:before {
+    content: "\ebf8";
+}
+.catppuccin-mocha-indent:before {
+    content: "\ebf9";
+}
+.catppuccin-mocha-record-small:before {
+    content: "\ebfa";
+}
+.catppuccin-mocha-error-small:before {
+    content: "\ebfb";
+}
+.catppuccin-mocha-terminal-decoration-error:before {
+    content: "\ebfb";
+}
+.catppuccin-mocha-arrow-circle-down:before {
+    content: "\ebfc";
+}
+.catppuccin-mocha-arrow-circle-left:before {
+    content: "\ebfd";
+}
+.catppuccin-mocha-arrow-circle-right:before {
+    content: "\ebfe";
+}
+.catppuccin-mocha-arrow-circle-up:before {
+    content: "\ebff";
+}
+.catppuccin-mocha-layout-sidebar-right-off:before {
+    content: "\ec00";
+}
+.catppuccin-mocha-layout-panel-off:before {
+    content: "\ec01";
+}
+.catppuccin-mocha-layout-sidebar-left-off:before {
+    content: "\ec02";
+}
+.catppuccin-mocha-blank:before {
+    content: "\ec03";
+}
+.catppuccin-mocha-heart-filled:before {
+    content: "\ec04";
+}
+.catppuccin-mocha-map:before {
+    content: "\ec05";
+}
+.catppuccin-mocha-map-horizontal:before {
+    content: "\ec05";
+}
+.catppuccin-mocha-fold-horizontal:before {
+    content: "\ec05";
+}
+.catppuccin-mocha-map-filled:before {
+    content: "\ec06";
+}
+.catppuccin-mocha-map-horizontal-filled:before {
+    content: "\ec06";
+}
+.catppuccin-mocha-fold-horizontal-filled:before {
+    content: "\ec06";
+}
+.catppuccin-mocha-circle-small:before {
+    content: "\ec07";
+}
+.catppuccin-mocha-bell-slash:before {
+    content: "\ec08";
+}
+.catppuccin-mocha-bell-slash-dot:before {
+    content: "\ec09";
+}
+.catppuccin-mocha-comment-unresolved:before {
+    content: "\ec0a";
+}
+.catppuccin-mocha-git-pull-request-go-to-changes:before {
+    content: "\ec0b";
+}
+.catppuccin-mocha-git-pull-request-new-changes:before {
+    content: "\ec0c";
+}
+.catppuccin-mocha-search-fuzzy:before {
+    content: "\ec0d";
+}
+.catppuccin-mocha-comment-draft:before {
+    content: "\ec0e";
+}
+.catppuccin-mocha-send:before {
+    content: "\ec0f";
+}
+.catppuccin-mocha-sparkle:before {
+    content: "\ec10";
+}
+.catppuccin-mocha-insert:before {
+    content: "\ec11";
+}
+.catppuccin-mocha-mic:before {
+    content: "\ec12";
+}
+.catppuccin-mocha-thumbsdown-filled:before {
+    content: "\ec13";
+}
+.catppuccin-mocha-thumbsup-filled:before {
+    content: "\ec14";
+}
+.catppuccin-mocha-coffee:before {
+    content: "\ec15";
+}
+.catppuccin-mocha-snake:before {
+    content: "\ec16";
+}
+.catppuccin-mocha-game:before {
+    content: "\ec17";
+}
+.catppuccin-mocha-vr:before {
+    content: "\ec18";
+}
+.catppuccin-mocha-chip:before {
+    content: "\ec19";
+}
+.catppuccin-mocha-piano:before {
+    content: "\ec1a";
+}
+.catppuccin-mocha-music:before {
+    content: "\ec1b";
+}
+.catppuccin-mocha-mic-filled:before {
+    content: "\ec1c";
+}
+.catppuccin-mocha-repo-fetch:before {
+    content: "\ec1d";
+}
+.catppuccin-mocha-copilot:before {
+    content: "\ec1e";
+}
+.catppuccin-mocha-lightbulb-sparkle:before {
+    content: "\ec1f";
+}
+.catppuccin-mocha-robot:before {
+    content: "\ec20";
+}
+.catppuccin-mocha-sparkle-filled:before {
+    content: "\ec21";
+}
+.catppuccin-mocha-diff-single:before {
+    content: "\ec22";
+}
+.catppuccin-mocha-diff-multiple:before {
+    content: "\ec23";
+}
+.catppuccin-mocha-surround-with:before {
+    content: "\ec24";
+}
+.catppuccin-mocha-share:before {
+    content: "\ec25";
+}
+.catppuccin-mocha-git-stash:before {
+    content: "\ec26";
+}
+.catppuccin-mocha-git-stash-apply:before {
+    content: "\ec27";
+}
+.catppuccin-mocha-git-stash-pop:before {
+    content: "\ec28";
+}
+.catppuccin-mocha-vscode:before {
+    content: "\ec29";
+}
+.catppuccin-mocha-vscode-insiders:before {
+    content: "\ec2a";
+}
+.catppuccin-mocha-code-oss:before {
+    content: "\ec2b";
+}
+.catppuccin-mocha-run-coverage:before {
+    content: "\ec2c";
+}
+.catppuccin-mocha-run-all-coverage:before {
+    content: "\ec2d";
+}
+.catppuccin-mocha-coverage:before {
+    content: "\ec2e";
+}
+.catppuccin-mocha-github-project:before {
+    content: "\ec2f";
+}
+.catppuccin-mocha-map-vertical:before {
+    content: "\ec30";
+}
+.catppuccin-mocha-fold-vertical:before {
+    content: "\ec30";
+}
+.catppuccin-mocha-map-vertical-filled:before {
+    content: "\ec31";
+}
+.catppuccin-mocha-fold-vertical-filled:before {
+    content: "\ec31";
+}
+.catppuccin-mocha-go-to-search:before {
+    content: "\ec32";
+}
+.catppuccin-mocha-percentage:before {
+    content: "\ec33";
+}
+.catppuccin-mocha-sort-percentage:before {
+    content: "\ec33";
+}
+.catppuccin-mocha-attach:before {
+    content: "\ec34";
+}
+.catppuccin-mocha-go-to-editing-session:before {
+    content: "\ec35";
+}
+.catppuccin-mocha-edit-session:before {
+    content: "\ec36";
+}
+.catppuccin-mocha-code-review:before {
+    content: "\ec37";
+}
+.catppuccin-mocha-copilot-warning:before {
+    content: "\ec38";
+}
+.catppuccin-mocha-python:before {
+    content: "\ec39";
+}
+.catppuccin-mocha-copilot-large:before {
+    content: "\ec3a";
+}
+.catppuccin-mocha-copilot-warning-large:before {
+    content: "\ec3b";
+}
+.catppuccin-mocha-keyboard-tab:before {
+    content: "\ec3c";
+}
+.catppuccin-mocha-copilot-blocked:before {
+    content: "\ec3d";
+}
+.catppuccin-mocha-copilot-not-connected:before {
+    content: "\ec3e";
+}
+.catppuccin-mocha-flag:before {
+    content: "\ec3f";
+}
+.catppuccin-mocha-lightbulb-empty:before {
+    content: "\ec40";
+}
+.catppuccin-mocha-symbol-method-arrow:before {
+    content: "\ec41";
+}
+.catppuccin-mocha-pug:before {
+    content: "\f101";
+}
+.catppuccin-mocha-javascript-map:before {
+    content: "\f102";
+}
+.catppuccin-mocha-javascript-config:before {
+    content: "\f103";
+}
+.catppuccin-mocha-tailwind:before {
+    content: "\f104";
+}
+.catppuccin-mocha-huff:before {
+    content: "\f105";
+}
+.catppuccin-mocha-c:before {
+    content: "\f106";
+}
+.catppuccin-mocha-razor:before {
+    content: "\f107";
+}
+.catppuccin-mocha-nix:before {
+    content: "\f108";
+}
+.catppuccin-mocha-scala:before {
+    content: "\f109";
+}
+.catppuccin-mocha-histoire:before {
+    content: "\f10a";
+}
+.catppuccin-mocha-folder_src:before {
+    content: "\f10b";
+}
+.catppuccin-mocha-storybook-svelte:before {
+    content: "\f10c";
+}
+.catppuccin-mocha-adobe-ai:before {
+    content: "\f10d";
+}
+.catppuccin-mocha-yarn:before {
+    content: "\f10e";
+}
+.catppuccin-mocha-folder_direnv:before {
+    content: "\f10f";
+}
+.catppuccin-mocha-ocaml:before {
+    content: "\f110";
+}
+.catppuccin-mocha-storybook-vue:before {
+    content: "\f111";
+}
+.catppuccin-mocha-folder_cypress:before {
+    content: "\f112";
+}
+.catppuccin-mocha-npm-lock:before {
+    content: "\f113";
+}
+.catppuccin-mocha-image:before {
+    content: "\f114";
+}
+.catppuccin-mocha-ember:before {
+    content: "\f115";
+}
+.catppuccin-mocha-unocss:before {
+    content: "\f116";
+}
+.catppuccin-mocha-gradle:before {
+    content: "\f117";
+}
+.catppuccin-mocha-vue-config:before {
+    content: "\f118";
+}
+.catppuccin-mocha-esbuild:before {
+    content: "\f119";
+}
+.catppuccin-mocha-uv:before {
+    content: "\f11a";
+}
+.catppuccin-mocha-d:before {
+    content: "\f11b";
+}
+.catppuccin-mocha-terraform:before {
+    content: "\f11c";
+}
+.catppuccin-mocha-bash:before {
+    content: "\f11d";
+}
+.catppuccin-mocha-folder_azure-pipelines:before {
+    content: "\f11e";
+}
+.catppuccin-mocha-ms-excel:before {
+    content: "\f11f";
+}
+.catppuccin-mocha-pixi-lock:before {
+    content: "\f120";
+}
+.catppuccin-mocha-haxe:before {
+    content: "\f121";
+}
+.catppuccin-mocha-folder_nix_open:before {
+    content: "\f122";
+}
+.catppuccin-mocha-cabal:before {
+    content: "\f123";
+}
+.catppuccin-mocha-folder_content:before {
+    content: "\f124";
+}
+.catppuccin-mocha-folder_nuxt:before {
+    content: "\f125";
+}
+.catppuccin-mocha-devcontainer:before {
+    content: "\f126";
+}
+.catppuccin-mocha-ejs:before {
+    content: "\f127";
+}
+.catppuccin-mocha-folder_yarn:before {
+    content: "\f128";
+}
+.catppuccin-mocha-eleventy:before {
+    content: "\f129";
+}
+.catppuccin-mocha-folder_aws:before {
+    content: "\f12a";
+}
+.catppuccin-mocha-cargo-lock:before {
+    content: "\f12b";
+}
+.catppuccin-mocha-java-exception:before {
+    content: "\f12c";
+}
+.catppuccin-mocha-env:before {
+    content: "\f12d";
+}
+.catppuccin-mocha-batch:before {
+    content: "\f12e";
+}
+.catppuccin-mocha-ruby-gem-lock:before {
+    content: "\f12f";
+}
+.catppuccin-mocha-binary:before {
+    content: "\f130";
+}
+.catppuccin-mocha-_folder_open:before {
+    content: "\f131";
+}
+.catppuccin-mocha-elm:before {
+    content: "\f132";
+}
+.catppuccin-mocha-nix-lock:before {
+    content: "\f133";
+}
+.catppuccin-mocha-folder_fastlane_open:before {
+    content: "\f134";
+}
+.catppuccin-mocha-csharp:before {
+    content: "\f135";
+}
+.catppuccin-mocha-dart:before {
+    content: "\f136";
+}
+.catppuccin-mocha-folder_assets:before {
+    content: "\f137";
+}
+.catppuccin-mocha-folder_animation_open:before {
+    content: "\f138";
+}
+.catppuccin-mocha-_file:before {
+    content: "\f139";
+}
+.catppuccin-mocha-folder_sass:before {
+    content: "\f13a";
+}
+.catppuccin-mocha-xmake:before {
+    content: "\f13b";
+}
+.catppuccin-mocha-phtml:before {
+    content: "\f13c";
+}
+.catppuccin-mocha-folder_src_open:before {
+    content: "\f13d";
+}
+.catppuccin-mocha-folder_dist:before {
+    content: "\f13e";
+}
+.catppuccin-mocha-folder_docker_open:before {
+    content: "\f13f";
+}
+.catppuccin-mocha-nim:before {
+    content: "\f140";
+}
+.catppuccin-mocha-log:before {
+    content: "\f141";
+}
+.catppuccin-mocha-svelte:before {
+    content: "\f142";
+}
+.catppuccin-mocha-flutter:before {
+    content: "\f143";
+}
+.catppuccin-mocha-amber:before {
+    content: "\f144";
+}
+.catppuccin-mocha-adobe-xd:before {
+    content: "\f145";
+}
+.catppuccin-mocha-folder_routes:before {
+    content: "\f146";
+}
+.catppuccin-mocha-folder_mocks_open:before {
+    content: "\f147";
+}
+.catppuccin-mocha-nativescript:before {
+    content: "\f148";
+}
+.catppuccin-mocha-folder_android:before {
+    content: "\f149";
+}
+.catppuccin-mocha-vercel-ignore:before {
+    content: "\f14a";
+}
+.catppuccin-mocha-dub:before {
+    content: "\f14b";
+}
+.catppuccin-mocha-commitlint:before {
+    content: "\f14c";
+}
+.catppuccin-mocha-markdown-mdx:before {
+    content: "\f14d";
+}
+.catppuccin-mocha-prettier:before {
+    content: "\f14e";
+}
+.catppuccin-mocha-folder_functions:before {
+    content: "\f14f";
+}
+.catppuccin-mocha-solid:before {
+    content: "\f150";
+}
+.catppuccin-mocha-liquid:before {
+    content: "\f151";
+}
+.catppuccin-mocha-lib:before {
+    content: "\f152";
+}
+.catppuccin-mocha-typescript-def:before {
+    content: "\f153";
+}
+.catppuccin-mocha-prolog:before {
+    content: "\f154";
+}
+.catppuccin-mocha-folder_mocks:before {
+    content: "\f155";
+}
+.catppuccin-mocha-sonar-cloud:before {
+    content: "\f156";
+}
+.catppuccin-mocha-gulp:before {
+    content: "\f157";
+}
+.catppuccin-mocha-api-blueprint:before {
+    content: "\f158";
+}
+.catppuccin-mocha-snowpack:before {
+    content: "\f159";
+}
+.catppuccin-mocha-typescript:before {
+    content: "\f15a";
+}
+.catppuccin-mocha-pnpm:before {
+    content: "\f15b";
+}
+.catppuccin-mocha-javascript:before {
+    content: "\f15c";
+}
+.catppuccin-mocha-cuda:before {
+    content: "\f15d";
+}
+.catppuccin-mocha-kotlin:before {
+    content: "\f15e";
+}
+.catppuccin-mocha-folder_cargo:before {
+    content: "\f15f";
+}
+.catppuccin-mocha-folder_api:before {
+    content: "\f160";
+}
+.catppuccin-mocha-folder_hooks_open:before {
+    content: "\f161";
+}
+.catppuccin-mocha-folder_azure-devops:before {
+    content: "\f162";
+}
+.catppuccin-mocha-folder_storybook:before {
+    content: "\f163";
+}
+.catppuccin-mocha-midi:before {
+    content: "\f164";
+}
+.catppuccin-mocha-rojo:before {
+    content: "\f165";
+}
+.catppuccin-mocha-racket:before {
+    content: "\f166";
+}
+.catppuccin-mocha-tauri:before {
+    content: "\f167";
+}
+.catppuccin-mocha-folder_nuxt_open:before {
+    content: "\f168";
+}
+.catppuccin-mocha-windi:before {
+    content: "\f169";
+}
+.catppuccin-mocha-marko:before {
+    content: "\f16a";
+}
+.catppuccin-mocha-lerna:before {
+    content: "\f16b";
+}
+.catppuccin-mocha-folder_layouts:before {
+    content: "\f16c";
+}
+.catppuccin-mocha-graphql:before {
+    content: "\f16d";
+}
+.catppuccin-mocha-angular-component:before {
+    content: "\f16e";
+}
+.catppuccin-mocha-angular-directive:before {
+    content: "\f16f";
+}
+.catppuccin-mocha-folder_gradle:before {
+    content: "\f170";
+}
+.catppuccin-mocha-reason:before {
+    content: "\f171";
+}
+.catppuccin-mocha-folder_functions_open:before {
+    content: "\f172";
+}
+.catppuccin-mocha-folder_vercel:before {
+    content: "\f173";
+}
+.catppuccin-mocha-gleam-config:before {
+    content: "\f174";
+}
+.catppuccin-mocha-folder_gitlab_open:before {
+    content: "\f175";
+}
+.catppuccin-mocha-cpp:before {
+    content: "\f176";
+}
+.catppuccin-mocha-folder_plugins:before {
+    content: "\f177";
+}
+.catppuccin-mocha-folder_github:before {
+    content: "\f178";
+}
+.catppuccin-mocha-super-collider:before {
+    content: "\f179";
+}
+.catppuccin-mocha-java-class-abstract:before {
+    content: "\f17a";
+}
+.catppuccin-mocha-jest:before {
+    content: "\f17b";
+}
+.catppuccin-mocha-html:before {
+    content: "\f17c";
+}
+.catppuccin-mocha-gleam:before {
+    content: "\f17d";
+}
+.catppuccin-mocha-folder_storybook_open:before {
+    content: "\f17e";
+}
+.catppuccin-mocha-folder_intellij:before {
+    content: "\f17f";
+}
+.catppuccin-mocha-folder_composables:before {
+    content: "\f180";
+}
+.catppuccin-mocha-semantic-release:before {
+    content: "\f181";
+}
+.catppuccin-mocha-julia:before {
+    content: "\f182";
+}
+.catppuccin-mocha-url:before {
+    content: "\f183";
+}
+.catppuccin-mocha-docker:before {
+    content: "\f184";
+}
+.catppuccin-mocha-folder_next:before {
+    content: "\f185";
+}
+.catppuccin-mocha-angular-service:before {
+    content: "\f186";
+}
+.catppuccin-mocha-bun:before {
+    content: "\f187";
+}
+.catppuccin-mocha-stata:before {
+    content: "\f188";
+}
+.catppuccin-mocha-sublime:before {
+    content: "\f189";
+}
+.catppuccin-mocha-folder_server_open:before {
+    content: "\f18a";
+}
+.catppuccin-mocha-folder_caddy_open:before {
+    content: "\f18b";
+}
+.catppuccin-mocha-folder_packages:before {
+    content: "\f18c";
+}
+.catppuccin-mocha-gitpod:before {
+    content: "\f18d";
+}
+.catppuccin-mocha-folder_forgejo_open:before {
+    content: "\f18e";
+}
+.catppuccin-mocha-folder_composables_open:before {
+    content: "\f18f";
+}
+.catppuccin-mocha-folder_upload:before {
+    content: "\f190";
+}
+.catppuccin-mocha-certificate:before {
+    content: "\f191";
+}
+.catppuccin-mocha-nest-middleware:before {
+    content: "\f192";
+}
+.catppuccin-mocha-postcss:before {
+    content: "\f193";
+}
+.catppuccin-mocha-folder_utils:before {
+    content: "\f194";
+}
+.catppuccin-mocha-text:before {
+    content: "\f195";
+}
+.catppuccin-mocha-folder_client_open:before {
+    content: "\f196";
+}
+.catppuccin-mocha-android:before {
+    content: "\f197";
+}
+.catppuccin-mocha-folder_admin:before {
+    content: "\f198";
+}
+.catppuccin-mocha-nunjucks:before {
+    content: "\f199";
+}
+.catppuccin-mocha-javascript-react:before {
+    content: "\f19a";
+}
+.catppuccin-mocha-favicon:before {
+    content: "\f19b";
+}
+.catppuccin-mocha-haml:before {
+    content: "\f19c";
+}
+.catppuccin-mocha-just:before {
+    content: "\f19d";
+}
+.catppuccin-mocha-symlink:before {
+    content: "\f19e";
+}
+.catppuccin-mocha-folder_devcontainer:before {
+    content: "\f19f";
+}
+.catppuccin-mocha-python-compiled:before {
+    content: "\f1a0";
+}
+.catppuccin-mocha-folder_node:before {
+    content: "\f1a1";
+}
+.catppuccin-mocha-godot-assets:before {
+    content: "\f1a2";
+}
+.catppuccin-mocha-folder_views_open:before {
+    content: "\f1a3";
+}
+.catppuccin-mocha-benchmark:before {
+    content: "\f1a4";
+}
+.catppuccin-mocha-csv:before {
+    content: "\f1a5";
+}
+.catppuccin-mocha-exe:before {
+    content: "\f1a6";
+}
+.catppuccin-mocha-video:before {
+    content: "\f1a7";
+}
+.catppuccin-mocha-netlify:before {
+    content: "\f1a8";
+}
+.catppuccin-mocha-npm:before {
+    content: "\f1a9";
+}
+.catppuccin-mocha-vim:before {
+    content: "\f1aa";
+}
+.catppuccin-mocha-rescript:before {
+    content: "\f1ab";
+}
+.catppuccin-mocha-luau:before {
+    content: "\f1ac";
+}
+.catppuccin-mocha-folder_debug:before {
+    content: "\f1ad";
+}
+.catppuccin-mocha-nest-filter:before {
+    content: "\f1ae";
+}
+.catppuccin-mocha-hardhat:before {
+    content: "\f1af";
+}
+.catppuccin-mocha-folder_docs_open:before {
+    content: "\f1b0";
+}
+.catppuccin-mocha-caddy:before {
+    content: "\f1b1";
+}
+.catppuccin-mocha-folder_fastlane:before {
+    content: "\f1b2";
+}
+.catppuccin-mocha-folder_connection:before {
+    content: "\f1b3";
+}
+.catppuccin-mocha-adonis:before {
+    content: "\f1b4";
+}
+.catppuccin-mocha-properties:before {
+    content: "\f1b5";
+}
+.catppuccin-mocha-angular-pipe:before {
+    content: "\f1b6";
+}
+.catppuccin-mocha-folder_assets_open:before {
+    content: "\f1b7";
+}
+.catppuccin-mocha-folder_docs:before {
+    content: "\f1b8";
+}
+.catppuccin-mocha-folder_redux:before {
+    content: "\f1b9";
+}
+.catppuccin-mocha-_root_open:before {
+    content: "\f1ba";
+}
+.catppuccin-mocha-folder_database_open:before {
+    content: "\f1bb";
+}
+.catppuccin-mocha-sketch:before {
+    content: "\f1bc";
+}
+.catppuccin-mocha-css3:before {
+    content: "\f1bd";
+}
+.catppuccin-mocha-folder_gitlab:before {
+    content: "\f1be";
+}
+.catppuccin-mocha-juce:before {
+    content: "\f1bf";
+}
+.catppuccin-mocha-folder_svg:before {
+    content: "\f1c0";
+}
+.catppuccin-mocha-folder_types_open:before {
+    content: "\f1c1";
+}
+.catppuccin-mocha-folder_layouts_open:before {
+    content: "\f1c2";
+}
+.catppuccin-mocha-folder_tests_open:before {
+    content: "\f1c3";
+}
+.catppuccin-mocha-folder_svg_open:before {
+    content: "\f1c4";
+}
+.catppuccin-mocha-folder_benchmark_open:before {
+    content: "\f1c5";
+}
+.catppuccin-mocha-xml:before {
+    content: "\f1c6";
+}
+.catppuccin-mocha-release:before {
+    content: "\f1c7";
+}
+.catppuccin-mocha-hugo:before {
+    content: "\f1c8";
+}
+.catppuccin-mocha-mjml:before {
+    content: "\f1c9";
+}
+.catppuccin-mocha-folder_tauri_open:before {
+    content: "\f1ca";
+}
+.catppuccin-mocha-yaml:before {
+    content: "\f1cb";
+}
+.catppuccin-mocha-folder_docker:before {
+    content: "\f1cc";
+}
+.catppuccin-mocha-folder_middleware:before {
+    content: "\f1cd";
+}
+.catppuccin-mocha-folder_config_open:before {
+    content: "\f1ce";
+}
+.catppuccin-mocha-folder_locales:before {
+    content: "\f1cf";
+}
+.catppuccin-mocha-pdf:before {
+    content: "\f1d0";
+}
+.catppuccin-mocha-twig:before {
+    content: "\f1d1";
+}
+.catppuccin-mocha-vital:before {
+    content: "\f1d2";
+}
+.catppuccin-mocha-dub-selections:before {
+    content: "\f1d3";
+}
+.catppuccin-mocha-storybook:before {
+    content: "\f1d4";
+}
+.catppuccin-mocha-pnpm-lock:before {
+    content: "\f1d5";
+}
+.catppuccin-mocha-plantuml:before {
+    content: "\f1d6";
+}
+.catppuccin-mocha-prettier-ignore:before {
+    content: "\f1d7";
+}
+.catppuccin-mocha-folder_node_open:before {
+    content: "\f1d8";
+}
+.catppuccin-mocha-nginx:before {
+    content: "\f1d9";
+}
+.catppuccin-mocha-folder_vscode:before {
+    content: "\f1da";
+}
+.catppuccin-mocha-jinja:before {
+    content: "\f1db";
+}
+.catppuccin-mocha-yarn-lock:before {
+    content: "\f1dc";
+}
+.catppuccin-mocha-readme:before {
+    content: "\f1dd";
+}
+.catppuccin-mocha-roblox:before {
+    content: "\f1de";
+}
+.catppuccin-mocha-folder_config:before {
+    content: "\f1df";
+}
+.catppuccin-mocha-dart-generated:before {
+    content: "\f1e0";
+}
+.catppuccin-mocha-java-class-sealed:before {
+    content: "\f1e1";
+}
+.catppuccin-mocha-go:before {
+    content: "\f1e2";
+}
+.catppuccin-mocha-bitbucket:before {
+    content: "\f1e3";
+}
+.catppuccin-mocha-rust-config:before {
+    content: "\f1e4";
+}
+.catppuccin-mocha-spwn:before {
+    content: "\f1e5";
+}
+.catppuccin-mocha-folder_download_open:before {
+    content: "\f1e6";
+}
+.catppuccin-mocha-folder_themes_open:before {
+    content: "\f1e7";
+}
+.catppuccin-mocha-pre-commit:before {
+    content: "\f1e8";
+}
+.catppuccin-mocha-panda-css:before {
+    content: "\f1e9";
+}
+.catppuccin-mocha-xcode:before {
+    content: "\f1ea";
+}
+.catppuccin-mocha-folder_android_open:before {
+    content: "\f1eb";
+}
+.catppuccin-mocha-folder_video:before {
+    content: "\f1ec";
+}
+.catppuccin-mocha-fsharp:before {
+    content: "\f1ed";
+}
+.catppuccin-mocha-folder_wxt_open:before {
+    content: "\f1ee";
+}
+.catppuccin-mocha-cpp-header:before {
+    content: "\f1ef";
+}
+.catppuccin-mocha-sass:before {
+    content: "\f1f0";
+}
+.catppuccin-mocha-folder_api_open:before {
+    content: "\f1f1";
+}
+.catppuccin-mocha-swift:before {
+    content: "\f1f2";
+}
+.catppuccin-mocha-folder_git_open:before {
+    content: "\f1f3";
+}
+.catppuccin-mocha-folder_audit_open:before {
+    content: "\f1f4";
+}
+.catppuccin-mocha-less:before {
+    content: "\f1f5";
+}
+.catppuccin-mocha-json-schema:before {
+    content: "\f1f6";
+}
+.catppuccin-mocha-web-assembly:before {
+    content: "\f1f7";
+}
+.catppuccin-mocha-semgrep:before {
+    content: "\f1f8";
+}
+.catppuccin-mocha-c-header:before {
+    content: "\f1f9";
+}
+.catppuccin-mocha-folder_core_open:before {
+    content: "\f1fa";
+}
+.catppuccin-mocha-haskell:before {
+    content: "\f1fb";
+}
+.catppuccin-mocha-pixi:before {
+    content: "\f1fc";
+}
+.catppuccin-mocha-ruff:before {
+    content: "\f1fd";
+}
+.catppuccin-mocha-folder_audio:before {
+    content: "\f1fe";
+}
+.catppuccin-mocha-helm:before {
+    content: "\f1ff";
+}
+.catppuccin-mocha-ansible-lint:before {
+    content: "\f200";
+}
+.catppuccin-mocha-folder_content_open:before {
+    content: "\f201";
+}
+.catppuccin-mocha-folder_database:before {
+    content: "\f202";
+}
+.catppuccin-mocha-vscode-ignore:before {
+    content: "\f203";
+}
+.catppuccin-mocha-matlab:before {
+    content: "\f204";
+}
+.catppuccin-mocha-folder_public:before {
+    content: "\f205";
+}
+.catppuccin-mocha-godot:before {
+    content: "\f206";
+}
+.catppuccin-mocha-nextflow:before {
+    content: "\f207";
+}
+.catppuccin-mocha-folder_vercel_open:before {
+    content: "\f208";
+}
+.catppuccin-mocha-folder_audio_open:before {
+    content: "\f209";
+}
+.catppuccin-mocha-folder_cloud:before {
+    content: "\f20a";
+}
+.catppuccin-mocha-folder_client:before {
+    content: "\f20b";
+}
+.catppuccin-mocha-makefile:before {
+    content: "\f20c";
+}
+.catppuccin-mocha-gitlab:before {
+    content: "\f20d";
+}
+.catppuccin-mocha-folder_temp_open:before {
+    content: "\f20e";
+}
+.catppuccin-mocha-folder_drizzle-orm_open:before {
+    content: "\f20f";
+}
+.catppuccin-mocha-azure-pipelines:before {
+    content: "\f210";
+}
+.catppuccin-mocha-contributing:before {
+    content: "\f211";
+}
+.catppuccin-mocha-phrase:before {
+    content: "\f212";
+}
+.catppuccin-mocha-folder_themes:before {
+    content: "\f213";
+}
+.catppuccin-mocha-folder_renovate:before {
+    content: "\f214";
+}
+.catppuccin-mocha-proto:before {
+    content: "\f215";
+}
+.catppuccin-mocha-cypress:before {
+    content: "\f216";
+}
+.catppuccin-mocha-premake:before {
+    content: "\f217";
+}
+.catppuccin-mocha-jupyter:before {
+    content: "\f218";
+}
+.catppuccin-mocha-code-of-conduct:before {
+    content: "\f219";
+}
+.catppuccin-mocha-folder_wxt:before {
+    content: "\f21a";
+}
+.catppuccin-mocha-folder_circle-ci:before {
+    content: "\f21b";
+}
+.catppuccin-mocha-audio:before {
+    content: "\f21c";
+}
+.catppuccin-mocha-nest-decorator:before {
+    content: "\f21d";
+}
+.catppuccin-mocha-changelog:before {
+    content: "\f21e";
+}
+.catppuccin-mocha-turbo:before {
+    content: "\f21f";
+}
+.catppuccin-mocha-stackblitz:before {
+    content: "\f220";
+}
+.catppuccin-mocha-java-enum:before {
+    content: "\f221";
+}
+.catppuccin-mocha-vue:before {
+    content: "\f222";
+}
+.catppuccin-mocha-lisp:before {
+    content: "\f223";
+}
+.catppuccin-mocha-nuxt-ignore:before {
+    content: "\f224";
+}
+.catppuccin-mocha-biome:before {
+    content: "\f225";
+}
+.catppuccin-mocha-folder_vscode_open:before {
+    content: "\f226";
+}
+.catppuccin-mocha-folder_admin_open:before {
+    content: "\f227";
+}
+.catppuccin-mocha-folder_xcode_open:before {
+    content: "\f228";
+}
+.catppuccin-mocha-docker-ignore:before {
+    content: "\f229";
+}
+.catppuccin-mocha-folder_turbo:before {
+    content: "\f22a";
+}
+.catppuccin-mocha-zig:before {
+    content: "\f22b";
+}
+.catppuccin-mocha-folder_tauri:before {
+    content: "\f22c";
+}
+.catppuccin-mocha-capacitor:before {
+    content: "\f22d";
+}
+.catppuccin-mocha-drizzle-orm:before {
+    content: "\f22e";
+}
+.catppuccin-mocha-folder_forgejo:before {
+    content: "\f22f";
+}
+.catppuccin-mocha-redwood:before {
+    content: "\f230";
+}
+.catppuccin-mocha-folder_tests:before {
+    content: "\f231";
+}
+.catppuccin-mocha-folder_fonts_open:before {
+    content: "\f232";
+}
+.catppuccin-mocha-browserslist:before {
+    content: "\f233";
+}
+.catppuccin-mocha-folder_cypress_open:before {
+    content: "\f234";
+}
+.catppuccin-mocha-fortran:before {
+    content: "\f235";
+}
+.catppuccin-mocha-folder_kubernetes_open:before {
+    content: "\f236";
+}
+.catppuccin-mocha-folder_queue_open:before {
+    content: "\f237";
+}
+.catppuccin-mocha-modernizr:before {
+    content: "\f238";
+}
+.catppuccin-mocha-folder_drizzle-orm:before {
+    content: "\f239";
+}
+.catppuccin-mocha-folder_app:before {
+    content: "\f23a";
+}
+.catppuccin-mocha-nest-controller:before {
+    content: "\f23b";
+}
+.catppuccin-mocha-semgrep-ignore:before {
+    content: "\f23c";
+}
+.catppuccin-mocha-elixir:before {
+    content: "\f23d";
+}
+.catppuccin-mocha-stylelint:before {
+    content: "\f23e";
+}
+.catppuccin-mocha-blitz:before {
+    content: "\f23f";
+}
+.catppuccin-mocha-folder_azure-pipelines_open:before {
+    content: "\f240";
+}
+.catppuccin-mocha-folder_plugins_open:before {
+    content: "\f241";
+}
+.catppuccin-mocha-folder_sass_open:before {
+    content: "\f242";
+}
+.catppuccin-mocha-folder_dist_open:before {
+    content: "\f243";
+}
+.catppuccin-mocha-humans:before {
+    content: "\f244";
+}
+.catppuccin-mocha-folder_prisma:before {
+    content: "\f245";
+}
+.catppuccin-mocha-folder_cloud_open:before {
+    content: "\f246";
+}
+.catppuccin-mocha-go-template:before {
+    content: "\f247";
+}
+.catppuccin-mocha-folder_direnv_open:before {
+    content: "\f248";
+}
+.catppuccin-mocha-deno_lock:before {
+    content: "\f249";
+}
+.catppuccin-mocha-poetry-lock:before {
+    content: "\f24a";
+}
+.catppuccin-mocha-folder_views:before {
+    content: "\f24b";
+}
+.catppuccin-mocha-astro:before {
+    content: "\f24c";
+}
+.catppuccin-mocha-latte:before {
+    content: "\f24d";
+}
+.catppuccin-mocha-django:before {
+    content: "\f24e";
+}
+.catppuccin-mocha-folder_audit:before {
+    content: "\f24f";
+}
+.catppuccin-mocha-stencil:before {
+    content: "\f250";
+}
+.catppuccin-mocha-asciidoc:before {
+    content: "\f251";
+}
+.catppuccin-mocha-css:before {
+    content: "\f252";
+}
+.catppuccin-mocha-folder_turbo_open:before {
+    content: "\f253";
+}
+.catppuccin-mocha-folder_controllers:before {
+    content: "\f254";
+}
+.catppuccin-mocha-xaml:before {
+    content: "\f255";
+}
+.catppuccin-mocha-vento:before {
+    content: "\f256";
+}
+.catppuccin-mocha-docker-compose:before {
+    content: "\f257";
+}
+.catppuccin-mocha-folder_images_open:before {
+    content: "\f258";
+}
+.catppuccin-mocha-folder_scripts_open:before {
+    content: "\f259";
+}
+.catppuccin-mocha-cmake:before {
+    content: "\f25a";
+}
+.catppuccin-mocha-todo:before {
+    content: "\f25b";
+}
+.catppuccin-mocha-folder_components:before {
+    content: "\f25c";
+}
+.catppuccin-mocha-php:before {
+    content: "\f25d";
+}
+.catppuccin-mocha-java-jar:before {
+    content: "\f25e";
+}
+.catppuccin-mocha-folder_coverage_open:before {
+    content: "\f25f";
+}
+.catppuccin-mocha-java-interface:before {
+    content: "\f260";
+}
+.catppuccin-mocha-nuget:before {
+    content: "\f261";
+}
+.catppuccin-mocha-folder_prisma_open:before {
+    content: "\f262";
+}
+.catppuccin-mocha-erlang:before {
+    content: "\f263";
+}
+.catppuccin-mocha-robots:before {
+    content: "\f264";
+}
+.catppuccin-mocha-vs-codium:before {
+    content: "\f265";
+}
+.catppuccin-mocha-folder_yarn_open:before {
+    content: "\f266";
+}
+.catppuccin-mocha-folder_scripts:before {
+    content: "\f267";
+}
+.catppuccin-mocha-folder_kubernetes:before {
+    content: "\f268";
+}
+.catppuccin-mocha-folder_workflows_open:before {
+    content: "\f269";
+}
+.catppuccin-mocha-folder_caddy:before {
+    content: "\f26a";
+}
+.catppuccin-mocha-cucumber:before {
+    content: "\f26b";
+}
+.catppuccin-mocha-next:before {
+    content: "\f26c";
+}
+.catppuccin-mocha-folder_xcode:before {
+    content: "\f26d";
+}
+.catppuccin-mocha-renovate:before {
+    content: "\f26e";
+}
+.catppuccin-mocha-folder_routes_open:before {
+    content: "\f26f";
+}
+.catppuccin-mocha-r:before {
+    content: "\f270";
+}
+.catppuccin-mocha-vitest:before {
+    content: "\f271";
+}
+.catppuccin-mocha-folder_next_open:before {
+    content: "\f272";
+}
+.catppuccin-mocha-java-class-final:before {
+    content: "\f273";
+}
+.catppuccin-mocha-folder_app_open:before {
+    content: "\f274";
+}
+.catppuccin-mocha-_folder:before {
+    content: "\f275";
+}
+.catppuccin-mocha-envrc:before {
+    content: "\f276";
+}
+.catppuccin-mocha-cobol:before {
+    content: "\f277";
+}
+.catppuccin-mocha-ruby-gem:before {
+    content: "\f278";
+}
+.catppuccin-mocha-security:before {
+    content: "\f279";
+}
+.catppuccin-mocha-mermaid:before {
+    content: "\f27a";
+}
+.catppuccin-mocha-folder_circle-ci_open:before {
+    content: "\f27b";
+}
+.catppuccin-mocha-cargo:before {
+    content: "\f27c";
+}
+.catppuccin-mocha-folder_components_open:before {
+    content: "\f27d";
+}
+.catppuccin-mocha-license:before {
+    content: "\f27e";
+}
+.catppuccin-mocha-babel:before {
+    content: "\f27f";
+}
+.catppuccin-mocha-folder_husky:before {
+    content: "\f280";
+}
+.catppuccin-mocha-fvm:before {
+    content: "\f281";
+}
+.catppuccin-mocha-folder_download:before {
+    content: "\f282";
+}
+.catppuccin-mocha-adobe-ps:before {
+    content: "\f283";
+}
+.catppuccin-mocha-css-map:before {
+    content: "\f284";
+}
+.catppuccin-mocha-clojure:before {
+    content: "\f285";
+}
+.catppuccin-mocha-folder_examples_open:before {
+    content: "\f286";
+}
+.catppuccin-mocha-ionic:before {
+    content: "\f287";
+}
+.catppuccin-mocha-apple:before {
+    content: "\f288";
+}
+.catppuccin-mocha-java:before {
+    content: "\f289";
+}
+.catppuccin-mocha-folder_command_open:before {
+    content: "\f28a";
+}
+.catppuccin-mocha-taskfile:before {
+    content: "\f28b";
+}
+.catppuccin-mocha-editorconfig:before {
+    content: "\f28c";
+}
+.catppuccin-mocha-bower:before {
+    content: "\f28d";
+}
+.catppuccin-mocha-meson:before {
+    content: "\f28e";
+}
+.catppuccin-mocha-folder_workflows:before {
+    content: "\f28f";
+}
+.catppuccin-mocha-nest-pipe:before {
+    content: "\f290";
+}
+.catppuccin-mocha-circle-ci:before {
+    content: "\f291";
+}
+.catppuccin-mocha-folder_firebase:before {
+    content: "\f292";
+}
+.catppuccin-mocha-visual-studio:before {
+    content: "\f293";
+}
+.catppuccin-mocha-serverless:before {
+    content: "\f294";
+}
+.catppuccin-mocha-cspell:before {
+    content: "\f295";
+}
+.catppuccin-mocha-laravel:before {
+    content: "\f296";
+}
+.catppuccin-mocha-forgejo:before {
+    content: "\f297";
+}
+.catppuccin-mocha-folder_templates:before {
+    content: "\f298";
+}
+.catppuccin-mocha-folder_pre-commit_open:before {
+    content: "\f299";
+}
+.catppuccin-mocha-wxt:before {
+    content: "\f29a";
+}
+.catppuccin-mocha-nuxt:before {
+    content: "\f29b";
+}
+.catppuccin-mocha-gatsby:before {
+    content: "\f29c";
+}
+.catppuccin-mocha-folder_templates_open:before {
+    content: "\f29d";
+}
+.catppuccin-mocha-stitches:before {
+    content: "\f29e";
+}
+.catppuccin-mocha-antlr:before {
+    content: "\f29f";
+}
+.catppuccin-mocha-folder_utils_open:before {
+    content: "\f2a0";
+}
+.catppuccin-mocha-alex:before {
+    content: "\f2a1";
+}
+.catppuccin-mocha-folder_husky_open:before {
+    content: "\f2a2";
+}
+.catppuccin-mocha-eslint-ignore:before {
+    content: "\f2a3";
+}
+.catppuccin-mocha-folder_coverage:before {
+    content: "\f2a4";
+}
+.catppuccin-mocha-folder_constant_open:before {
+    content: "\f2a5";
+}
+.catppuccin-mocha-drawio:before {
+    content: "\f2a6";
+}
+.catppuccin-mocha-nest-guard:before {
+    content: "\f2a7";
+}
+.catppuccin-mocha-apollo:before {
+    content: "\f2a8";
+}
+.catppuccin-mocha-lint-staged:before {
+    content: "\f2a9";
+}
+.catppuccin-mocha-folder_git:before {
+    content: "\f2aa";
+}
+.catppuccin-mocha-folder_images:before {
+    content: "\f2ab";
+}
+.catppuccin-mocha-folder_fonts:before {
+    content: "\f2ac";
+}
+.catppuccin-mocha-rollup:before {
+    content: "\f2ad";
+}
+.catppuccin-mocha-coffeescript:before {
+    content: "\f2ae";
+}
+.catppuccin-mocha-http:before {
+    content: "\f2af";
+}
+.catppuccin-mocha-deno:before {
+    content: "\f2b0";
+}
+.catppuccin-mocha-angular-guard:before {
+    content: "\f2b1";
+}
+.catppuccin-mocha-kdl:before {
+    content: "\f2b2";
+}
+.catppuccin-mocha-nest-service:before {
+    content: "\f2b3";
+}
+.catppuccin-mocha-handlebars:before {
+    content: "\f2b4";
+}
+.catppuccin-mocha-plop:before {
+    content: "\f2b5";
+}
+.catppuccin-mocha-remix:before {
+    content: "\f2b6";
+}
+.catppuccin-mocha-folder_temp:before {
+    content: "\f2b7";
+}
+.catppuccin-mocha-ninja:before {
+    content: "\f2b8";
+}
+.catppuccin-mocha-ms-powerpoint:before {
+    content: "\f2b9";
+}
+.catppuccin-mocha-playwright:before {
+    content: "\f2ba";
+}
+.catppuccin-mocha-folder_core:before {
+    content: "\f2bb";
+}
+.catppuccin-mocha-fastlane:before {
+    content: "\f2bc";
+}
+.catppuccin-mocha-vercel:before {
+    content: "\f2bd";
+}
+.catppuccin-mocha-typescript-test:before {
+    content: "\f2be";
+}
+.catppuccin-mocha-folder_hooks:before {
+    content: "\f2bf";
+}
+.catppuccin-mocha-folder_devcontainer_open:before {
+    content: "\f2c0";
+}
+.catppuccin-mocha-shader:before {
+    content: "\f2c1";
+}
+.catppuccin-mocha-stylelint-ignore:before {
+    content: "\f2c2";
+}
+.catppuccin-mocha-folder_types:before {
+    content: "\f2c3";
+}
+.catppuccin-mocha-org:before {
+    content: "\f2c4";
+}
+.catppuccin-mocha-folder_queue:before {
+    content: "\f2c5";
+}
+.catppuccin-mocha-folder_public_open:before {
+    content: "\f2c6";
+}
+.catppuccin-mocha-latex:before {
+    content: "\f2c7";
+}
+.catppuccin-mocha-svg:before {
+    content: "\f2c8";
+}
+.catppuccin-mocha-vite:before {
+    content: "\f2c9";
+}
+.catppuccin-mocha-folder_intellij_open:before {
+    content: "\f2ca";
+}
+.catppuccin-mocha-git-cliff:before {
+    content: "\f2cb";
+}
+.catppuccin-mocha-font:before {
+    content: "\f2cc";
+}
+.catppuccin-mocha-folder_firebase_open:before {
+    content: "\f2cd";
+}
+.catppuccin-mocha-groovy:before {
+    content: "\f2ce";
+}
+.catppuccin-mocha-python-config:before {
+    content: "\f2cf";
+}
+.catppuccin-mocha-folder_upload_open:before {
+    content: "\f2d0";
+}
+.catppuccin-mocha-folder_nix:before {
+    content: "\f2d1";
+}
+.catppuccin-mocha-code-climate:before {
+    content: "\f2d2";
+}
+.catppuccin-mocha-firebase:before {
+    content: "\f2d3";
+}
+.catppuccin-mocha-folder_github_open:before {
+    content: "\f2d4";
+}
+.catppuccin-mocha-svelte-config:before {
+    content: "\f2d5";
+}
+.catppuccin-mocha-folder_video_open:before {
+    content: "\f2d6";
+}
+.catppuccin-mocha-workflow:before {
+    content: "\f2d7";
+}
+.catppuccin-mocha-astro-config:before {
+    content: "\f2d8";
+}
+.catppuccin-mocha-folder_fvm_open:before {
+    content: "\f2d9";
+}
+.catppuccin-mocha-ms-word:before {
+    content: "\f2da";
+}
+.catppuccin-mocha-typescript-config:before {
+    content: "\f2db";
+}
+.catppuccin-mocha-git:before {
+    content: "\f2dc";
+}
+.catppuccin-mocha-husky:before {
+    content: "\f2dd";
+}
+.catppuccin-mocha-angular:before {
+    content: "\f2de";
+}
+.catppuccin-mocha-folder_connection_open:before {
+    content: "\f2df";
+}
+.catppuccin-mocha-salesforce:before {
+    content: "\f2e0";
+}
+.catppuccin-mocha-folder_gradle_open:before {
+    content: "\f2e1";
+}
+.catppuccin-mocha-bazel:before {
+    content: "\f2e2";
+}
+.catppuccin-mocha-folder_styles_open:before {
+    content: "\f2e3";
+}
+.catppuccin-mocha-gcp:before {
+    content: "\f2e4";
+}
+.catppuccin-mocha-nest:before {
+    content: "\f2e5";
+}
+.catppuccin-mocha-_root:before {
+    content: "\f2e6";
+}
+.catppuccin-mocha-sentry:before {
+    content: "\f2e7";
+}
+.catppuccin-mocha-puppeteer:before {
+    content: "\f2e8";
+}
+.catppuccin-mocha-folder_packages_open:before {
+    content: "\f2e9";
+}
+.catppuccin-mocha-folder_redux_open:before {
+    content: "\f2ea";
+}
+.catppuccin-mocha-eslint:before {
+    content: "\f2eb";
+}
+.catppuccin-mocha-folder_constant:before {
+    content: "\f2ec";
+}
+.catppuccin-mocha-verilog:before {
+    content: "\f2ed";
+}
+.catppuccin-mocha-java-annotation:before {
+    content: "\f2ee";
+}
+.catppuccin-mocha-apache:before {
+    content: "\f2ef";
+}
+.catppuccin-mocha-folder_examples:before {
+    content: "\f2f0";
+}
+.catppuccin-mocha-unity:before {
+    content: "\f2f1";
+}
+.catppuccin-mocha-folder_controllers_open:before {
+    content: "\f2f2";
+}
+.catppuccin-mocha-perl:before {
+    content: "\f2f3";
+}
+.catppuccin-mocha-folder_fvm:before {
+    content: "\f2f4";
+}
+.catppuccin-mocha-package-json:before {
+    content: "\f2f5";
+}
+.catppuccin-mocha-folder_aws_open:before {
+    content: "\f2f6";
+}
+.catppuccin-mocha-heroku:before {
+    content: "\f2f7";
+}
+.catppuccin-mocha-assembly:before {
+    content: "\f2f8";
+}
+.catppuccin-mocha-folder_cargo_open:before {
+    content: "\f2f9";
+}
+.catppuccin-mocha-typst:before {
+    content: "\f2fa";
+}
+.catppuccin-mocha-autohotkey:before {
+    content: "\f2fb";
+}
+.catppuccin-mocha-java-record:before {
+    content: "\f2fc";
+}
+.catppuccin-mocha-prisma:before {
+    content: "\f2fd";
+}
+.catppuccin-mocha-v:before {
+    content: "\f2fe";
+}
+.catppuccin-mocha-typescript-react:before {
+    content: "\f2ff";
+}
+.catppuccin-mocha-folder_locales_open:before {
+    content: "\f300";
+}
+.catppuccin-mocha-rust:before {
+    content: "\f301";
+}
+.catppuccin-mocha-adobe-ae:before {
+    content: "\f302";
+}
+.catppuccin-mocha-folder_debug_open:before {
+    content: "\f303";
+}
+.catppuccin-mocha-twine:before {
+    content: "\f304";
+}
+.catppuccin-mocha-lua:before {
+    content: "\f305";
+}
+.catppuccin-mocha-dependabot:before {
+    content: "\f306";
+}
+.catppuccin-mocha-vanilla-extract:before {
+    content: "\f307";
+}
+.catppuccin-mocha-toml:before {
+    content: "\f308";
+}
+.catppuccin-mocha-folder_styles:before {
+    content: "\f309";
+}
+.catppuccin-mocha-solidity:before {
+    content: "\f30a";
+}
+.catppuccin-mocha-powershell:before {
+    content: "\f30b";
+}
+.catppuccin-mocha-vhs:before {
+    content: "\f30c";
+}
+.catppuccin-mocha-nodemon:before {
+    content: "\f30d";
+}
+.catppuccin-mocha-folder_azure-devops_open:before {
+    content: "\f30e";
+}
+.catppuccin-mocha-java-class:before {
+    content: "\f30f";
+}
+.catppuccin-mocha-zip:before {
+    content: "\f310";
+}
+.catppuccin-mocha-folder_command:before {
+    content: "\f311";
+}
+.catppuccin-mocha-folder_security_open:before {
+    content: "\f312";
+}
+.catppuccin-mocha-dhall:before {
+    content: "\f313";
+}
+.catppuccin-mocha-folder_middleware_open:before {
+    content: "\f314";
+}
+.catppuccin-mocha-adobe-id:before {
+    content: "\f315";
+}
+.catppuccin-mocha-folder_renovate_open:before {
+    content: "\f316";
+}
+.catppuccin-mocha-tauri-ignore:before {
+    content: "\f317";
+}
+.catppuccin-mocha-folder_animation:before {
+    content: "\f318";
+}
+.catppuccin-mocha-codeowners:before {
+    content: "\f319";
+}
+.catppuccin-mocha-folder_benchmark:before {
+    content: "\f31a";
+}
+.catppuccin-mocha-javascript-test:before {
+    content: "\f31b";
+}
+.catppuccin-mocha-bun-lock:before {
+    content: "\f31c";
+}
+.catppuccin-mocha-folder_pre-commit:before {
+    content: "\f31d";
+}
+.catppuccin-mocha-figma:before {
+    content: "\f31e";
+}
+.catppuccin-mocha-mdbook:before {
+    content: "\f31f";
+}
+.catppuccin-mocha-folder_server:before {
+    content: "\f320";
+}
+.catppuccin-mocha-webpack:before {
+    content: "\f321";
+}
+.catppuccin-mocha-folder_security:before {
+    content: "\f322";
+}
+.catppuccin-mocha-npm-ignore:before {
+    content: "\f323";
+}
+.catppuccin-mocha-go-mod:before {
+    content: "\f324";
+}

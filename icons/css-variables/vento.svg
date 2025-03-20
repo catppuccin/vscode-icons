@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+	<path fill="none" stroke="var(--vscode-ctp-sky)" stroke-linecap="round" stroke-linejoin="round" d="m 1.4999348,1.5 h 4.468789 l 5.6875502,13 H 7.593738 Z" />
+	<path fill="none" stroke="var(--vscode-ctp-pink)" stroke-linecap="round" stroke-linejoin="round" d="m 10.031259,1.5 h 4.46879 l -2.843775,13 H 7.593738 Z" />
+	<path fill="none" stroke="var(--vscode-ctp-blue)" stroke-linecap="round" stroke-linejoin="round" d="m 8.8124988,8 2.8437752,6.5 H 7.593738 Z" />
+</svg>

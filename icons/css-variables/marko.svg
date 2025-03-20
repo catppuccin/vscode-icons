@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+	<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+		<path stroke="var(--vscode-ctp-red)" d="m12 13.5 3.5-5-3.5-6" />
+		<path stroke="var(--vscode-ctp-blue)" d="m4 2.5-3.47 6 3.47 5" />
+		<path stroke="var(--vscode-ctp-teal)" d="M6.43 8.5 4 2.5" />
+		<path stroke="var(--vscode-ctp-green)" d="m9 2.5-2.57 6" />
+		<path stroke="var(--vscode-ctp-yellow)" d="m9 13.5 3.51-5L9 2.5" />
+	</g>
+</svg>

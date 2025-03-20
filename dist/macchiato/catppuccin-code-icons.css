@@ -1,0 +1,3411 @@
+@font-face {
+    font-family: "catppuccin-code-icons";
+    src: url("./catppuccin-code-icons.ttf?01bf5cc8cb0a92e8bc0d83a2160bb60f") format("truetype"),
+url("./catppuccin-code-icons.woff?01bf5cc8cb0a92e8bc0d83a2160bb60f") format("woff"),
+url("./catppuccin-code-icons.woff2?01bf5cc8cb0a92e8bc0d83a2160bb60f") format("woff2");
+}
+
+i[class^="catppuccin-macchiato-"]:before, i[class*=" catppuccin-macchiato-"]:before {
+    font-family: catppuccin-code-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.catppuccin-macchiato-add:before {
+    content: "\ea60";
+}
+.catppuccin-macchiato-plus:before {
+    content: "\ea60";
+}
+.catppuccin-macchiato-gist-new:before {
+    content: "\ea60";
+}
+.catppuccin-macchiato-repo-create:before {
+    content: "\ea60";
+}
+.catppuccin-macchiato-lightbulb:before {
+    content: "\ea61";
+}
+.catppuccin-macchiato-light-bulb:before {
+    content: "\ea61";
+}
+.catppuccin-macchiato-repo:before {
+    content: "\ea62";
+}
+.catppuccin-macchiato-repo-delete:before {
+    content: "\ea62";
+}
+.catppuccin-macchiato-gist-fork:before {
+    content: "\ea63";
+}
+.catppuccin-macchiato-repo-forked:before {
+    content: "\ea63";
+}
+.catppuccin-macchiato-git-pull-request:before {
+    content: "\ea64";
+}
+.catppuccin-macchiato-git-pull-request-abandoned:before {
+    content: "\ea64";
+}
+.catppuccin-macchiato-record-keys:before {
+    content: "\ea65";
+}
+.catppuccin-macchiato-keyboard:before {
+    content: "\ea65";
+}
+.catppuccin-macchiato-tag:before {
+    content: "\ea66";
+}
+.catppuccin-macchiato-git-pull-request-label:before {
+    content: "\ea66";
+}
+.catppuccin-macchiato-tag-add:before {
+    content: "\ea66";
+}
+.catppuccin-macchiato-tag-remove:before {
+    content: "\ea66";
+}
+.catppuccin-macchiato-person:before {
+    content: "\ea67";
+}
+.catppuccin-macchiato-person-follow:before {
+    content: "\ea67";
+}
+.catppuccin-macchiato-person-outline:before {
+    content: "\ea67";
+}
+.catppuccin-macchiato-person-filled:before {
+    content: "\ea67";
+}
+.catppuccin-macchiato-git-branch:before {
+    content: "\ea68";
+}
+.catppuccin-macchiato-git-branch-create:before {
+    content: "\ea68";
+}
+.catppuccin-macchiato-git-branch-delete:before {
+    content: "\ea68";
+}
+.catppuccin-macchiato-source-control:before {
+    content: "\ea68";
+}
+.catppuccin-macchiato-mirror:before {
+    content: "\ea69";
+}
+.catppuccin-macchiato-mirror-public:before {
+    content: "\ea69";
+}
+.catppuccin-macchiato-star:before {
+    content: "\ea6a";
+}
+.catppuccin-macchiato-star-add:before {
+    content: "\ea6a";
+}
+.catppuccin-macchiato-star-delete:before {
+    content: "\ea6a";
+}
+.catppuccin-macchiato-star-empty:before {
+    content: "\ea6a";
+}
+.catppuccin-macchiato-comment:before {
+    content: "\ea6b";
+}
+.catppuccin-macchiato-comment-add:before {
+    content: "\ea6b";
+}
+.catppuccin-macchiato-alert:before {
+    content: "\ea6c";
+}
+.catppuccin-macchiato-warning:before {
+    content: "\ea6c";
+}
+.catppuccin-macchiato-search:before {
+    content: "\ea6d";
+}
+.catppuccin-macchiato-search-save:before {
+    content: "\ea6d";
+}
+.catppuccin-macchiato-log-out:before {
+    content: "\ea6e";
+}
+.catppuccin-macchiato-sign-out:before {
+    content: "\ea6e";
+}
+.catppuccin-macchiato-log-in:before {
+    content: "\ea6f";
+}
+.catppuccin-macchiato-sign-in:before {
+    content: "\ea6f";
+}
+.catppuccin-macchiato-eye:before {
+    content: "\ea70";
+}
+.catppuccin-macchiato-eye-unwatch:before {
+    content: "\ea70";
+}
+.catppuccin-macchiato-eye-watch:before {
+    content: "\ea70";
+}
+.catppuccin-macchiato-circle-filled:before {
+    content: "\ea71";
+}
+.catppuccin-macchiato-primitive-dot:before {
+    content: "\ea71";
+}
+.catppuccin-macchiato-close-dirty:before {
+    content: "\ea71";
+}
+.catppuccin-macchiato-debug-breakpoint:before {
+    content: "\ea71";
+}
+.catppuccin-macchiato-debug-breakpoint-disabled:before {
+    content: "\ea71";
+}
+.catppuccin-macchiato-debug-hint:before {
+    content: "\ea71";
+}
+.catppuccin-macchiato-terminal-decoration-success:before {
+    content: "\ea71";
+}
+.catppuccin-macchiato-primitive-square:before {
+    content: "\ea72";
+}
+.catppuccin-macchiato-edit:before {
+    content: "\ea73";
+}
+.catppuccin-macchiato-pencil:before {
+    content: "\ea73";
+}
+.catppuccin-macchiato-info:before {
+    content: "\ea74";
+}
+.catppuccin-macchiato-issue-opened:before {
+    content: "\ea74";
+}
+.catppuccin-macchiato-gist-private:before {
+    content: "\ea75";
+}
+.catppuccin-macchiato-git-fork-private:before {
+    content: "\ea75";
+}
+.catppuccin-macchiato-lock:before {
+    content: "\ea75";
+}
+.catppuccin-macchiato-mirror-private:before {
+    content: "\ea75";
+}
+.catppuccin-macchiato-close:before {
+    content: "\ea76";
+}
+.catppuccin-macchiato-remove-close:before {
+    content: "\ea76";
+}
+.catppuccin-macchiato-x:before {
+    content: "\ea76";
+}
+.catppuccin-macchiato-repo-sync:before {
+    content: "\ea77";
+}
+.catppuccin-macchiato-sync:before {
+    content: "\ea77";
+}
+.catppuccin-macchiato-clone:before {
+    content: "\ea78";
+}
+.catppuccin-macchiato-desktop-download:before {
+    content: "\ea78";
+}
+.catppuccin-macchiato-beaker:before {
+    content: "\ea79";
+}
+.catppuccin-macchiato-microscope:before {
+    content: "\ea79";
+}
+.catppuccin-macchiato-vm:before {
+    content: "\ea7a";
+}
+.catppuccin-macchiato-device-desktop:before {
+    content: "\ea7a";
+}
+.catppuccin-macchiato-file:before {
+    content: "\ea7b";
+}
+.catppuccin-macchiato-file-text:before {
+    content: "\ea7b";
+}
+.catppuccin-macchiato-more:before {
+    content: "\ea7c";
+}
+.catppuccin-macchiato-ellipsis:before {
+    content: "\ea7c";
+}
+.catppuccin-macchiato-kebab-horizontal:before {
+    content: "\ea7c";
+}
+.catppuccin-macchiato-mail-reply:before {
+    content: "\ea7d";
+}
+.catppuccin-macchiato-reply:before {
+    content: "\ea7d";
+}
+.catppuccin-macchiato-organization:before {
+    content: "\ea7e";
+}
+.catppuccin-macchiato-organization-filled:before {
+    content: "\ea7e";
+}
+.catppuccin-macchiato-organization-outline:before {
+    content: "\ea7e";
+}
+.catppuccin-macchiato-new-file:before {
+    content: "\ea7f";
+}
+.catppuccin-macchiato-file-add:before {
+    content: "\ea7f";
+}
+.catppuccin-macchiato-new-folder:before {
+    content: "\ea80";
+}
+.catppuccin-macchiato-file-directory-create:before {
+    content: "\ea80";
+}
+.catppuccin-macchiato-trash:before {
+    content: "\ea81";
+}
+.catppuccin-macchiato-trashcan:before {
+    content: "\ea81";
+}
+.catppuccin-macchiato-history:before {
+    content: "\ea82";
+}
+.catppuccin-macchiato-clock:before {
+    content: "\ea82";
+}
+.catppuccin-macchiato-folder:before {
+    content: "\ea83";
+}
+.catppuccin-macchiato-file-directory:before {
+    content: "\ea83";
+}
+.catppuccin-macchiato-symbol-folder:before {
+    content: "\ea83";
+}
+.catppuccin-macchiato-logo-github:before {
+    content: "\ea84";
+}
+.catppuccin-macchiato-mark-github:before {
+    content: "\ea84";
+}
+.catppuccin-macchiato-github:before {
+    content: "\ea84";
+}
+.catppuccin-macchiato-terminal:before {
+    content: "\ea85";
+}
+.catppuccin-macchiato-console:before {
+    content: "\ea85";
+}
+.catppuccin-macchiato-repl:before {
+    content: "\ea85";
+}
+.catppuccin-macchiato-zap:before {
+    content: "\ea86";
+}
+.catppuccin-macchiato-symbol-event:before {
+    content: "\ea86";
+}
+.catppuccin-macchiato-error:before {
+    content: "\ea87";
+}
+.catppuccin-macchiato-stop:before {
+    content: "\ea87";
+}
+.catppuccin-macchiato-variable:before {
+    content: "\ea88";
+}
+.catppuccin-macchiato-symbol-variable:before {
+    content: "\ea88";
+}
+.catppuccin-macchiato-array:before {
+    content: "\ea8a";
+}
+.catppuccin-macchiato-symbol-array:before {
+    content: "\ea8a";
+}
+.catppuccin-macchiato-symbol-module:before {
+    content: "\ea8b";
+}
+.catppuccin-macchiato-symbol-package:before {
+    content: "\ea8b";
+}
+.catppuccin-macchiato-symbol-namespace:before {
+    content: "\ea8b";
+}
+.catppuccin-macchiato-symbol-object:before {
+    content: "\ea8b";
+}
+.catppuccin-macchiato-symbol-method:before {
+    content: "\ea8c";
+}
+.catppuccin-macchiato-symbol-function:before {
+    content: "\ea8c";
+}
+.catppuccin-macchiato-symbol-constructor:before {
+    content: "\ea8c";
+}
+.catppuccin-macchiato-symbol-boolean:before {
+    content: "\ea8f";
+}
+.catppuccin-macchiato-symbol-null:before {
+    content: "\ea8f";
+}
+.catppuccin-macchiato-symbol-numeric:before {
+    content: "\ea90";
+}
+.catppuccin-macchiato-symbol-number:before {
+    content: "\ea90";
+}
+.catppuccin-macchiato-symbol-structure:before {
+    content: "\ea91";
+}
+.catppuccin-macchiato-symbol-struct:before {
+    content: "\ea91";
+}
+.catppuccin-macchiato-symbol-parameter:before {
+    content: "\ea92";
+}
+.catppuccin-macchiato-symbol-type-parameter:before {
+    content: "\ea92";
+}
+.catppuccin-macchiato-symbol-key:before {
+    content: "\ea93";
+}
+.catppuccin-macchiato-symbol-text:before {
+    content: "\ea93";
+}
+.catppuccin-macchiato-symbol-reference:before {
+    content: "\ea94";
+}
+.catppuccin-macchiato-go-to-file:before {
+    content: "\ea94";
+}
+.catppuccin-macchiato-symbol-enum:before {
+    content: "\ea95";
+}
+.catppuccin-macchiato-symbol-value:before {
+    content: "\ea95";
+}
+.catppuccin-macchiato-symbol-ruler:before {
+    content: "\ea96";
+}
+.catppuccin-macchiato-symbol-unit:before {
+    content: "\ea96";
+}
+.catppuccin-macchiato-activate-breakpoints:before {
+    content: "\ea97";
+}
+.catppuccin-macchiato-archive:before {
+    content: "\ea98";
+}
+.catppuccin-macchiato-arrow-both:before {
+    content: "\ea99";
+}
+.catppuccin-macchiato-arrow-down:before {
+    content: "\ea9a";
+}
+.catppuccin-macchiato-arrow-left:before {
+    content: "\ea9b";
+}
+.catppuccin-macchiato-arrow-right:before {
+    content: "\ea9c";
+}
+.catppuccin-macchiato-arrow-small-down:before {
+    content: "\ea9d";
+}
+.catppuccin-macchiato-arrow-small-left:before {
+    content: "\ea9e";
+}
+.catppuccin-macchiato-arrow-small-right:before {
+    content: "\ea9f";
+}
+.catppuccin-macchiato-arrow-small-up:before {
+    content: "\eaa0";
+}
+.catppuccin-macchiato-arrow-up:before {
+    content: "\eaa1";
+}
+.catppuccin-macchiato-bell:before {
+    content: "\eaa2";
+}
+.catppuccin-macchiato-bold:before {
+    content: "\eaa3";
+}
+.catppuccin-macchiato-book:before {
+    content: "\eaa4";
+}
+.catppuccin-macchiato-bookmark:before {
+    content: "\eaa5";
+}
+.catppuccin-macchiato-debug-breakpoint-conditional-unverified:before {
+    content: "\eaa6";
+}
+.catppuccin-macchiato-debug-breakpoint-conditional:before {
+    content: "\eaa7";
+}
+.catppuccin-macchiato-debug-breakpoint-conditional-disabled:before {
+    content: "\eaa7";
+}
+.catppuccin-macchiato-debug-breakpoint-data-unverified:before {
+    content: "\eaa8";
+}
+.catppuccin-macchiato-debug-breakpoint-data:before {
+    content: "\eaa9";
+}
+.catppuccin-macchiato-debug-breakpoint-data-disabled:before {
+    content: "\eaa9";
+}
+.catppuccin-macchiato-debug-breakpoint-log-unverified:before {
+    content: "\eaaa";
+}
+.catppuccin-macchiato-debug-breakpoint-log:before {
+    content: "\eaab";
+}
+.catppuccin-macchiato-debug-breakpoint-log-disabled:before {
+    content: "\eaab";
+}
+.catppuccin-macchiato-briefcase:before {
+    content: "\eaac";
+}
+.catppuccin-macchiato-broadcast:before {
+    content: "\eaad";
+}
+.catppuccin-macchiato-browser:before {
+    content: "\eaae";
+}
+.catppuccin-macchiato-bug:before {
+    content: "\eaaf";
+}
+.catppuccin-macchiato-calendar:before {
+    content: "\eab0";
+}
+.catppuccin-macchiato-case-sensitive:before {
+    content: "\eab1";
+}
+.catppuccin-macchiato-check:before {
+    content: "\eab2";
+}
+.catppuccin-macchiato-checklist:before {
+    content: "\eab3";
+}
+.catppuccin-macchiato-chevron-down:before {
+    content: "\eab4";
+}
+.catppuccin-macchiato-chevron-left:before {
+    content: "\eab5";
+}
+.catppuccin-macchiato-chevron-right:before {
+    content: "\eab6";
+}
+.catppuccin-macchiato-chevron-up:before {
+    content: "\eab7";
+}
+.catppuccin-macchiato-chrome-close:before {
+    content: "\eab8";
+}
+.catppuccin-macchiato-chrome-maximize:before {
+    content: "\eab9";
+}
+.catppuccin-macchiato-chrome-minimize:before {
+    content: "\eaba";
+}
+.catppuccin-macchiato-chrome-restore:before {
+    content: "\eabb";
+}
+.catppuccin-macchiato-circle-outline:before {
+    content: "\eabc";
+}
+.catppuccin-macchiato-circle:before {
+    content: "\eabc";
+}
+.catppuccin-macchiato-debug-breakpoint-unverified:before {
+    content: "\eabc";
+}
+.catppuccin-macchiato-terminal-decoration-incomplete:before {
+    content: "\eabc";
+}
+.catppuccin-macchiato-circle-slash:before {
+    content: "\eabd";
+}
+.catppuccin-macchiato-circuit-board:before {
+    content: "\eabe";
+}
+.catppuccin-macchiato-clear-all:before {
+    content: "\eabf";
+}
+.catppuccin-macchiato-clippy:before {
+    content: "\eac0";
+}
+.catppuccin-macchiato-close-all:before {
+    content: "\eac1";
+}
+.catppuccin-macchiato-cloud-download:before {
+    content: "\eac2";
+}
+.catppuccin-macchiato-cloud-upload:before {
+    content: "\eac3";
+}
+.catppuccin-macchiato-code:before {
+    content: "\eac4";
+}
+.catppuccin-macchiato-collapse-all:before {
+    content: "\eac5";
+}
+.catppuccin-macchiato-color-mode:before {
+    content: "\eac6";
+}
+.catppuccin-macchiato-comment-discussion:before {
+    content: "\eac7";
+}
+.catppuccin-macchiato-credit-card:before {
+    content: "\eac9";
+}
+.catppuccin-macchiato-dash:before {
+    content: "\eacc";
+}
+.catppuccin-macchiato-dashboard:before {
+    content: "\eacd";
+}
+.catppuccin-macchiato-database:before {
+    content: "\eace";
+}
+.catppuccin-macchiato-debug-continue:before {
+    content: "\eacf";
+}
+.catppuccin-macchiato-debug-disconnect:before {
+    content: "\ead0";
+}
+.catppuccin-macchiato-debug-pause:before {
+    content: "\ead1";
+}
+.catppuccin-macchiato-debug-restart:before {
+    content: "\ead2";
+}
+.catppuccin-macchiato-debug-start:before {
+    content: "\ead3";
+}
+.catppuccin-macchiato-debug-step-into:before {
+    content: "\ead4";
+}
+.catppuccin-macchiato-debug-step-out:before {
+    content: "\ead5";
+}
+.catppuccin-macchiato-debug-step-over:before {
+    content: "\ead6";
+}
+.catppuccin-macchiato-debug-stop:before {
+    content: "\ead7";
+}
+.catppuccin-macchiato-debug:before {
+    content: "\ead8";
+}
+.catppuccin-macchiato-device-camera-video:before {
+    content: "\ead9";
+}
+.catppuccin-macchiato-device-camera:before {
+    content: "\eada";
+}
+.catppuccin-macchiato-device-mobile:before {
+    content: "\eadb";
+}
+.catppuccin-macchiato-diff-added:before {
+    content: "\eadc";
+}
+.catppuccin-macchiato-diff-ignored:before {
+    content: "\eadd";
+}
+.catppuccin-macchiato-diff-modified:before {
+    content: "\eade";
+}
+.catppuccin-macchiato-diff-removed:before {
+    content: "\eadf";
+}
+.catppuccin-macchiato-diff-renamed:before {
+    content: "\eae0";
+}
+.catppuccin-macchiato-diff:before {
+    content: "\eae1";
+}
+.catppuccin-macchiato-diff-sidebyside:before {
+    content: "\eae1";
+}
+.catppuccin-macchiato-discard:before {
+    content: "\eae2";
+}
+.catppuccin-macchiato-editor-layout:before {
+    content: "\eae3";
+}
+.catppuccin-macchiato-empty-window:before {
+    content: "\eae4";
+}
+.catppuccin-macchiato-exclude:before {
+    content: "\eae5";
+}
+.catppuccin-macchiato-extensions:before {
+    content: "\eae6";
+}
+.catppuccin-macchiato-eye-closed:before {
+    content: "\eae7";
+}
+.catppuccin-macchiato-file-binary:before {
+    content: "\eae8";
+}
+.catppuccin-macchiato-file-code:before {
+    content: "\eae9";
+}
+.catppuccin-macchiato-file-media:before {
+    content: "\eaea";
+}
+.catppuccin-macchiato-file-pdf:before {
+    content: "\eaeb";
+}
+.catppuccin-macchiato-file-submodule:before {
+    content: "\eaec";
+}
+.catppuccin-macchiato-file-symlink-directory:before {
+    content: "\eaed";
+}
+.catppuccin-macchiato-file-symlink-file:before {
+    content: "\eaee";
+}
+.catppuccin-macchiato-file-zip:before {
+    content: "\eaef";
+}
+.catppuccin-macchiato-files:before {
+    content: "\eaf0";
+}
+.catppuccin-macchiato-filter:before {
+    content: "\eaf1";
+}
+.catppuccin-macchiato-flame:before {
+    content: "\eaf2";
+}
+.catppuccin-macchiato-fold-down:before {
+    content: "\eaf3";
+}
+.catppuccin-macchiato-fold-up:before {
+    content: "\eaf4";
+}
+.catppuccin-macchiato-fold:before {
+    content: "\eaf5";
+}
+.catppuccin-macchiato-folder-active:before {
+    content: "\eaf6";
+}
+.catppuccin-macchiato-folder-opened:before {
+    content: "\eaf7";
+}
+.catppuccin-macchiato-gear:before {
+    content: "\eaf8";
+}
+.catppuccin-macchiato-gift:before {
+    content: "\eaf9";
+}
+.catppuccin-macchiato-gist-secret:before {
+    content: "\eafa";
+}
+.catppuccin-macchiato-gist:before {
+    content: "\eafb";
+}
+.catppuccin-macchiato-git-commit:before {
+    content: "\eafc";
+}
+.catppuccin-macchiato-git-compare:before {
+    content: "\eafd";
+}
+.catppuccin-macchiato-compare-changes:before {
+    content: "\eafd";
+}
+.catppuccin-macchiato-git-merge:before {
+    content: "\eafe";
+}
+.catppuccin-macchiato-github-action:before {
+    content: "\eaff";
+}
+.catppuccin-macchiato-github-alt:before {
+    content: "\eb00";
+}
+.catppuccin-macchiato-globe:before {
+    content: "\eb01";
+}
+.catppuccin-macchiato-grabber:before {
+    content: "\eb02";
+}
+.catppuccin-macchiato-graph:before {
+    content: "\eb03";
+}
+.catppuccin-macchiato-gripper:before {
+    content: "\eb04";
+}
+.catppuccin-macchiato-heart:before {
+    content: "\eb05";
+}
+.catppuccin-macchiato-home:before {
+    content: "\eb06";
+}
+.catppuccin-macchiato-horizontal-rule:before {
+    content: "\eb07";
+}
+.catppuccin-macchiato-hubot:before {
+    content: "\eb08";
+}
+.catppuccin-macchiato-inbox:before {
+    content: "\eb09";
+}
+.catppuccin-macchiato-issue-reopened:before {
+    content: "\eb0b";
+}
+.catppuccin-macchiato-issues:before {
+    content: "\eb0c";
+}
+.catppuccin-macchiato-italic:before {
+    content: "\eb0d";
+}
+.catppuccin-macchiato-jersey:before {
+    content: "\eb0e";
+}
+.catppuccin-macchiato-json:before {
+    content: "\eb0f";
+}
+.catppuccin-macchiato-kebab-vertical:before {
+    content: "\eb10";
+}
+.catppuccin-macchiato-key:before {
+    content: "\eb11";
+}
+.catppuccin-macchiato-law:before {
+    content: "\eb12";
+}
+.catppuccin-macchiato-lightbulb-autofix:before {
+    content: "\eb13";
+}
+.catppuccin-macchiato-link-external:before {
+    content: "\eb14";
+}
+.catppuccin-macchiato-link:before {
+    content: "\eb15";
+}
+.catppuccin-macchiato-list-ordered:before {
+    content: "\eb16";
+}
+.catppuccin-macchiato-list-unordered:before {
+    content: "\eb17";
+}
+.catppuccin-macchiato-live-share:before {
+    content: "\eb18";
+}
+.catppuccin-macchiato-loading:before {
+    content: "\eb19";
+}
+.catppuccin-macchiato-location:before {
+    content: "\eb1a";
+}
+.catppuccin-macchiato-mail-read:before {
+    content: "\eb1b";
+}
+.catppuccin-macchiato-mail:before {
+    content: "\eb1c";
+}
+.catppuccin-macchiato-markdown:before {
+    content: "\eb1d";
+}
+.catppuccin-macchiato-megaphone:before {
+    content: "\eb1e";
+}
+.catppuccin-macchiato-mention:before {
+    content: "\eb1f";
+}
+.catppuccin-macchiato-milestone:before {
+    content: "\eb20";
+}
+.catppuccin-macchiato-git-pull-request-milestone:before {
+    content: "\eb20";
+}
+.catppuccin-macchiato-mortar-board:before {
+    content: "\eb21";
+}
+.catppuccin-macchiato-move:before {
+    content: "\eb22";
+}
+.catppuccin-macchiato-multiple-windows:before {
+    content: "\eb23";
+}
+.catppuccin-macchiato-mute:before {
+    content: "\eb24";
+}
+.catppuccin-macchiato-no-newline:before {
+    content: "\eb25";
+}
+.catppuccin-macchiato-note:before {
+    content: "\eb26";
+}
+.catppuccin-macchiato-octoface:before {
+    content: "\eb27";
+}
+.catppuccin-macchiato-open-preview:before {
+    content: "\eb28";
+}
+.catppuccin-macchiato-package:before {
+    content: "\eb29";
+}
+.catppuccin-macchiato-paintcan:before {
+    content: "\eb2a";
+}
+.catppuccin-macchiato-pin:before {
+    content: "\eb2b";
+}
+.catppuccin-macchiato-play:before {
+    content: "\eb2c";
+}
+.catppuccin-macchiato-run:before {
+    content: "\eb2c";
+}
+.catppuccin-macchiato-plug:before {
+    content: "\eb2d";
+}
+.catppuccin-macchiato-preserve-case:before {
+    content: "\eb2e";
+}
+.catppuccin-macchiato-preview:before {
+    content: "\eb2f";
+}
+.catppuccin-macchiato-project:before {
+    content: "\eb30";
+}
+.catppuccin-macchiato-pulse:before {
+    content: "\eb31";
+}
+.catppuccin-macchiato-question:before {
+    content: "\eb32";
+}
+.catppuccin-macchiato-quote:before {
+    content: "\eb33";
+}
+.catppuccin-macchiato-radio-tower:before {
+    content: "\eb34";
+}
+.catppuccin-macchiato-reactions:before {
+    content: "\eb35";
+}
+.catppuccin-macchiato-references:before {
+    content: "\eb36";
+}
+.catppuccin-macchiato-refresh:before {
+    content: "\eb37";
+}
+.catppuccin-macchiato-regex:before {
+    content: "\eb38";
+}
+.catppuccin-macchiato-remote-explorer:before {
+    content: "\eb39";
+}
+.catppuccin-macchiato-remote:before {
+    content: "\eb3a";
+}
+.catppuccin-macchiato-remove:before {
+    content: "\eb3b";
+}
+.catppuccin-macchiato-replace-all:before {
+    content: "\eb3c";
+}
+.catppuccin-macchiato-replace:before {
+    content: "\eb3d";
+}
+.catppuccin-macchiato-repo-clone:before {
+    content: "\eb3e";
+}
+.catppuccin-macchiato-repo-force-push:before {
+    content: "\eb3f";
+}
+.catppuccin-macchiato-repo-pull:before {
+    content: "\eb40";
+}
+.catppuccin-macchiato-repo-push:before {
+    content: "\eb41";
+}
+.catppuccin-macchiato-report:before {
+    content: "\eb42";
+}
+.catppuccin-macchiato-request-changes:before {
+    content: "\eb43";
+}
+.catppuccin-macchiato-rocket:before {
+    content: "\eb44";
+}
+.catppuccin-macchiato-root-folder-opened:before {
+    content: "\eb45";
+}
+.catppuccin-macchiato-root-folder:before {
+    content: "\eb46";
+}
+.catppuccin-macchiato-rss:before {
+    content: "\eb47";
+}
+.catppuccin-macchiato-ruby:before {
+    content: "\eb48";
+}
+.catppuccin-macchiato-save-all:before {
+    content: "\eb49";
+}
+.catppuccin-macchiato-save-as:before {
+    content: "\eb4a";
+}
+.catppuccin-macchiato-save:before {
+    content: "\eb4b";
+}
+.catppuccin-macchiato-screen-full:before {
+    content: "\eb4c";
+}
+.catppuccin-macchiato-screen-normal:before {
+    content: "\eb4d";
+}
+.catppuccin-macchiato-search-stop:before {
+    content: "\eb4e";
+}
+.catppuccin-macchiato-server:before {
+    content: "\eb50";
+}
+.catppuccin-macchiato-settings-gear:before {
+    content: "\eb51";
+}
+.catppuccin-macchiato-settings:before {
+    content: "\eb52";
+}
+.catppuccin-macchiato-shield:before {
+    content: "\eb53";
+}
+.catppuccin-macchiato-smiley:before {
+    content: "\eb54";
+}
+.catppuccin-macchiato-sort-precedence:before {
+    content: "\eb55";
+}
+.catppuccin-macchiato-split-horizontal:before {
+    content: "\eb56";
+}
+.catppuccin-macchiato-split-vertical:before {
+    content: "\eb57";
+}
+.catppuccin-macchiato-squirrel:before {
+    content: "\eb58";
+}
+.catppuccin-macchiato-star-full:before {
+    content: "\eb59";
+}
+.catppuccin-macchiato-star-half:before {
+    content: "\eb5a";
+}
+.catppuccin-macchiato-symbol-class:before {
+    content: "\eb5b";
+}
+.catppuccin-macchiato-symbol-color:before {
+    content: "\eb5c";
+}
+.catppuccin-macchiato-symbol-constant:before {
+    content: "\eb5d";
+}
+.catppuccin-macchiato-symbol-enum-member:before {
+    content: "\eb5e";
+}
+.catppuccin-macchiato-symbol-field:before {
+    content: "\eb5f";
+}
+.catppuccin-macchiato-symbol-file:before {
+    content: "\eb60";
+}
+.catppuccin-macchiato-symbol-interface:before {
+    content: "\eb61";
+}
+.catppuccin-macchiato-symbol-keyword:before {
+    content: "\eb62";
+}
+.catppuccin-macchiato-symbol-misc:before {
+    content: "\eb63";
+}
+.catppuccin-macchiato-symbol-operator:before {
+    content: "\eb64";
+}
+.catppuccin-macchiato-symbol-property:before {
+    content: "\eb65";
+}
+.catppuccin-macchiato-wrench:before {
+    content: "\eb65";
+}
+.catppuccin-macchiato-wrench-subaction:before {
+    content: "\eb65";
+}
+.catppuccin-macchiato-symbol-snippet:before {
+    content: "\eb66";
+}
+.catppuccin-macchiato-tasklist:before {
+    content: "\eb67";
+}
+.catppuccin-macchiato-telescope:before {
+    content: "\eb68";
+}
+.catppuccin-macchiato-text-size:before {
+    content: "\eb69";
+}
+.catppuccin-macchiato-three-bars:before {
+    content: "\eb6a";
+}
+.catppuccin-macchiato-thumbsdown:before {
+    content: "\eb6b";
+}
+.catppuccin-macchiato-thumbsup:before {
+    content: "\eb6c";
+}
+.catppuccin-macchiato-tools:before {
+    content: "\eb6d";
+}
+.catppuccin-macchiato-triangle-down:before {
+    content: "\eb6e";
+}
+.catppuccin-macchiato-triangle-left:before {
+    content: "\eb6f";
+}
+.catppuccin-macchiato-triangle-right:before {
+    content: "\eb70";
+}
+.catppuccin-macchiato-triangle-up:before {
+    content: "\eb71";
+}
+.catppuccin-macchiato-twitter:before {
+    content: "\eb72";
+}
+.catppuccin-macchiato-unfold:before {
+    content: "\eb73";
+}
+.catppuccin-macchiato-unlock:before {
+    content: "\eb74";
+}
+.catppuccin-macchiato-unmute:before {
+    content: "\eb75";
+}
+.catppuccin-macchiato-unverified:before {
+    content: "\eb76";
+}
+.catppuccin-macchiato-verified:before {
+    content: "\eb77";
+}
+.catppuccin-macchiato-versions:before {
+    content: "\eb78";
+}
+.catppuccin-macchiato-vm-active:before {
+    content: "\eb79";
+}
+.catppuccin-macchiato-vm-outline:before {
+    content: "\eb7a";
+}
+.catppuccin-macchiato-vm-running:before {
+    content: "\eb7b";
+}
+.catppuccin-macchiato-watch:before {
+    content: "\eb7c";
+}
+.catppuccin-macchiato-whitespace:before {
+    content: "\eb7d";
+}
+.catppuccin-macchiato-whole-word:before {
+    content: "\eb7e";
+}
+.catppuccin-macchiato-window:before {
+    content: "\eb7f";
+}
+.catppuccin-macchiato-word-wrap:before {
+    content: "\eb80";
+}
+.catppuccin-macchiato-zoom-in:before {
+    content: "\eb81";
+}
+.catppuccin-macchiato-zoom-out:before {
+    content: "\eb82";
+}
+.catppuccin-macchiato-list-filter:before {
+    content: "\eb83";
+}
+.catppuccin-macchiato-list-flat:before {
+    content: "\eb84";
+}
+.catppuccin-macchiato-list-selection:before {
+    content: "\eb85";
+}
+.catppuccin-macchiato-selection:before {
+    content: "\eb85";
+}
+.catppuccin-macchiato-list-tree:before {
+    content: "\eb86";
+}
+.catppuccin-macchiato-debug-breakpoint-function-unverified:before {
+    content: "\eb87";
+}
+.catppuccin-macchiato-debug-breakpoint-function:before {
+    content: "\eb88";
+}
+.catppuccin-macchiato-debug-breakpoint-function-disabled:before {
+    content: "\eb88";
+}
+.catppuccin-macchiato-debug-stackframe-active:before {
+    content: "\eb89";
+}
+.catppuccin-macchiato-circle-small-filled:before {
+    content: "\eb8a";
+}
+.catppuccin-macchiato-debug-stackframe-dot:before {
+    content: "\eb8a";
+}
+.catppuccin-macchiato-terminal-decoration-mark:before {
+    content: "\eb8a";
+}
+.catppuccin-macchiato-debug-stackframe:before {
+    content: "\eb8b";
+}
+.catppuccin-macchiato-debug-stackframe-focused:before {
+    content: "\eb8b";
+}
+.catppuccin-macchiato-debug-breakpoint-unsupported:before {
+    content: "\eb8c";
+}
+.catppuccin-macchiato-symbol-string:before {
+    content: "\eb8d";
+}
+.catppuccin-macchiato-debug-reverse-continue:before {
+    content: "\eb8e";
+}
+.catppuccin-macchiato-debug-step-back:before {
+    content: "\eb8f";
+}
+.catppuccin-macchiato-debug-restart-frame:before {
+    content: "\eb90";
+}
+.catppuccin-macchiato-debug-alt:before {
+    content: "\eb91";
+}
+.catppuccin-macchiato-call-incoming:before {
+    content: "\eb92";
+}
+.catppuccin-macchiato-call-outgoing:before {
+    content: "\eb93";
+}
+.catppuccin-macchiato-menu:before {
+    content: "\eb94";
+}
+.catppuccin-macchiato-expand-all:before {
+    content: "\eb95";
+}
+.catppuccin-macchiato-feedback:before {
+    content: "\eb96";
+}
+.catppuccin-macchiato-git-pull-request-reviewer:before {
+    content: "\eb96";
+}
+.catppuccin-macchiato-group-by-ref-type:before {
+    content: "\eb97";
+}
+.catppuccin-macchiato-ungroup-by-ref-type:before {
+    content: "\eb98";
+}
+.catppuccin-macchiato-account:before {
+    content: "\eb99";
+}
+.catppuccin-macchiato-git-pull-request-assignee:before {
+    content: "\eb99";
+}
+.catppuccin-macchiato-bell-dot:before {
+    content: "\eb9a";
+}
+.catppuccin-macchiato-debug-console:before {
+    content: "\eb9b";
+}
+.catppuccin-macchiato-library:before {
+    content: "\eb9c";
+}
+.catppuccin-macchiato-output:before {
+    content: "\eb9d";
+}
+.catppuccin-macchiato-run-all:before {
+    content: "\eb9e";
+}
+.catppuccin-macchiato-sync-ignored:before {
+    content: "\eb9f";
+}
+.catppuccin-macchiato-pinned:before {
+    content: "\eba0";
+}
+.catppuccin-macchiato-github-inverted:before {
+    content: "\eba1";
+}
+.catppuccin-macchiato-server-process:before {
+    content: "\eba2";
+}
+.catppuccin-macchiato-server-environment:before {
+    content: "\eba3";
+}
+.catppuccin-macchiato-pass:before {
+    content: "\eba4";
+}
+.catppuccin-macchiato-issue-closed:before {
+    content: "\eba4";
+}
+.catppuccin-macchiato-stop-circle:before {
+    content: "\eba5";
+}
+.catppuccin-macchiato-play-circle:before {
+    content: "\eba6";
+}
+.catppuccin-macchiato-record:before {
+    content: "\eba7";
+}
+.catppuccin-macchiato-debug-alt-small:before {
+    content: "\eba8";
+}
+.catppuccin-macchiato-vm-connect:before {
+    content: "\eba9";
+}
+.catppuccin-macchiato-cloud:before {
+    content: "\ebaa";
+}
+.catppuccin-macchiato-merge:before {
+    content: "\ebab";
+}
+.catppuccin-macchiato-export:before {
+    content: "\ebac";
+}
+.catppuccin-macchiato-graph-left:before {
+    content: "\ebad";
+}
+.catppuccin-macchiato-magnet:before {
+    content: "\ebae";
+}
+.catppuccin-macchiato-notebook:before {
+    content: "\ebaf";
+}
+.catppuccin-macchiato-redo:before {
+    content: "\ebb0";
+}
+.catppuccin-macchiato-check-all:before {
+    content: "\ebb1";
+}
+.catppuccin-macchiato-pinned-dirty:before {
+    content: "\ebb2";
+}
+.catppuccin-macchiato-pass-filled:before {
+    content: "\ebb3";
+}
+.catppuccin-macchiato-circle-large-filled:before {
+    content: "\ebb4";
+}
+.catppuccin-macchiato-circle-large:before {
+    content: "\ebb5";
+}
+.catppuccin-macchiato-circle-large-outline:before {
+    content: "\ebb5";
+}
+.catppuccin-macchiato-combine:before {
+    content: "\ebb6";
+}
+.catppuccin-macchiato-gather:before {
+    content: "\ebb6";
+}
+.catppuccin-macchiato-table:before {
+    content: "\ebb7";
+}
+.catppuccin-macchiato-variable-group:before {
+    content: "\ebb8";
+}
+.catppuccin-macchiato-type-hierarchy:before {
+    content: "\ebb9";
+}
+.catppuccin-macchiato-type-hierarchy-sub:before {
+    content: "\ebba";
+}
+.catppuccin-macchiato-type-hierarchy-super:before {
+    content: "\ebbb";
+}
+.catppuccin-macchiato-git-pull-request-create:before {
+    content: "\ebbc";
+}
+.catppuccin-macchiato-run-above:before {
+    content: "\ebbd";
+}
+.catppuccin-macchiato-run-below:before {
+    content: "\ebbe";
+}
+.catppuccin-macchiato-notebook-template:before {
+    content: "\ebbf";
+}
+.catppuccin-macchiato-debug-rerun:before {
+    content: "\ebc0";
+}
+.catppuccin-macchiato-workspace-trusted:before {
+    content: "\ebc1";
+}
+.catppuccin-macchiato-workspace-untrusted:before {
+    content: "\ebc2";
+}
+.catppuccin-macchiato-workspace-unknown:before {
+    content: "\ebc3";
+}
+.catppuccin-macchiato-terminal-cmd:before {
+    content: "\ebc4";
+}
+.catppuccin-macchiato-terminal-debian:before {
+    content: "\ebc5";
+}
+.catppuccin-macchiato-terminal-linux:before {
+    content: "\ebc6";
+}
+.catppuccin-macchiato-terminal-powershell:before {
+    content: "\ebc7";
+}
+.catppuccin-macchiato-terminal-tmux:before {
+    content: "\ebc8";
+}
+.catppuccin-macchiato-terminal-ubuntu:before {
+    content: "\ebc9";
+}
+.catppuccin-macchiato-terminal-bash:before {
+    content: "\ebca";
+}
+.catppuccin-macchiato-arrow-swap:before {
+    content: "\ebcb";
+}
+.catppuccin-macchiato-copy:before {
+    content: "\ebcc";
+}
+.catppuccin-macchiato-person-add:before {
+    content: "\ebcd";
+}
+.catppuccin-macchiato-filter-filled:before {
+    content: "\ebce";
+}
+.catppuccin-macchiato-wand:before {
+    content: "\ebcf";
+}
+.catppuccin-macchiato-debug-line-by-line:before {
+    content: "\ebd0";
+}
+.catppuccin-macchiato-inspect:before {
+    content: "\ebd1";
+}
+.catppuccin-macchiato-layers:before {
+    content: "\ebd2";
+}
+.catppuccin-macchiato-layers-dot:before {
+    content: "\ebd3";
+}
+.catppuccin-macchiato-layers-active:before {
+    content: "\ebd4";
+}
+.catppuccin-macchiato-compass:before {
+    content: "\ebd5";
+}
+.catppuccin-macchiato-compass-dot:before {
+    content: "\ebd6";
+}
+.catppuccin-macchiato-compass-active:before {
+    content: "\ebd7";
+}
+.catppuccin-macchiato-azure:before {
+    content: "\ebd8";
+}
+.catppuccin-macchiato-issue-draft:before {
+    content: "\ebd9";
+}
+.catppuccin-macchiato-git-pull-request-closed:before {
+    content: "\ebda";
+}
+.catppuccin-macchiato-git-pull-request-draft:before {
+    content: "\ebdb";
+}
+.catppuccin-macchiato-debug-all:before {
+    content: "\ebdc";
+}
+.catppuccin-macchiato-debug-coverage:before {
+    content: "\ebdd";
+}
+.catppuccin-macchiato-run-errors:before {
+    content: "\ebde";
+}
+.catppuccin-macchiato-folder-library:before {
+    content: "\ebdf";
+}
+.catppuccin-macchiato-debug-continue-small:before {
+    content: "\ebe0";
+}
+.catppuccin-macchiato-beaker-stop:before {
+    content: "\ebe1";
+}
+.catppuccin-macchiato-graph-line:before {
+    content: "\ebe2";
+}
+.catppuccin-macchiato-graph-scatter:before {
+    content: "\ebe3";
+}
+.catppuccin-macchiato-pie-chart:before {
+    content: "\ebe4";
+}
+.catppuccin-macchiato-bracket:before {
+    content: "\eb0f";
+}
+.catppuccin-macchiato-bracket-dot:before {
+    content: "\ebe5";
+}
+.catppuccin-macchiato-bracket-error:before {
+    content: "\ebe6";
+}
+.catppuccin-macchiato-lock-small:before {
+    content: "\ebe7";
+}
+.catppuccin-macchiato-azure-devops:before {
+    content: "\ebe8";
+}
+.catppuccin-macchiato-verified-filled:before {
+    content: "\ebe9";
+}
+.catppuccin-macchiato-newline:before {
+    content: "\ebea";
+}
+.catppuccin-macchiato-layout:before {
+    content: "\ebeb";
+}
+.catppuccin-macchiato-layout-activitybar-left:before {
+    content: "\ebec";
+}
+.catppuccin-macchiato-layout-activitybar-right:before {
+    content: "\ebed";
+}
+.catppuccin-macchiato-layout-panel-left:before {
+    content: "\ebee";
+}
+.catppuccin-macchiato-layout-panel-center:before {
+    content: "\ebef";
+}
+.catppuccin-macchiato-layout-panel-justify:before {
+    content: "\ebf0";
+}
+.catppuccin-macchiato-layout-panel-right:before {
+    content: "\ebf1";
+}
+.catppuccin-macchiato-layout-panel:before {
+    content: "\ebf2";
+}
+.catppuccin-macchiato-layout-sidebar-left:before {
+    content: "\ebf3";
+}
+.catppuccin-macchiato-layout-sidebar-right:before {
+    content: "\ebf4";
+}
+.catppuccin-macchiato-layout-statusbar:before {
+    content: "\ebf5";
+}
+.catppuccin-macchiato-layout-menubar:before {
+    content: "\ebf6";
+}
+.catppuccin-macchiato-layout-centered:before {
+    content: "\ebf7";
+}
+.catppuccin-macchiato-target:before {
+    content: "\ebf8";
+}
+.catppuccin-macchiato-indent:before {
+    content: "\ebf9";
+}
+.catppuccin-macchiato-record-small:before {
+    content: "\ebfa";
+}
+.catppuccin-macchiato-error-small:before {
+    content: "\ebfb";
+}
+.catppuccin-macchiato-terminal-decoration-error:before {
+    content: "\ebfb";
+}
+.catppuccin-macchiato-arrow-circle-down:before {
+    content: "\ebfc";
+}
+.catppuccin-macchiato-arrow-circle-left:before {
+    content: "\ebfd";
+}
+.catppuccin-macchiato-arrow-circle-right:before {
+    content: "\ebfe";
+}
+.catppuccin-macchiato-arrow-circle-up:before {
+    content: "\ebff";
+}
+.catppuccin-macchiato-layout-sidebar-right-off:before {
+    content: "\ec00";
+}
+.catppuccin-macchiato-layout-panel-off:before {
+    content: "\ec01";
+}
+.catppuccin-macchiato-layout-sidebar-left-off:before {
+    content: "\ec02";
+}
+.catppuccin-macchiato-blank:before {
+    content: "\ec03";
+}
+.catppuccin-macchiato-heart-filled:before {
+    content: "\ec04";
+}
+.catppuccin-macchiato-map:before {
+    content: "\ec05";
+}
+.catppuccin-macchiato-map-horizontal:before {
+    content: "\ec05";
+}
+.catppuccin-macchiato-fold-horizontal:before {
+    content: "\ec05";
+}
+.catppuccin-macchiato-map-filled:before {
+    content: "\ec06";
+}
+.catppuccin-macchiato-map-horizontal-filled:before {
+    content: "\ec06";
+}
+.catppuccin-macchiato-fold-horizontal-filled:before {
+    content: "\ec06";
+}
+.catppuccin-macchiato-circle-small:before {
+    content: "\ec07";
+}
+.catppuccin-macchiato-bell-slash:before {
+    content: "\ec08";
+}
+.catppuccin-macchiato-bell-slash-dot:before {
+    content: "\ec09";
+}
+.catppuccin-macchiato-comment-unresolved:before {
+    content: "\ec0a";
+}
+.catppuccin-macchiato-git-pull-request-go-to-changes:before {
+    content: "\ec0b";
+}
+.catppuccin-macchiato-git-pull-request-new-changes:before {
+    content: "\ec0c";
+}
+.catppuccin-macchiato-search-fuzzy:before {
+    content: "\ec0d";
+}
+.catppuccin-macchiato-comment-draft:before {
+    content: "\ec0e";
+}
+.catppuccin-macchiato-send:before {
+    content: "\ec0f";
+}
+.catppuccin-macchiato-sparkle:before {
+    content: "\ec10";
+}
+.catppuccin-macchiato-insert:before {
+    content: "\ec11";
+}
+.catppuccin-macchiato-mic:before {
+    content: "\ec12";
+}
+.catppuccin-macchiato-thumbsdown-filled:before {
+    content: "\ec13";
+}
+.catppuccin-macchiato-thumbsup-filled:before {
+    content: "\ec14";
+}
+.catppuccin-macchiato-coffee:before {
+    content: "\ec15";
+}
+.catppuccin-macchiato-snake:before {
+    content: "\ec16";
+}
+.catppuccin-macchiato-game:before {
+    content: "\ec17";
+}
+.catppuccin-macchiato-vr:before {
+    content: "\ec18";
+}
+.catppuccin-macchiato-chip:before {
+    content: "\ec19";
+}
+.catppuccin-macchiato-piano:before {
+    content: "\ec1a";
+}
+.catppuccin-macchiato-music:before {
+    content: "\ec1b";
+}
+.catppuccin-macchiato-mic-filled:before {
+    content: "\ec1c";
+}
+.catppuccin-macchiato-repo-fetch:before {
+    content: "\ec1d";
+}
+.catppuccin-macchiato-copilot:before {
+    content: "\ec1e";
+}
+.catppuccin-macchiato-lightbulb-sparkle:before {
+    content: "\ec1f";
+}
+.catppuccin-macchiato-robot:before {
+    content: "\ec20";
+}
+.catppuccin-macchiato-sparkle-filled:before {
+    content: "\ec21";
+}
+.catppuccin-macchiato-diff-single:before {
+    content: "\ec22";
+}
+.catppuccin-macchiato-diff-multiple:before {
+    content: "\ec23";
+}
+.catppuccin-macchiato-surround-with:before {
+    content: "\ec24";
+}
+.catppuccin-macchiato-share:before {
+    content: "\ec25";
+}
+.catppuccin-macchiato-git-stash:before {
+    content: "\ec26";
+}
+.catppuccin-macchiato-git-stash-apply:before {
+    content: "\ec27";
+}
+.catppuccin-macchiato-git-stash-pop:before {
+    content: "\ec28";
+}
+.catppuccin-macchiato-vscode:before {
+    content: "\ec29";
+}
+.catppuccin-macchiato-vscode-insiders:before {
+    content: "\ec2a";
+}
+.catppuccin-macchiato-code-oss:before {
+    content: "\ec2b";
+}
+.catppuccin-macchiato-run-coverage:before {
+    content: "\ec2c";
+}
+.catppuccin-macchiato-run-all-coverage:before {
+    content: "\ec2d";
+}
+.catppuccin-macchiato-coverage:before {
+    content: "\ec2e";
+}
+.catppuccin-macchiato-github-project:before {
+    content: "\ec2f";
+}
+.catppuccin-macchiato-map-vertical:before {
+    content: "\ec30";
+}
+.catppuccin-macchiato-fold-vertical:before {
+    content: "\ec30";
+}
+.catppuccin-macchiato-map-vertical-filled:before {
+    content: "\ec31";
+}
+.catppuccin-macchiato-fold-vertical-filled:before {
+    content: "\ec31";
+}
+.catppuccin-macchiato-go-to-search:before {
+    content: "\ec32";
+}
+.catppuccin-macchiato-percentage:before {
+    content: "\ec33";
+}
+.catppuccin-macchiato-sort-percentage:before {
+    content: "\ec33";
+}
+.catppuccin-macchiato-attach:before {
+    content: "\ec34";
+}
+.catppuccin-macchiato-go-to-editing-session:before {
+    content: "\ec35";
+}
+.catppuccin-macchiato-edit-session:before {
+    content: "\ec36";
+}
+.catppuccin-macchiato-code-review:before {
+    content: "\ec37";
+}
+.catppuccin-macchiato-copilot-warning:before {
+    content: "\ec38";
+}
+.catppuccin-macchiato-python:before {
+    content: "\ec39";
+}
+.catppuccin-macchiato-copilot-large:before {
+    content: "\ec3a";
+}
+.catppuccin-macchiato-copilot-warning-large:before {
+    content: "\ec3b";
+}
+.catppuccin-macchiato-keyboard-tab:before {
+    content: "\ec3c";
+}
+.catppuccin-macchiato-copilot-blocked:before {
+    content: "\ec3d";
+}
+.catppuccin-macchiato-copilot-not-connected:before {
+    content: "\ec3e";
+}
+.catppuccin-macchiato-flag:before {
+    content: "\ec3f";
+}
+.catppuccin-macchiato-lightbulb-empty:before {
+    content: "\ec40";
+}
+.catppuccin-macchiato-symbol-method-arrow:before {
+    content: "\ec41";
+}
+.catppuccin-macchiato-pug:before {
+    content: "\f101";
+}
+.catppuccin-macchiato-javascript-map:before {
+    content: "\f102";
+}
+.catppuccin-macchiato-javascript-config:before {
+    content: "\f103";
+}
+.catppuccin-macchiato-tailwind:before {
+    content: "\f104";
+}
+.catppuccin-macchiato-huff:before {
+    content: "\f105";
+}
+.catppuccin-macchiato-c:before {
+    content: "\f106";
+}
+.catppuccin-macchiato-razor:before {
+    content: "\f107";
+}
+.catppuccin-macchiato-nix:before {
+    content: "\f108";
+}
+.catppuccin-macchiato-scala:before {
+    content: "\f109";
+}
+.catppuccin-macchiato-histoire:before {
+    content: "\f10a";
+}
+.catppuccin-macchiato-folder_src:before {
+    content: "\f10b";
+}
+.catppuccin-macchiato-storybook-svelte:before {
+    content: "\f10c";
+}
+.catppuccin-macchiato-adobe-ai:before {
+    content: "\f10d";
+}
+.catppuccin-macchiato-yarn:before {
+    content: "\f10e";
+}
+.catppuccin-macchiato-folder_direnv:before {
+    content: "\f10f";
+}
+.catppuccin-macchiato-ocaml:before {
+    content: "\f110";
+}
+.catppuccin-macchiato-storybook-vue:before {
+    content: "\f111";
+}
+.catppuccin-macchiato-folder_cypress:before {
+    content: "\f112";
+}
+.catppuccin-macchiato-npm-lock:before {
+    content: "\f113";
+}
+.catppuccin-macchiato-image:before {
+    content: "\f114";
+}
+.catppuccin-macchiato-ember:before {
+    content: "\f115";
+}
+.catppuccin-macchiato-unocss:before {
+    content: "\f116";
+}
+.catppuccin-macchiato-gradle:before {
+    content: "\f117";
+}
+.catppuccin-macchiato-vue-config:before {
+    content: "\f118";
+}
+.catppuccin-macchiato-esbuild:before {
+    content: "\f119";
+}
+.catppuccin-macchiato-uv:before {
+    content: "\f11a";
+}
+.catppuccin-macchiato-d:before {
+    content: "\f11b";
+}
+.catppuccin-macchiato-terraform:before {
+    content: "\f11c";
+}
+.catppuccin-macchiato-bash:before {
+    content: "\f11d";
+}
+.catppuccin-macchiato-folder_azure-pipelines:before {
+    content: "\f11e";
+}
+.catppuccin-macchiato-ms-excel:before {
+    content: "\f11f";
+}
+.catppuccin-macchiato-pixi-lock:before {
+    content: "\f120";
+}
+.catppuccin-macchiato-haxe:before {
+    content: "\f121";
+}
+.catppuccin-macchiato-folder_nix_open:before {
+    content: "\f122";
+}
+.catppuccin-macchiato-cabal:before {
+    content: "\f123";
+}
+.catppuccin-macchiato-folder_content:before {
+    content: "\f124";
+}
+.catppuccin-macchiato-folder_nuxt:before {
+    content: "\f125";
+}
+.catppuccin-macchiato-devcontainer:before {
+    content: "\f126";
+}
+.catppuccin-macchiato-ejs:before {
+    content: "\f127";
+}
+.catppuccin-macchiato-folder_yarn:before {
+    content: "\f128";
+}
+.catppuccin-macchiato-eleventy:before {
+    content: "\f129";
+}
+.catppuccin-macchiato-folder_aws:before {
+    content: "\f12a";
+}
+.catppuccin-macchiato-cargo-lock:before {
+    content: "\f12b";
+}
+.catppuccin-macchiato-java-exception:before {
+    content: "\f12c";
+}
+.catppuccin-macchiato-env:before {
+    content: "\f12d";
+}
+.catppuccin-macchiato-batch:before {
+    content: "\f12e";
+}
+.catppuccin-macchiato-ruby-gem-lock:before {
+    content: "\f12f";
+}
+.catppuccin-macchiato-binary:before {
+    content: "\f130";
+}
+.catppuccin-macchiato-_folder_open:before {
+    content: "\f131";
+}
+.catppuccin-macchiato-elm:before {
+    content: "\f132";
+}
+.catppuccin-macchiato-nix-lock:before {
+    content: "\f133";
+}
+.catppuccin-macchiato-folder_fastlane_open:before {
+    content: "\f134";
+}
+.catppuccin-macchiato-csharp:before {
+    content: "\f135";
+}
+.catppuccin-macchiato-dart:before {
+    content: "\f136";
+}
+.catppuccin-macchiato-folder_assets:before {
+    content: "\f137";
+}
+.catppuccin-macchiato-folder_animation_open:before {
+    content: "\f138";
+}
+.catppuccin-macchiato-_file:before {
+    content: "\f139";
+}
+.catppuccin-macchiato-folder_sass:before {
+    content: "\f13a";
+}
+.catppuccin-macchiato-xmake:before {
+    content: "\f13b";
+}
+.catppuccin-macchiato-phtml:before {
+    content: "\f13c";
+}
+.catppuccin-macchiato-folder_src_open:before {
+    content: "\f13d";
+}
+.catppuccin-macchiato-folder_dist:before {
+    content: "\f13e";
+}
+.catppuccin-macchiato-folder_docker_open:before {
+    content: "\f13f";
+}
+.catppuccin-macchiato-nim:before {
+    content: "\f140";
+}
+.catppuccin-macchiato-log:before {
+    content: "\f141";
+}
+.catppuccin-macchiato-svelte:before {
+    content: "\f142";
+}
+.catppuccin-macchiato-flutter:before {
+    content: "\f143";
+}
+.catppuccin-macchiato-amber:before {
+    content: "\f144";
+}
+.catppuccin-macchiato-adobe-xd:before {
+    content: "\f145";
+}
+.catppuccin-macchiato-folder_routes:before {
+    content: "\f146";
+}
+.catppuccin-macchiato-folder_mocks_open:before {
+    content: "\f147";
+}
+.catppuccin-macchiato-nativescript:before {
+    content: "\f148";
+}
+.catppuccin-macchiato-folder_android:before {
+    content: "\f149";
+}
+.catppuccin-macchiato-vercel-ignore:before {
+    content: "\f14a";
+}
+.catppuccin-macchiato-dub:before {
+    content: "\f14b";
+}
+.catppuccin-macchiato-commitlint:before {
+    content: "\f14c";
+}
+.catppuccin-macchiato-markdown-mdx:before {
+    content: "\f14d";
+}
+.catppuccin-macchiato-prettier:before {
+    content: "\f14e";
+}
+.catppuccin-macchiato-folder_functions:before {
+    content: "\f14f";
+}
+.catppuccin-macchiato-solid:before {
+    content: "\f150";
+}
+.catppuccin-macchiato-liquid:before {
+    content: "\f151";
+}
+.catppuccin-macchiato-lib:before {
+    content: "\f152";
+}
+.catppuccin-macchiato-typescript-def:before {
+    content: "\f153";
+}
+.catppuccin-macchiato-prolog:before {
+    content: "\f154";
+}
+.catppuccin-macchiato-folder_mocks:before {
+    content: "\f155";
+}
+.catppuccin-macchiato-sonar-cloud:before {
+    content: "\f156";
+}
+.catppuccin-macchiato-gulp:before {
+    content: "\f157";
+}
+.catppuccin-macchiato-api-blueprint:before {
+    content: "\f158";
+}
+.catppuccin-macchiato-snowpack:before {
+    content: "\f159";
+}
+.catppuccin-macchiato-typescript:before {
+    content: "\f15a";
+}
+.catppuccin-macchiato-pnpm:before {
+    content: "\f15b";
+}
+.catppuccin-macchiato-javascript:before {
+    content: "\f15c";
+}
+.catppuccin-macchiato-cuda:before {
+    content: "\f15d";
+}
+.catppuccin-macchiato-kotlin:before {
+    content: "\f15e";
+}
+.catppuccin-macchiato-folder_cargo:before {
+    content: "\f15f";
+}
+.catppuccin-macchiato-folder_api:before {
+    content: "\f160";
+}
+.catppuccin-macchiato-folder_hooks_open:before {
+    content: "\f161";
+}
+.catppuccin-macchiato-folder_azure-devops:before {
+    content: "\f162";
+}
+.catppuccin-macchiato-folder_storybook:before {
+    content: "\f163";
+}
+.catppuccin-macchiato-midi:before {
+    content: "\f164";
+}
+.catppuccin-macchiato-rojo:before {
+    content: "\f165";
+}
+.catppuccin-macchiato-racket:before {
+    content: "\f166";
+}
+.catppuccin-macchiato-tauri:before {
+    content: "\f167";
+}
+.catppuccin-macchiato-folder_nuxt_open:before {
+    content: "\f168";
+}
+.catppuccin-macchiato-windi:before {
+    content: "\f169";
+}
+.catppuccin-macchiato-marko:before {
+    content: "\f16a";
+}
+.catppuccin-macchiato-lerna:before {
+    content: "\f16b";
+}
+.catppuccin-macchiato-folder_layouts:before {
+    content: "\f16c";
+}
+.catppuccin-macchiato-graphql:before {
+    content: "\f16d";
+}
+.catppuccin-macchiato-angular-component:before {
+    content: "\f16e";
+}
+.catppuccin-macchiato-angular-directive:before {
+    content: "\f16f";
+}
+.catppuccin-macchiato-folder_gradle:before {
+    content: "\f170";
+}
+.catppuccin-macchiato-reason:before {
+    content: "\f171";
+}
+.catppuccin-macchiato-folder_functions_open:before {
+    content: "\f172";
+}
+.catppuccin-macchiato-folder_vercel:before {
+    content: "\f173";
+}
+.catppuccin-macchiato-gleam-config:before {
+    content: "\f174";
+}
+.catppuccin-macchiato-folder_gitlab_open:before {
+    content: "\f175";
+}
+.catppuccin-macchiato-cpp:before {
+    content: "\f176";
+}
+.catppuccin-macchiato-folder_plugins:before {
+    content: "\f177";
+}
+.catppuccin-macchiato-folder_github:before {
+    content: "\f178";
+}
+.catppuccin-macchiato-super-collider:before {
+    content: "\f179";
+}
+.catppuccin-macchiato-java-class-abstract:before {
+    content: "\f17a";
+}
+.catppuccin-macchiato-jest:before {
+    content: "\f17b";
+}
+.catppuccin-macchiato-html:before {
+    content: "\f17c";
+}
+.catppuccin-macchiato-gleam:before {
+    content: "\f17d";
+}
+.catppuccin-macchiato-folder_storybook_open:before {
+    content: "\f17e";
+}
+.catppuccin-macchiato-folder_intellij:before {
+    content: "\f17f";
+}
+.catppuccin-macchiato-folder_composables:before {
+    content: "\f180";
+}
+.catppuccin-macchiato-semantic-release:before {
+    content: "\f181";
+}
+.catppuccin-macchiato-julia:before {
+    content: "\f182";
+}
+.catppuccin-macchiato-url:before {
+    content: "\f183";
+}
+.catppuccin-macchiato-docker:before {
+    content: "\f184";
+}
+.catppuccin-macchiato-folder_next:before {
+    content: "\f185";
+}
+.catppuccin-macchiato-angular-service:before {
+    content: "\f186";
+}
+.catppuccin-macchiato-bun:before {
+    content: "\f187";
+}
+.catppuccin-macchiato-stata:before {
+    content: "\f188";
+}
+.catppuccin-macchiato-sublime:before {
+    content: "\f189";
+}
+.catppuccin-macchiato-folder_server_open:before {
+    content: "\f18a";
+}
+.catppuccin-macchiato-folder_caddy_open:before {
+    content: "\f18b";
+}
+.catppuccin-macchiato-folder_packages:before {
+    content: "\f18c";
+}
+.catppuccin-macchiato-gitpod:before {
+    content: "\f18d";
+}
+.catppuccin-macchiato-folder_forgejo_open:before {
+    content: "\f18e";
+}
+.catppuccin-macchiato-folder_composables_open:before {
+    content: "\f18f";
+}
+.catppuccin-macchiato-folder_upload:before {
+    content: "\f190";
+}
+.catppuccin-macchiato-certificate:before {
+    content: "\f191";
+}
+.catppuccin-macchiato-nest-middleware:before {
+    content: "\f192";
+}
+.catppuccin-macchiato-postcss:before {
+    content: "\f193";
+}
+.catppuccin-macchiato-folder_utils:before {
+    content: "\f194";
+}
+.catppuccin-macchiato-text:before {
+    content: "\f195";
+}
+.catppuccin-macchiato-folder_client_open:before {
+    content: "\f196";
+}
+.catppuccin-macchiato-android:before {
+    content: "\f197";
+}
+.catppuccin-macchiato-folder_admin:before {
+    content: "\f198";
+}
+.catppuccin-macchiato-nunjucks:before {
+    content: "\f199";
+}
+.catppuccin-macchiato-javascript-react:before {
+    content: "\f19a";
+}
+.catppuccin-macchiato-favicon:before {
+    content: "\f19b";
+}
+.catppuccin-macchiato-haml:before {
+    content: "\f19c";
+}
+.catppuccin-macchiato-just:before {
+    content: "\f19d";
+}
+.catppuccin-macchiato-symlink:before {
+    content: "\f19e";
+}
+.catppuccin-macchiato-folder_devcontainer:before {
+    content: "\f19f";
+}
+.catppuccin-macchiato-python-compiled:before {
+    content: "\f1a0";
+}
+.catppuccin-macchiato-folder_node:before {
+    content: "\f1a1";
+}
+.catppuccin-macchiato-godot-assets:before {
+    content: "\f1a2";
+}
+.catppuccin-macchiato-folder_views_open:before {
+    content: "\f1a3";
+}
+.catppuccin-macchiato-benchmark:before {
+    content: "\f1a4";
+}
+.catppuccin-macchiato-csv:before {
+    content: "\f1a5";
+}
+.catppuccin-macchiato-exe:before {
+    content: "\f1a6";
+}
+.catppuccin-macchiato-video:before {
+    content: "\f1a7";
+}
+.catppuccin-macchiato-netlify:before {
+    content: "\f1a8";
+}
+.catppuccin-macchiato-npm:before {
+    content: "\f1a9";
+}
+.catppuccin-macchiato-vim:before {
+    content: "\f1aa";
+}
+.catppuccin-macchiato-rescript:before {
+    content: "\f1ab";
+}
+.catppuccin-macchiato-luau:before {
+    content: "\f1ac";
+}
+.catppuccin-macchiato-folder_debug:before {
+    content: "\f1ad";
+}
+.catppuccin-macchiato-nest-filter:before {
+    content: "\f1ae";
+}
+.catppuccin-macchiato-hardhat:before {
+    content: "\f1af";
+}
+.catppuccin-macchiato-folder_docs_open:before {
+    content: "\f1b0";
+}
+.catppuccin-macchiato-caddy:before {
+    content: "\f1b1";
+}
+.catppuccin-macchiato-folder_fastlane:before {
+    content: "\f1b2";
+}
+.catppuccin-macchiato-folder_connection:before {
+    content: "\f1b3";
+}
+.catppuccin-macchiato-adonis:before {
+    content: "\f1b4";
+}
+.catppuccin-macchiato-properties:before {
+    content: "\f1b5";
+}
+.catppuccin-macchiato-angular-pipe:before {
+    content: "\f1b6";
+}
+.catppuccin-macchiato-folder_assets_open:before {
+    content: "\f1b7";
+}
+.catppuccin-macchiato-folder_docs:before {
+    content: "\f1b8";
+}
+.catppuccin-macchiato-folder_redux:before {
+    content: "\f1b9";
+}
+.catppuccin-macchiato-_root_open:before {
+    content: "\f1ba";
+}
+.catppuccin-macchiato-folder_database_open:before {
+    content: "\f1bb";
+}
+.catppuccin-macchiato-sketch:before {
+    content: "\f1bc";
+}
+.catppuccin-macchiato-css3:before {
+    content: "\f1bd";
+}
+.catppuccin-macchiato-folder_gitlab:before {
+    content: "\f1be";
+}
+.catppuccin-macchiato-juce:before {
+    content: "\f1bf";
+}
+.catppuccin-macchiato-folder_svg:before {
+    content: "\f1c0";
+}
+.catppuccin-macchiato-folder_types_open:before {
+    content: "\f1c1";
+}
+.catppuccin-macchiato-folder_layouts_open:before {
+    content: "\f1c2";
+}
+.catppuccin-macchiato-folder_tests_open:before {
+    content: "\f1c3";
+}
+.catppuccin-macchiato-folder_svg_open:before {
+    content: "\f1c4";
+}
+.catppuccin-macchiato-folder_benchmark_open:before {
+    content: "\f1c5";
+}
+.catppuccin-macchiato-xml:before {
+    content: "\f1c6";
+}
+.catppuccin-macchiato-release:before {
+    content: "\f1c7";
+}
+.catppuccin-macchiato-hugo:before {
+    content: "\f1c8";
+}
+.catppuccin-macchiato-mjml:before {
+    content: "\f1c9";
+}
+.catppuccin-macchiato-folder_tauri_open:before {
+    content: "\f1ca";
+}
+.catppuccin-macchiato-yaml:before {
+    content: "\f1cb";
+}
+.catppuccin-macchiato-folder_docker:before {
+    content: "\f1cc";
+}
+.catppuccin-macchiato-folder_middleware:before {
+    content: "\f1cd";
+}
+.catppuccin-macchiato-folder_config_open:before {
+    content: "\f1ce";
+}
+.catppuccin-macchiato-folder_locales:before {
+    content: "\f1cf";
+}
+.catppuccin-macchiato-pdf:before {
+    content: "\f1d0";
+}
+.catppuccin-macchiato-twig:before {
+    content: "\f1d1";
+}
+.catppuccin-macchiato-vital:before {
+    content: "\f1d2";
+}
+.catppuccin-macchiato-dub-selections:before {
+    content: "\f1d3";
+}
+.catppuccin-macchiato-storybook:before {
+    content: "\f1d4";
+}
+.catppuccin-macchiato-pnpm-lock:before {
+    content: "\f1d5";
+}
+.catppuccin-macchiato-plantuml:before {
+    content: "\f1d6";
+}
+.catppuccin-macchiato-prettier-ignore:before {
+    content: "\f1d7";
+}
+.catppuccin-macchiato-folder_node_open:before {
+    content: "\f1d8";
+}
+.catppuccin-macchiato-nginx:before {
+    content: "\f1d9";
+}
+.catppuccin-macchiato-folder_vscode:before {
+    content: "\f1da";
+}
+.catppuccin-macchiato-jinja:before {
+    content: "\f1db";
+}
+.catppuccin-macchiato-yarn-lock:before {
+    content: "\f1dc";
+}
+.catppuccin-macchiato-readme:before {
+    content: "\f1dd";
+}
+.catppuccin-macchiato-roblox:before {
+    content: "\f1de";
+}
+.catppuccin-macchiato-folder_config:before {
+    content: "\f1df";
+}
+.catppuccin-macchiato-dart-generated:before {
+    content: "\f1e0";
+}
+.catppuccin-macchiato-java-class-sealed:before {
+    content: "\f1e1";
+}
+.catppuccin-macchiato-go:before {
+    content: "\f1e2";
+}
+.catppuccin-macchiato-bitbucket:before {
+    content: "\f1e3";
+}
+.catppuccin-macchiato-rust-config:before {
+    content: "\f1e4";
+}
+.catppuccin-macchiato-spwn:before {
+    content: "\f1e5";
+}
+.catppuccin-macchiato-folder_download_open:before {
+    content: "\f1e6";
+}
+.catppuccin-macchiato-folder_themes_open:before {
+    content: "\f1e7";
+}
+.catppuccin-macchiato-pre-commit:before {
+    content: "\f1e8";
+}
+.catppuccin-macchiato-panda-css:before {
+    content: "\f1e9";
+}
+.catppuccin-macchiato-xcode:before {
+    content: "\f1ea";
+}
+.catppuccin-macchiato-folder_android_open:before {
+    content: "\f1eb";
+}
+.catppuccin-macchiato-folder_video:before {
+    content: "\f1ec";
+}
+.catppuccin-macchiato-fsharp:before {
+    content: "\f1ed";
+}
+.catppuccin-macchiato-folder_wxt_open:before {
+    content: "\f1ee";
+}
+.catppuccin-macchiato-cpp-header:before {
+    content: "\f1ef";
+}
+.catppuccin-macchiato-sass:before {
+    content: "\f1f0";
+}
+.catppuccin-macchiato-folder_api_open:before {
+    content: "\f1f1";
+}
+.catppuccin-macchiato-swift:before {
+    content: "\f1f2";
+}
+.catppuccin-macchiato-folder_git_open:before {
+    content: "\f1f3";
+}
+.catppuccin-macchiato-folder_audit_open:before {
+    content: "\f1f4";
+}
+.catppuccin-macchiato-less:before {
+    content: "\f1f5";
+}
+.catppuccin-macchiato-json-schema:before {
+    content: "\f1f6";
+}
+.catppuccin-macchiato-web-assembly:before {
+    content: "\f1f7";
+}
+.catppuccin-macchiato-semgrep:before {
+    content: "\f1f8";
+}
+.catppuccin-macchiato-c-header:before {
+    content: "\f1f9";
+}
+.catppuccin-macchiato-folder_core_open:before {
+    content: "\f1fa";
+}
+.catppuccin-macchiato-haskell:before {
+    content: "\f1fb";
+}
+.catppuccin-macchiato-pixi:before {
+    content: "\f1fc";
+}
+.catppuccin-macchiato-ruff:before {
+    content: "\f1fd";
+}
+.catppuccin-macchiato-folder_audio:before {
+    content: "\f1fe";
+}
+.catppuccin-macchiato-helm:before {
+    content: "\f1ff";
+}
+.catppuccin-macchiato-ansible-lint:before {
+    content: "\f200";
+}
+.catppuccin-macchiato-folder_content_open:before {
+    content: "\f201";
+}
+.catppuccin-macchiato-folder_database:before {
+    content: "\f202";
+}
+.catppuccin-macchiato-vscode-ignore:before {
+    content: "\f203";
+}
+.catppuccin-macchiato-matlab:before {
+    content: "\f204";
+}
+.catppuccin-macchiato-folder_public:before {
+    content: "\f205";
+}
+.catppuccin-macchiato-godot:before {
+    content: "\f206";
+}
+.catppuccin-macchiato-nextflow:before {
+    content: "\f207";
+}
+.catppuccin-macchiato-folder_vercel_open:before {
+    content: "\f208";
+}
+.catppuccin-macchiato-folder_audio_open:before {
+    content: "\f209";
+}
+.catppuccin-macchiato-folder_cloud:before {
+    content: "\f20a";
+}
+.catppuccin-macchiato-folder_client:before {
+    content: "\f20b";
+}
+.catppuccin-macchiato-makefile:before {
+    content: "\f20c";
+}
+.catppuccin-macchiato-gitlab:before {
+    content: "\f20d";
+}
+.catppuccin-macchiato-folder_temp_open:before {
+    content: "\f20e";
+}
+.catppuccin-macchiato-folder_drizzle-orm_open:before {
+    content: "\f20f";
+}
+.catppuccin-macchiato-azure-pipelines:before {
+    content: "\f210";
+}
+.catppuccin-macchiato-contributing:before {
+    content: "\f211";
+}
+.catppuccin-macchiato-phrase:before {
+    content: "\f212";
+}
+.catppuccin-macchiato-folder_themes:before {
+    content: "\f213";
+}
+.catppuccin-macchiato-folder_renovate:before {
+    content: "\f214";
+}
+.catppuccin-macchiato-proto:before {
+    content: "\f215";
+}
+.catppuccin-macchiato-cypress:before {
+    content: "\f216";
+}
+.catppuccin-macchiato-premake:before {
+    content: "\f217";
+}
+.catppuccin-macchiato-jupyter:before {
+    content: "\f218";
+}
+.catppuccin-macchiato-code-of-conduct:before {
+    content: "\f219";
+}
+.catppuccin-macchiato-folder_wxt:before {
+    content: "\f21a";
+}
+.catppuccin-macchiato-folder_circle-ci:before {
+    content: "\f21b";
+}
+.catppuccin-macchiato-audio:before {
+    content: "\f21c";
+}
+.catppuccin-macchiato-nest-decorator:before {
+    content: "\f21d";
+}
+.catppuccin-macchiato-changelog:before {
+    content: "\f21e";
+}
+.catppuccin-macchiato-turbo:before {
+    content: "\f21f";
+}
+.catppuccin-macchiato-stackblitz:before {
+    content: "\f220";
+}
+.catppuccin-macchiato-java-enum:before {
+    content: "\f221";
+}
+.catppuccin-macchiato-vue:before {
+    content: "\f222";
+}
+.catppuccin-macchiato-lisp:before {
+    content: "\f223";
+}
+.catppuccin-macchiato-nuxt-ignore:before {
+    content: "\f224";
+}
+.catppuccin-macchiato-biome:before {
+    content: "\f225";
+}
+.catppuccin-macchiato-folder_vscode_open:before {
+    content: "\f226";
+}
+.catppuccin-macchiato-folder_admin_open:before {
+    content: "\f227";
+}
+.catppuccin-macchiato-folder_xcode_open:before {
+    content: "\f228";
+}
+.catppuccin-macchiato-docker-ignore:before {
+    content: "\f229";
+}
+.catppuccin-macchiato-folder_turbo:before {
+    content: "\f22a";
+}
+.catppuccin-macchiato-zig:before {
+    content: "\f22b";
+}
+.catppuccin-macchiato-folder_tauri:before {
+    content: "\f22c";
+}
+.catppuccin-macchiato-capacitor:before {
+    content: "\f22d";
+}
+.catppuccin-macchiato-drizzle-orm:before {
+    content: "\f22e";
+}
+.catppuccin-macchiato-folder_forgejo:before {
+    content: "\f22f";
+}
+.catppuccin-macchiato-redwood:before {
+    content: "\f230";
+}
+.catppuccin-macchiato-folder_tests:before {
+    content: "\f231";
+}
+.catppuccin-macchiato-folder_fonts_open:before {
+    content: "\f232";
+}
+.catppuccin-macchiato-browserslist:before {
+    content: "\f233";
+}
+.catppuccin-macchiato-folder_cypress_open:before {
+    content: "\f234";
+}
+.catppuccin-macchiato-fortran:before {
+    content: "\f235";
+}
+.catppuccin-macchiato-folder_kubernetes_open:before {
+    content: "\f236";
+}
+.catppuccin-macchiato-folder_queue_open:before {
+    content: "\f237";
+}
+.catppuccin-macchiato-modernizr:before {
+    content: "\f238";
+}
+.catppuccin-macchiato-folder_drizzle-orm:before {
+    content: "\f239";
+}
+.catppuccin-macchiato-folder_app:before {
+    content: "\f23a";
+}
+.catppuccin-macchiato-nest-controller:before {
+    content: "\f23b";
+}
+.catppuccin-macchiato-semgrep-ignore:before {
+    content: "\f23c";
+}
+.catppuccin-macchiato-elixir:before {
+    content: "\f23d";
+}
+.catppuccin-macchiato-stylelint:before {
+    content: "\f23e";
+}
+.catppuccin-macchiato-blitz:before {
+    content: "\f23f";
+}
+.catppuccin-macchiato-folder_azure-pipelines_open:before {
+    content: "\f240";
+}
+.catppuccin-macchiato-folder_plugins_open:before {
+    content: "\f241";
+}
+.catppuccin-macchiato-folder_sass_open:before {
+    content: "\f242";
+}
+.catppuccin-macchiato-folder_dist_open:before {
+    content: "\f243";
+}
+.catppuccin-macchiato-humans:before {
+    content: "\f244";
+}
+.catppuccin-macchiato-folder_prisma:before {
+    content: "\f245";
+}
+.catppuccin-macchiato-folder_cloud_open:before {
+    content: "\f246";
+}
+.catppuccin-macchiato-go-template:before {
+    content: "\f247";
+}
+.catppuccin-macchiato-folder_direnv_open:before {
+    content: "\f248";
+}
+.catppuccin-macchiato-deno_lock:before {
+    content: "\f249";
+}
+.catppuccin-macchiato-poetry-lock:before {
+    content: "\f24a";
+}
+.catppuccin-macchiato-folder_views:before {
+    content: "\f24b";
+}
+.catppuccin-macchiato-astro:before {
+    content: "\f24c";
+}
+.catppuccin-macchiato-latte:before {
+    content: "\f24d";
+}
+.catppuccin-macchiato-django:before {
+    content: "\f24e";
+}
+.catppuccin-macchiato-folder_audit:before {
+    content: "\f24f";
+}
+.catppuccin-macchiato-stencil:before {
+    content: "\f250";
+}
+.catppuccin-macchiato-asciidoc:before {
+    content: "\f251";
+}
+.catppuccin-macchiato-css:before {
+    content: "\f252";
+}
+.catppuccin-macchiato-folder_turbo_open:before {
+    content: "\f253";
+}
+.catppuccin-macchiato-folder_controllers:before {
+    content: "\f254";
+}
+.catppuccin-macchiato-xaml:before {
+    content: "\f255";
+}
+.catppuccin-macchiato-vento:before {
+    content: "\f256";
+}
+.catppuccin-macchiato-docker-compose:before {
+    content: "\f257";
+}
+.catppuccin-macchiato-folder_images_open:before {
+    content: "\f258";
+}
+.catppuccin-macchiato-folder_scripts_open:before {
+    content: "\f259";
+}
+.catppuccin-macchiato-cmake:before {
+    content: "\f25a";
+}
+.catppuccin-macchiato-todo:before {
+    content: "\f25b";
+}
+.catppuccin-macchiato-folder_components:before {
+    content: "\f25c";
+}
+.catppuccin-macchiato-php:before {
+    content: "\f25d";
+}
+.catppuccin-macchiato-java-jar:before {
+    content: "\f25e";
+}
+.catppuccin-macchiato-folder_coverage_open:before {
+    content: "\f25f";
+}
+.catppuccin-macchiato-java-interface:before {
+    content: "\f260";
+}
+.catppuccin-macchiato-nuget:before {
+    content: "\f261";
+}
+.catppuccin-macchiato-folder_prisma_open:before {
+    content: "\f262";
+}
+.catppuccin-macchiato-erlang:before {
+    content: "\f263";
+}
+.catppuccin-macchiato-robots:before {
+    content: "\f264";
+}
+.catppuccin-macchiato-vs-codium:before {
+    content: "\f265";
+}
+.catppuccin-macchiato-folder_yarn_open:before {
+    content: "\f266";
+}
+.catppuccin-macchiato-folder_scripts:before {
+    content: "\f267";
+}
+.catppuccin-macchiato-folder_kubernetes:before {
+    content: "\f268";
+}
+.catppuccin-macchiato-folder_workflows_open:before {
+    content: "\f269";
+}
+.catppuccin-macchiato-folder_caddy:before {
+    content: "\f26a";
+}
+.catppuccin-macchiato-cucumber:before {
+    content: "\f26b";
+}
+.catppuccin-macchiato-next:before {
+    content: "\f26c";
+}
+.catppuccin-macchiato-folder_xcode:before {
+    content: "\f26d";
+}
+.catppuccin-macchiato-renovate:before {
+    content: "\f26e";
+}
+.catppuccin-macchiato-folder_routes_open:before {
+    content: "\f26f";
+}
+.catppuccin-macchiato-r:before {
+    content: "\f270";
+}
+.catppuccin-macchiato-vitest:before {
+    content: "\f271";
+}
+.catppuccin-macchiato-folder_next_open:before {
+    content: "\f272";
+}
+.catppuccin-macchiato-java-class-final:before {
+    content: "\f273";
+}
+.catppuccin-macchiato-folder_app_open:before {
+    content: "\f274";
+}
+.catppuccin-macchiato-_folder:before {
+    content: "\f275";
+}
+.catppuccin-macchiato-envrc:before {
+    content: "\f276";
+}
+.catppuccin-macchiato-cobol:before {
+    content: "\f277";
+}
+.catppuccin-macchiato-ruby-gem:before {
+    content: "\f278";
+}
+.catppuccin-macchiato-security:before {
+    content: "\f279";
+}
+.catppuccin-macchiato-mermaid:before {
+    content: "\f27a";
+}
+.catppuccin-macchiato-folder_circle-ci_open:before {
+    content: "\f27b";
+}
+.catppuccin-macchiato-cargo:before {
+    content: "\f27c";
+}
+.catppuccin-macchiato-folder_components_open:before {
+    content: "\f27d";
+}
+.catppuccin-macchiato-license:before {
+    content: "\f27e";
+}
+.catppuccin-macchiato-babel:before {
+    content: "\f27f";
+}
+.catppuccin-macchiato-folder_husky:before {
+    content: "\f280";
+}
+.catppuccin-macchiato-fvm:before {
+    content: "\f281";
+}
+.catppuccin-macchiato-folder_download:before {
+    content: "\f282";
+}
+.catppuccin-macchiato-adobe-ps:before {
+    content: "\f283";
+}
+.catppuccin-macchiato-css-map:before {
+    content: "\f284";
+}
+.catppuccin-macchiato-clojure:before {
+    content: "\f285";
+}
+.catppuccin-macchiato-folder_examples_open:before {
+    content: "\f286";
+}
+.catppuccin-macchiato-ionic:before {
+    content: "\f287";
+}
+.catppuccin-macchiato-apple:before {
+    content: "\f288";
+}
+.catppuccin-macchiato-java:before {
+    content: "\f289";
+}
+.catppuccin-macchiato-folder_command_open:before {
+    content: "\f28a";
+}
+.catppuccin-macchiato-taskfile:before {
+    content: "\f28b";
+}
+.catppuccin-macchiato-editorconfig:before {
+    content: "\f28c";
+}
+.catppuccin-macchiato-bower:before {
+    content: "\f28d";
+}
+.catppuccin-macchiato-meson:before {
+    content: "\f28e";
+}
+.catppuccin-macchiato-folder_workflows:before {
+    content: "\f28f";
+}
+.catppuccin-macchiato-nest-pipe:before {
+    content: "\f290";
+}
+.catppuccin-macchiato-circle-ci:before {
+    content: "\f291";
+}
+.catppuccin-macchiato-folder_firebase:before {
+    content: "\f292";
+}
+.catppuccin-macchiato-visual-studio:before {
+    content: "\f293";
+}
+.catppuccin-macchiato-serverless:before {
+    content: "\f294";
+}
+.catppuccin-macchiato-cspell:before {
+    content: "\f295";
+}
+.catppuccin-macchiato-laravel:before {
+    content: "\f296";
+}
+.catppuccin-macchiato-forgejo:before {
+    content: "\f297";
+}
+.catppuccin-macchiato-folder_templates:before {
+    content: "\f298";
+}
+.catppuccin-macchiato-folder_pre-commit_open:before {
+    content: "\f299";
+}
+.catppuccin-macchiato-wxt:before {
+    content: "\f29a";
+}
+.catppuccin-macchiato-nuxt:before {
+    content: "\f29b";
+}
+.catppuccin-macchiato-gatsby:before {
+    content: "\f29c";
+}
+.catppuccin-macchiato-folder_templates_open:before {
+    content: "\f29d";
+}
+.catppuccin-macchiato-stitches:before {
+    content: "\f29e";
+}
+.catppuccin-macchiato-antlr:before {
+    content: "\f29f";
+}
+.catppuccin-macchiato-folder_utils_open:before {
+    content: "\f2a0";
+}
+.catppuccin-macchiato-alex:before {
+    content: "\f2a1";
+}
+.catppuccin-macchiato-folder_husky_open:before {
+    content: "\f2a2";
+}
+.catppuccin-macchiato-eslint-ignore:before {
+    content: "\f2a3";
+}
+.catppuccin-macchiato-folder_coverage:before {
+    content: "\f2a4";
+}
+.catppuccin-macchiato-folder_constant_open:before {
+    content: "\f2a5";
+}
+.catppuccin-macchiato-drawio:before {
+    content: "\f2a6";
+}
+.catppuccin-macchiato-nest-guard:before {
+    content: "\f2a7";
+}
+.catppuccin-macchiato-apollo:before {
+    content: "\f2a8";
+}
+.catppuccin-macchiato-lint-staged:before {
+    content: "\f2a9";
+}
+.catppuccin-macchiato-folder_git:before {
+    content: "\f2aa";
+}
+.catppuccin-macchiato-folder_images:before {
+    content: "\f2ab";
+}
+.catppuccin-macchiato-folder_fonts:before {
+    content: "\f2ac";
+}
+.catppuccin-macchiato-rollup:before {
+    content: "\f2ad";
+}
+.catppuccin-macchiato-coffeescript:before {
+    content: "\f2ae";
+}
+.catppuccin-macchiato-http:before {
+    content: "\f2af";
+}
+.catppuccin-macchiato-deno:before {
+    content: "\f2b0";
+}
+.catppuccin-macchiato-angular-guard:before {
+    content: "\f2b1";
+}
+.catppuccin-macchiato-kdl:before {
+    content: "\f2b2";
+}
+.catppuccin-macchiato-nest-service:before {
+    content: "\f2b3";
+}
+.catppuccin-macchiato-handlebars:before {
+    content: "\f2b4";
+}
+.catppuccin-macchiato-plop:before {
+    content: "\f2b5";
+}
+.catppuccin-macchiato-remix:before {
+    content: "\f2b6";
+}
+.catppuccin-macchiato-folder_temp:before {
+    content: "\f2b7";
+}
+.catppuccin-macchiato-ninja:before {
+    content: "\f2b8";
+}
+.catppuccin-macchiato-ms-powerpoint:before {
+    content: "\f2b9";
+}
+.catppuccin-macchiato-playwright:before {
+    content: "\f2ba";
+}
+.catppuccin-macchiato-folder_core:before {
+    content: "\f2bb";
+}
+.catppuccin-macchiato-fastlane:before {
+    content: "\f2bc";
+}
+.catppuccin-macchiato-vercel:before {
+    content: "\f2bd";
+}
+.catppuccin-macchiato-typescript-test:before {
+    content: "\f2be";
+}
+.catppuccin-macchiato-folder_hooks:before {
+    content: "\f2bf";
+}
+.catppuccin-macchiato-folder_devcontainer_open:before {
+    content: "\f2c0";
+}
+.catppuccin-macchiato-shader:before {
+    content: "\f2c1";
+}
+.catppuccin-macchiato-stylelint-ignore:before {
+    content: "\f2c2";
+}
+.catppuccin-macchiato-folder_types:before {
+    content: "\f2c3";
+}
+.catppuccin-macchiato-org:before {
+    content: "\f2c4";
+}
+.catppuccin-macchiato-folder_queue:before {
+    content: "\f2c5";
+}
+.catppuccin-macchiato-folder_public_open:before {
+    content: "\f2c6";
+}
+.catppuccin-macchiato-latex:before {
+    content: "\f2c7";
+}
+.catppuccin-macchiato-svg:before {
+    content: "\f2c8";
+}
+.catppuccin-macchiato-vite:before {
+    content: "\f2c9";
+}
+.catppuccin-macchiato-folder_intellij_open:before {
+    content: "\f2ca";
+}
+.catppuccin-macchiato-git-cliff:before {
+    content: "\f2cb";
+}
+.catppuccin-macchiato-font:before {
+    content: "\f2cc";
+}
+.catppuccin-macchiato-folder_firebase_open:before {
+    content: "\f2cd";
+}
+.catppuccin-macchiato-groovy:before {
+    content: "\f2ce";
+}
+.catppuccin-macchiato-python-config:before {
+    content: "\f2cf";
+}
+.catppuccin-macchiato-folder_upload_open:before {
+    content: "\f2d0";
+}
+.catppuccin-macchiato-folder_nix:before {
+    content: "\f2d1";
+}
+.catppuccin-macchiato-code-climate:before {
+    content: "\f2d2";
+}
+.catppuccin-macchiato-firebase:before {
+    content: "\f2d3";
+}
+.catppuccin-macchiato-folder_github_open:before {
+    content: "\f2d4";
+}
+.catppuccin-macchiato-svelte-config:before {
+    content: "\f2d5";
+}
+.catppuccin-macchiato-folder_video_open:before {
+    content: "\f2d6";
+}
+.catppuccin-macchiato-workflow:before {
+    content: "\f2d7";
+}
+.catppuccin-macchiato-astro-config:before {
+    content: "\f2d8";
+}
+.catppuccin-macchiato-folder_fvm_open:before {
+    content: "\f2d9";
+}
+.catppuccin-macchiato-ms-word:before {
+    content: "\f2da";
+}
+.catppuccin-macchiato-typescript-config:before {
+    content: "\f2db";
+}
+.catppuccin-macchiato-git:before {
+    content: "\f2dc";
+}
+.catppuccin-macchiato-husky:before {
+    content: "\f2dd";
+}
+.catppuccin-macchiato-angular:before {
+    content: "\f2de";
+}
+.catppuccin-macchiato-folder_connection_open:before {
+    content: "\f2df";
+}
+.catppuccin-macchiato-salesforce:before {
+    content: "\f2e0";
+}
+.catppuccin-macchiato-folder_gradle_open:before {
+    content: "\f2e1";
+}
+.catppuccin-macchiato-bazel:before {
+    content: "\f2e2";
+}
+.catppuccin-macchiato-folder_styles_open:before {
+    content: "\f2e3";
+}
+.catppuccin-macchiato-gcp:before {
+    content: "\f2e4";
+}
+.catppuccin-macchiato-nest:before {
+    content: "\f2e5";
+}
+.catppuccin-macchiato-_root:before {
+    content: "\f2e6";
+}
+.catppuccin-macchiato-sentry:before {
+    content: "\f2e7";
+}
+.catppuccin-macchiato-puppeteer:before {
+    content: "\f2e8";
+}
+.catppuccin-macchiato-folder_packages_open:before {
+    content: "\f2e9";
+}
+.catppuccin-macchiato-folder_redux_open:before {
+    content: "\f2ea";
+}
+.catppuccin-macchiato-eslint:before {
+    content: "\f2eb";
+}
+.catppuccin-macchiato-folder_constant:before {
+    content: "\f2ec";
+}
+.catppuccin-macchiato-verilog:before {
+    content: "\f2ed";
+}
+.catppuccin-macchiato-java-annotation:before {
+    content: "\f2ee";
+}
+.catppuccin-macchiato-apache:before {
+    content: "\f2ef";
+}
+.catppuccin-macchiato-folder_examples:before {
+    content: "\f2f0";
+}
+.catppuccin-macchiato-unity:before {
+    content: "\f2f1";
+}
+.catppuccin-macchiato-folder_controllers_open:before {
+    content: "\f2f2";
+}
+.catppuccin-macchiato-perl:before {
+    content: "\f2f3";
+}
+.catppuccin-macchiato-folder_fvm:before {
+    content: "\f2f4";
+}
+.catppuccin-macchiato-package-json:before {
+    content: "\f2f5";
+}
+.catppuccin-macchiato-folder_aws_open:before {
+    content: "\f2f6";
+}
+.catppuccin-macchiato-heroku:before {
+    content: "\f2f7";
+}
+.catppuccin-macchiato-assembly:before {
+    content: "\f2f8";
+}
+.catppuccin-macchiato-folder_cargo_open:before {
+    content: "\f2f9";
+}
+.catppuccin-macchiato-typst:before {
+    content: "\f2fa";
+}
+.catppuccin-macchiato-autohotkey:before {
+    content: "\f2fb";
+}
+.catppuccin-macchiato-java-record:before {
+    content: "\f2fc";
+}
+.catppuccin-macchiato-prisma:before {
+    content: "\f2fd";
+}
+.catppuccin-macchiato-v:before {
+    content: "\f2fe";
+}
+.catppuccin-macchiato-typescript-react:before {
+    content: "\f2ff";
+}
+.catppuccin-macchiato-folder_locales_open:before {
+    content: "\f300";
+}
+.catppuccin-macchiato-rust:before {
+    content: "\f301";
+}
+.catppuccin-macchiato-adobe-ae:before {
+    content: "\f302";
+}
+.catppuccin-macchiato-folder_debug_open:before {
+    content: "\f303";
+}
+.catppuccin-macchiato-twine:before {
+    content: "\f304";
+}
+.catppuccin-macchiato-lua:before {
+    content: "\f305";
+}
+.catppuccin-macchiato-dependabot:before {
+    content: "\f306";
+}
+.catppuccin-macchiato-vanilla-extract:before {
+    content: "\f307";
+}
+.catppuccin-macchiato-toml:before {
+    content: "\f308";
+}
+.catppuccin-macchiato-folder_styles:before {
+    content: "\f309";
+}
+.catppuccin-macchiato-solidity:before {
+    content: "\f30a";
+}
+.catppuccin-macchiato-powershell:before {
+    content: "\f30b";
+}
+.catppuccin-macchiato-vhs:before {
+    content: "\f30c";
+}
+.catppuccin-macchiato-nodemon:before {
+    content: "\f30d";
+}
+.catppuccin-macchiato-folder_azure-devops_open:before {
+    content: "\f30e";
+}
+.catppuccin-macchiato-java-class:before {
+    content: "\f30f";
+}
+.catppuccin-macchiato-zip:before {
+    content: "\f310";
+}
+.catppuccin-macchiato-folder_command:before {
+    content: "\f311";
+}
+.catppuccin-macchiato-folder_security_open:before {
+    content: "\f312";
+}
+.catppuccin-macchiato-dhall:before {
+    content: "\f313";
+}
+.catppuccin-macchiato-folder_middleware_open:before {
+    content: "\f314";
+}
+.catppuccin-macchiato-adobe-id:before {
+    content: "\f315";
+}
+.catppuccin-macchiato-folder_renovate_open:before {
+    content: "\f316";
+}
+.catppuccin-macchiato-tauri-ignore:before {
+    content: "\f317";
+}
+.catppuccin-macchiato-folder_animation:before {
+    content: "\f318";
+}
+.catppuccin-macchiato-codeowners:before {
+    content: "\f319";
+}
+.catppuccin-macchiato-folder_benchmark:before {
+    content: "\f31a";
+}
+.catppuccin-macchiato-javascript-test:before {
+    content: "\f31b";
+}
+.catppuccin-macchiato-bun-lock:before {
+    content: "\f31c";
+}
+.catppuccin-macchiato-folder_pre-commit:before {
+    content: "\f31d";
+}
+.catppuccin-macchiato-figma:before {
+    content: "\f31e";
+}
+.catppuccin-macchiato-mdbook:before {
+    content: "\f31f";
+}
+.catppuccin-macchiato-folder_server:before {
+    content: "\f320";
+}
+.catppuccin-macchiato-webpack:before {
+    content: "\f321";
+}
+.catppuccin-macchiato-folder_security:before {
+    content: "\f322";
+}
+.catppuccin-macchiato-npm-ignore:before {
+    content: "\f323";
+}
+.catppuccin-macchiato-go-mod:before {
+    content: "\f324";
+}
