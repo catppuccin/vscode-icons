@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-  <a href="https://github.com/MuntasirSZN/code-icons/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/vscode-icons?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-  <a href="https://github.com/MuntasirSZN/code-icons/issues"><img src="https://img.shields.io/github/issues/catppuccin/vscode-icons?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-  <a href="https://github.com/MuntasirSZN/code-icons/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/vscode-icons?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+  <a href="https://github.com/MuntasirSZN/code-icons/stargazers"><img src="https://img.shields.io/github/stars/MuntasirSZN/code-icons?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+  <a href="https://github.com/MuntasirSZN/code-icons/issues"><img src="https://img.shields.io/github/issues/MuntasirSZN/code-icons?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+  <a href="https://github.com/MuntasirSZN/code-icons/contributors"><img src="https://img.shields.io/github/contributors/MuntasirSZN/code-icons?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -52,7 +52,7 @@
 
 ## Requesting icons and features
 
-To request a new icon or a specific feature, [open an issue](https://github.com/catppuccin/vscode-icons/issues/new/choose) documenting everything needed — the more information provided, the faster your request will be processed.
+To request a new icon or a specific feature, [open an issue](https://github.com/MuntasirSZN.code-icons/issues/new/choose) documenting everything needed — the more information provided, the faster your request will be processed.
 
 ## Contributing
 
