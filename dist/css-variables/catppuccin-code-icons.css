@@ -1,1692 +1,1693 @@
 @font-face {
-    font-family: "catppuccin-code-icons";
-    src: url("./catppuccin-code-icons.ttf?37d93f19c101d639bfe82d42e54f446b") format("truetype"),
-url("./catppuccin-code-icons.woff?37d93f19c101d639bfe82d42e54f446b") format("woff"),
-url("./catppuccin-code-icons.woff2?37d93f19c101d639bfe82d42e54f446b") format("woff2");
+  font-display: block;
+  font-family: "catppuccin-code-icons";
+  src: url("./catppuccin-code-icons.ttf?95aa05b26fb4745c645e41c5f91d79bc") format("truetype"),
+url("./catppuccin-code-icons.woff?95aa05b26fb4745c645e41c5f91d79bc") format("woff"),
+url("./catppuccin-code-icons.woff2?95aa05b26fb4745c645e41c5f91d79bc") format("woff2");
 }
 
-i[class^="catppuccin-css-variables-"]:before, i[class*=" catppuccin-css-variables-"]:before {
-    font-family: catppuccin-code-icons !important;
-    font-style: normal;
-    font-weight: normal !important;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+i[class^="catppuccin-css-variables-"]::before, i[class*=" catppuccin-css-variables-"]::before {
+  font-family: catppuccin-code-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.catppuccin-css-variables-_file:before {
-    content: "\1388";
+.catppuccin-css-variables-_file::before {
+  content: "\1388";
 }
-.catppuccin-css-variables-_folder_open:before {
-    content: "\1389";
+.catppuccin-css-variables-_folder_open::before {
+  content: "\1389";
 }
-.catppuccin-css-variables-_folder:before {
-    content: "\138a";
+.catppuccin-css-variables-_folder::before {
+  content: "\138a";
 }
-.catppuccin-css-variables-_root_open:before {
-    content: "\138b";
+.catppuccin-css-variables-_root_open::before {
+  content: "\138b";
 }
-.catppuccin-css-variables-_root:before {
-    content: "\138c";
+.catppuccin-css-variables-_root::before {
+  content: "\138c";
 }
-.catppuccin-css-variables-adobe-ae:before {
-    content: "\138d";
+.catppuccin-css-variables-adobe-ae::before {
+  content: "\138d";
 }
-.catppuccin-css-variables-adobe-ai:before {
-    content: "\138e";
+.catppuccin-css-variables-adobe-ai::before {
+  content: "\138e";
 }
-.catppuccin-css-variables-adobe-id:before {
-    content: "\138f";
+.catppuccin-css-variables-adobe-id::before {
+  content: "\138f";
 }
-.catppuccin-css-variables-adobe-ps:before {
-    content: "\1390";
+.catppuccin-css-variables-adobe-ps::before {
+  content: "\1390";
 }
-.catppuccin-css-variables-adobe-xd:before {
-    content: "\1391";
+.catppuccin-css-variables-adobe-xd::before {
+  content: "\1391";
 }
-.catppuccin-css-variables-adonis:before {
-    content: "\1392";
+.catppuccin-css-variables-adonis::before {
+  content: "\1392";
 }
-.catppuccin-css-variables-alex:before {
-    content: "\1393";
+.catppuccin-css-variables-alex::before {
+  content: "\1393";
 }
-.catppuccin-css-variables-amber:before {
-    content: "\1394";
+.catppuccin-css-variables-amber::before {
+  content: "\1394";
 }
-.catppuccin-css-variables-android:before {
-    content: "\1395";
+.catppuccin-css-variables-android::before {
+  content: "\1395";
 }
-.catppuccin-css-variables-angular-component:before {
-    content: "\1396";
+.catppuccin-css-variables-angular-component::before {
+  content: "\1396";
 }
-.catppuccin-css-variables-angular-directive:before {
-    content: "\1397";
+.catppuccin-css-variables-angular-directive::before {
+  content: "\1397";
 }
-.catppuccin-css-variables-angular-guard:before {
-    content: "\1398";
+.catppuccin-css-variables-angular-guard::before {
+  content: "\1398";
 }
-.catppuccin-css-variables-angular-pipe:before {
-    content: "\1399";
+.catppuccin-css-variables-angular-pipe::before {
+  content: "\1399";
 }
-.catppuccin-css-variables-angular-service:before {
-    content: "\139a";
+.catppuccin-css-variables-angular-service::before {
+  content: "\139a";
 }
-.catppuccin-css-variables-angular:before {
-    content: "\139b";
+.catppuccin-css-variables-angular::before {
+  content: "\139b";
 }
-.catppuccin-css-variables-ansible-lint:before {
-    content: "\139c";
+.catppuccin-css-variables-ansible-lint::before {
+  content: "\139c";
 }
-.catppuccin-css-variables-antlr:before {
-    content: "\139d";
+.catppuccin-css-variables-antlr::before {
+  content: "\139d";
 }
-.catppuccin-css-variables-apache:before {
-    content: "\139e";
+.catppuccin-css-variables-apache::before {
+  content: "\139e";
 }
-.catppuccin-css-variables-api-blueprint:before {
-    content: "\139f";
+.catppuccin-css-variables-api-blueprint::before {
+  content: "\139f";
 }
-.catppuccin-css-variables-apollo:before {
-    content: "\13a0";
+.catppuccin-css-variables-apollo::before {
+  content: "\13a0";
 }
-.catppuccin-css-variables-apple:before {
-    content: "\13a1";
+.catppuccin-css-variables-apple::before {
+  content: "\13a1";
 }
-.catppuccin-css-variables-asciidoc:before {
-    content: "\13a2";
+.catppuccin-css-variables-asciidoc::before {
+  content: "\13a2";
 }
-.catppuccin-css-variables-assembly:before {
-    content: "\13a3";
+.catppuccin-css-variables-assembly::before {
+  content: "\13a3";
 }
-.catppuccin-css-variables-astro-config:before {
-    content: "\13a4";
+.catppuccin-css-variables-astro-config::before {
+  content: "\13a4";
 }
-.catppuccin-css-variables-astro:before {
-    content: "\13a5";
+.catppuccin-css-variables-astro::before {
+  content: "\13a5";
 }
-.catppuccin-css-variables-audio:before {
-    content: "\13a6";
+.catppuccin-css-variables-audio::before {
+  content: "\13a6";
 }
-.catppuccin-css-variables-autohotkey:before {
-    content: "\13a7";
+.catppuccin-css-variables-autohotkey::before {
+  content: "\13a7";
 }
-.catppuccin-css-variables-azure-pipelines:before {
-    content: "\13a8";
+.catppuccin-css-variables-azure-pipelines::before {
+  content: "\13a8";
 }
-.catppuccin-css-variables-babel:before {
-    content: "\13a9";
+.catppuccin-css-variables-babel::before {
+  content: "\13a9";
 }
-.catppuccin-css-variables-bash:before {
-    content: "\13aa";
+.catppuccin-css-variables-bash::before {
+  content: "\13aa";
 }
-.catppuccin-css-variables-batch:before {
-    content: "\13ab";
+.catppuccin-css-variables-batch::before {
+  content: "\13ab";
 }
-.catppuccin-css-variables-bazel:before {
-    content: "\13ac";
+.catppuccin-css-variables-bazel::before {
+  content: "\13ac";
 }
-.catppuccin-css-variables-benchmark:before {
-    content: "\13ad";
+.catppuccin-css-variables-benchmark::before {
+  content: "\13ad";
 }
-.catppuccin-css-variables-binary:before {
-    content: "\13ae";
+.catppuccin-css-variables-binary::before {
+  content: "\13ae";
 }
-.catppuccin-css-variables-biome:before {
-    content: "\13af";
+.catppuccin-css-variables-biome::before {
+  content: "\13af";
 }
-.catppuccin-css-variables-bitbucket:before {
-    content: "\13b0";
+.catppuccin-css-variables-bitbucket::before {
+  content: "\13b0";
 }
-.catppuccin-css-variables-blitz:before {
-    content: "\13b1";
+.catppuccin-css-variables-blitz::before {
+  content: "\13b1";
 }
-.catppuccin-css-variables-bower:before {
-    content: "\13b2";
+.catppuccin-css-variables-bower::before {
+  content: "\13b2";
 }
-.catppuccin-css-variables-browserslist:before {
-    content: "\13b3";
+.catppuccin-css-variables-browserslist::before {
+  content: "\13b3";
 }
-.catppuccin-css-variables-bun-lock:before {
-    content: "\13b4";
+.catppuccin-css-variables-bun-lock::before {
+  content: "\13b4";
 }
-.catppuccin-css-variables-bun:before {
-    content: "\13b5";
+.catppuccin-css-variables-bun::before {
+  content: "\13b5";
 }
-.catppuccin-css-variables-c-header:before {
-    content: "\13b6";
+.catppuccin-css-variables-c-header::before {
+  content: "\13b6";
 }
-.catppuccin-css-variables-c:before {
-    content: "\13b7";
+.catppuccin-css-variables-c::before {
+  content: "\13b7";
 }
-.catppuccin-css-variables-cabal:before {
-    content: "\13b8";
+.catppuccin-css-variables-cabal::before {
+  content: "\13b8";
 }
-.catppuccin-css-variables-caddy:before {
-    content: "\13b9";
+.catppuccin-css-variables-caddy::before {
+  content: "\13b9";
 }
-.catppuccin-css-variables-capacitor:before {
-    content: "\13ba";
+.catppuccin-css-variables-capacitor::before {
+  content: "\13ba";
 }
-.catppuccin-css-variables-cargo-lock:before {
-    content: "\13bb";
+.catppuccin-css-variables-cargo-lock::before {
+  content: "\13bb";
 }
-.catppuccin-css-variables-cargo:before {
-    content: "\13bc";
+.catppuccin-css-variables-cargo::before {
+  content: "\13bc";
 }
-.catppuccin-css-variables-certificate:before {
-    content: "\13bd";
+.catppuccin-css-variables-certificate::before {
+  content: "\13bd";
 }
-.catppuccin-css-variables-changelog:before {
-    content: "\13be";
+.catppuccin-css-variables-changelog::before {
+  content: "\13be";
 }
-.catppuccin-css-variables-circle-ci:before {
-    content: "\13bf";
+.catppuccin-css-variables-circle-ci::before {
+  content: "\13bf";
 }
-.catppuccin-css-variables-clojure:before {
-    content: "\13c0";
+.catppuccin-css-variables-clojure::before {
+  content: "\13c0";
 }
-.catppuccin-css-variables-cmake:before {
-    content: "\13c1";
+.catppuccin-css-variables-cmake::before {
+  content: "\13c1";
 }
-.catppuccin-css-variables-cobol:before {
-    content: "\13c2";
+.catppuccin-css-variables-cobol::before {
+  content: "\13c2";
 }
-.catppuccin-css-variables-code-climate:before {
-    content: "\13c3";
+.catppuccin-css-variables-code-climate::before {
+  content: "\13c3";
 }
-.catppuccin-css-variables-code-of-conduct:before {
-    content: "\13c4";
+.catppuccin-css-variables-code-of-conduct::before {
+  content: "\13c4";
 }
-.catppuccin-css-variables-codeowners:before {
-    content: "\13c5";
+.catppuccin-css-variables-codeowners::before {
+  content: "\13c5";
 }
-.catppuccin-css-variables-coffeescript:before {
-    content: "\13c6";
+.catppuccin-css-variables-coffeescript::before {
+  content: "\13c6";
 }
-.catppuccin-css-variables-commitlint:before {
-    content: "\13c7";
+.catppuccin-css-variables-commitlint::before {
+  content: "\13c7";
 }
-.catppuccin-css-variables-contributing:before {
-    content: "\13c8";
+.catppuccin-css-variables-contributing::before {
+  content: "\13c8";
 }
-.catppuccin-css-variables-cpp-header:before {
-    content: "\13c9";
+.catppuccin-css-variables-cpp-header::before {
+  content: "\13c9";
 }
-.catppuccin-css-variables-cpp:before {
-    content: "\13ca";
+.catppuccin-css-variables-cpp::before {
+  content: "\13ca";
 }
-.catppuccin-css-variables-csharp:before {
-    content: "\13cb";
+.catppuccin-css-variables-csharp::before {
+  content: "\13cb";
 }
-.catppuccin-css-variables-cspell:before {
-    content: "\13cc";
+.catppuccin-css-variables-cspell::before {
+  content: "\13cc";
 }
-.catppuccin-css-variables-css-map:before {
-    content: "\13cd";
+.catppuccin-css-variables-css-map::before {
+  content: "\13cd";
 }
-.catppuccin-css-variables-css:before {
-    content: "\13ce";
+.catppuccin-css-variables-css::before {
+  content: "\13ce";
 }
-.catppuccin-css-variables-css3:before {
-    content: "\13cf";
+.catppuccin-css-variables-css3::before {
+  content: "\13cf";
 }
-.catppuccin-css-variables-csv:before {
-    content: "\13d0";
+.catppuccin-css-variables-csv::before {
+  content: "\13d0";
 }
-.catppuccin-css-variables-cucumber:before {
-    content: "\13d1";
+.catppuccin-css-variables-cucumber::before {
+  content: "\13d1";
 }
-.catppuccin-css-variables-cuda:before {
-    content: "\13d2";
+.catppuccin-css-variables-cuda::before {
+  content: "\13d2";
 }
-.catppuccin-css-variables-cypress:before {
-    content: "\13d3";
+.catppuccin-css-variables-cypress::before {
+  content: "\13d3";
 }
-.catppuccin-css-variables-d:before {
-    content: "\13d4";
+.catppuccin-css-variables-d::before {
+  content: "\13d4";
 }
-.catppuccin-css-variables-dart-generated:before {
-    content: "\13d5";
+.catppuccin-css-variables-dart-generated::before {
+  content: "\13d5";
 }
-.catppuccin-css-variables-dart:before {
-    content: "\13d6";
+.catppuccin-css-variables-dart::before {
+  content: "\13d6";
 }
-.catppuccin-css-variables-database:before {
-    content: "\13d7";
+.catppuccin-css-variables-database::before {
+  content: "\13d7";
 }
-.catppuccin-css-variables-deno_lock:before {
-    content: "\13d8";
+.catppuccin-css-variables-deno_lock::before {
+  content: "\13d8";
 }
-.catppuccin-css-variables-deno:before {
-    content: "\13d9";
+.catppuccin-css-variables-deno::before {
+  content: "\13d9";
 }
-.catppuccin-css-variables-dependabot:before {
-    content: "\13da";
+.catppuccin-css-variables-dependabot::before {
+  content: "\13da";
 }
-.catppuccin-css-variables-devcontainer:before {
-    content: "\13db";
+.catppuccin-css-variables-devcontainer::before {
+  content: "\13db";
 }
-.catppuccin-css-variables-dhall:before {
-    content: "\13dc";
+.catppuccin-css-variables-dhall::before {
+  content: "\13dc";
 }
-.catppuccin-css-variables-diff:before {
-    content: "\13dd";
+.catppuccin-css-variables-diff::before {
+  content: "\13dd";
 }
-.catppuccin-css-variables-django:before {
-    content: "\13de";
+.catppuccin-css-variables-django::before {
+  content: "\13de";
 }
-.catppuccin-css-variables-docker-compose:before {
-    content: "\13df";
+.catppuccin-css-variables-docker-compose::before {
+  content: "\13df";
 }
-.catppuccin-css-variables-docker-ignore:before {
-    content: "\13e0";
+.catppuccin-css-variables-docker-ignore::before {
+  content: "\13e0";
 }
-.catppuccin-css-variables-docker:before {
-    content: "\13e1";
+.catppuccin-css-variables-docker::before {
+  content: "\13e1";
 }
-.catppuccin-css-variables-drawio:before {
-    content: "\13e2";
+.catppuccin-css-variables-drawio::before {
+  content: "\13e2";
 }
-.catppuccin-css-variables-drizzle-orm:before {
-    content: "\13e3";
+.catppuccin-css-variables-drizzle-orm::before {
+  content: "\13e3";
 }
-.catppuccin-css-variables-dub-selections:before {
-    content: "\13e4";
+.catppuccin-css-variables-dub-selections::before {
+  content: "\13e4";
 }
-.catppuccin-css-variables-dub:before {
-    content: "\13e5";
+.catppuccin-css-variables-dub::before {
+  content: "\13e5";
 }
-.catppuccin-css-variables-editorconfig:before {
-    content: "\13e6";
+.catppuccin-css-variables-editorconfig::before {
+  content: "\13e6";
 }
-.catppuccin-css-variables-ejs:before {
-    content: "\13e7";
+.catppuccin-css-variables-ejs::before {
+  content: "\13e7";
 }
-.catppuccin-css-variables-eleventy:before {
-    content: "\13e8";
+.catppuccin-css-variables-eleventy::before {
+  content: "\13e8";
 }
-.catppuccin-css-variables-elixir:before {
-    content: "\13e9";
+.catppuccin-css-variables-elixir::before {
+  content: "\13e9";
 }
-.catppuccin-css-variables-elm:before {
-    content: "\13ea";
+.catppuccin-css-variables-elm::before {
+  content: "\13ea";
 }
-.catppuccin-css-variables-ember:before {
-    content: "\13eb";
+.catppuccin-css-variables-ember::before {
+  content: "\13eb";
 }
-.catppuccin-css-variables-env:before {
-    content: "\13ec";
+.catppuccin-css-variables-env::before {
+  content: "\13ec";
 }
-.catppuccin-css-variables-envrc:before {
-    content: "\13ed";
+.catppuccin-css-variables-envrc::before {
+  content: "\13ed";
 }
-.catppuccin-css-variables-erlang:before {
-    content: "\13ee";
+.catppuccin-css-variables-erlang::before {
+  content: "\13ee";
 }
-.catppuccin-css-variables-esbuild:before {
-    content: "\13ef";
+.catppuccin-css-variables-esbuild::before {
+  content: "\13ef";
 }
-.catppuccin-css-variables-eslint-ignore:before {
-    content: "\13f0";
+.catppuccin-css-variables-eslint-ignore::before {
+  content: "\13f0";
 }
-.catppuccin-css-variables-eslint:before {
-    content: "\13f1";
+.catppuccin-css-variables-eslint::before {
+  content: "\13f1";
 }
-.catppuccin-css-variables-exe:before {
-    content: "\13f2";
+.catppuccin-css-variables-exe::before {
+  content: "\13f2";
 }
-.catppuccin-css-variables-fastlane:before {
-    content: "\13f3";
+.catppuccin-css-variables-fastlane::before {
+  content: "\13f3";
 }
-.catppuccin-css-variables-favicon:before {
-    content: "\13f4";
+.catppuccin-css-variables-favicon::before {
+  content: "\13f4";
 }
-.catppuccin-css-variables-figma:before {
-    content: "\13f5";
+.catppuccin-css-variables-figma::before {
+  content: "\13f5";
 }
-.catppuccin-css-variables-firebase:before {
-    content: "\13f6";
+.catppuccin-css-variables-firebase::before {
+  content: "\13f6";
 }
-.catppuccin-css-variables-flutter:before {
-    content: "\13f7";
+.catppuccin-css-variables-flutter::before {
+  content: "\13f7";
 }
-.catppuccin-css-variables-folder_admin_open:before {
-    content: "\13f8";
+.catppuccin-css-variables-folder_admin_open::before {
+  content: "\13f8";
 }
-.catppuccin-css-variables-folder_admin:before {
-    content: "\13f9";
+.catppuccin-css-variables-folder_admin::before {
+  content: "\13f9";
 }
-.catppuccin-css-variables-folder_android_open:before {
-    content: "\13fa";
+.catppuccin-css-variables-folder_android_open::before {
+  content: "\13fa";
 }
-.catppuccin-css-variables-folder_android:before {
-    content: "\13fb";
+.catppuccin-css-variables-folder_android::before {
+  content: "\13fb";
 }
-.catppuccin-css-variables-folder_animation_open:before {
-    content: "\13fc";
+.catppuccin-css-variables-folder_animation_open::before {
+  content: "\13fc";
 }
-.catppuccin-css-variables-folder_animation:before {
-    content: "\13fd";
+.catppuccin-css-variables-folder_animation::before {
+  content: "\13fd";
 }
-.catppuccin-css-variables-folder_api_open:before {
-    content: "\13fe";
+.catppuccin-css-variables-folder_api_open::before {
+  content: "\13fe";
 }
-.catppuccin-css-variables-folder_api:before {
-    content: "\13ff";
+.catppuccin-css-variables-folder_api::before {
+  content: "\13ff";
 }
-.catppuccin-css-variables-folder_app_open:before {
-    content: "\1400";
+.catppuccin-css-variables-folder_app_open::before {
+  content: "\1400";
 }
-.catppuccin-css-variables-folder_app:before {
-    content: "\1401";
+.catppuccin-css-variables-folder_app::before {
+  content: "\1401";
 }
-.catppuccin-css-variables-folder_assets_open:before {
-    content: "\1402";
+.catppuccin-css-variables-folder_assets_open::before {
+  content: "\1402";
 }
-.catppuccin-css-variables-folder_assets:before {
-    content: "\1403";
+.catppuccin-css-variables-folder_assets::before {
+  content: "\1403";
 }
-.catppuccin-css-variables-folder_audio_open:before {
-    content: "\1404";
+.catppuccin-css-variables-folder_audio_open::before {
+  content: "\1404";
 }
-.catppuccin-css-variables-folder_audio:before {
-    content: "\1405";
+.catppuccin-css-variables-folder_audio::before {
+  content: "\1405";
 }
-.catppuccin-css-variables-folder_audit_open:before {
-    content: "\1406";
+.catppuccin-css-variables-folder_audit_open::before {
+  content: "\1406";
 }
-.catppuccin-css-variables-folder_audit:before {
-    content: "\1407";
+.catppuccin-css-variables-folder_audit::before {
+  content: "\1407";
 }
-.catppuccin-css-variables-folder_aws_open:before {
-    content: "\1408";
+.catppuccin-css-variables-folder_aws_open::before {
+  content: "\1408";
 }
-.catppuccin-css-variables-folder_aws:before {
-    content: "\1409";
+.catppuccin-css-variables-folder_aws::before {
+  content: "\1409";
 }
-.catppuccin-css-variables-folder_azure-devops_open:before {
-    content: "\140a";
+.catppuccin-css-variables-folder_azure-devops_open::before {
+  content: "\140a";
 }
-.catppuccin-css-variables-folder_azure-devops:before {
-    content: "\140b";
+.catppuccin-css-variables-folder_azure-devops::before {
+  content: "\140b";
 }
-.catppuccin-css-variables-folder_azure-pipelines_open:before {
-    content: "\140c";
+.catppuccin-css-variables-folder_azure-pipelines_open::before {
+  content: "\140c";
 }
-.catppuccin-css-variables-folder_azure-pipelines:before {
-    content: "\140d";
+.catppuccin-css-variables-folder_azure-pipelines::before {
+  content: "\140d";
 }
-.catppuccin-css-variables-folder_benchmark_open:before {
-    content: "\140e";
+.catppuccin-css-variables-folder_benchmark_open::before {
+  content: "\140e";
 }
-.catppuccin-css-variables-folder_benchmark:before {
-    content: "\140f";
+.catppuccin-css-variables-folder_benchmark::before {
+  content: "\140f";
 }
-.catppuccin-css-variables-folder_caddy_open:before {
-    content: "\1410";
+.catppuccin-css-variables-folder_caddy_open::before {
+  content: "\1410";
 }
-.catppuccin-css-variables-folder_caddy:before {
-    content: "\1411";
+.catppuccin-css-variables-folder_caddy::before {
+  content: "\1411";
 }
-.catppuccin-css-variables-folder_cargo_open:before {
-    content: "\1412";
+.catppuccin-css-variables-folder_cargo_open::before {
+  content: "\1412";
 }
-.catppuccin-css-variables-folder_cargo:before {
-    content: "\1413";
+.catppuccin-css-variables-folder_cargo::before {
+  content: "\1413";
 }
-.catppuccin-css-variables-folder_circle-ci_open:before {
-    content: "\1414";
+.catppuccin-css-variables-folder_circle-ci_open::before {
+  content: "\1414";
 }
-.catppuccin-css-variables-folder_circle-ci:before {
-    content: "\1415";
+.catppuccin-css-variables-folder_circle-ci::before {
+  content: "\1415";
 }
-.catppuccin-css-variables-folder_client_open:before {
-    content: "\1416";
+.catppuccin-css-variables-folder_client_open::before {
+  content: "\1416";
 }
-.catppuccin-css-variables-folder_client:before {
-    content: "\1417";
+.catppuccin-css-variables-folder_client::before {
+  content: "\1417";
 }
-.catppuccin-css-variables-folder_cloud_open:before {
-    content: "\1418";
+.catppuccin-css-variables-folder_cloud_open::before {
+  content: "\1418";
 }
-.catppuccin-css-variables-folder_cloud:before {
-    content: "\1419";
+.catppuccin-css-variables-folder_cloud::before {
+  content: "\1419";
 }
-.catppuccin-css-variables-folder_command_open:before {
-    content: "\141a";
+.catppuccin-css-variables-folder_command_open::before {
+  content: "\141a";
 }
-.catppuccin-css-variables-folder_command:before {
-    content: "\141b";
+.catppuccin-css-variables-folder_command::before {
+  content: "\141b";
 }
-.catppuccin-css-variables-folder_components_open:before {
-    content: "\141c";
+.catppuccin-css-variables-folder_components_open::before {
+  content: "\141c";
 }
-.catppuccin-css-variables-folder_components:before {
-    content: "\141d";
+.catppuccin-css-variables-folder_components::before {
+  content: "\141d";
 }
-.catppuccin-css-variables-folder_composables_open:before {
-    content: "\141e";
+.catppuccin-css-variables-folder_composables_open::before {
+  content: "\141e";
 }
-.catppuccin-css-variables-folder_composables:before {
-    content: "\141f";
+.catppuccin-css-variables-folder_composables::before {
+  content: "\141f";
 }
-.catppuccin-css-variables-folder_config_open:before {
-    content: "\1420";
+.catppuccin-css-variables-folder_config_open::before {
+  content: "\1420";
 }
-.catppuccin-css-variables-folder_config:before {
-    content: "\1421";
+.catppuccin-css-variables-folder_config::before {
+  content: "\1421";
 }
-.catppuccin-css-variables-folder_connection_open:before {
-    content: "\1422";
+.catppuccin-css-variables-folder_connection_open::before {
+  content: "\1422";
 }
-.catppuccin-css-variables-folder_connection:before {
-    content: "\1423";
+.catppuccin-css-variables-folder_connection::before {
+  content: "\1423";
 }
-.catppuccin-css-variables-folder_constant_open:before {
-    content: "\1424";
+.catppuccin-css-variables-folder_constant_open::before {
+  content: "\1424";
 }
-.catppuccin-css-variables-folder_constant:before {
-    content: "\1425";
+.catppuccin-css-variables-folder_constant::before {
+  content: "\1425";
 }
-.catppuccin-css-variables-folder_content_open:before {
-    content: "\1426";
+.catppuccin-css-variables-folder_content_open::before {
+  content: "\1426";
 }
-.catppuccin-css-variables-folder_content:before {
-    content: "\1427";
+.catppuccin-css-variables-folder_content::before {
+  content: "\1427";
 }
-.catppuccin-css-variables-folder_controllers_open:before {
-    content: "\1428";
+.catppuccin-css-variables-folder_controllers_open::before {
+  content: "\1428";
 }
-.catppuccin-css-variables-folder_controllers:before {
-    content: "\1429";
+.catppuccin-css-variables-folder_controllers::before {
+  content: "\1429";
 }
-.catppuccin-css-variables-folder_core_open:before {
-    content: "\142a";
+.catppuccin-css-variables-folder_core_open::before {
+  content: "\142a";
 }
-.catppuccin-css-variables-folder_core:before {
-    content: "\142b";
+.catppuccin-css-variables-folder_core::before {
+  content: "\142b";
 }
-.catppuccin-css-variables-folder_coverage_open:before {
-    content: "\142c";
+.catppuccin-css-variables-folder_coverage_open::before {
+  content: "\142c";
 }
-.catppuccin-css-variables-folder_coverage:before {
-    content: "\142d";
+.catppuccin-css-variables-folder_coverage::before {
+  content: "\142d";
 }
-.catppuccin-css-variables-folder_cypress_open:before {
-    content: "\142e";
+.catppuccin-css-variables-folder_cypress_open::before {
+  content: "\142e";
 }
-.catppuccin-css-variables-folder_cypress:before {
-    content: "\142f";
+.catppuccin-css-variables-folder_cypress::before {
+  content: "\142f";
 }
-.catppuccin-css-variables-folder_database_open:before {
-    content: "\1430";
+.catppuccin-css-variables-folder_database_open::before {
+  content: "\1430";
 }
-.catppuccin-css-variables-folder_database:before {
-    content: "\1431";
+.catppuccin-css-variables-folder_database::before {
+  content: "\1431";
 }
-.catppuccin-css-variables-folder_debug_open:before {
-    content: "\1432";
+.catppuccin-css-variables-folder_debug_open::before {
+  content: "\1432";
 }
-.catppuccin-css-variables-folder_debug:before {
-    content: "\1433";
+.catppuccin-css-variables-folder_debug::before {
+  content: "\1433";
 }
-.catppuccin-css-variables-folder_devcontainer_open:before {
-    content: "\1434";
+.catppuccin-css-variables-folder_devcontainer_open::before {
+  content: "\1434";
 }
-.catppuccin-css-variables-folder_devcontainer:before {
-    content: "\1435";
+.catppuccin-css-variables-folder_devcontainer::before {
+  content: "\1435";
 }
-.catppuccin-css-variables-folder_direnv_open:before {
-    content: "\1436";
+.catppuccin-css-variables-folder_direnv_open::before {
+  content: "\1436";
 }
-.catppuccin-css-variables-folder_direnv:before {
-    content: "\1437";
+.catppuccin-css-variables-folder_direnv::before {
+  content: "\1437";
 }
-.catppuccin-css-variables-folder_dist_open:before {
-    content: "\1438";
+.catppuccin-css-variables-folder_dist_open::before {
+  content: "\1438";
 }
-.catppuccin-css-variables-folder_dist:before {
-    content: "\1439";
+.catppuccin-css-variables-folder_dist::before {
+  content: "\1439";
 }
-.catppuccin-css-variables-folder_docker_open:before {
-    content: "\143a";
+.catppuccin-css-variables-folder_docker_open::before {
+  content: "\143a";
 }
-.catppuccin-css-variables-folder_docker:before {
-    content: "\143b";
+.catppuccin-css-variables-folder_docker::before {
+  content: "\143b";
 }
-.catppuccin-css-variables-folder_docs_open:before {
-    content: "\143c";
+.catppuccin-css-variables-folder_docs_open::before {
+  content: "\143c";
 }
-.catppuccin-css-variables-folder_docs:before {
-    content: "\143d";
+.catppuccin-css-variables-folder_docs::before {
+  content: "\143d";
 }
-.catppuccin-css-variables-folder_download_open:before {
-    content: "\143e";
+.catppuccin-css-variables-folder_download_open::before {
+  content: "\143e";
 }
-.catppuccin-css-variables-folder_download:before {
-    content: "\143f";
+.catppuccin-css-variables-folder_download::before {
+  content: "\143f";
 }
-.catppuccin-css-variables-folder_drizzle-orm_open:before {
-    content: "\1440";
+.catppuccin-css-variables-folder_drizzle-orm_open::before {
+  content: "\1440";
 }
-.catppuccin-css-variables-folder_drizzle-orm:before {
-    content: "\1441";
+.catppuccin-css-variables-folder_drizzle-orm::before {
+  content: "\1441";
 }
-.catppuccin-css-variables-folder_examples_open:before {
-    content: "\1442";
+.catppuccin-css-variables-folder_examples_open::before {
+  content: "\1442";
 }
-.catppuccin-css-variables-folder_examples:before {
-    content: "\1443";
+.catppuccin-css-variables-folder_examples::before {
+  content: "\1443";
 }
-.catppuccin-css-variables-folder_fastlane_open:before {
-    content: "\1444";
+.catppuccin-css-variables-folder_fastlane_open::before {
+  content: "\1444";
 }
-.catppuccin-css-variables-folder_fastlane:before {
-    content: "\1445";
+.catppuccin-css-variables-folder_fastlane::before {
+  content: "\1445";
 }
-.catppuccin-css-variables-folder_firebase_open:before {
-    content: "\1446";
+.catppuccin-css-variables-folder_firebase_open::before {
+  content: "\1446";
 }
-.catppuccin-css-variables-folder_firebase:before {
-    content: "\1447";
+.catppuccin-css-variables-folder_firebase::before {
+  content: "\1447";
 }
-.catppuccin-css-variables-folder_fonts_open:before {
-    content: "\1448";
+.catppuccin-css-variables-folder_fonts_open::before {
+  content: "\1448";
 }
-.catppuccin-css-variables-folder_fonts:before {
-    content: "\1449";
+.catppuccin-css-variables-folder_fonts::before {
+  content: "\1449";
 }
-.catppuccin-css-variables-folder_forgejo_open:before {
-    content: "\144a";
+.catppuccin-css-variables-folder_forgejo_open::before {
+  content: "\144a";
 }
-.catppuccin-css-variables-folder_forgejo:before {
-    content: "\144b";
+.catppuccin-css-variables-folder_forgejo::before {
+  content: "\144b";
 }
-.catppuccin-css-variables-folder_functions_open:before {
-    content: "\144c";
+.catppuccin-css-variables-folder_functions_open::before {
+  content: "\144c";
 }
-.catppuccin-css-variables-folder_functions:before {
-    content: "\144d";
+.catppuccin-css-variables-folder_functions::before {
+  content: "\144d";
 }
-.catppuccin-css-variables-folder_fvm_open:before {
-    content: "\144e";
+.catppuccin-css-variables-folder_fvm_open::before {
+  content: "\144e";
 }
-.catppuccin-css-variables-folder_fvm:before {
-    content: "\144f";
+.catppuccin-css-variables-folder_fvm::before {
+  content: "\144f";
 }
-.catppuccin-css-variables-folder_git_open:before {
-    content: "\1450";
+.catppuccin-css-variables-folder_git_open::before {
+  content: "\1450";
 }
-.catppuccin-css-variables-folder_git:before {
-    content: "\1451";
+.catppuccin-css-variables-folder_git::before {
+  content: "\1451";
 }
-.catppuccin-css-variables-folder_github_open:before {
-    content: "\1452";
+.catppuccin-css-variables-folder_github_open::before {
+  content: "\1452";
 }
-.catppuccin-css-variables-folder_github:before {
-    content: "\1453";
+.catppuccin-css-variables-folder_github::before {
+  content: "\1453";
 }
-.catppuccin-css-variables-folder_gitlab_open:before {
-    content: "\1454";
+.catppuccin-css-variables-folder_gitlab_open::before {
+  content: "\1454";
 }
-.catppuccin-css-variables-folder_gitlab:before {
-    content: "\1455";
+.catppuccin-css-variables-folder_gitlab::before {
+  content: "\1455";
 }
-.catppuccin-css-variables-folder_gradle_open:before {
-    content: "\1456";
+.catppuccin-css-variables-folder_gradle_open::before {
+  content: "\1456";
 }
-.catppuccin-css-variables-folder_gradle:before {
-    content: "\1457";
+.catppuccin-css-variables-folder_gradle::before {
+  content: "\1457";
 }
-.catppuccin-css-variables-folder_hooks_open:before {
-    content: "\1458";
+.catppuccin-css-variables-folder_hooks_open::before {
+  content: "\1458";
 }
-.catppuccin-css-variables-folder_hooks:before {
-    content: "\1459";
+.catppuccin-css-variables-folder_hooks::before {
+  content: "\1459";
 }
-.catppuccin-css-variables-folder_husky_open:before {
-    content: "\145a";
+.catppuccin-css-variables-folder_husky_open::before {
+  content: "\145a";
 }
-.catppuccin-css-variables-folder_husky:before {
-    content: "\145b";
+.catppuccin-css-variables-folder_husky::before {
+  content: "\145b";
 }
-.catppuccin-css-variables-folder_images_open:before {
-    content: "\145c";
+.catppuccin-css-variables-folder_images_open::before {
+  content: "\145c";
 }
-.catppuccin-css-variables-folder_images:before {
-    content: "\145d";
+.catppuccin-css-variables-folder_images::before {
+  content: "\145d";
 }
-.catppuccin-css-variables-folder_intellij_open:before {
-    content: "\145e";
+.catppuccin-css-variables-folder_intellij_open::before {
+  content: "\145e";
 }
-.catppuccin-css-variables-folder_intellij:before {
-    content: "\145f";
+.catppuccin-css-variables-folder_intellij::before {
+  content: "\145f";
 }
-.catppuccin-css-variables-folder_kubernetes_open:before {
-    content: "\1460";
+.catppuccin-css-variables-folder_kubernetes_open::before {
+  content: "\1460";
 }
-.catppuccin-css-variables-folder_kubernetes:before {
-    content: "\1461";
+.catppuccin-css-variables-folder_kubernetes::before {
+  content: "\1461";
 }
-.catppuccin-css-variables-folder_layouts_open:before {
-    content: "\1462";
+.catppuccin-css-variables-folder_layouts_open::before {
+  content: "\1462";
 }
-.catppuccin-css-variables-folder_layouts:before {
-    content: "\1463";
+.catppuccin-css-variables-folder_layouts::before {
+  content: "\1463";
 }
-.catppuccin-css-variables-folder_locales_open:before {
-    content: "\1464";
+.catppuccin-css-variables-folder_locales_open::before {
+  content: "\1464";
 }
-.catppuccin-css-variables-folder_locales:before {
-    content: "\1465";
+.catppuccin-css-variables-folder_locales::before {
+  content: "\1465";
 }
-.catppuccin-css-variables-folder_middleware_open:before {
-    content: "\1466";
+.catppuccin-css-variables-folder_middleware_open::before {
+  content: "\1466";
 }
-.catppuccin-css-variables-folder_middleware:before {
-    content: "\1467";
+.catppuccin-css-variables-folder_middleware::before {
+  content: "\1467";
 }
-.catppuccin-css-variables-folder_mocks_open:before {
-    content: "\1468";
+.catppuccin-css-variables-folder_mocks_open::before {
+  content: "\1468";
 }
-.catppuccin-css-variables-folder_mocks:before {
-    content: "\1469";
+.catppuccin-css-variables-folder_mocks::before {
+  content: "\1469";
 }
-.catppuccin-css-variables-folder_next_open:before {
-    content: "\146a";
+.catppuccin-css-variables-folder_next_open::before {
+  content: "\146a";
 }
-.catppuccin-css-variables-folder_next:before {
-    content: "\146b";
+.catppuccin-css-variables-folder_next::before {
+  content: "\146b";
 }
-.catppuccin-css-variables-folder_nix_open:before {
-    content: "\146c";
+.catppuccin-css-variables-folder_nix_open::before {
+  content: "\146c";
 }
-.catppuccin-css-variables-folder_nix:before {
-    content: "\146d";
+.catppuccin-css-variables-folder_nix::before {
+  content: "\146d";
 }
-.catppuccin-css-variables-folder_node_open:before {
-    content: "\146e";
+.catppuccin-css-variables-folder_node_open::before {
+  content: "\146e";
 }
-.catppuccin-css-variables-folder_node:before {
-    content: "\146f";
+.catppuccin-css-variables-folder_node::before {
+  content: "\146f";
 }
-.catppuccin-css-variables-folder_nuxt_open:before {
-    content: "\1470";
+.catppuccin-css-variables-folder_nuxt_open::before {
+  content: "\1470";
 }
-.catppuccin-css-variables-folder_nuxt:before {
-    content: "\1471";
+.catppuccin-css-variables-folder_nuxt::before {
+  content: "\1471";
 }
-.catppuccin-css-variables-folder_packages_open:before {
-    content: "\1472";
+.catppuccin-css-variables-folder_packages_open::before {
+  content: "\1472";
 }
-.catppuccin-css-variables-folder_packages:before {
-    content: "\1473";
+.catppuccin-css-variables-folder_packages::before {
+  content: "\1473";
 }
-.catppuccin-css-variables-folder_plugins_open:before {
-    content: "\1474";
+.catppuccin-css-variables-folder_plugins_open::before {
+  content: "\1474";
 }
-.catppuccin-css-variables-folder_plugins:before {
-    content: "\1475";
+.catppuccin-css-variables-folder_plugins::before {
+  content: "\1475";
 }
-.catppuccin-css-variables-folder_pre-commit_open:before {
-    content: "\1476";
+.catppuccin-css-variables-folder_pre-commit_open::before {
+  content: "\1476";
 }
-.catppuccin-css-variables-folder_pre-commit:before {
-    content: "\1477";
+.catppuccin-css-variables-folder_pre-commit::before {
+  content: "\1477";
 }
-.catppuccin-css-variables-folder_prisma_open:before {
-    content: "\1478";
+.catppuccin-css-variables-folder_prisma_open::before {
+  content: "\1478";
 }
-.catppuccin-css-variables-folder_prisma:before {
-    content: "\1479";
+.catppuccin-css-variables-folder_prisma::before {
+  content: "\1479";
 }
-.catppuccin-css-variables-folder_public_open:before {
-    content: "\147a";
+.catppuccin-css-variables-folder_public_open::before {
+  content: "\147a";
 }
-.catppuccin-css-variables-folder_public:before {
-    content: "\147b";
+.catppuccin-css-variables-folder_public::before {
+  content: "\147b";
 }
-.catppuccin-css-variables-folder_queue_open:before {
-    content: "\147c";
+.catppuccin-css-variables-folder_queue_open::before {
+  content: "\147c";
 }
-.catppuccin-css-variables-folder_queue:before {
-    content: "\147d";
+.catppuccin-css-variables-folder_queue::before {
+  content: "\147d";
 }
-.catppuccin-css-variables-folder_redux_open:before {
-    content: "\147e";
+.catppuccin-css-variables-folder_redux_open::before {
+  content: "\147e";
 }
-.catppuccin-css-variables-folder_redux:before {
-    content: "\147f";
+.catppuccin-css-variables-folder_redux::before {
+  content: "\147f";
 }
-.catppuccin-css-variables-folder_renovate_open:before {
-    content: "\1480";
+.catppuccin-css-variables-folder_renovate_open::before {
+  content: "\1480";
 }
-.catppuccin-css-variables-folder_renovate:before {
-    content: "\1481";
+.catppuccin-css-variables-folder_renovate::before {
+  content: "\1481";
 }
-.catppuccin-css-variables-folder_routes_open:before {
-    content: "\1482";
+.catppuccin-css-variables-folder_routes_open::before {
+  content: "\1482";
 }
-.catppuccin-css-variables-folder_routes:before {
-    content: "\1483";
+.catppuccin-css-variables-folder_routes::before {
+  content: "\1483";
 }
-.catppuccin-css-variables-folder_sass_open:before {
-    content: "\1484";
+.catppuccin-css-variables-folder_sass_open::before {
+  content: "\1484";
 }
-.catppuccin-css-variables-folder_sass:before {
-    content: "\1485";
+.catppuccin-css-variables-folder_sass::before {
+  content: "\1485";
 }
-.catppuccin-css-variables-folder_scripts_open:before {
-    content: "\1486";
+.catppuccin-css-variables-folder_scripts_open::before {
+  content: "\1486";
 }
-.catppuccin-css-variables-folder_scripts:before {
-    content: "\1487";
+.catppuccin-css-variables-folder_scripts::before {
+  content: "\1487";
 }
-.catppuccin-css-variables-folder_security_open:before {
-    content: "\1488";
+.catppuccin-css-variables-folder_security_open::before {
+  content: "\1488";
 }
-.catppuccin-css-variables-folder_security:before {
-    content: "\1489";
+.catppuccin-css-variables-folder_security::before {
+  content: "\1489";
 }
-.catppuccin-css-variables-folder_server_open:before {
-    content: "\148a";
+.catppuccin-css-variables-folder_server_open::before {
+  content: "\148a";
 }
-.catppuccin-css-variables-folder_server:before {
-    content: "\148b";
+.catppuccin-css-variables-folder_server::before {
+  content: "\148b";
 }
-.catppuccin-css-variables-folder_src_open:before {
-    content: "\148c";
+.catppuccin-css-variables-folder_src_open::before {
+  content: "\148c";
 }
-.catppuccin-css-variables-folder_src:before {
-    content: "\148d";
+.catppuccin-css-variables-folder_src::before {
+  content: "\148d";
 }
-.catppuccin-css-variables-folder_storybook_open:before {
-    content: "\148e";
+.catppuccin-css-variables-folder_storybook_open::before {
+  content: "\148e";
 }
-.catppuccin-css-variables-folder_storybook:before {
-    content: "\148f";
+.catppuccin-css-variables-folder_storybook::before {
+  content: "\148f";
 }
-.catppuccin-css-variables-folder_styles_open:before {
-    content: "\1490";
+.catppuccin-css-variables-folder_styles_open::before {
+  content: "\1490";
 }
-.catppuccin-css-variables-folder_styles:before {
-    content: "\1491";
+.catppuccin-css-variables-folder_styles::before {
+  content: "\1491";
 }
-.catppuccin-css-variables-folder_svg_open:before {
-    content: "\1492";
+.catppuccin-css-variables-folder_svg_open::before {
+  content: "\1492";
 }
-.catppuccin-css-variables-folder_svg:before {
-    content: "\1493";
+.catppuccin-css-variables-folder_svg::before {
+  content: "\1493";
 }
-.catppuccin-css-variables-folder_tauri_open:before {
-    content: "\1494";
+.catppuccin-css-variables-folder_tauri_open::before {
+  content: "\1494";
 }
-.catppuccin-css-variables-folder_tauri:before {
-    content: "\1495";
+.catppuccin-css-variables-folder_tauri::before {
+  content: "\1495";
 }
-.catppuccin-css-variables-folder_temp_open:before {
-    content: "\1496";
+.catppuccin-css-variables-folder_temp_open::before {
+  content: "\1496";
 }
-.catppuccin-css-variables-folder_temp:before {
-    content: "\1497";
+.catppuccin-css-variables-folder_temp::before {
+  content: "\1497";
 }
-.catppuccin-css-variables-folder_templates_open:before {
-    content: "\1498";
+.catppuccin-css-variables-folder_templates_open::before {
+  content: "\1498";
 }
-.catppuccin-css-variables-folder_templates:before {
-    content: "\1499";
+.catppuccin-css-variables-folder_templates::before {
+  content: "\1499";
 }
-.catppuccin-css-variables-folder_tests_open:before {
-    content: "\149a";
+.catppuccin-css-variables-folder_tests_open::before {
+  content: "\149a";
 }
-.catppuccin-css-variables-folder_tests:before {
-    content: "\149b";
+.catppuccin-css-variables-folder_tests::before {
+  content: "\149b";
 }
-.catppuccin-css-variables-folder_themes_open:before {
-    content: "\149c";
+.catppuccin-css-variables-folder_themes_open::before {
+  content: "\149c";
 }
-.catppuccin-css-variables-folder_themes:before {
-    content: "\149d";
+.catppuccin-css-variables-folder_themes::before {
+  content: "\149d";
 }
-.catppuccin-css-variables-folder_turbo_open:before {
-    content: "\149e";
+.catppuccin-css-variables-folder_turbo_open::before {
+  content: "\149e";
 }
-.catppuccin-css-variables-folder_turbo:before {
-    content: "\149f";
+.catppuccin-css-variables-folder_turbo::before {
+  content: "\149f";
 }
-.catppuccin-css-variables-folder_types_open:before {
-    content: "\14a0";
+.catppuccin-css-variables-folder_types_open::before {
+  content: "\14a0";
 }
-.catppuccin-css-variables-folder_types:before {
-    content: "\14a1";
+.catppuccin-css-variables-folder_types::before {
+  content: "\14a1";
 }
-.catppuccin-css-variables-folder_upload_open:before {
-    content: "\14a2";
+.catppuccin-css-variables-folder_upload_open::before {
+  content: "\14a2";
 }
-.catppuccin-css-variables-folder_upload:before {
-    content: "\14a3";
+.catppuccin-css-variables-folder_upload::before {
+  content: "\14a3";
 }
-.catppuccin-css-variables-folder_utils_open:before {
-    content: "\14a4";
+.catppuccin-css-variables-folder_utils_open::before {
+  content: "\14a4";
 }
-.catppuccin-css-variables-folder_utils:before {
-    content: "\14a5";
+.catppuccin-css-variables-folder_utils::before {
+  content: "\14a5";
 }
-.catppuccin-css-variables-folder_vercel_open:before {
-    content: "\14a6";
+.catppuccin-css-variables-folder_vercel_open::before {
+  content: "\14a6";
 }
-.catppuccin-css-variables-folder_vercel:before {
-    content: "\14a7";
+.catppuccin-css-variables-folder_vercel::before {
+  content: "\14a7";
 }
-.catppuccin-css-variables-folder_video_open:before {
-    content: "\14a8";
+.catppuccin-css-variables-folder_video_open::before {
+  content: "\14a8";
 }
-.catppuccin-css-variables-folder_video:before {
-    content: "\14a9";
+.catppuccin-css-variables-folder_video::before {
+  content: "\14a9";
 }
-.catppuccin-css-variables-folder_views_open:before {
-    content: "\14aa";
+.catppuccin-css-variables-folder_views_open::before {
+  content: "\14aa";
 }
-.catppuccin-css-variables-folder_views:before {
-    content: "\14ab";
+.catppuccin-css-variables-folder_views::before {
+  content: "\14ab";
 }
-.catppuccin-css-variables-folder_vscode_open:before {
-    content: "\14ac";
+.catppuccin-css-variables-folder_vscode_open::before {
+  content: "\14ac";
 }
-.catppuccin-css-variables-folder_vscode:before {
-    content: "\14ad";
+.catppuccin-css-variables-folder_vscode::before {
+  content: "\14ad";
 }
-.catppuccin-css-variables-folder_workflows_open:before {
-    content: "\14ae";
+.catppuccin-css-variables-folder_workflows_open::before {
+  content: "\14ae";
 }
-.catppuccin-css-variables-folder_workflows:before {
-    content: "\14af";
+.catppuccin-css-variables-folder_workflows::before {
+  content: "\14af";
 }
-.catppuccin-css-variables-folder_wxt_open:before {
-    content: "\14b0";
+.catppuccin-css-variables-folder_wxt_open::before {
+  content: "\14b0";
 }
-.catppuccin-css-variables-folder_wxt:before {
-    content: "\14b1";
+.catppuccin-css-variables-folder_wxt::before {
+  content: "\14b1";
 }
-.catppuccin-css-variables-folder_xcode_open:before {
-    content: "\14b2";
+.catppuccin-css-variables-folder_xcode_open::before {
+  content: "\14b2";
 }
-.catppuccin-css-variables-folder_xcode:before {
-    content: "\14b3";
+.catppuccin-css-variables-folder_xcode::before {
+  content: "\14b3";
 }
-.catppuccin-css-variables-folder_yarn_open:before {
-    content: "\14b4";
+.catppuccin-css-variables-folder_yarn_open::before {
+  content: "\14b4";
 }
-.catppuccin-css-variables-folder_yarn:before {
-    content: "\14b5";
+.catppuccin-css-variables-folder_yarn::before {
+  content: "\14b5";
 }
-.catppuccin-css-variables-font:before {
-    content: "\14b6";
+.catppuccin-css-variables-font::before {
+  content: "\14b6";
 }
-.catppuccin-css-variables-forgejo:before {
-    content: "\14b7";
+.catppuccin-css-variables-forgejo::before {
+  content: "\14b7";
 }
-.catppuccin-css-variables-fortran:before {
-    content: "\14b8";
+.catppuccin-css-variables-fortran::before {
+  content: "\14b8";
 }
-.catppuccin-css-variables-fsharp:before {
-    content: "\14b9";
+.catppuccin-css-variables-fsharp::before {
+  content: "\14b9";
 }
-.catppuccin-css-variables-fvm:before {
-    content: "\14ba";
+.catppuccin-css-variables-fvm::before {
+  content: "\14ba";
 }
-.catppuccin-css-variables-gatsby:before {
-    content: "\14bb";
+.catppuccin-css-variables-gatsby::before {
+  content: "\14bb";
 }
-.catppuccin-css-variables-gcp:before {
-    content: "\14bc";
+.catppuccin-css-variables-gcp::before {
+  content: "\14bc";
 }
-.catppuccin-css-variables-git-cliff:before {
-    content: "\14bd";
+.catppuccin-css-variables-git-cliff::before {
+  content: "\14bd";
 }
-.catppuccin-css-variables-git:before {
-    content: "\14be";
+.catppuccin-css-variables-git::before {
+  content: "\14be";
 }
-.catppuccin-css-variables-gitlab:before {
-    content: "\14bf";
+.catppuccin-css-variables-gitlab::before {
+  content: "\14bf";
 }
-.catppuccin-css-variables-gitpod:before {
-    content: "\14c0";
+.catppuccin-css-variables-gitpod::before {
+  content: "\14c0";
 }
-.catppuccin-css-variables-gleam-config:before {
-    content: "\14c1";
+.catppuccin-css-variables-gleam-config::before {
+  content: "\14c1";
 }
-.catppuccin-css-variables-gleam:before {
-    content: "\14c2";
+.catppuccin-css-variables-gleam::before {
+  content: "\14c2";
 }
-.catppuccin-css-variables-go-mod:before {
-    content: "\14c3";
+.catppuccin-css-variables-go-mod::before {
+  content: "\14c3";
 }
-.catppuccin-css-variables-go-template:before {
-    content: "\14c4";
+.catppuccin-css-variables-go-template::before {
+  content: "\14c4";
 }
-.catppuccin-css-variables-go:before {
-    content: "\14c5";
+.catppuccin-css-variables-go::before {
+  content: "\14c5";
 }
-.catppuccin-css-variables-godot-assets:before {
-    content: "\14c6";
+.catppuccin-css-variables-godot-assets::before {
+  content: "\14c6";
 }
-.catppuccin-css-variables-godot:before {
-    content: "\14c7";
+.catppuccin-css-variables-godot::before {
+  content: "\14c7";
 }
-.catppuccin-css-variables-gradle:before {
-    content: "\14c8";
+.catppuccin-css-variables-gradle::before {
+  content: "\14c8";
 }
-.catppuccin-css-variables-graphql:before {
-    content: "\14c9";
+.catppuccin-css-variables-graphql::before {
+  content: "\14c9";
 }
-.catppuccin-css-variables-groovy:before {
-    content: "\14ca";
+.catppuccin-css-variables-groovy::before {
+  content: "\14ca";
 }
-.catppuccin-css-variables-gulp:before {
-    content: "\14cb";
+.catppuccin-css-variables-gulp::before {
+  content: "\14cb";
 }
-.catppuccin-css-variables-haml:before {
-    content: "\14cc";
+.catppuccin-css-variables-haml::before {
+  content: "\14cc";
 }
-.catppuccin-css-variables-handlebars:before {
-    content: "\14cd";
+.catppuccin-css-variables-handlebars::before {
+  content: "\14cd";
 }
-.catppuccin-css-variables-hardhat:before {
-    content: "\14ce";
+.catppuccin-css-variables-hardhat::before {
+  content: "\14ce";
 }
-.catppuccin-css-variables-haskell:before {
-    content: "\14cf";
+.catppuccin-css-variables-haskell::before {
+  content: "\14cf";
 }
-.catppuccin-css-variables-haxe:before {
-    content: "\14d0";
+.catppuccin-css-variables-haxe::before {
+  content: "\14d0";
 }
-.catppuccin-css-variables-helm:before {
-    content: "\14d1";
+.catppuccin-css-variables-helm::before {
+  content: "\14d1";
 }
-.catppuccin-css-variables-heroku:before {
-    content: "\14d2";
+.catppuccin-css-variables-heroku::before {
+  content: "\14d2";
 }
-.catppuccin-css-variables-histoire:before {
-    content: "\14d3";
+.catppuccin-css-variables-histoire::before {
+  content: "\14d3";
 }
-.catppuccin-css-variables-html:before {
-    content: "\14d4";
+.catppuccin-css-variables-html::before {
+  content: "\14d4";
 }
-.catppuccin-css-variables-http:before {
-    content: "\14d5";
+.catppuccin-css-variables-http::before {
+  content: "\14d5";
 }
-.catppuccin-css-variables-huff:before {
-    content: "\14d6";
+.catppuccin-css-variables-huff::before {
+  content: "\14d6";
 }
-.catppuccin-css-variables-hugo:before {
-    content: "\14d7";
+.catppuccin-css-variables-hugo::before {
+  content: "\14d7";
 }
-.catppuccin-css-variables-humans:before {
-    content: "\14d8";
+.catppuccin-css-variables-humans::before {
+  content: "\14d8";
 }
-.catppuccin-css-variables-husky:before {
-    content: "\14d9";
+.catppuccin-css-variables-husky::before {
+  content: "\14d9";
 }
-.catppuccin-css-variables-image:before {
-    content: "\14da";
+.catppuccin-css-variables-image::before {
+  content: "\14da";
 }
-.catppuccin-css-variables-ionic:before {
-    content: "\14db";
+.catppuccin-css-variables-ionic::before {
+  content: "\14db";
 }
-.catppuccin-css-variables-java-annotation:before {
-    content: "\14dc";
+.catppuccin-css-variables-java-annotation::before {
+  content: "\14dc";
 }
-.catppuccin-css-variables-java-class-abstract:before {
-    content: "\14dd";
+.catppuccin-css-variables-java-class-abstract::before {
+  content: "\14dd";
 }
-.catppuccin-css-variables-java-class-final:before {
-    content: "\14de";
+.catppuccin-css-variables-java-class-final::before {
+  content: "\14de";
 }
-.catppuccin-css-variables-java-class-sealed:before {
-    content: "\14df";
+.catppuccin-css-variables-java-class-sealed::before {
+  content: "\14df";
 }
-.catppuccin-css-variables-java-class:before {
-    content: "\14e0";
+.catppuccin-css-variables-java-class::before {
+  content: "\14e0";
 }
-.catppuccin-css-variables-java-enum:before {
-    content: "\14e1";
+.catppuccin-css-variables-java-enum::before {
+  content: "\14e1";
 }
-.catppuccin-css-variables-java-exception:before {
-    content: "\14e2";
+.catppuccin-css-variables-java-exception::before {
+  content: "\14e2";
 }
-.catppuccin-css-variables-java-interface:before {
-    content: "\14e3";
+.catppuccin-css-variables-java-interface::before {
+  content: "\14e3";
 }
-.catppuccin-css-variables-java-jar:before {
-    content: "\14e4";
+.catppuccin-css-variables-java-jar::before {
+  content: "\14e4";
 }
-.catppuccin-css-variables-java-record:before {
-    content: "\14e5";
+.catppuccin-css-variables-java-record::before {
+  content: "\14e5";
 }
-.catppuccin-css-variables-java:before {
-    content: "\14e6";
+.catppuccin-css-variables-java::before {
+  content: "\14e6";
 }
-.catppuccin-css-variables-javascript-config:before {
-    content: "\14e7";
+.catppuccin-css-variables-javascript-config::before {
+  content: "\14e7";
 }
-.catppuccin-css-variables-javascript-map:before {
-    content: "\14e8";
+.catppuccin-css-variables-javascript-map::before {
+  content: "\14e8";
 }
-.catppuccin-css-variables-javascript-react:before {
-    content: "\14e9";
+.catppuccin-css-variables-javascript-react::before {
+  content: "\14e9";
 }
-.catppuccin-css-variables-javascript-test:before {
-    content: "\14ea";
+.catppuccin-css-variables-javascript-test::before {
+  content: "\14ea";
 }
-.catppuccin-css-variables-javascript:before {
-    content: "\14eb";
+.catppuccin-css-variables-javascript::before {
+  content: "\14eb";
 }
-.catppuccin-css-variables-jest:before {
-    content: "\14ec";
+.catppuccin-css-variables-jest::before {
+  content: "\14ec";
 }
-.catppuccin-css-variables-jinja:before {
-    content: "\14ed";
+.catppuccin-css-variables-jinja::before {
+  content: "\14ed";
 }
-.catppuccin-css-variables-json-schema:before {
-    content: "\14ee";
+.catppuccin-css-variables-json-schema::before {
+  content: "\14ee";
 }
-.catppuccin-css-variables-json:before {
-    content: "\14ef";
+.catppuccin-css-variables-json::before {
+  content: "\14ef";
 }
-.catppuccin-css-variables-juce:before {
-    content: "\14f0";
+.catppuccin-css-variables-juce::before {
+  content: "\14f0";
 }
-.catppuccin-css-variables-julia:before {
-    content: "\14f1";
+.catppuccin-css-variables-julia::before {
+  content: "\14f1";
 }
-.catppuccin-css-variables-jupyter:before {
-    content: "\14f2";
+.catppuccin-css-variables-jupyter::before {
+  content: "\14f2";
 }
-.catppuccin-css-variables-just:before {
-    content: "\14f3";
+.catppuccin-css-variables-just::before {
+  content: "\14f3";
 }
-.catppuccin-css-variables-kdl:before {
-    content: "\14f4";
+.catppuccin-css-variables-kdl::before {
+  content: "\14f4";
 }
-.catppuccin-css-variables-key:before {
-    content: "\14f5";
+.catppuccin-css-variables-key::before {
+  content: "\14f5";
 }
-.catppuccin-css-variables-kotlin:before {
-    content: "\14f6";
+.catppuccin-css-variables-kotlin::before {
+  content: "\14f6";
 }
-.catppuccin-css-variables-laravel:before {
-    content: "\14f7";
+.catppuccin-css-variables-laravel::before {
+  content: "\14f7";
 }
-.catppuccin-css-variables-latex:before {
-    content: "\14f8";
+.catppuccin-css-variables-latex::before {
+  content: "\14f8";
 }
-.catppuccin-css-variables-latte:before {
-    content: "\14f9";
+.catppuccin-css-variables-latte::before {
+  content: "\14f9";
 }
-.catppuccin-css-variables-lerna:before {
-    content: "\14fa";
+.catppuccin-css-variables-lerna::before {
+  content: "\14fa";
 }
-.catppuccin-css-variables-less:before {
-    content: "\14fb";
+.catppuccin-css-variables-less::before {
+  content: "\14fb";
 }
-.catppuccin-css-variables-lib:before {
-    content: "\14fc";
+.catppuccin-css-variables-lib::before {
+  content: "\14fc";
 }
-.catppuccin-css-variables-license:before {
-    content: "\14fd";
+.catppuccin-css-variables-license::before {
+  content: "\14fd";
 }
-.catppuccin-css-variables-lint-staged:before {
-    content: "\14fe";
+.catppuccin-css-variables-lint-staged::before {
+  content: "\14fe";
 }
-.catppuccin-css-variables-liquid:before {
-    content: "\14ff";
+.catppuccin-css-variables-liquid::before {
+  content: "\14ff";
 }
-.catppuccin-css-variables-lisp:before {
-    content: "\1500";
+.catppuccin-css-variables-lisp::before {
+  content: "\1500";
 }
-.catppuccin-css-variables-log:before {
-    content: "\1501";
+.catppuccin-css-variables-log::before {
+  content: "\1501";
 }
-.catppuccin-css-variables-lua:before {
-    content: "\1502";
+.catppuccin-css-variables-lua::before {
+  content: "\1502";
 }
-.catppuccin-css-variables-luau:before {
-    content: "\1503";
+.catppuccin-css-variables-luau::before {
+  content: "\1503";
 }
-.catppuccin-css-variables-makefile:before {
-    content: "\1504";
+.catppuccin-css-variables-makefile::before {
+  content: "\1504";
 }
-.catppuccin-css-variables-markdown-mdx:before {
-    content: "\1505";
+.catppuccin-css-variables-markdown-mdx::before {
+  content: "\1505";
 }
-.catppuccin-css-variables-markdown:before {
-    content: "\1506";
+.catppuccin-css-variables-markdown::before {
+  content: "\1506";
 }
-.catppuccin-css-variables-marko:before {
-    content: "\1507";
+.catppuccin-css-variables-marko::before {
+  content: "\1507";
 }
-.catppuccin-css-variables-matlab:before {
-    content: "\1508";
+.catppuccin-css-variables-matlab::before {
+  content: "\1508";
 }
-.catppuccin-css-variables-mdbook:before {
-    content: "\1509";
+.catppuccin-css-variables-mdbook::before {
+  content: "\1509";
 }
-.catppuccin-css-variables-mermaid:before {
-    content: "\150a";
+.catppuccin-css-variables-mermaid::before {
+  content: "\150a";
 }
-.catppuccin-css-variables-meson:before {
-    content: "\150b";
+.catppuccin-css-variables-meson::before {
+  content: "\150b";
 }
-.catppuccin-css-variables-midi:before {
-    content: "\150c";
+.catppuccin-css-variables-midi::before {
+  content: "\150c";
 }
-.catppuccin-css-variables-mjml:before {
-    content: "\150d";
+.catppuccin-css-variables-mjml::before {
+  content: "\150d";
 }
-.catppuccin-css-variables-modernizr:before {
-    content: "\150e";
+.catppuccin-css-variables-modernizr::before {
+  content: "\150e";
 }
-.catppuccin-css-variables-ms-excel:before {
-    content: "\150f";
+.catppuccin-css-variables-ms-excel::before {
+  content: "\150f";
 }
-.catppuccin-css-variables-ms-powerpoint:before {
-    content: "\1510";
+.catppuccin-css-variables-ms-powerpoint::before {
+  content: "\1510";
 }
-.catppuccin-css-variables-ms-word:before {
-    content: "\1511";
+.catppuccin-css-variables-ms-word::before {
+  content: "\1511";
 }
-.catppuccin-css-variables-nativescript:before {
-    content: "\1512";
+.catppuccin-css-variables-nativescript::before {
+  content: "\1512";
 }
-.catppuccin-css-variables-nest-controller:before {
-    content: "\1513";
+.catppuccin-css-variables-nest-controller::before {
+  content: "\1513";
 }
-.catppuccin-css-variables-nest-decorator:before {
-    content: "\1514";
+.catppuccin-css-variables-nest-decorator::before {
+  content: "\1514";
 }
-.catppuccin-css-variables-nest-filter:before {
-    content: "\1515";
+.catppuccin-css-variables-nest-filter::before {
+  content: "\1515";
 }
-.catppuccin-css-variables-nest-guard:before {
-    content: "\1516";
+.catppuccin-css-variables-nest-guard::before {
+  content: "\1516";
 }
-.catppuccin-css-variables-nest-middleware:before {
-    content: "\1517";
+.catppuccin-css-variables-nest-middleware::before {
+  content: "\1517";
 }
-.catppuccin-css-variables-nest-pipe:before {
-    content: "\1518";
+.catppuccin-css-variables-nest-pipe::before {
+  content: "\1518";
 }
-.catppuccin-css-variables-nest-service:before {
-    content: "\1519";
+.catppuccin-css-variables-nest-service::before {
+  content: "\1519";
 }
-.catppuccin-css-variables-nest:before {
-    content: "\151a";
+.catppuccin-css-variables-nest::before {
+  content: "\151a";
 }
-.catppuccin-css-variables-netlify:before {
-    content: "\151b";
+.catppuccin-css-variables-netlify::before {
+  content: "\151b";
 }
-.catppuccin-css-variables-next:before {
-    content: "\151c";
+.catppuccin-css-variables-next::before {
+  content: "\151c";
 }
-.catppuccin-css-variables-nextflow:before {
-    content: "\151d";
+.catppuccin-css-variables-nextflow::before {
+  content: "\151d";
 }
-.catppuccin-css-variables-nginx:before {
-    content: "\151e";
+.catppuccin-css-variables-nginx::before {
+  content: "\151e";
 }
-.catppuccin-css-variables-nim:before {
-    content: "\151f";
+.catppuccin-css-variables-nim::before {
+  content: "\151f";
 }
-.catppuccin-css-variables-ninja:before {
-    content: "\1520";
+.catppuccin-css-variables-ninja::before {
+  content: "\1520";
 }
-.catppuccin-css-variables-nix-lock:before {
-    content: "\1521";
+.catppuccin-css-variables-nix-lock::before {
+  content: "\1521";
 }
-.catppuccin-css-variables-nix:before {
-    content: "\1522";
+.catppuccin-css-variables-nix::before {
+  content: "\1522";
 }
-.catppuccin-css-variables-nodemon:before {
-    content: "\1523";
+.catppuccin-css-variables-nodemon::before {
+  content: "\1523";
 }
-.catppuccin-css-variables-npm-ignore:before {
-    content: "\1524";
+.catppuccin-css-variables-npm-ignore::before {
+  content: "\1524";
 }
-.catppuccin-css-variables-npm-lock:before {
-    content: "\1525";
+.catppuccin-css-variables-npm-lock::before {
+  content: "\1525";
 }
-.catppuccin-css-variables-npm:before {
-    content: "\1526";
+.catppuccin-css-variables-npm::before {
+  content: "\1526";
 }
-.catppuccin-css-variables-nuget:before {
-    content: "\1527";
+.catppuccin-css-variables-nuget::before {
+  content: "\1527";
 }
-.catppuccin-css-variables-nunjucks:before {
-    content: "\1528";
+.catppuccin-css-variables-nunjucks::before {
+  content: "\1528";
 }
-.catppuccin-css-variables-nuxt-ignore:before {
-    content: "\1529";
+.catppuccin-css-variables-nuxt-ignore::before {
+  content: "\1529";
 }
-.catppuccin-css-variables-nuxt:before {
-    content: "\152a";
+.catppuccin-css-variables-nuxt::before {
+  content: "\152a";
 }
-.catppuccin-css-variables-ocaml:before {
-    content: "\152b";
+.catppuccin-css-variables-ocaml::before {
+  content: "\152b";
 }
-.catppuccin-css-variables-org:before {
-    content: "\152c";
+.catppuccin-css-variables-org::before {
+  content: "\152c";
 }
-.catppuccin-css-variables-package-json:before {
-    content: "\152d";
+.catppuccin-css-variables-package-json::before {
+  content: "\152d";
 }
-.catppuccin-css-variables-panda-css:before {
-    content: "\152e";
+.catppuccin-css-variables-panda-css::before {
+  content: "\152e";
 }
-.catppuccin-css-variables-pdf:before {
-    content: "\152f";
+.catppuccin-css-variables-pdf::before {
+  content: "\152f";
 }
-.catppuccin-css-variables-perl:before {
-    content: "\1530";
+.catppuccin-css-variables-perl::before {
+  content: "\1530";
 }
-.catppuccin-css-variables-php:before {
-    content: "\1531";
+.catppuccin-css-variables-php::before {
+  content: "\1531";
 }
-.catppuccin-css-variables-phrase:before {
-    content: "\1532";
+.catppuccin-css-variables-phrase::before {
+  content: "\1532";
 }
-.catppuccin-css-variables-phtml:before {
-    content: "\1533";
+.catppuccin-css-variables-phtml::before {
+  content: "\1533";
 }
-.catppuccin-css-variables-pixi-lock:before {
-    content: "\1534";
+.catppuccin-css-variables-pixi-lock::before {
+  content: "\1534";
 }
-.catppuccin-css-variables-pixi:before {
-    content: "\1535";
+.catppuccin-css-variables-pixi::before {
+  content: "\1535";
 }
-.catppuccin-css-variables-plantuml:before {
-    content: "\1536";
+.catppuccin-css-variables-plantuml::before {
+  content: "\1536";
 }
-.catppuccin-css-variables-playwright:before {
-    content: "\1537";
+.catppuccin-css-variables-playwright::before {
+  content: "\1537";
 }
-.catppuccin-css-variables-plop:before {
-    content: "\1538";
+.catppuccin-css-variables-plop::before {
+  content: "\1538";
 }
-.catppuccin-css-variables-pnpm-lock:before {
-    content: "\1539";
+.catppuccin-css-variables-pnpm-lock::before {
+  content: "\1539";
 }
-.catppuccin-css-variables-pnpm:before {
-    content: "\153a";
+.catppuccin-css-variables-pnpm::before {
+  content: "\153a";
 }
-.catppuccin-css-variables-poetry-lock:before {
-    content: "\153b";
+.catppuccin-css-variables-poetry-lock::before {
+  content: "\153b";
 }
-.catppuccin-css-variables-postcss:before {
-    content: "\153c";
+.catppuccin-css-variables-postcss::before {
+  content: "\153c";
 }
-.catppuccin-css-variables-powershell:before {
-    content: "\153d";
+.catppuccin-css-variables-powershell::before {
+  content: "\153d";
 }
-.catppuccin-css-variables-pre-commit:before {
-    content: "\153e";
+.catppuccin-css-variables-pre-commit::before {
+  content: "\153e";
 }
-.catppuccin-css-variables-premake:before {
-    content: "\153f";
+.catppuccin-css-variables-premake::before {
+  content: "\153f";
 }
-.catppuccin-css-variables-prettier-ignore:before {
-    content: "\1540";
+.catppuccin-css-variables-prettier-ignore::before {
+  content: "\1540";
 }
-.catppuccin-css-variables-prettier:before {
-    content: "\1541";
+.catppuccin-css-variables-prettier::before {
+  content: "\1541";
 }
-.catppuccin-css-variables-prisma:before {
-    content: "\1542";
+.catppuccin-css-variables-prisma::before {
+  content: "\1542";
 }
-.catppuccin-css-variables-prolog:before {
-    content: "\1543";
+.catppuccin-css-variables-prolog::before {
+  content: "\1543";
 }
-.catppuccin-css-variables-properties:before {
-    content: "\1544";
+.catppuccin-css-variables-properties::before {
+  content: "\1544";
 }
-.catppuccin-css-variables-proto:before {
-    content: "\1545";
+.catppuccin-css-variables-proto::before {
+  content: "\1545";
 }
-.catppuccin-css-variables-pug:before {
-    content: "\1546";
+.catppuccin-css-variables-pug::before {
+  content: "\1546";
 }
-.catppuccin-css-variables-puppeteer:before {
-    content: "\1547";
+.catppuccin-css-variables-puppeteer::before {
+  content: "\1547";
 }
-.catppuccin-css-variables-python-compiled:before {
-    content: "\1548";
+.catppuccin-css-variables-python-compiled::before {
+  content: "\1548";
 }
-.catppuccin-css-variables-python-config:before {
-    content: "\1549";
+.catppuccin-css-variables-python-config::before {
+  content: "\1549";
 }
-.catppuccin-css-variables-python:before {
-    content: "\154a";
+.catppuccin-css-variables-python::before {
+  content: "\154a";
 }
-.catppuccin-css-variables-r:before {
-    content: "\154b";
+.catppuccin-css-variables-r::before {
+  content: "\154b";
 }
-.catppuccin-css-variables-racket:before {
-    content: "\154c";
+.catppuccin-css-variables-racket::before {
+  content: "\154c";
 }
-.catppuccin-css-variables-razor:before {
-    content: "\154d";
+.catppuccin-css-variables-razor::before {
+  content: "\154d";
 }
-.catppuccin-css-variables-readme:before {
-    content: "\154e";
+.catppuccin-css-variables-readme::before {
+  content: "\154e";
 }
-.catppuccin-css-variables-reason:before {
-    content: "\154f";
+.catppuccin-css-variables-reason::before {
+  content: "\154f";
 }
-.catppuccin-css-variables-redwood:before {
-    content: "\1550";
+.catppuccin-css-variables-redwood::before {
+  content: "\1550";
 }
-.catppuccin-css-variables-release:before {
-    content: "\1551";
+.catppuccin-css-variables-release::before {
+  content: "\1551";
 }
-.catppuccin-css-variables-remix:before {
-    content: "\1552";
+.catppuccin-css-variables-remix::before {
+  content: "\1552";
 }
-.catppuccin-css-variables-renovate:before {
-    content: "\1553";
+.catppuccin-css-variables-renovate::before {
+  content: "\1553";
 }
-.catppuccin-css-variables-rescript:before {
-    content: "\1554";
+.catppuccin-css-variables-rescript::before {
+  content: "\1554";
 }
-.catppuccin-css-variables-roblox:before {
-    content: "\1555";
+.catppuccin-css-variables-roblox::before {
+  content: "\1555";
 }
-.catppuccin-css-variables-robots:before {
-    content: "\1556";
+.catppuccin-css-variables-robots::before {
+  content: "\1556";
 }
-.catppuccin-css-variables-rojo:before {
-    content: "\1557";
+.catppuccin-css-variables-rojo::before {
+  content: "\1557";
 }
-.catppuccin-css-variables-rollup:before {
-    content: "\1558";
+.catppuccin-css-variables-rollup::before {
+  content: "\1558";
 }
-.catppuccin-css-variables-ruby-gem-lock:before {
-    content: "\1559";
+.catppuccin-css-variables-ruby-gem-lock::before {
+  content: "\1559";
 }
-.catppuccin-css-variables-ruby-gem:before {
-    content: "\155a";
+.catppuccin-css-variables-ruby-gem::before {
+  content: "\155a";
 }
-.catppuccin-css-variables-ruby:before {
-    content: "\155b";
+.catppuccin-css-variables-ruby::before {
+  content: "\155b";
 }
-.catppuccin-css-variables-ruff:before {
-    content: "\155c";
+.catppuccin-css-variables-ruff::before {
+  content: "\155c";
 }
-.catppuccin-css-variables-rust-config:before {
-    content: "\155d";
+.catppuccin-css-variables-rust-config::before {
+  content: "\155d";
 }
-.catppuccin-css-variables-rust:before {
-    content: "\155e";
+.catppuccin-css-variables-rust::before {
+  content: "\155e";
 }
-.catppuccin-css-variables-salesforce:before {
-    content: "\155f";
+.catppuccin-css-variables-salesforce::before {
+  content: "\155f";
 }
-.catppuccin-css-variables-sass:before {
-    content: "\1560";
+.catppuccin-css-variables-sass::before {
+  content: "\1560";
 }
-.catppuccin-css-variables-scala:before {
-    content: "\1561";
+.catppuccin-css-variables-scala::before {
+  content: "\1561";
 }
-.catppuccin-css-variables-search:before {
-    content: "\1562";
+.catppuccin-css-variables-search::before {
+  content: "\1562";
 }
-.catppuccin-css-variables-security:before {
-    content: "\1563";
+.catppuccin-css-variables-security::before {
+  content: "\1563";
 }
-.catppuccin-css-variables-semantic-release:before {
-    content: "\1564";
+.catppuccin-css-variables-semantic-release::before {
+  content: "\1564";
 }
-.catppuccin-css-variables-semgrep-ignore:before {
-    content: "\1565";
+.catppuccin-css-variables-semgrep-ignore::before {
+  content: "\1565";
 }
-.catppuccin-css-variables-semgrep:before {
-    content: "\1566";
+.catppuccin-css-variables-semgrep::before {
+  content: "\1566";
 }
-.catppuccin-css-variables-sentry:before {
-    content: "\1567";
+.catppuccin-css-variables-sentry::before {
+  content: "\1567";
 }
-.catppuccin-css-variables-serverless:before {
-    content: "\1568";
+.catppuccin-css-variables-serverless::before {
+  content: "\1568";
 }
-.catppuccin-css-variables-shader:before {
-    content: "\1569";
+.catppuccin-css-variables-shader::before {
+  content: "\1569";
 }
-.catppuccin-css-variables-sketch:before {
-    content: "\156a";
+.catppuccin-css-variables-sketch::before {
+  content: "\156a";
 }
-.catppuccin-css-variables-snowpack:before {
-    content: "\156b";
+.catppuccin-css-variables-snowpack::before {
+  content: "\156b";
 }
-.catppuccin-css-variables-solid:before {
-    content: "\156c";
+.catppuccin-css-variables-solid::before {
+  content: "\156c";
 }
-.catppuccin-css-variables-solidity:before {
-    content: "\156d";
+.catppuccin-css-variables-solidity::before {
+  content: "\156d";
 }
-.catppuccin-css-variables-sonar-cloud:before {
-    content: "\156e";
+.catppuccin-css-variables-sonar-cloud::before {
+  content: "\156e";
 }
-.catppuccin-css-variables-spwn:before {
-    content: "\156f";
+.catppuccin-css-variables-spwn::before {
+  content: "\156f";
 }
-.catppuccin-css-variables-stackblitz:before {
-    content: "\1570";
+.catppuccin-css-variables-stackblitz::before {
+  content: "\1570";
 }
-.catppuccin-css-variables-stata:before {
-    content: "\1571";
+.catppuccin-css-variables-stata::before {
+  content: "\1571";
 }
-.catppuccin-css-variables-stencil:before {
-    content: "\1572";
+.catppuccin-css-variables-stencil::before {
+  content: "\1572";
 }
-.catppuccin-css-variables-stitches:before {
-    content: "\1573";
+.catppuccin-css-variables-stitches::before {
+  content: "\1573";
 }
-.catppuccin-css-variables-storybook-svelte:before {
-    content: "\1574";
+.catppuccin-css-variables-storybook-svelte::before {
+  content: "\1574";
 }
-.catppuccin-css-variables-storybook-vue:before {
-    content: "\1575";
+.catppuccin-css-variables-storybook-vue::before {
+  content: "\1575";
 }
-.catppuccin-css-variables-storybook:before {
-    content: "\1576";
+.catppuccin-css-variables-storybook::before {
+  content: "\1576";
 }
-.catppuccin-css-variables-stylelint-ignore:before {
-    content: "\1577";
+.catppuccin-css-variables-stylelint-ignore::before {
+  content: "\1577";
 }
-.catppuccin-css-variables-stylelint:before {
-    content: "\1578";
+.catppuccin-css-variables-stylelint::before {
+  content: "\1578";
 }
-.catppuccin-css-variables-sublime:before {
-    content: "\1579";
+.catppuccin-css-variables-sublime::before {
+  content: "\1579";
 }
-.catppuccin-css-variables-super-collider:before {
-    content: "\157a";
+.catppuccin-css-variables-super-collider::before {
+  content: "\157a";
 }
-.catppuccin-css-variables-svelte-config:before {
-    content: "\157b";
+.catppuccin-css-variables-svelte-config::before {
+  content: "\157b";
 }
-.catppuccin-css-variables-svelte:before {
-    content: "\157c";
+.catppuccin-css-variables-svelte::before {
+  content: "\157c";
 }
-.catppuccin-css-variables-svg:before {
-    content: "\157d";
+.catppuccin-css-variables-svg::before {
+  content: "\157d";
 }
-.catppuccin-css-variables-swift:before {
-    content: "\157e";
+.catppuccin-css-variables-swift::before {
+  content: "\157e";
 }
-.catppuccin-css-variables-symlink:before {
-    content: "\157f";
+.catppuccin-css-variables-symlink::before {
+  content: "\157f";
 }
-.catppuccin-css-variables-tailwind:before {
-    content: "\1580";
+.catppuccin-css-variables-tailwind::before {
+  content: "\1580";
 }
-.catppuccin-css-variables-taskfile:before {
-    content: "\1581";
+.catppuccin-css-variables-taskfile::before {
+  content: "\1581";
 }
-.catppuccin-css-variables-tauri-ignore:before {
-    content: "\1582";
+.catppuccin-css-variables-tauri-ignore::before {
+  content: "\1582";
 }
-.catppuccin-css-variables-tauri:before {
-    content: "\1583";
+.catppuccin-css-variables-tauri::before {
+  content: "\1583";
 }
-.catppuccin-css-variables-terraform:before {
-    content: "\1584";
+.catppuccin-css-variables-terraform::before {
+  content: "\1584";
 }
-.catppuccin-css-variables-text:before {
-    content: "\1585";
+.catppuccin-css-variables-text::before {
+  content: "\1585";
 }
-.catppuccin-css-variables-todo:before {
-    content: "\1586";
+.catppuccin-css-variables-todo::before {
+  content: "\1586";
 }
-.catppuccin-css-variables-toml:before {
-    content: "\1587";
+.catppuccin-css-variables-toml::before {
+  content: "\1587";
 }
-.catppuccin-css-variables-turbo:before {
-    content: "\1588";
+.catppuccin-css-variables-turbo::before {
+  content: "\1588";
 }
-.catppuccin-css-variables-twig:before {
-    content: "\1589";
+.catppuccin-css-variables-twig::before {
+  content: "\1589";
 }
-.catppuccin-css-variables-twine:before {
-    content: "\158a";
+.catppuccin-css-variables-twine::before {
+  content: "\158a";
 }
-.catppuccin-css-variables-typescript-config:before {
-    content: "\158b";
+.catppuccin-css-variables-typescript-config::before {
+  content: "\158b";
 }
-.catppuccin-css-variables-typescript-def:before {
-    content: "\158c";
+.catppuccin-css-variables-typescript-def::before {
+  content: "\158c";
 }
-.catppuccin-css-variables-typescript-react:before {
-    content: "\158d";
+.catppuccin-css-variables-typescript-react::before {
+  content: "\158d";
 }
-.catppuccin-css-variables-typescript-test:before {
-    content: "\158e";
+.catppuccin-css-variables-typescript-test::before {
+  content: "\158e";
 }
-.catppuccin-css-variables-typescript:before {
-    content: "\158f";
+.catppuccin-css-variables-typescript::before {
+  content: "\158f";
 }
-.catppuccin-css-variables-typst:before {
-    content: "\1590";
+.catppuccin-css-variables-typst::before {
+  content: "\1590";
 }
-.catppuccin-css-variables-unity:before {
-    content: "\1591";
+.catppuccin-css-variables-unity::before {
+  content: "\1591";
 }
-.catppuccin-css-variables-unocss:before {
-    content: "\1592";
+.catppuccin-css-variables-unocss::before {
+  content: "\1592";
 }
-.catppuccin-css-variables-url:before {
-    content: "\1593";
+.catppuccin-css-variables-url::before {
+  content: "\1593";
 }
-.catppuccin-css-variables-uv:before {
-    content: "\1594";
+.catppuccin-css-variables-uv::before {
+  content: "\1594";
 }
-.catppuccin-css-variables-v:before {
-    content: "\1595";
+.catppuccin-css-variables-v::before {
+  content: "\1595";
 }
-.catppuccin-css-variables-vanilla-extract:before {
-    content: "\1596";
+.catppuccin-css-variables-vanilla-extract::before {
+  content: "\1596";
 }
-.catppuccin-css-variables-vento:before {
-    content: "\1597";
+.catppuccin-css-variables-vento::before {
+  content: "\1597";
 }
-.catppuccin-css-variables-vercel-ignore:before {
-    content: "\1598";
+.catppuccin-css-variables-vercel-ignore::before {
+  content: "\1598";
 }
-.catppuccin-css-variables-vercel:before {
-    content: "\1599";
+.catppuccin-css-variables-vercel::before {
+  content: "\1599";
 }
-.catppuccin-css-variables-verilog:before {
-    content: "\159a";
+.catppuccin-css-variables-verilog::before {
+  content: "\159a";
 }
-.catppuccin-css-variables-vhs:before {
-    content: "\159b";
+.catppuccin-css-variables-vhs::before {
+  content: "\159b";
 }
-.catppuccin-css-variables-video:before {
-    content: "\159c";
+.catppuccin-css-variables-video::before {
+  content: "\159c";
 }
-.catppuccin-css-variables-vim:before {
-    content: "\159d";
+.catppuccin-css-variables-vim::before {
+  content: "\159d";
 }
-.catppuccin-css-variables-visual-studio:before {
-    content: "\159e";
+.catppuccin-css-variables-visual-studio::before {
+  content: "\159e";
 }
-.catppuccin-css-variables-vital:before {
-    content: "\159f";
+.catppuccin-css-variables-vital::before {
+  content: "\159f";
 }
-.catppuccin-css-variables-vite:before {
-    content: "\15a0";
+.catppuccin-css-variables-vite::before {
+  content: "\15a0";
 }
-.catppuccin-css-variables-vitest:before {
-    content: "\15a1";
+.catppuccin-css-variables-vitest::before {
+  content: "\15a1";
 }
-.catppuccin-css-variables-vs-codium:before {
-    content: "\15a2";
+.catppuccin-css-variables-vs-codium::before {
+  content: "\15a2";
 }
-.catppuccin-css-variables-vscode-ignore:before {
-    content: "\15a3";
+.catppuccin-css-variables-vscode-ignore::before {
+  content: "\15a3";
 }
-.catppuccin-css-variables-vscode:before {
-    content: "\15a4";
+.catppuccin-css-variables-vscode::before {
+  content: "\15a4";
 }
-.catppuccin-css-variables-vue-config:before {
-    content: "\15a5";
+.catppuccin-css-variables-vue-config::before {
+  content: "\15a5";
 }
-.catppuccin-css-variables-vue:before {
-    content: "\15a6";
+.catppuccin-css-variables-vue::before {
+  content: "\15a6";
 }
-.catppuccin-css-variables-web-assembly:before {
-    content: "\15a7";
+.catppuccin-css-variables-web-assembly::before {
+  content: "\15a7";
 }
-.catppuccin-css-variables-webpack:before {
-    content: "\15a8";
+.catppuccin-css-variables-webpack::before {
+  content: "\15a8";
 }
-.catppuccin-css-variables-windi:before {
-    content: "\15a9";
+.catppuccin-css-variables-windi::before {
+  content: "\15a9";
 }
-.catppuccin-css-variables-workflow:before {
-    content: "\15aa";
+.catppuccin-css-variables-workflow::before {
+  content: "\15aa";
 }
-.catppuccin-css-variables-wxt:before {
-    content: "\15ab";
+.catppuccin-css-variables-wxt::before {
+  content: "\15ab";
 }
-.catppuccin-css-variables-xaml:before {
-    content: "\15ac";
+.catppuccin-css-variables-xaml::before {
+  content: "\15ac";
 }
-.catppuccin-css-variables-xcode:before {
-    content: "\15ad";
+.catppuccin-css-variables-xcode::before {
+  content: "\15ad";
 }
-.catppuccin-css-variables-xmake:before {
-    content: "\15ae";
+.catppuccin-css-variables-xmake::before {
+  content: "\15ae";
 }
-.catppuccin-css-variables-xml:before {
-    content: "\15af";
+.catppuccin-css-variables-xml::before {
+  content: "\15af";
 }
-.catppuccin-css-variables-yaml:before {
-    content: "\15b0";
+.catppuccin-css-variables-yaml::before {
+  content: "\15b0";
 }
-.catppuccin-css-variables-yarn-lock:before {
-    content: "\15b1";
+.catppuccin-css-variables-yarn-lock::before {
+  content: "\15b1";
 }
-.catppuccin-css-variables-yarn:before {
-    content: "\15b2";
+.catppuccin-css-variables-yarn::before {
+  content: "\15b2";
 }
-.catppuccin-css-variables-zap:before {
-    content: "\15b3";
+.catppuccin-css-variables-zap::before {
+  content: "\15b3";
 }
-.catppuccin-css-variables-zig:before {
-    content: "\15b4";
+.catppuccin-css-variables-zig::before {
+  content: "\15b4";
 }
-.catppuccin-css-variables-zip:before {
-    content: "\15b5";
+.catppuccin-css-variables-zip::before {
+  content: "\15b5";
 }
