@@ -19,9 +19,9 @@
   "scripts": {
     "clean": "bun run ./scripts/reset.js",
     "sprite": "bun run ./scripts/svg-sprite.ts",
-    "build": "bun run clean && bun run icons:optimize && bun run ./scripts/build.ts && bun run sprite",
     "prepare": "husky",
     "catwalk": "bun run scripts/catwalk.ts",
+    "icons:build": "bun run clean && bun run icons:optimize && bun run ./scripts/build.ts && bun run sprite",
     "icons:generate": "bun run scripts/icons/generate.ts",
     "icons:optimize": "bun run scripts/icons/optimize.ts",
     "icons:preview": "bun run scripts/icons/preview.ts",
