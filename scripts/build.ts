@@ -1,6 +1,6 @@
 import process from 'node:process'
-import { consola } from 'consola'
 import { generateFonts } from '@twbs/fantasticon'
+import { consola } from 'consola'
 import packageJson from 'package.json' assert { type: 'json' }
 import codepoints from '../mapping.json'
 import { folders } from './icons/utils/palettes'

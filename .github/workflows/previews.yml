@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "icons/**"
+      - 'icons/**'
       - scripts/icons/preview.ts
       - scripts/catwalk.ts
     tags-ignore: [v*]
@@ -28,8 +28,8 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
-          title: "chore: re-generate previews"
-          commit-message: "chore: re-generate previews"
+          title: 'chore: re-generate previews'
+          commit-message: 'chore: re-generate previews'
           branch: chore/re-generate-previews
           delete-branch: true
           add-paths: |
