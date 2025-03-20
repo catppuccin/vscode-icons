@@ -8,6 +8,9 @@ on:
       - scripts/icons/preview.ts
       - scripts/catwalk.ts
     tags-ignore: [v*]
+permissions:
+  contents: write
+  pull-requests: write
 jobs:
   generate-previews:
     name: Generate Previews
