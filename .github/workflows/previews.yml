@@ -16,7 +16,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup bun
-        uses: oven-sh/bun@v1
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
       - name: Setup catppuccin/catwalk
         uses: catppuccin/setup-catwalk@v1.0.0
       - name: Install dependencies
