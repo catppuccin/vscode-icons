@@ -1,8 +1,8 @@
 @font-face {
     font-family: "catppuccin-code-icons";
-    src: url("./catppuccin-code-icons.ttf?70696feadbac469310c3d9800ac93639") format("truetype"),
-url("./catppuccin-code-icons.woff?70696feadbac469310c3d9800ac93639") format("woff"),
-url("./catppuccin-code-icons.woff2?70696feadbac469310c3d9800ac93639") format("woff2");
+    src: url("./catppuccin-code-icons.ttf?37d93f19c101d639bfe82d42e54f446b") format("truetype"),
+url("./catppuccin-code-icons.woff?37d93f19c101d639bfe82d42e54f446b") format("woff"),
+url("./catppuccin-code-icons.woff2?37d93f19c101d639bfe82d42e54f446b") format("woff2");
 }
 
 i[class^="catppuccin-frappe-"]:before, i[class*=" catppuccin-frappe-"]:before {
