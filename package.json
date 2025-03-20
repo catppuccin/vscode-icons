@@ -25,6 +25,7 @@
     "icons:generate": "bun run scripts/icons/generate.ts",
     "icons:optimize": "bun run scripts/icons/optimize.ts",
     "icons:preview": "bun run scripts/icons/preview.ts",
+    "genmap": "bun run scripts/genmap.ts",
     "icons": "bun run-s icons:*",
     "previews": "bunx puppeteer browsers install chrome && bun run icons:preview && bun run catwalk",
     "lint": "eslint .",
