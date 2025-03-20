@@ -26,7 +26,7 @@ jobs:
         run: bun typecheck
       - name: Build
         id: build
-        run: bun build
+        run: bun run build
       - name: Upload VSIX artifact
         uses: actions/upload-artifact@v4
         with:
