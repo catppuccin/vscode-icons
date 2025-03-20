@@ -1,6 +1,6 @@
 {
   "publisher": "Catppuccin",
-  "name": "catppuccin-code-icons",
+  "name": "@catppuccin/code-icons",
   "displayName": "Catppuccin Code Icons for the high spirited!",
   "type": "module",
   "version": "1.0.0",
