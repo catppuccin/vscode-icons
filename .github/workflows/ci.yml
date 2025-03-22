@@ -1,51 +1,38 @@
 name: CI
-
 on:
   push:
     branches: [main]
     tags-ignore: [v*]
   pull_request:
     branches: [main]
-
 env:
   PUPPETEER_SKIP_DOWNLOAD: true
-
 jobs:
   ci:
     name: CI
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Install pnpm
         uses: pnpm/action-setup@v4
-
       - name: Setup node
         uses: actions/setup-node@v4
         with:
           cache: pnpm
           node-version: lts/*
-
       - name: Install dependencies
         run: pnpm i --frozen-lockfile
-
       - name: Lint files
         run: pnpm lint
-
       - name: Typecheck
         run: pnpm typecheck
-
       - name: Integrity
         run: pnpm integrity
-
       - name: Build extension
-        id: build
         run: pnpm build
-
-      - name: Upload VSIX artifact
+      - name: Upload font artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ steps.build.outputs.vsixPath }}
-          path: ${{ steps.build.outputs.vsixPath }}
+          name: font
+          path: ./dist
