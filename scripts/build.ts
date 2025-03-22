@@ -9,7 +9,6 @@ import SVGSpriter from 'svg-sprite'
 import codepoints from '../mapping.json'
 import { folders } from './icons/utils/palettes'
 
-const flavors = ['mocha', 'macchiato', 'frappe', 'latte']
 const outDir = 'dist'
 const outFile = 'catppuccin-code-icons.svg'
 
@@ -47,15 +46,14 @@ async function generateAllFonts() {
     // @ts-ignore
     await generateFonts(opts(flavor))
     await execa`pnpx woff2otf dist/${flavor}/catppuccin-code-icons.woff dist/${flavor}/catppuccin-code-icons.otf`
-    flavors.forEach((flavor) => {
+
       const config = {
         mode: {
           symbol: {
             dest: path.join(outDir, flavor),
             sprite: outFile,
           },
-        },
-      }
+        }
 
       const spriter = new SVGSpriter(config)
 
