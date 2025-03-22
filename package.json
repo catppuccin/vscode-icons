@@ -62,6 +62,13 @@
     "tsx": "^4.19.1",
     "typescript": "^5.8.2"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "puppeteer",
+      "simple-git-hooks"
+    ]
+  },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
   },
