@@ -1,9 +1,0 @@
-*
-**/*
-
-!CHANGELOG.md
-!LICENSE
-!README.md
-!assets/*.png
-!dist/**/*
-!package.json
