@@ -79,10 +79,10 @@ async function generateAllFonts() {
       }
 
       const outputDir = path.resolve(path.join(outDir, flavor))
-        fs.mkdirSync(outputDir, { recursive: true })
+      fs.mkdirSync(outputDir, { recursive: true })
 
       const outputPath = result.symbol.sprite.path
-        fs.writeFileSync(outputPath, result.symbol.sprite.contents)
+      fs.writeFileSync(outputPath, result.symbol.sprite.contents)
     })
 
     consola.success(`Generated fonts for ${flavor} flavor.`)
