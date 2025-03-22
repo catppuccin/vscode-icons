@@ -27,7 +27,7 @@ jobs:
         run: pnpm lint
       - name: Typecheck
         run: pnpm typecheck
-      - name: Build extension
+      - name: Build font
         run: pnpm build
       - name: Upload font artifact
         uses: actions/upload-artifact@v4
