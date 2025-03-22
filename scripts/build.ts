@@ -53,7 +53,8 @@ async function generateAllFonts() {
             dest: path.join(outDir, flavor),
             sprite: outFile,
           },
-        }
+        },
+      }
 
       const spriter = new SVGSpriter(config)
 
