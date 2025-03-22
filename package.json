@@ -35,7 +35,7 @@
     "icons:generate": "tsx scripts/icons/generate.ts",
     "icons:optimize": "tsx scripts/icons/optimize.ts",
     "icons:preview": "tsx scripts/icons/preview.ts",
-    "build": "pnpm run clean && pnpm run icons:optimize && tsx scripts/build.ts && pnpm run sprite",
+    "build": "pnpm run clean && pnpm run icons:optimize && tsx scripts/build.ts",
     "icons": "pnpm run --sequential '/^icons:.*/'",
     "previews": "pnpm dlx puppeteer browsers install chrome && pnpm run icons:preview && pnpm run catwalk",
     "lint": "eslint .",
@@ -43,7 +43,6 @@
     "release": "changelogen --release",
     "typecheck": "tsc",
     "clean": "tsx scripts/reset.ts",
-    "sprite": "tsx scripts/svg-sprite.ts",
     "genmap": "tsx scripts/genmap.ts"
   },
   "devDependencies": {
@@ -60,6 +59,7 @@
     "consola": "^3.2.3",
     "defu": "^6.1.4",
     "eslint": "^9.11.1",
+    "execa": "^9.5.2",
     "lint-staged": "^15.2.10",
     "lookpath": "^1.2.2",
     "puppeteer": "^24.4.0",
@@ -68,7 +68,8 @@
     "tsup": "^8.4.0",
     "svg-sprite": "^2.0.4",
     "tsx": "^4.19.1",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "woff2otf": "^1.0.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
