@@ -38,7 +38,6 @@
     "build": "pnpm run clean && pnpm run icons:optimize && tsx scripts/build.ts && pnpm run sprite",
     "icons": "pnpm run --sequential '/^icons:.*/'",
     "previews": "pnpm dlx puppeteer browsers install chrome && pnpm run icons:preview && pnpm run catwalk",
-    "integrity": "tsx scripts/integrity.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "release": "changelogen --release",
