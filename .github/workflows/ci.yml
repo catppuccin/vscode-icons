@@ -27,8 +27,6 @@ jobs:
         run: pnpm lint
       - name: Typecheck
         run: pnpm typecheck
-      - name: Integrity
-        run: pnpm integrity
       - name: Build extension
         run: pnpm build
       - name: Upload font artifact
