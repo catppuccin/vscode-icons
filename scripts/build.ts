@@ -84,7 +84,7 @@ async function generateAllFonts() {
         const outputPath = result.symbol.sprite.path
         fs.writeFileSync(outputPath, result.symbol.sprite.contents)
       })
-    })
+
     consola.success(`Generated fonts for ${flavor} flavor.`)
   }
 }
