@@ -1,9 +1,23 @@
+import fs from 'node:fs'
+import path from 'node:path'
 import process from 'node:process'
 import { generateFonts } from '@twbs/fantasticon'
 import { consola } from 'consola'
+import { execa } from 'execa'
 import packageJson from 'package.json' assert { type: 'json' }
+import SVGSpriter from 'svg-sprite'
 import codepoints from '../mapping.json'
 import { folders } from './icons/utils/palettes'
+
+const flavors = ['mocha', 'macchiato', 'frappe', 'latte']
+const outDir = 'dist'
+const outFile = 'catppuccin-code-icons.svg'
+
+const mappingEntries = Object.entries(codepoints)
+
+function findNames(symbol: number) {
+  return mappingEntries.filter(([_, s]) => s === symbol).map(([name]) => name)
+}
 
 function opts(flavor: string) {
   return {
@@ -32,6 +46,46 @@ async function generateAllFonts() {
     /* eslint-disable-next-line ts/ban-ts-comment */
     // @ts-ignore
     await generateFonts(opts(flavor))
+    await execa`pnpx woff2otf dist/${flavor}/catppuccin-code-icons.woff dist/${flavor}/catppuccin-code-icons.otf`
+    flavors.forEach((flavor) => {
+      const config = {
+        mode: {
+          symbol: {
+            dest: path.join(outDir, flavor),
+            sprite: outFile,
+          },
+        },
+      }
+
+      const spriter = new SVGSpriter(config)
+
+      mappingEntries.forEach(([mappedName, symbol]) => {
+        const file = path.resolve(`./icons/${flavor}/${mappedName}.svg`)
+
+        if (fs.existsSync(file)) {
+          for (const name of findNames(symbol)) {
+            spriter.add(
+              path.resolve(`./icons/${flavor}/${name}.svg`),
+              `${name}.svg`,
+              fs.readFileSync(file, 'utf-8'),
+            )
+          }
+        }
+      })
+
+      spriter.compile((error, result) => {
+        if (error) {
+          consola.info(`Error compiling sprite for ${flavor}:`, error)
+          return
+        }
+
+        const outputDir = path.resolve(path.join(outDir, flavor))
+        fs.mkdirSync(outputDir, { recursive: true })
+
+        const outputPath = result.symbol.sprite.path
+        fs.writeFileSync(outputPath, result.symbol.sprite.contents)
+      })
+    })
     consola.success(`Generated fonts for ${flavor} flavor.`)
   }
 }
