@@ -1,7 +1,8 @@
+import type { OtherAssetType } from '@twbs/fantasticon'
 import fs from 'node:fs'
 import path from 'node:path'
 import process from 'node:process'
-import { generateFonts } from '@twbs/fantasticon'
+import { FontAssetType, generateFonts } from '@twbs/fantasticon'
 import { consola } from 'consola'
 import { execa } from 'execa'
 import packageJson from 'package.json' assert { type: 'json' }
@@ -25,9 +26,9 @@ function opts(flavor: string) {
     codepoints,
     inputDir: `./icons/${flavor}`,
     outputDir: `./dist/${flavor}`,
-    fontTypes: ['ttf', 'woff', 'woff2'],
+    fontTypes: [FontAssetType.TTF, FontAssetType.WOFF, FontAssetType.WOFF2],
     normalize: true,
-    assetTypes: ['css', 'html'],
+    assetTypes: ['css', 'html'] as OtherAssetType[],
     formatOptions: {
       ttf: {
         url: packageJson.repository.url,
@@ -42,8 +43,6 @@ function opts(flavor: string) {
 async function generateAllFonts() {
   for (const flavor of folders) {
     consola.info(`Generating fonts for ${flavor} flavor...`)
-    /* eslint-disable-next-line ts/ban-ts-comment */
-    // @ts-ignore
     await generateFonts(opts(flavor))
     await execa`pnpx woff2otf dist/${flavor}/catppuccin-code-icons.woff dist/${flavor}/catppuccin-code-icons.otf`
 
