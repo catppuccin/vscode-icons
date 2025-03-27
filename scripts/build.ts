@@ -1,106 +1,95 @@
-/**
- * Build themes and extension.
- */
-
-import { existsSync } from 'node:fs'
-import { cp, readdir, rm, writeFile } from 'node:fs/promises'
-import { basename, join } from 'node:path'
-import { env, exit } from 'node:process'
-import { setOutput } from '@actions/core'
-import { flavorEntries } from '@catppuccin/palette'
-import { createVSIX } from '@vscode/vsce'
+import type { OtherAssetType } from '@twbs/fantasticon'
+import fs from 'node:fs'
+import path from 'node:path'
+import process from 'node:process'
+import { FontAssetType, generateFonts } from '@twbs/fantasticon'
 import { consola } from 'consola'
+import { execa } from 'execa'
 import packageJson from 'package.json' assert { type: 'json' }
-import { build } from 'tsup'
-import { compileTheme } from '~/utils/themes'
+import SVGSpriter from 'svg-sprite'
+import codepoints from '../mapping.json'
+import { folders } from './icons/utils/palettes'
 
-const DIST = 'dist'
-const flavors = flavorEntries.map(([f]) => f)
+const outDir = 'dist'
+const outFile = 'catppuccin-code-icons.svg'
 
-try {
-  consola.info('Deleting previous build...')
+const mappingEntries = Object.entries(codepoints)
 
-  // cleanup
-  if (existsSync(DIST))
-    await rm(DIST, { recursive: true })
-
-  consola.success('Deleted previous build.')
-}
-catch (error) {
-  consola.error('Failed to delete previous build: ', error)
-  exit(1)
+function findNames(symbol: number) {
+  return mappingEntries.filter(([_, s]) => s === symbol).map(([name]) => name)
 }
 
-try {
-  consola.info('Copying icon SVGs to dist...')
-
-  // copy icons to dist
-  await Promise.all(flavors.map(async (f) => {
-    await cp(join('icons', f), join(DIST, f, 'icons'), { recursive: true })
-  }))
-
-  // copy css-vars/unflavored icons to dist
-  await cp(join('icons', 'css-variables'), join(DIST, 'unflavored'), { recursive: true })
-
-  consola.success('Copied icon SVGs to dist.')
-}
-catch (error) {
-  consola.error('Failed to copy icon SVGs: ', error)
-  exit(1)
-}
-
-try {
-  consola.info('Building themes and icon definitions...')
-
-  // generate iconDefinitions.json file and save to dist
-  const icons = await readdir(join(DIST, flavors[0], 'icons'))
-  const iconDefinitions = icons.reduce((d, i) => ({
-    ...d,
-    [basename(i, '.svg')]: { iconPath: `./icons/${i}` },
-  }), {} as Record<string, { iconPath: string }>)
-  await writeFile(
-    join(DIST, 'iconDefinitions.json'),
-    JSON.stringify(iconDefinitions, null, 2),
-  )
-
-  // compile theme.json and write to dist
-  const theme = compileTheme({}, iconDefinitions)
-  await Promise.all(flavors.map(async (f) => {
-    await writeFile(
-      join(DIST, f, 'theme.json'),
-      JSON.stringify(theme, null, 2),
-    )
-  }))
-
-  consola.success('Built themes and icon definitions.')
-}
-catch (error) {
-  consola.error('Failed to build themes or icon definitions: ', error)
-  exit(1)
-}
-
-try {
-  consola.info('Building VSC extension...')
-
-  // build extension runtime
-  await build({
-    entry: ['src/main.ts', 'src/browser.ts'],
-    format: ['cjs'],
-    external: ['vscode'],
-    minify: true,
-    shims: true,
-  })
-
-  // package .vsix
-  const packagePath = `${packageJson.name}-${packageJson.version}.vsix`
-  await createVSIX({ dependencies: false, packagePath })
-  if (env.GITHUB_ACTIONS) {
-    setOutput('vsixPath', packagePath)
+function opts(flavor: string) {
+  return {
+    name: `catppuccin-code-icons`,
+    prefix: `catppuccin-${flavor}`,
+    codepoints,
+    inputDir: `./icons/${flavor}`,
+    outputDir: `./dist/${flavor}`,
+    fontTypes: [FontAssetType.TTF, FontAssetType.WOFF, FontAssetType.WOFF2],
+    normalize: true,
+    assetTypes: ['css', 'html'] as OtherAssetType[],
+    formatOptions: {
+      ttf: {
+        url: packageJson.repository.url,
+        description: packageJson.fontDescription,
+        version: packageJson.fontVersion,
+      },
+    },
   }
+}
 
-  consola.success('Built VSC extension.')
+// Generate fonts for each flavor in the folders array
+async function generateAllFonts() {
+  for (const flavor of folders) {
+    consola.info(`Generating fonts for ${flavor} flavor...`)
+    await generateFonts(opts(flavor))
+    await execa`pnpx woff2otf dist/${flavor}/catppuccin-code-icons.woff dist/${flavor}/catppuccin-code-icons.otf`
+
+    const config = {
+      mode: {
+        symbol: {
+          dest: path.join(outDir, flavor),
+          sprite: outFile,
+        },
+      },
+    }
+
+    const spriter = new SVGSpriter(config)
+
+    mappingEntries.forEach(([mappedName, symbol]) => {
+      const file = path.resolve(`./icons/${flavor}/${mappedName}.svg`)
+
+      if (fs.existsSync(file)) {
+        for (const name of findNames(symbol)) {
+          spriter.add(
+            path.resolve(`./icons/${flavor}/${name}.svg`),
+            `${name}.svg`,
+            fs.readFileSync(file, 'utf-8'),
+          )
+        }
+      }
+    })
+
+    spriter.compile((error, result) => {
+      if (error) {
+        consola.info(`Error compiling sprite for ${flavor}:`, error)
+        return
+      }
+
+      const outputDir = path.resolve(path.join(outDir, flavor))
+      fs.mkdirSync(outputDir, { recursive: true })
+
+      const outputPath = result.symbol.sprite.path
+      fs.writeFileSync(outputPath, result.symbol.sprite.contents)
+    })
+
+    consola.success(`Generated fonts for ${flavor} flavor.`)
+  }
 }
-catch (error) {
-  consola.error('Failed to build VSC extension: ', error)
-  exit(1)
-}
+
+// Call the function to generate all fonts
+generateAllFonts().catch((error) => {
+  consola.error('Error generating fonts:', error)
+  process.exit(1)
+})

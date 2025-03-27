@@ -14,7 +14,7 @@ import { consola } from 'consola'
 import { lookpath } from 'lookpath'
 import { launch } from 'puppeteer'
 
-if (!await lookpath('catwalk')) {
+if (!(await lookpath('catwalk'))) {
   consola.error('Catwalk not installed.')
   exit(1)
 }
@@ -71,24 +71,26 @@ try {
 
   const tmp = await mkdtemp(join(tmpdir(), sep))
 
-  const images = await Promise.all(flavorEntries.map(async ([flavor]) => {
-    const htmlPath = join(tmp, `${flavor}.html`)
-    const screenshotPath = join(tmp, `${flavor}.png`)
-    await writeFile(htmlPath, generateHtml(flavor))
-    const browser = await launch({
-      args: ['--no-sandbox'],
-    })
-    const page = await browser.newPage()
-    await page.setViewport({
-      height: 400,
-      width: 700,
-      deviceScaleFactor: 3,
-    })
-    await page.goto(join('file:', htmlPath))
-    await page.screenshot({ path: screenshotPath })
-    await browser.close()
-    return screenshotPath
-  }))
+  const images = await Promise.all(
+    flavorEntries.map(async ([flavor]) => {
+      const htmlPath = join(tmp, `${flavor}.html`)
+      const screenshotPath = join(tmp, `${flavor}.png`)
+      await writeFile(htmlPath, generateHtml(flavor))
+      const browser = await launch({
+        args: ['--no-sandbox'],
+      })
+      const page = await browser.newPage()
+      await page.setViewport({
+        height: 400,
+        width: 700,
+        deviceScaleFactor: 3,
+      })
+      await page.goto(join('file:', htmlPath))
+      await page.screenshot({ path: screenshotPath })
+      await browser.close()
+      return screenshotPath
+    }),
+  )
   await promisify(exec)(`catwalk ${images.join(' ')} --output="${OUT}"`)
 
   await rm(tmp, { recursive: true })
