@@ -961,7 +961,10 @@ const fileIcons: FileIcons = {
     ],
   },
   'gitlab': {
-    fileExtensions: ['gitlab-ci.yml'],
+    fileExtensions: [
+      'gitlab-ci.yml',
+      'gitlab-ci.yaml',
+    ],
   },
   'gitpod': {
     fileNames: ['.gitpod.yml'],
