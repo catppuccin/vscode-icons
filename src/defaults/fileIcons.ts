@@ -891,6 +891,7 @@ const fileIcons: FileIcons = {
       'f95',
       'f03',
       'f08',
+      'for',
     ],
   },
   'fsharp': {
