@@ -104,6 +104,7 @@ const fileIcons: FileIcons = {
     fileNames: [
       '.ds_store',
       'apple-app-site-association',
+      'apple-developer-merchantid-domain-association',
     ],
   },
   'asciidoc': {
