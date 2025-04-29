@@ -2350,8 +2350,8 @@ const fileIcons: FileIcons = {
       'tfvars',
       'tfstate',
       'tfbackend',
-      'tofu', //Till we can add a separate tofu icon
-      'tofu.json' //Till we can add a separate tofu icon
+      'tofu', // Till we can add a separate tofu icon
+      'tofu.json', // Till we can add a separate tofu icon
     ],
   },
   'text': {
