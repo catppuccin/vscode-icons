@@ -1,5 +1,38 @@
 # Changelog
 
+## v1.21.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.20.0...v1.21.0)
+
+### 🚀 Enhancements
+
+- **icons:** Add `forgejo` icon (unassociated) ([#446](https://github.com/catppuccin/vscode-icons/pull/446))
+- **icons:** Add `forgejo` folder ([#448](https://github.com/catppuccin/vscode-icons/pull/448))
+- **icons:** Generic `lock` & `config` (unassociated) ([#429](https://github.com/catppuccin/vscode-icons/pull/429))
+- **associations:** `for` to `fortran` icon ([#463](https://github.com/catppuccin/vscode-icons/pull/463))
+- **associations:** `apple-developer-merchantid-domain-association` to `apple` icon ([#476](https://github.com/catppuccin/vscode-icons/pull/476))
+
+### 🩹 Fixes
+
+- **associations:** Add `gitlab-ci.yaml` to `gitlab` ([#462](https://github.com/catppuccin/vscode-icons/pull/462))
+
+### 📖 Documentation
+
+- **README:** Update mention to catppuccin/web-file-explorer-icons ([#458](https://github.com/catppuccin/vscode-icons/pull/458))
+- **README:** Add title links ([4f14643](https://github.com/catppuccin/vscode-icons/commit/4f14643))
+
+### 🏡 Chore
+
+- Re-generate previews ([#447](https://github.com/catppuccin/vscode-icons/pull/447))
+
+### ❤️ Contributors
+
+- Clara <clara.link@pm.me>
+- Sk337 ([@sk337](https://github.com/sk337))
+- Hammy ([@sgoudham](https://github.com/sgoudham))
+- Thelooter <evekolb2204@gmail.com>
+- Uncenter ([@uncenter](https://github.com/uncenter))
+
 ## v1.20.0
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.19.0...v1.20.0)
