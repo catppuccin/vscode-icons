@@ -2653,6 +2653,9 @@ const fileIcons: FileIcons = {
     languageIds: ['vue'],
     fileExtensions: ['vue'],
   },
+  'wally': {
+    fileNames: ['wally.toml', 'wally.lock'],
+  },
   'web-assembly': {
     fileExtensions: [
       'wat',
