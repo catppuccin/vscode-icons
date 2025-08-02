@@ -1723,6 +1723,10 @@ const fileIcons: FileIcons = {
       'cmx',
     ],
   },
+  'odin': {
+    languageIds: ['odin'],
+    fileExtensions: ['odin'],
+  },
   'org': {
     languageIds: ['org'],
     fileExtensions: ['org'],
