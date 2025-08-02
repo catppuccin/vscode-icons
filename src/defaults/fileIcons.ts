@@ -326,6 +326,7 @@ const fileIcons: FileIcons = {
       'cert',
       'crt',
       'pfx',
+      'entitlements',
     ],
   },
   'changelog': {
@@ -2316,6 +2317,9 @@ const fileIcons: FileIcons = {
   'swift': {
     languageIds: ['swift'],
     fileExtensions: ['swift'],
+  },
+  'switftformat': {
+    fileNames: ['.swiftformat'],
   },
   'tailwind': {
     fileNames: [
