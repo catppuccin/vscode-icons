@@ -398,6 +398,9 @@ const folderIcons: FolderIcons = {
   'intellij': {
     folderNames: ['.idea'],
   },
+  'javascript': {
+    folderNames: ['js', 'javascript'],
+  },
   'kubernetes': {
     folderNames: [
       'kubernetes',
