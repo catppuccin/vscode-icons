@@ -92,7 +92,7 @@ try {
 
   await Promise.all(flavorEntries.map(async ([flavor]) => {
     const htmlPath = join(tmp, `${flavor}.html`)
-    const screenshotPath = join('assets', `${flavor}.webp`)
+    const screenshotPath = join('assets', `${flavor}.webp`) as `${string}.webp`
     await writeFile(htmlPath, generateHtml(flavor))
     const browser = await launch({
       args: ['--no-sandbox'],
