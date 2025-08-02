@@ -428,6 +428,9 @@ const folderIcons: FolderIcons = {
       '.tx',
     ],
   },
+  'messages': {
+    folderNames: ['message', 'messages'],
+  },
   'middleware': {
     folderNames: [
       'middleware',
