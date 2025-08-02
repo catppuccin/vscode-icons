@@ -392,6 +392,9 @@ const folderIcons: FolderIcons = {
       'photographs',
     ],
   },
+  'include': {
+    folderNames: ['include', 'includes'],
+  },
   'intellij': {
     folderNames: ['.idea'],
   },
