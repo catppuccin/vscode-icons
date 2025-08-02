@@ -500,6 +500,9 @@ const folderIcons: FolderIcons = {
   'prisma': {
     folderNames: ['prisma'],
   },
+  'private': {
+    folderNames: ['private'],
+  },
   'public': {
     folderNames: [
       '_site',
