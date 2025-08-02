@@ -492,6 +492,10 @@ const fileIcons: FileIcons = {
       'cuh',
     ],
   },
+  'cue': {
+    languageIds: ['cue'],
+    fileExtensions: ['cue'],
+  },
   'cypress': {
     fileNames: [
       'cypress.json',
