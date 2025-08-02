@@ -436,6 +436,10 @@ const fileIcons: FileIcons = {
       'ii',
     ],
   },
+  'crystal': {
+    languageIds: ['crystal', 'ecr'],
+    fileExtensions: ['cr', 'ecr'],
+  },
   'csharp': {
     languageIds: ['csharp'],
     fileExtensions: [
