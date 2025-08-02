@@ -1501,13 +1501,13 @@ const fileIcons: FileIcons = {
     languageIds: ['log'],
     fileExtensions: ['log'],
   },
+  'lua-rocks': {
+    fileNames: ['.rock', '.rockspec'],
+  },
   'lua': {
     languageIds: ['lua'],
     fileExtensions: ['lua'],
     fileNames: ['.luacheckrc'],
-  },
-  'luarocks': {
-    fileNames: ['.rock', '.rockspec'],
   },
   'luau': {
     fileExtensions: ['luau'],
@@ -2321,7 +2321,7 @@ const fileIcons: FileIcons = {
     languageIds: ['swift'],
     fileExtensions: ['swift'],
   },
-  'switftformat': {
+  'swiftformat': {
     fileNames: ['.swiftformat'],
   },
   'tailwind': {
