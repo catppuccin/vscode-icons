@@ -1550,6 +1550,7 @@ const fileIcons: FileIcons = {
   },
   'matlab': {
     languageIds: ['matlab'],
+    fileExtensions: ['m', 'mat'],
   },
   'mdbook': {
     fileNames: ['book.toml'],
