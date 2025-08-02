@@ -2240,6 +2240,10 @@ const fileIcons: FileIcons = {
   'spwn': {
     fileExtensions: ['spwn'],
   },
+  'squirrel': {
+    languageIds: ['squirrel'],
+    fileExtensions: ['nut'],
+  },
   'stackblitz': {
     fileNames: ['.stackblitzrc'],
   },
