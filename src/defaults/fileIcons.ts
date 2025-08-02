@@ -2125,6 +2125,9 @@ const fileIcons: FileIcons = {
       'sc',
     ],
   },
+  'scheme': {
+    fileExtensions: ['scm'],
+  },
   'search': {
     languageIds: ['search-result'],
     fileExtensions: ['code-search'],
