@@ -1086,6 +1086,10 @@ const fileIcons: FileIcons = {
       'hardhat.config.ts',
     ],
   },
+  'hare': {
+    languageIds: ['hare'],
+    fileExtensions: ['ha'],
+  },
   'haskell': {
     languageIds: ['haskell'],
     fileExtensions: ['hs'],
