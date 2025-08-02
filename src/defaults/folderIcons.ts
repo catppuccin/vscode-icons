@@ -459,6 +459,9 @@ const folderIcons: FolderIcons = {
       'sketches',
     ],
   },
+  'moonrepo': {
+    folderNames: ['.moon'],
+  },
   'next': {
     folderNames: ['.next'],
   },

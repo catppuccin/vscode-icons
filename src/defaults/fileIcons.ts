@@ -1581,6 +1581,9 @@ const fileIcons: FileIcons = {
       '.modernizrrc.json',
     ],
   },
+  'moonrepo': {
+    fileNames: ['moon.yml', 'moon.yaml'],
+  },
   'ms-excel': {
     fileExtensions: [
       'xlsx',
@@ -1924,6 +1927,9 @@ const fileIcons: FileIcons = {
   'proto': {
     languageIds: ['proto'],
     fileExtensions: ['proto'],
+  },
+  'prototools': {
+    fileNames: ['.prototools'],
   },
   'pug': {
     languageIds: ['jade'],
