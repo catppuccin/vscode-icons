@@ -568,6 +568,12 @@ const folderIcons: FolderIcons = {
       'backend',
     ],
   },
+  'shared': {
+    folderNames: [
+      'share',
+      'shared',
+    ],
+  },
   'src': {
     folderNames: [
       'src',
