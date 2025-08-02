@@ -1506,6 +1506,9 @@ const fileIcons: FileIcons = {
     fileExtensions: ['lua'],
     fileNames: ['.luacheckrc'],
   },
+  'luarocks': {
+    fileNames: ['.rock', '.rockspec'],
+  },
   'luau': {
     fileExtensions: ['luau'],
     fileNames: ['.luaurc'],
