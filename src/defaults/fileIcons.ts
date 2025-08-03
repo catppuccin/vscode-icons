@@ -1539,6 +1539,9 @@ const fileIcons: FileIcons = {
       'kbuild',
     ],
   },
+  'mantle': {
+    fileNames: ['mantle.yml', '.mantle-state.yml'],
+  },
   'markdown-mdx': {
     fileExtensions: ['mdx'],
   },
