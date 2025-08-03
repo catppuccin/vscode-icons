@@ -514,6 +514,9 @@ const fileIcons: FileIcons = {
     languageIds: ['d'],
     fileExtensions: ['d', 'di'],
   },
+  'darklua': {
+    fileExtensions: ['darklua.json'],
+  },
   'dart-generated': {
     fileExtensions: [
       'freezed.dart',
