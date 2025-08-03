@@ -351,6 +351,9 @@ const folderIcons: FolderIcons = {
   'gradle': {
     folderNames: ['gradle', '.gradle'],
   },
+  'graphql': {
+    folderNames: ['graphql', 'gql'],
+  },
   'hooks': {
     folderNames: ['hook', 'hooks', 'trigger', 'triggers'],
   },
