@@ -2136,6 +2136,9 @@ const fileIcons: FileIcons = {
   'robots': {
     fileNames: ['robots.txt'],
   },
+  'rocket': {
+    fileNames: ['rocket.toml'],
+  },
   'rokit': {
     fileNames: ['rokit.toml'],
   },
