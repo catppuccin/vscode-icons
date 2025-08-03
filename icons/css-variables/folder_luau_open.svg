@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+	<path fill="none" stroke="var(--vscode-ctp-text)" stroke-linecap="round" stroke-linejoin="round" d="m1.87 8 .7-2.74a1 1 0 01.96-.76h10.94a1 1 0 01.97 1.24l-.219.875M6 13.5H2A1.5 1.5 0 01.5 12V3.5a1 1 0 011-1h5a1 1 0 011 1v1" />
+	<path fill="none" stroke="var(--vscode-ctp-sky)" stroke-linejoin="round" d="M 9.3135186,7.6238747 15.500012,9.2869105 13.850279,15.500012 7.6238744,13.810367 Z" />
+	<path fill="none" stroke="var(--vscode-ctp-text)" stroke-linejoin="round" d="m 11.482082,9.980539 -0.46346,1.853836 1.853838,0.463458 0.46346,-1.853835 z" />
+</svg>
