@@ -487,6 +487,9 @@ const folderIcons: FolderIcons = {
       'crates',
     ],
   },
+  'pesde': {
+    folderNames: ['.pesde', 'pesde'],
+  },
   'plugins': {
     folderNames: [
       'plugin',
