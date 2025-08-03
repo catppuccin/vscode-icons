@@ -500,6 +500,17 @@ const fileIcons: FileIcons = {
     languageIds: ['cue'],
     fileExtensions: ['cue'],
   },
+  'cursor-ignore': {
+    fileNames: [
+      '.cursorignore',
+      '.cursorindexingignore',
+    ],
+  },
+  'cursor': {
+    fileNames: [
+      '.cursorrules',
+    ],
+  },
   'cypress': {
     fileNames: [
       'cypress.json',
