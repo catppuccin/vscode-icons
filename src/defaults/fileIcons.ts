@@ -1372,6 +1372,11 @@ const fileIcons: FileIcons = {
   'juce': {
     fileExtensions: ['jucer'],
   },
+  'jule': {
+    languageIds: ['jule'],
+    fileExtensions: ['jule'],
+    fileNames: ['jule.mod'],
+  },
   'julia': {
     languageIds: ['julia'],
     fileExtensions: ['jl'],
