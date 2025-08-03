@@ -2075,6 +2075,9 @@ const fileIcons: FileIcons = {
   'robots': {
     fileNames: ['robots.txt'],
   },
+  'rokit': {
+    fileNames: ['rokit.toml'],
+  },
   'rollup': {
     fileNames: [
       'rollup.config.js',
