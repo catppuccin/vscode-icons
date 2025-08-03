@@ -533,6 +533,14 @@ const folderIcons: FolderIcons = {
   'private': {
     folderNames: ['private'],
   },
+  'proto': {
+    folderNames: [
+      'protobuf',
+      'protobufs',
+      'proto',
+      'protos',
+    ],
+  },
   'public': {
     folderNames: [
       '_site',
