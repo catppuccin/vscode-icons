@@ -2591,8 +2591,15 @@ const fileIcons: FileIcons = {
       'v.mod',
     ],
   },
+  'vala': {
+    languageIds: ['vala'],
+    fileExtensions: ['vala'],
+  },
   'vanilla-extract': {
     fileExtensions: ['css.ts'],
+  },
+  'vapi': {
+    fileExtensions: ['vapi'],
   },
   'vento': {
     fileExtensions: ['vto'],
