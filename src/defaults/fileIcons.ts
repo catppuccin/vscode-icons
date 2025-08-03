@@ -102,10 +102,13 @@ const fileIcons: FileIcons = {
   },
   'apple': {
     fileNames: [
-      '.ds_store',
       'apple-app-site-association',
       'apple-developer-merchantid-domain-association',
     ],
+  },
+  'arduino': {
+    languageIds: ['arduino'],
+    fileExtensions: ['ino'],
   },
   'asciidoc': {
     fileExtensions: ['adoc', 'asciidoc', 'asc'],
@@ -250,6 +253,14 @@ const fileIcons: FileIcons = {
       'benchmarks.rst',
       'benchmarks.txt',
     ],
+  },
+  'bicep': {
+    languageIds: ['bicep'],
+    fileExtensions: [
+      'bicep',
+      'bicepparam',
+    ],
+    fileNames: ['bicepconfig.json'],
   },
   'binary': {
     languageIds: ['code-text-binary'],
@@ -500,6 +511,15 @@ const fileIcons: FileIcons = {
     languageIds: ['cue'],
     fileExtensions: ['cue'],
   },
+  'cursor-ignore': {
+    fileNames: [
+      '.cursorignore',
+      '.cursorindexingignore',
+    ],
+  },
+  'cursor': {
+    fileNames: ['.cursorrules'],
+  },
   'cypress': {
     fileNames: [
       'cypress.json',
@@ -513,6 +533,9 @@ const fileIcons: FileIcons = {
   'd': {
     languageIds: ['d'],
     fileExtensions: ['d', 'di'],
+  },
+  'darklua': {
+    fileExtensions: ['darklua.json', 'darklua.json5'],
   },
   'dart-generated': {
     fileExtensions: [
@@ -703,6 +726,14 @@ const fileIcons: FileIcons = {
       'containerfile.ci',
       'containerfile.web',
       'containerfile.worker',
+    ],
+  },
+  'docusaurus': {
+    fileNames: [
+      'docusaurus.config.js',
+      'docusaurus.config.mjs',
+      'docusaurus.config.cjs',
+      'docusaurus.config.ts',
     ],
   },
   'drawio': {
@@ -912,7 +943,6 @@ const fileIcons: FileIcons = {
       'fs',
       'fsx',
       'fsi',
-      'fsproj',
     ],
   },
   'fvm': {
@@ -1077,6 +1107,13 @@ const fileIcons: FileIcons = {
       'gulpfile.cts',
       'gulpfile.mts',
       'gulpfile.babel.js',
+    ],
+  },
+  'hacking': {
+    fileNames: [
+      'hacking.md',
+      'hacking.txt',
+      'hacking',
     ],
   },
   'haml': {
@@ -1369,6 +1406,11 @@ const fileIcons: FileIcons = {
   'juce': {
     fileExtensions: ['jucer'],
   },
+  'jule': {
+    languageIds: ['jule'],
+    fileExtensions: ['jule'],
+    fileNames: ['jule.mod'],
+  },
   'julia': {
     languageIds: ['julia'],
     fileExtensions: ['jl'],
@@ -1527,6 +1569,9 @@ const fileIcons: FileIcons = {
     fileExtensions: ['luau'],
     fileNames: ['.luaurc'],
   },
+  'macos': {
+    fileNames: ['.ds_store'],
+  },
   'makefile': {
     languageIds: ['makefile'],
     fileExtensions: ['mk'],
@@ -1535,6 +1580,9 @@ const fileIcons: FileIcons = {
       'gnumakefile',
       'kbuild',
     ],
+  },
+  'mantle': {
+    fileNames: ['mantle.yml', '.mantle-state.yml'],
   },
   'markdown-mdx': {
     fileExtensions: ['mdx'],
@@ -1735,6 +1783,12 @@ const fileIcons: FileIcons = {
       'nuxt.config.ts',
     ],
   },
+  'nx-ignore': {
+    fileNames: ['.nxignore'],
+  },
+  'nx': {
+    fileNames: ['nx.json'],
+  },
   'ocaml': {
     fileExtensions: [
       'ml',
@@ -1745,6 +1799,10 @@ const fileIcons: FileIcons = {
   'odin': {
     languageIds: ['odin'],
     fileExtensions: ['odin'],
+  },
+  'opentofu': {
+    languageIds: ['opentofu'],
+    fileExtensions: ['tofu', 'tofu.json'],
   },
   'org': {
     languageIds: ['org'],
@@ -1791,6 +1849,12 @@ const fileIcons: FileIcons = {
       'pl6',
       'pm6',
     ],
+  },
+  'pesde-lock': {
+    fileNames: ['pesde.lock'],
+  },
+  'pesde': {
+    fileNames: ['pesde.toml'],
   },
   'php': {
     languageIds: ['php'],
@@ -1973,6 +2037,10 @@ const fileIcons: FileIcons = {
       '.pug-lintrc.json',
     ],
   },
+  'puppet': {
+    languageIds: ['puppet'],
+    fileExtensions: ['pp', 'epp'],
+  },
   'puppeteer': {
     fileNames: [
       '.puppeteerrc.cjs,',
@@ -2011,9 +2079,8 @@ const fileIcons: FileIcons = {
     ],
     fileExtensions: [
       'r',
-      'rmd',
     ],
-    fileNames: ['.Rhistory'],
+    fileNames: ['.rhistory'],
   },
   'racket': {
     fileExtensions: ['rkt'],
@@ -2027,6 +2094,9 @@ const fileIcons: FileIcons = {
       'cshtml',
       'vbhtml',
     ],
+  },
+  'rdata': {
+    fileExtensions: ['rdata'],
   },
   'readme': {
     fileNames: [
@@ -2071,11 +2141,20 @@ const fileIcons: FileIcons = {
     languageIds: ['rescript'],
     fileExtensions: ['res'],
   },
+  'rmd': {
+    fileExtensions: ['rmd'],
+  },
   'roblox': {
     fileExtensions: ['rbxl', 'rbxlx', 'rbxm', 'rbxmx'],
   },
   'robots': {
     fileNames: ['robots.txt'],
+  },
+  'rocket': {
+    fileNames: ['rocket.toml'],
+  },
+  'rokit': {
+    fileNames: ['rokit.toml'],
   },
   'rollup': {
     fileNames: [
@@ -2101,6 +2180,9 @@ const fileIcons: FileIcons = {
       'rollup.config.prod.vendor.mjs',
       'rollup.config.prod.vendor.ts',
     ],
+  },
+  'rproj': {
+    fileExtensions: ['rproj'],
   },
   'ruby-gem-lock': {
     fileNames: ['gemfile.lock'],
@@ -2247,6 +2329,10 @@ const fileIcons: FileIcons = {
   'sketch': {
     fileExtensions: ['sketch'],
   },
+  'slidesk': {
+    languageIds: ['sdf'],
+    fileExtensions: ['sdf', 'sdt'],
+  },
   'snowpack': {
     fileNames: [
       'snowpack.config.js',
@@ -2346,6 +2432,12 @@ const fileIcons: FileIcons = {
       '.stylelintrc.mjs',
       '.stylelintrc.mts',
     ],
+  },
+  'stylua-ignore': {
+    fileNames: ['.styluaignore'],
+  },
+  'stylua': {
+    fileNames: ['stylua.toml'],
   },
   'sublime': {
     fileExtensions: [
@@ -2569,8 +2661,15 @@ const fileIcons: FileIcons = {
       'v.mod',
     ],
   },
+  'vala': {
+    languageIds: ['vala'],
+    fileExtensions: ['vala'],
+  },
   'vanilla-extract': {
     fileExtensions: ['css.ts'],
+  },
+  'vapi': {
+    fileExtensions: ['vapi'],
   },
   'vento': {
     fileExtensions: ['vto'],
@@ -2640,8 +2739,14 @@ const fileIcons: FileIcons = {
     ],
     fileExtensions: [
       'csproj',
+      'csproj.user',
+      'vbproj',
+      'vbproj.user',
+      'fsproj',
+      'fsproj.user',
       'ruleset',
       'sln',
+      'slnf',
       'slnx',
       'suo',
       'vb',
@@ -2920,6 +3025,13 @@ const fileIcons: FileIcons = {
     fileExtensions: [
       'workflows/yml',
       'workflows/yaml',
+    ],
+  },
+  'wrangler': {
+    fileNames: [
+      'wrangler.toml',
+      'wrangler.json',
+      'wrangler.jsonc',
     ],
   },
   'wxt': {

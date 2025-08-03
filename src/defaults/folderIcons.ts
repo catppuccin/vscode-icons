@@ -210,6 +210,9 @@ const folderIcons: FolderIcons = {
       '__integration-tests__',
     ],
   },
+  'cursor': {
+    folderNames: ['.cursor'],
+  },
   'cypress': {
     folderNames: [
       'cypress',
@@ -351,6 +354,9 @@ const folderIcons: FolderIcons = {
   'gradle': {
     folderNames: ['gradle', '.gradle'],
   },
+  'graphql': {
+    folderNames: ['graphql', 'gql'],
+  },
   'hooks': {
     folderNames: ['hook', 'hooks', 'trigger', 'triggers'],
   },
@@ -416,6 +422,21 @@ const folderIcons: FolderIcons = {
       '_layouts',
     ],
   },
+  'lib': {
+    folderNames: [
+      'lib',
+      'libs',
+      'library',
+      'libraries',
+      '.lib',
+      '.libs',
+      '.library',
+      '.libraries',
+    ],
+  },
+  'linux': {
+    folderNames: ['linux'],
+  },
   'locales': {
     folderNames: [
       'i18n',
@@ -433,6 +454,15 @@ const folderIcons: FolderIcons = {
       'translations',
       '.tx',
     ],
+  },
+  'luau': {
+    folderNames: ['luau_packages'],
+  },
+  'lune': {
+    folderNames: ['lune_packages'],
+  },
+  'macos': {
+    folderNames: ['mac', 'macos'],
   },
   'messages': {
     folderNames: ['message', 'messages'],
@@ -487,6 +517,9 @@ const folderIcons: FolderIcons = {
       'crates',
     ],
   },
+  'pesde': {
+    folderNames: ['.pesde', 'pesde'],
+  },
   'plugins': {
     folderNames: [
       'plugin',
@@ -511,6 +544,14 @@ const folderIcons: FolderIcons = {
   },
   'private': {
     folderNames: ['private'],
+  },
+  'proto': {
+    folderNames: [
+      'protobuf',
+      'protobufs',
+      'proto',
+      'protos',
+    ],
   },
   'public': {
     folderNames: [
@@ -540,6 +581,12 @@ const folderIcons: FolderIcons = {
     folderNames: [
       '.renovate',
       'renovate',
+    ],
+  },
+  'roblox': {
+    folderNames: [
+      'roblox_packages',
+      'roblox_server_packages',
     ],
   },
   'routes': {
@@ -714,6 +761,9 @@ const folderIcons: FolderIcons = {
       '.vscode-test',
     ],
   },
+  'windows': {
+    folderNames: ['windows'],
+  },
   'workflows': {
     folderNames: [
       'workflow',
@@ -732,6 +782,9 @@ const folderIcons: FolderIcons = {
       'xcshareddata',
       'xcschemes',
     ],
+  },
+  'xmake': {
+    folderNames: ['xmake', '.xmake'],
   },
   'yarn': {
     folderNames: ['.yarn'],
