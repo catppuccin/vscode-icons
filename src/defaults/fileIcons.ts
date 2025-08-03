@@ -2024,9 +2024,8 @@ const fileIcons: FileIcons = {
     ],
     fileExtensions: [
       'r',
-      'rmd',
     ],
-    fileNames: ['.Rhistory'],
+    fileNames: ['.rhistory'],
   },
   'racket': {
     fileExtensions: ['rkt'],
@@ -2040,6 +2039,9 @@ const fileIcons: FileIcons = {
       'cshtml',
       'vbhtml',
     ],
+  },
+  'rdata': {
+    fileExtensions: ['rdata'],
   },
   'readme': {
     fileNames: [
@@ -2084,6 +2086,9 @@ const fileIcons: FileIcons = {
     languageIds: ['rescript'],
     fileExtensions: ['res'],
   },
+  'rmd': {
+    fileExtensions: ['rmd'],
+  },
   'roblox': {
     fileExtensions: ['rbxl', 'rbxlx', 'rbxm', 'rbxmx'],
   },
@@ -2117,6 +2122,9 @@ const fileIcons: FileIcons = {
       'rollup.config.prod.vendor.mjs',
       'rollup.config.prod.vendor.ts',
     ],
+  },
+  'rproj': {
+    fileExtensions: ['rproj'],
   },
   'ruby-gem-lock': {
     fileNames: ['gemfile.lock'],
