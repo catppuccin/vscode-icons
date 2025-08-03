@@ -2706,6 +2706,7 @@ const fileIcons: FileIcons = {
       'fsproj.user',
       'ruleset',
       'sln',
+      'slnf',
       'slnx',
       'suo',
       'vb',
