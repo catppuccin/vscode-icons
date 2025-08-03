@@ -1760,6 +1760,10 @@ const fileIcons: FileIcons = {
     languageIds: ['odin'],
     fileExtensions: ['odin'],
   },
+  'opentofu': {
+    languageIds: ['opentofu'],
+    fileExtensions: ['tofu', 'tofu.json'],
+  },
   'org': {
     languageIds: ['org'],
     fileExtensions: ['org'],
