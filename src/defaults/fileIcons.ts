@@ -931,7 +931,6 @@ const fileIcons: FileIcons = {
       'fs',
       'fsx',
       'fsi',
-      'fsproj',
     ],
   },
   'fvm': {
@@ -2700,6 +2699,11 @@ const fileIcons: FileIcons = {
     ],
     fileExtensions: [
       'csproj',
+      'csproj.user',
+      'vbproj',
+      'vbproj.user',
+      'fsproj',
+      'fsproj.user',
       'ruleset',
       'sln',
       'slnx',
