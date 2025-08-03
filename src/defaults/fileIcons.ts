@@ -535,7 +535,7 @@ const fileIcons: FileIcons = {
     fileExtensions: ['d', 'di'],
   },
   'darklua': {
-    fileExtensions: ['darklua.json'],
+    fileExtensions: ['darklua.json', 'darklua.json5'],
   },
   'dart-generated': {
     fileExtensions: [
