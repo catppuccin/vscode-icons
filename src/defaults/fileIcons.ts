@@ -1674,6 +1674,14 @@ const fileIcons: FileIcons = {
       'odt',
     ],
   },
+  'msbuild': {
+    fileNames: [
+      'directory.build.props',
+      'directory.build.rsp',
+      'directory.build.targets',
+      'directory.packages.props',
+    ],
+  },
   'nativescript': {
     fileNames: [
       'nativescript.config.ts',
