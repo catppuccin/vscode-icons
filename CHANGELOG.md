@@ -1,5 +1,54 @@
 # Changelog
 
+## v1.23.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.22.0...v1.23.0)
+
+### 🚀 Enhancements
+
+- Symlinked folder icon (unassociated) ([8bea1ac](https://github.com/catppuccin/vscode-icons/commit/8bea1ac))
+- Darklua icon ([0932a71](https://github.com/catppuccin/vscode-icons/commit/0932a71))
+- Mantle icon ([dd5f788](https://github.com/catppuccin/vscode-icons/commit/dd5f788))
+- Rokit icon ([45b1558](https://github.com/catppuccin/vscode-icons/commit/45b1558))
+- Pesde file & folder icons ([ff3be3c](https://github.com/catppuccin/vscode-icons/commit/ff3be3c))
+- Roblox + luau + lune folder icons ([defb392](https://github.com/catppuccin/vscode-icons/commit/defb392))
+- Stylua icons ([f2e3c78](https://github.com/catppuccin/vscode-icons/commit/f2e3c78))
+- Jule icon ([cd7aef2](https://github.com/catppuccin/vscode-icons/commit/cd7aef2))
+- Lib folder icon ([ad8fce5](https://github.com/catppuccin/vscode-icons/commit/ad8fce5))
+- Puppet icon ([e5f7559](https://github.com/catppuccin/vscode-icons/commit/e5f7559))
+- Vala + vapi icons ([559b3b0](https://github.com/catppuccin/vscode-icons/commit/559b3b0))
+- Rproj + rmd + rdata icons ([88e2e28](https://github.com/catppuccin/vscode-icons/commit/88e2e28))
+- Proto folder icon ([076ed61](https://github.com/catppuccin/vscode-icons/commit/076ed61))
+- Macos + linux + windows + xmake folder icons ([3481b49](https://github.com/catppuccin/vscode-icons/commit/3481b49))
+- Graphql folder icon ([5f37dd4](https://github.com/catppuccin/vscode-icons/commit/5f37dd4))
+- Wrangler icon ([a8ac23b](https://github.com/catppuccin/vscode-icons/commit/a8ac23b))
+- Cursor files + folder icons ([ed8736f](https://github.com/catppuccin/vscode-icons/commit/ed8736f))
+- Opentofu icon ([9a4fef3](https://github.com/catppuccin/vscode-icons/commit/9a4fef3))
+- Bicep icon ([a7137d1](https://github.com/catppuccin/vscode-icons/commit/a7137d1))
+- Slnf file association ([02aec5b](https://github.com/catppuccin/vscode-icons/commit/02aec5b))
+- Hacking icon ([de24866](https://github.com/catppuccin/vscode-icons/commit/de24866))
+- Slidesk icon ([7423d71](https://github.com/catppuccin/vscode-icons/commit/7423d71))
+- Docusaurus icon ([5978952](https://github.com/catppuccin/vscode-icons/commit/5978952))
+- Arduino icon ([763672f](https://github.com/catppuccin/vscode-icons/commit/763672f))
+- Rocket-rs icon ([f5e3774](https://github.com/catppuccin/vscode-icons/commit/f5e3774))
+- Nx + nxignore icons ([ba4e6e6](https://github.com/catppuccin/vscode-icons/commit/ba4e6e6))
+- **icons:** Add msbuild icon and associations ([#493](https://github.com/catppuccin/vscode-icons/pull/493))
+
+### 🩹 Fixes
+
+- Csproj + fsproj + vbproj associations consistency ([7923c19](https://github.com/catppuccin/vscode-icons/commit/7923c19))
+- **associations:** `darklua.json5` to `darklua` ([fff536c](https://github.com/catppuccin/vscode-icons/commit/fff536c))
+
+### 🏡 Chore
+
+- Re-generate previews ([#528](https://github.com/catppuccin/vscode-icons/pull/528))
+
+### ❤️ Contributors
+
+- Matt Kotsenas <Matt.Kotsenas@gmail.com>
+- Sgoudham <sgoudham@gmail.com>
+- Praz <hi@praz.dev>
+
 ## v1.22.0
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.21.0...v1.22.0)
