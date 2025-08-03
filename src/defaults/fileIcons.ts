@@ -1097,6 +1097,13 @@ const fileIcons: FileIcons = {
       'gulpfile.babel.js',
     ],
   },
+  'hacking': {
+    fileNames: [
+      'hacking.md',
+      'hacking.txt',
+      'hacking',
+    ],
+  },
   'haml': {
     languageIds: ['haml'],
     fileExtensions: ['haml'],
