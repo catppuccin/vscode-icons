@@ -2354,6 +2354,12 @@ const fileIcons: FileIcons = {
       '.stylelintrc.mts',
     ],
   },
+  'stylua-ignore': {
+    fileNames: ['.styluaignore'],
+  },
+  'stylua': {
+    fileNames: ['stylua.toml'],
+  },
   'sublime': {
     fileExtensions: [
       'sublime-project',
