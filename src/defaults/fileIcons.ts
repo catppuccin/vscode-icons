@@ -2961,6 +2961,13 @@ const fileIcons: FileIcons = {
       'workflows/yaml',
     ],
   },
+  'wrangler': {
+    fileNames: [
+      'wrangler.toml',
+      'wrangler.json',
+      'wrangler.jsonc',
+    ],
+  },
   'wxt': {
     fileNames: [
       'wxt.config.js',
