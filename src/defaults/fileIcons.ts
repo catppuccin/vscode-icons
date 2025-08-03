@@ -1790,6 +1790,12 @@ const fileIcons: FileIcons = {
       'pm6',
     ],
   },
+  'pesde-lock': {
+    fileNames: ['pesde.lock'],
+  },
+  'pesde': {
+    fileNames: ['pesde.toml'],
+  },
   'php': {
     languageIds: ['php'],
     fileExtensions: ['php'],
