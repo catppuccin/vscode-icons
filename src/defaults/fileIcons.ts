@@ -102,7 +102,6 @@ const fileIcons: FileIcons = {
   },
   'apple': {
     fileNames: [
-      '.ds_store',
       'apple-app-site-association',
       'apple-developer-merchantid-domain-association',
     ],
@@ -1534,6 +1533,9 @@ const fileIcons: FileIcons = {
   'luau': {
     fileExtensions: ['luau'],
     fileNames: ['.luaurc'],
+  },
+  'macos': {
+    fileNames: ['.ds_store'],
   },
   'makefile': {
     languageIds: ['makefile'],
