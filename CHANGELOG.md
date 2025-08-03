@@ -1,5 +1,51 @@
 # Changelog
 
+## v1.22.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.21.0...v1.22.0)
+
+### 🚀 Enhancements
+
+- **associations:** Add `.ts` variants to `lint-staged` and `stylelint` ([#515](https://github.com/catppuccin/vscode-icons/pull/515))
+- Wally icon ([f8d3415](https://github.com/catppuccin/vscode-icons/commit/f8d3415))
+- Alt rust icons ([c6a9eda](https://github.com/catppuccin/vscode-icons/commit/c6a9eda))
+- Swiftformat icon + swift associations ([db8a0ce](https://github.com/catppuccin/vscode-icons/commit/db8a0ce))
+- Luarocks icon ([e5358a2](https://github.com/catppuccin/vscode-icons/commit/e5358a2))
+- Messages folder icon ([e7c98aa](https://github.com/catppuccin/vscode-icons/commit/e7c98aa))
+- Private folder icon ([7cc9106](https://github.com/catppuccin/vscode-icons/commit/7cc9106))
+- Include folder icon ([d063d08](https://github.com/catppuccin/vscode-icons/commit/d063d08))
+- Hare file icon ([9bcd0f3](https://github.com/catppuccin/vscode-icons/commit/9bcd0f3))
+- Cue file icon ([4202dbc](https://github.com/catppuccin/vscode-icons/commit/4202dbc))
+- Shared folder icon ([d1f11cd](https://github.com/catppuccin/vscode-icons/commit/d1f11cd))
+- Add crystal icon ([1dd9837](https://github.com/catppuccin/vscode-icons/commit/1dd9837))
+- Javascript folder icon ([077029c](https://github.com/catppuccin/vscode-icons/commit/077029c))
+- Moonrepo + prototools icons ([03d8869](https://github.com/catppuccin/vscode-icons/commit/03d8869))
+- Squirrel icon ([e692c03](https://github.com/catppuccin/vscode-icons/commit/e692c03))
+- Scheme icon ([c70a08a](https://github.com/catppuccin/vscode-icons/commit/c70a08a))
+- Matlab extension association ([b39d0a9](https://github.com/catppuccin/vscode-icons/commit/b39d0a9))
+- Nest-gateway icon (requires custom association) ([8c85c14](https://github.com/catppuccin/vscode-icons/commit/8c85c14))
+- Odin icon ([9ba1176](https://github.com/catppuccin/vscode-icons/commit/9ba1176))
+- **associations:** More variants for `env` ([#511](https://github.com/catppuccin/vscode-icons/pull/511))
+
+### 🩹 Fixes
+
+- Luarocks & swiftformat associations ([b3b2c09](https://github.com/catppuccin/vscode-icons/commit/b3b2c09))
+- **associations:** Sync `prettier` filenames to `prettier` docs ([#490](https://github.com/catppuccin/vscode-icons/pull/490))
+- **associations:** Add missing extensions to `ms-word` & `ms-excel` ([#522](https://github.com/catppuccin/vscode-icons/pull/522))
+
+### 🏡 Chore
+
+- Upgrade dependencies ([#519](https://github.com/catppuccin/vscode-icons/pull/519))
+- Re-generate previews ([#520](https://github.com/catppuccin/vscode-icons/pull/520))
+
+### ❤️ Contributors
+
+- Hammy ([@sgoudham](https://github.com/sgoudham))
+- Karthickpranav S N ([@jassuwu](https://github.com/jassuwu))
+- Lzyoo ([@lppoi](https://github.com/lppoi))
+- Praz <hi@praz.dev>
+- Muntasir Mahmud ([@MuntasirSZN](https://github.com/MuntasirSZN))
+
 ## v1.21.0
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.20.0...v1.21.0)
