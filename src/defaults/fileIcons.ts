@@ -1982,6 +1982,10 @@ const fileIcons: FileIcons = {
       '.pug-lintrc.json',
     ],
   },
+  'puppet': {
+    languageIds: ['puppet'],
+    fileExtensions: ['pp', 'epp'],
+  },
   'puppeteer': {
     fileNames: [
       '.puppeteerrc.cjs,',
