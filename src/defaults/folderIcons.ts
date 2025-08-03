@@ -428,6 +428,9 @@ const folderIcons: FolderIcons = {
       '.libraries',
     ],
   },
+  'linux': {
+    folderNames: ['linux'],
+  },
   'locales': {
     folderNames: [
       'i18n',
@@ -451,6 +454,9 @@ const folderIcons: FolderIcons = {
   },
   'lune': {
     folderNames: ['lune_packages'],
+  },
+  'macos': {
+    folderNames: ['mac', 'macos'],
   },
   'messages': {
     folderNames: ['message', 'messages'],
@@ -749,6 +755,9 @@ const folderIcons: FolderIcons = {
       '.vscode-test',
     ],
   },
+  'windows': {
+    folderNames: ['windows'],
+  },
   'workflows': {
     folderNames: [
       'workflow',
@@ -767,6 +776,9 @@ const folderIcons: FolderIcons = {
       'xcshareddata',
       'xcschemes',
     ],
+  },
+  'xmake': {
+    folderNames: ['xmake', '.xmake'],
   },
   'yarn': {
     folderNames: ['.yarn'],
