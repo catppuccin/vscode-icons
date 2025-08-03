@@ -724,6 +724,14 @@ const fileIcons: FileIcons = {
       'containerfile.worker',
     ],
   },
+  'docusaurus': {
+    fileNames: [
+      'docusaurus.config.js',
+      'docusaurus.config.mjs',
+      'docusaurus.config.cjs',
+      'docusaurus.config.ts',
+    ],
+  },
   'drawio': {
     fileExtensions: [
       'drawio',
