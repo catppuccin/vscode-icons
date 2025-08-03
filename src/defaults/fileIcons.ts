@@ -250,6 +250,14 @@ const fileIcons: FileIcons = {
       'benchmarks.txt',
     ],
   },
+  'bicep': {
+    languageIds: ['bicep'],
+    fileExtensions: [
+      'bicep',
+      'bicepparam',
+    ],
+    fileNames: ['bicepconfig.json'],
+  },
   'binary': {
     languageIds: ['code-text-binary'],
     fileExtensions: ['bin'],
