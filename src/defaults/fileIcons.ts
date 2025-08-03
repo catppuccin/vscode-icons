@@ -1592,6 +1592,11 @@ const fileIcons: FileIcons = {
       'xlsx',
       'xlsm',
       'xls',
+      'xlsb',
+      'xltx',
+      'xltm',
+      'xlt',
+      'ods',
     ],
   },
   'ms-powerpoint': {
@@ -1612,7 +1617,11 @@ const fileIcons: FileIcons = {
   'ms-word': {
     fileExtensions: [
       'doc',
+      'docm',
       'docx',
+      'dot',
+      'dotm',
+      'dotx',
       'rtf',
       'odt',
     ],
