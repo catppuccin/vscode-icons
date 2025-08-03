@@ -1775,6 +1775,12 @@ const fileIcons: FileIcons = {
       'nuxt.config.ts',
     ],
   },
+  'nx-ignore': {
+    fileNames: ['.nxignore'],
+  },
+  'nx': {
+    fileNames: ['nx.json'],
+  },
   'ocaml': {
     fileExtensions: [
       'ml',
