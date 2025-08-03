@@ -434,6 +434,12 @@ const folderIcons: FolderIcons = {
       '.tx',
     ],
   },
+  'luau': {
+    folderNames: ['luau_packages'],
+  },
+  'lune': {
+    folderNames: ['lune_packages'],
+  },
   'messages': {
     folderNames: ['message', 'messages'],
   },
@@ -543,6 +549,12 @@ const folderIcons: FolderIcons = {
     folderNames: [
       '.renovate',
       'renovate',
+    ],
+  },
+  'roblox': {
+    folderNames: [
+      'roblox_packages',
+      'roblox_server_packages',
     ],
   },
   'routes': {
