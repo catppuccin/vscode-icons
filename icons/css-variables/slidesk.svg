@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+	<ellipse cx="9.785" cy="3.453" fill="none" stroke="var(--vscode-ctp-overlay1)" rx="2.945" ry="2.953" />
+	<ellipse cx="8" cy="10.895" fill="none" stroke="var(--vscode-ctp-overlay1)" rx="7.177" ry="4.605" />
+	<path fill="none" stroke="var(--vscode-ctp-text)" d="m 8,6.2903031 c 3.963546,0 7.176506,2.061909 7.176506,4.6048489 C 15.176506,13.438091 11.963546,15.5 8,15.5 5.257884,15.5 2.875202,14.51348 1.666785,13.06305" />
+	<path fill="none" stroke="var(--vscode-ctp-text)" stroke-linecap="round" d="m 9.310068,6.3677571 c -3.377227,-0.388085 -5.373637,0.732145 -5.549289,1.545821 -0.306577,1.422709 1.525567,1.907816 3.077969,2.4548859 2.154985,0.75905 2.315999,2.166268 1.703658,3.244103 -0.931116,1.63958 -5.341923,1.67953 -7.14967,-0.914774" />
+	<path fill="none" stroke="var(--vscode-ctp-overlay1)" stroke-linecap="round" stroke-linejoin="round" d="M12.730395 3.2402441 13.8152 3.2508732M10.28125 2.96875v0" />
+</svg>

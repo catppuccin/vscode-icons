@@ -2300,6 +2300,10 @@ const fileIcons: FileIcons = {
   'sketch': {
     fileExtensions: ['sketch'],
   },
+  'slidesk': {
+    languageIds: ['sdf'],
+    fileExtensions: ['sdf', 'sdt'],
+  },
   'snowpack': {
     fileNames: [
       'snowpack.config.js',
