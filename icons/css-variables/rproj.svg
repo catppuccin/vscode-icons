@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+	<path fill="none" stroke="var(--vscode-ctp-blue)" stroke-linecap="round" stroke-linejoin="round" stroke-width=".79" d="M 5.651454,10.337038 V 4.8013493 h 2.0598096 c 0.6415801,0 1.3169275,0.6919612 1.3169275,1.3839223 0,0.6919612 -0.6753474,1.3839224 -1.3169275,1.3839224 H 5.651454 Z M 7.6774963,7.569194 c 0.2701389,0 0.5807988,0.2352668 0.6753474,0.4843728 l 0.6753474,2.2834712 h 0.8499926" transform="matrix(1.26652 0 0 1.26466 -1.313 -1.572)" />
+	<circle cx="8" cy="8" r="7.5" fill="none" stroke="var(--vscode-ctp-blue)" stroke-linecap="round" stroke-linejoin="round" />
+	<path fill="none" stroke="var(--vscode-ctp-blue)" stroke-linecap="round" stroke-linejoin="round" d="M6.9575931 11.5H4.8017923M6.7627691 4.5H4.8017923" />
+</svg>
