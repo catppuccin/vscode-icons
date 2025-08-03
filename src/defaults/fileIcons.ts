@@ -106,6 +106,10 @@ const fileIcons: FileIcons = {
       'apple-developer-merchantid-domain-association',
     ],
   },
+  'arduino': {
+    languageIds: ['arduino'],
+    fileExtensions: ['ino'],
+  },
   'asciidoc': {
     fileExtensions: ['adoc', 'asciidoc', 'asc'],
   },
