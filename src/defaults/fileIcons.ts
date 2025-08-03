@@ -326,6 +326,7 @@ const fileIcons: FileIcons = {
       'cert',
       'crt',
       'pfx',
+      'entitlements',
     ],
   },
   'changelog': {
@@ -435,6 +436,10 @@ const fileIcons: FileIcons = {
       'ii',
     ],
   },
+  'crystal': {
+    languageIds: ['crystal', 'ecr'],
+    fileExtensions: ['cr', 'ecr'],
+  },
   'csharp': {
     languageIds: ['csharp'],
     fileExtensions: [
@@ -490,6 +495,10 @@ const fileIcons: FileIcons = {
       'cu',
       'cuh',
     ],
+  },
+  'cue': {
+    languageIds: ['cue'],
+    fileExtensions: ['cue'],
   },
   'cypress': {
     fileNames: [
@@ -773,8 +782,10 @@ const fileIcons: FileIcons = {
       '.env.preview',
       '.env.test',
       '.env.testing',
+      '.env.dev.local',
       '.env.development.local',
       '.env.qa.local',
+      '.env.prod.local',
       '.env.production.local',
       '.env.staging.local',
       '.env.test.local',
@@ -1084,6 +1095,10 @@ const fileIcons: FileIcons = {
       'hardhat.config.js',
       'hardhat.config.ts',
     ],
+  },
+  'hare': {
+    languageIds: ['hare'],
+    fileExtensions: ['ha'],
   },
   'haskell': {
     languageIds: ['haskell'],
@@ -1470,11 +1485,17 @@ const fileIcons: FileIcons = {
       '.lintstagedrc.yaml',
       '.lintstagedrc.yml',
       '.lintstagedrc.mjs',
+      '.lintstagedrc.mts',
       '.lintstagedrc.cjs',
+      '.lintstagedrc.cts',
       '.lintstagedrc.js',
+      '.lintstagedrc.ts',
       'lint-staged.config.js',
+      'lint-staged.config.ts',
       'lint-staged.config.mjs',
+      'lint-staged.config.mts',
       'lint-staged.config.cjs',
+      'lint-staged.config.cts',
     ],
   },
   'liquid': {
@@ -1493,6 +1514,9 @@ const fileIcons: FileIcons = {
   'log': {
     languageIds: ['log'],
     fileExtensions: ['log'],
+  },
+  'lua-rocks': {
+    fileNames: ['.rock', '.rockspec'],
   },
   'lua': {
     languageIds: ['lua'],
@@ -1528,6 +1552,7 @@ const fileIcons: FileIcons = {
   },
   'matlab': {
     languageIds: ['matlab'],
+    fileExtensions: ['m', 'mat'],
   },
   'mdbook': {
     fileNames: ['book.toml'],
@@ -1559,11 +1584,19 @@ const fileIcons: FileIcons = {
       '.modernizrrc.json',
     ],
   },
+  'moonrepo': {
+    fileNames: ['moon.yml', 'moon.yaml'],
+  },
   'ms-excel': {
     fileExtensions: [
       'xlsx',
       'xlsm',
       'xls',
+      'xlsb',
+      'xltx',
+      'xltm',
+      'xlt',
+      'ods',
     ],
   },
   'ms-powerpoint': {
@@ -1584,7 +1617,11 @@ const fileIcons: FileIcons = {
   'ms-word': {
     fileExtensions: [
       'doc',
+      'docm',
       'docx',
+      'dot',
+      'dotm',
+      'dotx',
       'rtf',
       'odt',
     ],
@@ -1704,6 +1741,10 @@ const fileIcons: FileIcons = {
       'mli',
       'cmx',
     ],
+  },
+  'odin': {
+    languageIds: ['odin'],
+    fileExtensions: ['odin'],
   },
   'org': {
     languageIds: ['org'],
@@ -1861,17 +1902,23 @@ const fileIcons: FileIcons = {
   'prettier': {
     fileNames: [
       '.prettierrc',
-      'prettier.config.js',
-      'prettier.config.cjs',
-      '.prettierrc.js',
-      '.prettierrc.cjs',
       '.prettierrc.json',
-      '.prettierrc.json5',
-      '.prettierrc.yaml',
       '.prettierrc.yml',
-      '.prettierrc.toml',
-      'prettier.config.mjs',
+      '.prettierrc.yaml',
+      '.prettierrc.json5',
+      '.prettierrc.js',
+      'prettier.config.js',
+      '.prettierrc.ts',
+      'prettier.config.ts',
       '.prettierrc.mjs',
+      'prettier.config.mjs',
+      '.prettierrc.mts',
+      'prettier.config.mts',
+      '.prettierrc.cjs',
+      'prettier.config.cjs',
+      '.prettierrc.cts',
+      'prettier.config.cts',
+      '.prettierrc.toml',
     ],
   },
   'prisma': {
@@ -1910,6 +1957,9 @@ const fileIcons: FileIcons = {
   'proto': {
     languageIds: ['proto'],
     fileExtensions: ['proto'],
+  },
+  'prototools': {
+    fileNames: ['.prototools'],
   },
   'pug': {
     languageIds: ['jade'],
@@ -2105,6 +2155,9 @@ const fileIcons: FileIcons = {
       'sc',
     ],
   },
+  'scheme': {
+    fileExtensions: ['scm'],
+  },
   'search': {
     languageIds: ['search-result'],
     fileExtensions: ['code-search'],
@@ -2220,6 +2273,10 @@ const fileIcons: FileIcons = {
   'spwn': {
     fileExtensions: ['spwn'],
   },
+  'squirrel': {
+    languageIds: ['squirrel'],
+    fileExtensions: ['nut'],
+  },
   'stackblitz': {
     fileNames: ['.stackblitzrc'],
   },
@@ -2274,14 +2331,20 @@ const fileIcons: FileIcons = {
     fileNames: [
       '.stylelintrc',
       'stylelint.config.js',
+      'stylelint.config.ts',
       'stylelint.config.cjs',
+      'stylelint.config.cts',
       'stylelint.config.mjs',
+      'stylelint.config.mts',
       '.stylelintrc.json',
       '.stylelintrc.yaml',
       '.stylelintrc.yml',
       '.stylelintrc.js',
+      '.stylelintrc.ts',
       '.stylelintrc.cjs',
+      '.stylelintrc.cts',
       '.stylelintrc.mjs',
+      '.stylelintrc.mts',
     ],
   },
   'sublime': {
@@ -2312,6 +2375,9 @@ const fileIcons: FileIcons = {
   'swift': {
     languageIds: ['swift'],
     fileExtensions: ['swift'],
+  },
+  'swiftformat': {
+    fileNames: ['.swiftformat'],
   },
   'tailwind': {
     fileNames: [
@@ -2648,6 +2714,9 @@ const fileIcons: FileIcons = {
   'vue': {
     languageIds: ['vue'],
     fileExtensions: ['vue'],
+  },
+  'wally': {
+    fileNames: ['wally.toml', 'wally.lock'],
   },
   'web-assembly': {
     fileExtensions: [

@@ -73,7 +73,7 @@ try {
 
   const images = await Promise.all(flavorEntries.map(async ([flavor]) => {
     const htmlPath = join(tmp, `${flavor}.html`)
-    const screenshotPath = join(tmp, `${flavor}.png`)
+    const screenshotPath = join(tmp, `${flavor}.png`) as `${string}.png`
     await writeFile(htmlPath, generateHtml(flavor))
     const browser = await launch({
       args: ['--no-sandbox'],

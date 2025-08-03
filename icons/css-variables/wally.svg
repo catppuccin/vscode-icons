@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+	<g fill="none">
+		<g clip-path="url(#a)">
+			<mask id="b" width="14" height="14" x="1" y="1" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+				<circle cx="8" cy="8" r="7" fill="#3700ff" />
+			</mask>
+			<g mask="url(#b)">
+				<path stroke="var(--vscode-ctp-yellow)" stroke-linecap="round" stroke-linejoin="round" d="M5 3c-.5.5-.5 1.5-1.5 2m2 5c-.167-.167-.5-.5-.5 0m0 0c-.5.5-1.5 0-1.5-1m0 0s.5-.2.5-1m-.5-3C2 7.5 4 7.205 4 8m6.295 0C9.5 10 7.5 10.5 5.5 10m6-.5c0 .4.333.833.5 1 .136.136.317.31.515.49C13.047 11.47 14.71 13 15 13m-9 3c-.5 0-.167-2.333 0-3 .333-.833.5-2.5-.5-3" />
+				<mask id="c" width="12" height="8" x="4" y="9" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+					<path fill="#df8e1d" d="M11.562 9.004A.501.501 0 0 1 12 9.5c0 .072.035.19.12.336.08.139.178.255.233.31l.226.22c.084.08.175.165.271.252l.57.517c.233.209.497.442.753.66.256.219.497.415.687.556a2.571 2.571 0 0 0 .24.16.5.5 0 0 1 .058.964l-9 3A.5.5 0 0 1 6 16.5a.67.67 0 0 1-.581-.348 1.29 1.29 0 0 1-.148-.449 4.74 4.74 0 0 1-.02-.984c.043-.694.172-1.474.263-1.84l.022-.064c.141-.354.25-.904.215-1.405-.032-.45-.169-.748-.38-.904l-.095-.059a.5.5 0 0 1 .182-.945l6-.5.104.002Z" />
+				</mask>
+				<g mask="url(#c)">
+					<path stroke="var(--vscode-ctp-maroon)" stroke-linecap="round" stroke-linejoin="round" d="M13 10c-1.5 4-5.5 4.5-8.5 2" />
+				</g>
+				<path stroke="var(--vscode-ctp-yellow)" stroke-linecap="round" stroke-linejoin="round" d="M9.5 2.5c-1.488 0-3.259-.741-4.5.5m7 1c-.167-.333-.6-1-1-1m0 0c-.5 0-1-.5-1.5-.5M12 4c.5.167 1.5.8 1.5 2m0 0c0 1.2-1 2.167-1.5 2.5m0 0c-.167.167-.5.6-.5 1m-2-7c.08.884 1 .5 1 4m0 0a7.05 7.05 0 0 0-.205 1.5m0 0c-.018.962.237 1.823 1.205 1.5" />
+			</g>
+			<circle cx="8" cy="8" r="7.5" stroke="var(--vscode-ctp-maroon)" />
+			<path stroke="var(--vscode-ctp-text)" stroke-linecap="round" stroke-linejoin="round" d="M5.5 4v1m3-.5v1" />
+			<path stroke="var(--vscode-ctp-maroon)" stroke-linecap="round" stroke-linejoin="round" d="M4 7.5c-.5 0-1.388-.606-1-1A1.75 1.75 0 0 1 4.1 6c.8 0 1.333.333 1.5.5-.75.662-1.073.922-1.6 1Z" />
+		</g>
+		<defs>
+			<clipPath id="a">
+				<path fill="#fff" d="M0 0h16v16H0z" />
+			</clipPath>
+		</defs>
+	</g>
+</svg>

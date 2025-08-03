@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+	<path fill="none" stroke="var(--vscode-ctp-text)" stroke-linecap="round" stroke-linejoin="round" d="M4.5 4.5H12c.83 0 1.5.67 1.5 1.5v.5m-7.5 7H2A1.5 1.5 0 01.5 12V3.5a1 1 0 011-1h5a1 1 0 011 1v1" />
+	<path fill="none" stroke="var(--vscode-ctp-mauve)" stroke-linecap="round" stroke-linejoin="round" d="M 12.378267,9.1548344 C 12.044493,9.0421686 11.692355,8.9838882 11.33533,8.984543 c -1.7992174,6.004e-4 -3.257125,1.458243 -3.2586543,3.257423 5.987e-4,1.798876 1.4594369,3.257424 3.2586543,3.258035 1.799218,-0.0012 3.257432,-1.459465 3.258654,-3.258035 3.01e-4,-0.322592 -0.04733,-0.641363 -0.139884,-0.946489" />
+	<circle cx="14.02" cy="9.585" r="1.48" fill="none" stroke="var(--vscode-ctp-lavender)" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

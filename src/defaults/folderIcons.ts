@@ -392,8 +392,14 @@ const folderIcons: FolderIcons = {
       'photographs',
     ],
   },
+  'include': {
+    folderNames: ['include', 'includes'],
+  },
   'intellij': {
     folderNames: ['.idea'],
+  },
+  'javascript': {
+    folderNames: ['js', 'javascript'],
   },
   'kubernetes': {
     folderNames: [
@@ -428,6 +434,9 @@ const folderIcons: FolderIcons = {
       '.tx',
     ],
   },
+  'messages': {
+    folderNames: ['message', 'messages'],
+  },
   'middleware': {
     folderNames: [
       'middleware',
@@ -449,6 +458,9 @@ const folderIcons: FolderIcons = {
       'sketch',
       'sketches',
     ],
+  },
+  'moonrepo': {
+    folderNames: ['.moon'],
   },
   'next': {
     folderNames: ['.next'],
@@ -496,6 +508,9 @@ const folderIcons: FolderIcons = {
   },
   'prisma': {
     folderNames: ['prisma'],
+  },
+  'private': {
+    folderNames: ['private'],
   },
   'public': {
     folderNames: [
@@ -557,6 +572,12 @@ const folderIcons: FolderIcons = {
       'server',
       'servers',
       'backend',
+    ],
+  },
+  'shared': {
+    folderNames: [
+      'share',
+      'shared',
     ],
   },
   'src': {
