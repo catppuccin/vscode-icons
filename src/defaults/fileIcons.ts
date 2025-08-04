@@ -929,6 +929,12 @@ const fileIcons: FileIcons = {
       'mrf',
     ],
   },
+  'foreman': {
+    fileNames: [
+      'foreman.toml',
+      'aftman.toml',
+    ],
+  },
   'fortran': {
     fileExtensions: [
       'f',
