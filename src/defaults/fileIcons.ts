@@ -2184,6 +2184,9 @@ const fileIcons: FileIcons = {
   'rproj': {
     fileExtensions: ['rproj'],
   },
+  'rsml': {
+    fileExtensions: ['rsml'],
+  },
   'ruby-gem-lock': {
     fileNames: ['gemfile.lock'],
   },
