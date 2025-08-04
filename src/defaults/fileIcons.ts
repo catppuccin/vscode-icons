@@ -1568,9 +1568,11 @@ const fileIcons: FileIcons = {
     fileExtensions: ['lua'],
     fileNames: ['.luacheckrc'],
   },
+  'luau-config': {
+    fileNames: ['.luaurc'],
+  },
   'luau': {
     fileExtensions: ['luau'],
-    fileNames: ['.luaurc'],
   },
   'macos': {
     fileNames: ['.ds_store'],
