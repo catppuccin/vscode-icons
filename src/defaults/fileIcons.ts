@@ -275,6 +275,9 @@ const fileIcons: FileIcons = {
       'bitbucket-pipelines.yml',
     ],
   },
+  'blink': {
+    fileExtensions: ['blink'],
+  },
   'blitz': {
     fileNames: [
       'blitz.config.js',
