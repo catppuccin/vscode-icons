@@ -1569,6 +1569,9 @@ const fileIcons: FileIcons = {
   'lua-rocks': {
     fileNames: ['.rock', '.rockspec'],
   },
+  'lua-test': {
+    fileExtensions: ['spec.lua', 'test.lua'],
+  },
   'lua': {
     languageIds: ['lua'],
     fileExtensions: ['lua'],
@@ -1576,6 +1579,9 @@ const fileIcons: FileIcons = {
   },
   'luau-config': {
     fileNames: ['.luaurc'],
+  },
+  'luau-test': {
+    fileExtensions: ['spec.luau', 'test.luau'],
   },
   'luau': {
     fileExtensions: ['luau'],
