@@ -1619,7 +1619,7 @@ const fileIcons: FileIcons = {
     fileExtensions: ['wrap'],
   },
   'midi': {
-    fileNames: ['mid', 'midi'],
+    fileExtensions: ['mid', 'midi'],
   },
   'mjml': {
     fileExtensions: ['mjml'],
