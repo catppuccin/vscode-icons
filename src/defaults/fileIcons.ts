@@ -1566,6 +1566,9 @@ const fileIcons: FileIcons = {
     languageIds: ['log'],
     fileExtensions: ['log'],
   },
+  'lua-check': {
+    fileNames: ['.luacheckrc'],
+  },
   'lua-rocks': {
     fileNames: ['.rock', '.rockspec'],
   },
@@ -1576,6 +1579,9 @@ const fileIcons: FileIcons = {
     languageIds: ['lua'],
     fileExtensions: ['lua'],
     fileNames: ['.luacheckrc'],
+  },
+  'luau-check': {
+    fileNames: ['selene.toml', 'selene.yml', 'selene.yaml'],
   },
   'luau-config': {
     fileNames: ['.luaurc'],
