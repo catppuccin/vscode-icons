@@ -1569,8 +1569,14 @@ const fileIcons: FileIcons = {
   'lua-check': {
     fileNames: ['.luacheckrc'],
   },
+  'lua-client': {
+    fileExtensions: ['client.lua'],
+  },
   'lua-rocks': {
     fileNames: ['.rock', '.rockspec'],
+  },
+  'lua-server': {
+    fileExtensions: ['server.lua'],
   },
   'lua-test': {
     fileExtensions: ['spec.lua', 'test.lua'],
@@ -1583,8 +1589,14 @@ const fileIcons: FileIcons = {
   'luau-check': {
     fileNames: ['selene.toml', 'selene.yml', 'selene.yaml'],
   },
+  'luau-client': {
+    fileExtensions: ['client.luau'],
+  },
   'luau-config': {
     fileNames: ['.luaurc'],
+  },
+  'luau-server': {
+    fileExtensions: ['server.luau'],
   },
   'luau-test': {
     fileExtensions: ['spec.luau', 'test.luau'],
