@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+	<g fill="none" stroke-linejoin="round">
+		<path stroke="var(--vscode-ctp-overlay1)" stroke-linecap="round" d="m 11.750118,13.500114 a 1,1 0 1 0 0,-2 1,1 0 0 0 0,2 m 1.75,-4.0000001 1.75,3.0000001 -1.75,3 h -3.5 l -1.7500002,-3 1.7500002,-3.0000001 z" />
+		<g stroke-width="1.083" transform="translate(-.635 -.885)scale(.92308)">
+			<path stroke="var(--vscode-ctp-sky)" stroke-linecap="round" d="M 7.7291746,13.401553 1.4999886,11.711155 4.2888449,1.4999889 14.500011,4.2449261 13.215296,9.0833282" />
+			<path stroke="var(--vscode-ctp-text)" d="m 9.1999997,4.9999999 -0.6999999,2.7999999 2.7999992,0.7 0.700001,-2.8 z" />
+		</g>
+	</g>
+</svg>
