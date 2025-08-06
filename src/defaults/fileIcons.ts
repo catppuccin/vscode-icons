@@ -278,6 +278,9 @@ const fileIcons: FileIcons = {
       'bitbucket-pipelines.yml',
     ],
   },
+  'blink': {
+    fileExtensions: ['blink'],
+  },
   'blitz': {
     fileNames: [
       'blitz.config.js',
@@ -929,6 +932,12 @@ const fileIcons: FileIcons = {
       'mrf',
     ],
   },
+  'foreman': {
+    fileNames: [
+      'foreman.toml',
+      'aftman.toml',
+    ],
+  },
   'fortran': {
     fileExtensions: [
       'f',
@@ -1560,17 +1569,43 @@ const fileIcons: FileIcons = {
     languageIds: ['log'],
     fileExtensions: ['log'],
   },
+  'lua-check': {
+    fileNames: ['.luacheckrc'],
+  },
+  'lua-client': {
+    fileExtensions: ['client.lua'],
+  },
   'lua-rocks': {
     fileNames: ['.rock', '.rockspec'],
+  },
+  'lua-server': {
+    fileExtensions: ['server.lua'],
+  },
+  'lua-test': {
+    fileExtensions: ['spec.lua', 'test.lua'],
   },
   'lua': {
     languageIds: ['lua'],
     fileExtensions: ['lua'],
     fileNames: ['.luacheckrc'],
   },
+  'luau-check': {
+    fileNames: ['selene.toml', 'selene.yml', 'selene.yaml'],
+  },
+  'luau-client': {
+    fileExtensions: ['client.luau'],
+  },
+  'luau-config': {
+    fileNames: ['.luaurc'],
+  },
+  'luau-server': {
+    fileExtensions: ['server.luau'],
+  },
+  'luau-test': {
+    fileExtensions: ['spec.luau', 'test.luau'],
+  },
   'luau': {
     fileExtensions: ['luau'],
-    fileNames: ['.luaurc'],
   },
   'macos': {
     fileNames: ['.ds_store'],
@@ -2189,6 +2224,9 @@ const fileIcons: FileIcons = {
   },
   'rproj': {
     fileExtensions: ['rproj'],
+  },
+  'rsml': {
+    fileExtensions: ['rsml'],
   },
   'ruby-gem-lock': {
     fileNames: ['gemfile.lock'],
