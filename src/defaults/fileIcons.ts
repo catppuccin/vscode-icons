@@ -1638,6 +1638,9 @@ const fileIcons: FileIcons = {
   'moonrepo': {
     fileNames: ['moon.yml', 'moon.yaml'],
   },
+  'moonwave': {
+    fileNames: ['moonwave.toml'],
+  },
   'ms-excel': {
     fileExtensions: [
       'xlsx',
