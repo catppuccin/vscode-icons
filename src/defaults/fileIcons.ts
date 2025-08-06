@@ -11,6 +11,9 @@ type FileIcons = Record<string, {
 
 // @keep-sorted
 const fileIcons: FileIcons = {
+  '3d': {
+    fileExtensions: ['fbx', 'glb', 'gltf', 'ma', 'mb', 'obj', 'prc', 'stl', 'u3d', 'usd'],
+  },
   'adobe-ae': {
     fileExtensions: ['aep'],
   },
