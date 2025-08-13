@@ -2118,10 +2118,8 @@ const fileIcons: FileIcons = {
       'r',
       'rsweave',
     ],
-    fileExtensions: [
-      'r',
-    ],
-    fileNames: ['.rhistory'],
+    fileExtensions: ['R', 'r'],
+    fileNames: ['.Rhistory'],
   },
   'racket': {
     fileExtensions: ['rkt'],
@@ -2137,7 +2135,7 @@ const fileIcons: FileIcons = {
     ],
   },
   'rdata': {
-    fileExtensions: ['rdata'],
+    fileExtensions: ['RData'],
   },
   'readme': {
     fileNames: [
@@ -2183,7 +2181,7 @@ const fileIcons: FileIcons = {
     fileExtensions: ['res'],
   },
   'rmd': {
-    fileExtensions: ['rmd'],
+    fileExtensions: ['Rmd'],
   },
   'roblox': {
     fileExtensions: ['rbxl', 'rbxlx', 'rbxm', 'rbxmx'],
@@ -2223,7 +2221,7 @@ const fileIcons: FileIcons = {
     ],
   },
   'rproj': {
-    fileExtensions: ['rproj'],
+    fileExtensions: ['Rproj'],
   },
   'rsml': {
     fileExtensions: ['rsml'],
