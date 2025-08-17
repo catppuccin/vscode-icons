@@ -1,5 +1,31 @@
 # Changelog
 
+## v1.24.0
+
+[compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.23.0...v1.24.0)
+
+### 🚀 Enhancements
+
+- 3d icons ([#538](https://github.com/catppuccin/vscode-icons/pull/538))
+- Add qwik and moonwave icons ([#536](https://github.com/catppuccin/vscode-icons/pull/536))
+- Roblox/luau toolchain icons ([#543](https://github.com/catppuccin/vscode-icons/pull/543))
+
+### 🩹 Fixes
+
+- **associations:** Set file extensions for `midi` ([#539](https://github.com/catppuccin/vscode-icons/pull/539))
+- **icons:** Buggy optimisation of `stylua` ([#557](https://github.com/catppuccin/vscode-icons/pull/557))
+
+### 🏡 Chore
+
+- Optimise icons ([#559](https://github.com/catppuccin/vscode-icons/pull/559))
+- Re-generate previews ([#545](https://github.com/catppuccin/vscode-icons/pull/545))
+
+### ❤️ Contributors
+
+- Hammy ([@sgoudham](https://github.com/sgoudham))
+- HuCares_ ([@lrockreal](https://github.com/lrockreal))
+- _eyewave ([@eye-wave](https://github.com/eye-wave))
+
 ## v1.23.0
 
 [compare changes](https://github.com/catppuccin/vscode-icons/compare/v1.22.0...v1.23.0)
