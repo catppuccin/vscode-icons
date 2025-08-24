@@ -2027,7 +2027,15 @@ const fileIcons: FileIcons = {
     ],
   },
   'prisma': {
-    fileNames: ['prisma.yml'],
+    fileNames: [
+      'prisma.config.ts',
+      'prisma.config.js',
+      'prisma.config.cts',
+      'prisma.config.cjs',
+      'prisma.config.mts',
+      'prisma.config.mjs',
+      'prisma.yml',
+    ],
     fileExtensions: ['prisma'],
   },
   'prolog': {
