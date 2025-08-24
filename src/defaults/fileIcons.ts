@@ -2034,7 +2034,7 @@ const fileIcons: FileIcons = {
       'prisma.config.cjs',
       'prisma.config.mts',
       'prisma.config.mjs',
-      'prisma.yml'
+      'prisma.yml',
     ],
     fileExtensions: ['prisma'],
   },
