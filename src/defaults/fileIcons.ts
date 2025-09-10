@@ -545,7 +545,9 @@ const fileIcons: FileIcons = {
   },
   'dart-generated': {
     fileExtensions: [
+      'config.dart',
       'freezed.dart',
+      'gr.dart',
       'g.dart',
     ],
   },
