@@ -1453,6 +1453,18 @@ const fileIcons: FileIcons = {
     ],
     fileNames: ['.htpasswd'],
   },
+  'knip': {
+    fileNames: [
+      'knip.json',
+      'knip.jsonc',
+      '.knip.jsonc',
+      '.knip.jsonc',
+      'knip.ts',
+      'knip.js',
+      'knip.config.ts',
+      'knip.config.js',
+    ],
+  },
   'kotlin': {
     fileExtensions: [
       'kt',
