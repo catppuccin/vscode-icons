@@ -1065,6 +1065,7 @@ const fileIcons: FileIcons = {
       'gdshader',
       'gdshaderinc',
       'gdextension',
+      'gd.uid',
     ],
     fileNames: [
       '.gdignore',
