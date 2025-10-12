@@ -2352,6 +2352,7 @@ const fileIcons: FileIcons = {
       'hlsl',
       'glsl',
       'wgsl',
+      'slang',
     ],
     fileExtensions: [
       'glsl',
@@ -2390,6 +2391,7 @@ const fileIcons: FileIcons = {
       'comp.hlsl',
       'tess.hlsl',
       'wgsl',
+      'slang',
     ],
   },
   'sketch': {
