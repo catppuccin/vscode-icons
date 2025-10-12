@@ -132,23 +132,23 @@
   },
   "devDependencies": {
     "@actions/core": "^1.11.1",
-    "@antfu/eslint-config": "^5.2.1",
+    "@antfu/eslint-config": "^5.4.1",
     "@catppuccin/palette": "^1.7.1",
-    "@iconify/tools": "^4.1.2",
-    "@types/node": "^24.3.0",
+    "@iconify/tools": "^4.1.4",
+    "@types/node": "^24.7.2",
     "@types/vscode": "1.83.0",
-    "@vscode/vsce": "^3.6.0",
+    "@vscode/vsce": "^3.6.2",
     "changelogen": "^0.6.2",
     "consola": "^3.4.2",
     "defu": "^6.1.4",
-    "eslint": "^9.33.0",
-    "lint-staged": "^16.1.5",
+    "eslint": "^9.37.0",
+    "lint-staged": "^16.2.4",
     "lookpath": "^1.2.3",
-    "puppeteer": "^24.16.2",
+    "puppeteer": "^24.24.0",
     "simple-git-hooks": "^2.13.1",
     "tsup": "^8.5.0",
-    "tsx": "^4.20.4",
-    "typescript": "^5.9.2"
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"

@@ -545,7 +545,9 @@ const fileIcons: FileIcons = {
   },
   'dart-generated': {
     fileExtensions: [
+      'config.dart',
       'freezed.dart',
+      'gr.dart',
       'g.dart',
     ],
   },
@@ -1063,6 +1065,7 @@ const fileIcons: FileIcons = {
       'gdshader',
       'gdshaderinc',
       'gdextension',
+      'gd.uid',
     ],
     fileNames: [
       '.gdignore',
@@ -1226,7 +1229,6 @@ const fileIcons: FileIcons = {
       'ico',
       'tif',
       'tiff',
-      'psd',
       'psb',
       'ami',
       'apx',
