@@ -1229,7 +1229,6 @@ const fileIcons: FileIcons = {
       'ico',
       'tif',
       'tiff',
-      'psd',
       'psb',
       'ami',
       'apx',
