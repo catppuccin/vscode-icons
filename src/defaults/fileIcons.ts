@@ -2395,6 +2395,10 @@ const fileIcons: FileIcons = {
   'sketch': {
     fileExtensions: ['sketch'],
   },
+  'slang': {
+    languageIds: ['slang'],
+    fileExtensions: ['slang'],
+  },
   'slidesk': {
     languageIds: ['sdf'],
     fileExtensions: ['sdf', 'sdt'],
