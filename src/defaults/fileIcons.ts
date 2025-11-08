@@ -2798,10 +2798,20 @@ const fileIcons: FileIcons = {
       'viminfo',
     ],
   },
+  'visual-basic': {
+    languageIds: ['vb', 'vbnet', 'vbscript'],
+    fileExtensions: [
+      'vb', 
+      'vbs', 
+      'vbp',
+      'vbg',
+      'frm',
+      'frx',
+    ],
+  },
   'visual-studio': {
     languageIds: [
-      'testOutput',
-      'vb',
+      'testOutput'
     ],
     fileExtensions: [
       'csproj',
@@ -2815,8 +2825,6 @@ const fileIcons: FileIcons = {
       'slnf',
       'slnx',
       'suo',
-      'vb',
-      'vbs',
       'vcxitems',
       'vcxitems.filters',
       'vcxproj',
