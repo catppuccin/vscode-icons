@@ -1405,6 +1405,7 @@ const fileIcons: FileIcons = {
       'ndjson',
       'hjson',
       'webmanifest',
+      'avsc'
     ],
     fileNames: [
       '.jscsrc',
@@ -1415,6 +1416,7 @@ const fileIcons: FileIcons = {
       'cdp.pid',
       '.lintstagedrc',
       '.whitesource',
+      '.avsc'
     ],
   },
   'juce': {
