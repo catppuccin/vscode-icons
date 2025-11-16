@@ -317,6 +317,9 @@ const fileIcons: FileIcons = {
       'mi',
     ],
   },
+  'c3': {
+    fileExtensions: ['*.c3'],
+  },
   'cabal': {
     fileExtensions: ['cabal'],
     fileNames: ['cabal.project'],
@@ -1855,6 +1858,28 @@ const fileIcons: FileIcons = {
     languageIds: ['odin'],
     fileExtensions: ['odin'],
   },
+  'open-telemetry': {
+    fileNames: [
+      'otel-config.yaml',
+      'otel-collector-config.yaml',
+      'otel-collector.config.yaml',
+      'open-telemetry-config.yaml',
+      'open-telemetry-collector-config.yaml',
+      'open-telemetry-collector.config.yaml',
+      'opentelemetry-config.yaml',
+      'open-telemetry-collector-config.yaml',
+      'open-telemetry-collector.config.yaml',
+      'otel-config.yml',
+      'otel-collector-config.yml',
+      'otel-collector.config.yml',
+      'open-telemetry-config.yml',
+      'open-telemetry-collector-config.yml',
+      'open-telemetry-collector.config.yml',
+      'opentelemetry-config.yml',
+      'open-telemetry-collector-config.yml',
+      'open-telemetry-collector.config.yml',
+    ],
+  },
   'opentofu': {
     languageIds: ['opentofu'],
     fileExtensions: ['tofu', 'tofu.json'],
@@ -3099,6 +3124,9 @@ const fileIcons: FileIcons = {
       'wrangler.json',
       'wrangler.jsonc',
     ],
+  },
+  'wren': {
+    fileExtensions: ['*.wren'],
   },
   'wxt': {
     fileNames: [
