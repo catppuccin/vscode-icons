@@ -799,6 +799,9 @@ const fileIcons: FileIcons = {
       'ember-cli-builds.js',
     ],
   },
+  'emoji': {
+    fileExtensions: ['emojic'],
+  },
   'env': {
     fileExtensions: ['env'],
     fileNames: [
@@ -1417,6 +1420,9 @@ const fileIcons: FileIcons = {
       '.whitesource',
     ],
   },
+  'jsr': {
+    fileNames: ['jsr.json'],
+  },
   'juce': {
     fileExtensions: ['jucer'],
   },
@@ -1654,6 +1660,9 @@ const fileIcons: FileIcons = {
     languageIds: ['matlab'],
     fileExtensions: ['m', 'mat'],
   },
+  'maya': {
+    fileExtensions: ['ma', 'mel'],
+  },
   'mdbook': {
     fileNames: ['book.toml'],
   },
@@ -1855,6 +1864,9 @@ const fileIcons: FileIcons = {
     languageIds: ['odin'],
     fileExtensions: ['odin'],
   },
+  'opa': {
+    fileExtensions: ['rego'],
+  },
   'opentofu': {
     languageIds: ['opentofu'],
     fileExtensions: ['tofu', 'tofu.json'],
@@ -1862,6 +1874,9 @@ const fileIcons: FileIcons = {
   'org': {
     languageIds: ['org'],
     fileExtensions: ['org'],
+  },
+  'oxc': {
+    fileNames: ['oxlintrc.json'],
   },
   'package-json': {
     fileNames: [
