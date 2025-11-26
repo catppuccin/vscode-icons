@@ -16,7 +16,7 @@ try {
   let generated = 0
   for (const origin of folders) {
     const originPath = resolve('icons', origin)
-    const originSvgs = await readdir(originPath)
+    const originSvgs = (await readdir(originPath)).filter(f => f.endsWith('.svg'))
 
     for (const dest of folders.filter(f => f !== origin)) {
       const destPath = resolve('icons', dest)
