@@ -245,7 +245,7 @@ const fileIcons: FileIcons = {
   },
   'bazel': {
     fileExtensions: ['bzl', 'bazel'],
-    fileNames: ['.bazelrc'],
+    fileNames: ['BUILD', 'WORKSPACE', '.bazelrc'],
   },
   'benchmark': {
     fileNames: [
