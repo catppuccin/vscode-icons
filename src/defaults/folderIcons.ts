@@ -50,6 +50,11 @@ const folderIcons: FolderIcons = {
       'assets',
     ],
   },
+  'astro': {
+    folderNames: [
+      '.astro',
+    ],
+  },
   'audio': {
     folderNames: [
       'aud',
@@ -651,6 +656,11 @@ const folderIcons: FolderIcons = {
       'stylesheets',
       'style',
       'styles',
+    ],
+  },
+  'svelte': {
+    folderNames: [
+      '.svelte-kit',
     ],
   },
   'svg': {
