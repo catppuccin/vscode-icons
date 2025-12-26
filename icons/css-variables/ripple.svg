@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16" width="16" height="16">
+	<circle cx="8.2" cy="8.6" r=".5" stroke="var(--vscode-ctp-blue)" stroke-linecap="round" />
+	<path stroke="var(--vscode-ctp-blue)" stroke-linecap="round" d="M5.8 10.2q-.6-.8-.6-1.7a2.9 2.9 0 0 1 4.6-2.3" />
+	<circle cx="8.2" cy="8.6" r="5.3" stroke="var(--vscode-ctp-blue)" stroke-linecap="round" />
+	<path stroke="var(--vscode-ctp-blue)" stroke-linecap="round" d="M11.6 15q3-1.6 3.8-5m-3.5-8Q10.2 1 8 1a7.5 7.5 0 0 0-6.4 11.3" />
+</svg>
