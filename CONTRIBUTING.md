@@ -68,7 +68,7 @@ Given any Catppuccin flavours, only `accent` (`rosewater`, `flamingo`, `pink`, `
 
 - `accent` colors are used like any color, to match a logo for instance.
 - `overlay1` is used to represent gray.
-- `test` is used as the default (black or white) color. It is also the folder color.
+- `text` is used as the default (black or white) color. It is also the folder color.
 
 ### Compound icons
 
@@ -94,7 +94,7 @@ _Make sure to run `pnpm install` to ensure dependencies are installed and up to 
     - `src/defaults/fileIcons.ts` for files.
     - `src/defaults/folderIcons.ts` for folders.
 
-4. Run `pnpm icons -a` to optimize the SVGs, generate other flavors and generate previews. You can also proceed step by step (run `pnpm icons --help` for more info).
+4. Run `pnpm icons` to optimize the SVGs, generate other flavors and generate previews. You can also proceed step by step (run `pnpm run` to list available scripts).
 
 ### Running the extension locally
 
