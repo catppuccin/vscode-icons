@@ -361,6 +361,12 @@ const fileIcons: FileIcons = {
   'circle-ci': {
     fileNames: ['circle.yml'],
   },
+  'clangd': {
+    fileExtensions: ['clangd'],
+  },
+  'claude': {
+    fileNames: ['claude.md'],
+  },
   'clojure': {
     languageIds: ['clojure'],
     fileExtensions: [
@@ -984,6 +990,9 @@ const fileIcons: FileIcons = {
       'release-please-config.json',
       '.release-please-manifest.json',
     ],
+  },
+  'gemini': {
+    fileNames: ['gemini.md'],
   },
   'git-cliff': {
     fileNames: ['cliff.toml'],
@@ -2135,6 +2144,10 @@ const fileIcons: FileIcons = {
     languageIds: ['python'],
     fileExtensions: ['py'],
   },
+  'qt': {
+    fileExtensions: ['qml'],
+    languageIds: ['qml'],
+  },
   'r': {
     languageIds: [
       'r',
@@ -2160,6 +2173,9 @@ const fileIcons: FileIcons = {
   },
   'rdata': {
     fileExtensions: ['rdata'],
+  },
+  'react-router': {
+    fileNames: ['react-router.config.ts'],
   },
   'readme': {
     fileNames: [
@@ -2218,6 +2234,16 @@ const fileIcons: FileIcons = {
   },
   'rokit': {
     fileNames: ['rokit.toml'],
+  },
+  'rolldown': {
+    fileNames: [
+      'rolldown.config.js',
+      'rolldown.config.mjs',
+      'rolldown.config.cjs',
+      'rolldown.config.ts',
+      'rolldown.config.cts',
+      'rolldown.config.mts',
+    ],
   },
   'rollup': {
     fileNames: [
@@ -2657,6 +2683,7 @@ const fileIcons: FileIcons = {
       'd.mts',
     ],
   },
+
   'typescript-react': {
     languageIds: ['typescriptreact'],
     fileExtensions: ['tsx'],

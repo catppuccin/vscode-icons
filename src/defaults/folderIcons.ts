@@ -107,6 +107,9 @@ const folderIcons: FolderIcons = {
   'circle-ci': {
     folderNames: ['.circleci'],
   },
+  'claude': {
+    folderNames: ['.claude'],
+  },
   'client': {
     folderNames: [
       'client',
@@ -331,6 +334,9 @@ const folderIcons: FolderIcons = {
   },
   'fvm': {
     folderNames: ['.fvm'],
+  },
+  'gemini': {
+    folderNames: ['.gemini'],
   },
   'git': {
     folderNames: [
