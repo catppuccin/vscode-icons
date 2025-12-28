@@ -495,6 +495,9 @@ const folderIcons: FolderIcons = {
   'next': {
     folderNames: ['.next'],
   },
+  'nginx': {
+    folderNames: ['nginx'],
+  },
   'nix': {
     folderNames: ['nix'],
   },
