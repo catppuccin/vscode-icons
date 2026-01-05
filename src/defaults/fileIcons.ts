@@ -223,6 +223,7 @@ const fileIcons: FileIcons = {
       'pre-commit',
       'prepare-commit-message',
       'commit-msg',
+      'dot_zshrc',
       'post-commit',
       'pre-rebase',
       'post-checkout',
@@ -1014,6 +1015,9 @@ const fileIcons: FileIcons = {
       '.git-blame-ignore',
       '.git-blame-ignore-revs',
       '.git-for-windows-updater',
+      'dot_gitignore-global',
+      'dot_gitignore_global',
+      'dot_gitconfig',
       'git-history',
     ],
   },
@@ -2797,6 +2801,7 @@ const fileIcons: FileIcons = {
       'vim',
       'viminfo',
     ],
+    fileNames: ['dot_vimrc'],
   },
   'visual-studio': {
     languageIds: [
