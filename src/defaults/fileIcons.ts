@@ -2588,6 +2588,9 @@ const fileIcons: FileIcons = {
     languageIds: ['plaintext'],
     fileExtensions: ['txt'],
   },
+  'tilt': {
+    fileNames: ['tiltfile'],
+  },
   'todo': {
     fileExtensions: ['todo'],
     fileNames: [
