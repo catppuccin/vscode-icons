@@ -1687,6 +1687,9 @@ const fileIcons: FileIcons = {
   'moonrepo': {
     fileNames: ['moon.yml', 'moon.yaml'],
   },
+  'moonscript': {
+    fileExtensions: ['moon'],
+  },
   'moonwave': {
     fileNames: ['moonwave.toml'],
   },
