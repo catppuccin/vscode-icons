@@ -1811,7 +1811,7 @@ const fileIcons: FileIcons = {
     fileNames: ['package-lock.json'],
   },
   'npm': {
-    fileNames: ['.npmrc'],
+    fileNames: ['.npmrc', '.npmrc-publish'],
   },
   'nuget': {
     fileNames: [
