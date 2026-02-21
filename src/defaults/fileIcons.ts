@@ -3166,6 +3166,9 @@ const fileIcons: FileIcons = {
       'yarn.config.cjs',
     ],
   },
+  'yuescript': {
+    fileExtensions: ['yue'],
+  },
   'zap': {
     fileExtensions: ['zap'],
   },

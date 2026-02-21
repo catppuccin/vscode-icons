@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+	<path fill="none" stroke="var(--vscode-ctp-yellow)" stroke-linecap="round" d="M7 .5C3.25 1-1.75 5.25 1.5 11.75" />
+	<path fill-opacity=".03" stroke="var(--vscode-ctp-yellow)" stroke-linecap="round" d="M8.5.5C12 .75 15.25 3.5 15.5 7.75 15.5 9 15 15 8 15.5 5.5 15.25 4 14.75 2.25 12.75" />
+	<path fill="none" stroke="var(--vscode-ctp-yellow)" d="M2.25 12.75Q12.5 12.5 8.5.5" />
+	<path stroke="var(--vscode-ctp-yellow)" stroke-linecap="round" d="M9.25 9.25 13.75 9.25" />
+	<path fill="none" stroke="var(--vscode-ctp-yellow)" stroke-linecap="round" d="M14.5 4.75l-8.5 0c-1.5 0-1.5 2.25 0 2.25 1.25 0 1.5 2.25 0 2.25l-5 0" />
+</svg>
