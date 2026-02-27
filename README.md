@@ -83,6 +83,9 @@ To see all available options, open your settings UI and look for `Extensions > C
 > [!IMPORTANT]
 > Changing settings regenerates/rewrites theme files and icons. It may take some time on lower-end computers. You may also be prompted to reload the window for changes to take effect.
 
+> [!WARNING]
+> Glob patterns (i.e `add-*.ts`, `generator.*`, ...) are unfortunatly not supported (see [`#513`](https://github.com/catppuccin/vscode-icons/issues/513)) due to a VSCode limitation. You will have to use the exact file name for each file (i.e `add-number.ts`, `add-string.ts`, `add-boolean.ts`, ...).
+
 ### Custom icon associations
 
 You can also associate specific `languagesIds`/`fileExtensions`/`fileNames`/`folderNames` to icons and override the provided defaults.
