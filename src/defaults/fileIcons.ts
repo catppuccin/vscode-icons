@@ -1866,6 +1866,8 @@ const fileIcons: FileIcons = {
   'package-json': {
     fileNames: [
       'package.json',
+      'package.json5',
+      'package.yaml',
       '.nvmrc',
       '.esmrc',
       '.node-version',
