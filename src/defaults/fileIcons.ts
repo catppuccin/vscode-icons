@@ -981,8 +981,9 @@ const fileIcons: FileIcons = {
   },
   'gcp': {
     fileNames: [
-      'release-please-config.json',
+      '.gcloudignore',
       '.release-please-manifest.json',
+      'release-please-config.json',
     ],
   },
   'git-cliff': {
