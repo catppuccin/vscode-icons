@@ -1863,6 +1863,15 @@ const fileIcons: FileIcons = {
     languageIds: ['org'],
     fileExtensions: ['org'],
   },
+  'oxfmt': {
+    fileNames: [
+      '.oxfmtrc.json',
+      '.oxfmtrc.jsonc',
+      '.oxlintrc.json',
+      'oxfmt.config.ts',
+      'oxlint.config.ts',
+    ],
+  },
   'package-json': {
     fileNames: [
       'package.json',
