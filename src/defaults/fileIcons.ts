@@ -2206,7 +2206,7 @@ const fileIcons: FileIcons = {
   },
   'ripple': {
     languageIds: ['ripple'],
-    fileExtensions: ['ripple', 'tsrx'],
+    fileExtensions: ['tsrx'],
   },
   'rmd': {
     fileExtensions: ['rmd'],
