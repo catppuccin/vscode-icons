@@ -2204,6 +2204,10 @@ const fileIcons: FileIcons = {
     languageIds: ['rescript'],
     fileExtensions: ['res'],
   },
+  'ripple': {
+    languageIds: ['ripple'],
+    fileExtensions: ['ripple', 'tsrx'],
+  },
   'rmd': {
     fileExtensions: ['rmd'],
   },
