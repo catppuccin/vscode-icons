@@ -1478,6 +1478,14 @@ const fileIcons: FileIcons = {
     ],
     fileNames: ['artisan'],
   },
+  'lean': {
+    languageIds: [
+      'lean',
+      'lean4',
+    ],
+    fileExtensions: ['lean'],
+    fileNames: ['lean-toolchain'],
+  },
   'latex': {
     languageIds: [
       'tex',
