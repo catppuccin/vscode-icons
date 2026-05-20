@@ -270,7 +270,7 @@ const fileIcons: FileIcons = {
     fileExtensions: ['bin'],
   },
   'biome': {
-    fileNames: ['biome.json', 'biome.jsonc'],
+    fileNames: ['biome.json', 'biome.jsonc', '.biome.json', '.biome.jsonc'],
   },
   'bitbucket': {
     fileNames: [
