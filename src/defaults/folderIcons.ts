@@ -182,6 +182,9 @@ const folderIcons: FolderIcons = {
       'contents',
     ],
   },
+  'convex': {
+    folderNames: ['convex'],
+  },
   'controllers': {
     folderNames: [
       'controller',
