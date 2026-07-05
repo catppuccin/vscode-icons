@@ -1014,6 +1014,7 @@ const fileIcons: FileIcons = {
       '.git-blame-ignore',
       '.git-blame-ignore-revs',
       '.git-for-windows-updater',
+      '.mailmap',
       'git-history',
     ],
   },
