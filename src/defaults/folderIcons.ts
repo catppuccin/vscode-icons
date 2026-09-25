@@ -407,6 +407,9 @@ const folderIcons: FolderIcons = {
   'javascript': {
     folderNames: ['js', 'javascript'],
   },
+  'kadence': {
+    folderNames: ['.kadence'],
+  },
   'kubernetes': {
     folderNames: [
       'kubernetes',
