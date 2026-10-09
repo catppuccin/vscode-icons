@@ -1808,7 +1808,7 @@ const fileIcons: FileIcons = {
     fileNames: ['.npmignore'],
   },
   'npm-lock': {
-    fileNames: ['package-lock.json'],
+    fileNames: ['package-lock.json', 'nub.lock'],
   },
   'npm': {
     fileNames: ['.npmrc'],
