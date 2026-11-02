@@ -2195,9 +2195,12 @@ const fileIcons: FileIcons = {
     fileNames: [
       '.renovaterc',
       '.renovaterc.json',
+      '.renovaterc.json5',
+      '.renovaterc.jsonc',
       'renovate-config.json',
       'renovate.json',
       'renovate.json5',
+      'renovate.jsonc',
     ],
   },
   'rescript': {
