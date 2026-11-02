@@ -3170,7 +3170,7 @@ const fileIcons: FileIcons = {
     fileExtensions: ['zap'],
   },
   'zig': {
-    fileExtensions: ['zig'],
+    fileExtensions: ['zig', 'zon'],
   },
   'zip': {
     fileExtensions: [
