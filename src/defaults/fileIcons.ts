@@ -300,6 +300,14 @@ const fileIcons: FileIcons = {
       '.browserslistrc',
     ],
   },
+  'buf': {
+    fileNames: [
+      'buf.yaml',
+      'buf.gen.yaml',
+      'buf.work.yaml',
+      'buf.lock',
+    ],
+  },
   'bun-lock': {
     fileNames: ['bun.lock', 'bun.lockb'],
   },
